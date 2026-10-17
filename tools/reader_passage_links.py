@@ -898,7 +898,24 @@ def classify_source(
     fragment_tied = bool(path) and any(hit_matches_passage_path(h, path) for h in footnote_hits)
     audit.fragment_tied_hit = fragment_tied
 
-    if path and pv and pv.fragment_check_skipped and pv.is_structurally_valid:
+    # Structural defects always win — skipping fragment checks must not mask them.
+    if path and pv and not pv.is_structurally_valid:
+        audit.status = "invalid_passage_link"
+        audit.notes.extend(pv.issues)
+        if has_footnote:
+            audit.evidence_level = "B"
+            audit.candidate_path = candidate_path_from_footnote(ranked_hits[0])
+            audit.recommended_action = "fix_reader_passage_path"
+        elif has_prose:
+            audit.evidence_level = "C"
+            audit.recommended_action = "editorial_review_prose_hit"
+        elif has_biblio:
+            audit.evidence_level = "D"
+            audit.recommended_action = "do_not_fabricate_citation"
+        else:
+            audit.evidence_level = "E"
+            audit.recommended_action = "remove_or_fix_path"
+    elif path and pv and pv.fragment_check_skipped and pv.is_structurally_valid:
         # Structural path ok but fragment not verified — never inflate to A.
         audit.status = "passage_link_unverified_fragment"
         audit.notes.append("fragment_check_skipped")
@@ -920,19 +937,20 @@ def classify_source(
             audit.evidence_level = "E"
             audit.recommended_action = "remove_or_fix_path"
     elif path and pv and pv.is_fully_valid and fragment_tied:
-        # Level A only when the authored fragment is the matched citation.
+        # Level A = verified public path + mechanically tied citation fragment.
+        # This is not an editorial attestation — enrichment still needs review.
         tied = next(h for h in footnote_hits if hit_matches_passage_path(h, path))
-        if tied.needs_editorial_review:
+        if tied.shared_with or tied.ambiguous:
             audit.evidence_level = "B"
             audit.status = "path_valid_shared_or_ambiguous_citation"
-            audit.notes.append("fragment_tied_but_needs_editorial_review")
+            audit.notes.append("fragment_tied_but_shared_or_ambiguous")
             if tied.shared_with:
                 audit.notes.append(f"shared_footnote_with:{','.join(tied.shared_with)}")
             audit.recommended_action = "editorial_confirm_passage_relevance"
             audit.candidate_path = path
         else:
             audit.evidence_level = "A"
-            audit.status = "verified_passage"
+            audit.status = "verified_link_tied_citation"
             audit.recommended_action = "none"
             if not audit.why_this_matters_ok:
                 audit.notes.append("missing_or_weak_whyThisMatters")
@@ -948,7 +966,8 @@ def classify_source(
             audit.evidence_level = "B"
         elif has_prose:
             audit.candidate_path = prose_hits[0].route_key
-    elif path and pv and not pv.is_fully_valid and not pv.fragment_check_skipped:
+    elif path and pv and not pv.is_fully_valid:
+        # Fragment missing / unvalidated with structure otherwise ok.
         audit.status = "invalid_passage_link"
         audit.notes.extend(pv.issues)
         if has_footnote:
@@ -969,10 +988,10 @@ def classify_source(
         audit.evidence_level = "B"
         audit.status = "strong_candidate"
         audit.candidate_path = candidate_path_from_footnote(hit)
-        audit.recommended_action = "add_reader_passage_path"
-        if hit.needs_editorial_review:
+        # Newly discovered connections always need editorial review.
+        audit.recommended_action = "editorial_review_then_add_path"
+        if hit.shared_with or hit.ambiguous:
             audit.notes.append("shared_or_ambiguous_footnote")
-            audit.recommended_action = "editorial_review_then_add_path"
         if not audit.why_this_matters_ok:
             audit.notes.append("missing_or_weak_whyThisMatters")
     elif has_prose:
@@ -1202,8 +1221,8 @@ def compute_totals(sources: list[SourceAudit], thinkers: list[ThinkerAudit]) -> 
     source_levels = count_levels(sources)
     thinker_levels = count_levels(thinkers)
     with_path = sum(1 for s in sources if s.reader_passage_path)
-    # Editorially verified A (fragment-tied + fully validated).
-    verified_a = sum(1 for s in sources if s.evidence_level == "A")
+    # Level A = verified public path + mechanically tied citation (not editorial approval).
+    tied_a = sum(1 for s in sources if s.evidence_level == "A")
     fully_valid_path = sum(
         1 for s in sources if s.path_validation is not None and s.path_validation.is_fully_valid
     )
@@ -1217,14 +1236,7 @@ def compute_totals(sources: list[SourceAudit], thinkers: list[ThinkerAudit]) -> 
             "path_valid_shared_or_ambiguous_citation",
         }
     )
-    invalid_path = sum(
-        1
-        for s in sources
-        if s.reader_passage_path
-        and s.path_validation is not None
-        and not s.path_validation.is_fully_valid
-        and not s.path_validation.fragment_check_skipped
-    )
+    invalid_path = sum(1 for s in sources if s.status == "invalid_passage_link")
     missing_path_with_footnote = sum(
         1 for s in sources if not s.reader_passage_path and s.footnote_hits
     )
@@ -1242,7 +1254,7 @@ def compute_totals(sources: list[SourceAudit], thinkers: list[ThinkerAudit]) -> 
             "total": len(sources),
             "withReaderPassagePath": with_path,
             "validPassageLinks": fully_valid_path,
-            "editoriallyVerifiedPassages": verified_a,
+            "verifiedLinkTiedCitation": tied_a,
             "mechanicalFootnoteCandidates": mechanical_b,
             "pathNeedsEditorialReview": path_needs_review,
             "unverifiedFragmentLinks": unverified_fragment,
@@ -1250,7 +1262,7 @@ def compute_totals(sources: list[SourceAudit], thinkers: list[ThinkerAudit]) -> 
             "missingPathWithFootnote": missing_path_with_footnote,
             "bibliographyOnly": biblio_only,
             "byEvidenceLevel": source_levels,
-            "verifiedCoveragePct": round(100.0 * verified_a / n_sources, 2),
+            "tiedCitationCoveragePct": round(100.0 * tied_a / n_sources, 2),
             "whyThisMattersOk": sum(1 for s in sources if s.why_this_matters_ok),
         },
         "thinkers": {
@@ -1278,10 +1290,61 @@ def _json_ready(obj: Any) -> Any:
 
 
 def audit_to_json(result: AuditResult) -> dict[str, Any]:
+    """Full corpus dump (large). Prefer ``audit_to_summary_json`` for tracked reports."""
     return {
         "totals": result.totals,
         "sources": [_json_ready(s) for s in result.sources],
         "thinkers": [_json_ready(t) for t in result.thinkers],
+    }
+
+
+def audit_to_summary_json(result: AuditResult, *, opportunity_limit: int = 50) -> dict[str, Any]:
+    """Compact machine-readable report suitable for committing to git."""
+    opportunities: list[dict[str, Any]] = []
+    for src in result.sources:
+        if src.evidence_level not in {"B", "C"} and src.status != "invalid_passage_link":
+            if src.status not in {
+                "path_valid_needs_editorial_review",
+                "path_valid_shared_or_ambiguous_citation",
+                "passage_link_unverified_fragment",
+            }:
+                continue
+        opportunities.append(
+            {
+                "slug": src.slug,
+                "evidenceLevel": src.evidence_level,
+                "status": src.status,
+                "recommendedAction": src.recommended_action,
+                "candidatePath": src.candidate_path,
+                "readerPassagePath": src.reader_passage_path,
+                "footnoteHitCount": len(src.footnote_hits),
+                "notes": src.notes,
+            }
+        )
+        if len(opportunities) >= opportunity_limit:
+            break
+    tied_a = [
+        {
+            "slug": s.slug,
+            "readerPassagePath": s.reader_passage_path,
+            "status": s.status,
+        }
+        for s in result.sources
+        if s.evidence_level == "A"
+    ]
+    derivable = [
+        {
+            "slug": t.slug,
+            "workPassageLinks": t.work_passage_links,
+        }
+        for t in result.thinkers
+        if t.work_passage_links
+    ]
+    return {
+        "totals": result.totals,
+        "tiedCitationExamples": tied_a,
+        "rankedOpportunities": opportunities,
+        "thinkersWithDerivablePassages": derivable[:30],
     }
 
 
@@ -1303,7 +1366,8 @@ def format_audit_markdown(result: AuditResult) -> str:
         f"- Total sources scanned: **{s.get('total', 0)}**",
         f"- With `readerPassagePath`: **{s.get('withReaderPassagePath', 0)}**",
         f"- Structurally valid + fragment-checked paths: **{s.get('validPassageLinks', 0)}**",
-        f"- Editorially verified passages (level A): **{s.get('editoriallyVerifiedPassages', 0)}**",
+        f"- Verified link + mechanically tied citation (level A): "
+        f"**{s.get('verifiedLinkTiedCitation', 0)}**",
         f"- Mechanical footnote candidates (level B / strong_candidate): "
         f"**{s.get('mechanicalFootnoteCandidates', 0)}**",
         f"- Path present but needs editorial review: **{s.get('pathNeedsEditorialReview', 0)}**",
@@ -1311,12 +1375,13 @@ def format_audit_markdown(result: AuditResult) -> str:
         f"- Invalid passage links: **{s.get('invalidPassageLinks', 0)}**",
         f"- Missing path but footnote-cited: **{s.get('missingPathWithFootnote', 0)}**",
         f"- Bibliography only (level D): **{s.get('bibliographyOnly', 0)}**",
-        f"- Verified (level A) coverage: **{s.get('verifiedCoveragePct', 0)}%**",
+        f"- Tied-citation (level A) coverage: **{s.get('tiedCitationCoveragePct', 0)}%**",
         f"- `whyThisMatters` present/substantive: **{s.get('whyThisMattersOk', 0)}**",
         "",
-        "Level A requires a public path whose fragment is the matched citation "
-        "invocation — not merely a working URL. Mechanical B matches still need "
-        "editorial confirmation of intellectual relevance.",
+        "Level A means a public path whose fragment is the matched citation "
+        "invocation — a *mechanical* condition, not editorial approval of "
+        "philosophical relevance. All newly proposed connections still need "
+        "editorial review before YAML enrichment.",
         "",
         "Evidence levels:",
         "",
@@ -1383,9 +1448,9 @@ def format_audit_markdown(result: AuditResult) -> str:
         if len(opportunities) > 50:
             lines.append(f"- … and {len(opportunities) - 50} more (see JSON).")
 
-    # Concrete examples: verified A
+    # Concrete examples: level A (mechanically tied)
     verified = [src for src in result.sources if src.evidence_level == "A"]
-    lines.extend(["", "## Verified passage examples (level A)", ""])
+    lines.extend(["", "## Verified link + mechanically tied citation examples (level A)", ""])
     if not verified:
         lines.append("_None yet._")
     else:
@@ -1413,14 +1478,26 @@ def write_audit_reports(
     *,
     md_out: Path,
     json_out: Path,
+    full_json_out: Path | None = None,
 ) -> None:
+    """
+    Write markdown + compact summary JSON by default.
+
+    Pass ``full_json_out`` (e.g. a gitignored path) for the complete corpus dump.
+    """
     md_out.parent.mkdir(parents=True, exist_ok=True)
     json_out.parent.mkdir(parents=True, exist_ok=True)
     md_out.write_text(format_audit_markdown(result), encoding="utf-8")
     json_out.write_text(
-        json.dumps(audit_to_json(result), indent=2, sort_keys=True) + "\n",
+        json.dumps(audit_to_summary_json(result), indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
+    if full_json_out is not None:
+        full_json_out.parent.mkdir(parents=True, exist_ok=True)
+        full_json_out.write_text(
+            json.dumps(audit_to_json(result), indent=2, sort_keys=True) + "\n",
+            encoding="utf-8",
+        )
 
 
 # ---------------------------------------------------------------------------
@@ -1471,6 +1548,39 @@ def _is_queued(review_log: dict[str, dict[str, Any]], key: str) -> bool:
     return status in REVIEW_LOG_TERMINAL
 
 
+def _resolve_anchor_exists(
+    *,
+    repo: Path | None,
+    book_dir: str,
+    source_path: str,
+    fragment: str,
+    ref_present: bool,
+    check_anchors: bool,
+    fragment_cache: dict[tuple[str, str, str], tuple[bool, str | None]],
+) -> bool | None:
+    """
+    ``True`` / ``False`` after rendered-HTML check; ``None`` when unverified.
+
+    Markdown ``ref_present`` alone is never enough to claim the reader anchor exists.
+    """
+    if not ref_present:
+        return False
+    if not check_anchors or repo is None:
+        return None
+    cache_key = (book_dir, source_path, fragment)
+    if cache_key in fragment_cache:
+        ok, _err = fragment_cache[cache_key]
+        return ok
+    ok, err = validate_fragment_in_rendered_html(
+        repo,
+        book_dir=book_dir,
+        source_path=source_path,
+        fragment=fragment,
+    )
+    fragment_cache[cache_key] = (ok, err)
+    return ok
+
+
 def build_candidates(
     result: AuditResult,
     *,
@@ -1482,15 +1592,23 @@ def build_candidates(
     unreviewed_only: bool = False,
     review_log: dict[str, dict[str, Any]] | None = None,
     batch_size: int = 10,
+    max_per_source: int = 3,
+    repo: Path | None = None,
+    check_anchors: bool = True,
+    fragment_cache: dict[tuple[str, str, str], tuple[bool, str | None]] | None = None,
 ) -> list[Candidate]:
     """
     Build a bounded review queue.
 
-    ``unreviewed_only`` skips any candidate already in the review log with status
-    in ``proposed|approved|rejected|applied|skipped``, so successive batches
-    advance without repeating proposed work. Re-queue by deleting the log entry.
+    Emits up to ``max_per_source`` footnote alternatives per source (stable
+    per-fragment keys) so rejecting the first passage still surfaces others
+    under ``--unreviewed-only``.
+
+    ``anchor_exists`` is ``True``/``False`` only after the reader HTML check;
+    ``None`` means unverified (check skipped or unavailable).
     """
     review_log = review_log or {}
+    fragment_cache = fragment_cache if fragment_cache is not None else {}
     out: list[Candidate] = []
 
     if kind in {"sources", "all"}:
@@ -1514,18 +1632,20 @@ def build_candidates(
             book_hits = sorted(
                 book_hits,
                 key=lambda h: (
-                    0 if not h.needs_editorial_review else 1,
+                    0 if not (h.shared_with or h.ambiguous) else 1,
                     -h.score,
                     h.route_key,
                     h.footnote_id,
                 ),
             )
-            hit = book_hits[0] if book_hits else None
-            prose = book_prose[0] if book_prose else None
 
-            if hit:
+            emitted = 0
+            for hit in book_hits:
+                if emitted >= max_per_source:
+                    break
                 route = hit.route_key
                 cand_path = candidate_path_from_footnote(hit)
+                fragment = f"user-content-fnref-{hit.footnote_id}"
                 key = _candidate_key(
                     "source",
                     src.slug,
@@ -1537,6 +1657,16 @@ def build_candidates(
                 shared_note = ""
                 if hit.shared_with:
                     shared_note = f" Shared footnote also matches: {', '.join(hit.shared_with)}."
+                alt_note = f" Alternative #{emitted + 1} for this source." if emitted else ""
+                anchor = _resolve_anchor_exists(
+                    repo=repo,
+                    book_dir=hit.book_dir,
+                    source_path=hit.source_path,
+                    fragment=fragment,
+                    ref_present=hit.ref_present,
+                    check_anchors=check_anchors,
+                    fragment_cache=fragment_cache,
+                )
                 out.append(
                     Candidate(
                         entity_kind="source",
@@ -1557,42 +1687,44 @@ def build_candidates(
                             f"Body citation [^{hit.footnote_id}] matches this source "
                             f"(score {hit.score}, {hit.method}). "
                             f"Excerpt is the surrounding argument at the invocation."
-                            f"{shared_note}"
+                            f"{shared_note}{alt_note}"
                         ),
-                        anchor_exists=hit.ref_present,
-                        recommended_action=src.recommended_action,
-                        needs_editorial_review=hit.needs_editorial_review
-                        or src.evidence_level == "C"
-                        or bool(hit.shared_with),
-                    )
-                )
-            elif prose:
-                key = _candidate_key("source", src.slug, prose.route_key)
-                if unreviewed_only and _is_queued(review_log, key):
-                    continue
-                out.append(
-                    Candidate(
-                        entity_kind="source",
-                        slug=src.slug,
-                        yaml_path=src.yaml_path,
-                        book_id=prose.edition_slug,
-                        chapter_title=prose.chapter_title,
-                        route_key=prose.route_key,
-                        manuscript_path=f"{prose.book_dir}/{prose.source_path}",
-                        line_start=prose.line_start,
-                        line_end=prose.line_end,
-                        excerpt=prose.excerpt,
-                        candidate_reader_passage_path=prose.route_key,
-                        evidence_level="C",
-                        explanation=(
-                            f"Title phrase {prose.phrase!r} appears in chapter prose; "
-                            "needs editorial judgment before citing or deep-linking."
-                        ),
-                        anchor_exists=None,
-                        recommended_action=src.recommended_action,
+                        anchor_exists=anchor,
+                        recommended_action=src.recommended_action
+                        or "editorial_review_then_add_path",
+                        # Newly proposed semantic connections always need editorial review.
                         needs_editorial_review=True,
                     )
                 )
+                emitted += 1
+
+            if emitted == 0 and book_prose:
+                prose = book_prose[0]
+                key = _candidate_key("source", src.slug, prose.route_key)
+                if not (unreviewed_only and _is_queued(review_log, key)):
+                    out.append(
+                        Candidate(
+                            entity_kind="source",
+                            slug=src.slug,
+                            yaml_path=src.yaml_path,
+                            book_id=prose.edition_slug,
+                            chapter_title=prose.chapter_title,
+                            route_key=prose.route_key,
+                            manuscript_path=f"{prose.book_dir}/{prose.source_path}",
+                            line_start=prose.line_start,
+                            line_end=prose.line_end,
+                            excerpt=prose.excerpt,
+                            candidate_reader_passage_path=prose.route_key,
+                            evidence_level="C",
+                            explanation=(
+                                f"Title phrase {prose.phrase!r} appears in chapter prose; "
+                                "needs editorial judgment before citing or deep-linking."
+                            ),
+                            anchor_exists=None,
+                            recommended_action=src.recommended_action,
+                            needs_editorial_review=True,
+                        )
+                    )
 
     if kind in {"thinkers", "all"}:
         for thinker in result.thinkers:
@@ -1612,6 +1744,11 @@ def build_candidates(
                     key = _candidate_key("thinker", thinker.slug, route, fragment=frag)
                     if unreviewed_only and _is_queued(review_log, key):
                         continue
+                    # Derive from already-tied source A links; still editorial for UX.
+                    approved = (
+                        review_log.get(key, {}).get("status") == "approved"
+                        or review_log.get(key, {}).get("status") == "applied"
+                    )
                     out.append(
                         Candidate(
                             entity_kind="thinker",
@@ -1630,9 +1767,10 @@ def build_candidates(
                                 "Derive thinker page destination from verified source "
                                 f"`{link['sourceSlug']}` passage link."
                             ),
-                            anchor_exists=True,
+                            # Do not claim HTML confirmation without a renderer check.
+                            anchor_exists=None,
                             recommended_action="surface_derived_passages_on_thinker_page",
-                            needs_editorial_review=False,
+                            needs_editorial_review=not approved,
                             related_work_slug=str(link["sourceSlug"]),
                         )
                     )
@@ -1642,43 +1780,41 @@ def build_candidates(
                     for c in thinker.chapters_citing_works
                     if not book_id or f"/explore/books/{book_id}/" in c["routeKey"]
                 ]
-                if not cites:
-                    continue
-                cite = cites[0]
-                key = _candidate_key(
-                    "thinker",
-                    thinker.slug,
-                    cite["routeKey"],
-                    footnote_id=str(cite["footnoteId"]),
-                )
-                if unreviewed_only and _is_queued(review_log, key):
-                    continue
-                out.append(
-                    Candidate(
-                        entity_kind="thinker",
-                        slug=thinker.slug,
-                        yaml_path=thinker.yaml_path,
-                        book_id=cite["routeKey"].split("/")[3],
-                        chapter_title=str(cite.get("chapterTitle") or ""),
-                        route_key=cite["routeKey"],
-                        manuscript_path="",
-                        line_start=0,
-                        line_end=0,
-                        excerpt="",
-                        candidate_reader_passage_path=(
-                            f"{cite['routeKey']}#user-content-fnref-{cite['footnoteId']}"
-                        ),
-                        evidence_level="B",
-                        explanation=(
-                            f"Work `{cite['sourceSlug']}` is cited; enrich that source's "
-                            "readerPassagePath so the thinker page can derive it."
-                        ),
-                        anchor_exists=True,
-                        recommended_action="enrich_source_passage_links_first",
-                        needs_editorial_review=True,
-                        related_work_slug=str(cite["sourceSlug"]),
+                for cite in cites[:max_per_source]:
+                    key = _candidate_key(
+                        "thinker",
+                        thinker.slug,
+                        cite["routeKey"],
+                        footnote_id=str(cite["footnoteId"]),
                     )
-                )
+                    if unreviewed_only and _is_queued(review_log, key):
+                        continue
+                    out.append(
+                        Candidate(
+                            entity_kind="thinker",
+                            slug=thinker.slug,
+                            yaml_path=thinker.yaml_path,
+                            book_id=cite["routeKey"].split("/")[3],
+                            chapter_title=str(cite.get("chapterTitle") or ""),
+                            route_key=cite["routeKey"],
+                            manuscript_path="",
+                            line_start=0,
+                            line_end=0,
+                            excerpt="",
+                            candidate_reader_passage_path=(
+                                f"{cite['routeKey']}#user-content-fnref-{cite['footnoteId']}"
+                            ),
+                            evidence_level="B",
+                            explanation=(
+                                f"Work `{cite['sourceSlug']}` is cited; enrich that source's "
+                                "readerPassagePath so the thinker page can derive it."
+                            ),
+                            anchor_exists=None,
+                            recommended_action="enrich_source_passage_links_first",
+                            needs_editorial_review=True,
+                            related_work_slug=str(cite["sourceSlug"]),
+                        )
+                    )
 
     def sort_key(c: Candidate) -> tuple:
         return (
@@ -1700,7 +1836,9 @@ def format_candidates_markdown(candidates: list[Candidate]) -> str:
         "# Reader passage link candidates",
         "",
         "Review queue for editorial enrichment. Mechanical matches are not",
-        "philosophical relevance — items flagged `needsEditorialReview` require Cursor review.",
+        "philosophical relevance — newly proposed connections always need editorial",
+        "review. `anchor_exists` is true/false only after the reader HTML check;",
+        "`null` means unverified.",
         "",
     ]
     if not candidates:

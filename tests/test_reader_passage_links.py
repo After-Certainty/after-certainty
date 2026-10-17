@@ -287,6 +287,7 @@ def test_valid_deep_link_tied_to_fragment(tmp_path: Path, monkeypatch: Any) -> N
 
     goodhart = by_slug["goodhart-pilot"]
     assert goodhart.evidence_level == "A"
+    assert goodhart.status == "verified_link_tied_citation"
     assert goodhart.fragment_tied_hit
     assert goodhart.path_validation is not None
     assert goodhart.path_validation.is_fully_valid
@@ -295,11 +296,13 @@ def test_valid_deep_link_tied_to_fragment(tmp_path: Path, monkeypatch: Any) -> N
     assert "Effective at What" in goodhart.footnote_hits[0].excerpt or "measure" in (
         goodhart.footnote_hits[0].excerpt
     )
+    assert result.totals["sources"]["verifiedLinkTiedCitation"] >= 1
 
     kk = by_slug["kahneman-klein-pilot"]
     assert kk.evidence_level == "B"
     assert kk.candidate_path
     assert "user-content-fnref-c1-kahneman-klein" in (kk.candidate_path or "")
+    assert kk.recommended_action == "editorial_review_then_add_path"
 
 
 def test_wrong_source_anchor_is_not_level_a(tmp_path: Path, monkeypatch: Any) -> None:
@@ -362,7 +365,58 @@ def test_skip_fragment_check_is_unverified_not_invalid(tmp_path: Path, monkeypat
     assert not goodhart.path_validation.is_fully_valid
     assert "fragment_missing" not in goodhart.path_validation.issues
     # Must not inflate A coverage when fragments are skipped.
-    assert result.totals["sources"]["editoriallyVerifiedPassages"] == 0
+    assert result.totals["sources"]["verifiedLinkTiedCitation"] == 0
+
+
+def test_skip_fragment_does_not_mask_structural_invalid(tmp_path: Path, monkeypatch: Any) -> None:
+    """Skipping fragment checks must not hide invalid edition / non-public chapter."""
+    repo = _mini_repo(tmp_path)
+    monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)
+
+    src = yaml.safe_load((repo / "semantic/sources/goodhart-pilot.yml").read_text(encoding="utf-8"))
+    src["readerPassagePath"] = (
+        "/explore/books/edition-a/chapters/parts-part-1-chapter-1-effectiveness"
+        "#user-content-fnref-c1-goodhart-monetary-management"
+    )
+    src["relatedBooks"] = ["edition-b"]  # authored path edition not in relatedBooks
+    (repo / "semantic/sources/goodhart-pilot.yml").write_text(
+        yaml.safe_dump(src, sort_keys=False), encoding="utf-8"
+    )
+
+    result = rpl.run_audit(repo, check_fragments=False)
+    g = next(s for s in result.sources if s.slug == "goodhart-pilot")
+    assert g.status == "invalid_passage_link"
+    assert g.path_validation is not None
+    assert "edition_not_in_related_books" in g.path_validation.issues
+    assert not g.path_validation.is_structurally_valid
+    assert g.evidence_level != "A"
+    # Must not fall through to strong_candidate just because fragments were skipped.
+    assert g.status != "strong_candidate"
+
+
+def test_skip_fragment_does_not_mask_non_public_chapter(tmp_path: Path, monkeypatch: Any) -> None:
+    repo = _mini_repo(tmp_path)
+    monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)
+
+    # Force the Goodhart chapter non-public after structure load by rewriting index
+    # with a draft chapter marker if supported, else patch validate via chapters.
+    chapters = rpl.load_published_chapters(repo)
+    route = "/explore/books/edition-a/chapters/parts-part-1-chapter-1-effectiveness"
+    chapters[route].public = False
+
+    src = yaml.safe_load((repo / "semantic/sources/goodhart-pilot.yml").read_text(encoding="utf-8"))
+    audit = rpl.classify_source(
+        src,
+        biblio_books=["edition-a"],
+        footnote_hits=[],
+        prose_hits=[],
+        chapters=chapters,
+        repo=repo,
+        check_fragments=False,
+        fragment_cache={},
+    )
+    assert audit.status == "invalid_passage_link"
+    assert "chapter_not_public" in (audit.path_validation.issues if audit.path_validation else [])
 
 
 def test_book_filter_selects_matching_edition_evidence(tmp_path: Path, monkeypatch: Any) -> None:
@@ -383,10 +437,107 @@ def test_book_filter_selects_matching_edition_evidence(tmp_path: Path, monkeypat
         book_id="edition-b",
         batch_size=20,
         slugs={"kahneman-klein-pilot"},
+        repo=repo,
+        check_anchors=False,
     )
     assert batch
     assert all(c.book_id == "edition-b" for c in batch)
     assert "edition-b" in (batch[0].candidate_reader_passage_path or "")
+    # Skipping the HTML check must leave anchors unverified (not true from Markdown alone).
+    assert batch[0].anchor_exists is None
+    assert batch[0].needs_editorial_review is True
+
+
+def test_candidate_anchor_uses_renderer_not_markdown_ref(tmp_path: Path, monkeypatch: Any) -> None:
+    repo = _mini_repo(tmp_path)
+
+    def _missing_anchor(*_a: Any, **_k: Any) -> tuple[bool, str | None]:
+        return False, "fragment not found in rendered HTML"
+
+    monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _missing_anchor)
+    result = rpl.run_audit(repo, check_fragments=False)
+    batch = rpl.build_candidates(
+        result,
+        kind="sources",
+        only_missing=True,
+        batch_size=5,
+        slugs={"kahneman-klein-pilot"},
+        repo=repo,
+        check_anchors=True,
+    )
+    assert batch
+    assert batch[0].anchor_exists is False
+    assert batch[0].needs_editorial_review is True
+
+
+def test_alternate_passage_candidates_per_source(tmp_path: Path, monkeypatch: Any) -> None:
+    """After the first footnote is proposed, --unreviewed-only surfaces the next."""
+    repo = _mini_repo(tmp_path)
+    monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)
+
+    # Second independent citation of Kahneman in another edition-b chapter.
+    book_b = repo / "books" / "edition-b"
+    index = (book_b / "index.md").read_text(encoding="utf-8")
+    index = index.replace(
+        "- [Trust](parts/part-1/chapter-1-trust.md)\n",
+        "- [Trust](parts/part-1/chapter-1-trust.md)\n"
+        "- [Feedback](parts/part-1/chapter-2-feedback.md)\n",
+    )
+    (book_b / "index.md").write_text(index, encoding="utf-8")
+    _write(
+        book_b / "parts/part-1/chapter-2-feedback.md",
+        "# Feedback\n\n"
+        "Intuitive expertise also needs feedback loops."
+        "[^c2-kahneman-klein-again]\n\n"
+        "[^c2-kahneman-klein-again]: Kahneman, Daniel, and Gary Klein. "
+        '"Conditions for Intuitive Expertise: A Failure to Disagree." '
+        "American Psychologist 64, no. 6 (2009): 515–526.\n",
+    )
+
+    result = rpl.run_audit(repo, check_fragments=False)
+    kk = next(s for s in result.sources if s.slug == "kahneman-klein-pilot")
+    assert len(kk.footnote_hits) >= 2
+
+    review_log: dict[str, dict] = {}
+    first = rpl.build_candidates(
+        result,
+        kind="sources",
+        only_missing=True,
+        batch_size=1,
+        max_per_source=1,
+        unreviewed_only=True,
+        review_log=review_log,
+        slugs={"kahneman-klein-pilot"},
+        repo=repo,
+        check_anchors=False,
+    )
+    assert len(first) == 1
+    key1 = rpl._candidate_key(
+        "source",
+        first[0].slug,
+        first[0].route_key,
+        footnote_id=(first[0].candidate_reader_passage_path or "").split("user-content-fnref-", 1)[
+            -1
+        ],
+    )
+    review_log[key1] = {"status": "proposed"}
+
+    second = rpl.build_candidates(
+        result,
+        kind="sources",
+        only_missing=True,
+        batch_size=1,
+        max_per_source=2,
+        unreviewed_only=True,
+        review_log=review_log,
+        slugs={"kahneman-klein-pilot"},
+        repo=repo,
+        check_anchors=False,
+    )
+    assert len(second) == 1
+    assert second[0].slug == "kahneman-klein-pilot"
+    assert second[0].candidate_reader_passage_path != first[0].candidate_reader_passage_path
+    assert second[0].needs_editorial_review is True
 
 
 def test_propose_batch_advances_past_proposed(tmp_path: Path, monkeypatch: Any) -> None:
@@ -553,16 +704,21 @@ def test_report_writers_and_cli(tmp_path: Path, monkeypatch: Any) -> None:
     monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)
     result = rpl.run_audit(repo, check_fragments=False)
     md = repo / "reports/reader-passage-links/audit.md"
-    js = repo / "reports/reader-passage-links/audit.json"
-    rpl.write_audit_reports(result, md_out=md, json_out=js)
+    js = repo / "reports/reader-passage-links/audit.summary.json"
+    full = repo / "reports/reader-passage-links/audit.full.json"
+    rpl.write_audit_reports(result, md_out=md, json_out=js, full_json_out=full)
     text = md.read_text(encoding="utf-8")
-    assert "Editorially verified passages" in text
+    assert "Verified link + mechanically tied citation" in text
     assert "Mechanical footnote candidates" in text
     payload = json.loads(js.read_text(encoding="utf-8"))
-    assert "editoriallyVerifiedPassages" in payload["totals"]["sources"]
+    assert "verifiedLinkTiedCitation" in payload["totals"]["sources"]
+    assert "rankedOpportunities" in payload
+    assert "sources" not in payload  # compact summary, not full corpus
+    full_payload = json.loads(full.read_text(encoding="utf-8"))
+    assert "sources" in full_payload
 
     out_md = repo / "reports/reader-passage-links/from-cli.md"
-    out_json = repo / "reports/reader-passage-links/from-cli.json"
+    out_json = repo / "reports/reader-passage-links/from-cli.summary.json"
     proc = subprocess.run(
         [
             sys.executable,
@@ -581,6 +737,7 @@ def test_report_writers_and_cli(tmp_path: Path, monkeypatch: Any) -> None:
     )
     assert proc.returncode == 0, proc.stderr
     assert out_md.is_file()
+    assert "tied_A=" in proc.stdout
 
 
 def test_parse_path_regex() -> None:

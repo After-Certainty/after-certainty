@@ -55,6 +55,12 @@ def main(argv: list[str] | None = None) -> int:
         help="Maximum candidates in this batch",
     )
     parser.add_argument(
+        "--max-per-source",
+        type=int,
+        default=3,
+        help="Maximum alternate chapter/footnote candidates per source",
+    )
+    parser.add_argument(
         "--only-missing",
         action="store_true",
         help="Only entities lacking a reader passage path / derived links",
@@ -82,7 +88,10 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--skip-fragment-check",
         action="store_true",
-        help="Skip rendered-HTML fragment validation during the underlying audit",
+        help=(
+            "Skip rendered-HTML fragment validation during audit and leave "
+            "candidate anchor_exists as unverified (null)"
+        ),
     )
     parser.add_argument(
         "--md-out",
@@ -114,9 +123,10 @@ def main(argv: list[str] | None = None) -> int:
         review_log_path = (repo / review_log_path).resolve()
 
     slugs = set(args.slug) if args.slug else None
+    check_fragments = not args.skip_fragment_check
     result = run_audit(
         repo,
-        check_fragments=not args.skip_fragment_check,
+        check_fragments=check_fragments,
         source_slugs=slugs if args.kind in {"sources", "all"} else None,
         thinker_slugs=slugs if args.kind in {"thinkers", "all"} else None,
         book_id=args.book,
@@ -133,6 +143,9 @@ def main(argv: list[str] | None = None) -> int:
         unreviewed_only=args.unreviewed_only,
         review_log=review_log,
         batch_size=max(0, args.batch_size),
+        max_per_source=max(1, args.max_per_source),
+        repo=repo,
+        check_anchors=check_fragments,
     )
 
     if args.dry_run:
@@ -141,7 +154,8 @@ def main(argv: list[str] | None = None) -> int:
             print(
                 f"  [{c.evidence_level}] {c.entity_kind}/{c.slug} → "
                 f"{c.candidate_reader_passage_path or c.route_key} "
-                f"({c.recommended_action})"
+                f"(anchor={c.anchor_exists!s}, review={c.needs_editorial_review}, "
+                f"{c.recommended_action})"
             )
         return 0
 

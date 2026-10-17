@@ -6,6 +6,9 @@ Typical usage::
 
     python3 tools/audit_reader_passage_links.py --repo .
     make audit-reader-passage-links
+
+Writes a compact tracked summary JSON by default. Pass ``--write-full-json``
+to also emit a gitignored full-corpus dump (``audit.full.json``).
 """
 
 from __future__ import annotations
@@ -36,7 +39,22 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--json-out",
         default=None,
-        help="JSON report path (default: reports/reader-passage-links/audit.json)",
+        help=(
+            "Compact summary JSON path (default: reports/reader-passage-links/audit.summary.json)"
+        ),
+    )
+    parser.add_argument(
+        "--full-json-out",
+        default=None,
+        help=(
+            "Full corpus JSON path when --write-full-json "
+            "(default: reports/reader-passage-links/audit.full.json)"
+        ),
+    )
+    parser.add_argument(
+        "--write-full-json",
+        action="store_true",
+        help="Also write the large full-corpus JSON (gitignored by default)",
     )
     parser.add_argument(
         "--book",
@@ -59,11 +77,18 @@ def main(argv: list[str] | None = None) -> int:
     repo = Path(args.repo).resolve()
     report_dir = repo / DEFAULT_REPORT_DIR
     md_out = Path(args.md_out) if args.md_out else report_dir / "audit.md"
-    json_out = Path(args.json_out) if args.json_out else report_dir / "audit.json"
+    json_out = Path(args.json_out) if args.json_out else report_dir / "audit.summary.json"
+    full_json_out: Path | None = None
+    if args.write_full_json or args.full_json_out:
+        full_json_out = (
+            Path(args.full_json_out) if args.full_json_out else report_dir / "audit.full.json"
+        )
     if not md_out.is_absolute():
         md_out = (repo / md_out).resolve()
     if not json_out.is_absolute():
         json_out = (repo / json_out).resolve()
+    if full_json_out is not None and not full_json_out.is_absolute():
+        full_json_out = (repo / full_json_out).resolve()
 
     slugs = set(args.slug) if args.slug else None
     result = run_audit(
@@ -73,23 +98,30 @@ def main(argv: list[str] | None = None) -> int:
         thinker_slugs=slugs,
         book_id=args.book,
     )
-    write_audit_reports(result, md_out=md_out, json_out=json_out)
+    write_audit_reports(
+        result,
+        md_out=md_out,
+        json_out=json_out,
+        full_json_out=full_json_out,
+    )
 
     s = result.totals.get("sources", {})
     th = result.totals.get("thinkers", {})
     print(f"Wrote {md_out}")
     print(f"Wrote {json_out}")
+    if full_json_out is not None:
+        print(f"Wrote {full_json_out}")
     print(
         "Sources: "
         f"total={s.get('total', 0)} "
-        f"verified_A={s.get('editoriallyVerifiedPassages', 0)} "
+        f"tied_A={s.get('verifiedLinkTiedCitation', 0)} "
         f"mechanical_B={s.get('mechanicalFootnoteCandidates', 0)} "
         f"needs_review={s.get('pathNeedsEditorialReview', 0)} "
         f"unverified_frag={s.get('unverifiedFragmentLinks', 0)} "
         f"invalid={s.get('invalidPassageLinks', 0)} "
         f"missing_path_cited={s.get('missingPathWithFootnote', 0)} "
         f"biblio_only={s.get('bibliographyOnly', 0)} "
-        f"A%={s.get('verifiedCoveragePct', 0)}"
+        f"A%={s.get('tiedCitationCoveragePct', 0)}"
     )
     print(
         "Thinkers: "
