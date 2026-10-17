@@ -11,6 +11,15 @@ concepts:
 patterns: []
 relatedBooks:
 - how-serious-systems-learn
+whyThisMatters: >-
+  Dekker’s Field Guide reframes “human error” as a starting point for
+  investigation rather than a conclusion—looking at how people made sense of
+  incomplete information inside the system they actually had. How Serious
+  Systems Learn pairs that stance with reluctance to simplify: premature cause
+  stories close corrective options while confidence is still unwarranted. The
+  source challenges blame-as-explanation; the book treats durable ambiguity as
+  an operational cost of avoiding stable misdiagnosis.
+readerPassagePath: /explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-8-when-failure-is-not-an-option#user-content-fnref-c8-source-sidney-dekker-the
 title: The Field Guide to Understanding Human Error
 creatorNames:
 - Sidney Dekker

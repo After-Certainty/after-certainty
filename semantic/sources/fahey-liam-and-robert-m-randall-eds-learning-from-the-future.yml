@@ -8,6 +8,16 @@ concepts: []
 patterns: []
 relatedBooks:
 - how-serious-systems-learn
+whyThisMatters: >-
+  Fahey and Randall’s Learning from the Future develops competitive foresight
+  scenarios as a way organizations rehearse alternative futures and notice
+  disconfirming signals before they harden into crisis. How Serious Systems
+  Learn borrows that orientation toward early detection for corrective loops:
+  metrics, retrospectives, and escalation paths can remain visible while the
+  cycle that actually alters action erodes. The book’s inference is that a loop
+  is not a document—correction fails when information no longer travels quickly,
+  clearly, and with enough authority to change ongoing work.
+readerPassagePath: /explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-3-the-collapse-of-corrective-loops#user-content-fnref-c3-source-liam-fahey-and
 title: 'Learning from the Future: Competitive Foresight Scenarios'
 creatorNames:
 - Liam Fahey and Robert M. Randall

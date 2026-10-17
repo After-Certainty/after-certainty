@@ -8,6 +8,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Ford, Parsons, and Kua’s Building Evolutionary Architectures treats
+  architecture as evolvable under change, warning that intended modularity can
+  erode and that fitness must be protected against ceremonial patterns. Coupling
+  cites those failure modes—ports that mirror frameworks, adapter proliferation,
+  purity signaling—where diagrams look cleaner while operational understanding
+  stays weak. The source diagnoses architectural drift; the book asks when added
+  indirection stops improving learning.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-11-hexagonal-architecture-boundary-discipline-at-scale#user-content-fnref-c11-failure-modes
 title: 'Building Evolutionary Architectures: Support Constant Change'
 creatorNames:
 - Neal Ford, Patrick Kua, and Rebecca Parsons

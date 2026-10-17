@@ -12,6 +12,15 @@ patterns: []
 relatedBooks:
 - coupling
 - how-serious-systems-learn
+whyThisMatters: >-
+  Sidney Dekker’s Drift into Failure argues that accidents often emerge from
+  gradual, locally rational adaptations in complex systems—not from a single
+  broken component waiting to be found. How Serious Systems Learn applies that
+  thesis to uneven learning: local workarounds can keep operations stable while
+  masking global incorrigibility. Dekker’s claim is about drift as systemic
+  process; the book asks when tactical improvement downward becomes strategic
+  degradation upstairs.
+readerPassagePath: /explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-3-the-collapse-of-corrective-loops#user-content-fnref-c3-source-sidney-dekker-drift
 title: 'Drift into Failure: From Hunting Broken Components to Understanding Complex
   Systems'
 creatorNames:

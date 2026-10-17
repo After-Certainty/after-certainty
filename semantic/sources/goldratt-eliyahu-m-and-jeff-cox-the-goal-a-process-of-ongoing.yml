@@ -7,6 +7,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - how-serious-systems-learn
+whyThisMatters: >-
+  Goldratt and Cox’s The Goal treats throughput constraints as the place where
+  improvement must focus if a system is to keep learning. How Serious Systems
+  Learn uses that pressure to ask why corrigibility is praised while structures
+  keep externalizing the cost of staying interruptible.
+readerPassagePath: /explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-1-when-knowing-is-no-longer-enough#user-content-fnref-c1-source-eliyahu-m-goldratt
 title: 'The Goal: A Process of Ongoing'
 creatorNames:
 - Eliyahu M. Goldratt and Jeff Cox

@@ -7,6 +7,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - how-serious-systems-learn
+whyThisMatters: >-
+  Tom DeMarco and Timothy Lister’s Peopleware insist that productive teams need
+  human conditions—including uncommitted capacity and freedom from constant
+  interruption—not only tighter process. How Serious Systems Learn renames that
+  margin as slack: the technical condition that makes pause, interruption, and
+  reversal possible without collapse. Their management claim is about people and
+  environment; the book’s extension is interruptibility as the moral expression
+  of that capacity.
+readerPassagePath: /explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-1-when-knowing-is-no-longer-enough#user-content-fnref-c1-source-tom-demarco-and
 title: 'Peopleware: Productive Projects'
 creatorNames:
 - Timothy R. Lister and Tom DeMarco
