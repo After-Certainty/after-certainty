@@ -732,7 +732,7 @@
           "evidenceLevel": "A",
           "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-5-the-matrix-with-no-author#user-content-fnref-c5-cappelli",
           "sourceSlug": "cappelli-peter-and-anna-tavis-the-performance-management-revolution",
-          "whyThisMatters": "Cappelli and Tavis describe employers rebuilding performance management around continuous feedback and comparable scores at scale. When Incentives Become the Moral Language treats those rating systems as anti-bias infrastructure that can also translate fairness into method\u2014until the score becomes the moral language of the decision."
+          "whyThisMatters": "Cappelli and Tavis document why many employers abandoned annual appraisals and forced rankings for frequent, development-focused conversations\u2014and why score-based machinery proved sticky. When Incentives Become the Moral Language uses that contrast: even as appraisal rituals change, residual ratings and calibration can still become the moral language of workforce decisions until comparability substitutes for authored judgment."
         }
       ]
     },
@@ -1268,11 +1268,6 @@
       "status": "verified_link_tied_citation"
     },
     {
-      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-10",
-      "slug": "brown-judith-m-gandhi-s-rise-to-power-indian-politics-1915-1922",
-      "status": "verified_link_tied_citation"
-    },
-    {
       "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-public-health",
       "slug": "brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an",
       "status": "verified_link_tied_citation"
@@ -1608,11 +1603,6 @@
       "status": "verified_link_tied_citation"
     },
     {
-      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-05-waterfall-low-temporal-coupling#user-content-fnref-c5-late-integration",
-      "slug": "fowler-martin-integration-metadata",
-      "status": "verified_link_tied_citation"
-    },
-    {
       "readerPassagePath": "/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-01-coupling-and-cohesion-technical-origins#user-content-fnref-c1-tight-coupling-fragility",
       "slug": "fowler-martin-refactoring-improving-the-design-of-existing-code",
       "status": "verified_link_tied_citation"
@@ -1735,25 +1725,25 @@
   ],
   "totals": {
     "sources": {
-      "bibliographyOnly": 54,
+      "bibliographyOnly": 55,
       "byEvidenceLevel": {
-        "A": 141,
-        "B": 500,
+        "A": 139,
+        "B": 501,
         "C": 1,
-        "D": 54,
+        "D": 55,
         "E": 18
       },
       "invalidPassageLinks": 0,
-      "mechanicalFootnoteCandidates": 496,
-      "missingPathWithFootnote": 496,
+      "mechanicalFootnoteCandidates": 497,
+      "missingPathWithFootnote": 497,
       "pathNeedsEditorialReview": 4,
-      "tiedCitationCoveragePct": 19.75,
+      "tiedCitationCoveragePct": 19.47,
       "total": 714,
       "unverifiedFragmentLinks": 0,
-      "validPassageLinks": 145,
-      "verifiedLinkTiedCitation": 141,
-      "whyThisMattersOk": 145,
-      "withReaderPassagePath": 145
+      "validPassageLinks": 143,
+      "verifiedLinkTiedCitation": 139,
+      "whyThisMattersOk": 143,
+      "withReaderPassagePath": 143
     },
     "thinkers": {
       "byEvidenceLevel": {

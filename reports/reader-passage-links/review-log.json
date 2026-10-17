@@ -655,12 +655,12 @@
     "source:brown-judith-m-gandhi-s-rise-to-power-indian-politics-1915-1922:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-10": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-10",
       "entityKind": "source",
-      "evidenceLevel": "A",
-      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "evidenceLevel": "B",
+      "note": "PR5 review fix: deferred. Rise to Power (1915\u20131922) cannot ground 1931 Gandhi\u2013Irwin Pact; manuscript [^s2-10] narrowed to Pact docs + Prisoner of Hope. No readerPassagePath on this source until a genuine 1915\u20131922 locus exists.",
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt",
       "slug": "brown-judith-m-gandhi-s-rise-to-power-indian-politics-1915-1922",
-      "status": "applied",
-      "updatedAt": "2026-10-17T22:57:10Z"
+      "status": "deferred",
+      "updatedAt": "2026-10-17T23:10:52Z"
     },
     "source:brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-public-health": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-public-health",
@@ -706,11 +706,11 @@
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-5-the-matrix-with-no-author#user-content-fnref-c5-cappelli",
       "entityKind": "source",
       "evidenceLevel": "A",
-      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "note": "PR5 review fix: corrected attribution\u2014article documents abandoning annual appraisals; manuscript contrasts revolution vs sticky score machinery.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-5-the-matrix-with-no-author",
       "slug": "cappelli-peter-and-anna-tavis-the-performance-management-revolution",
       "status": "applied",
-      "updatedAt": "2026-10-17T22:57:10Z"
+      "updatedAt": "2026-10-17T23:10:52Z"
     },
     "source:carlin-john-playing-the-enemy-nelson-mandela-and-the-game-that-made-a-nation:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v2": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v2",
@@ -1096,11 +1096,11 @@
       "candidatePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-3-preservation-chapter-8-trust-shapes-interpretation#user-content-fnref-c8-douglas-conspiracy",
       "entityKind": "source",
       "evidenceLevel": "A",
-      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "note": "PR5 review fix: reframed as literature review (motives/transmission); longitudinal attention claim is AC interpretive bridge.",
       "routeKey": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-3-preservation-chapter-8-trust-shapes-interpretation",
       "slug": "douglas-karen-m-et-al-understanding-conspiracy-theories",
       "status": "applied",
-      "updatedAt": "2026-10-17T22:57:10Z"
+      "updatedAt": "2026-10-17T23:10:52Z"
     },
     "source:drake-stillman-discoveries-and-opinions-of-galileo:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-christina": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-christina",
@@ -1375,12 +1375,12 @@
     "source:fowler-martin-integration-metadata:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-05-waterfall-low-temporal-coupling#user-content-fnref-c5-late-integration": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-05-waterfall-low-temporal-coupling#user-content-fnref-c5-late-integration",
       "entityKind": "source",
-      "evidenceLevel": "A",
-      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "evidenceLevel": "B",
+      "note": "PR5 review fix: deferred. [^c5-late-integration] is generic \u201cFowler and related writings\u201d; Integration Metadata is about mapping/metadata, not late-integration shock. No readerPassagePath until a specific matching Fowler cite exists.",
       "routeKey": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-05-waterfall-low-temporal-coupling",
       "slug": "fowler-martin-integration-metadata",
-      "status": "applied",
-      "updatedAt": "2026-10-17T22:57:10Z"
+      "status": "deferred",
+      "updatedAt": "2026-10-17T23:10:52Z"
     },
     "source:fowler-martin-refactoring-improving-the-design-of-existing-code:/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-01-coupling-and-cohesion-technical-origins#user-content-fnref-c1-tight-coupling-fragility": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-01-coupling-and-cohesion-technical-origins#user-content-fnref-c1-tight-coupling-fragility",
@@ -1406,11 +1406,11 @@
       "candidatePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-3-trust-becomes-identity#user-content-fnref-c3-freeh-penn-state",
       "entityKind": "source",
       "evidenceLevel": "A",
-      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "note": "PR5 review fix: Freeh cited for institutional failure only; identity-protective supporter reaction is AC inference, not a Freeh finding.",
       "routeKey": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-3-trust-becomes-identity",
       "slug": "freeh-sporkin-sullivan-llc-report-of-the-special-investigative-counsel-regarding-the-actions-of",
       "status": "applied",
-      "updatedAt": "2026-10-17T22:57:10Z"
+      "updatedAt": "2026-10-17T23:10:52Z"
     },
     "source:freeman-r-edward-strategic-management-a-stakeholder-approach:/explore/books/trust-beyond-similarity/chapters/back-matter-conclusion-the-building-and-the-people#user-content-fnref-c10-freeman-stakeholders": {
       "candidatePath": "/explore/books/trust-beyond-similarity/chapters/back-matter-conclusion-the-building-and-the-people#user-content-fnref-c10-freeman-stakeholders",
@@ -1556,11 +1556,11 @@
       "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-3-what-these-disciplines-share-chapter-11-authority-that-preserves-correction#user-content-fnref-c11-source-david-graeber-on",
       "entityKind": "source",
       "evidenceLevel": "A",
-      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "note": "PR5 review fix: relocated [^c11-source-david-graeber-on] onto performative-openness failure mode; whyThisMatters updated.",
       "routeKey": "/explore/books/how-serious-systems-learn/chapters/parts-part-3-what-these-disciplines-share-chapter-11-authority-that-preserves-correction",
       "slug": "graeber-david-on-the-phenomenon-of-bullshit-jobs",
       "status": "applied",
-      "updatedAt": "2026-10-17T22:57:10Z"
+      "updatedAt": "2026-10-17T23:10:52Z"
     },
     "source:grand-slam-tournaments-statement-from-grand-slam-tournaments-regarding-naomi-osaka:/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-osaka-fo": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-osaka-fo",

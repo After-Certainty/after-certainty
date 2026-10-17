@@ -62,6 +62,27 @@ Stable candidate keys are `kind:slug:routeKey#fragment` (includes footnote id wh
 To re-queue a terminal item, delete its review-log entry (or clear `status`).
 Use `deferred` (not `skipped`) when the work should return in a later batch.
 
+### Editorial spot-check rubric (before apply)
+
+Mechanical level **A**/tied citation is necessary but not sufficient. For each
+candidate, confirm in one pass:
+
+1. **Source claim** — What does this work actually establish (method, period,
+   finding)? Do not invent longitudinal results, surveys, or endorsements the
+   text does not support.
+2. **AC inference** — What does After Certainty add? Keep that in
+   `whyThisMatters` as the book’s question/extension, not as the source’s claim.
+3. **Footnote identity** — Does `[^id]` name *this* work (title/year/period),
+   alone? Multi-work notes, chronological mismatches (book ends before the
+   cited event), and “Author and related writings” generics → **defer** or
+   narrow the footnote before linking.
+4. **Landing sentence** — Does the invocation sit on prose that engages the
+   source, or only on an adjacent theme? Relocate the `[^id]` or defer if the
+   bridge is only structural.
+
+Sample stratified across books on large batches; do not treat audit A% as
+editorial completion.
+
 ## Path and fragment rules
 
 - Canonical chapter identity: `docs/semantic-chapter-identity.md`

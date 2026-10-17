@@ -9,26 +9,26 @@ bibliography-only and keyword overlap never count as verified passages.
 ### Sources
 
 - Total sources scanned: **714**
-- With `readerPassagePath`: **145**
-- Structurally valid + fragment-checked paths: **145**
-- Verified link + mechanically tied citation (level A): **141**
-- Mechanical footnote candidates (level B / strong_candidate): **496**
+- With `readerPassagePath`: **143**
+- Structurally valid + fragment-checked paths: **143**
+- Verified link + mechanically tied citation (level A): **139**
+- Mechanical footnote candidates (level B / strong_candidate): **497**
 - Path present but needs editorial review: **4**
 - Fragment check skipped (unverified): **0**
 - Invalid passage links: **0**
-- Missing path but footnote-cited: **496**
-- Bibliography only (level D): **54**
-- Tied-citation (level A) coverage: **19.75%**
-- `whyThisMatters` present/substantive: **145**
+- Missing path but footnote-cited: **497**
+- Bibliography only (level D): **55**
+- Tied-citation (level A) coverage: **19.47%**
+- `whyThisMatters` present/substantive: **143**
 
 Level A means a public path whose fragment is the matched citation invocation — a *mechanical* condition, not editorial approval of philosophical relevance. All newly proposed connections still need editorial review before YAML enrichment.
 
 Evidence levels:
 
-- A: 141
-- B: 500
+- A: 139
+- B: 501
 - C: 1
-- D: 54
+- D: 55
 - E: 18
 
 ### Thinkers
@@ -101,7 +101,7 @@ _None._
 - **B** `ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-authority-is-misread/chapters/parts-part-3-looking-twice-chapter-10-the-conversation-that-is-no-longer-a-conversation#user-content-fnref-c10-ceplair`
 - **B** `chernow-ron-washington-a-life` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-chernow`
 - **B** `christian-brian-the-alignment-problem-machine-learning-and-human-values` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment#user-content-fnref-c11-judgment-upstream`
-- … and 451 more (see JSON).
+- … and 452 more (see JSON).
 
 ## Verified link + mechanically tied citation examples (level A)
 
