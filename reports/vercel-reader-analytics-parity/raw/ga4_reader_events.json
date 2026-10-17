@@ -1,0 +1,33 @@
+{
+  "dimensionHeaders": [
+    {
+      "name": "eventName"
+    }
+  ],
+  "metricHeaders": [
+    {
+      "name": "eventCount",
+      "type": "TYPE_INTEGER"
+    }
+  ],
+  "rows": [
+    {
+      "dimensionValues": [
+        {
+          "value": "chapter_open"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        }
+      ]
+    }
+  ],
+  "rowCount": 1,
+  "metadata": {
+    "currencyCode": "USD",
+    "timeZone": "America/Denver"
+  },
+  "kind": "analyticsData#runReport"
+}

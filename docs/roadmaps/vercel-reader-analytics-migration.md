@@ -1,8 +1,8 @@
 # Vercel reader analytics migration
 
-**Status:** Specialized plan — **PR 2 in progress** (reporting + `reader-analytics` skill); PR 0–1 merged  
+**Status:** Specialized plan — **PR 3 in progress** (parity decision / observation); PR 0–2 merged  
 **Created:** 2026-10-17  
-**Revised:** 2026-10-17 (PR 2: Web Analytics API client, weekly brief, PADE `vercel.analytics.read`)  
+**Revised:** 2026-10-17 (PR 3: Gate 3 baseline + dual-write smoke; keep parallel — PR 4 blocked)  
 **Location:** `docs/roadmaps/vercel-reader-analytics-migration.md`  
 **Authority:** Specialized cross-layer plan. Does **not** replace [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Unfinished follow-ups after each PR merge belong on the master roadmap Observe / Now sections, not as a second backlog.
 
@@ -505,6 +505,7 @@ Only after Gate 3 approval. Remove GA runtime completely; update privacy, CSP, e
 | CSP | `apps/site/lib/security/headers.ts` |
 | GA skill / scripts | `apps/site/.cursor/skills/ga-trends/`, `apps/site/scripts/ga4-*.sh`, `tools/ga_trends_brief.py` |
 | Reader analytics skill / scripts | `apps/site/.cursor/skills/reader-analytics/`, `apps/site/scripts/vercel-web-analytics-query.sh`, `scripts/reader-analytics-test.sh`, `tools/reader_analytics_brief.py` |
+| Gate 3 parity | `docs/analytics/vercel-reader-analytics-parity-decision.md`, `reports/vercel-reader-analytics-parity/`, `scripts/reader-analytics-parity.sh` |
 | PADE | `pade.yaml`, `.pade/agent-bindings.yaml` |
 | Verify docs | `apps/site/docs/seo-analytics-verification.md` |
 
@@ -512,11 +513,11 @@ Only after Gate 3 approval. Remove GA runtime completely; update privacy, CSP, e
 
 ## 15. Immediate next step
 
-After **PR 2** is reviewed and merged **by the owner**:
+After **PR 3** merges with recommendation **keep_parallel_longer**:
 
-1. Open **PR 3** on `test/vercel-reader-analytics-parity` from latest `main`.  
-2. Run the parallel-measurement observation window and write the Gate 3 decision report.  
-3. Do **not** start PR 4 (retire GA4) without explicit approval of that report.
+1. Continue dual-write observation through at least **2026-10-31** (prefer **2026-11-14**).  
+2. Re-run `make reader-analytics-parity` and update [`docs/analytics/vercel-reader-analytics-parity-decision.md`](../analytics/vercel-reader-analytics-parity-decision.md).  
+3. Do **not** start PR 4 (`chore/retire-ga4`) without explicit human approval on that report.
 
 ---
 
@@ -528,3 +529,4 @@ After **PR 2** is reviewed and merged **by the owner**:
 | 2026-10-17 | PR 0 follow-up: review clarifications — source→chapter attribution spike; consent-split facade + tests; early privacy-copy fix; `chapter_advance` / audio property sufficiency; Plus treated as dated observation |
 | 2026-10-17 | PR 1 merged (instrumentation + privacy copy + attribution `to_id`); PR 2 reporting stack started |
 | 2026-10-17 | PR 2: `reader-analytics` skill, Web Analytics query client, weekly brief + Make entry, PADE `vercel.analytics.read` |
+| 2026-10-17 | PR 2 merged; PR 3 Gate 3 baseline + owner dual-write smoke; recommendation keep_parallel_longer |

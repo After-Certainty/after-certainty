@@ -1,0 +1,65 @@
+{
+  "metricHeaders": [
+    {
+      "name": "sessions",
+      "type": "TYPE_INTEGER"
+    },
+    {
+      "name": "activeUsers",
+      "type": "TYPE_INTEGER"
+    },
+    {
+      "name": "totalUsers",
+      "type": "TYPE_INTEGER"
+    },
+    {
+      "name": "screenPageViews",
+      "type": "TYPE_INTEGER"
+    },
+    {
+      "name": "eventCount",
+      "type": "TYPE_INTEGER"
+    },
+    {
+      "name": "engagedSessions",
+      "type": "TYPE_INTEGER"
+    },
+    {
+      "name": "engagementRate",
+      "type": "TYPE_FLOAT"
+    }
+  ],
+  "rows": [
+    {
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "32"
+        },
+        {
+          "value": "63"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "0.55555555555555558"
+        }
+      ]
+    }
+  ],
+  "rowCount": 1,
+  "metadata": {
+    "currencyCode": "USD",
+    "timeZone": "America/Denver"
+  },
+  "kind": "analyticsData#runReport"
+}

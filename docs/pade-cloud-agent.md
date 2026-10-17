@@ -23,7 +23,7 @@ Configured in [`pade.yaml`](../pade.yaml):
 - `github.repo.read` — GitHub repo metadata via broker
 - `google-analytics.read` — GA4 Admin + Data API via broker
 - `vercel.diagnostics` — ordinary Vercel CLI receives `VERCEL_TOKEN` Material from the broker (inspect / logs / whoami; not deploy)
-- `vercel.analytics.read` — read-only Vercel Web Analytics query API (same `VERCEL_TOKEN` Material). Until the broker grants this capability, `make reader-analytics-test` falls back to `vercel.diagnostics`.
+- `vercel.analytics.read` — read-only Vercel Web Analytics query API (same `VERCEL_TOKEN` Material). Broker-granted as of 2026-10-17; `make reader-analytics-test` still falls back to `vercel.diagnostics` if undeclared/denied.
 
 Broker resolves Cursor OIDC, runs server-side exec providers, and injects process-scoped Material into `pade exec` children (e.g. `GA_ACCESS_TOKEN`, `GA_PROPERTY_ID`, `VERCEL_TOKEN`).
 
@@ -103,6 +103,16 @@ make reader-analytics-test
 ```
 
 Prefers `vercel.analytics.read`, falls back to `vercel.diagnostics`. Brief rendering lives in [`tools/reader_analytics_brief.py`](../tools/reader_analytics_brief.py). Same `PADE_PAUSE` contention guidance as ga-trends.
+
+### Gate 3 parity snapshot (GA4 + Vercel)
+
+```bash
+make reader-analytics-parity
+# or: bash scripts/reader-analytics-parity.sh
+```
+
+Writes `reports/vercel-reader-analytics-parity/`. Decision report:
+[`docs/analytics/vercel-reader-analytics-parity-decision.md`](../analytics/vercel-reader-analytics-parity-decision.md).
 
 ## Environment builds
 

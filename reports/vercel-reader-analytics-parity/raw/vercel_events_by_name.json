@@ -1,0 +1,1 @@
+{"version":1,"query":{"since":"2026-10-10T00:00:00.000Z","until":"2026-10-17T01:00:00.000Z","groupBy":["eventName"],"filter":"environment eq 'production'","limit":40},"data":[{"eventName":"corpus_navigation","visitors":4,"count":4},{"eventName":"listen_item_selected","visitors":2,"count":6}]}

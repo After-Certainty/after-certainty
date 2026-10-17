@@ -1,0 +1,55 @@
+{
+  "dimensionHeaders": [
+    {
+      "name": "sessionSourceMedium"
+    }
+  ],
+  "metricHeaders": [
+    {
+      "name": "sessions",
+      "type": "TYPE_INTEGER"
+    },
+    {
+      "name": "activeUsers",
+      "type": "TYPE_INTEGER"
+    }
+  ],
+  "rows": [
+    {
+      "dimensionValues": [
+        {
+          "value": "google / organic"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "(direct) / (none)"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    }
+  ],
+  "rowCount": 2,
+  "metadata": {
+    "currencyCode": "USD",
+    "timeZone": "America/Denver"
+  },
+  "kind": "analyticsData#runReport"
+}
