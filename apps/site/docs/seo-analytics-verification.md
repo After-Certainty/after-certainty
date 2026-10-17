@@ -45,8 +45,8 @@ Network filters: `gtag`, `collect`, `google-analytics`, `googletagmanager`, `/_v
 
 | State | Expected |
 | --- | --- |
-| First visit before choice | gtag may load on production; `analytics_storage` denied; no GA analytics cookies; Vercel Web Analytics / Speed Insights scripts may still load |
-| Reject | Consent update denied; no GA analytics cookies; **GA custom events absent**; Vercel custom reader events **still fire** (consent-split facade) |
+| First visit before choice | gtag may load on production; `analytics_storage` denied; no GA analytics cookies; **no custom GA events**; Consent Mode may still allow limited cookieless pings; Vercel scripts may load |
+| Reject | Consent update denied; no GA analytics cookies; **GA custom events absent**; cookieless Consent Mode pings may still occur while the tag is mounted; Vercel custom reader events **still fire** |
 | Accept | Consent granted; GA collect succeeds; **no CSP errors**; one GA `page_view`; dual-write reader events reach both GA and Vercel |
 | Client-side nav after Accept | Additional GA page_view via Enhanced Measurement history (or explicit tracker); not duplicated on hard refresh |
 | Clear `ac_cookie_consent` | Future GA hits denied; banner returns; Vercel aggregate collection continues |
@@ -68,6 +68,12 @@ After Accept (or with consent denied, for Vercel-only rows):
 | Start a question/trail path | `reading_path_started` | `question_path_start` / `trail_path_start` |
 
 Confirm each intended action fires **once** (no duplicate `corpus_navigation` / audio events). See also [`reader-analytics-attribution-spike.md`](reader-analytics-attribution-spike.md).
+
+Book overview: both **primary** and **secondary** download buttons must emit `book_download` once with normalized `format` (and GA `book_overview_primary_action` still fires for primary).
+
+Source/thinker attribution: links to the same chapter from a CTA and Related chapters must share one semantic `to_id` (joinable to `chapter_open.chapter_id`). After production deploy, verify `requestPath` + `eventData/to_id` aggregates; keep type-level claims until then.
+
+Property budget: default Plus (≤8 props). If base Pro only, set `NEXT_PUBLIC_VERCEL_ANALYTICS_PROPERTY_LIMIT=2` and confirm `corpus_navigation` uses `{edge,to_id|relation}`.
 
 Also confirm GA4 Admin:
 
