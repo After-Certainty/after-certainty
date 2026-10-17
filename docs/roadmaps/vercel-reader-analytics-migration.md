@@ -2,7 +2,7 @@
 
 **Status:** Specialized plan — **PR 0 (architecture & migration plan)**  
 **Created:** 2026-10-17  
-**Revised:** 2026-10-17  
+**Revised:** 2026-10-17 (PR review clarifications: source→chapter attribution spike, consent-split facade, early privacy-copy fix, property sufficiency)  
 **Location:** `docs/roadmaps/vercel-reader-analytics-migration.md`  
 **Authority:** Specialized cross-layer plan. Does **not** replace [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Unfinished follow-ups after each PR merge belong on the master roadmap Observe / Now sections, not as a second backlog.
 
@@ -33,17 +33,18 @@ Analytics inform editorial judgment. They do not substitute for it. A correctly 
 | GA4 | Parallel measurement until PR 3 approval gate; retire only in PR 4 |
 | New infrastructure | None — no warehouse, event DB, or third-party analytics vendor |
 | Reporting | Small scripts + Cursor skill (`reader-analytics`), mirroring `ga-trends` / PADE |
-| Consent stance | Document actual technology use; re-evaluate cookie banner in PR 4 |
+| Consent stance | Cookie choice continues to gate **GA4 only** during parallel measurement; privacy/cookie copy must say so accurately starting in PR 1; re-evaluate banner necessity only in PR 4 |
 
 **Feasibility:** Confirmed against live account entitlements and existing instrumentation (see §3–§4). Custom events and the aggregate Web Analytics API already work for this project.
 
 **Largest risks:**
 
-1. **Consent / disclosure mismatch** — Vercel Analytics is always-on today while the privacy page documents only GA4.
+1. **Consent / disclosure mismatch** — Vercel Analytics is always-on today while the privacy page still says analytics is off by default (GA4-only framing). **Fix copy in PR 1 (or an immediate privacy PR)** — do not wait for PR 4.
 2. **Aggregate-only honesty** — Vercel APIs provide counts and visitors, not session-level journeys; reports must not invent funnels they cannot measure.
-3. **Property budget** — Base Pro allows 2 custom properties; Web Analytics Plus (currently enabled, $10/mo) allows 8. Schemas must degrade safely if Plus is disabled.
-4. **Anomalous traffic** — Recent data shows Singapore-heavy desktop traffic on research surfaces; treat as heuristic classification, never silent exclusion.
-5. **Cost** — Every pageview and custom event is billed on Pro; prefer meaningful actions over indiscriminate click tracking.
+3. **Property budget** — Base Pro allows 2 custom properties; Web Analytics Plus (dated account observation — see §4) allows 8. Schemas must degrade safely if Plus is disabled.
+4. **Type-level vs specific-chapter attribution** — Current `corpus_navigation` cannot prove which chapter a particular source/thinker page sent a reader to without a bounded target ID or equivalent evidence.
+5. **Anomalous traffic** — Recent data shows Singapore-heavy desktop traffic on research surfaces; treat as heuristic classification, never silent exclusion.
+6. **Cost** — Every pageview and custom event is billed on Pro; prefer meaningful actions over indiscriminate click tracking.
 
 ---
 
@@ -53,10 +54,10 @@ Analytics inform editorial judgment. They do not substitute for it. A correctly 
 |---|----------|------------------------------|
 | 1 | How do people discover After Certainty? | Vercel visits: `referrerHostname`, country, device, UTM (Plus); GSC for queries/rankings |
 | 2 | Which research sources and thinker pages attract visitors? | Visits by `requestPath` / `route` for `/explore/sources/*`, `/explore/thinkers/*` |
-| 3 | Do visitors follow links from sources and thinkers into books? | Custom `corpus_navigation` (type edges) + path aggregates for book/chapter routes |
+| 3 | Do visitors follow links from sources and thinkers into books / **specific chapters**? | Type-level: `corpus_navigation` (`from_type`/`to_type`/`relation`). Specific chapter: only after PR 1 attribution spike (§6.5) — either prove `requestPath` + event data suffice, or add a minimal privacy-safe `to_id` on source/thinker → chapter edges |
 | 4 | Which books and chapters are opened? | Custom `chapter_open` + book/chapter path pageviews |
-| 5 | Are readers continuing into subsequent chapters? | Custom `chapter_advance` event **counts** vs `chapter_open` counts (ratio of aggregates — not session conversion) |
-| 6 | Downloads or chapter audio? | Custom `book_download`, `reader_audio_started` |
+| 5 | Are readers continuing into subsequent chapters? | Custom `chapter_advance` with **destination chapter** in properties or proven via event `requestPath`; compare aggregate counts to `chapter_open` (ratio — not session conversion) |
+| 6 | Downloads or chapter audio? | Custom `book_download`; `reader_audio_started` must identify book/chapter via bounded ID and/or automatic path dimensions — not constant props alone |
 | 7 | Do questions, trails, and search help? | Custom `reading_path_started`; search events with buckets only; path pageviews |
 | 8 | Plausible human vs anomalous traffic? | Heuristic report slices: country × device × path family × referrer emptiness |
 
@@ -65,6 +66,7 @@ Analytics inform editorial judgment. They do not substitute for it. A correctly 
 - Do not claim session-level conversion, retention, or user journeys from aggregate event counts alone.
 - Do not derive exact “completion rates” unless the data model supports them (it currently does not).
 - Distinguish **event counts** from **unique visitors** in every report section.
+- Without a target chapter ID (or proven path attribution), do **not** claim that a specific source/thinker page led readers into a specific chapter — only type-level navigation (`source`→`chapter`) is supported today.
 
 ---
 
@@ -113,22 +115,22 @@ flowchart LR
 
 ## 4. Confirmed Vercel entitlements and constraints
 
-Live probe via PADE (`vercel.diagnostics`) against team `ksteffes-projects` / project `after-certainty` (`prj_RgOjCRadnw2ILa8vK9jy4GqipdLl`):
+Live probe via PADE (`vercel.diagnostics`) against team `ksteffes-projects` / project `after-certainty` (`prj_RgOjCRadnw2ILa8vK9jy4GqipdLl`) on **2026-10-17**:
 
-| Fact | Evidence |
-|------|----------|
-| Plan | **Pro** |
-| Web Analytics Plus | **Enabled** (~$10/mo `invoiceItems.analytics`) |
-| Custom event properties | **Up to 8** with Plus; **2** on base Pro |
-| Value types | `string`, `number`, `boolean`, `null`; no nested objects |
-| Name/key/value length | ≤ 255 characters each |
-| Reporting window | **24 months** with Plus (12 months base Pro; 1 month Hobby) |
-| Event pricing | Metered on Pro (~$0.03 per 1K events per [Vercel docs](https://vercel.com/docs/analytics/limits-and-pricing)); pageviews + custom events both count |
-| Aggregate API | `GET /v1/query/web-analytics/visits/{count,aggregate}` and `…/events/{count,aggregate}` — works with broker token |
-| Recent volume (approx.) | ~1.7k visitors / ~6.2k pageviews since mid-May 2026; custom events still sparse (~11 lifetime at probe time) |
-| Anomaly signal (30d probe) | **SG ~830 visitors** vs **US ~91**; empty `referrerHostname` dominates |
+| Fact | Evidence | Status |
+|------|----------|--------|
+| Plan | **Pro** (`billing.plan`) | Account observation |
+| Web Analytics Plus | Appeared enabled (~$10/mo `invoiceItems.analytics` quantity 1) | **Dated account-specific observation** — re-verify in dashboard before assuming 8 properties in PR 1; not an invariant of the codebase |
+| Custom event properties | **Up to 8** with Plus; **2** on base Pro per [Vercel pricing docs](https://vercel.com/docs/analytics/limits-and-pricing) | Doc limit vs account entitlement — design for the stricter of the two after re-check |
+| Value types | `string`, `number`, `boolean`, `null`; no nested objects | Platform constraint |
+| Name/key/value length | ≤ 255 characters each | Platform constraint |
+| Reporting window | **24 months** with Plus (12 months base Pro; 1 month Hobby) | Doc / entitlement |
+| Event pricing | Metered on Pro (~$0.03 per 1K events per docs); pageviews + custom events both count | Aligns with public pricing docs |
+| Aggregate API | `GET /v1/query/web-analytics/visits/{count,aggregate}` and `…/events/{count,aggregate}` — works with broker token | Verified 2026-10-17 |
+| Recent volume (approx.) | ~1.7k visitors / ~6.2k pageviews since mid-May 2026; custom events still sparse (~11 lifetime at probe time) | Snapshot |
+| Anomaly signal (30d probe) | **SG ~830 visitors** vs **US ~91**; empty `referrerHostname` dominates | Snapshot |
 
-**Design rule:** Prefer ≤2 properties per custom event so schemas remain valid if Plus is disabled. Use additional properties only when a primary outcome requires them, and document the Plus dependency.
+**Design rule:** Prefer ≤2 properties per custom event so schemas remain valid if Plus is disabled or was never present. Use additional properties only when a primary outcome requires them, and re-confirm Plus in the Vercel billing UI before shipping a 3+ property shape.
 
 **API honesty:** Aggregate endpoints return `count` / `pageviews` and `visitors`. They are **not** a session journey database. Multi-step “funnels” in reports must be framed as **comparable aggregate ratios**, not per-visitor paths.
 
@@ -198,43 +200,74 @@ Automatic Vercel pageviews, referrers, geo, device, browser, route, and UTM (Plu
 
 ## 6. Proposed minimal event schema
 
-### 6.1 Primary vocabulary (PR 1)
+### 6.1 Typed facade and consent-preserving dispatch (PR 1)
 
-Components call a **typed facade** (provider-agnostic). During parallel measurement the facade dual-writes: GA4 via existing consent-gated helpers, Vercel via `track()` / `trackVercelIntent`.
+Components call a **typed facade** (provider-agnostic). They must not know which provider receives an event.
 
-| Canonical name | Reconciles with | Vercel properties (prefer ≤2) | Purpose |
-|----------------|-----------------|------------------------------|---------|
-| `corpus_navigation` | existing Vercel event | Keep `from_type`, `to_type`, `relation` under Plus; **fallback** if Plus lost: `edge` (`source>chapter`) + `relation` | Graph navigation including source/thinker → book/chapter |
+**Dispatch order (required):**
+
+1. Resolve the canonical event + normalized properties once.
+2. **Vercel path** — always attempt `track()` / current `trackVercelIntent` equivalent, independent of cookie consent (matches today’s always-on Web Analytics pageviews). Failures swallowed; never block UI.
+3. **GA4 path** — call existing consent-gated helpers (`isAnalyticsEnabled()` / `trackEvent` family) **separately**. If consent is denied or unknown, skip GA only.
+
+Do **not** implement dual-write by nesting Vercel sends inside the GA-gated `trackEvent()` helper. That would incorrectly suppress Vercel custom events until Accept.
+
+**Once-per-action / no duplicates:**
+
+- Migrate call sites so each intended action hits the facade **once**.
+- Do not leave parallel direct `trackVercelIntent('corpus_navigation'|'listen_started'|…)` calls beside the facade for the same click/play.
+- Tests must cover **accepted**, **rejected**, and **unknown** consent: Vercel still fires; GA fires only when accepted (and production gates allow).
+
+### 6.2 Primary vocabulary (PR 1)
+
+| Canonical name | Reconciles with | Vercel properties (prefer ≤2; Plus only when justified) | Purpose |
+|----------------|-----------------|--------------------------------------------------------|---------|
+| `corpus_navigation` | existing Vercel event | Default: `from_type`, `to_type`, `relation` (3 — Plus-dependent). **Fallback** if Plus unavailable: `edge` (`source>chapter`) + `relation`. Optional **PR 1 spike outcome**: add privacy-safe `to_id` (stable chapter/book id) only on source/thinker → chapter/book edges — see §6.5 | Type-level graph navigation; specific-target only if spike requires `to_id` |
 | `chapter_open` | GA `chapter_open` | `book_id`, `chapter_id` | Chapter opened |
-| `chapter_advance` | GA `next_chapter` | `book_id`, `from_chapter_id` (encode `to` in a second prop only if needed) | Continue to next chapter |
+| `chapter_advance` | GA `next_chapter` | **Must support destination insight:** prefer `from_chapter_id` + `to_chapter_id` (2 props; drop redundant `book_id` on Vercel if needed — book is implied by chapter id prefix / subsequent path). Do **not** ship `book_id` + `from_chapter_id` alone and claim chapter-to-chapter transitions | Continue to next chapter |
 | `book_download` | GA `file_download` (book formats) | `book_id`, `format` | Download EPUB/PDF/DOCX/etc. |
-| `reader_audio_started` | Vercel `listen_started` | `location`, `media_type` | Chapter audio started |
+| `reader_audio_started` | Vercel `listen_started` | Prefer `book_id` + `chapter_id` (or prove event `requestPath` reliably identifies the chapter). Constant-only `location`/`media_type` are **insufficient** to distinguish which book was heard | Chapter audio started |
 | `reading_path_started` | GA `question_path_start` / `trail_path_start` | `path_kind` (`question`\|`trail`), `path_id` | Exploration path started |
 
-### 6.2 Privacy constraints (non-negotiable)
+During parallel measurement, GA may keep existing names (`next_chapter`, `file_download`, `listen_started` emit shape) while the facade uses canonical names toward Vercel.
+
+### 6.3 Privacy constraints (non-negotiable)
 
 - Never transmit manuscript text, titles as free text, summaries, raw search queries, personal information, or arbitrary URLs.
 - Use normalized content types, stable IDs, and bounded enums/buckets only.
 - Tracking failures must never block navigation, downloads, or playback (preserve try/catch / best-effort pattern).
 - Preview vs production must remain distinguishable in queries (`environment` dimension).
 
-### 6.3 High-cardinality avoidance
+### 6.4 High-cardinality avoidance
 
 - Do not put full paths, referrer URLs, or query strings in custom properties (use automatic visit dimensions instead).
-- Prefer type enums on `corpus_navigation` over per-entity IDs unless PR 3 shows path aggregates are insufficient for source→chapter editorial evaluation.
+- Do not over-collect all navigation; prefer meaningful edges (especially source/thinker → book/chapter from semantic enrichment).
 - Search (if ported): keep existing length/result/rank **buckets** only.
 
-### 6.4 Reusable instrumentation to keep
+### 6.5 PR 1 validation spike — source/thinker → specific chapter
+
+**Problem:** Today’s `corpus_navigation` proves only *type-level* navigation (e.g. `source`→`chapter`). It does **not** prove which chapter was selected from a particular source page. Pageview co-occurrence across paths also does **not** establish that click relationship.
+
+**Spike (acceptance gate inside PR 1, before declaring editorial attribution solved):**
+
+1. Query production (or preview with known fixtures) Vercel **events** and **visits** APIs: combine origin page context where available with `eventName eq 'corpus_navigation'` and `eventData/*`, plus `requestPath` / `route` aggregates for source, thinker, book, and chapter families.
+2. Document what is and is not attributable with type-only properties.
+3. If the editorial question (“this source → this chapter”) still cannot be answered, propose a **minimal** addition:
+   - Privacy-safe `to_id` (stable semantic chapter or book id) on the relevant source/thinker → chapter/book events only — **not** arbitrary URLs, titles, or all-nav tracking.
+   - Explicit property-budget tradeoff: adding `to_id` may require dropping one of `from_type` / `to_type` / `relation`, encoding an `edge` string, or confirming Plus (8 props) after billing re-check.
+4. Default reporting language until the spike lands: **type-level only**.
+
+### 6.6 Reusable instrumentation to keep
 
 | Path | Role in PR 1+ |
 |------|----------------|
-| `CorpusNavigationRegion` | Keep; route through facade |
-| `RecordChapterOpen`, `ChapterAdjacentNav` | Dual-write via facade |
+| `CorpusNavigationRegion` | Keep; route through facade once (no duplicate direct Vercel call) |
+| `RecordChapterOpen`, `ChapterAdjacentNav` | Dual-write via facade; advance must carry destination chapter for Vercel |
 | Reader / overview download handlers | Dual-write book downloads |
-| Chapter audio player / listen library | Align names; keep isolation |
+| Chapter audio player / listen library | Align names; ensure book/chapter identifiable; keep isolation |
 | Question/trail path analytics beacons | Emit `reading_path_started` |
 | `TrackedLink` | Remains GA-oriented during parallel run; do not duplicate blindly onto Vercel |
-| Consent stack | Unchanged until PR 4 |
+| Consent stack | Behavior unchanged for GA gating; privacy **copy** updated in PR 1 (see §7) |
 
 ---
 
@@ -242,11 +275,11 @@ Components call a **typed facade** (provider-agnostic). During parallel measurem
 
 | Topic | Current state | Migration implication |
 |-------|---------------|------------------------|
-| GA4 | Consent Mode deny-until-Accept; cookie banner | Keep through PR 3 |
-| Vercel Web Analytics | Always loaded; no consent gate in app code | Document as first-party / platform analytics; legal review in PR 4 |
-| Speed Insights | Always loaded | Performance metrics; disclose alongside Web Analytics |
-| Privacy page | GA4 only | Update disclosure when behavior is intentional (earliest honest fix may land with PR 1 docs or a small privacy PR; full banner decision in PR 4) |
-| Cookie banner after GA4 retirement | Unknown | **Decide explicitly in PR 4** based on remaining tech + applicable law — do not assume cookie-free analytics eliminates every notice obligation |
+| GA4 | Consent Mode deny-until-Accept; cookie banner | Keep through PR 3; cookie choice continues to control GA4 |
+| Vercel Web Analytics | Always loaded; no consent gate in app code | Remains ungated during parallel measurement; **disclose accurately** |
+| Speed Insights | Always loaded | Disclose alongside Web Analytics |
+| Privacy page / cookie banner copy | Implies analytics off by default / clearing `ac_cookie_consent` stops analytics | **Inaccurate for deployed tracking.** Schedule a small, accurate copy fix **at the start of PR 1**, or as a separate immediate privacy PR before other PR 1 instrumentation. State clearly: cookie choice controls GA4; Vercel Web Analytics and Speed Insights collect aggregate first-party metrics regardless of that choice (until a future legal decision changes that) |
+| Cookie banner after GA4 retirement | Unknown | **Decide explicitly in PR 4** after legal/privacy review — do not assume cookie-free analytics eliminates every notice obligation |
 
 ---
 
@@ -256,8 +289,8 @@ Components call a **typed facade** (provider-agnostic). During parallel measurem
 |-------------|-------|
 | Pageviews | Automatic; largest volume; avoid fake SPA double-counting |
 | Custom events | Each `track()` counts; keep the primary vocabulary small |
-| Web Analytics Plus | ~$10/mo team add-on; enables 8 properties, 24-month window, UTM |
-| Pro metered events | Roughly $0.03 / 1K events after included credit behavior — monitor Usage dashboard during parallel measurement |
+| Web Analytics Plus | ~$10/mo team add-on per public docs; enables 8 properties, 24-month window, UTM — **re-verify entitlement before PR 1** (see §4) |
+| Pro metered events | Roughly $0.03 / 1K events per public docs — monitor Usage dashboard during parallel measurement |
 | GA4 | Free tier usage today; cost of **operational complexity** and consent surface more than dollars |
 
 **Do not** introduce a data warehouse or third-party analytics provider without a clear need and approval.
@@ -318,9 +351,12 @@ Small Python and/or shell clients (repo-local) producing Markdown and optional J
 
 ### Gate 1 — Instrumentation
 
-- Core events fire once per intended action
-- GA4 still works
-- Vercel payloads respect property limits
+- Core events fire once per intended action (both consent-accepted and consent-rejected/unknown)
+- GA4 still works and remains consent-gated; Vercel customs are not suppressed by GA consent
+- Privacy/cookie copy accurately describes which tools the cookie controls (start of PR 1 or preceding privacy PR)
+- Source→chapter attribution spike completed and documented (§6.5); type-level vs `to_id` decision recorded
+- `chapter_advance` and `reader_audio_started` properties (or proven path dimensions) support the stated reader outcomes
+- Vercel payloads respect confirmed property limits after Plus re-check
 - Automated tests pass
 - Production verification instructions included
 
@@ -370,7 +406,7 @@ Only after Gate 3 approval. Remove GA runtime completely; update privacy, CSP, e
 | PR | Branch | Base | Deliverables | Behavior change? |
 |----|--------|------|--------------|------------------|
 | **0** | `docs/vercel-reader-analytics-migration` | `main` | This plan + roadmap index registration | **No** |
-| **1** | `feat/vercel-reader-instrumentation` | latest `main` after PR 0 merges | Typed facade; dual-write primary events; tests; verification notes | Yes (additive) |
+| **1** | `feat/vercel-reader-instrumentation` | latest `main` after PR 0 merges | Accurate privacy/cookie copy first (or prior privacy PR); typed facade with consent-split dispatch; dual-write primary events; §6.5 attribution spike; tests (incl. consent states); verification notes | Yes (additive + copy) |
 | **2** | `feat/vercel-reader-analytics-reporting` | latest `main` after PR 1 merges | API client, brief scripts, `reader-analytics` skill, tests | Reporting only |
 | **3** | `test/vercel-reader-analytics-parity` | latest `main` after PR 2 merges | Validation artifacts + decision report | Docs/artifacts; no GA removal |
 | **4** | `chore/retire-ga4` | latest `main` after PR 3 **approved** | Remove GA4; privacy/CSP/consent decision; skill cleanup | Yes (destructive) |
@@ -390,12 +426,16 @@ Only after Gate 3 approval. Remove GA runtime completely; update privacy, CSP, e
 
 ### PR 1 acceptance criteria (preview)
 
-- Core reader events fire once per intended action  
+- Privacy/cookie copy states that the cookie controls GA4 and that Vercel Web Analytics / Speed Insights are separate always-on aggregate tools (until a later legal decision)  
+- Typed facade dispatches Vercel independently of GA consent; GA remains gated  
+- Core reader events fire once per intended action in accepted **and** rejected/unknown consent tests (no duplicate `corpus_navigation` / audio events)  
 - Existing GA4 functionality preserved  
-- Vercel custom-event payloads satisfy plan limits  
+- §6.5 spike documents what source/thinker → specific chapter measurement can prove; if `to_id` is required, schema + property-budget tradeoff is explicit  
+- `chapter_advance` includes destination chapter (property or proven `requestPath`); `reader_audio_started` can distinguish books/chapters  
+- Vercel custom-event payloads satisfy confirmed plan limits  
 - Automated tests pass  
 - Production verification instructions included  
-- Validate source→chapter and thinker→chapter links from semantic enrichment still emit `corpus_navigation` once  
+- Source→chapter and thinker→chapter links from semantic enrichment emit `corpus_navigation` once via the facade  
 
 ### PR 2 acceptance criteria (preview)
 
@@ -468,10 +508,10 @@ Only after Gate 3 approval. Remove GA runtime completely; update privacy, CSP, e
 
 ## 15. Immediate next step
 
-After this PR (PR 0) is reviewed and merged:
+After this PR (PR 0) is reviewed and merged **by the owner**:
 
-1. Open **PR 1** on `feat/vercel-reader-instrumentation` from latest `main`.  
-2. Implement the typed facade and dual-write for the six primary events.  
+1. Open **PR 1** on `feat/vercel-reader-instrumentation` from latest `main` (or a tiny privacy-copy PR immediately before it).  
+2. Fix privacy/cookie disclosure; implement the consent-split facade; run the §6.5 attribution spike; dual-write primary events with property-sufficient shapes.  
 3. Do **not** start PR 2–4 until their prerequisites and gates are satisfied.
 
 ---
@@ -481,3 +521,4 @@ After this PR (PR 0) is reviewed and merged:
 | Date | Change |
 |------|--------|
 | 2026-10-17 | PR 0: initial architecture, inventory, schema, gates, and PR sequence from live code + Vercel entitlement probe |
+| 2026-10-17 | PR 0 follow-up: review clarifications — source→chapter attribution spike; consent-split facade + tests; early privacy-copy fix; `chapter_advance` / audio property sufficiency; Plus treated as dated observation |
