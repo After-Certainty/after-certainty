@@ -11,23 +11,23 @@ bibliography-only and keyword overlap never count as verified passages.
 - Total sources scanned: **714**
 - With `readerPassagePath`: **45**
 - Structurally valid + fragment-checked paths: **45**
-- Verified link + mechanically tied citation (level A): **41**
-- Mechanical footnote candidates (level B / strong_candidate): **597**
-- Path present but needs editorial review: **4**
+- Verified link + mechanically tied citation (level A): **43**
+- Mechanical footnote candidates (level B / strong_candidate): **596**
+- Path present but needs editorial review: **2**
 - Fragment check skipped (unverified): **0**
 - Invalid passage links: **0**
-- Missing path but footnote-cited: **597**
+- Missing path but footnote-cited: **596**
 - Bibliography only (level D): **54**
-- Tied-citation (level A) coverage: **5.74%**
+- Tied-citation (level A) coverage: **6.02%**
 - `whyThisMatters` present/substantive: **45**
 
 Level A means a public path whose fragment is the matched citation invocation — a *mechanical* condition, not editorial approval of philosophical relevance. All newly proposed connections still need editorial review before YAML enrichment.
 
 Evidence levels:
 
-- A: 41
-- B: 601
-- C: 0
+- A: 43
+- B: 598
+- C: 1
 - D: 54
 - E: 18
 
@@ -40,9 +40,9 @@ Evidence levels:
 Evidence levels:
 
 - A: 47
-- B: 546
+- B: 545
 - C: 0
-- D: 50
+- D: 51
 - E: 0
 
 ## Unresolved / invalid passage links
@@ -84,8 +84,6 @@ _None._
 - **B** `blackpast-black-panther-party-s-free-breakfast-program-1969-1980` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-usda`
 - **B** `board-of-governors-of-the-federal-reserve-system-financial-stability-report` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-aggregate`
 - **B** `board-of-governors-of-the-federal-reserve-system-report-on-the-economic-well-being-of-u-s-househ` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-economy-we-dont-experience/chapters/front-matter-introduction-the-chart-and-the-receipt#user-content-fnref-intro-shed`
-- **B** `board-of-governors-of-the-federal-reserve-system-supervisory-bank-stress-test-results-and-relate` — path_valid_shared_or_ambiguous_citation; action `editorial_confirm_passage_relevance`; candidate `/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-stress-tests`
-- **B** `board-of-governors-of-the-federal-reserve-system-transcript-of-chair-powell-s-press-conference` — path_valid_shared_or_ambiguous_citation; action `editorial_confirm_passage_relevance`; candidate `/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world#user-content-fnref-c6-powell-soft-landing`
 - **B** `boehm-christopher-hierarchy-in-the-forest-the-evolution-of` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-early-moral-anthropology`
 - **B** `boss-pauline-ambiguous-loss-learning-to-live-with-unresolved-grief` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-2-the-cost-of-explanation#user-content-fnref-c2-analysis-paralysis`
 - **B** `bowlby-john-attachment-and-loss` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-5-the-archive-in-the-kitchen#user-content-fnref-c5-bowlby-attachment-loss`
@@ -101,7 +99,9 @@ _None._
 - **B** `brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-7-the-question-that-becomes-disloyalty#user-content-fnref-c7-brown-farrell`
 - **B** `brown-judith-m-gandhi-prisoner-of-hope` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-1`
 - **B** `brown-judith-m-gandhi-s-rise-to-power-indian-politics-1915-1922` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-10`
-- … and 551 more (see JSON).
+- **B** `brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-public-health`
+- **B** `bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-close`
+- … and 549 more (see JSON).
 
 ## Verified link + mechanically tied citation examples (level A)
 
@@ -135,7 +135,7 @@ _None._
 - `ben-s-bernanke`: `bernanke-ben-s-the-courage-to-act-a-memoir-of-a-crisis-and-its-aftermath` → `/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world#user-content-fnref-c6-bernanke`
 - `benedict-anderson`: `anderson-benedict-imagined-communities-reflections-on-the-origin-and-spread-of-nationalism` → `/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined`
 - `betsy-beyer`: `beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin` → `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-pager-loop`
-- `board-of-governors-of-the-federal-reserve-system`: `board-of-governors-of-the-federal-reserve-system-beige-book-summary-of-commentary-on-current-eco` → `/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-beige`, `board-of-governors-of-the-federal-reserve-system-summary-of-economic-projections` → `/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-fomc`
+- `board-of-governors-of-the-federal-reserve-system`: `board-of-governors-of-the-federal-reserve-system-beige-book-summary-of-commentary-on-current-eco` → `/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-beige`, `board-of-governors-of-the-federal-reserve-system-summary-of-economic-projections` → `/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-fomc`, `board-of-governors-of-the-federal-reserve-system-supervisory-bank-stress-test-results-and-relate` → `/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-stress-tests`, `board-of-governors-of-the-federal-reserve-system-transcript-of-chair-powell-s-press-conference` → `/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world#user-content-fnref-c6-powell-soft-landing`
 - `c-w-anderson`: `anderson-c-w-rebuilding-the-news-metropolitan-journalism-in-the-digital-age` → `/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-19-media-and-algorithmic-coupling#user-content-fnref-c19-editorial`
 - `charles-a-e-goodhart`: `goodhart-charles-a-e-problems-of-monetary-management-the-u-k` → `/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-3-effectiveness#user-content-fnref-c3-goodhart-monetary-management`
 - `chris-argyris`: `argyris-chris-and-donald-a-schon-organizational-learning-ii` → `/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-7-effectiveness-and-its-illusions#user-content-fnref-c7-performance-paradox`, `argyris-chris-on-organizational-learning` → `/explore/books/when-accountability-no-longer-expires/chapters/parts-part-3-learning-without-resolution-chapter-6-adaptation-is-not-renewal#user-content-fnref-c6-argyris-reform`

@@ -1,9 +1,8 @@
 slug: arthur-w-brian-increasing-returns-and-path-dependence-in-the-economy
 name: W. Brian Arthur — Increasing Returns and Path Dependence in the Economy.
-type: article
-summary: 'Arthur, W. Brian. "Increasing Returns and Path Dependence in the Economy."
-  In The Economy as an Evolving Complex System II, edited by W. Brian Arthur, Steven
-  N. Durlauf, and David A. Lane, 1–24. Reading, MA: Addison-Wesley, 1997.'
+type: book
+summary: 'Arthur, W. Brian. Increasing Returns and Path Dependence in the Economy.
+  Ann Arbor: University of Michigan Press, 1994.'
 concepts: []
 patterns: []
 relatedBooks:
@@ -19,8 +18,7 @@ creatorNames:
 - W. Brian Arthur
 creatorSlugs:
 - w-brian-arthur
-citation: 'Arthur, W. Brian. "Increasing Returns and Path Dependence in the Economy."
-  In The Economy as an Evolving Complex System II, edited by W. Brian Arthur, Steven
-  N. Durlauf, and David A. Lane, 1–24. Reading, MA: Addison-Wesley, 1997.'
-sourceKind: article
-year: 1997
+citation: 'Arthur, W. Brian. Increasing Returns and Path Dependence in the Economy.
+  Ann Arbor: University of Michigan Press, 1994.'
+sourceKind: book
+year: 1994

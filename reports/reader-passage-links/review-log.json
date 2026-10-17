@@ -303,13 +303,14 @@
     },
     "source:arthur-w-brian-increasing-returns-and-path-dependence-in-the-economy:/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-arthur-lock-in": {
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-arthur-lock-in",
+      "editorialApproval": true,
       "entityKind": "source",
-      "evidenceLevel": "A",
-      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "evidenceLevel": "B",
+      "note": "PR4 review fix: corrected bibliographic identity to Arthur 1994 Michigan Press book (was misattributed to 1997 Evolving Complex System II). Mechanical evidence remains B (shared_footnote_with Pierson increasing-returns note). Editorial approval of Arthur-only footnote text + Living in Sediment lock-in locus.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week",
       "slug": "arthur-w-brian-increasing-returns-and-path-dependence-in-the-economy",
       "status": "applied",
-      "updatedAt": "2026-10-17T22:12:48Z"
+      "updatedAt": "2026-10-17T22:30:24Z"
     },
     "source:baier-annette-c-trust-and-antitrust:/explore/books/how-trust-forms/chapters/front-matter-introduction-how-trust-forms#user-content-fnref-intro-baier-vulnerability": {
       "candidatePath": "/explore/books/how-trust-forms/chapters/front-matter-introduction-how-trust-forms#user-content-fnref-intro-baier-vulnerability",
@@ -375,11 +376,11 @@
       "candidatePath": "/explore/books/when-accountability-no-longer-expires/chapters/parts-part-2-harm-after-accountability-chapter-4-the-distribution-of-suffering#user-content-fnref-c4-bauman-distance",
       "entityKind": "source",
       "evidenceLevel": "A",
-      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "note": "PR4 review fix (optional): moved [^c4-bauman-distance] onto the allocation/distance sentence; left Vaughan on \u201cappear stable.\u201d",
       "routeKey": "/explore/books/when-accountability-no-longer-expires/chapters/parts-part-2-harm-after-accountability-chapter-4-the-distribution-of-suffering",
       "slug": "bauman-zygmunt-modernity-and-the-holocaust",
       "status": "applied",
-      "updatedAt": "2026-10-17T22:12:48Z"
+      "updatedAt": "2026-10-17T22:30:24Z"
     },
     "source:bebchuk-lucian-a-and-scott-hirst-index-funds-and-the-future-of-corporate-governance-theory-evide:/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-proxy": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-proxy",
@@ -535,21 +536,21 @@
       "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-stress-tests",
       "entityKind": "source",
       "evidenceLevel": "A",
-      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "note": "PR4 review fix: narrowed [^c8-stress-tests] to Fed supervisory stress-test disclosures only (removed FSB and Financial Stability Report co-cites). Mechanical A after re-audit.",
       "routeKey": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail",
       "slug": "board-of-governors-of-the-federal-reserve-system-supervisory-bank-stress-test-results-and-relate",
       "status": "applied",
-      "updatedAt": "2026-10-17T22:12:48Z"
+      "updatedAt": "2026-10-17T22:30:24Z"
     },
     "source:board-of-governors-of-the-federal-reserve-system-transcript-of-chair-powell-s-press-conference:/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world#user-content-fnref-c6-powell-soft-landing": {
       "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world#user-content-fnref-c6-powell-soft-landing",
       "entityKind": "source",
       "evidenceLevel": "A",
-      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "note": "PR4 review fix: narrowed [^c6-powell-soft-landing] to Fed transcript only (Reuters headline remains in body prose). Mechanical A after re-audit.",
       "routeKey": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world",
       "slug": "board-of-governors-of-the-federal-reserve-system-transcript-of-chair-powell-s-press-conference",
       "status": "applied",
-      "updatedAt": "2026-10-17T22:12:48Z"
+      "updatedAt": "2026-10-17T22:30:24Z"
     },
     "source:boehm-barry-w-software-engineering-economics:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression#user-content-fnref-c10-late-detection": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression#user-content-fnref-c10-late-detection",
@@ -565,11 +566,11 @@
       "candidatePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-index",
       "entityKind": "source",
       "evidenceLevel": "A",
-      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "note": "PR4 review fix: rewritten whyThisMatters so Bogle is not described as criticizing indexing; separates stewardship argument from Coupling\u2019s informational-distance inference.",
       "routeKey": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion",
       "slug": "bogle-john-c-the-clash-of-the-cultures-investment-vs-speculation",
       "status": "applied",
-      "updatedAt": "2026-10-17T22:12:48Z"
+      "updatedAt": "2026-10-17T22:30:24Z"
     },
     "source:bowen-murray-family-therapy-in-clinical-practice:/explore/books/when-authority-outlives-accountability/chapters/parts-part-2-integration-and-use-chapter-6-leadership-at-human-scale#user-content-fnref-c6-bowen-family-therapy-in": {
       "candidatePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-2-integration-and-use-chapter-6-leadership-at-human-scale#user-content-fnref-c6-bowen-family-therapy-in",

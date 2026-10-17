@@ -116,7 +116,7 @@ Guardrails are remembered as obstacles until the road disappears.
 
 [^c8-composite]: The manufacturer and related business scenes in this chapter are composites constructed to illustrate recurring interactions among bank stability, credit conditions, employment, and small-business decision-making. They are not presented as documentary accounts of a single identifiable company. Silicon Valley Bank and Signature Bank are discussed as documented bank failures, not as part of the composite.
 
-[^c8-stress-tests]: Board of Governors of the Federal Reserve System, annual stress-test results, supervisory reports, and *Financial Stability Report* releases, 2011–2024; Financial Stability Board, “Post-2008 Financial Crisis Reforms,” overview page.
+[^c8-stress-tests]: Board of Governors of the Federal Reserve System, *Supervisory Bank Stress Test Results* and related Dodd-Frank Act stress-test disclosures, 2011–2024.
 
 [^c8-aggregates]: U.S. Bureau of Labor Statistics, *The Employment Situation* and Consumer Price Index releases, 2020–2024; Board of Governors of the Federal Reserve System, *Report on the Economic Well-Being of U.S. Households* releases, 2022–2024; Board of Governors of the Federal Reserve System, *Financial Stability Report*, May 2023 and November 2023.
 

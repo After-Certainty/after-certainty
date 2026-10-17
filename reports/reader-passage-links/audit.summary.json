@@ -404,7 +404,7 @@
     {
       "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-aggregate",
       "evidenceLevel": "B",
-      "footnoteHitCount": 5,
+      "footnoteHitCount": 4,
       "notes": [
         "shared_or_ambiguous_footnote",
         "missing_or_weak_whyThisMatters"
@@ -425,32 +425,6 @@
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "board-of-governors-of-the-federal-reserve-system-report-on-the-economic-well-being-of-u-s-househ",
       "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-stress-tests",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "fragment_tied_but_shared_or_ambiguous",
-        "shared_footnote_with:board-of-governors-of-the-federal-reserve-system-financial-stability-report"
-      ],
-      "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-stress-tests",
-      "recommendedAction": "editorial_confirm_passage_relevance",
-      "slug": "board-of-governors-of-the-federal-reserve-system-supervisory-bank-stress-test-results-and-relate",
-      "status": "path_valid_shared_or_ambiguous_citation"
-    },
-    {
-      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world#user-content-fnref-c6-powell-soft-landing",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "fragment_tied_but_shared_or_ambiguous",
-        "shared_footnote_with:schneider-howard-powell-says-soft-landing-not-baseline-but-it-s-sure-in-the-forecast"
-      ],
-      "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world#user-content-fnref-c6-powell-soft-landing",
-      "recommendedAction": "editorial_confirm_passage_relevance",
-      "slug": "board-of-governors-of-the-federal-reserve-system-transcript-of-chair-powell-s-press-conference",
-      "status": "path_valid_shared_or_ambiguous_citation"
     },
     {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-early-moral-anthropology",
@@ -638,6 +612,31 @@
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "brown-judith-m-gandhi-s-rise-to-power-indian-politics-1915-1922",
       "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-public-health",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-close",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 2,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california",
+      "status": "strong_candidate"
     }
   ],
   "thinkersWithDerivablePassages": [
@@ -732,6 +731,18 @@
           "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-fomc",
           "sourceSlug": "board-of-governors-of-the-federal-reserve-system-summary-of-economic-projections",
           "whyThisMatters": "The Summary of Economic Projections collects differing policymaker estimates under conditional assumptions rather than one institutional prophecy. The Economy We Don\u2019t Experience treats that form as a reminder: credible guidance often begins with ranges and ifs, not a single promised path."
+        },
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-stress-tests",
+          "sourceSlug": "board-of-governors-of-the-federal-reserve-system-supervisory-bank-stress-test-results-and-relate",
+          "whyThisMatters": "Supervisory stress tests and related safeguards exist partly to keep one institution\u2019s failure from cascading. The Economy We Don\u2019t Experience presses the narrative problem: when guardrails work, the public result is often the absence of drama\u2014and absence is hard to feel as success."
+        },
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world#user-content-fnref-c6-powell-soft-landing",
+          "sourceSlug": "board-of-governors-of-the-federal-reserve-system-transcript-of-chair-powell-s-press-conference",
+          "whyThisMatters": "Powell\u2019s press-conference language holds soft-landing possibility alongside conditions outside the Fed\u2019s control. The Economy We Don\u2019t Experience uses the Reuters compression of that exchange to show how institutional conditionality becomes a one-sentence public object."
         }
       ]
     },
@@ -944,7 +955,7 @@
           "evidenceLevel": "A",
           "readerPassagePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-index",
           "sourceSlug": "bogle-john-c-the-clash-of-the-cultures-investment-vs-speculation",
-          "whyThisMatters": "Bogle\u2019s critique of indexing versus ownership attention warns that diversification can thin feedback from how companies are actually run. Coupling names the resulting pattern: financially connected ownership that remains informationally distant from operational redesign."
+          "whyThisMatters": "Bogle argues for long-term investment and stewardship over speculation, and criticizes institutional owners who fail that fiduciary test. Coupling takes a related structural step: even sound diversified ownership can leave firm-level operational consequence informationally distant from those who hold the claim."
         }
       ]
     },
@@ -1203,6 +1214,16 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-stress-tests",
+      "slug": "board-of-governors-of-the-federal-reserve-system-supervisory-bank-stress-test-results-and-relate",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world#user-content-fnref-c6-powell-soft-landing",
+      "slug": "board-of-governors-of-the-federal-reserve-system-transcript-of-chair-powell-s-press-conference",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression#user-content-fnref-c10-late-detection",
       "slug": "boehm-barry-w-software-engineering-economics",
       "status": "verified_link_tied_citation"
@@ -1237,30 +1258,30 @@
     "sources": {
       "bibliographyOnly": 54,
       "byEvidenceLevel": {
-        "A": 41,
-        "B": 601,
-        "C": 0,
+        "A": 43,
+        "B": 598,
+        "C": 1,
         "D": 54,
         "E": 18
       },
       "invalidPassageLinks": 0,
-      "mechanicalFootnoteCandidates": 597,
-      "missingPathWithFootnote": 597,
-      "pathNeedsEditorialReview": 4,
-      "tiedCitationCoveragePct": 5.74,
+      "mechanicalFootnoteCandidates": 596,
+      "missingPathWithFootnote": 596,
+      "pathNeedsEditorialReview": 2,
+      "tiedCitationCoveragePct": 6.02,
       "total": 714,
       "unverifiedFragmentLinks": 0,
       "validPassageLinks": 45,
-      "verifiedLinkTiedCitation": 41,
+      "verifiedLinkTiedCitation": 43,
       "whyThisMattersOk": 45,
       "withReaderPassagePath": 45
     },
     "thinkers": {
       "byEvidenceLevel": {
         "A": 47,
-        "B": 546,
+        "B": 545,
         "C": 0,
-        "D": 50,
+        "D": 51,
         "E": 0
       },
       "total": 643,
