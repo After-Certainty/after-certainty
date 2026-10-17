@@ -156,7 +156,7 @@ It establishes something more precise:
 > Harm is not only produced. It is **allocated**.
 
 Once legitimacy is secure, systems can allow suffering to continue as
-long as it is borne by those least able to interrupt authority.
+long as it is borne by those least able to interrupt authority.[^c4-bauman-distance]
 
 That allocation explains why some harms provoke action while others
 persist for years without resolution.
@@ -169,7 +169,7 @@ and expectations shift without collapse or confession.
 
 When suffering is managed this way, institutions do not appear immoral.
 
-They appear stable.[^c4-vaughan-challenger][^c4-bauman-distance]
+They appear stable.[^c4-vaughan-challenger]
 
 
 

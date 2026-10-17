@@ -80,4 +80,4 @@ History has not disappeared. It has simply learned to sound like everyday conver
 
 [^c1-david-qwerty]: See Paul A. David, "Clio and the Economics of QWERTY," *American Economic Review* 75, no. 2 (1985): 332–337; W. Brian Arthur, "Competing Technologies, Increasing Returns, and Lock-In by Historical Events," *Economic Journal* 99, no. 394 (1989): 116–131.
 
-[^c1-arthur-lock-in]: See W. Brian Arthur, "Increasing Returns and Path Dependence in the Economy," in *The Economy as an Evolving Complex System II*, ed. W. Brian Arthur, Steven N. Durlauf, and David A. Lane (Reading, MA: Addison-Wesley, 1997).
+[^c1-arthur-lock-in]: See W. Brian Arthur, *Increasing Returns and Path Dependence in the Economy* (Ann Arbor: University of Michigan Press, 1994).

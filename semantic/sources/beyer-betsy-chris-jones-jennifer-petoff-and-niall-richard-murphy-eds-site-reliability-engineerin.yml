@@ -10,6 +10,12 @@ patterns: []
 relatedBooks:
 - coupling
 - how-serious-systems-learn
+whyThisMatters: >-
+  The SRE handbook treats incidents as prompts to improve detection, deployment,
+  and rollback—not only to restore service once. Coupling uses the pager loop to
+  show operational coupling returning: the valuable work is making the next
+  failure cheaper to see and reverse.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-pager-loop
 title: 'Site Reliability Engineering: How Google Runs Production Systems'
 creatorNames:
 - Betsy Beyer, Chris Jones, Jennifer Petoff, and Niall Richard Murphy

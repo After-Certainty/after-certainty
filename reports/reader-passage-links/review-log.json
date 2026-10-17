@@ -301,6 +301,27 @@
       "status": "applied",
       "updatedAt": "2026-10-17T16:14:37Z"
     },
+    "source:arthur-w-brian-increasing-returns-and-path-dependence-in-the-economy:/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-arthur-lock-in": {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-arthur-lock-in",
+      "editorialApproval": true,
+      "entityKind": "source",
+      "evidenceLevel": "B",
+      "note": "PR4 review fix: corrected bibliographic identity to Arthur 1994 Michigan Press book (was misattributed to 1997 Evolving Complex System II). Mechanical evidence remains B (shared_footnote_with Pierson increasing-returns note). Editorial approval of Arthur-only footnote text + Living in Sediment lock-in locus.",
+      "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week",
+      "slug": "arthur-w-brian-increasing-returns-and-path-dependence-in-the-economy",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:30:24Z"
+    },
+    "source:baier-annette-c-trust-and-antitrust:/explore/books/how-trust-forms/chapters/front-matter-introduction-how-trust-forms#user-content-fnref-intro-baier-vulnerability": {
+      "candidatePath": "/explore/books/how-trust-forms/chapters/front-matter-introduction-how-trust-forms#user-content-fnref-intro-baier-vulnerability",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/how-trust-forms/chapters/front-matter-introduction-how-trust-forms",
+      "slug": "baier-annette-c-trust-and-antitrust",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
     "source:bandura-albert-social-learning-theory:/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-modeling-and-signals": {
       "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-modeling-and-signals",
       "entityKind": "source",
@@ -311,6 +332,16 @@
       "status": "applied",
       "updatedAt": "2026-10-17T21:38:13Z"
     },
+    "source:barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-team-cohesion": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-team-cohesion",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials",
+      "slug": "barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
     "source:baron-jonathan-and-john-c-hershey-outcome-bias-in-decision:/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-1-why-leadership-evaluation-fails#user-content-fnref-c1-hershey-outcome-bias-in": {
       "candidatePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-1-why-leadership-evaluation-fails#user-content-fnref-c1-hershey-outcome-bias-in",
       "entityKind": "source",
@@ -320,6 +351,276 @@
       "slug": "baron-jonathan-and-john-c-hershey-outcome-bias-in-decision",
       "status": "applied",
       "updatedAt": "2026-10-17T21:38:13Z"
+    },
+    "source:barrett-lisa-feldman-how-emotions-are-made-the-secret-life-of-the-brain:/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-1-before-the-words#user-content-fnref-c1-barrett-how-emotions-are-made": {
+      "candidatePath": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-1-before-the-words#user-content-fnref-c1-barrett-how-emotions-are-made",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-1-before-the-words",
+      "slug": "barrett-lisa-feldman-how-emotions-are-made-the-secret-life-of-the-brain",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:bartels-larry-m-beyond-the-running-tally-partisan-bias-in-political-perceptions:/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-7-what-elections-can-reject#user-content-fnref-c7-bartels": {
+      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-7-what-elections-can-reject#user-content-fnref-c7-bartels",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-7-what-elections-can-reject",
+      "slug": "bartels-larry-m-beyond-the-running-tally-partisan-bias-in-political-perceptions",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:bauman-zygmunt-modernity-and-the-holocaust:/explore/books/when-accountability-no-longer-expires/chapters/parts-part-2-harm-after-accountability-chapter-4-the-distribution-of-suffering#user-content-fnref-c4-bauman-distance": {
+      "candidatePath": "/explore/books/when-accountability-no-longer-expires/chapters/parts-part-2-harm-after-accountability-chapter-4-the-distribution-of-suffering#user-content-fnref-c4-bauman-distance",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 review fix (optional): moved [^c4-bauman-distance] onto the allocation/distance sentence; left Vaughan on \u201cappear stable.\u201d",
+      "routeKey": "/explore/books/when-accountability-no-longer-expires/chapters/parts-part-2-harm-after-accountability-chapter-4-the-distribution-of-suffering",
+      "slug": "bauman-zygmunt-modernity-and-the-holocaust",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:30:24Z"
+    },
+    "source:bebchuk-lucian-a-and-scott-hirst-index-funds-and-the-future-of-corporate-governance-theory-evide:/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-proxy": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-proxy",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion",
+      "slug": "bebchuk-lucian-a-and-scott-hirst-index-funds-and-the-future-of-corporate-governance-theory-evide",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:beck-ulrich-risk-society-towards-a-new-modernity:/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-6-harm-under-influence#user-content-fnref-c6-risk-distribution": {
+      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-6-harm-under-influence#user-content-fnref-c6-risk-distribution",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-6-harm-under-influence",
+      "slug": "beck-ulrich-risk-society-towards-a-new-modernity",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:beer-stafford-brain-of-the-firm:/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-03-consequence-as-coupling#user-content-fnref-c3-consequence-distance": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-03-consequence-as-coupling#user-content-fnref-c3-consequence-distance",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-03-consequence-as-coupling",
+      "slug": "beer-stafford-brain-of-the-firm",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of:/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-12-the-frictionless-illusion#user-content-fnref-c12-cross-domain": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-12-the-frictionless-illusion#user-content-fnref-c12-cross-domain",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-12-the-frictionless-illusion",
+      "slug": "bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog:/explore/books/how-serious-systems-learn/chapters/parts-part-4-when-disciplines-fail-chapter-12-when-methods-become-myths#user-content-fnref-c12-source-peter-l-berger": {
+      "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-4-when-disciplines-fail-chapter-12-when-methods-become-myths#user-content-fnref-c12-source-peter-l-berger",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/how-serious-systems-learn/chapters/parts-part-4-when-disciplines-fail-chapter-12-when-methods-become-myths",
+      "slug": "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:bernanke-ben-s-the-courage-to-act-a-memoir-of-a-crisis-and-its-aftermath:/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world#user-content-fnref-c6-bernanke": {
+      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world#user-content-fnref-c6-bernanke",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world",
+      "slug": "bernanke-ben-s-the-courage-to-act-a-memoir-of-a-crisis-and-its-aftermath",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:berwick-donald-m-developing-and-testing-changes-in-delivery-of-care:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-06-agile-increasing-cohesion-of-teams#user-content-fnref-c6-nonengineering-vignette": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-06-agile-increasing-cohesion-of-teams#user-content-fnref-c6-nonengineering-vignette",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-06-agile-increasing-cohesion-of-teams",
+      "slug": "berwick-donald-m-developing-and-testing-changes-in-delivery-of-care",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:berwick-donald-m-measuring-surgical-outcomes-for-improvement-was-codman-wrong:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-healthcare": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-healthcare",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling",
+      "slug": "berwick-donald-m-measuring-surgical-outcomes-for-improvement-was-codman-wrong",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-pager-loop": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-pager-loop",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling",
+      "slug": "beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:blackpast-black-panther-party-s-free-breakfast-program-1969-1980:/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-smithsonian": {
+      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-smithsonian",
+      "entityKind": "source",
+      "evidenceLevel": "B",
+      "note": "Archival/program note for BPP breakfast; prefer stronger works this batch.",
+      "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl",
+      "slug": "blackpast-black-panther-party-s-free-breakfast-program-1969-1980",
+      "status": "deferred",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:blackwell-richard-j-galileo-bellarmine-and-the-bible:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-blackwell": {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-blackwell",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see",
+      "slug": "blackwell-richard-j-galileo-bellarmine-and-the-bible",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:blyth-mark-austerity-the-history-of-a-dangerous-idea:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-eurozone": {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-eurozone",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance",
+      "slug": "blyth-mark-austerity-the-history-of-a-dangerous-idea",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:board-of-governors-of-the-federal-reserve-system-beige-book-summary-of-commentary-on-current-eco:/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-beige": {
+      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-beige",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise",
+      "slug": "board-of-governors-of-the-federal-reserve-system-beige-book-summary-of-commentary-on-current-eco",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:board-of-governors-of-the-federal-reserve-system-report-on-the-economic-well-being-of-u-s-househ:/explore/books/the-economy-we-dont-experience/chapters/front-matter-introduction-the-chart-and-the-receipt#user-content-fnref-intro-shed": {
+      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/front-matter-introduction-the-chart-and-the-receipt#user-content-fnref-intro-shed",
+      "entityKind": "source",
+      "evidenceLevel": "B",
+      "note": "Intro SHED cite thinner than chapter Fed loci chosen this batch.",
+      "routeKey": "/explore/books/the-economy-we-dont-experience/chapters/front-matter-introduction-the-chart-and-the-receipt",
+      "slug": "board-of-governors-of-the-federal-reserve-system-report-on-the-economic-well-being-of-u-s-househ",
+      "status": "deferred",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:board-of-governors-of-the-federal-reserve-system-summary-of-economic-projections:/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-fomc": {
+      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-fomc",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise",
+      "slug": "board-of-governors-of-the-federal-reserve-system-summary-of-economic-projections",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:board-of-governors-of-the-federal-reserve-system-supervisory-bank-stress-test-results-and-relate:/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-stress-tests": {
+      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-stress-tests",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 review fix: narrowed [^c8-stress-tests] to Fed supervisory stress-test disclosures only (removed FSB and Financial Stability Report co-cites). Mechanical A after re-audit.",
+      "routeKey": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail",
+      "slug": "board-of-governors-of-the-federal-reserve-system-supervisory-bank-stress-test-results-and-relate",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:30:24Z"
+    },
+    "source:board-of-governors-of-the-federal-reserve-system-transcript-of-chair-powell-s-press-conference:/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world#user-content-fnref-c6-powell-soft-landing": {
+      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world#user-content-fnref-c6-powell-soft-landing",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 review fix: narrowed [^c6-powell-soft-landing] to Fed transcript only (Reuters headline remains in body prose). Mechanical A after re-audit.",
+      "routeKey": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world",
+      "slug": "board-of-governors-of-the-federal-reserve-system-transcript-of-chair-powell-s-press-conference",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:30:24Z"
+    },
+    "source:boehm-barry-w-software-engineering-economics:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression#user-content-fnref-c10-late-detection": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression#user-content-fnref-c10-late-detection",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression",
+      "slug": "boehm-barry-w-software-engineering-economics",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:bogle-john-c-the-clash-of-the-cultures-investment-vs-speculation:/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-index": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-index",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 review fix: rewritten whyThisMatters so Bogle is not described as criticizing indexing; separates stewardship argument from Coupling\u2019s informational-distance inference.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion",
+      "slug": "bogle-john-c-the-clash-of-the-cultures-investment-vs-speculation",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:30:24Z"
+    },
+    "source:bowen-murray-family-therapy-in-clinical-practice:/explore/books/when-authority-outlives-accountability/chapters/parts-part-2-integration-and-use-chapter-6-leadership-at-human-scale#user-content-fnref-c6-bowen-family-therapy-in": {
+      "candidatePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-2-integration-and-use-chapter-6-leadership-at-human-scale#user-content-fnref-c6-bowen-family-therapy-in",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-2-integration-and-use-chapter-6-leadership-at-human-scale",
+      "slug": "bowen-murray-family-therapy-in-clinical-practice",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:bowker-geoffrey-c-and-susan-leigh-star-sorting-things-out-classification-and:/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-12-the-data-double#user-content-fnref-c12-forgetting-default": {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-12-the-data-double#user-content-fnref-c12-forgetting-default",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR4 editorial batch (25): readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-12-the-data-double",
+      "slug": "bowker-geoffrey-c-and-susan-leigh-star-sorting-things-out-classification-and",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:brown-judith-m-gandhi-s-rise-to-power-indian-politics-1915-1922:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-10": {
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-10",
+      "entityKind": "source",
+      "evidenceLevel": "B",
+      "note": "Secondary to Prisoner of Hope locus in same chapter; revisit later.",
+      "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt",
+      "slug": "brown-judith-m-gandhi-s-rise-to-power-indian-politics-1915-1922",
+      "status": "deferred",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:california-african-american-museum-free-breakfast-for-school-children-program:/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-oakland": {
+      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-oakland",
+      "entityKind": "source",
+      "evidenceLevel": "B",
+      "note": "Archival/program note for BPP breakfast; prefer stronger works this batch.",
+      "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl",
+      "slug": "california-african-american-museum-free-breakfast-for-school-children-program",
+      "status": "deferred",
+      "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:campbell-donald-t-assessing-the-impact-of-planned-social-change:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-goodhart": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-goodhart",
+      "entityKind": "source",
+      "evidenceLevel": "B",
+      "note": "Footnote id c9-goodhart shares Goodhart naming; defer single-work locus.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling",
+      "slug": "campbell-donald-t-assessing-the-impact-of-planned-social-change",
+      "status": "deferred",
+      "updatedAt": "2026-10-17T22:12:48Z"
     }
   }
 }

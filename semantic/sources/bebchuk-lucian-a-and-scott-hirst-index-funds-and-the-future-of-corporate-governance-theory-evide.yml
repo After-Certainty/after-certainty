@@ -9,6 +9,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Bebchuk and Hirst examine how index-fund scale and delegated voting can weaken
+  the link between ownership voice and corporate redesign. Coupling names the
+  structural risk: systems can preserve the feeling of participation while
+  thinning the return path from consequence to judgment.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-proxy
 title: 'Index Funds and the Future of Corporate Governance: Theory, Evidence, and
   Policy.'
 creatorNames:

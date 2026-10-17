@@ -7,6 +7,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Boehm’s software economics makes late discovery expensive: the same defect
+  changes character when found under deadline rather than in design. Coupling
+  turns that timing into a structural lesson—early finding is correction; late
+  finding becomes a coordination crisis.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression#user-content-fnref-c10-late-detection
 title: Software Engineering Economics
 creatorNames:
 - Barry W Boehm

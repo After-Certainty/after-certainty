@@ -8,6 +8,12 @@ concepts:
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Barke and Prechelt show that unclear ownership roles can undo agile teams even
+  when ceremonies continue. Coupling uses that finding for team-scale cohesion:
+  Heart of Agile helps only when people can see who decides, delivers, reflects,
+  and improves.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-team-cohesion
 title: Role Clarity Deficiencies Can Wreck Agile Teams.
 creatorNames:
 - Helena Barke and Lutz Prechelt
