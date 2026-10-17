@@ -44,6 +44,7 @@ export function RelatedChaptersSection({
           <li key={chapter.id} className="border-b border-border/20 py-3">
             <Link
               href={chapter.href}
+              data-analytics-to-id={chapter.id}
               className="font-medium text-fg transition-colors hover:text-accent"
             >
               {chapter.title}

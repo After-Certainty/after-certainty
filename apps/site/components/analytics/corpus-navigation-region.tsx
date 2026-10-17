@@ -3,6 +3,8 @@
 import type { HTMLAttributes } from "react";
 import {
   corpusDestination,
+  corpusTargetIdFromHref,
+  shouldAttachCorpusToId,
   trackVercelIntent,
   type CorpusType,
   type CorpusRelation,
@@ -30,11 +32,24 @@ export function CorpusNavigationRegion({
         if (!fromType || event.defaultPrevented || !(event.target instanceof Element)) return;
         const link = event.target.closest("a[href]");
         if (!link || !event.currentTarget.contains(link) || link.hasAttribute("download")) return;
-        const toType = corpusDestination(link.getAttribute("href") ?? "");
+        const href = link.getAttribute("href") ?? "";
+        const toType = corpusDestination(href);
         if (!toType || (relation === "read" && toType !== "chapter")) return;
+
+        let toId: string | undefined;
+        if (shouldAttachCorpusToId(fromType, toType)) {
+          const attr = link.getAttribute("data-analytics-to-id")?.trim();
+          toId = attr || corpusTargetIdFromHref(href) || undefined;
+        }
+
         trackVercelIntent({
           name: "corpus_navigation",
-          properties: { from_type: fromType, to_type: toType, relation },
+          properties: {
+            from_type: fromType,
+            to_type: toType,
+            relation,
+            ...(toId ? { to_id: toId } : {}),
+          },
         });
       }}
     />

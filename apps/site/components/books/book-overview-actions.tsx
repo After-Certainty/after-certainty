@@ -13,6 +13,7 @@ import { bookActionIconForKind } from "@/components/icons/semantic";
 import { SiteIcon } from "@/components/icons/site-icon";
 import { BookFavoriteControl } from "@/components/reading/book-favorite-control";
 import { AnalyticsEvents } from "@/lib/analytics/events";
+import { trackReaderEvent } from "@/lib/analytics/reader";
 import {
   isInternalBookAction,
   type OrderedBookActions,
@@ -36,16 +37,8 @@ function fileExtensionFromUrl(url: string): string {
 
 function analyticsForSecondary(bookId: string, item: NonNullable<OrderedBookActions["primary"]>) {
   if (item.kind === "download") {
-    return {
-      event: AnalyticsEvents.fileDownload,
-      params: {
-        file_extension: fileExtensionFromUrl(item.href),
-        file_name: item.label,
-        link_url: item.href,
-        content_type: "book" as const,
-        item_id: bookId,
-      },
-    };
+    // Dual-write via onClick + trackReaderEvent (see secondary map below).
+    return undefined;
   }
   if (item.kind === "purchase") {
     return {
@@ -142,6 +135,22 @@ export function BookOverviewActions({ bookId, bookSlug, actions }: BookOverviewA
             rel={isInternalBookAction(item.kind) ? undefined : "noopener noreferrer"}
             className={exploreSecondaryButtonClass}
             analytics={analyticsForSecondary(bookId, item)}
+            onClick={
+              item.kind === "download"
+                ? () => {
+                    trackReaderEvent({
+                      name: "book_download",
+                      properties: {
+                        book_id: bookId,
+                        format: fileExtensionFromUrl(item.href),
+                        file_name: item.label,
+                        link_url: item.href,
+                        location: "book_overview",
+                      },
+                    });
+                  }
+                : undefined
+            }
           >
             <ActionLabel
               kind={item.kind}

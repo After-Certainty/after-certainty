@@ -161,6 +161,12 @@ export default async function ExploreSourceDetailPage({ params }: PageProps) {
               <CorpusNavigationRegion fromType="source">
                 <Link
                   href={readerHref ?? `${explorePaths.books}/${featuredBook.slug}`}
+                  data-analytics-to-id={
+                    readerHref
+                      ? ((graph.chapters ?? []).find((chapter) => chapter.routeKey === readerChapterPath)
+                          ?.id ?? featuredBook.id)
+                      : featuredBook.id
+                  }
                   className="inline-flex min-h-11 items-center text-sm font-medium text-accent underline decoration-accent/40 underline-offset-4 transition-colors hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
                 >
                   {readerHref ? "Read the relevant passage in" : "Explore this connection in"}{" "}

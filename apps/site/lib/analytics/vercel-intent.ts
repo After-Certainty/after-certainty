@@ -1,5 +1,7 @@
 import { track } from "@vercel/analytics";
 
+import { trackReaderEvent } from "@/lib/analytics/reader";
+
 export type CorpusType =
   | "source"
   | "thinker"
@@ -37,21 +39,50 @@ export function corpusDestination(href: string): CorpusType | null {
   return null;
 }
 
+/**
+ * Path-derived stable target id (never a free-form URL). Used when
+ * `data-analytics-to-id` is absent on the clicked link.
+ * Chapters: `{bookSlug}/{chapterSlug}`; books: `{bookSlug}`.
+ */
+export function corpusTargetIdFromHref(href: string): string | null {
+  if (!href.startsWith("/") || href.startsWith("//")) return null;
+  const path = href.split(/[?#]/, 1)[0].replace(/\/$/, "");
+  const chapter = /^\/explore\/books\/([^/]+)\/chapters\/([^/]+)$/.exec(path);
+  if (chapter) return `${chapter[1]}/${chapter[2]}`;
+  const book = /^\/explore\/books\/([^/]+)$/.exec(path);
+  if (book) return book[1];
+  return null;
+}
+
+/** Attribution edges that may carry a privacy-safe `to_id` (source/thinker → book/chapter). */
+export function shouldAttachCorpusToId(fromType: CorpusType, toType: CorpusType): boolean {
+  return (fromType === "source" || fromType === "thinker") && (toType === "chapter" || toType === "book");
+}
+
 type IntentEvent =
   | {
       name: "corpus_navigation";
-      properties: { from_type: CorpusType; to_type: CorpusType; relation: CorpusRelation };
+      properties: {
+        from_type: CorpusType;
+        to_type: CorpusType;
+        relation: CorpusRelation;
+        to_id?: string;
+      };
     }
   | {
       name: "listen_item_selected";
       properties: { location: "listen_library"; method: "row" | "previous" | "next" };
-    }
-  | {
-      name: "listen_started";
-      properties: { location: "chapter_reader"; media_type: "chapter_audio" };
     };
 
+/**
+ * Low-level Vercel intents. Prefer `trackReaderEvent` for primary reader vocabulary.
+ * `corpus_navigation` routes through the facade (once). `listen_item_selected` stays Vercel-only.
+ */
 export function trackVercelIntent(event: IntentEvent): void {
+  if (event.name === "corpus_navigation") {
+    trackReaderEvent({ name: "corpus_navigation", properties: event.properties });
+    return;
+  }
   try {
     track(event.name, event.properties);
   } catch {
