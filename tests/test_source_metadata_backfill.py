@@ -158,7 +158,9 @@ def test_build_sources_emits_v15_fields_when_present(tmp_path: Path) -> None:
     assert entry["creatorSlugs"] == ["sample-author"]
     assert entry["title"] == "Sample Title"
     assert entry["year"] == 2020
-    assert entry["readerPassagePath"] == "/explore/books/sample/chapters/part-1-chapter-1#my-heading"
+    assert entry["readerPassagePath"] == (
+        "/explore/books/sample/chapters/part-1-chapter-1#my-heading"
+    )
 
 
 def test_manifest_v2_with_thinkers_on_repo(
