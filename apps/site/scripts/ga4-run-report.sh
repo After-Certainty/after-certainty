@@ -9,6 +9,9 @@
 #   pade exec -f pade.yaml --bindings .pade/agent-bindings.yaml \
 #     --capability google-analytics.read --quiet -- \
 #     apps/site/scripts/ga4-run-report.sh '<json-body>'
+#
+# Optional:
+#   READER_ANALYTICS_ALLOW_FAKE_TOKEN=1 — allow sentinel fake-token responses (tests only)
 set -euo pipefail
 
 if [[ -z "${GA_ACCESS_TOKEN:-}" ]]; then
@@ -35,8 +38,12 @@ BODY="$1"
 API_URL="${GOOGLE_ANALYTICS_DATA_API_URL:-https://analyticsdata.googleapis.com}"
 
 if [[ "$GA_ACCESS_TOKEN" == ya29.pade_fake_* ]]; then
-  echo '{"kind":"analyticsData#RunReportResponse","rowCount":0,"note":"fake token; skipped real API"}'
-  exit 0
+  if [[ "${READER_ANALYTICS_ALLOW_FAKE_TOKEN:-}" == "1" ]]; then
+    echo '{"kind":"analyticsData#RunReportResponse","rowCount":0,"status":"fake_token","note":"fake token; skipped real API","metricHeaders":[],"rows":[]}'
+    exit 0
+  fi
+  echo "error: refusing fake/sentinel GA_ACCESS_TOKEN (set READER_ANALYTICS_ALLOW_FAKE_TOKEN=1 for offline tests only)" >&2
+  exit 1
 fi
 
 tmp="$(mktemp)"

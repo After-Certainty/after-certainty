@@ -1,30 +1,29 @@
 # Vercel ↔ GA4 parity snapshots (Gate 3)
 
-Machine-readable companions to
+Companions to
 [`docs/analytics/vercel-reader-analytics-parity-decision.md`](../../docs/analytics/vercel-reader-analytics-parity-decision.md).
 
-## Refresh
+## What re-running updates
 
 ```bash
 make reader-analytics-parity
 # or: bash scripts/reader-analytics-parity.sh
 ```
 
-Requires PADE broker capabilities `google-analytics.read` and `vercel.analytics.read`.
-
-Writes:
-
-| Path | Contents |
+| Path | Updated? |
 |------|----------|
-| `window.json` | Denver completed-week bounds |
-| `raw/vercel_*.json` | Web Analytics aggregates |
-| `raw/ga4_*.json` | GA4 Data API reports |
-| `comparison-summary.json` | Compact directional summary |
+| `window.json`, `raw/`, `comparison-summary.json` | **Yes** — regenerable |
+| `gate-decision.json` | **No** — pack fails if mutated |
+| `manual/` | **No** — owner smoke / billing only |
 
-Optional post-merge smoke files (manual queries) may appear as `*_after_clicks.json`.
+## Window alignment
 
-## Interpretation
+- **Labels:** America/Denver inclusive completed week (`since` → `until`).
+- **Vercel requests:** ISO UTC midnights for an approximate calendar week; exclusive `until` = day after inclusive end at `T00:00:00.000Z`.
+- **Resolved quirk:** `visits/count` keeps `until` at `T00:00:00.000Z`; `*/aggregate` often resolves the **same UTC calendar day** at `T01:00:00.000Z`. The builder requires a shared exclusive-end **day** and rejects aggregates that end a full day earlier than count.
+- **GA4:** same date labels in property timezone America/Denver.
+- Comparisons are **approximate calendar days** (UTC vs Denver midnights), not identical instants.
 
-- Exact numeric parity is **not** the goal (consent split + different models).
-- Gate 3 needs **2–4 weeks** after PR 1 before approving GA4 retirement.
-- Same-day Vercel event queries: use `until=` = next calendar day.
+## Fake tokens
+
+`ga4-run-report.sh` and the Vercel query helper **refuse** fake/sentinel tokens unless `READER_ANALYTICS_ALLOW_FAKE_TOKEN=1`. The parity pack also rejects payloads whose `note` contains `fake token`.

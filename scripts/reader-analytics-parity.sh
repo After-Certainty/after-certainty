@@ -1,15 +1,23 @@
 #!/usr/bin/env bash
-# Collect a Gate 3 parity snapshot: GA4 + Vercel Web Analytics for the same
-# America/Denver completed-week window. Writes JSON under
-# reports/vercel-reader-analytics-parity/raw/ and a comparison-summary.json.
+# Collect a Gate 3 parity snapshot: GA4 + Vercel Web Analytics for approximately
+# the same America/Denver completed-week calendar labels.
 #
-# Requires PADE broker: google-analytics.read + vercel.analytics.read
-# (vercel.analytics.read may fall back only if you edit CAP_VERCEL below).
+# Writes (regenerable):
+#   reports/vercel-reader-analytics-parity/window.json
+#   reports/vercel-reader-analytics-parity/raw/{vercel,ga4}_*.json
+#   reports/vercel-reader-analytics-parity/comparison-summary.json
+#
+# Never overwrites (human / provenance):
+#   reports/vercel-reader-analytics-parity/gate-decision.json
+#   reports/vercel-reader-analytics-parity/manual/**
+#
+# Requires PADE: google-analytics.read + vercel.analytics.read
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 export PATH="$HOME/.local/bin:$ROOT/.venv/bin:$PATH"
+export PYTHONPATH="$ROOT/tools${PYTHONPATH:+:$PYTHONPATH}"
 if ! command -v pade >/dev/null 2>&1 && [[ -x "$ROOT/.tools/pade/pade" ]]; then
   export PATH="$ROOT/.tools/pade:$PATH"
 fi
@@ -27,37 +35,74 @@ BOUNDS_JSON="$(python3 tools/reader_analytics_brief.py --print-week-bounds)"
 echo "$BOUNDS_JSON" >"$ART/window.json"
 SINCE="$(python3 -c "import json,sys; print(json.load(sys.stdin)['current']['since'])" <<<"$BOUNDS_JSON")"
 UNTIL="$(python3 -c "import json,sys; print(json.load(sys.stdin)['current']['until'])" <<<"$BOUNDS_JSON")"
-echo "==> parity window (Denver completed): ${SINCE} → ${UNTIL}" >&2
+# Vercel: ISO UTC midnights (approx calendar week). Aggregate endpoints may resolve until at T01:00
+# on the same exclusive-end day as visits/count T00:00 — validated in reader_analytics_parity.py.
+read -r VERCEL_SINCE VERCEL_UNTIL <<<"$(python3 -c "
+from reader_analytics_parity import vercel_iso_request_bounds
+s,u=vercel_iso_request_bounds('$SINCE','$UNTIL')
+print(s, u)
+")"
+
+echo "==> parity Denver inclusive labels: ${SINCE} → ${UNTIL}" >&2
+echo "==> Vercel ISO request: since=${VERCEL_SINCE} until=${VERCEL_UNTIL}" >&2
+echo "==> GA4 uses property timezone America/Denver for the same date labels (approx alignment)" >&2
+
+if [[ -f "$ART/gate-decision.json" ]]; then
+  cp "$ART/gate-decision.json" "$ART/.gate-decision.before.json"
+  echo "==> preserving gate-decision.json (will verify unchanged after summary build)" >&2
+fi
+
+assert_real_file() {
+  local path="$1"
+  python3 -c "
+import json,sys
+from reader_analytics_parity import assert_not_fake, is_fake_payload
+p=sys.argv[1]
+d=json.load(open(p))
+assert_not_fake(d, path=p)
+" "$path"
+}
 
 vquery() {
   local name="$1"; shift
   echo "==> vercel ${name}" >&2
-  pade exec -f pade.yaml --bindings .pade/agent-bindings.yaml \
+  if ! pade exec -f pade.yaml --bindings .pade/agent-bindings.yaml \
     --capability "$CAP_VERCEL" --quiet -- \
-    "$Q" "$@" >"$RAW/vercel_${name}.json" 2>"$RAW/vercel_${name}.err"
+    "$Q" "$@" >"$RAW/vercel_${name}.json" 2>"$RAW/vercel_${name}.err"; then
+    echo "error: vercel ${name} failed" >&2
+    cat "$RAW/vercel_${name}.err" >&2 || true
+    return 1
+  fi
+  assert_real_file "$RAW/vercel_${name}.json"
   sleep "$PADE_PAUSE"
 }
 
 gquery() {
   local name="$1" body="$2"
   echo "==> ga4 ${name}" >&2
-  pade exec -f pade.yaml --bindings .pade/agent-bindings.yaml \
+  if ! pade exec -f pade.yaml --bindings .pade/agent-bindings.yaml \
     --capability google-analytics.read --quiet -- \
     apps/site/scripts/ga4-run-report.sh "$body" \
-    >"$RAW/ga4_${name}.json" 2>"$RAW/ga4_${name}.err"
+    >"$RAW/ga4_${name}.json" 2>"$RAW/ga4_${name}.err"; then
+    echo "error: ga4 ${name} failed" >&2
+    cat "$RAW/ga4_${name}.err" >&2 || true
+    return 1
+  fi
+  assert_real_file "$RAW/ga4_${name}.json"
   sleep "$PADE_PAUSE"
 }
 
-vquery visits_count visits/count since="$SINCE" until="$UNTIL" "filter=${ENV_FILTER}"
-vquery visits_referrer visits/aggregate since="$SINCE" until="$UNTIL" "filter=${ENV_FILTER}" by=referrerHostname limit=20
-vquery visits_country visits/aggregate since="$SINCE" until="$UNTIL" "filter=${ENV_FILTER}" by=country limit=15
-vquery visits_device visits/aggregate since="$SINCE" until="$UNTIL" "filter=${ENV_FILTER}" by=deviceType limit=10
-vquery visits_path visits/aggregate since="$SINCE" until="$UNTIL" "filter=${ENV_FILTER}" by=requestPath limit=25
-vquery events_by_name events/aggregate since="$SINCE" until="$UNTIL" "filter=${ENV_FILTER}" by=eventName limit=40
-vquery corpus_pairs events/aggregate since="$SINCE" until="$UNTIL" \
+# All Vercel queries share the same ISO since/until request pair.
+vquery visits_count visits/count since="$VERCEL_SINCE" until="$VERCEL_UNTIL" "filter=${ENV_FILTER}"
+vquery visits_referrer visits/aggregate since="$VERCEL_SINCE" until="$VERCEL_UNTIL" "filter=${ENV_FILTER}" by=referrerHostname limit=20
+vquery visits_country visits/aggregate since="$VERCEL_SINCE" until="$VERCEL_UNTIL" "filter=${ENV_FILTER}" by=country limit=15
+vquery visits_device visits/aggregate since="$VERCEL_SINCE" until="$VERCEL_UNTIL" "filter=${ENV_FILTER}" by=deviceType limit=10
+vquery visits_path visits/aggregate since="$VERCEL_SINCE" until="$VERCEL_UNTIL" "filter=${ENV_FILTER}" by=requestPath limit=25
+vquery events_by_name events/aggregate since="$VERCEL_SINCE" until="$VERCEL_UNTIL" "filter=${ENV_FILTER}" by=eventName limit=40
+vquery corpus_pairs events/aggregate since="$VERCEL_SINCE" until="$VERCEL_UNTIL" \
   "filter=environment eq 'production' and eventName eq 'corpus_navigation'" \
   by=requestPath by=eventData/to_id limit=30
-vquery corpus_edges events/aggregate since="$SINCE" until="$UNTIL" \
+vquery corpus_edges events/aggregate since="$VERCEL_SINCE" until="$VERCEL_UNTIL" \
   "filter=environment eq 'production' and eventName eq 'corpus_navigation'" \
   by=eventData/from_type by=eventData/to_type limit=20
 
@@ -70,107 +115,20 @@ gquery pages "{\"dateRanges\":[{\"startDate\":\"${SINCE}\",\"endDate\":\"${UNTIL
 gquery events "{\"dateRanges\":[{\"startDate\":\"${SINCE}\",\"endDate\":\"${UNTIL}\"}],\"dimensions\":[{\"name\":\"eventName\"}],\"metrics\":[{\"name\":\"eventCount\"}],\"orderBys\":[{\"metric\":{\"metricName\":\"eventCount\"},\"desc\":true}],\"limit\":40}"
 gquery reader_events "{\"dateRanges\":[{\"startDate\":\"${SINCE}\",\"endDate\":\"${UNTIL}\"}],\"dimensions\":[{\"name\":\"eventName\"}],\"metrics\":[{\"name\":\"eventCount\"}],\"dimensionFilter\":{\"filter\":{\"fieldName\":\"eventName\",\"inListFilter\":{\"values\":[\"chapter_open\",\"next_chapter\",\"file_download\",\"question_path_start\",\"trail_path_start\",\"select_content\",\"click\"]}}},\"orderBys\":[{\"metric\":{\"metricName\":\"eventCount\"},\"desc\":true}],\"limit\":20}"
 
-python3 - <<'PY' "$ART" "$SINCE" "$UNTIL"
-import json, sys
-from datetime import UTC, datetime
-from pathlib import Path
+python3 tools/reader_analytics_parity.py build-summary \
+  --art-dir "$ART" \
+  --since "$SINCE" \
+  --until "$UNTIL" \
+  --vercel-until-param "$VERCEL_UNTIL"
 
-art = Path(sys.argv[1])
-raw = art / "raw"
-since, until = sys.argv[2], sys.argv[3]
+if [[ -f "$ART/.gate-decision.before.json" ]]; then
+  python3 tools/reader_analytics_parity.py check-gate-decision-stable \
+    --art-dir "$ART" \
+    --before "$ART/.gate-decision.before.json"
+  rm -f "$ART/.gate-decision.before.json"
+fi
 
-def load(name):
-    p = raw / name
-    return json.loads(p.read_text()) if p.exists() else None
+# Do not touch manual/ or gate-decision.json contents beyond the stability check above.
+find "$RAW" -name '*.err' -size 0 -delete 2>/dev/null || true
 
-def ga_metrics(payload):
-    if not payload or not payload.get("rows"):
-        return {}
-    names = [h["name"] for h in payload.get("metricHeaders", [])]
-    vals = [m["value"] for m in payload["rows"][0]["metricValues"]]
-    return dict(zip(names, vals))
-
-def ga_event_map(payload):
-    out = {}
-    for row in (payload or {}).get("rows") or []:
-        name = row["dimensionValues"][0]["value"]
-        out[name] = int(float(row["metricValues"][0]["value"]))
-    return out
-
-def vercel_event_map(payload):
-    out = {}
-    for row in (payload or {}).get("data") or []:
-        if isinstance(row, dict) and row.get("eventName"):
-            out[row["eventName"]] = {
-                "count": int(row.get("count") or 0),
-                "visitors": int(row.get("visitors") or 0),
-            }
-    return out
-
-v_visits = (load("vercel_visits_count.json") or {}).get("data") or {}
-g_overview = ga_metrics(load("ga4_overview.json"))
-v_events = vercel_event_map(load("vercel_events_by_name.json"))
-g_reader = ga_event_map(load("ga4_reader_events.json"))
-g_all = ga_event_map(load("ga4_events.json"))
-
-summary = {
-    "generated_at_utc": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
-    "timezone": "America/Denver",
-    "window": {"since": since, "until": until, "rule": "last_7_completed_denver_days_ending_yesterday"},
-    "pr1_merged_at_utc": "2026-10-17T21:15:09Z",
-    "observation_window_note": (
-        "Gate 3 requires 2–4 weeks after PR 1. Snapshots taken before that window completes "
-        "are baseline / early-signal only — not approval to retire GA4."
-    ),
-    "vercel": {
-        "visitors": v_visits.get("visitors"),
-        "pageviews": v_visits.get("pageviews"),
-        "events": v_events,
-        "google_referrer_visitors": next(
-            (
-                r.get("visitors")
-                for r in (load("vercel_visits_referrer.json") or {}).get("data") or []
-                if r.get("referrerHostname") == "google.com"
-            ),
-            0,
-        ),
-        "top_countries": (load("vercel_visits_country.json") or {}).get("data") or [],
-    },
-    "ga4": {
-        "overview": g_overview,
-        "reader_events": g_reader,
-        "selected_events": {
-            k: g_all.get(k, 0)
-            for k in (
-                "chapter_open",
-                "next_chapter",
-                "file_download",
-                "page_view",
-                "session_start",
-                "search_query",
-            )
-        },
-        "organic_search_sessions": next(
-            (
-                int(float(r["metricValues"][0]["value"]))
-                for r in (load("ga4_channels.json") or {}).get("rows") or []
-                if r["dimensionValues"][0]["value"] == "Organic Search"
-            ),
-            0,
-        ),
-    },
-    "directional_comparisons": {
-        "volume_scale": "Vercel visitors include ungated aggregate traffic; GA4 is consent-gated — expect large numeric gaps",
-        "chapter_open": {
-            "ga4_event_count": g_reader.get("chapter_open", g_all.get("chapter_open", 0)),
-            "vercel_event_count": (v_events.get("chapter_open") or {}).get("count", 0),
-        },
-        "corpus_navigation_vercel_only": (v_events.get("corpus_navigation") or {}),
-    },
-}
-
-(art / "comparison-summary.json").write_text(json.dumps(summary, indent=2) + "\n")
-print(json.dumps(summary, indent=2))
-PY
-
-echo "reader-analytics-parity: wrote ${ART}/comparison-summary.json" >&2
+echo "reader-analytics-parity: wrote ${ART}/comparison-summary.json (gate-decision.json preserved)" >&2
