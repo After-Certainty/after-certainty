@@ -36,9 +36,13 @@ from audit_bibliography_semantic_drift import (  # noqa: E402
     normalize_match_text,
     related_books_of,
     score_expected_vs_source,
-    source_author_blob,
 )
-from audit_citations import FOOTNOTE_DEF  # noqa: E402
+from audit_citations import FOOTNOTE_DEF, REF_USE  # noqa: E402
+
+# Review-log statuses. ``proposed`` counts as already queued: ``--unreviewed-only``
+# skips it so later batches advance. Transition: (absent) → proposed →
+# approved|rejected|skipped|applied. Re-queue by deleting the entry or clearing status.
+REVIEW_LOG_TERMINAL = frozenset({"proposed", "approved", "rejected", "applied", "skipped"})
 from bibliography_parse import parse_bibliography  # noqa: E402
 from book_specs import discover_book_spec_paths  # noqa: E402
 from manuscript_structure import build_structure_for_book, load_chapter_enrichment  # noqa: E402
@@ -104,6 +108,10 @@ class FootnoteHit:
     excerpt: str
     score: int
     method: str
+    ref_present: bool = True
+    shared_with: list[str] = field(default_factory=list)
+    ambiguous: bool = False
+    needs_editorial_review: bool = False
 
 
 @dataclass
@@ -131,19 +139,38 @@ class PathValidation:
     related_book_ok: bool = False
     fragment_ok: bool | None = None
     fragment_error: str | None = None
+    fragment_check_skipped: bool = False
     issues: list[str] = field(default_factory=list)
 
     @property
-    def is_fully_valid(self) -> bool:
+    def is_structurally_valid(self) -> bool:
+        """Chapter/edition/format ok — ignores fragment verification state."""
+        structural_issues = {
+            "invalid_path_format",
+            "chapter_not_found",
+            "chapter_not_public",
+            "edition_not_in_related_books",
+            "related_books_required",
+        }
         if not (
             self.valid_format
             and self.chapter_found
             and self.chapter_public
             and self.related_book_ok
-            and not self.issues
         ):
             return False
+        return not any(i in structural_issues for i in self.issues)
+
+    @property
+    def is_fully_valid(self) -> bool:
+        """Structurally valid and fragment verified (or no fragment)."""
+        if not self.is_structurally_valid:
+            return False
+        if self.fragment_check_skipped:
+            return False
         if self.fragment is not None and self.fragment_ok is not True:
+            return False
+        if any(i in {"fragment_missing", "fragment_unvalidated"} for i in self.issues):
             return False
         return True
 
@@ -166,6 +193,7 @@ class SourceAudit:
     notes: list[str] = field(default_factory=list)
     candidate_path: str | None = None
     recommended_action: str = "none"
+    fragment_tied_hit: bool = False
 
 
 @dataclass
@@ -396,11 +424,30 @@ def _footnote_defs_in_text(text: str) -> list[tuple[str, str, int, int]]:
     return out
 
 
+def creator_author_tokens(src: dict[str, Any]) -> set[str]:
+    """Author tokens from creatorNames / display-name author only (not title/summary)."""
+    parts: list[str] = []
+    creators = src.get("creatorNames") or []
+    if isinstance(creators, list):
+        parts.extend(str(c) for c in creators if str(c).strip())
+    author, _title = split_display_name(str(src.get("name") or ""))
+    if author:
+        parts.append(author)
+    tokens: set[str] = set()
+    for part in parts:
+        for tok in normalize_match_text(part).split():
+            # Drop initials / very short tokens that create false positives.
+            if len(tok) > 2 and tok not in {"and", "the", "von", "van", "de", "del", "der"}:
+                tokens.add(tok)
+    return tokens
+
+
 def score_footnote_vs_source(def_text: str, src: dict[str, Any]) -> tuple[int, str]:
     """Score a footnote definition body against a semantic source.
 
     The definition text is the evidence side; source metadata is the candidate.
     Never invert this (that would make every source match itself).
+    Author evidence uses creator names only — not title/citation/summary blobs.
     """
     def_norm = normalize_match_text(def_text)
     if not def_norm:
@@ -411,46 +458,63 @@ def score_footnote_vs_source(def_text: str, src: dict[str, Any]) -> tuple[int, s
         title = split_display_name(str(src.get("name") or ""))[1]
     title = strip_markdown_italics(title).strip()
     title_norm = normalize_match_text(title)
+    author_tokens = creator_author_tokens(src)
+    has_author = bool(author_tokens) and any(t in def_norm for t in author_tokens)
 
-    author_blob = normalize_match_text(source_author_blob(src))
-    author_tokens = {t for t in author_blob.split() if len(t) > 2}
-
-    # Strong: distinctive title substring + author token in the footnote.
+    # Strong: distinctive title substring + creator author token in the footnote.
     if title_norm and len(title_norm) >= 8 and title_norm in def_norm:
-        if any(t in def_norm for t in author_tokens):
+        if has_author:
             return 90, "footnote_title_author"
-        return 70, "footnote_title_only"
+        # Title alone in a multi-work note is weaker — still evidence, needs review.
+        return 72, "footnote_title_only"
 
     # Medium: first significant title tokens all present + author.
     title_tokens = [t for t in title_norm.split() if len(t) > 3][:5]
     if len(title_tokens) >= 3 and all(t in def_norm for t in title_tokens[:3]):
-        if any(t in def_norm for t in author_tokens):
-            return 75, "footnote_title_tokens_author"
-        return 58, "footnote_title_tokens"
+        if has_author:
+            return 80, "footnote_title_tokens_author"
+        return 60, "footnote_title_tokens"
 
-    # Citation / name blob containment (source citation string inside def, or vice versa).
-    citation_norm = normalize_match_text(f"{src.get('citation', '')} {src.get('summary', '')}")
-    if citation_norm and len(citation_norm) >= 24:
-        # Overlap of content words
-        cite_toks = {t for t in citation_norm.split() if len(t) > 3}
-        def_toks = {t for t in def_norm.split() if len(t) > 3}
-        if cite_toks and def_toks:
-            overlap = cite_toks & def_toks
-            if len(overlap) >= 4 and any(t in def_norm for t in author_tokens):
-                return 65, "footnote_citation_overlap"
-
-    # Fall back to biblio scorer treating the footnote as a free-text summary row.
-    pseudo = {
-        "workTitle": title,
-        "author": " ".join(sorted(author_tokens)[:4]),
-        "summary": def_text,
-        "slug": "",
-    }
-    # Only accept when the source title is evidenced in the definition.
-    score, method = score_expected_vs_source(pseudo, src)
-    if score >= MATCH_THRESHOLD and title_norm and title_norm[:12] in def_norm:
-        return score, f"biblio_scorer:{method}"
+    # Fall back to biblio scorer only when the source title is evidenced in the definition.
+    if title_norm and len(title_norm) >= 8 and title_norm[:12] in def_norm and has_author:
+        pseudo = {
+            "workTitle": title,
+            "author": " ".join(sorted(author_tokens)[:4]),
+            "summary": def_text,
+            "slug": "",
+        }
+        score, method = score_expected_vs_source(pseudo, src)
+        if score >= MATCH_THRESHOLD:
+            return score, f"biblio_scorer:{method}"
     return 0, "none"
+
+
+def _footnote_ref_spans(body_text: str, footnote_id: str) -> list[tuple[int, int]]:
+    """Return (start, end) spans for [^id] invocations in body (not definitions)."""
+    spans: list[tuple[int, int]] = []
+    for m in REF_USE.finditer(body_text):
+        if m.group(1) == footnote_id:
+            spans.append((m.start(), m.end()))
+    return spans
+
+
+def _invocation_excerpt_and_lines(
+    full_text: str, body_text: str, footnote_id: str
+) -> tuple[str, int, int, bool]:
+    """Excerpt + line span around the first body invocation of [^id]."""
+    spans = _footnote_ref_spans(body_text, footnote_id)
+    if not spans:
+        return "", 0, 0, False
+    start, end = spans[0]
+    # Map body_text offsets back approximately via searching in full_text.
+    needle = full_text.find(body_text[start:end])
+    if needle < 0:
+        needle = start
+        end_pos = end
+    else:
+        end_pos = needle + (end - start)
+    line_start, line_end = _line_span_for_match(full_text, needle, end_pos)
+    return _excerpt_around(full_text, needle, end_pos), line_start, line_end, True
 
 
 def index_chapter_engagement(
@@ -458,13 +522,16 @@ def index_chapter_engagement(
     chapters: dict[str, ChapterRef],
     sources: dict[str, dict[str, Any]],
 ) -> tuple[dict[str, list[FootnoteHit]], dict[str, list[ProseHit]]]:
-    """Scan published chapters for footnote and prose engagement per source."""
+    """Scan published chapters for footnote and prose engagement per source.
+
+    Shared footnotes may independently evidence multiple works. Definitions
+    without a body ``[^id]`` invocation are ignored (no reader fnref target).
+    Excerpts and line numbers come from the invocation site, not the note body.
+    """
     footnote_by_source: dict[str, list[FootnoteHit]] = defaultdict(list)
     prose_by_source: dict[str, list[ProseHit]] = defaultdict(list)
 
-    # Precompute probes scoped by related books.
     sources_by_book: dict[str, list[str]] = defaultdict(list)
-    global_sources: list[str] = []
     phrases: dict[str, list[str]] = {}
     for slug, src in sources.items():
         books = related_books_of(src)
@@ -473,11 +540,10 @@ def index_chapter_engagement(
             str(src.get("summary") or ""),
             str(src.get("title") or ""),
         )
-        if not books:
-            global_sources.append(slug)
-        else:
-            for b in books:
-                sources_by_book[b].append(slug)
+        # Sources without relatedBooks are not scanned for chapter engagement;
+        # deep links require an authored book relationship.
+        for b in books:
+            sources_by_book[b].append(slug)
 
     for route_key in sorted(chapters.keys()):
         chapter = chapters[route_key]
@@ -492,25 +558,40 @@ def index_chapter_engagement(
         except OSError:
             continue
 
-        candidates = list(
-            dict.fromkeys(sources_by_book.get(chapter.edition_slug, []) + global_sources)
-        )
+        candidates = list(dict.fromkeys(sources_by_book.get(chapter.edition_slug, [])))
         if not candidates:
             continue
 
-        for fid, body, start, end in _footnote_defs_in_text(text):
-            best_slug = ""
-            best_score = 0
-            best_method = "none"
+        body_text = _strip_footnote_defs(text)
+
+        for fid, body, _start, _end in _footnote_defs_in_text(text):
+            excerpt, line_start, line_end, ref_present = _invocation_excerpt_and_lines(
+                text, body_text, fid
+            )
+            if not ref_present:
+                # Defined but never invoked → no #user-content-fnref-{id} in reader.
+                continue
+
+            scored: list[tuple[str, int, str]] = []
             for slug in candidates:
                 score, method = score_footnote_vs_source(body, sources[slug])
-                if score > best_score:
-                    best_score = score
-                    best_slug = slug
-                    best_method = method
-            if best_score >= MATCH_THRESHOLD and best_slug:
-                line_start, line_end = _line_span_for_match(text, start, end)
-                footnote_by_source[best_slug].append(
+                if score >= MATCH_THRESHOLD:
+                    scored.append((slug, score, method))
+            if not scored:
+                continue
+
+            scored.sort(key=lambda t: (-t[1], t[0]))
+            top_score = scored[0][1]
+            # Independently evidenced matches (threshold), not winner-take-all.
+            # Flag ambiguity when several near-top scores lack clear separation.
+            near_top = [s for s in scored if s[1] >= top_score - 10]
+            ambiguous = len(near_top) > 1 and near_top[0][1] < 90
+            matched_slugs = [s[0] for s in scored]
+
+            for slug, score, method in scored:
+                others = [s for s in matched_slugs if s != slug]
+                shared = bool(others)
+                footnote_by_source[slug].append(
                     FootnoteHit(
                         edition_slug=chapter.edition_slug,
                         route_key=route_key,
@@ -521,21 +602,22 @@ def index_chapter_engagement(
                         def_text=body[:400],
                         line_start=line_start,
                         line_end=line_end,
-                        excerpt=_excerpt_around(text, start, end),
-                        score=best_score,
-                        method=best_method,
+                        excerpt=excerpt,
+                        score=score,
+                        method=method,
+                        ref_present=True,
+                        shared_with=sorted(others),
+                        ambiguous=ambiguous,
+                        needs_editorial_review=shared or ambiguous or score < 80,
                     )
                 )
 
-        body_text = _strip_footnote_defs(text)
         for slug in candidates:
-            # Skip prose scoring when we already have a strong footnote hit in this chapter.
             if any(h.route_key == route_key for h in footnote_by_source.get(slug, [])):
                 continue
             for phrase in phrases.get(slug, []):
                 if len(phrase) < 8:
                     continue
-                # Word-boundary-ish search; avoid short surname-only matches.
                 pattern = re.compile(re.escape(phrase), re.I)
                 m = pattern.search(body_text)
                 if not m:
@@ -554,7 +636,7 @@ def index_chapter_engagement(
                         phrase=phrase,
                     )
                 )
-                break  # one prose hit per source per chapter
+                break
 
     for slug in footnote_by_source:
         footnote_by_source[slug].sort(key=lambda h: (h.edition_slug, h.route_key, h.footnote_id))
@@ -586,9 +668,10 @@ def validate_fragment_in_rendered_html(
     """
     Validate fragment id against the site reader HTML pipeline.
 
-    Uses apps/site/scripts/validate-reader-passage-fragment.ts via npx tsx.
+    Uses apps/site/scripts/validate-reader-passage-fragment.mjs with the
+    workspace-pinned ``jiti`` loader (no npx / network install).
     """
-    script = repo / "apps" / "site" / "scripts" / "validate-reader-passage-fragment.ts"
+    script = repo / "apps" / "site" / "scripts" / "validate-reader-passage-fragment.mjs"
     if not script.is_file():
         return False, f"missing fragment validator script: {script}"
     markdown_path = repo / book_dir / source_path
@@ -596,9 +679,7 @@ def validate_fragment_in_rendered_html(
         return False, f"missing manuscript: {book_dir}/{source_path}"
 
     cmd = [
-        "npx",
-        "--yes",
-        "tsx",
+        "node",
         str(script),
         "--book-dir",
         book_dir,
@@ -625,7 +706,6 @@ def validate_fragment_in_rendered_html(
     if not stdout:
         err = (proc.stderr or "").strip() or f"exit {proc.returncode}"
         return False, f"fragment validator produced no JSON: {err}"
-    # Last JSON line wins (tsx may print warnings).
     json_line = ""
     for line in reversed(stdout.splitlines()):
         line = line.strip()
@@ -676,7 +756,11 @@ def validate_reader_passage_path(
     if not chapter.public:
         result.issues.append("chapter_not_public")
 
-    if related_books and edition not in related_books:
+    if not related_books:
+        result.related_book_ok = False
+        result.issues.append("related_books_required")
+    elif edition not in related_books:
+        result.related_book_ok = False
         result.issues.append("edition_not_in_related_books")
     else:
         result.related_book_ok = True
@@ -703,10 +787,32 @@ def validate_reader_passage_path(
             result.fragment_error = err
             if not ok:
                 result.issues.append("fragment_missing")
+    elif fragment and not check_fragment:
+        result.fragment_check_skipped = True
+        result.fragment_ok = None
+        result.issues.append("fragment_check_skipped")
     elif not fragment:
         result.fragment_ok = None
 
     return result
+
+
+def hit_matches_passage_path(hit: FootnoteHit, path: str) -> bool:
+    """True when the hit's chapter + fnref fragment equal the authored path."""
+    expected = candidate_path_from_footnote(hit)
+    return path.strip() == expected
+
+
+def select_hits_for_book(hits: list[FootnoteHit], book_id: str | None) -> list[FootnoteHit]:
+    if not book_id:
+        return list(hits)
+    return [h for h in hits if h.edition_slug == book_id]
+
+
+def select_prose_for_book(hits: list[ProseHit], book_id: str | None) -> list[ProseHit]:
+    if not book_id:
+        return list(hits)
+    return [h for h in hits if h.edition_slug == book_id]
 
 
 def why_this_matters_looks_ok(text: str | None) -> bool:
@@ -749,6 +855,18 @@ def classify_source(
     why = str(src.get("whyThisMatters") or "").strip() or None
     path = str(src.get("readerPassagePath") or "").strip() or None
 
+    # Prefer non-shared, high-score hits for candidate suggestions.
+    ranked_hits = sorted(
+        footnote_hits,
+        key=lambda h: (
+            0 if not h.needs_editorial_review else 1,
+            -h.score,
+            h.edition_slug,
+            h.route_key,
+            h.footnote_id,
+        ),
+    )
+
     audit = SourceAudit(
         slug=slug,
         yaml_path=str(src.get("_path") or f"semantic/sources/{slug}.yml"),
@@ -775,32 +893,67 @@ def classify_source(
     has_footnote = bool(footnote_hits)
     has_prose = bool(prose_hits)
     has_biblio = bool(biblio_books) or bool(related)
+    pv = audit.path_validation
 
-    if path and audit.path_validation and audit.path_validation.is_fully_valid:
-        # Prefer verified citation engagement for level A.
-        path_route = path.split("#", 1)[0]
-        cited_here = any(h.route_key == path_route for h in footnote_hits)
-        if cited_here or has_footnote:
+    fragment_tied = bool(path) and any(hit_matches_passage_path(h, path) for h in footnote_hits)
+    audit.fragment_tied_hit = fragment_tied
+
+    if path and pv and pv.fragment_check_skipped and pv.is_structurally_valid:
+        # Structural path ok but fragment not verified — never inflate to A.
+        audit.status = "passage_link_unverified_fragment"
+        audit.notes.append("fragment_check_skipped")
+        if fragment_tied:
+            audit.evidence_level = "B"
+            audit.recommended_action = "verify_fragment_then_confirm"
+            audit.candidate_path = path
+        elif has_footnote:
+            audit.evidence_level = "B"
+            audit.candidate_path = candidate_path_from_footnote(ranked_hits[0])
+            audit.recommended_action = "verify_fragment_and_tie_to_citation"
+        elif has_prose:
+            audit.evidence_level = "C"
+            audit.recommended_action = "editorial_review_prose_hit"
+        elif has_biblio:
+            audit.evidence_level = "D"
+            audit.recommended_action = "do_not_fabricate_citation"
+        else:
+            audit.evidence_level = "E"
+            audit.recommended_action = "remove_or_fix_path"
+    elif path and pv and pv.is_fully_valid and fragment_tied:
+        # Level A only when the authored fragment is the matched citation.
+        tied = next(h for h in footnote_hits if hit_matches_passage_path(h, path))
+        if tied.needs_editorial_review:
+            audit.evidence_level = "B"
+            audit.status = "path_valid_shared_or_ambiguous_citation"
+            audit.notes.append("fragment_tied_but_needs_editorial_review")
+            if tied.shared_with:
+                audit.notes.append(f"shared_footnote_with:{','.join(tied.shared_with)}")
+            audit.recommended_action = "editorial_confirm_passage_relevance"
+            audit.candidate_path = path
+        else:
             audit.evidence_level = "A"
             audit.status = "verified_passage"
             audit.recommended_action = "none"
             if not audit.why_this_matters_ok:
                 audit.notes.append("missing_or_weak_whyThisMatters")
                 audit.recommended_action = "add_why_this_matters"
-        else:
-            # Valid deep link without established citation → still surface as
-            # verified destination but flag for editorial confirmation.
-            audit.evidence_level = "A"
-            audit.status = "verified_passage_unconfirmed_citation"
-            audit.notes.append("path_valid_but_no_matched_footnote")
-            audit.recommended_action = "confirm_citation_relevance"
-    elif path and audit.path_validation and not audit.path_validation.is_fully_valid:
+    elif path and pv and pv.is_fully_valid and not fragment_tied:
+        # Working URL without verified intellectual tie to that fragment.
+        audit.evidence_level = "B" if has_footnote or has_prose else "C"
+        audit.status = "path_valid_needs_editorial_review"
+        audit.notes.append("path_valid_but_not_tied_to_matched_citation_fragment")
+        audit.recommended_action = "confirm_citation_relevance_or_retarget"
+        if has_footnote:
+            audit.candidate_path = candidate_path_from_footnote(ranked_hits[0])
+            audit.evidence_level = "B"
+        elif has_prose:
+            audit.candidate_path = prose_hits[0].route_key
+    elif path and pv and not pv.is_fully_valid and not pv.fragment_check_skipped:
         audit.status = "invalid_passage_link"
-        audit.notes.extend(audit.path_validation.issues)
+        audit.notes.extend(pv.issues)
         if has_footnote:
             audit.evidence_level = "B"
-            hit = footnote_hits[0]
-            audit.candidate_path = candidate_path_from_footnote(hit)
+            audit.candidate_path = candidate_path_from_footnote(ranked_hits[0])
             audit.recommended_action = "fix_reader_passage_path"
         elif has_prose:
             audit.evidence_level = "C"
@@ -812,11 +965,14 @@ def classify_source(
             audit.evidence_level = "E"
             audit.recommended_action = "remove_or_fix_path"
     elif has_footnote:
+        hit = ranked_hits[0]
         audit.evidence_level = "B"
         audit.status = "strong_candidate"
-        hit = footnote_hits[0]
         audit.candidate_path = candidate_path_from_footnote(hit)
         audit.recommended_action = "add_reader_passage_path"
+        if hit.needs_editorial_review:
+            audit.notes.append("shared_or_ambiguous_footnote")
+            audit.recommended_action = "editorial_review_then_add_path"
         if not audit.why_this_matters_ok:
             audit.notes.append("missing_or_weak_whyThisMatters")
     elif has_prose:
@@ -888,7 +1044,13 @@ def classify_thinker(
             continue
         if level_rank[sa.evidence_level] > level_rank[best_level]:
             best_level = sa.evidence_level
-        if sa.reader_passage_path and sa.path_validation and sa.path_validation.is_fully_valid:
+        if (
+            sa.evidence_level == "A"
+            and sa.reader_passage_path
+            and sa.path_validation
+            and sa.path_validation.is_fully_valid
+            and sa.fragment_tied_hit
+        ):
             work_links.append(
                 {
                     "sourceSlug": wslug,
@@ -1040,8 +1202,20 @@ def compute_totals(sources: list[SourceAudit], thinkers: list[ThinkerAudit]) -> 
     source_levels = count_levels(sources)
     thinker_levels = count_levels(thinkers)
     with_path = sum(1 for s in sources if s.reader_passage_path)
-    valid_path = sum(
+    # Editorially verified A (fragment-tied + fully validated).
+    verified_a = sum(1 for s in sources if s.evidence_level == "A")
+    fully_valid_path = sum(
         1 for s in sources if s.path_validation is not None and s.path_validation.is_fully_valid
+    )
+    unverified_fragment = sum(1 for s in sources if s.status == "passage_link_unverified_fragment")
+    path_needs_review = sum(
+        1
+        for s in sources
+        if s.status
+        in {
+            "path_valid_needs_editorial_review",
+            "path_valid_shared_or_ambiguous_citation",
+        }
     )
     invalid_path = sum(
         1
@@ -1049,24 +1223,34 @@ def compute_totals(sources: list[SourceAudit], thinkers: list[ThinkerAudit]) -> 
         if s.reader_passage_path
         and s.path_validation is not None
         and not s.path_validation.is_fully_valid
+        and not s.path_validation.fragment_check_skipped
     )
     missing_path_with_footnote = sum(
         1 for s in sources if not s.reader_passage_path and s.footnote_hits
     )
+    mechanical_b = sum(
+        1 for s in sources if s.evidence_level == "B" and s.status == "strong_candidate"
+    )
     biblio_only = source_levels["D"]
-    thinkers_with_derived = sum(1 for t in thinkers if t.work_passage_links)
+    thinkers_with_derived = sum(
+        1 for t in thinkers if any(w.get("evidenceLevel") == "A" for w in t.work_passage_links)
+    )
     n_sources = max(1, len(sources))
     n_thinkers = max(1, len(thinkers))
     return {
         "sources": {
             "total": len(sources),
             "withReaderPassagePath": with_path,
-            "validPassageLinks": valid_path,
+            "validPassageLinks": fully_valid_path,
+            "editoriallyVerifiedPassages": verified_a,
+            "mechanicalFootnoteCandidates": mechanical_b,
+            "pathNeedsEditorialReview": path_needs_review,
+            "unverifiedFragmentLinks": unverified_fragment,
             "invalidPassageLinks": invalid_path,
             "missingPathWithFootnote": missing_path_with_footnote,
             "bibliographyOnly": biblio_only,
             "byEvidenceLevel": source_levels,
-            "verifiedCoveragePct": round(100.0 * source_levels["A"] / n_sources, 2),
+            "verifiedCoveragePct": round(100.0 * verified_a / n_sources, 2),
             "whyThisMattersOk": sum(1 for s in sources if s.why_this_matters_ok),
         },
         "thinkers": {
@@ -1118,12 +1302,21 @@ def format_audit_markdown(result: AuditResult) -> str:
         "",
         f"- Total sources scanned: **{s.get('total', 0)}**",
         f"- With `readerPassagePath`: **{s.get('withReaderPassagePath', 0)}**",
-        f"- Valid passage links: **{s.get('validPassageLinks', 0)}**",
+        f"- Structurally valid + fragment-checked paths: **{s.get('validPassageLinks', 0)}**",
+        f"- Editorially verified passages (level A): **{s.get('editoriallyVerifiedPassages', 0)}**",
+        f"- Mechanical footnote candidates (level B / strong_candidate): "
+        f"**{s.get('mechanicalFootnoteCandidates', 0)}**",
+        f"- Path present but needs editorial review: **{s.get('pathNeedsEditorialReview', 0)}**",
+        f"- Fragment check skipped (unverified): **{s.get('unverifiedFragmentLinks', 0)}**",
         f"- Invalid passage links: **{s.get('invalidPassageLinks', 0)}**",
         f"- Missing path but footnote-cited: **{s.get('missingPathWithFootnote', 0)}**",
         f"- Bibliography only (level D): **{s.get('bibliographyOnly', 0)}**",
         f"- Verified (level A) coverage: **{s.get('verifiedCoveragePct', 0)}%**",
         f"- `whyThisMatters` present/substantive: **{s.get('whyThisMattersOk', 0)}**",
+        "",
+        "Level A requires a public path whose fragment is the matched citation "
+        "invocation — not merely a working URL. Mechanical B matches still need "
+        "editorial confirmation of intellectual relevance.",
         "",
         "Evidence levels:",
         "",
@@ -1258,8 +1451,24 @@ def save_review_log(path: Path, entries: dict[str, dict[str, Any]]) -> None:
     )
 
 
-def _candidate_key(kind: str, slug: str, route_key: str) -> str:
+def _candidate_key(
+    kind: str,
+    slug: str,
+    route_key: str,
+    *,
+    fragment: str | None = None,
+    footnote_id: str | None = None,
+) -> str:
+    """Stable identity when multiple passages compete for one entity."""
+    frag = fragment or (f"user-content-fnref-{footnote_id}" if footnote_id else "")
+    if frag:
+        return f"{kind}:{slug}:{route_key}#{frag}"
     return f"{kind}:{slug}:{route_key}"
+
+
+def _is_queued(review_log: dict[str, dict[str, Any]], key: str) -> bool:
+    status = str(review_log.get(key, {}).get("status") or "")
+    return status in REVIEW_LOG_TERMINAL
 
 
 def build_candidates(
@@ -1274,6 +1483,13 @@ def build_candidates(
     review_log: dict[str, dict[str, Any]] | None = None,
     batch_size: int = 10,
 ) -> list[Candidate]:
+    """
+    Build a bounded review queue.
+
+    ``unreviewed_only`` skips any candidate already in the review log with status
+    in ``proposed|approved|rejected|applied|skipped``, so successive batches
+    advance without repeating proposed work. Re-queue by deleting the log entry.
+    """
     review_log = review_log or {}
     out: list[Candidate] = []
 
@@ -1286,23 +1502,41 @@ def build_candidates(
             if only_missing and src.reader_passage_path:
                 continue
             if src.evidence_level not in {"B", "C"} and src.status != "invalid_passage_link":
-                if not (src.evidence_level == "A" and src.recommended_action != "none"):
-                    continue
-            hit = src.footnote_hits[0] if src.footnote_hits else None
-            prose = src.prose_hits[0] if src.prose_hits else None
-            if hit:
-                if book_id and hit.edition_slug != book_id:
-                    continue
-                route = hit.route_key
-                cand_path = src.candidate_path or candidate_path_from_footnote(hit)
-                key = _candidate_key("source", src.slug, route)
-                if unreviewed_only and review_log.get(key, {}).get("status") in {
-                    "approved",
-                    "rejected",
-                    "applied",
-                    "skipped",
+                if src.status not in {
+                    "path_valid_needs_editorial_review",
+                    "path_valid_shared_or_ambiguous_citation",
+                    "passage_link_unverified_fragment",
                 }:
                     continue
+
+            book_hits = select_hits_for_book(src.footnote_hits, book_id)
+            book_prose = select_prose_for_book(src.prose_hits, book_id)
+            book_hits = sorted(
+                book_hits,
+                key=lambda h: (
+                    0 if not h.needs_editorial_review else 1,
+                    -h.score,
+                    h.route_key,
+                    h.footnote_id,
+                ),
+            )
+            hit = book_hits[0] if book_hits else None
+            prose = book_prose[0] if book_prose else None
+
+            if hit:
+                route = hit.route_key
+                cand_path = candidate_path_from_footnote(hit)
+                key = _candidate_key(
+                    "source",
+                    src.slug,
+                    route,
+                    footnote_id=hit.footnote_id,
+                )
+                if unreviewed_only and _is_queued(review_log, key):
+                    continue
+                shared_note = ""
+                if hit.shared_with:
+                    shared_note = f" Shared footnote also matches: {', '.join(hit.shared_with)}."
                 out.append(
                     Candidate(
                         entity_kind="source",
@@ -1316,26 +1550,25 @@ def build_candidates(
                         line_end=hit.line_end,
                         excerpt=hit.excerpt,
                         candidate_reader_passage_path=cand_path,
-                        evidence_level=src.evidence_level,
+                        evidence_level=src.evidence_level
+                        if src.evidence_level in {"B", "C"}
+                        else "B",
                         explanation=(
-                            f"Footnote [^{hit.footnote_id}] matches this source "
-                            f"(score {hit.score}, {hit.method})."
+                            f"Body citation [^{hit.footnote_id}] matches this source "
+                            f"(score {hit.score}, {hit.method}). "
+                            f"Excerpt is the surrounding argument at the invocation."
+                            f"{shared_note}"
                         ),
-                        anchor_exists=True,
+                        anchor_exists=hit.ref_present,
                         recommended_action=src.recommended_action,
-                        needs_editorial_review=src.evidence_level != "B",
+                        needs_editorial_review=hit.needs_editorial_review
+                        or src.evidence_level == "C"
+                        or bool(hit.shared_with),
                     )
                 )
             elif prose:
-                if book_id and prose.edition_slug != book_id:
-                    continue
                 key = _candidate_key("source", src.slug, prose.route_key)
-                if unreviewed_only and review_log.get(key, {}).get("status") in {
-                    "approved",
-                    "rejected",
-                    "applied",
-                    "skipped",
-                }:
+                if unreviewed_only and _is_queued(review_log, key):
                     continue
                 out.append(
                     Candidate(
@@ -1369,20 +1602,15 @@ def build_candidates(
                 continue
             if not thinker.chapters_citing_works and not thinker.work_passage_links:
                 continue
-            # Prefer proposing source enrichment first when works are cited but unlinked.
             if thinker.work_passage_links and not only_missing:
                 for link in thinker.work_passage_links:
                     path = str(link["readerPassagePath"])
                     route = path.split("#", 1)[0]
+                    frag = path.split("#", 1)[1] if "#" in path else None
                     if book_id and f"/explore/books/{book_id}/" not in route:
                         continue
-                    key = _candidate_key("thinker", thinker.slug, route)
-                    if unreviewed_only and review_log.get(key, {}).get("status") in {
-                        "approved",
-                        "rejected",
-                        "applied",
-                        "skipped",
-                    }:
+                    key = _candidate_key("thinker", thinker.slug, route, fragment=frag)
+                    if unreviewed_only and _is_queued(review_log, key):
                         continue
                     out.append(
                         Candidate(
@@ -1409,16 +1637,21 @@ def build_candidates(
                         )
                     )
             elif thinker.chapters_citing_works:
-                cite = thinker.chapters_citing_works[0]
-                if book_id and f"/explore/books/{book_id}/" not in cite["routeKey"]:
+                cites = [
+                    c
+                    for c in thinker.chapters_citing_works
+                    if not book_id or f"/explore/books/{book_id}/" in c["routeKey"]
+                ]
+                if not cites:
                     continue
-                key = _candidate_key("thinker", thinker.slug, cite["routeKey"])
-                if unreviewed_only and review_log.get(key, {}).get("status") in {
-                    "approved",
-                    "rejected",
-                    "applied",
-                    "skipped",
-                }:
+                cite = cites[0]
+                key = _candidate_key(
+                    "thinker",
+                    thinker.slug,
+                    cite["routeKey"],
+                    footnote_id=str(cite["footnoteId"]),
+                )
+                if unreviewed_only and _is_queued(review_log, key):
                     continue
                 out.append(
                     Candidate(
@@ -1453,6 +1686,7 @@ def build_candidates(
             0 if c.entity_kind == "source" else 1,
             c.slug,
             c.route_key,
+            c.candidate_reader_passage_path or "",
         )
 
     out.sort(key=sort_key)
@@ -1519,7 +1753,19 @@ def write_candidates(
     if update_review_log and review_log_path is not None:
         log = load_review_log(review_log_path)
         for c in candidates:
-            key = _candidate_key(c.entity_kind, c.slug, c.route_key)
+            frag = None
+            footnote_id = None
+            if c.candidate_reader_passage_path and "#" in c.candidate_reader_passage_path:
+                frag = c.candidate_reader_passage_path.split("#", 1)[1]
+                if frag.startswith("user-content-fnref-"):
+                    footnote_id = frag.removeprefix("user-content-fnref-")
+            key = _candidate_key(
+                c.entity_kind,
+                c.slug,
+                c.route_key,
+                fragment=frag,
+                footnote_id=footnote_id,
+            )
             if key not in log:
                 log[key] = {
                     "status": "proposed",

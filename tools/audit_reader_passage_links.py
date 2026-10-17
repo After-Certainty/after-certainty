@@ -82,7 +82,10 @@ def main(argv: list[str] | None = None) -> int:
     print(
         "Sources: "
         f"total={s.get('total', 0)} "
-        f"valid={s.get('validPassageLinks', 0)} "
+        f"verified_A={s.get('editoriallyVerifiedPassages', 0)} "
+        f"mechanical_B={s.get('mechanicalFootnoteCandidates', 0)} "
+        f"needs_review={s.get('pathNeedsEditorialReview', 0)} "
+        f"unverified_frag={s.get('unverifiedFragmentLinks', 0)} "
         f"invalid={s.get('invalidPassageLinks', 0)} "
         f"missing_path_cited={s.get('missingPathWithFootnote', 0)} "
         f"biblio_only={s.get('bibliographyOnly', 0)} "

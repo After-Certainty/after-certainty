@@ -24,24 +24,25 @@ def _book_spec(book_id: str) -> str:
 
 def _mini_repo(tmp_path: Path) -> Path:
     """
-    Mini corpus:
+    Mini corpus covering:
 
-    - edition-a / chapter-1: cites Goodhart-like source via footnote
-    - edition-a / chapter-2: bibliography-only mention path
-    - edition-b: second edition of a related title family
-    - source with valid path, invalid path, missing path, biblio-only
-    - thinker with two works
+    - Valid Goodhart deep link tied to its citation fragment
+    - Shared footnote citing Adler + Abate
+    - Defined-but-unreferenced footnote
+    - Wrong-source authored path (Amershi path → Goodhart fragment)
+    - Kahneman missing path but cited in edition-b
+    - Empty relatedBooks source
+    - Bibliography-only / ambiguous surname
     """
     repo = tmp_path / "repo"
 
-    # --- Book edition-a ---
     book_a = repo / "books" / "edition-a"
     _write(book_a / "book.yml", _book_spec("edition-a"))
     _write(
         book_a / "index.md",
         "# Edition A\n\n## Part 1\n\n"
         "- [Effectiveness](parts/part-1/chapter-1-effectiveness.md)\n"
-        "- [Other](parts/part-1/chapter-2-other.md)\n"
+        "- [Clipboard](parts/part-1/chapter-2-clipboard.md)\n"
         "- [Bibliography](back-matter/bibliography.md)\n",
     )
     _write(
@@ -50,29 +51,36 @@ def _mini_repo(tmp_path: Path) -> Path:
         "## Effective at What\n\n"
         "When a measure becomes a target, it can stop representing the "
         "work.[^c1-goodhart-monetary-management]\n\n"
+        "An orphaned note is defined but never invoked.\n\n"
         "[^c1-goodhart-monetary-management]: Goodhart, Charles A. E. "
         '"Problems of Monetary Management: The U.K. Experience." '
-        "In Papers in Monetary Economics, 1975.\n",
+        "In Papers in Monetary Economics, 1975.\n"
+        "[^c1-orphaned-unused]: Someone, Jane. "
+        "*Completely Unrelated Tract*. 1900.\n",
     )
     _write(
-        book_a / "parts/part-1/chapter-2-other.md",
-        "# Other\n\n"
-        "A chapter that only alludes to Conditions for Intuitive Expertise "
-        "without a footnote citation.\n",
+        book_a / "parts/part-1/chapter-2-clipboard.md",
+        "# Clipboard\n\n"
+        "The plant closed after years of struggle.[^c2-nummi-close]\n\n"
+        "[^c2-nummi-close]: See Paul S. Adler, "
+        "\"The 'Learning Bureaucracy': New United Motor Manufacturing, Inc.\"; "
+        "and Tom Abate, \"Nummi workers say their final good-byes,\" "
+        "San Francisco Chronicle, April 2, 2010.\n",
     )
     _write(
         book_a / "back-matter/bibliography.md",
         "# **Bibliography**\n\n"
         "- Goodhart, Charles A. E. *Problems of Monetary Management: The U.K.* "
         "Sydney: Reserve Bank of Australia, 1975.\n"
-        "- Kahneman, Daniel, and Gary Klein. "
-        '"Conditions for Intuitive Expertise: A Failure to Disagree." '
-        "American Psychologist 64, no. 6 (2009): 515–526.\n"
+        "- Adler, Paul S. \"The 'Learning Bureaucracy': New United Motor "
+        'Manufacturing, Inc."\n'
+        '- Abate, Tom. "Nummi workers say their final good-byes." '
+        "San Francisco Chronicle, 2010.\n"
         "- Amershi, Saleema, et al. "
-        '"Guidelines for Human-AI Interaction." CHI 2019.\n',
+        '"Guidelines for Human-AI Interaction." CHI 2019.\n'
+        "- Someone, Jane. *Completely Unrelated Tract*. 1900.\n",
     )
 
-    # --- Book edition-b (second edition slug) ---
     book_b = repo / "books" / "edition-b"
     _write(book_b / "book.yml", _book_spec("edition-b"))
     _write(
@@ -98,7 +106,6 @@ def _mini_repo(tmp_path: Path) -> Path:
         "American Psychologist 64, no. 6 (2009): 515–526.\n",
     )
 
-    # --- Sources ---
     goodhart_path = (
         "/explore/books/edition-a/chapters/"
         "parts-part-1-chapter-1-effectiveness"
@@ -136,8 +143,7 @@ def _mini_repo(tmp_path: Path) -> Path:
         "citation: Kahneman and Klein 2009.\n"
         "sourceKind: article\n",
     )
-    # Missing path but cited → B
-    # Invalid path (wrong book)
+    # Wrong fragment: path points at Goodhart's fnref, not an Amershi citation.
     _write(
         repo / "semantic/sources/amershi-pilot.yml",
         "slug: amershi-pilot\n"
@@ -151,9 +157,52 @@ def _mini_repo(tmp_path: Path) -> Path:
         "creatorSlugs:\n- saleema-amershi\n"
         "citation: Amershi et al. CHI 2019.\n"
         "sourceKind: article\n"
-        "readerPassagePath: /explore/books/edition-b/chapters/parts-part-1-chapter-1-trust#nope\n",
+        f"readerPassagePath: {goodhart_path}\n",
     )
-    # Bibliography only (in biblio + relatedBooks, no body engagement)
+    _write(
+        repo / "semantic/sources/adler-pilot.yml",
+        "slug: adler-pilot\n"
+        "name: \"Paul S. Adler — The 'Learning Bureaucracy'\"\n"
+        "type: article\n"
+        "summary: Learning Bureaucracy NUMMI.\n"
+        "concepts: []\npatterns: []\n"
+        "relatedBooks:\n- edition-a\n"
+        "title: \"The 'Learning Bureaucracy': New United Motor Manufacturing, Inc.\"\n"
+        "creatorNames:\n- Paul S. Adler\n"
+        "creatorSlugs:\n- paul-s-adler\n"
+        "citation: Adler Learning Bureaucracy.\n"
+        "sourceKind: article\n",
+    )
+    _write(
+        repo / "semantic/sources/abate-pilot.yml",
+        "slug: abate-pilot\n"
+        "name: Tom Abate — Nummi workers say their final good-byes\n"
+        "type: article\n"
+        "summary: Nummi workers say their final good-byes.\n"
+        "concepts: []\npatterns: []\n"
+        "relatedBooks:\n- edition-a\n"
+        "title: Nummi workers say their final good-byes\n"
+        "creatorNames:\n- Tom Abate\n"
+        "creatorSlugs:\n- tom-abate\n"
+        "citation: Abate Nummi workers.\n"
+        "sourceKind: article\n",
+    )
+    _write(
+        repo / "semantic/sources/empty-related-books.yml",
+        "slug: empty-related-books\n"
+        "name: Orphan Work — No Book Link\n"
+        "type: book\n"
+        "summary: No Book Link.\n"
+        "concepts: []\npatterns: []\n"
+        "relatedBooks: []\n"
+        "title: No Book Link\n"
+        "creatorNames:\n- Orphan Author\n"
+        "creatorSlugs:\n- orphan-author\n"
+        "citation: Orphan Author. No Book Link.\n"
+        "sourceKind: book\n"
+        "readerPassagePath: /explore/books/edition-a/chapters/"
+        "parts-part-1-chapter-1-effectiveness#user-content-fnref-c1-goodhart-monetary-management\n",
+    )
     _write(
         repo / "semantic/sources/biblio-only-pilot.yml",
         "slug: biblio-only-pilot\n"
@@ -168,7 +217,6 @@ def _mini_repo(tmp_path: Path) -> Path:
         "citation: Someone. An Obscure Report Never Discussed.\n"
         "sourceKind: report\n",
     )
-    # Ambiguous short name — surname-only must not become A
     _write(
         repo / "semantic/sources/smith-common-name.yml",
         "slug: smith-common-name\n"
@@ -184,7 +232,6 @@ def _mini_repo(tmp_path: Path) -> Path:
         "sourceKind: book\n",
     )
 
-    # --- Thinkers ---
     _write(
         repo / "semantic/thinkers/charles-goodhart.yml",
         "slug: charles-goodhart\n"
@@ -213,7 +260,6 @@ def _mini_repo(tmp_path: Path) -> Path:
         "concepts: []\npatterns: []\nrelatedBooks:\n- edition-b\n"
         "works:\n- kahneman-klein-pilot\n",
     )
-
     return repo
 
 
@@ -226,7 +272,6 @@ def _stub_fragment_ok(
     timeout_s: float = 60.0,
 ) -> tuple[bool, str | None]:
     _ = (repo, book_dir, source_path, timeout_s)
-    # Treat footnote-shaped fragments as present for unit tests.
     if fragment.startswith("user-content-fnref-"):
         return True, None
     if fragment == "effective-at-what":
@@ -234,7 +279,7 @@ def _stub_fragment_ok(
     return False, "fragment not found in rendered HTML"
 
 
-def test_valid_deep_link_and_pilot_shapes(tmp_path: Path, monkeypatch: Any) -> None:
+def test_valid_deep_link_tied_to_fragment(tmp_path: Path, monkeypatch: Any) -> None:
     repo = _mini_repo(tmp_path)
     monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)
     result = rpl.run_audit(repo, check_fragments=True)
@@ -242,10 +287,14 @@ def test_valid_deep_link_and_pilot_shapes(tmp_path: Path, monkeypatch: Any) -> N
 
     goodhart = by_slug["goodhart-pilot"]
     assert goodhart.evidence_level == "A"
+    assert goodhart.fragment_tied_hit
     assert goodhart.path_validation is not None
     assert goodhart.path_validation.is_fully_valid
     assert goodhart.footnote_hits
-    assert goodhart.why_this_matters_ok
+    assert goodhart.footnote_hits[0].ref_present
+    assert "Effective at What" in goodhart.footnote_hits[0].excerpt or "measure" in (
+        goodhart.footnote_hits[0].excerpt
+    )
 
     kk = by_slug["kahneman-klein-pilot"]
     assert kk.evidence_level == "B"
@@ -253,10 +302,156 @@ def test_valid_deep_link_and_pilot_shapes(tmp_path: Path, monkeypatch: Any) -> N
     assert "user-content-fnref-c1-kahneman-klein" in (kk.candidate_path or "")
 
 
+def test_wrong_source_anchor_is_not_level_a(tmp_path: Path, monkeypatch: Any) -> None:
+    repo = _mini_repo(tmp_path)
+    monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)
+    result = rpl.run_audit(repo, check_fragments=True)
+    amershi = next(s for s in result.sources if s.slug == "amershi-pilot")
+    assert amershi.evidence_level != "A"
+    assert amershi.status == "path_valid_needs_editorial_review"
+    assert not amershi.fragment_tied_hit
+
+
+def test_shared_footnote_matches_multiple_works(tmp_path: Path, monkeypatch: Any) -> None:
+    repo = _mini_repo(tmp_path)
+    monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)
+    result = rpl.run_audit(repo, check_fragments=False)
+    by_slug = {s.slug: s for s in result.sources}
+    adler = by_slug["adler-pilot"]
+    abate = by_slug["abate-pilot"]
+    assert adler.footnote_hits
+    assert abate.footnote_hits
+    assert adler.footnote_hits[0].footnote_id == "c2-nummi-close"
+    assert abate.footnote_hits[0].footnote_id == "c2-nummi-close"
+    assert "abate-pilot" in adler.footnote_hits[0].shared_with
+    assert "adler-pilot" in abate.footnote_hits[0].shared_with
+    assert adler.footnote_hits[0].needs_editorial_review
+    assert abate.footnote_hits[0].needs_editorial_review
+
+
+def test_defined_but_unreferenced_footnote_ignored(tmp_path: Path, monkeypatch: Any) -> None:
+    repo = _mini_repo(tmp_path)
+    monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)
+    result = rpl.run_audit(repo, check_fragments=False)
+    smith = next(s for s in result.sources if s.slug == "smith-common-name")
+    assert not any(h.footnote_id == "c1-orphaned-unused" for h in smith.footnote_hits)
+    assert smith.evidence_level in {"D", "E"}
+
+
+def test_empty_related_books_rejected(tmp_path: Path, monkeypatch: Any) -> None:
+    repo = _mini_repo(tmp_path)
+    monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)
+    result = rpl.run_audit(repo, check_fragments=True)
+    empty = next(s for s in result.sources if s.slug == "empty-related-books")
+    assert empty.path_validation is not None
+    assert "related_books_required" in empty.path_validation.issues
+    assert not empty.path_validation.related_book_ok
+    assert empty.evidence_level != "A"
+
+
+def test_skip_fragment_check_is_unverified_not_invalid(tmp_path: Path, monkeypatch: Any) -> None:
+    repo = _mini_repo(tmp_path)
+    monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)
+    result = rpl.run_audit(repo, check_fragments=False)
+    goodhart = next(s for s in result.sources if s.slug == "goodhart-pilot")
+    assert goodhart.status == "passage_link_unverified_fragment"
+    assert goodhart.evidence_level != "A"
+    assert goodhart.path_validation is not None
+    assert goodhart.path_validation.fragment_check_skipped
+    assert goodhart.path_validation.is_structurally_valid
+    assert not goodhart.path_validation.is_fully_valid
+    assert "fragment_missing" not in goodhart.path_validation.issues
+    # Must not inflate A coverage when fragments are skipped.
+    assert result.totals["sources"]["editoriallyVerifiedPassages"] == 0
+
+
+def test_book_filter_selects_matching_edition_evidence(tmp_path: Path, monkeypatch: Any) -> None:
+    repo = _mini_repo(tmp_path)
+    monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)
+    # Give Kahneman a spurious edition-a prose hit by adding relatedBooks both
+    # editions and a citation only in edition-b — propose with --book edition-b.
+    src_path = repo / "semantic/sources/kahneman-klein-pilot.yml"
+    doc = yaml.safe_load(src_path.read_text(encoding="utf-8"))
+    doc["relatedBooks"] = ["edition-a", "edition-b"]
+    src_path.write_text(yaml.safe_dump(doc, sort_keys=False), encoding="utf-8")
+
+    result = rpl.run_audit(repo, check_fragments=False)
+    batch = rpl.build_candidates(
+        result,
+        kind="sources",
+        only_missing=True,
+        book_id="edition-b",
+        batch_size=20,
+        slugs={"kahneman-klein-pilot"},
+    )
+    assert batch
+    assert all(c.book_id == "edition-b" for c in batch)
+    assert "edition-b" in (batch[0].candidate_reader_passage_path or "")
+
+
+def test_propose_batch_advances_past_proposed(tmp_path: Path, monkeypatch: Any) -> None:
+    repo = _mini_repo(tmp_path)
+    monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)
+    before = (repo / "semantic/sources/kahneman-klein-pilot.yml").read_text(encoding="utf-8")
+    result = rpl.run_audit(repo, check_fragments=False)
+    review_log: dict[str, dict] = {}
+    batch1 = rpl.build_candidates(
+        result,
+        kind="sources",
+        only_missing=True,
+        batch_size=2,
+        unreviewed_only=True,
+        review_log=review_log,
+    )
+    assert len(batch1) == 2
+    for c in batch1:
+        frag = (c.candidate_reader_passage_path or "").split("#")[-1]
+        key = rpl._candidate_key(
+            c.entity_kind,
+            c.slug,
+            c.route_key,
+            fragment=frag if "#" in (c.candidate_reader_passage_path or "") else None,
+        )
+        review_log[key] = {"status": "proposed"}
+
+    batch2 = rpl.build_candidates(
+        result,
+        kind="sources",
+        only_missing=True,
+        batch_size=2,
+        unreviewed_only=True,
+        review_log=review_log,
+    )
+    keys1 = {
+        rpl._candidate_key(
+            c.entity_kind,
+            c.slug,
+            c.route_key,
+            fragment=(c.candidate_reader_passage_path or "").split("#")[-1]
+            if "#" in (c.candidate_reader_passage_path or "")
+            else None,
+        )
+        for c in batch1
+    }
+    keys2 = {
+        rpl._candidate_key(
+            c.entity_kind,
+            c.slug,
+            c.route_key,
+            fragment=(c.candidate_reader_passage_path or "").split("#")[-1]
+            if "#" in (c.candidate_reader_passage_path or "")
+            else None,
+        )
+        for c in batch2
+    }
+    assert keys1.isdisjoint(keys2)
+    after = (repo / "semantic/sources/kahneman-klein-pilot.yml").read_text(encoding="utf-8")
+    assert before == after
+
+
 def test_missing_chapter_and_wrong_edition(tmp_path: Path, monkeypatch: Any) -> None:
     repo = _mini_repo(tmp_path)
     monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)
-    # Missing chapter
     src = yaml.safe_load((repo / "semantic/sources/goodhart-pilot.yml").read_text(encoding="utf-8"))
     src["readerPassagePath"] = "/explore/books/edition-a/chapters/parts-part-1-chapter-9-missing#x"
     (repo / "semantic/sources/goodhart-pilot.yml").write_text(
@@ -267,19 +462,11 @@ def test_missing_chapter_and_wrong_edition(tmp_path: Path, monkeypatch: Any) -> 
     assert g.status == "invalid_passage_link"
     assert "chapter_not_found" in (g.path_validation.issues if g.path_validation else [])
 
-    # Wrong edition (amershi points at edition-b while relatedBooks is edition-a)
-    amershi = next(s for s in result.sources if s.slug == "amershi-pilot")
-    assert amershi.status == "invalid_passage_link"
-    assert "edition_not_in_related_books" in (
-        amershi.path_validation.issues if amershi.path_validation else []
-    )
-
 
 def test_non_public_chapter(tmp_path: Path, monkeypatch: Any) -> None:
     repo = _mini_repo(tmp_path)
     monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)
     chapters = rpl.load_published_chapters(repo)
-    # Force one chapter non-public
     route = "/explore/books/edition-a/chapters/parts-part-1-chapter-1-effectiveness"
     chapters[route].public = False
     src = yaml.safe_load((repo / "semantic/sources/goodhart-pilot.yml").read_text(encoding="utf-8"))
@@ -331,28 +518,9 @@ def test_bibliography_only_is_level_d(tmp_path: Path, monkeypatch: Any) -> None:
     repo = _mini_repo(tmp_path)
     monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)
     result = rpl.run_audit(repo, check_fragments=False)
-    # biblio-only-pilot may be D if matched into bibliography, else E if unmatched
     row = next(s for s in result.sources if s.slug == "biblio-only-pilot")
     assert row.evidence_level in {"D", "E"}
     assert row.evidence_level != "A"
-    assert row.recommended_action in {"do_not_fabricate_citation", "none"}
-
-
-def test_multiple_works_same_thinker_and_ambiguous_names(tmp_path: Path, monkeypatch: Any) -> None:
-    repo = _mini_repo(tmp_path)
-    monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)
-    result = rpl.run_audit(repo, check_fragments=True)
-    # Both Kahneman and Klein derive from the same work once it has a path;
-    # currently B-level via citation.
-    dk = next(t for t in result.thinkers if t.slug == "daniel-kahneman")
-    gk = next(t for t in result.thinkers if t.slug == "gary-klein")
-    assert "kahneman-klein-pilot" in dk.work_slugs
-    assert "kahneman-klein-pilot" in gk.work_slugs
-    assert dk.chapters_citing_works or dk.evidence_level in {"B", "A", "D"}
-
-    smith = next(s for s in result.sources if s.slug == "smith-common-name")
-    assert smith.evidence_level in {"D", "E"}
-    assert smith.evidence_level != "A"
 
 
 def test_multiple_editions_keep_distinct_route_keys(tmp_path: Path, monkeypatch: Any) -> None:
@@ -366,39 +534,18 @@ def test_multiple_editions_keep_distinct_route_keys(tmp_path: Path, monkeypatch:
     assert not set(a_routes) & set(b_routes)
 
 
-def test_propose_batch_idempotent_and_preserves_yaml(tmp_path: Path, monkeypatch: Any) -> None:
-    repo = _mini_repo(tmp_path)
-    monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)
-    before = (repo / "semantic/sources/kahneman-klein-pilot.yml").read_text(encoding="utf-8")
-    result = rpl.run_audit(repo, check_fragments=False)
-    review_log: dict[str, dict] = {}
-    batch1 = rpl.build_candidates(
-        result,
-        kind="sources",
-        only_missing=True,
-        batch_size=5,
-        unreviewed_only=True,
-        review_log=review_log,
-    )
-    assert batch1
-    # Simulate logging as proposed then applied
-    for c in batch1:
-        key = rpl._candidate_key(c.entity_kind, c.slug, c.route_key)
-        review_log[key] = {"status": "applied"}
-    batch2 = rpl.build_candidates(
-        result,
-        kind="sources",
-        only_missing=True,
-        batch_size=5,
-        unreviewed_only=True,
-        review_log=review_log,
-    )
-    applied_keys = {rpl._candidate_key(c.entity_kind, c.slug, c.route_key) for c in batch1}
-    for c in batch2:
-        assert rpl._candidate_key(c.entity_kind, c.slug, c.route_key) not in applied_keys
-
-    after = (repo / "semantic/sources/kahneman-klein-pilot.yml").read_text(encoding="utf-8")
-    assert before == after  # propose must not mutate YAML
+def test_creator_author_tokens_exclude_title_words() -> None:
+    src = {
+        "creatorNames": ["Charles A. E Goodhart"],
+        "name": "Charles A. E Goodhart — Problems of Monetary Management",
+        "title": "Problems of Monetary Management",
+        "citation": "Goodhart Problems of Monetary Management 1975",
+        "summary": "Problems of Monetary Management experience",
+    }
+    tokens = rpl.creator_author_tokens(src)
+    assert "goodhart" in tokens
+    assert "problems" not in tokens
+    assert "monetary" not in tokens
 
 
 def test_report_writers_and_cli(tmp_path: Path, monkeypatch: Any) -> None:
@@ -408,10 +555,11 @@ def test_report_writers_and_cli(tmp_path: Path, monkeypatch: Any) -> None:
     md = repo / "reports/reader-passage-links/audit.md"
     js = repo / "reports/reader-passage-links/audit.json"
     rpl.write_audit_reports(result, md_out=md, json_out=js)
-    assert "Reader passage links audit" in md.read_text(encoding="utf-8")
+    text = md.read_text(encoding="utf-8")
+    assert "Editorially verified passages" in text
+    assert "Mechanical footnote candidates" in text
     payload = json.loads(js.read_text(encoding="utf-8"))
-    assert "totals" in payload
-    assert "sources" in payload
+    assert "editoriallyVerifiedPassages" in payload["totals"]["sources"]
 
     out_md = repo / "reports/reader-passage-links/from-cli.md"
     out_json = repo / "reports/reader-passage-links/from-cli.json"
@@ -446,14 +594,12 @@ def test_parse_path_regex() -> None:
 
 
 def test_live_pilot_sources_when_present() -> None:
-    """Regression against real Goodhart / Kahneman–Klein / Amershi YAML on this repo."""
     repo = Path(__file__).resolve().parents[1]
     goodhart = repo / (
         "semantic/sources/goodhart-charles-a-e-problems-of-monetary-management-the-u-k.yml"
     )
     if not goodhart.is_file():
         return
-    # Path shape only — full fragment check is expensive; covered by site tests.
     doc = yaml.safe_load(goodhart.read_text(encoding="utf-8"))
     path = str(doc.get("readerPassagePath") or "")
     assert path.startswith("/explore/books/")

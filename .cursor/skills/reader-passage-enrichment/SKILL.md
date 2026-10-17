@@ -41,8 +41,8 @@ the section is the genuine locus of discussion and no citation exists yet.
 
 | Level | Meaning | Typical action |
 |-------|---------|----------------|
-| **A** | Substantive engagement + validated public path + fragment in rendered HTML | Keep / surface |
-| **B** | Specific chapter passage with textual evidence; missing path or citation | Propose deep link / footnote |
+| **A** | Citation invocation tied to the authored fragment + validated public path + fragment in rendered HTML | Keep / surface |
+| **B** | Specific chapter passage with textual evidence; missing path, untied path, or shared/ambiguous footnote | Propose deep link / editorial confirm |
 | **C** | Plausible theme; needs editorial judgment | Review; do not auto-link |
 | **D** | Bibliography / `relatedBooks` only | Do **not** fabricate discussion |
 | **E** | No reliable match | Skip |
@@ -89,15 +89,19 @@ For each candidate:
    never bulk-insert or invent discussion for bibliography-only (D) rows.
 5. Flag `needsEditorialReview` items for human/Cursor judgment.
 
-Fragment check (same pipeline as the reader):
+Fragment check (same pipeline as the reader; workspace-pinned `jiti`, no network):
 
 ```bash
-cd apps/site && npx tsx scripts/validate-reader-passage-fragment.ts \
+node apps/site/scripts/validate-reader-passage-fragment.mjs \
   --book-dir books/<edition> \
   --source-path <chapter.md> \
   --fragment user-content-fnref-<id> \
-  --repo ../..
+  --repo .
 ```
+
+Level **A** requires the authored `readerPassagePath` fragment to be the matched
+citation invocation (`#user-content-fnref-{id}`), not merely a working chapter URL.
+Mechanical footnote matches are level **B** until editorial confirmation.
 
 ## 4 — Propose editorial changes
 

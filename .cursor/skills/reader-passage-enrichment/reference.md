@@ -20,12 +20,12 @@ uv run python tools/propose_reader_passage_links.py --repo . \
 
 make propose-reader-passage-links KIND=sources BATCH_SIZE=10 ONLY_MISSING=1 DRY_RUN=1
 
-# Validate one fragment against the live reader HTML pipeline
-cd apps/site && npx tsx scripts/validate-reader-passage-fragment.ts \
+# Validate one fragment against the live reader HTML pipeline (pinned jiti; no npx)
+node apps/site/scripts/validate-reader-passage-fragment.mjs \
   --book-dir books/when-authority-outlives-accountability \
   --source-path parts/part-1-the-three-dimensions/chapter-3-effectiveness.md \
   --fragment user-content-fnref-c3-goodhart-monetary-management \
-  --repo ../..
+  --repo .
 ```
 
 ## Report files
@@ -37,6 +37,19 @@ cd apps/site && npx tsx scripts/validate-reader-passage-fragment.ts \
 | `reports/reader-passage-links/candidates.md` | Latest propose batch |
 | `reports/reader-passage-links/candidates.json` | Latest propose batch (JSON) |
 | `reports/reader-passage-links/review-log.json` | Idempotent review statuses |
+
+### Review-log states
+
+| Status | Meaning |
+|--------|---------|
+| *(absent)* | Never queued — eligible for `--unreviewed-only` |
+| `proposed` | In a prior batch; **skipped** by `--unreviewed-only` so later batches advance |
+| `approved` | Editorially accepted; awaiting YAML/manuscript apply |
+| `applied` | Canonical YAML (and any citation) updated |
+| `rejected` / `skipped` | Do not re-propose |
+
+Stable candidate keys are `kind:slug:routeKey#fragment` (includes footnote id when present).
+To re-queue an item, delete its review-log entry (or clear `status`).
 
 ## Path and fragment rules
 
@@ -66,7 +79,8 @@ Pattern enforced in `schema/semantic/source-entry.schema.json` and site Zod.
 | `tools/reader_passage_links.py` | Shared audit / propose library |
 | `tools/audit_reader_passage_links.py` | Audit CLI |
 | `tools/propose_reader_passage_links.py` | Propose CLI |
-| `apps/site/scripts/validate-reader-passage-fragment.ts` | Rendered-HTML fragment check |
+| `apps/site/scripts/validate-reader-passage-fragment.mjs` | Rendered-HTML fragment check (jiti) |
+| `apps/site/scripts/validate-reader-passage-fragment.ts` | Legacy TS entry (prefer `.mjs`) |
 | `apps/site/lib/reading/render-manuscript-html.ts` | Reader HTML pipeline |
 | `apps/site/app/explore/(browse)/sources/[slug]/page.tsx` | Source CTA for passage links |
 | `tests/test_reader_passage_links.py` | Python regression tests |

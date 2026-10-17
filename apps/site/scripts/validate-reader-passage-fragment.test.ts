@@ -7,19 +7,15 @@ import { resolveMonorepoRoot } from "@/lib/reading/repo-root";
 
 const script = path.join(
   path.dirname(fileURLToPath(import.meta.url)),
-  "validate-reader-passage-fragment.ts",
+  "validate-reader-passage-fragment.mjs",
 );
 
 function run(args: string[]): { code: number; json: Record<string, unknown> } {
   const repo = resolveMonorepoRoot();
-  const result = spawnSync(
-    "npx",
-    ["--yes", "tsx", script, ...args, "--repo", repo],
-    {
-      cwd: path.join(repo, "apps/site"),
-      encoding: "utf8",
-    },
-  );
+  const result = spawnSync("node", [script, ...args, "--repo", repo], {
+    cwd: path.join(repo, "apps/site"),
+    encoding: "utf8",
+  });
   const stdout = (result.stdout ?? "").trim();
   const line =
     stdout
