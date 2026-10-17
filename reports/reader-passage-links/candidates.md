@@ -5,7 +5,71 @@ philosophical relevance — newly proposed connections always need editorial
 review. `anchor_exists` is true/false only after the reader HTML check;
 `null` means unverified.
 
-## 1. `source` / `andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl` (level B)
+## 1. `source` / `alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language` (level B)
+
+- YAML: `semantic/sources/alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language.yml`
+- Book: `living-in-sediment` — Chapter 8 — The Building and the Gathering
+- Manuscript: `books/living-in-sediment/parts/part-2-fossils-that-shape-power/chapter-8-the-building-and-the-gathering.md` lines 33–33
+- Candidate path: `/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns`
+- Anchor exists: `None`
+- Recommended action: `editorial_review_then_add_path`
+- Needs editorial review: `True`
+- Related work: `—`
+- Why: Body citation [^c8-alexander-patterns] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation. Shared footnote also matches: alexander-christopher-the-timeless-way-of-building.
+
+Excerpt:
+
+> tions from weather, preserved art, amplified music, and offered a visible center for communities whose identities stretched across generations. The building solved a real problem.[^c8-alexander-patterns] Like most successful solutions, it gradually became something more than the problem it solved. Today, if someone says they are "going to church," almost no one imagines they are
+
+## 2. `source` / `alexander-christopher-the-timeless-way-of-building` (level B)
+
+- YAML: `semantic/sources/alexander-christopher-the-timeless-way-of-building.yml`
+- Book: `living-in-sediment` — Chapter 8 — The Building and the Gathering
+- Manuscript: `books/living-in-sediment/parts/part-2-fossils-that-shape-power/chapter-8-the-building-and-the-gathering.md` lines 33–33
+- Candidate path: `/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns`
+- Anchor exists: `None`
+- Recommended action: `editorial_review_then_add_path`
+- Needs editorial review: `True`
+- Related work: `—`
+- Why: Body citation [^c8-alexander-patterns] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation. Shared footnote also matches: alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language.
+
+Excerpt:
+
+> tions from weather, preserved art, amplified music, and offered a visible center for communities whose identities stretched across generations. The building solved a real problem.[^c8-alexander-patterns] Like most successful solutions, it gradually became something more than the problem it solved. Today, if someone says they are "going to church," almost no one imagines they are
+
+## 3. `source` / `allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr` (level B)
+
+- YAML: `semantic/sources/allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr.yml`
+- Book: `coupling` — 7. DevOps: Restoring Operational Coupling
+- Manuscript: `books/coupling/parts/part-2-software-as-early-laboratory/07-devops-restoring-operational-coupling.md` lines 15–15
+- Candidate path: `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-devops-emergence`
+- Anchor exists: `None`
+- Recommended action: `editorial_review_then_add_path`
+- Needs editorial review: `True`
+- Related work: `—`
+- Why: Body citation [^c7-devops-emergence] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation. Shared footnote also matches: kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class.
+
+Excerpt:
+
+> stration. Infrastructure groups managed production reliability. The system moved faster, but learning remained fragmented. DevOps emerged as a response to that remaining distance.[^c7-devops-emergence] Its central idea was not merely automation. It was reducing the separation between the people changing systems and the people experiencing the operational consequences of those ch
+
+## 4. `source` / `american-college-of-emergency-physicians-boarding` (level B)
+
+- YAML: `semantic/sources/american-college-of-emergency-physicians-boarding.yml`
+- Book: `when-incentives-become-the-moral-language` — Chapter 1 — The Bed Someone Else Needs
+- Manuscript: `books/when-incentives-become-the-moral-language/parts/part-1-the-need-for-translation/chapter-1-the-bed-someone-else-needs.md` lines 33–33
+- Candidate path: `/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding`
+- Anchor exists: `None`
+- Recommended action: `editorial_review_then_add_path`
+- Needs editorial review: `True`
+- Related work: `—`
+- Why: Body citation [^c1-boarding] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation. Shared footnote also matches: institute-of-medicine-hospital-based-emergency-care-at-the-breaking-point.
+
+Excerpt:
+
+> s, changing shifts, uncertain arrivals, insurance requirements, legal obligations, infection risks, staffing shortages, and patients whose needs do not pause when capacity is full.[^c1-boarding] A bed cannot be assigned according to a feeling no one outside the room can examine. A payer cannot reimburse a hospital because a nurse had a bad feeling. A regulator cannot comp
+
+## 5. `source` / `andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl` (level B)
 
 - YAML: `semantic/sources/andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl.yml`
 - Book: `the-game-we-think-we-saw` — Chapter 6 — The Athlete Who Said No
@@ -21,7 +85,7 @@ Excerpt:
 
 > , the twenty-nine-year-old quarterback described years of cycling through injury, pain, and rehabilitation—an unrelenting process that, he said, had taken away his joy in the game.[^c6-luck] The timing made the cost impossible to hide. The Colts had built plans around him; teammates, coaches, and fans had organized a season that now had to be reorganized weeks before
 
-## 2. `source` / `andscape-for-allen-iverson-it-was-never-just-about-practice` (level B)
+## 6. `source` / `andscape-for-allen-iverson-it-was-never-just-about-practice` (level B)
 
 - YAML: `semantic/sources/andscape-for-allen-iverson-it-was-never-just-about-practice.yml`
 - Book: `the-game-we-think-we-saw` — Chapter 7 — When a Gesture Becomes Another Message
@@ -37,130 +101,66 @@ Excerpt:
 
 > sing, conflict with his coach, and the recent death of a close friend. His repeated disbelief was directed partly at the contrast between those losses and the question being asked.[^c7-iverson] The shorter version traveled because it was better shaped for travel. It had rhythm. It could be imitated. It required no knowledge of the season or the person speaking. The clip
 
-## 3. `source` / `arendt-hannah-on-revolution` (level B)
+## 7. `source` / `arrington-leonard-j-great-basin-kingdom` (level B)
 
-- YAML: `semantic/sources/arendt-hannah-on-revolution.yml`
-- Book: `when-moral-seriousness-scales` — Chapter 9 — Rebuilding Density
-- Manuscript: `books/when-moral-seriousness-scales/parts/part-4-what-remains-possible/chapter-9-rebuilding-density.md` lines 33–33
-- Candidate path: `/explore/books/when-moral-seriousness-scales/chapters/parts-part-4-what-remains-possible-chapter-9-rebuilding-density#user-content-fnref-c9-arendt-on-revolution`
+- YAML: `semantic/sources/arrington-leonard-j-great-basin-kingdom.yml`
+- Book: `learning-to-see` — Chapter 1 — The Experiment I Had Never Tried
+- Manuscript: `books/learning-to-see/parts/part-1-the-formation-of-a-knower/chapter-1-the-experiment-i-had-never-tried.md` lines 85–85
+- Candidate path: `/explore/books/learning-to-see/chapters/parts-part-1-the-formation-of-a-knower-chapter-1-the-experiment-i-had-never-tried#user-content-fnref-c1-sediment-hypothesis`
 - Anchor exists: `None`
 - Recommended action: `editorial_review_then_add_path`
 - Needs editorial review: `True`
 - Related work: `—`
-- Why: Body citation [^c9-arendt-on-revolution] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation.
+- Why: Body citation [^c1-sediment-hypothesis] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation. Shared footnote also matches: bushman-richard-lyman-joseph-smith-rough-stone-rolling, mason-patrick-q-and-j-david-pulsipher-proclaim-peace, odea-thomas-f-the-mormons, shipps-jan-mormonism-the-story-of-a-new-religious-tradition.
 
 Excerpt:
 
-> friction can be protective. Mandatory review, sunset clauses, transparent reporting requirements, and procedural delays are forms of intentional resistance to automatic escalation.[^c9-arendt-on-revolution] They do not assume actors will choose restraint. They require reconsideration before authority expands. Finally, **institutional limits** preserve constraint across time. Authori
+> ply personal habits. They were cultural sediment—practices and norms that had helped a community survive hardship and later became difficult to see as anything other than morality.[^c1-sediment-hypothesis] A community that experiences persecution, displacement, and the demands of frontier survival may develop strong norms of unity and deference. Under those conditions, cohesion is
 
-## 4. `source` / `arendt-hannah-responsibility-and-judgment` (level B)
+## 8. `source` / `arrington-leonard-j-great-basin-kingdom` (level B)
 
-- YAML: `semantic/sources/arendt-hannah-responsibility-and-judgment.yml`
-- Book: `coupling` — Epilogue - Stay Cohesive, Stay Close
-- Manuscript: `books/coupling/back-matter/epilogue-stay-cohesive-stay-close.md` lines 29–29
-- Candidate path: `/explore/books/coupling/chapters/back-matter-epilogue-stay-cohesive-stay-close#user-content-fnref-epi-judgment`
+- YAML: `semantic/sources/arrington-leonard-j-great-basin-kingdom.yml`
+- Book: `learning-to-see` — Chapter 10 — Cultural Sediment
+- Manuscript: `books/learning-to-see/parts/part-3-what-traditions-carry/chapter-10-cultural-sediment.md` lines 269–269
+- Candidate path: `/explore/books/learning-to-see/chapters/parts-part-3-what-traditions-carry-chapter-10-cultural-sediment#user-content-fnref-c10-lds-hypothesis`
 - Anchor exists: `None`
 - Recommended action: `editorial_review_then_add_path`
 - Needs editorial review: `True`
 - Related work: `—`
-- Why: Body citation [^epi-judgment] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation.
+- Why: Body citation [^c10-lds-hypothesis] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation. Shared footnote also matches: bushman-richard-lyman-joseph-smith-rough-stone-rolling, mason-patrick-q-and-j-david-pulsipher-proclaim-peace, odea-thomas-f-the-mormons, shipps-jan-mormonism-the-story-of-a-new-religious-tradition. Alternative #2 for this source.
 
 Excerpt:
 
-> s a way of seeing constraints clearly enough to act honestly inside them. Hannah Arendt wrote that judgment still matters under conditions where rules no longer fully fit reality.[^epi-judgment] That insight matters because large systems constantly encounter situations their existing structures were not designed to handle cleanly. Someone still has to notice what no longe
+> nfused a path through one environment with a law of nature. The cultural sediment I recognize most personally comes from Utah and the Latter-day Saint world in which I was raised.[^c10-lds-hypothesis] I want to approach this carefully. It would be easy to tell an overly simple story. Early Latter-day Saints experienced persecution, displacement, migration, difficult settleme
 
-## 5. `source` / `arendt-hannah-responsibility-and-judgment` (level B)
+## 9. `source` / `arthur-w-brian-competing-technologies-increasing-returns-and-lock-in-by` (level B)
 
-- YAML: `semantic/sources/arendt-hannah-responsibility-and-judgment.yml`
-- Book: `coupling` — 2. Responsibility as Cohesion
-- Manuscript: `books/coupling/parts/part-1-the-structural-grammar/02-responsibility-as-cohesion.md` lines 21–21
-- Candidate path: `/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-02-responsibility-as-cohesion#user-content-fnref-c2-cohesive-responsibility`
+- YAML: `semantic/sources/arthur-w-brian-competing-technologies-increasing-returns-and-lock-in-by.yml`
+- Book: `living-in-sediment` — Chapter 1 — The Gods in the Week
+- Manuscript: `books/living-in-sediment/parts/part-1-fossils-we-dont-notice/chapter-1-the-gods-in-the-week.md` lines 45–45
+- Candidate path: `/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-david-qwerty`
 - Anchor exists: `None`
 - Recommended action: `editorial_review_then_add_path`
 - Needs editorial review: `True`
 - Related work: `—`
-- Why: Body citation [^c2-cohesive-responsibility] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation. Alternative #2 for this source.
+- Why: Body citation [^c1-david-qwerty] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation. Shared footnote also matches: arthur-w-brian-increasing-returns-and-path-dependence-in-the-economy, david-paul-a-clio-and-the-economics-of-qwerty, pierson-paul-increasing-returns-path-dependence-and-the-study-of-politics.
 
 Excerpt:
 
-> g decisions, the people experiencing consequences, and the people capable of redesigning the system remain connected closely enough that feedback can still improve future behavior.[^c2-cohesive-responsibility] When those elements separate too far, organizations can still explain failures without becoming much better at preventing them. That distinction matters. A system can become highl
+> ppeared. The arrangement remained. Today, children learn QWERTY on devices containing no mechanical arms at all. They inherit a map designed for a landscape that no longer exists.[^c1-david-qwerty] The same pattern appears each time someone taps a phone icon and says they are "dialing" a number. There is no dial. There are no fingers turning a circular wheel one digit at a
 
-## 6. `source` / `arendt-hannah-the-human-condition` (level B)
+## 10. `source` / `arthur-w-brian-increasing-returns-and-path-dependence-in-the-economy` (level B)
 
-- YAML: `semantic/sources/arendt-hannah-the-human-condition.yml`
-- Book: `how-trust-forms` — What Trust Makes Possible
-- Manuscript: `books/how-trust-forms/parts/part-3-what-trust-makes-possible/bridge.md` lines 11–11
-- Candidate path: `/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-bridge#user-content-fnref-p3-arendt`
+- YAML: `semantic/sources/arthur-w-brian-increasing-returns-and-path-dependence-in-the-economy.yml`
+- Book: `living-in-sediment` — Chapter 1 — The Gods in the Week
+- Manuscript: `books/living-in-sediment/parts/part-1-fossils-we-dont-notice/chapter-1-the-gods-in-the-week.md` lines 67–67
+- Candidate path: `/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-arthur-lock-in`
 - Anchor exists: `None`
 - Recommended action: `editorial_review_then_add_path`
 - Needs editorial review: `True`
 - Related work: `—`
-- Why: Body citation [^p3-arendt] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation.
+- Why: Body citation [^c1-arthur-lock-in] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation. Shared footnote also matches: pierson-paul-increasing-returns-path-dependence-and-the-study-of-politics.
 
 Excerpt:
 
-> It allows communication to carry meaning farther and with less distortion. It allows people with different experiences, interests, and priorities to cooperate toward shared goals.[^p3-arendt] The effects reach far beyond the original relationship. A family relies on trust to distribute responsibility. A team relies on trust to coordinate work. A community relies on tr
-
-## 7. `source` / `arendt-hannah-the-human-condition` (level B)
-
-- YAML: `semantic/sources/arendt-hannah-the-human-condition.yml`
-- Book: `how-trust-forms` — Why Trust Matters
-- Manuscript: `books/how-trust-forms/parts/part-3-what-trust-makes-possible/chapter-9-why-trust-matters.md` lines 31–31
-- Candidate path: `/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-chapter-9-why-trust-matters#user-content-fnref-c9-arendt`
-- Anchor exists: `None`
-- Recommended action: `editorial_review_then_add_path`
-- Needs editorial review: `True`
-- Related work: `—`
-- Why: Body citation [^c9-arendt] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation. Alternative #2 for this source.
-
-Excerpt:
-
-> . The result is collective capacity—a form of life that Hannah Arendt described as fundamentally plural, built from action shared among people who remain distinct from one another.[^c9-arendt] Robert Putnam observed that communities with stronger patterns of participation and mutual reliance tend to remain healthier over time.[^c9-putnam] The neighborhood had not survi
-
-## 8. `source` / `arendt-hannah-what-is-authority` (level B)
-
-- YAML: `semantic/sources/arendt-hannah-what-is-authority.yml`
-- Book: `when-others-look-to-you-v1` — Chapter 1 — The Weight of Being Looked To
-- Manuscript: `books/when-others-look-to-you/v1/parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md` lines 7–7
-- Candidate path: `/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-working-definition`
-- Anchor exists: `None`
-- Recommended action: `editorial_review_then_add_path`
-- Needs editorial review: `True`
-- Related work: `—`
-- Why: Body citation [^c1-working-definition] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation. Shared footnote also matches: weber-max-economy-and-society-an-outline-of-interpretive-sociology. Alternative #2 for this source.
-
-Excerpt:
-
-> # **Chapter 1** ## **The Weight of Being Looked To** ### **Attention Becomes Influence** A leader is someone others look to when deciding what to do next.[^c1-working-definition] This happens more often than we notice. A child hesitates before crossing a street and glances at a parent. A team pauses in a meeting as uncertainty rises and people look toward
-
-## 9. `source` / `arendt-hannah-what-is-authority` (level B)
-
-- YAML: `semantic/sources/arendt-hannah-what-is-authority.yml`
-- Book: `when-others-look-to-you-v1` — Chapter 8 — Legitimacy Over Time
-- Manuscript: `books/when-others-look-to-you/v1/parts/part-3-harm-effectiveness-legitimacy/chapter-8-legitimacy-over-time.md` lines 85–85
-- Candidate path: `/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-8-legitimacy-over-time#user-content-fnref-c8-arendt`
-- Anchor exists: `None`
-- Recommended action: `editorial_review_then_add_path`
-- Needs editorial review: `True`
-- Related work: `—`
-- Why: Body citation [^c8-arendt] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation.
-
-Excerpt:
-
-> faster than accountability can catch up. ### **Sacralized Legitimacy** Sacralized legitimacy appears when questioning the transfer starts to feel like a moral or identity threat.[^c8-arendt] People follow because challenge to leadership starts to sound like challenge to who "we" are. Stay in the same network. A clinical director asks whether surge-era controls should
-
-## 10. `source` / `argyris-chris-and-donald-a-schon-organizational-learning-ii` (level B)
-
-- YAML: `semantic/sources/argyris-chris-and-donald-a-schon-organizational-learning-ii.yml`
-- Book: `when-others-look-to-you-v1` — Chapter 7 — Effectiveness and Its Illusions
-- Manuscript: `books/when-others-look-to-you/v1/parts/part-3-harm-effectiveness-legitimacy/chapter-7-effectiveness-and-its-illusions.md` lines 13–13
-- Candidate path: `/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-7-effectiveness-and-its-illusions#user-content-fnref-c7-performance-paradox`
-- Anchor exists: `None`
-- Recommended action: `editorial_review_then_add_path`
-- Needs editorial review: `True`
-- Related work: `—`
-- Why: Body citation [^c7-performance-paradox] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation.
-
-Excerpt:
-
-> ore fixes migrate to side channels and private workarounds. Both teams read as effective from a distance. Only one preserves the conditions that keep effectiveness real over time.[^c7-performance-paradox] ### **What Results Can Hide** We rightly judge leadership partly by visible outcomes. That check matters—and it is still incomplete. A group can hit its goals while **correctio
+> ntained a dial. The original constraint fades. The solution becomes habit. The habit becomes ordinary. And what has become ordinary begins, almost imperceptibly, to feel natural.[^c1-arthur-lock-in] That feeling is worth lingering with. Not because Thursday should be renamed, or because keyboards should be rearranged, or because language ought to be purified of its history.
