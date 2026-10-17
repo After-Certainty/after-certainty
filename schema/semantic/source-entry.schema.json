@@ -43,6 +43,10 @@
     "publisher": { "$ref": "common.json#/$defs/nonEmptyString" },
     "institution": { "$ref": "common.json#/$defs/nonEmptyString" },
     "url": { "type": "string", "format": "uri" },
-    "whyThisMatters": { "type": "string" }
+    "whyThisMatters": { "type": "string" },
+    "readerPassagePath": {
+      "type": "string",
+      "pattern": "^/explore/books/[a-z0-9-]+/chapters/[a-z0-9-]+(?:#[a-z0-9-]+)?$"
+    }
   }
 }
