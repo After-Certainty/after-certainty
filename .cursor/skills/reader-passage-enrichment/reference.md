@@ -53,12 +53,14 @@ footnote still surfaces alternate chapter/footnote candidates under
 |--------|---------|
 | *(absent)* | Never queued — eligible for `--unreviewed-only` |
 | `proposed` | In a prior batch; **skipped** by `--unreviewed-only` so later batches advance |
+| `deferred` | Parked for a later batch (e.g. shared footnote needing disambiguation); **still eligible** under `--unreviewed-only` |
 | `approved` | Editorially accepted; awaiting YAML/manuscript apply |
 | `applied` | Canonical YAML (and any citation) updated |
-| `rejected` / `skipped` | Do not re-propose |
+| `rejected` / `skipped` | Terminal — do not re-propose (deliberately rejected alternatives after choosing another destination) |
 
 Stable candidate keys are `kind:slug:routeKey#fragment` (includes footnote id when present).
-To re-queue an item, delete its review-log entry (or clear `status`).
+To re-queue a terminal item, delete its review-log entry (or clear `status`).
+Use `deferred` (not `skipped`) when the work should return in a later batch.
 
 ## Path and fragment rules
 

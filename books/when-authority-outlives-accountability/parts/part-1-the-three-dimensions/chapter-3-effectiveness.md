@@ -112,10 +112,10 @@ harm, or strategic compliance rather than genuine improvement.</p></th>
 
 Crisis often intensifies the temptation. When stakes feel existential,
 leaders are pressured to act decisively and eliminate friction.
-Effectiveness under crisis often depends on compliance. Yet studies of
-post-crisis governance show that many long-term harms—entrenched power,
-normalized coercion, degraded trust—emerge not from inaction, but from
-effectiveness pursued without restraint.[^c3-arendt-on-violence-distinguishing]
+Effectiveness under crisis often depends on compliance. Yet Arendt's
+analysis of power and violence warns that many long-term harms—entrenched
+power, normalized coercion, degraded trust—can emerge not from inaction,
+but from effectiveness pursued without restraint.[^c3-arendt-on-violence-distinguishing]
 
 Effectiveness also operates across competing time horizons. Some actions
 produce immediate change that decays quickly; others appear to do little
