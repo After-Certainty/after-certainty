@@ -5,6 +5,7 @@
 #   VERCEL_TOKEN — injected by pade exec (never print this)
 # Optional:
 #   VERCEL_TEAM_ID / VERCEL_PROJECT_ID — defaults to After Certainty production project
+#   READER_ANALYTICS_ALLOW_FAKE_TOKEN=1 — allow sentinel fake-token responses (tests only)
 #
 # Usage:
 #   pade exec … --capability vercel.analytics.read --quiet -- \
@@ -13,6 +14,7 @@
 #
 # First argument: API suffix under /v1/query/web-analytics/ (e.g. visits/count).
 # Remaining args: key=value query parameters (url-encoded by curl --data-urlencode).
+# Repeat `by=` for multi-dimension groupBy (e.g. by=requestPath by=eventData/to_id).
 set -euo pipefail
 
 if [[ -z "${VERCEL_TOKEN:-}" ]]; then
@@ -35,8 +37,12 @@ PROJECT_ID="${VERCEL_PROJECT_ID:-prj_RgOjCRadnw2ILa8vK9jy4GqipdLl}"
 API_BASE="${VERCEL_WEB_ANALYTICS_API_URL:-https://api.vercel.com/v1/query/web-analytics}"
 
 if [[ "$VERCEL_TOKEN" == vercel_pade_fake_* || "$VERCEL_TOKEN" == ya29.pade_fake_* ]]; then
-  echo '{"version":1,"query":{},"data":[],"note":"fake token; skipped real API"}'
-  exit 0
+  if [[ "${READER_ANALYTICS_ALLOW_FAKE_TOKEN:-}" == "1" ]]; then
+    echo '{"version":1,"status":"fake_token","query":{},"data":[],"note":"fake token; skipped real API"}'
+    exit 0
+  fi
+  echo "error: refusing fake/sentinel VERCEL_TOKEN (set READER_ANALYTICS_ALLOW_FAKE_TOKEN=1 for offline tests only)" >&2
+  exit 1
 fi
 
 tmp="$(mktemp)"

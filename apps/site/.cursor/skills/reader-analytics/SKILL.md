@@ -40,8 +40,8 @@ On Cloud Agents, **do not** use Vercel MCP, `vercel login`, `--token` in chat, o
 
 1. **Choose auth path:** Cloud Agent → PADE; local laptop → token-in-child fallback.
 2. Prefer **`make reader-analytics-test`** (full pack + markdown brief). Override pause with `PADE_PAUSE=1.5`.
-3. Default window: last **7 inclusive America/Denver calendar days** ending today, plus prior comparable 7 days (see brief header UTC stamps).
-4. Always include the **Limitations** section from the renderer — aggregate counts are not session journeys.
+3. Default window: last **7 completed America/Denver calendar days ending yesterday** (excludes today's partial day), plus prior comparable 7 completed days. Brief shows Denver labels and Vercel-resolved UTC query bounds.
+4. Always include the **Limitations** section from the renderer — aggregate counts are not session journeys; unavailable optional queries must not look like zeroes.
 5. If `vercel.analytics.read` is undeclared or denied by the broker, retry with `vercel.diagnostics` (the pack script does this automatically).
 
 ### PADE execution (single query)
@@ -65,18 +65,18 @@ Cloud Agent path: `make reader-analytics-test`. Brief renderer: [`tools/reader_a
 
 | # | Report file | Endpoint | Purpose |
 |---|-------------|----------|---------|
-| 1 | `visits_count.json` | `visits/count` | Visitors + pageviews |
+| 1 | `visits_count.json` | `visits/count` | Visitors + pageviews (**required**) |
 | 2 | `visits_by_day.json` | `visits/aggregate` `by=day` | Daily trend |
 | 3 | `visits_by_referrer.json` | `visits/aggregate` `by=referrerHostname` | Discovery channels |
 | 4 | `visits_by_country.json` | `visits/aggregate` `by=country` | Geography / anomaly |
 | 5 | `visits_by_device.json` | `visits/aggregate` `by=deviceType` | Device mix |
-| 6 | `visits_by_path.json` | `visits/aggregate` `by=requestPath` | Books/chapters/sources/thinkers |
+| 6 | `visits_by_path.json` | `visits/aggregate` `by=requestPath` | Top overall paths (partial; path-prefix filters unsupported) |
 | 7 | `events_by_name.json` | `events/aggregate` `by=eventName` | Custom reader vocabulary |
-| 8 | `corpus_by_from_type.json` | `events/aggregate` filtered `corpus_navigation` `by=eventData/from_type` | Type-level from |
-| 9 | `corpus_by_to_type.json` | same, `by=eventData/to_type` | Type-level to |
-| 10 | `corpus_by_to_id.json` | same, `by=eventData/to_id` | Attribution edges (may be empty until PR 1 traffic accumulates) |
+| 8 | `corpus_by_origin_and_to_id.json` | `events/aggregate` `by=requestPath` + `by=eventData/to_id` | **Joint** origin→destination pairs |
+| 9 | `corpus_by_from_to_type.json` | `by=eventData/from_type` + `by=eventData/to_type` | **Joint** edge-type counts |
+| 10–12 | `corpus_by_{from_type,to_type,to_id}.json` | single-dimension marginals | Secondary context only |
 
-Default filter: `environment eq 'production'`. Prior window repeats 1–10 into a sibling directory for WoW deltas.
+Default filter: `environment eq 'production'`. Corpus rows add `and eventName eq 'corpus_navigation'`. Prior window repeats into a sibling directory for WoW deltas. Optional corpus queries that fail are written as `{"status":"unavailable",…}` — never silent empty zeroes.
 
 ## Brief sections (always)
 
@@ -89,7 +89,7 @@ Default filter: `environment eq 'production'`. Prior window repeats 1–10 into 
 7. Traffic anomalies (heuristic — never silently drop from headlines)  
 8. Changes vs previous comparable period  
 
-Timezone: **America/Denver** week bounds; UTC generation timestamp in the header.
+Timezone: **America/Denver** completed-day week bounds ending yesterday; brief header also shows Vercel-resolved UTC query bounds.
 
 ## Interpretation guardrails
 

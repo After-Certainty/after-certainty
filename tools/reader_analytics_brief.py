@@ -57,19 +57,26 @@ RESEARCH_PATH_PREFIXES = (
 
 
 def week_bounds_denver(anchor: date | None = None) -> tuple[datetime, datetime, datetime, datetime]:
-    """Return (current_since, current_until, prior_since, prior_until) as Denver midnights.
+    """Return Denver midnights for two comparable completed weeks.
 
-    ``until`` is exclusive end-of-day next morning for API ``until`` date params
-    that treat the end date as inclusive calendar days — callers should pass
-    ``until.date().isoformat()`` as inclusive end (yesterday-inclusive week).
+    Default: last **seven completed** America/Denver calendar days ending
+    **yesterday** (excludes today's partial day), plus the prior seven completed
+    days. Each returned datetime is midnight at the start of that calendar day
+    in America/Denver (DST-aware via ZoneInfo).
+
+    Callers should pass inclusive calendar labels via ``inclusive_date_pair`` and
+    API ``since``/``until`` as those ``YYYY-MM-DD`` dates. The Vercel Web Analytics
+    API resolves date params to UTC midnights and treats ``until`` as an inclusive
+    calendar day (exclusive end = start of the next UTC day). ISO timestamps with
+    a non-zero time component are truncated to UTC midnight — verified 2026-10-17.
     """
     now = (
         datetime.now(TZ)
         if anchor is None
         else datetime(anchor.year, anchor.month, anchor.day, tzinfo=TZ)
     )
-    # Inclusive last 7 calendar days ending today (Denver).
-    until_day = now.date()
+    # Exclusive of today: last completed Denver day is yesterday.
+    until_day = now.date() - timedelta(days=1)
     since_day = until_day - timedelta(days=6)
     prior_until_day = since_day - timedelta(days=1)
     prior_since_day = prior_until_day - timedelta(days=6)
@@ -82,7 +89,13 @@ def week_bounds_denver(anchor: date | None = None) -> tuple[datetime, datetime, 
 
 
 def inclusive_date_pair(start: datetime, end: datetime) -> tuple[str, str]:
+    """Inclusive America/Denver calendar labels for a completed-day window."""
     return start.date().isoformat(), end.date().isoformat()
+
+
+def denver_midnight_utc_iso(day: datetime) -> str:
+    """UTC ISO for Denver midnight on ``day`` (API still truncates to UTC date)."""
+    return day.astimezone(UTC).strftime("%Y-%m-%dT%H:%M:%S.000Z")
 
 
 def load_json(path: Path) -> Any:
@@ -94,8 +107,43 @@ def load_json(path: Path) -> Any:
         raise SystemExit(f"error: invalid JSON in {path}: {exc}") from exc
 
 
+def payload_status(payload: Any) -> str:
+    """Return status: ok | empty | unavailable | fake_token | invalid."""
+    if not isinstance(payload, dict):
+        return "invalid"
+    status = payload.get("status")
+    if status in {"unavailable", "fake_token"}:
+        return str(status)
+    note = payload.get("note")
+    if isinstance(note, str) and "fake token" in note.lower():
+        return "fake_token"
+    if "error" in payload and payload.get("data") is None:
+        return "unavailable"
+    data = payload.get("data")
+    if data is None and status == "unavailable":
+        return "unavailable"
+    if isinstance(data, list):
+        return "empty" if len(data) == 0 else "ok"
+    if isinstance(data, dict):
+        return "ok"
+    return "invalid"
+
+
+def assert_real_payload(payload: Any, *, path: str | Path) -> None:
+    """Fail closed on fake/sentinel payloads during normal reporting."""
+    status = payload_status(payload)
+    if status == "fake_token":
+        raise SystemExit(
+            f"error: fake/sentinel analytics payload in {path} — refusing to render as real zeroes"
+        )
+    if status == "invalid":
+        raise SystemExit(f"error: invalid analytics payload shape in {path}")
+
+
 def rows_from_aggregate(payload: Any) -> list[dict[str, Any]]:
     if not isinstance(payload, dict):
+        return []
+    if payload_status(payload) in {"unavailable", "fake_token", "invalid"}:
         return []
     data = payload.get("data")
     if isinstance(data, list):
@@ -103,6 +151,73 @@ def rows_from_aggregate(payload: Any) -> list[dict[str, Any]]:
     if isinstance(data, dict):
         return [data]
     return []
+
+
+def unavailable_reason(payload: Any) -> str:
+    if not isinstance(payload, dict):
+        return "invalid payload"
+    reason = payload.get("reason") or payload.get("note")
+    if isinstance(reason, str) and reason.strip():
+        return reason.strip()
+    err = payload.get("error")
+    if isinstance(err, dict):
+        msg = err.get("message")
+        if isinstance(msg, str) and msg.strip():
+            return msg.strip()
+    return "query unavailable"
+
+
+def load_report(path: Path) -> tuple[str, list[dict[str, Any]], Any]:
+    """Load a report file → (status, rows, raw_payload). Fail closed on fake tokens."""
+    payload = load_json(path)
+    assert_real_payload(payload, path=path)
+    status = payload_status(payload)
+    return status, rows_from_aggregate(payload), payload
+
+
+def is_source_or_thinker_path(path: str) -> bool:
+    p = (path or "").split("?", 1)[0]
+    return p.startswith("/explore/sources") or p.startswith("/explore/thinkers")
+
+
+def attribution_pairs(rows: list[dict[str, Any]]) -> list[tuple[str, str, int, int, str]]:
+    """Return (origin_path, to_id, count, visitors, label) sorted by count.
+
+    Empty ``to_id`` is labeled legacy/type-only — not a claimed destination.
+    """
+    scored: list[tuple[str, str, int, int, str]] = []
+    for row in rows:
+        origin = ""
+        for key in ("requestPath", "route", "path"):
+            if isinstance(row.get(key), str):
+                origin = row[key]
+                break
+        to_id = row.get("eventData/to_id")
+        if to_id is None:
+            to_id = row.get("to_id")
+        to_id_s = to_id if isinstance(to_id, str) else ""
+        count = metric_int(row, "count", "pageviews")
+        visitors = metric_int(row, "visitors")
+        if to_id_s.strip():
+            label = "attributed"
+        else:
+            label = "legacy/type-only (empty to_id)"
+        scored.append((origin or "(unknown)", to_id_s, count, visitors, label))
+    scored.sort(key=lambda t: (-t[2], -t[3], t[0], t[1]))
+    return scored
+
+
+def edge_type_pairs(rows: list[dict[str, Any]]) -> list[tuple[str, str, int, int]]:
+    """Joint from_type × to_type edges (not marginal totals)."""
+    scored: list[tuple[str, str, int, int]] = []
+    for row in rows:
+        frm = row.get("eventData/from_type") or row.get("from_type") or "(unknown)"
+        to = row.get("eventData/to_type") or row.get("to_type") or "(unknown)"
+        scored.append(
+            (str(frm), str(to), metric_int(row, "count", "pageviews"), metric_int(row, "visitors"))
+        )
+    scored.sort(key=lambda t: (-t[2], -t[3], t[0], t[1]))
+    return scored
 
 
 def classify_referrer(hostname: str | None) -> str:
@@ -224,14 +339,15 @@ def anomaly_notes(
 ) -> list[str]:
     notes: list[str] = []
     countries = top_rows(country_rows, "country", limit=5)
-    if countries:
+    if countries and visit_visitors > 0:
         top_country, top_pv, top_vis = countries[0]
-        total_vis = sum(v for _, _, v in countries) or visit_visitors or 1
-        share = top_vis / total_vis if total_vis else 0
+        # Denominator is overall period visitors — not the truncated top-N country sum.
+        share = top_vis / visit_visitors
         if share >= 0.4 and top_country.upper() in {"SG", "CN"}:
             notes.append(
-                f"Heuristic: country **{top_country}** is ~{share:.0%} of grouped visitors "
-                f"({top_vis} visitors / {top_pv} pageviews). Treat as anomaly signal, not bot identity."
+                f"Heuristic: country **{top_country}** is ~{share:.0%} of overall visitors "
+                f"({top_vis} / {visit_visitors}; {top_pv} pageviews in country row). "
+                "Treat as anomaly signal, not bot identity."
             )
     devices = {
         label.lower(): vis for label, _, vis in top_rows(device_rows, "deviceType", limit=10)
@@ -281,6 +397,23 @@ def safe_ratio(num: int, den: int) -> str:
     return f"{num / den:.2f} events per open ({num}/{den}) — aggregate ratio, not a session conversion rate"
 
 
+def _section_or_unavailable(
+    *,
+    title: str,
+    status: str,
+    payload: Any,
+    ok_lines: list[str],
+) -> list[str]:
+    if status == "unavailable":
+        return [
+            title,
+            "",
+            f"_Unavailable — {unavailable_reason(payload)}. Not a zero-events result._",
+            "",
+        ]
+    return ok_lines
+
+
 def render_brief(
     *,
     current_dir: Path,
@@ -290,22 +423,73 @@ def render_brief(
     prior_since: str | None,
     prior_until: str | None,
     generated_at: datetime | None = None,
+    query_since_utc: str | None = None,
+    query_until_utc: str | None = None,
 ) -> str:
     generated_at = generated_at or datetime.now(UTC)
-    visits = rows_from_aggregate(load_json(current_dir / "visits_count.json"))
+
+    visits_status, visits, visits_payload = load_report(current_dir / "visits_count.json")
+    if visits_status == "unavailable":
+        raise SystemExit(
+            f"error: required visits_count unavailable: {unavailable_reason(visits_payload)}"
+        )
     visit_totals = visits[0] if visits else {}
     pageviews = metric_int(visit_totals, "pageviews")
     visitors = metric_int(visit_totals, "visitors")
+    api_query = visits_payload.get("query") if isinstance(visits_payload, dict) else {}
+    if isinstance(api_query, dict):
+        query_since_utc = query_since_utc or (
+            str(api_query["since"]) if api_query.get("since") else None
+        )
+        query_until_utc = query_until_utc or (
+            str(api_query["until"]) if api_query.get("until") else None
+        )
 
-    daily = rows_from_aggregate(load_json(current_dir / "visits_by_day.json"))
-    referrers = rows_from_aggregate(load_json(current_dir / "visits_by_referrer.json"))
-    countries = rows_from_aggregate(load_json(current_dir / "visits_by_country.json"))
-    devices = rows_from_aggregate(load_json(current_dir / "visits_by_device.json"))
-    paths = rows_from_aggregate(load_json(current_dir / "visits_by_path.json"))
-    events_by_name = rows_from_aggregate(load_json(current_dir / "events_by_name.json"))
-    corpus_from = rows_from_aggregate(load_json(current_dir / "corpus_by_from_type.json"))
-    corpus_to = rows_from_aggregate(load_json(current_dir / "corpus_by_to_type.json"))
-    corpus_to_id = rows_from_aggregate(load_json(current_dir / "corpus_by_to_id.json"))
+    _, daily, _ = load_report(current_dir / "visits_by_day.json")
+    _, referrers, _ = load_report(current_dir / "visits_by_referrer.json")
+    _, countries, _ = load_report(current_dir / "visits_by_country.json")
+    _, devices, _ = load_report(current_dir / "visits_by_device.json")
+    paths_status, paths, paths_payload = load_report(current_dir / "visits_by_path.json")
+    _, events_by_name, _ = load_report(current_dir / "events_by_name.json")
+
+    # Prefer joint edge file; keep marginal files optional for older fixtures.
+    if (current_dir / "corpus_by_from_to_type.json").exists():
+        edges_status, edges_rows, edges_payload = load_report(
+            current_dir / "corpus_by_from_to_type.json"
+        )
+    else:
+        edges_status, edges_rows, edges_payload = (
+            "unavailable",
+            [],
+            {"status": "unavailable", "reason": "corpus_by_from_to_type.json missing"},
+        )
+
+    pairs_path = current_dir / "corpus_by_origin_and_to_id.json"
+    if pairs_path.exists():
+        pairs_status, pairs_rows, pairs_payload = load_report(pairs_path)
+    else:
+        pairs_status, pairs_rows, pairs_payload = (
+            "unavailable",
+            [],
+            {"status": "unavailable", "reason": "corpus_by_origin_and_to_id.json missing"},
+        )
+
+    # Legacy marginal files remain optional context only.
+    from_status, corpus_from, from_payload = (
+        load_report(current_dir / "corpus_by_from_type.json")
+        if (current_dir / "corpus_by_from_type.json").exists()
+        else ("unavailable", [], {"status": "unavailable", "reason": "not fetched"})
+    )
+    to_status, corpus_to, to_payload = (
+        load_report(current_dir / "corpus_by_to_type.json")
+        if (current_dir / "corpus_by_to_type.json").exists()
+        else ("unavailable", [], {"status": "unavailable", "reason": "not fetched"})
+    )
+    to_id_status, corpus_to_id, to_id_payload = (
+        load_report(current_dir / "corpus_by_to_id.json")
+        if (current_dir / "corpus_by_to_id.json").exists()
+        else ("unavailable", [], {"status": "unavailable", "reason": "not fetched"})
+    )
 
     event_map = {
         (
@@ -329,7 +513,6 @@ def render_brief(
 
     chapter_open_c, chapter_open_v = event_metrics("chapter_open")
     chapter_adv_c, chapter_adv_v = event_metrics("chapter_advance")
-    # Legacy GA dual-write may still show as next_chapter only on GA; Vercel name is chapter_advance
     download_c, download_v = event_metrics("book_download")
     audio_c, audio_v = event_metrics("reader_audio_started")
     path_c, path_v = event_metrics("reading_path_started")
@@ -340,11 +523,11 @@ def render_brief(
 
     prior_block = ""
     if prior_dir and prior_since and prior_until:
-        prior_visits = rows_from_aggregate(load_json(prior_dir / "visits_count.json"))
+        _, prior_visits, _ = load_report(prior_dir / "visits_count.json")
         prior = prior_visits[0] if prior_visits else {}
         p_pv = metric_int(prior, "pageviews")
         p_vis = metric_int(prior, "visitors")
-        prior_events = rows_from_aggregate(load_json(prior_dir / "events_by_name.json"))
+        _, prior_events, _ = load_report(prior_dir / "events_by_name.json")
         prior_map = {
             (r.get("eventName") or ""): r
             for r in prior_events
@@ -355,23 +538,14 @@ def render_brief(
             [
                 "## 8. Changes from previous comparable period",
                 "",
-                f"Prior window: **{prior_since} → {prior_until}** (America/Denver calendar dates).",
+                f"Prior window: **{prior_since} → {prior_until}** "
+                "(America/Denver completed calendar days; same length as current).",
                 "",
                 fmt_table(
                     ["Metric", "Current", "Prior", "Delta"],
                     [
-                        [
-                            "Visitors",
-                            str(visitors),
-                            str(p_vis),
-                            str(visitors - p_vis),
-                        ],
-                        [
-                            "Pageviews",
-                            str(pageviews),
-                            str(p_pv),
-                            str(pageviews - p_pv),
-                        ],
+                        ["Visitors", str(visitors), str(p_vis), str(visitors - p_vis)],
+                        ["Pageviews", str(pageviews), str(p_pv), str(pageviews - p_pv)],
                         [
                             "chapter_open count",
                             str(chapter_open_c),
@@ -396,23 +570,35 @@ def render_brief(
         for cls, vals in sorted(channels.items(), key=lambda kv: -kv[1].get("visitors", 0))
     ]
 
-    path_top = top_rows(paths, "requestPath", limit=15)
-    # Prefer requestPath; API may return route
+    path_limit_shown = 15
+    path_query_limit = 30
+    path_top = top_rows(paths, "requestPath", limit=path_limit_shown)
     if not path_top:
-        path_top = top_rows(paths, "route", limit=15)
+        path_top = top_rows(paths, "route", limit=path_limit_shown)
 
-    families: dict[str, dict[str, int]] = defaultdict(lambda: {"pageviews": 0, "visitors": 0})
-    for label, pv, vis in path_top:
-        fam = path_family(label)
-        families[fam]["pageviews"] += pv
-        families[fam]["visitors"] += vis
+    # Partial family rollup: pageviews only (visitor sums across paths are not distinct).
+    families: dict[str, dict[str, int]] = defaultdict(lambda: {"pageviews": 0})
+    for label, pv, _vis in path_top:
+        families[path_family(label)]["pageviews"] += pv
+
+    pairs = attribution_pairs(pairs_rows)
+    source_thinker_pairs = [p for p in pairs if is_source_or_thinker_path(p[0])]
+    other_pairs = [p for p in pairs if not is_source_or_thinker_path(p[0])]
+    edges = edge_type_pairs(edges_rows)
+
+    utc_bounds_line = (
+        f"API query bounds (as resolved by Vercel): **{query_since_utc or '(unknown)'}** → "
+        f"**{query_until_utc or '(unknown)'}**  "
+    )
 
     lines: list[str] = [
         "# Reader analytics — After Certainty",
         "",
         f"Generated: **{generated_at.astimezone(UTC).strftime('%Y-%m-%d %H:%M UTC')}**  ",
-        "Timezone for week bounds: **America/Denver**  ",
-        f"Current window: **{since} → {until}** (inclusive calendar dates)  ",
+        "Timezone for week labels: **America/Denver** (last 7 **completed** days ending yesterday)  ",
+        f"Current window (Denver calendar): **{since} → {until}** (inclusive completed days)  ",
+        utc_bounds_line,
+        "Note: Vercel date params map to UTC midnights; non-midnight ISO times are truncated.  ",
         "Source: Vercel Web Analytics aggregate API (project `after-certainty`)",
         "",
         "## Limitations",
@@ -420,9 +606,10 @@ def render_brief(
         "- These are **aggregate** pageviews, visitors, and event counts — **not** session-level journeys.",
         "- Do not treat event ratios as per-reader conversion or completion rates.",
         "- Custom events and pageviews use different identification methods than GA4; expect directional, not exact, parity.",
-        "- `corpus_navigation` without `to_id` is **type-level only**; with semantic `to_id`, report counts/visitors, not reconstructed personal histories.",
+        "- Origin→destination claims require joint `requestPath` × `eventData/to_id` rows with non-empty `to_id`; empty `to_id` is legacy/type-only.",
         "- Anomaly classes are **heuristics**, not confirmed bot identity. Never silently exclude traffic from headlines.",
-        "- If a query failed, this brief must not invent rows — missing files abort generation.",
+        "- Unavailable optional queries are labeled explicitly — never rendered as genuine zeroes.",
+        "- Fake/sentinel API payloads fail closed and do not produce a brief.",
         "",
         "## 1. Visitors and pageviews",
         "",
@@ -448,7 +635,7 @@ def render_brief(
             )
         lines.append(fmt_table(["Day (UTC stamp)", "Visitors", "Pageviews"], day_rows))
     else:
-        lines.append("_No daily rows._")
+        lines.append("_No daily rows (true empty result)._")
 
     lines.extend(
         [
@@ -456,7 +643,8 @@ def render_brief(
             "## 2. Discovery channels and referrers",
             "",
             fmt_table(
-                ["Channel class", "Visitors", "Pageviews"], channel_rows or [["(none)", "0", "0"]]
+                ["Channel class", "Visitors", "Pageviews"],
+                channel_rows or [["(none)", "0", "0"]],
             ),
             "",
             "Top referrer hostnames:",
@@ -470,70 +658,209 @@ def render_brief(
                 or [["(none)", "0", "0"]],
             ),
             "",
-            "## 3. Most visited books, chapters, sources, and thinkers",
-            "",
-            "Path-family rollup from top `requestPath` rows:",
-            "",
-            fmt_table(
-                ["Family", "Visitors", "Pageviews"],
-                [
-                    [fam, str(vals["visitors"]), str(vals["pageviews"])]
-                    for fam, vals in sorted(families.items(), key=lambda kv: -kv[1]["visitors"])
-                ]
-                or [["(none)", "0", "0"]],
-            ),
-            "",
-            "Top paths:",
-            "",
-            fmt_table(
-                ["Path", "Visitors", "Pageviews"],
-                [[label, str(vis), str(pv)] for label, pv, vis in path_top]
-                or [["(none)", "0", "0"]],
-            ),
-            "",
+        ]
+    )
+
+    if paths_status == "unavailable":
+        lines.extend(
+            [
+                "## 3. Top overall paths (partial family breakdown)",
+                "",
+                f"_Unavailable — {unavailable_reason(paths_payload)}. Not a zero-paths result._",
+                "",
+            ]
+        )
+    else:
+        lines.extend(
+            [
+                "## 3. Top overall paths (partial family breakdown)",
+                "",
+                f"Coverage: top **{path_limit_shown}** of up to **{path_query_limit}** overall "
+                "`requestPath` rows (not family-complete). Path-prefix filters are unsupported "
+                "by this API, so family rollups are **pageviews among those truncated rows only** — "
+                "not distinct visitors and not a full census of sources/thinkers/chapters.",
+                "",
+                "Partial family pageview rollup (from the truncated top paths):",
+                "",
+                fmt_table(
+                    ["Family", "Pageviews (partial)"],
+                    [
+                        [fam, str(vals["pageviews"])]
+                        for fam, vals in sorted(
+                            families.items(), key=lambda kv: -kv[1]["pageviews"]
+                        )
+                    ]
+                    or [["(none)", "0"]],
+                ),
+                "",
+                "Top overall paths:",
+                "",
+                fmt_table(
+                    ["Path", "Visitors", "Pageviews"],
+                    [[label, str(vis), str(pv)] for label, pv, vis in path_top]
+                    or [["(none)", "0", "0"]],
+                ),
+                "",
+            ]
+        )
+
+    lines.extend(
+        [
             "## 4. Source/thinker → book/chapter navigation",
             "",
-            f"`corpus_navigation` events: **{corpus_c}** count / **{corpus_v}** visitors.",
+            f"`corpus_navigation` events (by name): **{corpus_c}** count / **{corpus_v}** visitors.",
             "",
-            "By `from_type`:",
-            "",
-            fmt_table(
-                ["from_type", "Count", "Visitors"],
+        ]
+    )
+
+    lines.extend(
+        _section_or_unavailable(
+            title="### Origin path × `to_id` (joint attribution)",
+            status=pairs_status,
+            payload=pairs_payload,
+            ok_lines=[
+                "### Origin path × `to_id` (joint attribution)",
+                "",
+                "Pairs answer which origin page targeted which destination ID. "
+                "Empty `to_id` rows are **legacy/type-only** — do not claim a specific destination.",
+                "",
+                "Source/thinker origins:",
+                "",
+                fmt_table(
+                    ["Origin path", "to_id", "Count", "Visitors", "Status"],
+                    [
+                        [
+                            origin,
+                            to_id or "(empty)",
+                            str(count),
+                            str(vis),
+                            label,
+                        ]
+                        for origin, to_id, count, vis, label in source_thinker_pairs[:20]
+                    ]
+                    or [["(none)", "—", "0", "0", "no rows"]],
+                ),
+                "",
+                "Other origins (same joint query):",
+                "",
+                fmt_table(
+                    ["Origin path", "to_id", "Count", "Visitors", "Status"],
+                    [
+                        [
+                            origin,
+                            to_id or "(empty)",
+                            str(count),
+                            str(vis),
+                            label,
+                        ]
+                        for origin, to_id, count, vis, label in other_pairs[:10]
+                    ]
+                    or [["(none)", "—", "0", "0", "no rows"]],
+                ),
+                "",
+            ],
+        )
+    )
+
+    lines.extend(
+        _section_or_unavailable(
+            title="### Edge types (`from_type` × `to_type`)",
+            status=edges_status,
+            payload=edges_payload,
+            ok_lines=[
+                "### Edge types (`from_type` × `to_type`)",
+                "",
+                "Joint grouping — not separate marginal totals — so source→chapter counts are real edge counts.",
+                "",
+                fmt_table(
+                    ["from_type", "to_type", "Count", "Visitors"],
+                    [[frm, to, str(count), str(vis)] for frm, to, count, vis in edges[:15]]
+                    or [["(none)", "(none)", "0", "0"]],
+                ),
+                "",
+            ],
+        )
+    )
+
+    # Optional marginal context (clearly labeled secondary).
+    if from_status != "unavailable" or to_status != "unavailable" or to_id_status != "unavailable":
+        lines.extend(
+            [
+                "### Secondary marginal totals (not attribution pairs)",
+                "",
+                "_Shown only as context; prefer the joint tables above._",
+                "",
+            ]
+        )
+        if from_status == "ok" or from_status == "empty":
+            lines.extend(
                 [
-                    [label, str(pv), str(vis)]
-                    for label, pv, vis in top_rows(
-                        corpus_from, "eventData/from_type", value_keys=("count",), limit=10
-                    )
+                    fmt_table(
+                        ["from_type", "Count", "Visitors"],
+                        [
+                            [label, str(pv), str(vis)]
+                            for label, pv, vis in top_rows(
+                                corpus_from,
+                                "eventData/from_type",
+                                value_keys=("count",),
+                                limit=10,
+                            )
+                        ]
+                        or [["(none)", "0", "0"]],
+                    ),
+                    "",
                 ]
-                or [["(none)", "0", "0"]],
-            ),
-            "",
-            "By `to_type`:",
-            "",
-            fmt_table(
-                ["to_type", "Count", "Visitors"],
+            )
+        elif from_status == "unavailable":
+            lines.append(f"_from_type marginal unavailable — {unavailable_reason(from_payload)}_")
+            lines.append("")
+        if to_status == "ok" or to_status == "empty":
+            lines.extend(
                 [
-                    [label, str(pv), str(vis)]
-                    for label, pv, vis in top_rows(
-                        corpus_to, "eventData/to_type", value_keys=("count",), limit=10
-                    )
+                    fmt_table(
+                        ["to_type", "Count", "Visitors"],
+                        [
+                            [label, str(pv), str(vis)]
+                            for label, pv, vis in top_rows(
+                                corpus_to,
+                                "eventData/to_type",
+                                value_keys=("count",),
+                                limit=10,
+                            )
+                        ]
+                        or [["(none)", "0", "0"]],
+                    ),
+                    "",
                 ]
-                or [["(none)", "0", "0"]],
-            ),
-            "",
-            "By semantic `to_id` (attribution edges only; empty means type-level legacy or missing attribute):",
-            "",
-            fmt_table(
-                ["to_id", "Count", "Visitors"],
+            )
+        elif to_status == "unavailable":
+            lines.append(f"_to_type marginal unavailable — {unavailable_reason(to_payload)}_")
+            lines.append("")
+        if to_id_status == "ok" or to_id_status == "empty":
+            lines.extend(
                 [
-                    [label or "(empty)", str(pv), str(vis)]
-                    for label, pv, vis in top_rows(
-                        corpus_to_id, "eventData/to_id", value_keys=("count",), limit=15
-                    )
+                    fmt_table(
+                        ["to_id (marginal)", "Count", "Visitors"],
+                        [
+                            [label or "(empty)", str(pv), str(vis)]
+                            for label, pv, vis in top_rows(
+                                corpus_to_id,
+                                "eventData/to_id",
+                                value_keys=("count",),
+                                limit=15,
+                            )
+                        ]
+                        or [["(none)", "0", "0"]],
+                    ),
+                    "",
                 ]
-                or [["(none)", "0", "0"]],
-            ),
-            "",
+            )
+        elif to_id_status == "unavailable":
+            lines.append(f"_to_id marginal unavailable — {unavailable_reason(to_id_payload)}_")
+            lines.append("")
+
+    lines.extend(
+        [
             "## 5. Reader continuation and downloads",
             "",
             fmt_table(
@@ -599,11 +926,12 @@ def render_json_summary(
     until: str,
     current_dir: Path,
 ) -> dict[str, Any]:
-    visits = rows_from_aggregate(load_json(current_dir / "visits_count.json"))
+    _, visits, _ = load_report(current_dir / "visits_count.json")
     visit_totals = visits[0] if visits else {}
-    events_by_name = rows_from_aggregate(load_json(current_dir / "events_by_name.json"))
+    _, events_by_name, _ = load_report(current_dir / "events_by_name.json")
     return {
         "timezone": "America/Denver",
+        "window_rule": "last_7_completed_denver_days_ending_yesterday",
         "since": since,
         "until": until,
         "visitors": metric_int(visit_totals, "visitors"),
@@ -620,6 +948,8 @@ def render_json_summary(
             "aggregate_only",
             "not_session_journeys",
             "anomaly_heuristics_only",
+            "fail_closed_on_fake_payloads",
+            "unavailable_optional_queries_labeled",
         ],
     }
 
@@ -644,14 +974,29 @@ def main(argv: list[str] | None = None) -> int:
         cur_s, cur_u, pri_s, pri_u = week_bounds_denver()
         cs, cu = inclusive_date_pair(cur_s, cur_u)
         ps, pu = inclusive_date_pair(pri_s, pri_u)
+        # Exclusive API end = start of the day after the inclusive until label (Denver midnight → UTC).
+        current_until_exclusive = cur_u + timedelta(days=1)
+        prior_until_exclusive = pri_u + timedelta(days=1)
         print(
             json.dumps(
                 {
                     "timezone": "America/Denver",
+                    "window_rule": "last_7_completed_denver_days_ending_yesterday",
                     "current": {"since": cs, "until": cu},
                     "prior": {"since": ps, "until": pu},
-                    "current_since_utc": cur_s.astimezone(UTC).isoformat(),
-                    "current_until_utc": cur_u.astimezone(UTC).isoformat(),
+                    "current_since_denver_midnight_utc": denver_midnight_utc_iso(cur_s),
+                    "current_until_exclusive_denver_midnight_utc": denver_midnight_utc_iso(
+                        current_until_exclusive
+                    ),
+                    "prior_since_denver_midnight_utc": denver_midnight_utc_iso(pri_s),
+                    "prior_until_exclusive_denver_midnight_utc": denver_midnight_utc_iso(
+                        prior_until_exclusive
+                    ),
+                    "api_note": (
+                        "Pass since/until as inclusive YYYY-MM-DD Denver calendar labels. "
+                        "Vercel resolves date params to UTC midnights and truncates non-midnight "
+                        "ISO times; until date is inclusive (exclusive end = next UTC day)."
+                    ),
                 }
             )
         )

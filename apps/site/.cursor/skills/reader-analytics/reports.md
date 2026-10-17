@@ -17,7 +17,9 @@ Default filter for briefs: `environment eq 'production'`.
 python3 tools/reader_analytics_brief.py --print-week-bounds
 ```
 
-Emits America/Denver inclusive `current` / `prior` `{since,until}` date pairs plus UTC ISO midnights.
+Emits America/Denver inclusive `current` / `prior` `{since,until}` for the last
+**seven completed** Denver days ending **yesterday**, plus Denver-midnight UTC
+instants and an `api_note` about Vercel date truncation.
 
 ## Pack queries (current window)
 
@@ -39,6 +41,12 @@ F="environment eq 'production'"
 "${PADE[@]}" "$Q" events/aggregate since="$SINCE" until="$UNTIL" "filter=$F" by=eventName limit=40
 
 CF="environment eq 'production' and eventName eq 'corpus_navigation'"
+# Joint attribution (preferred)
+"${PADE[@]}" "$Q" events/aggregate since="$SINCE" until="$UNTIL" "filter=$CF" \
+  by=requestPath by=eventData/to_id limit=40
+"${PADE[@]}" "$Q" events/aggregate since="$SINCE" until="$UNTIL" "filter=$CF" \
+  by=eventData/from_type by=eventData/to_type limit=30
+# Secondary marginals
 "${PADE[@]}" "$Q" events/aggregate since="$SINCE" until="$UNTIL" "filter=$CF" by=eventData/from_type limit=20
 "${PADE[@]}" "$Q" events/aggregate since="$SINCE" until="$UNTIL" "filter=$CF" by=eventData/to_type limit=20
 "${PADE[@]}" "$Q" events/aggregate since="$SINCE" until="$UNTIL" "filter=$CF" by=eventData/to_id limit=30
