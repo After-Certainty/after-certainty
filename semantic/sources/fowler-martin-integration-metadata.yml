@@ -6,6 +6,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Fowler’s Integration Metadata and related architecture writing treat
+  integration points as places where hidden coupling, mismatched assumptions,
+  and change costs concentrate. Coupling uses that lens for late integration as
+  consequence shock: delayed feedback arrives compressed, many teams fail at
+  once, and no single team owns the redesign path. Fowler clarifies integration
+  risk; the book asks what organizations are really negotiating when
+  coordination spikes only after reality arrives late.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-05-waterfall-low-temporal-coupling#user-content-fnref-c5-late-integration
 title: Integration Metadata.
 creatorNames:
 - Martin Fowler

@@ -7,6 +7,16 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Evans’s Domain-Driven Design argues for protecting core domain semantics from
+  infrastructure-driven model drift—keeping business meaning from being
+  overwritten by frameworks, vendors, and integration shortcuts. Coupling
+  extends that boundary discipline under scale: as integrations multiply faster
+  than organizational memory, external volatility leaks into core decision logic
+  unless boundaries stay explicit. The book’s operational question is whether
+  temporary mappings and convenience leaks remain harmless, or slowly make the
+  system harder to change with understanding intact.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-11-hexagonal-architecture-boundary-discipline-at-scale#user-content-fnref-c11-why-now
 title: 'Domain-Driven Design: Tackling Complexity in the Heart of Software'
 creatorNames:
 - Eric Evans

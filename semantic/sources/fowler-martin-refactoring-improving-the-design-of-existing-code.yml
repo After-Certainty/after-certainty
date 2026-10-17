@@ -7,6 +7,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Fowler’s Refactoring shows how design can improve continuously and how
+  change-coupling and fragility patterns appear as codebases evolve. Coupling
+  takes those patterns as a definitional hinge: some dependency is necessary,
+  but hidden, fragile, constantly shifting dependencies turn small edits into
+  system-wide breaks and then into organizational drag. The source is a craft of
+  change; the book asks when teams spend more energy coordinating around
+  fragility than improving the system itself.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-1-the-structural-grammar-01-coupling-and-cohesion-technical-origins#user-content-fnref-c1-tight-coupling-fragility
 title: 'Refactoring: Improving the Design of Existing Code'
 creatorNames:
 - Martin Fowler

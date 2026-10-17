@@ -10,6 +10,15 @@ patterns: []
 relatedBooks:
 - coupling
 - how-serious-systems-learn
+whyThisMatters: >-
+  Forsgren, Humble, and Kim’s Accelerate (and the DORA research behind it)
+  measures whether delivery-practice changes actually improve reliability,
+  recovery, deployment quality, and feedback speed. Coupling uses that evidence
+  as a bridge from lighter process to harder proof: systems can feel cleaner
+  without learning faster from reality. The source supplies outcome metrics; the
+  book asks whether simplification kept responsibility clear and consequence
+  visible.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-bridge-dora
 title: 'Accelerate: The Science of Lean Software and DevOps: Building and Scaling
   High Performing Technology Organizations'
 creatorNames:

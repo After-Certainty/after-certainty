@@ -515,12 +515,12 @@
     "source:board-of-governors-of-the-federal-reserve-system-report-on-the-economic-well-being-of-u-s-househ:/explore/books/the-economy-we-dont-experience/chapters/front-matter-introduction-the-chart-and-the-receipt#user-content-fnref-intro-shed": {
       "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/front-matter-introduction-the-chart-and-the-receipt#user-content-fnref-intro-shed",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "Intro SHED cite thinner than chapter Fed loci chosen this batch.",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
       "routeKey": "/explore/books/the-economy-we-dont-experience/chapters/front-matter-introduction-the-chart-and-the-receipt",
       "slug": "board-of-governors-of-the-federal-reserve-system-report-on-the-economic-well-being-of-u-s-househ",
-      "status": "deferred",
-      "updatedAt": "2026-10-17T22:12:48Z"
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
     },
     "source:board-of-governors-of-the-federal-reserve-system-summary-of-economic-projections:/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-fomc": {
       "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-fomc",
@@ -592,15 +592,95 @@
       "status": "applied",
       "updatedAt": "2026-10-17T22:12:48Z"
     },
+    "source:bowlby-john-attachment-and-loss:/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-5-the-archive-in-the-kitchen#user-content-fnref-c5-bowlby-attachment-loss": {
+      "candidatePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-5-the-archive-in-the-kitchen#user-content-fnref-c5-bowlby-attachment-loss",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-5-the-archive-in-the-kitchen",
+      "slug": "bowlby-john-attachment-and-loss",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:brehm-jack-w-a-theory-of-psychological-reactance:/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-reactance": {
+      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-reactance",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to",
+      "slug": "brehm-jack-w-a-theory-of-psychological-reactance",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:brinkmann-svend-standpoints-ten-old-ideas-for-a-new-world:/explore/books/trust-beyond-similarity/chapters/back-matter-conclusion-the-building-and-the-people#user-content-fnref-c10-brinkmann-standpoints": {
+      "candidatePath": "/explore/books/trust-beyond-similarity/chapters/back-matter-conclusion-the-building-and-the-people#user-content-fnref-c10-brinkmann-standpoints",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/trust-beyond-similarity/chapters/back-matter-conclusion-the-building-and-the-people",
+      "slug": "brinkmann-svend-standpoints-ten-old-ideas-for-a-new-world",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:brown-bren-dare-to-lead-brave-work-tough-conversations-whole:/explore/books/when-authority-outlives-accountability/chapters/parts-part-2-integration-and-use-chapter-6-leadership-at-human-scale#user-content-fnref-c6-brown-dare-to-lead": {
+      "candidatePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-2-integration-and-use-chapter-6-leadership-at-human-scale#user-content-fnref-c6-brown-dare-to-lead",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-2-integration-and-use-chapter-6-leadership-at-human-scale",
+      "slug": "brown-bren-dare-to-lead-brave-work-tough-conversations-whole",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-7-the-question-that-becomes-disloyalty#user-content-fnref-c7-brown-farrell": {
+      "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-7-the-question-that-becomes-disloyalty#user-content-fnref-c7-brown-farrell",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-7-the-question-that-becomes-disloyalty",
+      "slug": "brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:brown-judith-m-gandhi-prisoner-of-hope:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-1": {
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-1",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt",
+      "slug": "brown-judith-m-gandhi-prisoner-of-hope",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
     "source:brown-judith-m-gandhi-s-rise-to-power-indian-politics-1915-1922:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-10": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-10",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "Secondary to Prisoner of Hope locus in same chapter; revisit later.",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt",
       "slug": "brown-judith-m-gandhi-s-rise-to-power-indian-politics-1915-1922",
-      "status": "deferred",
-      "updatedAt": "2026-10-17T22:12:48Z"
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-public-health": {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-public-health",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin",
+      "slug": "brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:butler-judith-frames-of-war-when-is-life-grievable:/explore/books/after-certainty/chapters/parts-part-3-living-with-limits-chapter-9-when-to-stop-interpreting#user-content-fnref-c9-interpretive-patience": {
+      "candidatePath": "/explore/books/after-certainty/chapters/parts-part-3-living-with-limits-chapter-9-when-to-stop-interpreting#user-content-fnref-c9-interpretive-patience",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/after-certainty/chapters/parts-part-3-living-with-limits-chapter-9-when-to-stop-interpreting",
+      "slug": "butler-judith-frames-of-war-when-is-life-grievable",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
     },
     "source:california-african-american-museum-free-breakfast-for-school-children-program:/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-oakland": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-oakland",
@@ -621,6 +701,906 @@
       "slug": "campbell-donald-t-assessing-the-impact-of-planned-social-change",
       "status": "deferred",
       "updatedAt": "2026-10-17T22:12:48Z"
+    },
+    "source:cappelli-peter-and-anna-tavis-the-performance-management-revolution:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-5-the-matrix-with-no-author#user-content-fnref-c5-cappelli": {
+      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-5-the-matrix-with-no-author#user-content-fnref-c5-cappelli",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-5-the-matrix-with-no-author",
+      "slug": "cappelli-peter-and-anna-tavis-the-performance-management-revolution",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:carlin-john-playing-the-enemy-nelson-mandela-and-the-game-that-made-a-nation:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v2": {
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v2",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory",
+      "slug": "carlin-john-playing-the-enemy-nelson-mandela-and-the-game-that-made-a-nation",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:carlyle-thomas-on-heroes-hero-worship-and-the-heroic-in-history:/explore/books/the-world-we-make-together/chapters/parts-part-1-who-makes-history-chapter-1-the-photograph#user-content-fnref-c1-carlyle": {
+      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-1-who-makes-history-chapter-1-the-photograph#user-content-fnref-c1-carlyle",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-1-who-makes-history-chapter-1-the-photograph",
+      "slug": "carlyle-thomas-on-heroes-hero-worship-and-the-heroic-in-history",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:carr-e-h-what-is-history:/explore/books/living-in-sediment/chapters/front-matter-prologue-september-is-not-seven#user-content-fnref-pro-archaeological-attention": {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/front-matter-prologue-september-is-not-seven#user-content-fnref-pro-archaeological-attention",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/living-in-sediment/chapters/front-matter-prologue-september-is-not-seven",
+      "slug": "carr-e-h-what-is-history",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:carreyrou-john-bad-blood-secrets-and-lies-in-a-silicon-valley-startup:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-7-the-question-that-becomes-disloyalty#user-content-fnref-c7-carreyrou": {
+      "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-7-the-question-that-becomes-disloyalty#user-content-fnref-c7-carreyrou",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-7-the-question-that-becomes-disloyalty",
+      "slug": "carreyrou-john-bad-blood-secrets-and-lies-in-a-silicon-valley-startup",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:centers-for-disease-control-and-prevention-returning-to-sports:/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-cdc-rts": {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-cdc-rts",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt",
+      "slug": "centers-for-disease-control-and-prevention-returning-to-sports",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:centers-for-medicare-medicaid-services-hospital-readmissions:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-cms-hrrp": {
+      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-cms-hrrp",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs",
+      "slug": "centers-for-medicare-medicaid-services-hospital-readmissions",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:centers-for-medicare-medicaid-services-ms-drg-classifications-and-software:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-cms-drg": {
+      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-cms-drg",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs",
+      "slug": "centers-for-medicare-medicaid-services-ms-drg-classifications-and-software",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:chandler-david-p-voices-from-s-21-terror-and-history-in-pol-pot-s-secret-prison:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-9-what-judgment-can-still-do#user-content-fnref-c9-chandler-overview": {
+      "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-9-what-judgment-can-still-do#user-content-fnref-c9-chandler-overview",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-9-what-judgment-can-still-do",
+      "slug": "chandler-david-p-voices-from-s-21-terror-and-history-in-pol-pot-s-secret-prison",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:charter-77-founding-declaration-1977-v-clav-havel-library:/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-6-the-sign#user-content-fnref-s2": {
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-6-the-sign#user-content-fnref-s2",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-6-the-sign",
+      "slug": "charter-77-founding-declaration-1977-v-clav-havel-library",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp:/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-cointelpro": {
+      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-cointelpro",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl",
+      "slug": "church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus:/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-norm-formation": {
+      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-norm-formation",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to",
+      "slug": "cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:clark-herbert-h-using-language:/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-2-the-story-that-arrives-first#user-content-fnref-c2-clark-using-language": {
+      "candidatePath": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-2-the-story-that-arrives-first#user-content-fnref-c2-clark-using-language",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-2-the-story-that-arrives-first",
+      "slug": "clark-herbert-h-using-language",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:clemmons-fran-ois-with-tim-madigan-officer-clemmons:/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-8-the-neighborhood#user-content-fnref-n2": {
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-8-the-neighborhood#user-content-fnref-n2",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-8-the-neighborhood",
+      "slug": "clemmons-fran-ois-with-tim-madigan-officer-clemmons",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:cockburn-alistair-hexagonal-architecture-ports-and-adapters:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression#user-content-fnref-c10-bridge-hex": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression#user-content-fnref-c10-bridge-hex",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression",
+      "slug": "cockburn-alistair-hexagonal-architecture-ports-and-adapters",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:cockburn-alistair-how-to-step-up-stepping-up-promoting-guest:/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-attention-and-leadership": {
+      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-attention-and-leadership",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to",
+      "slug": "cockburn-alistair-how-to-step-up-stepping-up-promoting-guest",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:cole-robert-e-what-really-happened-to-toyota:/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-2-success-creates-momentum#user-content-fnref-c2-cole-toyota": {
+      "candidatePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-2-success-creates-momentum#user-content-fnref-c2-cole-toyota",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-2-success-creates-momentum",
+      "slug": "cole-robert-e-what-really-happened-to-toyota",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:collins-jim-good-to-great-why-some-companies-make-the-leap-and:/explore/books/how-serious-systems-learn/chapters/parts-part-4-when-disciplines-fail-chapter-12-when-methods-become-myths#user-content-fnref-c12-source-jim-collins-good": {
+      "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-4-when-disciplines-fail-chapter-12-when-methods-become-myths#user-content-fnref-c12-source-jim-collins-good",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-serious-systems-learn/chapters/parts-part-4-when-disciplines-fail-chapter-12-when-methods-become-myths",
+      "slug": "collins-jim-good-to-great-why-some-companies-make-the-leap-and",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:connolly-kate-germany-agonises-over-merkel-s-legacy-did-she-hand-too-much-power-to-putin:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-legacy": {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-legacy",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance",
+      "slug": "connolly-kate-germany-agonises-over-merkel-s-legacy-did-she-hand-too-much-power-to-putin",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-4-the-name-that-survives-every-platform#user-content-fnref-c4-corrales-penfold": {
+      "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-4-the-name-that-survives-every-platform#user-content-fnref-c4-corrales-penfold",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-4-the-name-that-survives-every-platform",
+      "slug": "corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:d-rner-dietrich-the-logic-of-failure-recognizing-and-avoiding-error:/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-dietrich-d-rner": {
+      "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-dietrich-d-rner",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction",
+      "slug": "d-rner-dietrich-the-logic-of-failure-recognizing-and-avoiding-error",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:dahl-robert-a-on-democracy:/explore/books/trust-beyond-similarity/chapters/parts-part-3-epistemic-interdependence-chapter-9-beyond-similarity#user-content-fnref-c9-democracy": {
+      "candidatePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-3-epistemic-interdependence-chapter-9-beyond-similarity#user-content-fnref-c9-democracy",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/trust-beyond-similarity/chapters/parts-part-3-epistemic-interdependence-chapter-9-beyond-similarity",
+      "slug": "dahl-robert-a-on-democracy",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:dahl-robert-a-polyarchy-participation-and-opposition:/explore/books/when-moral-seriousness-scales/chapters/parts-part-4-what-remains-possible-chapter-9-rebuilding-density#user-content-fnref-c9-dahl-polyarchy": {
+      "candidatePath": "/explore/books/when-moral-seriousness-scales/chapters/parts-part-4-what-remains-possible-chapter-9-rebuilding-density#user-content-fnref-c9-dahl-polyarchy",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-moral-seriousness-scales/chapters/parts-part-4-what-remains-possible-chapter-9-rebuilding-density",
+      "slug": "dahl-robert-a-polyarchy-participation-and-opposition",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:dalton-dennis-mahatma-gandhi-nonviolent-power-in-action:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-4": {
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-4",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt",
+      "slug": "dalton-dennis-mahatma-gandhi-nonviolent-power-in-action",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:darby-h-c-domesday-england:/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-7-medieval-re-adaptation#user-content-fnref-c7-domesday": {
+      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-7-medieval-re-adaptation#user-content-fnref-c7-domesday",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-7-medieval-re-adaptation",
+      "slug": "darby-h-c-domesday-england",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:dave-studeman-the-triumph-of-moneyball:/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-sabermetrics-spread": {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-sabermetrics-spread",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out",
+      "slug": "dave-studeman-the-triumph-of-moneyball",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:dekker-sidney-drift-into-failure-from-hunting-broken-components-to-understanding-complex-systems:/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-3-the-collapse-of-corrective-loops#user-content-fnref-c3-source-sidney-dekker-drift": {
+      "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-3-the-collapse-of-corrective-loops#user-content-fnref-c3-source-sidney-dekker-drift",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-3-the-collapse-of-corrective-loops",
+      "slug": "dekker-sidney-drift-into-failure-from-hunting-broken-components-to-understanding-complex-systems",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:dekker-sidney-the-field-guide-to-understanding-human-error:/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-8-when-failure-is-not-an-option#user-content-fnref-c8-source-sidney-dekker-the": {
+      "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-8-when-failure-is-not-an-option#user-content-fnref-c8-source-sidney-dekker-the",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-8-when-failure-is-not-an-option",
+      "slug": "dekker-sidney-the-field-guide-to-understanding-human-error",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:dekker-sidney-w-a-just-culture-restoring-trust-and-accountability:/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-6-harm-under-influence#user-content-fnref-c6-just-culture": {
+      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-6-harm-under-influence#user-content-fnref-c6-just-culture",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-6-harm-under-influence",
+      "slug": "dekker-sidney-w-a-just-culture-restoring-trust-and-accountability",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:demarco-tom-and-timothy-r-lister-peopleware-productive-projects:/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-1-when-knowing-is-no-longer-enough#user-content-fnref-c1-source-tom-demarco-and": {
+      "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-1-when-knowing-is-no-longer-enough#user-content-fnref-c1-source-tom-demarco-and",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-1-when-knowing-is-no-longer-enough",
+      "slug": "demarco-tom-and-timothy-r-lister-peopleware-productive-projects",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:deming-w-edwards-out-of-the-crisis:/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-02-responsibility-as-cohesion#user-content-fnref-c2-postmortem-learning": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-02-responsibility-as-cohesion#user-content-fnref-c2-postmortem-learning",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-02-responsibility-as-cohesion",
+      "slug": "deming-w-edwards-out-of-the-crisis",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-8": {
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-8",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt",
+      "slug": "desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:dewey-john-experience-and-education:/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-2-the-first-cracks-chapter-5-participation-stops-updating-beliefs#user-content-fnref-c5-dewey-experience-education": {
+      "candidatePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-2-the-first-cracks-chapter-5-participation-stops-updating-beliefs#user-content-fnref-c5-dewey-experience-education",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-2-the-first-cracks-chapter-5-participation-stops-updating-beliefs",
+      "slug": "dewey-john-experience-and-education",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:dewey-john-experience-and-nature:/explore/books/after-certainty/chapters/parts-part-3-living-with-limits-chapter-7-the-discipline-of-not-knowing#user-content-fnref-c7-contemplative-pragmatist": {
+      "candidatePath": "/explore/books/after-certainty/chapters/parts-part-3-living-with-limits-chapter-7-the-discipline-of-not-knowing#user-content-fnref-c7-contemplative-pragmatist",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/after-certainty/chapters/parts-part-3-living-with-limits-chapter-7-the-discipline-of-not-knowing",
+      "slug": "dewey-john-experience-and-nature",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:dewey-john-human-nature-and-conduct-an-introduction-to-social-psychology:/explore/books/how-trust-forms/chapters/parts-part-1-the-architecture-of-trust-chapter-3-outcomes-create-evidence#user-content-fnref-c3-dewey": {
+      "candidatePath": "/explore/books/how-trust-forms/chapters/parts-part-1-the-architecture-of-trust-chapter-3-outcomes-create-evidence#user-content-fnref-c3-dewey",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-trust-forms/chapters/parts-part-1-the-architecture-of-trust-chapter-3-outcomes-create-evidence",
+      "slug": "dewey-john-human-nature-and-conduct-an-introduction-to-social-psychology",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:dewey-john-the-public-and-its-problems:/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-bridge#user-content-fnref-p3-dewey": {
+      "candidatePath": "/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-bridge#user-content-fnref-p3-dewey",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-bridge",
+      "slug": "dewey-john-the-public-and-its-problems",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:dewey-john-the-quest-for-certainty-a-study-of-the-relation-of:/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-1-the-end-of-correctness#user-content-fnref-c1-pragmatist-truth": {
+      "candidatePath": "/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-1-the-end-of-correctness#user-content-fnref-c1-pragmatist-truth",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-1-the-end-of-correctness",
+      "slug": "dewey-john-the-quest-for-certainty-a-study-of-the-relation-of",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:dik-tter-frank-the-cultural-revolution-a-people-s-history-1962-1976:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-8-the-criticism-that-cannot-correct#user-content-fnref-c8-dikotter-overview": {
+      "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-8-the-criticism-that-cannot-correct#user-content-fnref-c8-dikotter-overview",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-8-the-criticism-that-cannot-correct",
+      "slug": "dik-tter-frank-the-cultural-revolution-a-people-s-history-1962-1976",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-misuse": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-misuse",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials",
+      "slug": "dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:douglas-karen-m-et-al-understanding-conspiracy-theories:/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-3-preservation-chapter-8-trust-shapes-interpretation#user-content-fnref-c8-douglas-conspiracy": {
+      "candidatePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-3-preservation-chapter-8-trust-shapes-interpretation#user-content-fnref-c8-douglas-conspiracy",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-3-preservation-chapter-8-trust-shapes-interpretation",
+      "slug": "douglas-karen-m-et-al-understanding-conspiracy-theories",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:drake-stillman-discoveries-and-opinions-of-galileo:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-christina": {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-christina",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see",
+      "slug": "drake-stillman-discoveries-and-opinions-of-galileo",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:druckman-james-n-et-al-a-framework-for-the-study-of-misinformation-and-health:/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-3-preservation-chapter-8-trust-shapes-interpretation#user-content-fnref-c8-druckman-misinformation": {
+      "candidatePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-3-preservation-chapter-8-trust-shapes-interpretation#user-content-fnref-c8-druckman-misinformation",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-3-preservation-chapter-8-trust-shapes-interpretation",
+      "slug": "druckman-james-n-et-al-a-framework-for-the-study-of-misinformation-and-health",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-eagly": {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-eagly",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance",
+      "slug": "eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:edgerton-david-the-shock-of-the-old-technology-and-global-history-since-1900:/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-bridge#user-content-fnref-b3-shock-of-the-old": {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-bridge#user-content-fnref-b3-shock-of-the-old",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-bridge",
+      "slug": "edgerton-david-the-shock-of-the-old-technology-and-global-history-since-1900",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:edmondson-amy-c-psychological-safety-and-learning-behavior-in-work:/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-silence-and-accountability": {
+      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-silence-and-accountability",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to",
+      "slug": "edmondson-amy-c-psychological-safety-and-learning-behavior-in-work",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:edmondson-amy-c-the-fearless-organization-creating-psychological-safety-in-the-workplace-for-lea:/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-amy-c-edmondson": {
+      "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-amy-c-edmondson",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction",
+      "slug": "edmondson-amy-c-the-fearless-organization-creating-psychological-safety-in-the-workplace-for-lea",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:eisenstein-elizabeth-l-the-printing-press-as-an-agent-of-change:/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-8-renaissance-exploration-and-fracture#user-content-fnref-c8-printing-press": {
+      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-8-renaissance-exploration-and-fracture#user-content-fnref-c8-printing-press",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-8-renaissance-exploration-and-fracture",
+      "slug": "eisenstein-elizabeth-l-the-printing-press-as-an-agent-of-change",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:encyclopedia-of-arkansas-lost-year:/explore/books/the-world-we-make-together/chapters/parts-part-1-who-makes-history-chapter-2-the-door#user-content-fnref-c2-school-closing": {
+      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-1-who-makes-history-chapter-2-the-door#user-content-fnref-c2-school-closing",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-1-who-makes-history-chapter-2-the-door",
+      "slug": "encyclopedia-of-arkansas-lost-year",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:eno-robert-the-mandate-of-heaven-and-the-origins-of-history-in:/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-3-from-power-to-moral-legitimacy#user-content-fnref-c3-mandate-heaven": {
+      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-3-from-power-to-moral-legitimacy#user-content-fnref-c3-mandate-heaven",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-3-from-power-to-moral-legitimacy",
+      "slug": "eno-robert-the-mandate-of-heaven-and-the-origins-of-history-in",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:escud-carlos-argentine-political-culture:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-4-the-name-that-survives-every-platform#user-content-fnref-c4-escude-culture": {
+      "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-4-the-name-that-survives-every-platform#user-content-fnref-c4-escude-culture",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-4-the-name-that-survives-every-platform",
+      "slug": "escud-carlos-argentine-political-culture",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:evans-eric-domain-driven-design-tackling-complexity-in-the-heart-of-software:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-11-hexagonal-architecture-boundary-discipline-at-scale#user-content-fnref-c11-why-now": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-11-hexagonal-architecture-boundary-discipline-at-scale#user-content-fnref-c11-why-now",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-11-hexagonal-architecture-boundary-discipline-at-scale",
+      "slug": "evans-eric-domain-driven-design-tackling-complexity-in-the-heart-of-software",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:every-student-succeeds-act-of-2015-pub-l-no-114-95-1111-1112:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold#user-content-fnref-c8-esea": {
+      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold#user-content-fnref-c8-esea",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold",
+      "slug": "every-student-succeeds-act-of-2015-pub-l-no-114-95-1111-1112",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:fahey-liam-and-robert-m-randall-eds-learning-from-the-future:/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-3-the-collapse-of-corrective-loops#user-content-fnref-c3-source-liam-fahey-and": {
+      "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-3-the-collapse-of-corrective-loops#user-content-fnref-c3-source-liam-fahey-and",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-3-the-collapse-of-corrective-loops",
+      "slug": "fahey-liam-and-robert-m-randall-eds-learning-from-the-future",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:fantoli-annibale-galileo-for-copernicanism-and-for-the-church:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-fantoli": {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-fantoli",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see",
+      "slug": "fantoli-annibale-galileo-for-copernicanism-and-for-the-church",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:federal-aviation-administration-and-nasa-aviation-safety-reporting-system-asrs:/explore/books/what-we-cannot-see/chapters/parts-part-3-integration-learning-together-chapter-11-when-failure-teaches-the-system#user-content-fnref-c11-asrs": {
+      "candidatePath": "/explore/books/what-we-cannot-see/chapters/parts-part-3-integration-learning-together-chapter-11-when-failure-teaches-the-system#user-content-fnref-c11-asrs",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/what-we-cannot-see/chapters/parts-part-3-integration-learning-together-chapter-11-when-failure-teaches-the-system",
+      "slug": "federal-aviation-administration-and-nasa-aviation-safety-reporting-system-asrs",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:federal-reserve-bank-of-philadelphia-survey-of-professional-forecasters:/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-spf": {
+      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-spf",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise",
+      "slug": "federal-reserve-bank-of-philadelphia-survey-of-professional-forecasters",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:figes-orlando-the-whisperers-private-life-in-stalin-s-russia:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-5-the-applause-no-one-wants-to-end#user-content-fnref-c5-figes-whisperers": {
+      "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-5-the-applause-no-one-wants-to-end#user-content-fnref-c5-figes-whisperers",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-5-the-applause-no-one-wants-to-end",
+      "slug": "figes-orlando-the-whisperers-private-life-in-stalin-s-russia",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:fine-sidney-sit-down-the-general-motors-strike-of-1936-1937:/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-9-the-scale#user-content-fnref-c9-flint": {
+      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-9-the-scale#user-content-fnref-c9-flint",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-9-the-scale",
+      "slug": "fine-sidney-sit-down-the-general-motors-strike-of-1936-1937",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:fisher-roger-william-ury-and-bruce-patton-getting-to-yes-negotiating-agreement-without-giving-in:/explore/books/trust-beyond-similarity/chapters/parts-part-3-epistemic-interdependence-chapter-7-listening-without-surrender#user-content-fnref-c7-mediation": {
+      "candidatePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-3-epistemic-interdependence-chapter-7-listening-without-surrender#user-content-fnref-c7-mediation",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/trust-beyond-similarity/chapters/parts-part-3-epistemic-interdependence-chapter-7-listening-without-surrender",
+      "slug": "fisher-roger-william-ury-and-bruce-patton-getting-to-yes-negotiating-agreement-without-giving-in",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:fitzpatrick-sheila-everyday-stalinism-ordinary-life-in-extraordinary-times:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-5-the-applause-no-one-wants-to-end#user-content-fnref-c5-fitzpatrick-everyday": {
+      "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-5-the-applause-no-one-wants-to-end#user-content-fnref-c5-fitzpatrick-everyday",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-5-the-applause-no-one-wants-to-end",
+      "slug": "fitzpatrick-sheila-everyday-stalinism-ordinary-life-in-extraordinary-times",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:flook-david-j-commercial-diving-manual:/explore/books/trust-beyond-similarity/chapters/parts-part-3-epistemic-interdependence-chapter-8-trusting-partial-perspectives#user-content-fnref-c8-saturation-diving": {
+      "candidatePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-3-epistemic-interdependence-chapter-8-trusting-partial-perspectives#user-content-fnref-c8-saturation-diving",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/trust-beyond-similarity/chapters/parts-part-3-epistemic-interdependence-chapter-8-trusting-partial-perspectives",
+      "slug": "flook-david-j-commercial-diving-manual",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:follett-mary-parker-dynamic-administration-the-collected-papers-of-mary-parker-follett:/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-9-the-scale#user-content-fnref-c9-law-situation": {
+      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-9-the-scale#user-content-fnref-c9-law-situation",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-9-the-scale",
+      "slug": "follett-mary-parker-dynamic-administration-the-collected-papers-of-mary-parker-follett",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:forbes-geraldine-women-in-modern-india:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-5": {
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-5",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt",
+      "slug": "forbes-geraldine-women-in-modern-india",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-11-hexagonal-architecture-boundary-discipline-at-scale#user-content-fnref-c11-failure-modes": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-11-hexagonal-architecture-boundary-discipline-at-scale#user-content-fnref-c11-failure-modes",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-11-hexagonal-architecture-boundary-discipline-at-scale",
+      "slug": "ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-bridge-dora": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-bridge-dora",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials",
+      "slug": "forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:foucault-michel-discipline-and-punish-the-birth-of-the-prison:/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-6-harm-under-influence#user-content-fnref-c6-power-harm": {
+      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-6-harm-under-influence#user-content-fnref-c6-power-harm",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-6-harm-under-influence",
+      "slug": "foucault-michel-discipline-and-punish-the-birth-of-the-prison",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:founders-online-national-archives-from-george-washington-to-officers-of-the-army-15-march-1783:/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-4-the-chair#user-content-fnref-c4-washington-address": {
+      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-4-the-chair#user-content-fnref-c4-washington-address",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-4-the-chair",
+      "slug": "founders-online-national-archives-from-george-washington-to-officers-of-the-army-15-march-1783",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:fowler-martin-integration-metadata:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-05-waterfall-low-temporal-coupling#user-content-fnref-c5-late-integration": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-05-waterfall-low-temporal-coupling#user-content-fnref-c5-late-integration",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-05-waterfall-low-temporal-coupling",
+      "slug": "fowler-martin-integration-metadata",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:fowler-martin-refactoring-improving-the-design-of-existing-code:/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-01-coupling-and-cohesion-technical-origins#user-content-fnref-c1-tight-coupling-fragility": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-01-coupling-and-cohesion-technical-origins#user-content-fnref-c1-tight-coupling-fragility",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-01-coupling-and-cohesion-technical-origins",
+      "slug": "fowler-martin-refactoring-improving-the-design-of-existing-code",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:fred-rogers-productions-episode-archives-television-hall-of-fame-materials-jeff-erlanger-appeara:/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-8-the-neighborhood#user-content-fnref-n3": {
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-8-the-neighborhood#user-content-fnref-n3",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-8-the-neighborhood",
+      "slug": "fred-rogers-productions-episode-archives-television-hall-of-fame-materials-jeff-erlanger-appeara",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:freeh-sporkin-sullivan-llc-report-of-the-special-investigative-counsel-regarding-the-actions-of:/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-3-trust-becomes-identity#user-content-fnref-c3-freeh-penn-state": {
+      "candidatePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-3-trust-becomes-identity#user-content-fnref-c3-freeh-penn-state",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-3-trust-becomes-identity",
+      "slug": "freeh-sporkin-sullivan-llc-report-of-the-special-investigative-counsel-regarding-the-actions-of",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:freeman-r-edward-strategic-management-a-stakeholder-approach:/explore/books/trust-beyond-similarity/chapters/back-matter-conclusion-the-building-and-the-people#user-content-fnref-c10-freeman-stakeholders": {
+      "candidatePath": "/explore/books/trust-beyond-similarity/chapters/back-matter-conclusion-the-building-and-the-people#user-content-fnref-c10-freeman-stakeholders",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/trust-beyond-similarity/chapters/back-matter-conclusion-the-building-and-the-people",
+      "slug": "freeman-r-edward-strategic-management-a-stakeholder-approach",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:french-john-r-p-and-bertram-raven-the-bases-of-social-power:/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-1-before-the-words#user-content-fnref-c1-french-raven-bases-social-power": {
+      "candidatePath": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-1-before-the-words#user-content-fnref-c1-french-raven-bases-social-power",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-1-before-the-words",
+      "slug": "french-john-r-p-and-bertram-raven-the-bases-of-social-power",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:fricker-miranda-epistemic-injustice-power-and-the-ethics-of-knowing:/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-chapter-8-trust-and-meaning#user-content-fnref-c8-fricker": {
+      "candidatePath": "/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-chapter-8-trust-and-meaning#user-content-fnref-c8-fricker",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-chapter-8-trust-and-meaning",
+      "slug": "fricker-miranda-epistemic-injustice-power-and-the-ethics-of-knowing",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:gandhi-mohandas-k-letter-to-lord-irwin-2-march-1930-in-the-collected-works-of-mahatma-gandhi:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-2": {
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-2",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt",
+      "slug": "gandhi-mohandas-k-letter-to-lord-irwin-2-march-1930-in-the-collected-works-of-mahatma-gandhi",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:garfield-eugene-the-history-and-meaning-of-the-impact-factor:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-3-the-paper-that-must-count#user-content-fnref-c3-garfield": {
+      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-3-the-paper-that-must-count#user-content-fnref-c3-garfield",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-3-the-paper-that-must-count",
+      "slug": "garfield-eugene-the-history-and-meaning-of-the-impact-factor",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:garrow-david-j-bearing-the-cross-martin-luther-king-jr-and-the-southern-christian-leadership-con:/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-2": {
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-2",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march",
+      "slug": "garrow-david-j-bearing-the-cross-martin-luther-king-jr-and-the-southern-christian-leadership-con",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:garrow-david-j-the-fbi-and-martin-luther-king-jr-from-solo-to-memphis:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-garrow-fbi": {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-garrow-fbi",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet",
+      "slug": "garrow-david-j-the-fbi-and-martin-luther-king-jr-from-solo-to-memphis",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:garton-ash-timothy-the-magic-lantern-the-revolution-of-89-witnessed-in-warsaw-budapest-berlin-an:/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-6-the-sign#user-content-fnref-s3": {
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-6-the-sign#user-content-fnref-s3",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-6-the-sign",
+      "slug": "garton-ash-timothy-the-magic-lantern-the-revolution-of-89-witnessed-in-warsaw-budapest-berlin-an",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:gawande-atul-the-checklist-manifesto-how-to-get-things-right:/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-4-constraint-as-discipline#user-content-fnref-c4-source-atul-gawande-the": {
+      "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-4-constraint-as-discipline#user-content-fnref-c4-source-atul-gawande-the",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-4-constraint-as-discipline",
+      "slug": "gawande-atul-the-checklist-manifesto-how-to-get-things-right",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:givens-terryl-l-by-the-hand-of-mormon:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-1-where-interpretation-ends-chapter-1-the-door-that-opens-only-inward#user-content-fnref-c1-givens": {
+      "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-1-where-interpretation-ends-chapter-1-the-door-that-opens-only-inward#user-content-fnref-c1-givens",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-1-where-interpretation-ends-chapter-1-the-door-that-opens-only-inward",
+      "slug": "givens-terryl-l-by-the-hand-of-mormon",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:gleeson-white-jane-double-entry-how-the-merchants-of-venice-created-modern-finance:/explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-5-structures-that-see-for-us#user-content-fnref-c5-ledger": {
+      "candidatePath": "/explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-5-structures-that-see-for-us#user-content-fnref-c5-ledger",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-5-structures-that-see-for-us",
+      "slug": "gleeson-white-jane-double-entry-how-the-merchants-of-venice-created-modern-finance",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:goffman-erving-interaction-ritual:/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-5-the-archive-in-the-kitchen#user-content-fnref-c5-goffman-interaction-ritual": {
+      "candidatePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-5-the-archive-in-the-kitchen#user-content-fnref-c5-goffman-interaction-ritual",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-5-the-archive-in-the-kitchen",
+      "slug": "goffman-erving-interaction-ritual",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:goldratt-eliyahu-m-and-jeff-cox-the-goal-a-process-of-ongoing:/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-1-when-knowing-is-no-longer-enough#user-content-fnref-c1-source-eliyahu-m-goldratt": {
+      "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-1-when-knowing-is-no-longer-enough#user-content-fnref-c1-source-eliyahu-m-goldratt",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-1-when-knowing-is-no-longer-enough",
+      "slug": "goldratt-eliyahu-m-and-jeff-cox-the-goal-a-process-of-ongoing",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:grady-peter-flying-blind-the-737-max-tragedy-and-the-fall-of-boeing:/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-2-success-creates-momentum#user-content-fnref-c2-grady-boeing": {
+      "candidatePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-2-success-creates-momentum#user-content-fnref-c2-grady-boeing",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-2-success-creates-momentum",
+      "slug": "grady-peter-flying-blind-the-737-max-tragedy-and-the-fall-of-boeing",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:graeber-david-on-the-phenomenon-of-bullshit-jobs:/explore/books/how-serious-systems-learn/chapters/parts-part-3-what-these-disciplines-share-chapter-11-authority-that-preserves-correction#user-content-fnref-c11-source-david-graeber-on": {
+      "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-3-what-these-disciplines-share-chapter-11-authority-that-preserves-correction#user-content-fnref-c11-source-david-graeber-on",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-serious-systems-learn/chapters/parts-part-3-what-these-disciplines-share-chapter-11-authority-that-preserves-correction",
+      "slug": "graeber-david-on-the-phenomenon-of-bullshit-jobs",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:grand-slam-tournaments-statement-from-grand-slam-tournaments-regarding-naomi-osaka:/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-osaka-fo": {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-osaka-fo",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no",
+      "slug": "grand-slam-tournaments-statement-from-grand-slam-tournaments-regarding-naomi-osaka",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:greenberg-jerald-organizational-justice-yesterday-today-and-tomorrow:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-5-the-matrix-with-no-author#user-content-fnref-c5-greenberg": {
+      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-5-the-matrix-with-no-author#user-content-fnref-c5-greenberg",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-5-the-matrix-with-no-author",
+      "slug": "greenberg-jerald-organizational-justice-yesterday-today-and-tomorrow",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:grove-andrew-s-high-output-management:/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-andrew-s-grove": {
+      "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-andrew-s-grove",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction",
+      "slug": "grove-andrew-s-high-output-management",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
+    },
+    "source:hardin-russell-trust-and-trustworthiness:/explore/books/how-trust-forms/chapters/parts-part-1-the-architecture-of-trust-chapter-3-outcomes-create-evidence#user-content-fnref-c3-hardin": {
+      "candidatePath": "/explore/books/how-trust-forms/chapters/parts-part-1-the-architecture-of-trust-chapter-3-outcomes-create-evidence#user-content-fnref-c3-hardin",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "routeKey": "/explore/books/how-trust-forms/chapters/parts-part-1-the-architecture-of-trust-chapter-3-outcomes-create-evidence",
+      "slug": "hardin-russell-trust-and-trustworthiness",
+      "status": "applied",
+      "updatedAt": "2026-10-17T22:57:10Z"
     }
   }
 }

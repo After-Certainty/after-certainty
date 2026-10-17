@@ -415,18 +415,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/front-matter-introduction-the-chart-and-the-receipt#user-content-fnref-intro-shed",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 8,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "board-of-governors-of-the-federal-reserve-system-report-on-the-economic-well-being-of-u-s-househ",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-early-moral-anthropology",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -450,18 +438,6 @@
       "readerPassagePath": null,
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "boss-pauline-ambiguous-loss-learning-to-live-with-unresolved-grief",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-5-the-archive-in-the-kitchen#user-content-fnref-c5-bowlby-attachment-loss",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "bowlby-john-attachment-and-loss",
       "status": "strong_candidate"
     },
     {
@@ -517,30 +493,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-reactance",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 2,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "brehm-jack-w-a-theory-of-psychological-reactance",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/trust-beyond-similarity/chapters/back-matter-conclusion-the-building-and-the-people#user-content-fnref-c10-brinkmann-standpoints",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "brinkmann-svend-standpoints-ten-old-ideas-for-a-new-world",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -566,66 +518,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-2-integration-and-use-chapter-6-leadership-at-human-scale#user-content-fnref-c6-brown-dare-to-lead",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "brown-bren-dare-to-lead-brave-work-tough-conversations-whole",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-7-the-question-that-becomes-disloyalty#user-content-fnref-c7-brown-farrell",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-1",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "brown-judith-m-gandhi-prisoner-of-hope",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-10",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "brown-judith-m-gandhi-s-rise-to-power-indian-politics-1915-1922",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-public-health",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-close",
       "evidenceLevel": "B",
       "footnoteHitCount": 2,
@@ -636,6 +528,121 @@
       "readerPassagePath": null,
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-1-where-interpretation-ends-chapter-1-the-door-that-opens-only-inward#user-content-fnref-c1-bushman",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 3,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "bushman-richard-lyman-joseph-smith-rough-stone-rolling",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "calhoun-craig-neither-gods-nor-emperors-students-and-the-struggle-for-democracy-in-china",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-oakland",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 2,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "california-african-american-museum-free-breakfast-for-school-children-program",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-goodhart",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 8,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "campbell-donald-t-assessing-the-impact-of-planned-social-change",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-fec",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-open",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-concussion-symptoms",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "centers-for-disease-control-and-prevention-symptoms-of-concussion",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-3-looking-twice-chapter-10-the-conversation-that-is-no-longer-a-conversation#user-content-fnref-c10-ceplair",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-chernow",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 2,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "chernow-ron-washington-a-life",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment#user-content-fnref-c11-judgment-upstream",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "christian-brian-the-alignment-problem-machine-learning-and-human-values",
       "status": "strong_candidate"
     }
   ],
@@ -652,6 +659,62 @@
       ]
     },
     {
+      "slug": "alice-h-eagly",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-eagly",
+          "sourceSlug": "eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth",
+          "whyThisMatters": "Eagly and Carli document how women become leaders under gendered constraints\u2014different expectations for warmth, agency, and emotional display that raise the cost of looking decisive or restrained. When Authority Is Misread applies that research to Merkel-era reception: certainty from male leaders can read as seriousness, while similar caution or emotional neutrality from a woman more readily reads as absence or indecision. The book\u2019s claim is about misread authority under gendered framing, not that gender alone caused Eurozone policy outcomes."
+        }
+      ]
+    },
+    {
+      "slug": "alistair-cockburn",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression#user-content-fnref-c10-bridge-hex",
+          "sourceSlug": "cockburn-alistair-hexagonal-architecture-ports-and-adapters",
+          "whyThisMatters": "Cockburn\u2019s hexagonal architecture (ports and adapters) protects core domain logic behind stable boundaries so external systems can change without entangling business rules. Coupling uses that boundary discipline after \u201cshift left\u201d: earlier detection helps only if the system can still adapt without destabilizing everything it touches. The source argues for intentional coupling at the edge; the book asks whether faster feedback still fails when core logic remains fused to dependencies."
+        },
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-attention-and-leadership",
+          "sourceSlug": "cockburn-alistair-how-to-step-up-stepping-up-promoting-guest",
+          "whyThisMatters": "Cockburn\u2019s \u201cguest leadership\u201d essay describes how people without formal authority can step up\u2014and step back\u2014so collaboration keeps moving when the titled leader is not the best actor for the moment. When Others Look to You starts from a related observation: leadership begins when others take their cues from you, title or not. The book extends Cockburn\u2019s collaboration practice into the moral weight of that attention\u2014influence multiplies once people keep looking."
+        }
+      ]
+    },
+    {
+      "slug": "amy-c-edmondson",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-silence-and-accountability",
+          "sourceSlug": "edmondson-amy-c-psychological-safety-and-learning-behavior-in-work",
+          "whyThisMatters": "Edmondson\u2019s research links psychological safety to learning behavior in work teams: people speak up about errors and concerns when the interpersonal climate makes that risk tenable. When Others Look to You extends the finding from team climate to leadership signal\u2014what leaders dismiss, absorb, or leave unaddressed teaches others what is tolerated. The book\u2019s operational claim is that silence and non-intervention travel as instruction, especially as settings scale beyond immediate face-to-face correction."
+        },
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-amy-c-edmondson",
+          "sourceSlug": "edmondson-amy-c-the-fearless-organization-creating-psychological-safety-in-the-workplace-for-lea",
+          "whyThisMatters": "In The Fearless Organization, Edmondson argues that organizations learn when people can raise problems, uncertainty, and bad news without prohibitive interpersonal cost. How Serious Systems Learn uses that account for correction lag under asymmetric power: those closest to operational risk often see fragility first but pay the highest price for saying stop. The book\u2019s inference is that systems often misread silence as agreement when what they are observing is cost-avoidance."
+        }
+      ]
+    },
+    {
+      "slug": "andrew-s-grove",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-andrew-s-grove",
+          "sourceSlug": "grove-andrew-s-high-output-management",
+          "whyThisMatters": "Grove\u2019s High Output Management treats managerial leverage as the disciplined conversion of incomplete information into coordinated action. How Serious Systems Learn presses the hinge: confidence must stay provisional enough for correction, or it becomes a substitute for learning."
+        }
+      ]
+    },
+    {
       "slug": "angelina-mcmillan-major",
       "workPassageLinks": [
         {
@@ -663,6 +726,17 @@
       ]
     },
     {
+      "slug": "anna-tavis",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-5-the-matrix-with-no-author#user-content-fnref-c5-cappelli",
+          "sourceSlug": "cappelli-peter-and-anna-tavis-the-performance-management-revolution",
+          "whyThisMatters": "Cappelli and Tavis describe employers rebuilding performance management around continuous feedback and comparable scores at scale. When Incentives Become the Moral Language treats those rating systems as anti-bias infrastructure that can also translate fairness into method\u2014until the score becomes the moral language of the decision."
+        }
+      ]
+    },
+    {
       "slug": "annette-c-baier",
       "workPassageLinks": [
         {
@@ -670,6 +744,28 @@
           "readerPassagePath": "/explore/books/how-trust-forms/chapters/front-matter-introduction-how-trust-forms#user-content-fnref-intro-baier-vulnerability",
           "sourceSlug": "baier-annette-c-trust-and-antitrust",
           "whyThisMatters": "Baier treats trust as accepted vulnerability\u2014relying on another\u2019s goodwill where harm is possible. How Trust Forms begins there: neighbors start cooperating through small, uneven exposures before anyone knows whether the relationship will hold."
+        }
+      ]
+    },
+    {
+      "slug": "annibale-fantoli",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-fantoli",
+          "sourceSlug": "fantoli-annibale-galileo-for-copernicanism-and-for-the-church",
+          "whyThisMatters": "Fantoli\u2019s Galileo: For Copernicanism and for the Church emphasizes the complexity of Church scholarship alongside doctrinal guardianship, resisting a cartoon duel between science and religion. When Authority Is Misread follows that framing: Galileo forced into the open a contest over who may decide which forms of seeing are admissible when new instruments change what counts as evidence. The book\u2019s claim concerns interpretive permission under new instruments, not a story of solitary genius against uniform ignorance."
+        }
+      ]
+    },
+    {
+      "slug": "atul-gawande",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-4-constraint-as-discipline#user-content-fnref-c4-source-atul-gawande-the",
+          "sourceSlug": "gawande-atul-the-checklist-manifesto-how-to-get-things-right",
+          "whyThisMatters": "Gawande\u2019s Checklist Manifesto treats checklists and related protocols as tools that keep skilled people reliable under pressure, not as substitutes for judgment. How Serious Systems Learn places that practice inside high-reliability constraint: cross-checks and handoffs preserve capability when uncertainty would otherwise erode it."
         }
       ]
     },
@@ -707,6 +803,17 @@
       ]
     },
     {
+      "slug": "bertram-raven",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-1-before-the-words#user-content-fnref-c1-french-raven-bases-social-power",
+          "sourceSlug": "french-john-r-p-and-bertram-raven-the-bases-of-social-power",
+          "whyThisMatters": "French and Raven\u2019s Bases of Social Power classifies how influence operates\u2014reward, coercion, legitimacy, expertise, referent power\u2014before a listener fully evaluates an argument. How Meaning Moves uses that insight for early sorting in conversation: authority changes the weight of a phrase while language is still arriving. The source inventories power bases; the book asks how meaning moves when rank and history shape interpretation before reasoning gets a fair hearing."
+        }
+      ]
+    },
+    {
       "slug": "betsy-beyer",
       "workPassageLinks": [
         {
@@ -725,6 +832,12 @@
           "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-beige",
           "sourceSlug": "board-of-governors-of-the-federal-reserve-system-beige-book-summary-of-commentary-on-current-eco",
           "whyThisMatters": "The Beige Book gathers district-level variation in employment, prices, credit, and business conditions. The Economy We Don\u2019t Experience contrasts that internal texture with public forecasts that often travel as a single direction people discover only after the headline fails their experience."
+        },
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/front-matter-introduction-the-chart-and-the-receipt#user-content-fnref-intro-shed",
+          "sourceSlug": "board-of-governors-of-the-federal-reserve-system-report-on-the-economic-well-being-of-u-s-househ",
+          "whyThisMatters": "The Federal Reserve's SHED reports survey how U.S. households experience employment, prices, borrowing, and material pressure beneath aggregate indicators. The Economy We Don't Experience uses that household-level evidence for the chart-and-receipt problem: national measures can improve while rent, overtime, and credit costs still close off choices\u2014without anyone lying."
         },
         {
           "evidenceLevel": "A",
@@ -747,6 +860,28 @@
       ]
     },
     {
+      "slug": "brene-brown",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-2-integration-and-use-chapter-6-leadership-at-human-scale#user-content-fnref-c6-brown-dare-to-lead",
+          "sourceSlug": "brown-bren-dare-to-lead-brave-work-tough-conversations-whole",
+          "whyThisMatters": "Brown treats clear boundaries as leadership practice that contains harm rather than as abandonment of care. When Authority Outlives Accountability scales that claim to human systems: limits can look like withheld love while they stop destructive patterns from becoming diffuse, unspoken, and normalized."
+        }
+      ]
+    },
+    {
+      "slug": "bruce-patton",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-3-epistemic-interdependence-chapter-7-listening-without-surrender#user-content-fnref-c7-mediation",
+          "sourceSlug": "fisher-roger-william-ury-and-bruce-patton-getting-to-yes-negotiating-agreement-without-giving-in",
+          "whyThisMatters": "Fisher, Ury, and Patton\u2019s Getting to Yes separates positions from interests and treats durable negotiation as work on underlying needs rather than surface demands. Trust Beyond Similarity takes that discipline into disagreement that cannot be dissolved by similarity: parties may reject each other\u2019s conclusions while still taking seriously the fears, red lines, and losses that make positions stick. The source offers a method; the book asks whether understanding without surrender can keep trust workable when compromise on history or legitimacy is unavailable."
+        }
+      ]
+    },
+    {
       "slug": "c-w-anderson",
       "workPassageLinks": [
         {
@@ -758,6 +893,67 @@
       ]
     },
     {
+      "slug": "carl-a-kallgren",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-norm-formation",
+          "sourceSlug": "cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus",
+          "whyThisMatters": "Cialdini, Reno, and Kallgren's focus theory of normative conduct shows that norms guide behavior when they are made salient\u2014people act on what the situation brings into focus. When Others Look to You extends that to leadership modeling: influence amplifies what you showed\u2014tolerance, silence, correction\u2014more than what you meant."
+        }
+      ]
+    },
+    {
+      "slug": "carlos-escude",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-4-the-name-that-survives-every-platform#user-content-fnref-c4-escude-culture",
+          "sourceSlug": "escud-carlos-argentine-political-culture",
+          "whyThisMatters": "Escud\u00e9 analyzes enduring frames in Argentine political culture\u2014national dignity, legitimacy narratives, and conflict patterns that persist across institutional changes. When Interpretation No Longer Matters cites that work for the durability of belonging-forms around Per\u00f3n-era labor recognition and movement memory, not as a claim that culture alone produced Per\u00f3n. The book asks how a name and a felt arrival inside the state can survive platform changes when people can narrate concrete calendar gains to their children."
+        }
+      ]
+    },
+    {
+      "slug": "casper-lassenius",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-misuse",
+          "sourceSlug": "dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca",
+          "whyThisMatters": "Dikert, Paasivaara, and Lassenius review challenges and success factors in large-scale agile transformations, documenting how adoption often fails when practices are adopted without the conditions that make them work. Coupling uses that literature for the failure mode in which \u201cbe agile\u201d becomes slogan drift\u2014skipping reflection, removing safeguards, or speeding up without restoring ownership clarity. The book\u2019s operational question is whether simplification still keeps consequence visibility and learning loops intact, or only makes the organization feel lighter while adaptation weakens."
+        }
+      ]
+    },
+    {
+      "slug": "centers-for-disease-control-and-prevention",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-cdc-rts",
+          "sourceSlug": "centers-for-disease-control-and-prevention-returning-to-sports",
+          "whyThisMatters": "CDC return-to-sports guidance stages recovery through graded exertion under healthcare supervision, with symptoms sending the athlete back a step. The Game We Think We Saw treats that protocol as a moral boundary as much as a clinical one: courage is not a diagnostic instrument for concussion readiness."
+        }
+      ]
+    },
+    {
+      "slug": "centers-for-medicare-medicaid-services",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-cms-hrrp",
+          "sourceSlug": "centers-for-medicare-medicaid-services-hospital-readmissions",
+          "whyThisMatters": "CMS's Hospital Readmissions Reduction Program measures and financially pressures hospitals on unplanned readmission rates. When Incentives Become the Moral Language starts from that tool's real purpose\u2014making patterns visible across a system too large for local judgment alone\u2014then asks when the measure outranks the care it was meant to serve."
+        },
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-cms-drg",
+          "sourceSlug": "centers-for-medicare-medicaid-services-ms-drg-classifications-and-software",
+          "whyThisMatters": "CMS MS-DRG classifications group inpatient stays for prospective payment so financing can travel across clinical variation. When Incentives Become the Moral Language pairs that translation with readmission measures: each answers a coordination problem until the sentence everyone can repeat becomes more authoritative than the bedside facts it leaves out."
+        }
+      ]
+    },
+    {
       "slug": "charles-a-e-goodhart",
       "workPassageLinks": [
         {
@@ -765,6 +961,17 @@
           "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-3-effectiveness#user-content-fnref-c3-goodhart-monetary-management",
           "sourceSlug": "goodhart-charles-a-e-problems-of-monetary-management-the-u-k",
           "whyThisMatters": "Goodhart's work on monetary targets raises a problem that extends beyond monetary policy: a measure used to steer an institution can lose touch with what it was meant to represent. The connection to accountability is worth asking about: what happens when meeting the target displaces answering for the consequences?"
+        }
+      ]
+    },
+    {
+      "slug": "charter-77",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-6-the-sign#user-content-fnref-s2",
+          "sourceSlug": "charter-77-founding-declaration-1977-v-clav-havel-library",
+          "whyThisMatters": "Charter 77's 1977 declaration demanded that the Czechoslovak state honor human-rights commitments it had formally accepted, without offering a full governing program. When Others Become Leaders treats that narrow demand as leadership architecture: speaking as if official language were binding can destabilize a system that lived by the gap between words and experience."
         }
       ]
     },
@@ -797,6 +1004,17 @@
       ]
     },
     {
+      "slug": "clemmons-fran-ois-with-tim-madigan",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-8-the-neighborhood#user-content-fnref-n2",
+          "sourceSlug": "clemmons-fran-ois-with-tim-madigan-officer-clemmons",
+          "whyThisMatters": "Fran\u00e7ois Clemmons\u2019s memoir, written with Tim Madigan, recounts his years as Officer Clemmons on Mister Rogers\u2019 Neighborhood, including the 1969 wading-pool scene with Fred Rogers. When Others Become Leaders reads that documented intimacy as leadership that does not defeat procedure but gives it something worth serving\u2014shared moral experience rather than mere charm. Clemmons\u2019s testimony supplies the episode; the book asks what kind of influence recovers a listener\u2019s own moral memory instead of only securing compliance."
+        }
+      ]
+    },
+    {
       "slug": "daniel-kahneman",
       "workPassageLinks": [
         {
@@ -804,235 +1022,6 @@
           "readerPassagePath": "/explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-4-who-and-what-we-trust#user-content-fnref-c4-kahneman-klein-intuitive-expertise",
           "sourceSlug": "kahneman-daniel-and-gary-klein-conditions-for-intuitive-expertise-a-failure-to-disagree",
           "whyThisMatters": "Kahneman and Klein move beyond treating intuition as simply trustworthy or unreliable. Skilled judgment depends on learnable regularities and feedback that makes improvement possible. That distinction informs the question in What We Cannot See: when our perspective is partial, what earns our confidence?"
-        }
-      ]
-    },
-    {
-      "slug": "donald-a-schon",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-7-effectiveness-and-its-illusions#user-content-fnref-c7-performance-paradox",
-          "sourceSlug": "argyris-chris-and-donald-a-schon-organizational-learning-ii",
-          "whyThisMatters": "Organizational Learning II distinguishes performance that looks effective from learning that keeps effectiveness real over time. When Others Look to You uses that contrast to ask which results preserve the conditions for later correction\u2014and which only look successful from a distance."
-        }
-      ]
-    },
-    {
-      "slug": "donald-m-berwick",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-06-agile-increasing-cohesion-of-teams#user-content-fnref-c6-nonengineering-vignette",
-          "sourceSlug": "berwick-donald-m-developing-and-testing-changes-in-delivery-of-care",
-          "whyThisMatters": "Berwick\u2019s care-delivery work shows learning accelerating when teams stay close to outcomes and can redesign quickly. Coupling cites that non-software parallel for Agile\u2019s deeper claim: shorter loops matter because they restore cohesion between action and consequence."
-        },
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-healthcare",
-          "sourceSlug": "berwick-donald-m-measuring-surgical-outcomes-for-improvement-was-codman-wrong",
-          "whyThisMatters": "Berwick argues surgical outcome measurement improves care only when it reconnects to local operational change. Coupling applies the same structural test beyond software: metrics without redesign authority become compliance theater while outcomes stagnate."
-        }
-      ]
-    },
-    {
-      "slug": "emily-m-bender",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-12-the-frictionless-illusion#user-content-fnref-c12-cross-domain",
-          "sourceSlug": "bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of",
-          "whyThisMatters": "Bender and coauthors warn that scaling language models can raise throughput while leaving labor, verification, and accountability misaligned. Coupling extends the warning beyond AI: institutions that speed drafting without redesigning ownership and review shift consequence downstream."
-        }
-      ]
-    },
-    {
-      "slug": "gary-klein",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-4-who-and-what-we-trust#user-content-fnref-c4-kahneman-klein-intuitive-expertise",
-          "sourceSlug": "kahneman-daniel-and-gary-klein-conditions-for-intuitive-expertise-a-failure-to-disagree",
-          "whyThisMatters": "Kahneman and Klein move beyond treating intuition as simply trustworthy or unreliable. Skilled judgment depends on learnable regularities and feedback that makes improvement possible. That distinction informs the question in What We Cannot See: when our perspective is partial, what earns our confidence?"
-        }
-      ]
-    },
-    {
-      "slug": "geoffrey-c-bowker",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-12-the-data-double#user-content-fnref-c12-forgetting-default",
-          "sourceSlug": "bowker-geoffrey-c-and-susan-leigh-star-sorting-things-out-classification-and",
-          "whyThisMatters": "Bowker and Star show how classification infrastructures make some traces easy to keep and others easy to ignore. Living in Sediment uses the reversed economics of memory\u2014cheap storage, abundant linkage\u2014to ask what accumulates once forgetting is no longer the default."
-        }
-      ]
-    },
-    {
-      "slug": "giorgio-agamben",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/when-others-look-to-you-v2/chapters/parts-part-3-eroding-chapter-9-exceptions-are-forever#user-content-fnref-c9-temporary-becomes-permanent",
-          "sourceSlug": "agamben-giorgio-state-of-exception",
-          "whyThisMatters": "Agamben traces how emergency measures can outlast the emergency that justified them. When Others Look to You asks the practical follow-on: when an exception is never corrected, what makes it feel necessary\u2014necessity, or familiarity?"
-        }
-      ]
-    },
-    {
-      "slug": "hannah-arendt",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/when-accountability-no-longer-expires/chapters/front-matter-preface-why-this-book-exists#user-content-fnref-preface-arendt-clarity",
-          "sourceSlug": "arendt-hannah-between-past-and-future",
-          "whyThisMatters": "Between Past and Future examines authority, tradition, and judgment\u2014how inherited forms of understanding lose force without something replacing them. When Accountability No Longer Expires draws its own inference from that terrain: diagnosis can clarify permanence without, by itself, interrupting the arrangements that keep accountability from expiring."
-        },
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-2-moral-posture-toward-harm#user-content-fnref-c2-arendt-eichmann-in-jerusalem",
-          "sourceSlug": "arendt-hannah-eichmann-in-jerusalem-a-report-on-the-banality-of-evil",
-          "whyThisMatters": "Arendt's report on Eichmann confronts how ordinary administrative posture can absorb harm as an acceptable byproduct of maintaining order. When Authority Outlives Accountability takes that diagnosis as a measure of moral posture: was harm treated as something to prevent, or as an operational risk to manage?"
-        },
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/when-moral-seriousness-scales/chapters/parts-part-4-what-remains-possible-chapter-9-rebuilding-density#user-content-fnref-c9-arendt-on-revolution",
-          "sourceSlug": "arendt-hannah-on-revolution",
-          "whyThisMatters": "On Revolution examines how political beginnings depend on lasting institutions and forms of restraint, not only on founding energy. When Moral Seriousness Scales asks a related operational question: what procedures\u2014review, sunset, delay\u2014force reconsideration before authority expands automatically?"
-        },
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-3-effectiveness#user-content-fnref-c3-arendt-on-violence-distinguishing",
-          "sourceSlug": "arendt-hannah-on-violence",
-          "whyThisMatters": "Arendt distinguishes power from violence and warns that effectiveness without restraint can entrench coercion and degrade trust. When Authority Outlives Accountability uses that distinction to ask whether \"working\" still answers for the long-term harms an effective action leaves behind."
-        },
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/coupling/chapters/back-matter-epilogue-stay-cohesive-stay-close#user-content-fnref-epi-judgment",
-          "sourceSlug": "arendt-hannah-responsibility-and-judgment",
-          "whyThisMatters": "Responsibility and Judgment argues that judgment still matters when existing rules no longer fully fit novel situations. Coupling takes that claim into large systems: when structures drift, someone still has to notice what no longer makes sense before adaptation becomes the only remaining skill."
-        },
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-chapter-9-why-trust-matters#user-content-fnref-c9-arendt",
-          "sourceSlug": "arendt-hannah-the-human-condition",
-          "whyThisMatters": "The Human Condition treats plurality\u2014action among distinct people who cannot be reduced to one will\u2014as basic to political life. How Trust Forms uses that description to ask how trust sustains collective capacity when no one person owns the whole outcome."
-        },
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-8-legitimacy-over-time#user-content-fnref-c8-arendt",
-          "sourceSlug": "arendt-hannah-what-is-authority",
-          "whyThisMatters": "\"What Is Authority?\" distinguishes authority from coercion and persuasion and asks what happens when questioning power becomes a threat to identity. When Others Look to You names that pattern sacralized legitimacy: correction grows costly, then rare."
-        }
-      ]
-    },
-    {
-      "slug": "helena-barke",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-team-cohesion",
-          "sourceSlug": "barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams",
-          "whyThisMatters": "Barke and Prechelt show that unclear ownership roles can undo agile teams even when ceremonies continue. Coupling uses that finding for team-scale cohesion: Heart of Agile helps only when people can see who decides, delivers, reflects, and improves."
-        }
-      ]
-    },
-    {
-      "slug": "jennifer-petoff",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-pager-loop",
-          "sourceSlug": "beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin",
-          "whyThisMatters": "The SRE handbook treats incidents as prompts to improve detection, deployment, and rollback\u2014not only to restore service once. Coupling uses the pager loop to show operational coupling returning: the valuable work is making the next failure cheaper to see and reverse."
-        }
-      ]
-    },
-    {
-      "slug": "john-c-bogle",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-index",
-          "sourceSlug": "bogle-john-c-the-clash-of-the-cultures-investment-vs-speculation",
-          "whyThisMatters": "Bogle argues for long-term investment and stewardship over speculation, and criticizes institutional owners who fail that fiduciary test. Coupling takes a related structural step: even sound diversified ownership can leave firm-level operational consequence informationally distant from those who hold the claim."
-        }
-      ]
-    },
-    {
-      "slug": "john-c-hershey",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-1-why-leadership-evaluation-fails#user-content-fnref-c1-hershey-outcome-bias-in",
-          "sourceSlug": "baron-jonathan-and-john-c-hershey-outcome-bias-in-decision",
-          "whyThisMatters": "Baron and Hershey show that people judge decisions by outcomes even when those outcomes were not foreseeable. When Authority Outlives Accountability asks what that bias does to leadership evaluation: visible harm looks like failure, while delayed or diluted harm looks like inevitability."
-        }
-      ]
-    },
-    {
-      "slug": "jonathan-baron",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-1-why-leadership-evaluation-fails#user-content-fnref-c1-hershey-outcome-bias-in",
-          "sourceSlug": "baron-jonathan-and-john-c-hershey-outcome-bias-in-decision",
-          "whyThisMatters": "Baron and Hershey show that people judge decisions by outcomes even when those outcomes were not foreseeable. When Authority Outlives Accountability asks what that bias does to leadership evaluation: visible harm looks like failure, while delayed or diluted harm looks like inevitability."
-        }
-      ]
-    },
-    {
-      "slug": "lant-pritchett",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-public-service",
-          "sourceSlug": "andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr",
-          "whyThisMatters": "Andrews, Pritchett, and Woolcock argue that public organizations escape capability traps through problem-driven iteration more reliably than through large redesigns detached from feedback. Coupling uses that finding to ask when simplification preserves ownership and consequence return\u2014and when it only removes structure."
-        }
-      ]
-    },
-    {
-      "slug": "larry-m-bartels",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-7-what-elections-can-reject#user-content-fnref-c7-bartels",
-          "sourceSlug": "bartels-larry-m-beyond-the-running-tally-partisan-bias-in-political-perceptions",
-          "whyThisMatters": "Bartels shows that partisan attachment shapes what economic evidence looks credible. The Economy We Don\u2019t Experience asks what elections can reject when the same material facts arrive already sorted by different political expectations."
-        }
-      ]
-    },
-    {
-      "slug": "lisa-feldman-barrett",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-1-before-the-words#user-content-fnref-c1-barrett-how-emotions-are-made",
-          "sourceSlug": "barrett-lisa-feldman-how-emotions-are-made-the-secret-life-of-the-brain",
-          "whyThisMatters": "Barrett argues that the brain constructs emotional meaning from prediction and context rather than waiting for finished labels. How Meaning Moves opens with that timing problem: tone, posture, and history shape interpretation while language is still arriving."
-        }
-      ]
-    },
-    {
-      "slug": "lucian-a-bebchuk",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-proxy",
-          "sourceSlug": "bebchuk-lucian-a-and-scott-hirst-index-funds-and-the-future-of-corporate-governance-theory-evide",
-          "whyThisMatters": "Bebchuk and Hirst examine how index-fund scale and delegated voting can weaken the link between ownership voice and corporate redesign. Coupling names the structural risk: systems can preserve the feeling of participation while thinning the return path from consequence to judgment."
-        }
-      ]
-    },
-    {
-      "slug": "lutz-prechelt",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-team-cohesion",
-          "sourceSlug": "barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams",
-          "whyThisMatters": "Barke and Prechelt show that unclear ownership roles can undo agile teams even when ceremonies continue. Coupling uses that finding for team-scale cohesion: Heart of Agile helps only when people can see who decides, delivers, reflects, and improves."
         }
       ]
     }
@@ -1209,6 +1198,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/front-matter-introduction-the-chart-and-the-receipt#user-content-fnref-intro-shed",
+      "slug": "board-of-governors-of-the-federal-reserve-system-report-on-the-economic-well-being-of-u-s-househ",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-fomc",
       "slug": "board-of-governors-of-the-federal-reserve-system-summary-of-economic-projections",
       "status": "verified_link_tied_citation"
@@ -1244,8 +1238,493 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-5-the-archive-in-the-kitchen#user-content-fnref-c5-bowlby-attachment-loss",
+      "slug": "bowlby-john-attachment-and-loss",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-reactance",
+      "slug": "brehm-jack-w-a-theory-of-psychological-reactance",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/trust-beyond-similarity/chapters/back-matter-conclusion-the-building-and-the-people#user-content-fnref-c10-brinkmann-standpoints",
+      "slug": "brinkmann-svend-standpoints-ten-old-ideas-for-a-new-world",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-2-integration-and-use-chapter-6-leadership-at-human-scale#user-content-fnref-c6-brown-dare-to-lead",
+      "slug": "brown-bren-dare-to-lead-brave-work-tough-conversations-whole",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-7-the-question-that-becomes-disloyalty#user-content-fnref-c7-brown-farrell",
+      "slug": "brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-1",
+      "slug": "brown-judith-m-gandhi-prisoner-of-hope",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-10",
+      "slug": "brown-judith-m-gandhi-s-rise-to-power-indian-politics-1915-1922",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-public-health",
+      "slug": "brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/after-certainty/chapters/parts-part-3-living-with-limits-chapter-9-when-to-stop-interpreting#user-content-fnref-c9-interpretive-patience",
+      "slug": "butler-judith-frames-of-war-when-is-life-grievable",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-5-the-matrix-with-no-author#user-content-fnref-c5-cappelli",
+      "slug": "cappelli-peter-and-anna-tavis-the-performance-management-revolution",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v2",
+      "slug": "carlin-john-playing-the-enemy-nelson-mandela-and-the-game-that-made-a-nation",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-1-who-makes-history-chapter-1-the-photograph#user-content-fnref-c1-carlyle",
+      "slug": "carlyle-thomas-on-heroes-hero-worship-and-the-heroic-in-history",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/living-in-sediment/chapters/front-matter-prologue-september-is-not-seven#user-content-fnref-pro-archaeological-attention",
+      "slug": "carr-e-h-what-is-history",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-7-the-question-that-becomes-disloyalty#user-content-fnref-c7-carreyrou",
+      "slug": "carreyrou-john-bad-blood-secrets-and-lies-in-a-silicon-valley-startup",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-cdc-rts",
+      "slug": "centers-for-disease-control-and-prevention-returning-to-sports",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-cms-hrrp",
+      "slug": "centers-for-medicare-medicaid-services-hospital-readmissions",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-cms-drg",
+      "slug": "centers-for-medicare-medicaid-services-ms-drg-classifications-and-software",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-9-what-judgment-can-still-do#user-content-fnref-c9-chandler-overview",
+      "slug": "chandler-david-p-voices-from-s-21-terror-and-history-in-pol-pot-s-secret-prison",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-6-the-sign#user-content-fnref-s2",
+      "slug": "charter-77-founding-declaration-1977-v-clav-havel-library",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-norm-formation",
+      "slug": "cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-2-the-story-that-arrives-first#user-content-fnref-c2-clark-using-language",
+      "slug": "clark-herbert-h-using-language",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-8-the-neighborhood#user-content-fnref-n2",
+      "slug": "clemmons-fran-ois-with-tim-madigan-officer-clemmons",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression#user-content-fnref-c10-bridge-hex",
+      "slug": "cockburn-alistair-hexagonal-architecture-ports-and-adapters",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-attention-and-leadership",
+      "slug": "cockburn-alistair-how-to-step-up-stepping-up-promoting-guest",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-2-success-creates-momentum#user-content-fnref-c2-cole-toyota",
+      "slug": "cole-robert-e-what-really-happened-to-toyota",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-4-when-disciplines-fail-chapter-12-when-methods-become-myths#user-content-fnref-c12-source-jim-collins-good",
+      "slug": "collins-jim-good-to-great-why-some-companies-make-the-leap-and",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-legacy",
+      "slug": "connolly-kate-germany-agonises-over-merkel-s-legacy-did-she-hand-too-much-power-to-putin",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-4-the-name-that-survives-every-platform#user-content-fnref-c4-corrales-penfold",
+      "slug": "corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-dietrich-d-rner",
+      "slug": "d-rner-dietrich-the-logic-of-failure-recognizing-and-avoiding-error",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-3-epistemic-interdependence-chapter-9-beyond-similarity#user-content-fnref-c9-democracy",
+      "slug": "dahl-robert-a-on-democracy",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-moral-seriousness-scales/chapters/parts-part-4-what-remains-possible-chapter-9-rebuilding-density#user-content-fnref-c9-dahl-polyarchy",
+      "slug": "dahl-robert-a-polyarchy-participation-and-opposition",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-4",
+      "slug": "dalton-dennis-mahatma-gandhi-nonviolent-power-in-action",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-7-medieval-re-adaptation#user-content-fnref-c7-domesday",
+      "slug": "darby-h-c-domesday-england",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-sabermetrics-spread",
+      "slug": "dave-studeman-the-triumph-of-moneyball",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-3-the-collapse-of-corrective-loops#user-content-fnref-c3-source-sidney-dekker-drift",
+      "slug": "dekker-sidney-drift-into-failure-from-hunting-broken-components-to-understanding-complex-systems",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-8-when-failure-is-not-an-option#user-content-fnref-c8-source-sidney-dekker-the",
+      "slug": "dekker-sidney-the-field-guide-to-understanding-human-error",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-6-harm-under-influence#user-content-fnref-c6-just-culture",
+      "slug": "dekker-sidney-w-a-just-culture-restoring-trust-and-accountability",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-1-when-knowing-is-no-longer-enough#user-content-fnref-c1-source-tom-demarco-and",
+      "slug": "demarco-tom-and-timothy-r-lister-peopleware-productive-projects",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-02-responsibility-as-cohesion#user-content-fnref-c2-postmortem-learning",
+      "slug": "deming-w-edwards-out-of-the-crisis",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-2-the-first-cracks-chapter-5-participation-stops-updating-beliefs#user-content-fnref-c5-dewey-experience-education",
+      "slug": "dewey-john-experience-and-education",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/after-certainty/chapters/parts-part-3-living-with-limits-chapter-7-the-discipline-of-not-knowing#user-content-fnref-c7-contemplative-pragmatist",
+      "slug": "dewey-john-experience-and-nature",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-trust-forms/chapters/parts-part-1-the-architecture-of-trust-chapter-3-outcomes-create-evidence#user-content-fnref-c3-dewey",
+      "slug": "dewey-john-human-nature-and-conduct-an-introduction-to-social-psychology",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-bridge#user-content-fnref-p3-dewey",
+      "slug": "dewey-john-the-public-and-its-problems",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-1-the-end-of-correctness#user-content-fnref-c1-pragmatist-truth",
+      "slug": "dewey-john-the-quest-for-certainty-a-study-of-the-relation-of",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-8-the-criticism-that-cannot-correct#user-content-fnref-c8-dikotter-overview",
+      "slug": "dik-tter-frank-the-cultural-revolution-a-people-s-history-1962-1976",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-misuse",
+      "slug": "dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-3-preservation-chapter-8-trust-shapes-interpretation#user-content-fnref-c8-douglas-conspiracy",
+      "slug": "douglas-karen-m-et-al-understanding-conspiracy-theories",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-christina",
+      "slug": "drake-stillman-discoveries-and-opinions-of-galileo",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-3-preservation-chapter-8-trust-shapes-interpretation#user-content-fnref-c8-druckman-misinformation",
+      "slug": "druckman-james-n-et-al-a-framework-for-the-study-of-misinformation-and-health",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-eagly",
+      "slug": "eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-bridge#user-content-fnref-b3-shock-of-the-old",
+      "slug": "edgerton-david-the-shock-of-the-old-technology-and-global-history-since-1900",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-silence-and-accountability",
+      "slug": "edmondson-amy-c-psychological-safety-and-learning-behavior-in-work",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-amy-c-edmondson",
+      "slug": "edmondson-amy-c-the-fearless-organization-creating-psychological-safety-in-the-workplace-for-lea",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-8-renaissance-exploration-and-fracture#user-content-fnref-c8-printing-press",
+      "slug": "eisenstein-elizabeth-l-the-printing-press-as-an-agent-of-change",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-1-who-makes-history-chapter-2-the-door#user-content-fnref-c2-school-closing",
+      "slug": "encyclopedia-of-arkansas-lost-year",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-3-from-power-to-moral-legitimacy#user-content-fnref-c3-mandate-heaven",
+      "slug": "eno-robert-the-mandate-of-heaven-and-the-origins-of-history-in",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-4-the-name-that-survives-every-platform#user-content-fnref-c4-escude-culture",
+      "slug": "escud-carlos-argentine-political-culture",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-11-hexagonal-architecture-boundary-discipline-at-scale#user-content-fnref-c11-why-now",
+      "slug": "evans-eric-domain-driven-design-tackling-complexity-in-the-heart-of-software",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold#user-content-fnref-c8-esea",
+      "slug": "every-student-succeeds-act-of-2015-pub-l-no-114-95-1111-1112",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-3-the-collapse-of-corrective-loops#user-content-fnref-c3-source-liam-fahey-and",
+      "slug": "fahey-liam-and-robert-m-randall-eds-learning-from-the-future",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-fantoli",
+      "slug": "fantoli-annibale-galileo-for-copernicanism-and-for-the-church",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/what-we-cannot-see/chapters/parts-part-3-integration-learning-together-chapter-11-when-failure-teaches-the-system#user-content-fnref-c11-asrs",
+      "slug": "federal-aviation-administration-and-nasa-aviation-safety-reporting-system-asrs",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-spf",
+      "slug": "federal-reserve-bank-of-philadelphia-survey-of-professional-forecasters",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-5-the-applause-no-one-wants-to-end#user-content-fnref-c5-figes-whisperers",
+      "slug": "figes-orlando-the-whisperers-private-life-in-stalin-s-russia",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-9-the-scale#user-content-fnref-c9-flint",
+      "slug": "fine-sidney-sit-down-the-general-motors-strike-of-1936-1937",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-3-epistemic-interdependence-chapter-7-listening-without-surrender#user-content-fnref-c7-mediation",
+      "slug": "fisher-roger-william-ury-and-bruce-patton-getting-to-yes-negotiating-agreement-without-giving-in",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-5-the-applause-no-one-wants-to-end#user-content-fnref-c5-fitzpatrick-everyday",
+      "slug": "fitzpatrick-sheila-everyday-stalinism-ordinary-life-in-extraordinary-times",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-3-epistemic-interdependence-chapter-8-trusting-partial-perspectives#user-content-fnref-c8-saturation-diving",
+      "slug": "flook-david-j-commercial-diving-manual",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-9-the-scale#user-content-fnref-c9-law-situation",
+      "slug": "follett-mary-parker-dynamic-administration-the-collected-papers-of-mary-parker-follett",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-5",
+      "slug": "forbes-geraldine-women-in-modern-india",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-11-hexagonal-architecture-boundary-discipline-at-scale#user-content-fnref-c11-failure-modes",
+      "slug": "ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-bridge-dora",
+      "slug": "forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-6-harm-under-influence#user-content-fnref-c6-power-harm",
+      "slug": "foucault-michel-discipline-and-punish-the-birth-of-the-prison",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-4-the-chair#user-content-fnref-c4-washington-address",
+      "slug": "founders-online-national-archives-from-george-washington-to-officers-of-the-army-15-march-1783",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-05-waterfall-low-temporal-coupling#user-content-fnref-c5-late-integration",
+      "slug": "fowler-martin-integration-metadata",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-01-coupling-and-cohesion-technical-origins#user-content-fnref-c1-tight-coupling-fragility",
+      "slug": "fowler-martin-refactoring-improving-the-design-of-existing-code",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-8-the-neighborhood#user-content-fnref-n3",
+      "slug": "fred-rogers-productions-episode-archives-television-hall-of-fame-materials-jeff-erlanger-appeara",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-3-trust-becomes-identity#user-content-fnref-c3-freeh-penn-state",
+      "slug": "freeh-sporkin-sullivan-llc-report-of-the-special-investigative-counsel-regarding-the-actions-of",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/trust-beyond-similarity/chapters/back-matter-conclusion-the-building-and-the-people#user-content-fnref-c10-freeman-stakeholders",
+      "slug": "freeman-r-edward-strategic-management-a-stakeholder-approach",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-1-before-the-words#user-content-fnref-c1-french-raven-bases-social-power",
+      "slug": "french-john-r-p-and-bertram-raven-the-bases-of-social-power",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-chapter-8-trust-and-meaning#user-content-fnref-c8-fricker",
+      "slug": "fricker-miranda-epistemic-injustice-power-and-the-ethics-of-knowing",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-2",
+      "slug": "gandhi-mohandas-k-letter-to-lord-irwin-2-march-1930-in-the-collected-works-of-mahatma-gandhi",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-3-the-paper-that-must-count#user-content-fnref-c3-garfield",
+      "slug": "garfield-eugene-the-history-and-meaning-of-the-impact-factor",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-2",
+      "slug": "garrow-david-j-bearing-the-cross-martin-luther-king-jr-and-the-southern-christian-leadership-con",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-garrow-fbi",
+      "slug": "garrow-david-j-the-fbi-and-martin-luther-king-jr-from-solo-to-memphis",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-6-the-sign#user-content-fnref-s3",
+      "slug": "garton-ash-timothy-the-magic-lantern-the-revolution-of-89-witnessed-in-warsaw-budapest-berlin-an",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-4-constraint-as-discipline#user-content-fnref-c4-source-atul-gawande-the",
+      "slug": "gawande-atul-the-checklist-manifesto-how-to-get-things-right",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-1-where-interpretation-ends-chapter-1-the-door-that-opens-only-inward#user-content-fnref-c1-givens",
+      "slug": "givens-terryl-l-by-the-hand-of-mormon",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-5-structures-that-see-for-us#user-content-fnref-c5-ledger",
+      "slug": "gleeson-white-jane-double-entry-how-the-merchants-of-venice-created-modern-finance",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-5-the-archive-in-the-kitchen#user-content-fnref-c5-goffman-interaction-ritual",
+      "slug": "goffman-erving-interaction-ritual",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-1-when-knowing-is-no-longer-enough#user-content-fnref-c1-source-eliyahu-m-goldratt",
+      "slug": "goldratt-eliyahu-m-and-jeff-cox-the-goal-a-process-of-ongoing",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-3-effectiveness#user-content-fnref-c3-goodhart-monetary-management",
       "slug": "goodhart-charles-a-e-problems-of-monetary-management-the-u-k",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-2-success-creates-momentum#user-content-fnref-c2-grady-boeing",
+      "slug": "grady-peter-flying-blind-the-737-max-tragedy-and-the-fall-of-boeing",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-3-what-these-disciplines-share-chapter-11-authority-that-preserves-correction#user-content-fnref-c11-source-david-graeber-on",
+      "slug": "graeber-david-on-the-phenomenon-of-bullshit-jobs",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-osaka-fo",
+      "slug": "grand-slam-tournaments-statement-from-grand-slam-tournaments-regarding-naomi-osaka",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-5-the-matrix-with-no-author#user-content-fnref-c5-greenberg",
+      "slug": "greenberg-jerald-organizational-justice-yesterday-today-and-tomorrow",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-andrew-s-grove",
+      "slug": "grove-andrew-s-high-output-management",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-trust-forms/chapters/parts-part-1-the-architecture-of-trust-chapter-3-outcomes-create-evidence#user-content-fnref-c3-hardin",
+      "slug": "hardin-russell-trust-and-trustworthiness",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1258,35 +1737,35 @@
     "sources": {
       "bibliographyOnly": 54,
       "byEvidenceLevel": {
-        "A": 43,
-        "B": 598,
+        "A": 141,
+        "B": 500,
         "C": 1,
         "D": 54,
         "E": 18
       },
       "invalidPassageLinks": 0,
-      "mechanicalFootnoteCandidates": 596,
-      "missingPathWithFootnote": 596,
-      "pathNeedsEditorialReview": 2,
-      "tiedCitationCoveragePct": 6.02,
+      "mechanicalFootnoteCandidates": 496,
+      "missingPathWithFootnote": 496,
+      "pathNeedsEditorialReview": 4,
+      "tiedCitationCoveragePct": 19.75,
       "total": 714,
       "unverifiedFragmentLinks": 0,
-      "validPassageLinks": 45,
-      "verifiedLinkTiedCitation": 43,
-      "whyThisMattersOk": 45,
-      "withReaderPassagePath": 45
+      "validPassageLinks": 145,
+      "verifiedLinkTiedCitation": 141,
+      "whyThisMattersOk": 145,
+      "withReaderPassagePath": 145
     },
     "thinkers": {
       "byEvidenceLevel": {
-        "A": 47,
-        "B": 545,
+        "A": 148,
+        "B": 444,
         "C": 0,
         "D": 51,
         "E": 0
       },
       "total": 643,
-      "usefulPathPct": 7.31,
-      "withDerivablePassages": 47
+      "usefulPathPct": 23.02,
+      "withDerivablePassages": 148
     }
   }
 }

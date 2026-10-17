@@ -7,6 +7,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  W. Edwards Deming’s Out of the Crisis argues that quality improves when
+  feedback enters redesign of the system of work, not when organizations narrate
+  failure after the fact or blame individuals for systemic variation. Coupling
+  uses that requirement at the point of ownership: unclear decision rights slow
+  adaptation exactly when incidents demand clarity. Deming’s claim is about
+  learning quality through redesign; the book asks who can still change the
+  system when pressure arrives.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-1-the-structural-grammar-02-responsibility-as-cohesion#user-content-fnref-c2-postmortem-learning
 title: Out of the Crisis
 creatorNames:
 - W. Edwards Deming
