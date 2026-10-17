@@ -7,158 +7,158 @@ philosophical relevance — items flagged `needsEditorialReview` require Cursor 
 
 - YAML: `semantic/sources/abate-tom-nummi-workers-say-their-final-good-byes.yml`
 - Book: `the-world-we-make-together` — Chapter 5 — The Clipboard
-- Manuscript: `books/the-world-we-make-together/parts/part-2-where-power-gathers/chapter-5-the-clipboard.md` lines 489–489
+- Manuscript: `books/the-world-we-make-together/parts/part-2-where-power-gathers/chapter-5-the-clipboard.md` lines 187–187
 - Candidate path: `/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-close`
 - Anchor exists: `True`
-- Recommended action: `add_reader_passage_path`
-- Needs editorial review: `False`
+- Recommended action: `editorial_review_then_add_path`
+- Needs editorial review: `True`
 - Related work: `—`
-- Why: Footnote [^c5-nummi-close] matches this source (score 90, footnote_title_author).
+- Why: Body citation [^c5-nummi-close] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation. Shared footnote also matches: bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california.
 
 Excerpt:
 
-> ]: See Adler, “The ‘Learning Bureaucracy,’” emphasizing routines, training, trust, leadership, teamwork, and worker participation in identifying problems and improving processes. [^c5-nummi-close]: See Nick Bunkley, “G.M. and Toyota’s Joint Venture Ends in California,” *New York Times* Wheels blog, April 2, 2010, https://archive.nytimes.com/wheels.blogs.nytimes.com/2010/04/02/g-m-and-toyotas-joint-venture-ends-in-california/; and Tom Abate, “Nummi workers say their final good-byes,” *San Francisco Chronicle*, April 2, 2010, https://www.sfgate.com/bayarea/article/Nummi-workers-say-their-final-good-byes-3194045.php. [^c5-porto-alegre-begin]: See World Bank, *Brazil: Toward a More Inclusive and Effective Participatory Budget in Porto Alegre*, Report No. 40144-BR, vol. 1 (Washington, DC: World
+> joint venture and Toyota decided to end production there. The employees’ skill and participation did not give them ownership of the decisions that determined the plant’s survival.[^c5-nummi-close] This does not erase what the system accomplished. It clarifies the boundaries of the agency it created. People can possess meaningful authority in one part of an institution an
 
 ## 2. `source` / `addams-jane-twenty-years-at-hull-house` (level B)
 
 - YAML: `semantic/sources/addams-jane-twenty-years-at-hull-house.yml`
 - Book: `when-others-become-leaders` — Chapter 7 — The House
-- Manuscript: `books/when-others-become-leaders/parts/part-3-how-influence-endures/chapter-7-the-house.md` lines 278–278
+- Manuscript: `books/when-others-become-leaders/parts/part-3-how-influence-endures/chapter-7-the-house.md` lines 31–31
 - Candidate path: `/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-7-the-house#user-content-fnref-h1`
 - Anchor exists: `True`
-- Recommended action: `add_reader_passage_path`
-- Needs editorial review: `False`
+- Recommended action: `editorial_review_then_add_path`
+- Needs editorial review: `True`
 - Related work: `—`
-- Why: Footnote [^h1] matches this source (score 90, footnote_title_author).
+- Why: Body citation [^h1] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation. Shared footnote also matches: residents-of-hull-house-hull-house-maps-and-papers.
 
 Excerpt:
 
-> She contributes something the house did not have. She begins noticing who else is standing outside. One evening there is another knock. This time, she opens the door. ## Notes [^h1]: Jane Addams, *Twenty Years at Hull-House* (New York: Macmillan, 1910); Hull-House Museum historical timeline. [^h2]: Residents of Hull-House, *Hull-House Maps and Papers* (New York: Thomas Y. Crowell, 1895).
+> ddams and Ellen Gates Starr opened Hull-House in a mansion on Chicago’s Near West Side, in a densely populated neighborhood shaped by successive communities of European immigrants.[^h1] They had been influenced by the settlement-house movement and imagined educated people living among those confronting poverty and industrial upheaval rather than visiting occasion
 
 ## 3. `source` / `adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc` (level B)
 
 - YAML: `semantic/sources/adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc.yml`
 - Book: `the-world-we-make-together` — Chapter 5 — The Clipboard
-- Manuscript: `books/the-world-we-make-together/parts/part-2-where-power-gathers/chapter-5-the-clipboard.md` lines 483–483
+- Manuscript: `books/the-world-we-make-together/parts/part-2-where-power-gathers/chapter-5-the-clipboard.md` lines 103–103
 - Candidate path: `/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-fremont-close`
 - Anchor exists: `True`
 - Recommended action: `add_reader_passage_path`
 - Needs editorial review: `False`
 - Related work: `—`
-- Why: Footnote [^c5-fremont-close] matches this source (score 90, footnote_title_author).
+- Why: Body citation [^c5-fremont-close] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation.
 
 Excerpt:
 
-> 5-mcgregor-assumptions]: See McGregor, *The Human Side of Enterprise*, presenting Theory X and Theory Y as contrasting managerial assumptions rather than fixed personality types. [^c5-fremont-close]: See Paul S. Adler, “The ‘Learning Bureaucracy’: New United Motor Manufacturing, Inc.,” on GM’s Fremont plant’s labor and quality problems and its 1982 closing. [^c5-nummi-open]: See Adler, “The ‘Learning Bureaucracy,’” on NUMMI’s 1984 opening as a GM–Toyota joint venture, rehiring of former Fremont workers, and high productivity and qua
+> between management and labor. Absenteeism was high, vehicle quality was poor, and workers and supervisors often understood one another as opponents. GM eventually closed the plant.[^c5-fremont-close] Two years later, the factory reopened as New United Motor Manufacturing, Inc., or NUMMI, a joint venture between General Motors and Toyota. Toyota rehired many of the former GM
 
 ## 4. `source` / `agamben-giorgio-state-of-exception` (level B)
 
 - YAML: `semantic/sources/agamben-giorgio-state-of-exception.yml`
 - Book: `when-others-look-to-you-v1` — Chapter 10 — Tradeoffs Under Pressure
-- Manuscript: `books/when-others-look-to-you/v1/parts/part-4-scale-pressure-misjudgment/chapter-10-tradeoffs-under-pressure.md` lines 180–180
+- Manuscript: `books/when-others-look-to-you/v1/parts/part-4-scale-pressure-misjudgment/chapter-10-tradeoffs-under-pressure.md` lines 93–93
 - Candidate path: `/explore/books/when-others-look-to-you-v1/chapters/parts-part-4-scale-pressure-misjudgment-chapter-10-tradeoffs-under-pressure#user-content-fnref-c10-crisis-precedent`
 - Anchor exists: `True`
 - Recommended action: `add_reader_passage_path`
 - Needs editorial review: `False`
 - Related work: `—`
-- Why: Footnote [^c10-crisis-precedent] matches this source (score 90, footnote_title_author).
+- Why: Body citation [^c10-crisis-precedent] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation.
 
 Excerpt:
 
-> arther from front-line evidence. The next chapter turns to that read directly. ::: {custom-style="Pull Quote Block"} Pressure clarifies commitments; it does not absolve them. ::: [^c10-crisis-precedent]: Giorgio Agamben, *State of Exception*, trans. Kevin Attell (Chicago: University of Chicago Press, 2005). [^c10-escalation]: Barry M. Staw, "Knee-Deep in the Big Muddy: A Study of Escalating Commitment to a Chosen Course of Action," *Organizational Behavior and Human Performance*
+> orrection** has to matter. **Legitimacy** transfers faster along emergency precedent. Temporary expansions of authority settle into the baseline for how decisions happen afterward.[^c10-crisis-precedent] Crisis does not invent those habits; it reveals what the structure already permits and turns up the volume. That is why the first week can demonstrate real competence while the
 
 ## 5. `source` / `albertz-rainer-israel-in-exile-the-history-and-literature-of-the` (level B)
 
 - YAML: `semantic/sources/albertz-rainer-israel-in-exile-the-history-and-literature-of-the.yml`
 - Book: `before-certainty-arrives` — Chapter 5 — Shared Conditions, Not Shared Revelation
-- Manuscript: `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-5-shared-conditions-not-shared-revelation.md` lines 177–177
+- Manuscript: `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-5-shared-conditions-not-shared-revelation.md` lines 41–41
 - Candidate path: `/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-babylonian-exile`
 - Anchor exists: `True`
-- Recommended action: `add_reader_passage_path`
-- Needs editorial review: `False`
+- Recommended action: `editorial_review_then_add_path`
+- Needs editorial review: `True`
 - Related work: `—`
-- Why: Footnote [^c5-babylonian-exile] matches this source (score 90, footnote_title_author).
+- Why: Body citation [^c5-babylonian-exile] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation. Shared footnote also matches: levenson-jon-d-sinai-and-zion-an-entry-into-the-jewish-bible.
 
 Excerpt:
 
-> (New Haven, CT: Yale University Press, 1953); Shmuel N. Eisenstadt, ed., *The Origins and Diversity of Axial Age Civilizations* (Albany: State University of New York Press, 1986). [^c5-babylonian-exile]: See Rainer Albertz, *Israel in Exile: The History and Literature of the Sixth Century B.C.E.* (Atlanta: Society of Biblical Literature, 2003); Jon D. Levenson, *Sinai and Zion: An Entry into the Jewish Bible* (Minneapolis: Winston Press, 1985). [^c5-warring-states]: See Mark Edward Lewis, *Sanctioned Violence in Early China* (Albany: State University of New York Press, 1990); Michael J. Puett, *To Become a God: Cosmology
+> deported elites into exile. Priests, scribes, and families who had organized life around a single sanctuary suddenly had to ask what could continue when the shrine no longer stood.[^c5-babylonian-exile] The surviving literature suggests several answers taking shape over generations—not a single sudden invention on the day of deportation. Texts could be copied and carried. Sabbat
 
 ## 6. `source` / `alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language` (level B)
 
 - YAML: `semantic/sources/alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language.yml`
 - Book: `living-in-sediment` — Chapter 8 — The Building and the Gathering
-- Manuscript: `books/living-in-sediment/parts/part-2-fossils-that-shape-power/chapter-8-the-building-and-the-gathering.md` lines 111–111
+- Manuscript: `books/living-in-sediment/parts/part-2-fossils-that-shape-power/chapter-8-the-building-and-the-gathering.md` lines 33–33
 - Candidate path: `/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns`
 - Anchor exists: `True`
-- Recommended action: `add_reader_passage_path`
-- Needs editorial review: `False`
+- Recommended action: `editorial_review_then_add_path`
+- Needs editorial review: `True`
 - Related work: `—`
-- Why: Footnote [^c8-alexander-patterns] matches this source (score 90, footnote_title_author).
+- Why: Body citation [^c8-alexander-patterns] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation. Shared footnote also matches: alexander-christopher-the-timeless-way-of-building.
 
 Excerpt:
 
-> But remembering that the gathering came first changes the way we look at the walls. The building is no longer the beginning of the story. It is one of its most enduring layers. [^c8-alexander-patterns]: See Christopher Alexander, *The Timeless Way of Building* (New York: Oxford University Press, 1979); Christopher Alexander et al., *A Pattern Language: Towns, Buildings, Construction* (New York: Oxford University Press, 1977). [^c8-architecture-pedagogy]: See Lewis Mumford, *Technics and Civilization* (New York: Harcourt, Brace, 1934); Jane Jacobs, *The Death and Life of Great American Cities* (New Yor
+> tions from weather, preserved art, amplified music, and offered a visible center for communities whose identities stretched across generations. The building solved a real problem.[^c8-alexander-patterns] Like most successful solutions, it gradually became something more than the problem it solved. Today, if someone says they are "going to church," almost no one imagines they are
 
-## 7. `source` / `allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr` (level B)
+## 7. `source` / `alexander-christopher-the-timeless-way-of-building` (level B)
+
+- YAML: `semantic/sources/alexander-christopher-the-timeless-way-of-building.yml`
+- Book: `living-in-sediment` — Chapter 8 — The Building and the Gathering
+- Manuscript: `books/living-in-sediment/parts/part-2-fossils-that-shape-power/chapter-8-the-building-and-the-gathering.md` lines 33–33
+- Candidate path: `/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns`
+- Anchor exists: `True`
+- Recommended action: `editorial_review_then_add_path`
+- Needs editorial review: `True`
+- Related work: `—`
+- Why: Body citation [^c8-alexander-patterns] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation. Shared footnote also matches: alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language.
+
+Excerpt:
+
+> tions from weather, preserved art, amplified music, and offered a visible center for communities whose identities stretched across generations. The building solved a real problem.[^c8-alexander-patterns] Like most successful solutions, it gradually became something more than the problem it solved. Today, if someone says they are "going to church," almost no one imagines they are
+
+## 8. `source` / `alexander-robin-die-getriebenen-merkel-und-die-fl-chtlingspolitik` (level B)
+
+- YAML: `semantic/sources/alexander-robin-die-getriebenen-merkel-und-die-fl-chtlingspolitik.yml`
+- Book: `when-authority-is-misread` — Chapter 3 — Angela Merkel: The Unanswered Need for Reassurance
+- Manuscript: `books/when-authority-is-misread/parts/part-2-leaders-becoming-legible/chapter-3-angela-merkel-the-unanswered-need-for-reassurance.md` lines 96–96
+- Candidate path: `/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-refugees`
+- Anchor exists: `True`
+- Recommended action: `editorial_review_then_add_path`
+- Needs editorial review: `True`
+- Related work: `—`
+- Why: Body citation [^c3-refugees] matches this source (score 85, biblio_scorer:title_author). Excerpt is the surrounding argument at the invocation. Shared footnote also matches: marton-kati-the-chancellor-the-remarkable-odyssey-of-angela-merkel.
+
+Excerpt:
+
+> m Hungary and allowed large numbers to enter Germany. Supporters heard her phrase *Wir schaffen das*—“we can manage this”—as moral resolve; critics heard it as reckless invitation.[^c3-refugees] The decision had genuine moral urgency: people were dying along routes into Europe, and the European asylum system was already failing by its own rules. It also imposed political
+
+## 9. `source` / `allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr` (level B)
 
 - YAML: `semantic/sources/allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr.yml`
 - Book: `coupling` — 7. DevOps: Restoring Operational Coupling
-- Manuscript: `books/coupling/parts/part-2-software-as-early-laboratory/07-devops-restoring-operational-coupling.md` lines 62–62
+- Manuscript: `books/coupling/parts/part-2-software-as-early-laboratory/07-devops-restoring-operational-coupling.md` lines 15–15
 - Candidate path: `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-devops-emergence`
 - Anchor exists: `True`
-- Recommended action: `add_reader_passage_path`
-- Needs editorial review: `False`
+- Recommended action: `editorial_review_then_add_path`
+- Needs editorial review: `True`
 - Related work: `—`
-- Why: Footnote [^c7-devops-emergence] matches this source (score 90, footnote_title_author).
+- Why: Body citation [^c7-devops-emergence] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation. Shared footnote also matches: kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class.
 
 Excerpt:
 
-> rphy, eds., *Site Reliability Engineering: How Google Runs Production Systems* (O'Reilly Media, 2016), on incident response and postmortems linking ownership to faster correction. [^c7-devops-emergence]: Gene Kim, Jez Humble, Patrick Debois, and John Willis, *The DevOps Handbook*; and John Allspaw and Paul Hammond, "10+ Deploys Per Day: Dev and Ops Cooperation at Flickr" (Velocity 2009), on reducing handoff distance between build and run. [^c7-you-build-it]: Amazon engineering leadership practice commonly summarized as "you build it, you run it," linking service ownership to operational responsibility. [^c7-mechani
+> stration. Infrastructure groups managed production reliability. The system moved faster, but learning remained fragmented. DevOps emerged as a response to that remaining distance.[^c7-devops-emergence] Its central idea was not merely automation. It was reducing the separation between the people changing systems and the people experiencing the operational consequences of those ch
 
-## 8. `source` / `ambedkar-b-r-what-congress-and-gandhi-have-done-to-the-untouchables` (level B)
+## 10. `source` / `ambedkar-b-r-what-congress-and-gandhi-have-done-to-the-untouchables` (level B)
 
 - YAML: `semantic/sources/ambedkar-b-r-what-congress-and-gandhi-have-done-to-the-untouchables.yml`
 - Book: `when-others-become-leaders` — Chapter 2 — Salt
-- Manuscript: `books/when-others-become-leaders/parts/part-1-how-influence-begins/chapter-2-salt.md` lines 517–517
+- Manuscript: `books/when-others-become-leaders/parts/part-1-how-influence-begins/chapter-2-salt.md` lines 283–283
 - Candidate path: `/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-7`
 - Anchor exists: `True`
-- Recommended action: `add_reader_passage_path`
-- Needs editorial review: `False`
+- Recommended action: `editorial_review_then_add_path`
+- Needs editorial review: `True`
 - Related work: `—`
-- Why: Footnote [^s2-7] matches this source (score 90, footnote_title_author).
+- Why: Body citation [^s2-7] matches this source (score 90, footnote_title_author). Excerpt is the surrounding argument at the invocation. Shared footnote also matches: rao-anupama-the-caste-question-dalits-and-the-politics-of-modern-india.
 
 Excerpt:
 
-> Cambridge University Press, 1996), sections on women in civil disobedience. [^s2-6]: Webb Miller dispatches from Dharasana (May 1930), syndicated international reporting archives. [^s2-7]: B. R. Ambedkar, *What Congress and Gandhi Have Done to the Untouchables* (1945); Anupama Rao, *The Caste Question* (Berkeley: University of California Press, 2009). [^s2-8]: Ashwin Desai and Goolam Vahed, *The South African Gandhi: Stretcher-Bearer of Empire* (Stanford: Stanford University Press, 2015). [^s2-9]: Ramachandra Guha, *Gandhi Befo
-
-## 9. `source` / `american-college-of-emergency-physicians-boarding` (level B)
-
-- YAML: `semantic/sources/american-college-of-emergency-physicians-boarding.yml`
-- Book: `when-incentives-become-the-moral-language` — Chapter 1 — The Bed Someone Else Needs
-- Manuscript: `books/when-incentives-become-the-moral-language/parts/part-1-the-need-for-translation/chapter-1-the-bed-someone-else-needs.md` lines 103–103
-- Candidate path: `/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding`
-- Anchor exists: `True`
-- Recommended action: `add_reader_passage_path`
-- Needs editorial review: `False`
-- Related work: `—`
-- Why: Footnote [^c1-boarding] matches this source (score 90, footnote_title_author).
-
-Excerpt:
-
-> fend, judgment does not disappear. It moves into the people closest to the consequences. The system records that the patient was ready. The people in the room carry the question. [^c1-boarding]: On emergency department boarding and capacity pressure as drivers of throughput incentives, see, e.g., American College of Emergency Physicians, "Boarding," policy statement, updated 2023; Institute of Medicine, *Hospital-Based Emergency Care: At the Breaking Point* (Washington, DC: National Academies Press, 2007). [^c1-cms-hrrp]: Centers for Medicare & Medicaid Services, "Hospital Readmissions Reduction Program (HRRP)," program overview and statutory authority, updated 2023. [^c1-cms-drg]:
-
-## 10. `source` / `anderson-benedict-imagined-communities-reflections-on-the-origin-and-spread-of-nationalism` (level B)
-
-- YAML: `semantic/sources/anderson-benedict-imagined-communities-reflections-on-the-origin-and-spread-of-nationalism.yml`
-- Book: `trust-beyond-similarity` — Chapter 2 — Shared Stories Create Trust
-- Manuscript: `books/trust-beyond-similarity/parts/part-1-the-illusion-of-sufficiency/chapter-2-shared-stories-create-trust.md` lines 61–61
-- Candidate path: `/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined`
-- Anchor exists: `True`
-- Recommended action: `add_reader_passage_path`
-- Needs editorial review: `False`
-- Related work: `—`
-- Why: Footnote [^c2-anderson-imagined] matches this source (score 85, biblio_scorer:title_author).
-
-Excerpt:
-
-> what to notice—and what not to. [^c2-berger-luckmann]: Berger and Luckmann, *The Social Construction of Reality* — on institutions, founding narratives, and shared ways of life. [^c2-anderson-imagined]: Anderson, *Imagined Communities* — on national narratives and collective belonging.
+> with reserved seats elected through joint electorates. Ambedkar later remained deeply dissatisfied with the loss of the separate vote he regarded as a crucial political safeguard.[^s2-7] Gandhi experienced the fast as self-sacrifice. Ambedkar experienced its political force from the other side. The body Gandhi endangered was his own. The moral burden did not re
