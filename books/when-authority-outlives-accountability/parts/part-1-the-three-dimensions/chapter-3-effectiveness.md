@@ -87,9 +87,9 @@ standardizes instruction may raise test scores quickly. A counterpart
 who resists simplification in order to serve diverse needs may struggle
 to show immediate gains. Research on metric fixation and Goodhart’s Law
 explains why systems optimized for measurement distort behavior and
-conceal harm. Effectiveness favors what can be enforced and tallied. It
+conceal harm.[^c3-goodhart-monetary-management] Effectiveness favors what can be enforced and tallied. It
 discounts what requires trust, patience, or voluntary
-uptake.<sup>3,4</sup>
+uptake.
 
 <table>
 <colgroup>
@@ -130,6 +130,8 @@ carrying that posture outward through systems and forward in time.
 Mistaking effectiveness for virtue confuses impact with justification.
 
 > **“Some leaders plant norms; others harvest outcomes.”**
+
+[^c3-goodhart-monetary-management]: Goodhart, Charles A. E. "Problems of Monetary Management: The U.K. Experience." In *Papers in Monetary Economics*, vol. 1. Sydney: Reserve Bank of Australia, 1975.
 
 [^c3-edmondson-the-fearless-organization]: Edmondson, Amy C. *The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth*. Hoboken, NJ: Wiley, 2018.
 
