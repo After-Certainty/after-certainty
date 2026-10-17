@@ -85,11 +85,12 @@ measured, not by what is preserved.<sup>2</sup>
 At larger scales, the same dynamic holds. A school administrator who
 standardizes instruction may raise test scores quickly. A counterpart
 who resists simplification in order to serve diverse needs may struggle
-to show immediate gains. Research on metric fixation and Goodhart’s Law
-explains why systems optimized for measurement distort behavior and
-conceal harm.[^c3-goodhart-monetary-management] Effectiveness favors what can be enforced and tallied. It
-discounts what requires trust, patience, or voluntary
-uptake.
+to show immediate gains. Goodhart’s analysis of monetary targets
+shows how a measure can become less reliable when used to steer
+behavior.[^c3-goodhart-monetary-management] In leadership, the same
+pressure can distort priorities and conceal harm. Effectiveness favors
+what can be enforced and tallied. It discounts what requires trust,
+patience, or voluntary uptake.
 
 <table>
 <colgroup>
