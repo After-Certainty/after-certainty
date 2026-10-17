@@ -13,6 +13,14 @@ concepts:
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Herbert A. Simon’s Administrative Behavior establishes bounded rationality and
+  how administrative organizations fragment decision-making under complexity.
+  Coupling cites that tradition for diffuse accountability: more reporting,
+  stakeholders, and review layers without cohesive ownership of redesign. Simon
+  theorizes administrative decision processes; the book asks when organizations
+  become better at explaining problems than correcting them.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-1-the-structural-grammar-02-responsibility-as-cohesion#user-content-fnref-c2-diffuse-accountability
 title: 'Administrative Behavior: A Study of Decision-Making Processes in Administrative
   Organizations'
 creatorNames:

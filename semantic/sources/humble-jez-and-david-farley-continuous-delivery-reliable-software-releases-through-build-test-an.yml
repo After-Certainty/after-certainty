@@ -8,6 +8,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Humble and Farley’s Continuous Delivery describes feedback-rich build, test,
+  and deployment automation that makes release risk visible and recoverable
+  through frequent, reliable delivery. Coupling treats deployment metrics
+  diagnostically—lead time, failure, and recovery as signals of distance,
+  waiting, and fragmented ownership rather than as theater. The book’s source
+  establishes delivery practice; Coupling asks whether metrics reconnect flow to
+  consequence or only decorate throughput.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-diagnostic
 title: 'Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment
   Automation'
 creatorNames:

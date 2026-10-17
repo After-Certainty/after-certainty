@@ -7,6 +7,16 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Brooks’s Mythical Man-Month essays describe how large software programs that
+  look healthy under phase-gated milestones can still fail when late integration
+  exposes conflicting interfaces, mismatched contracts, and decisions that have
+  become expensive to reverse. Coupling uses that late-friction pattern as
+  evidence that coordination solutions can hide consequence until redesign is
+  already hard. The book’s question is structural—when early commitments outrun
+  early feedback, what looks like schedule discipline is really deferred
+  learning.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-05-waterfall-low-temporal-coupling#user-content-fnref-c5-opening-scene
 title: 'The Mythical Man-Month: Essays on Software Engineering'
 creatorNames:
 - Frederick P. Brooks Jr.

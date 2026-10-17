@@ -9,6 +9,13 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Perry, Srivastava, Kumar, and Boneh's CCS 2023 study finds that users assisted
+  by AI coding tools produce more insecure code, linked to over-reliance and
+  reduced scrutiny of plausible output. Coupling reads that as accept-all
+  culture severing feedback: generated work that feels familiar lowers the
+  review that would re-bind authorship to operational consequence.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-12-the-frictionless-illusion#user-content-fnref-c12-accept-all
 title: Do Users Write More Insecure Code with AI Assistants?
 creatorNames:
 - Dan Boneh, Deepak Kumar, Megha Srivastava, and Neil Perry

@@ -7,6 +7,16 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Winston W. Royce’s 1970 paper on managing large software systems outlined
+  staged development—requirements, design, implementation, testing, release—as a
+  way to plan and coordinate work at scale. Coupling reads that sequencing
+  historically as a coordination solution for milestones, reporting, and
+  contractual accountability rather than merely a failed methodology later
+  nicknamed waterfall. Royce proposed structure under scale; the book asks what
+  happens when early commitments harden before consequences of those decisions
+  arrive.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-05-waterfall-low-temporal-coupling#user-content-fnref-c5-waterfall-sequencing
 title: Managing the Development of Large Software Systems.
 creatorNames:
 - Winston W Royce

@@ -8,6 +8,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Hendrycks and coauthors’ Holistic Evaluation of Language Models (HELM) argue
+  for multi-metric benchmarking and document limits of context-free model
+  comparison across scenarios and metrics. Coupling uses that evaluation stance
+  to insist benchmarks and model cards help procurement but do not replace
+  testing on one’s own data, tools, and failure history. The paper establishes
+  multi-metric evaluation practice; the book asks whether evaluation reconnects
+  systems to consequence before production finds the failure first.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-helm-limits
 title: Holistic Evaluation of Language Models.
 creatorNames:
 - Anya Chen, Collin Burns, Dan Hendrycks, and Spencer Ball

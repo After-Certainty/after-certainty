@@ -8,6 +8,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Martin’s Clean Architecture argues for cohesion-oriented boundaries and stable
+  reasons to change so systems keep related responsibilities together and
+  protect cores behind clear interfaces. Coupling uses that design vocabulary
+  after dependency talk: high cohesion means parts support one job; low cohesion
+  mixes unrelated work that only looks efficient at first. The source is
+  software architecture craft; the book asks whether loose coupling and clear
+  contracts still fail when things that do not belong together share a fate.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-1-the-structural-grammar-01-coupling-and-cohesion-technical-origins#user-content-fnref-c1-cohesion-definition
 title: 'Clean Architecture: A Craftsman''s Guide to Software Structure and the Design
   of Professional Systems'
 creatorNames:

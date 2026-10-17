@@ -7,6 +7,16 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Hood and Dixon’s A Government That Worked Better and Cost Less? examines
+  decades of UK public-management reform, testing whether new administrative
+  controls delivered better government at lower cost and documenting procedural
+  constraint. Coupling cites that public-sector pattern—waiting periods,
+  reviews, and appeal paths—alongside aviation and clinical checklists as
+  constraints where consequence is expensive or irreversible. The source
+  evaluates reform outcomes; the book asks where healthy systems place friction
+  so speed alone does not substitute for legitimacy.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-public-sector
 title: A Government That Worked Better and Cost Less?
 creatorNames:
 - Christopher Hood and Ruth Dixon

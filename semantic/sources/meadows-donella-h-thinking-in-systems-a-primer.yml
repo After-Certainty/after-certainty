@@ -13,6 +13,16 @@ relatedBooks:
 - coupling
 - how-serious-systems-learn
 - living-in-sediment
+whyThisMatters: >-
+  Donella Meadows’s Thinking in Systems explains how delays between action and
+  feedback distort learning in complex systems—people keep intervening on
+  outdated information while consequences arrive late or elsewhere. Coupling
+  uses that delay problem for software and AI acceleration: release speed can
+  compress authoring time while the return path from runtime consequence to
+  decision stays long or opaque. Meadows supplies the systems vocabulary of
+  delayed feedback; the book asks what happens when assisted speed widens that
+  gap further.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-12-the-frictionless-illusion#user-content-fnref-c12-temporal
 title: 'Thinking in Systems: A Primer'
 creatorNames:
 - Donella H Meadows

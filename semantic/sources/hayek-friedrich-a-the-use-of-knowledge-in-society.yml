@@ -7,6 +7,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Hayek’s 1945 essay argues that much economically relevant knowledge is
+  dispersed and local, so coordination cannot rest on a single planner’s
+  overview alone. Coupling invokes that dispersed-knowledge problem when
+  organizations multiply procedures to preserve coherence after ownership and
+  consequence have fragmented. Hayek’s claim is about knowledge and markets; the
+  book asks when coordination load expands as compensation for unclear ownership
+  rather than as support for it.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-1-the-structural-grammar-04-scale-and-abstraction#user-content-fnref-c4-coordination-load
 title: The Use of Knowledge in Society.
 creatorNames:
 - Friedrich A Hayek

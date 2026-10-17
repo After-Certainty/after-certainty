@@ -9,6 +9,14 @@ patterns: []
 relatedBooks:
 - what-we-cannot-see
 - when-incentives-become-the-moral-language
+whyThisMatters: >-
+  The Open Science Collaboration's 2015 Science study attempted large-scale
+  replication of psychological findings and reported that many high-profile
+  results failed to reproduce at expected rates. When Incentives Become the
+  Moral Language reads that pattern as publication pressure rewarding novelty
+  and positive results until reliability lags—without treating the collaboration
+  as a survey of every field.
+readerPassagePath: /explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-3-the-paper-that-must-count#user-content-fnref-c3-osc
 title: Estimating the Reproducibility of Psychological Science.
 creatorNames:
 - Open Science Collaboration

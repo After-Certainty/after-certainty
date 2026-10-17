@@ -7,6 +7,13 @@ concepts: []
 patterns: []
 relatedBooks:
 - how-serious-systems-learn
+whyThisMatters: >-
+  Thomke’s Experimentation Works argues that business experiments teach when
+  they discriminate among hypotheses—with explicit assumptions, observables, and
+  decision thresholds—not when they merely generate activity. How Serious
+  Systems Learn extends that to probe design: inferential power under bounded
+  risk, not symbolic delay or political cover dressed as learning.
+readerPassagePath: /explore/books/how-serious-systems-learn/chapters/parts-part-3-what-these-disciplines-share-chapter-10-action-as-probe-not-solution#user-content-fnref-c10-source-stefan-h-thomke
 title: 'Experimentation Works: The Surprising Power of'
 creatorNames:
 - Stefan H Thomke

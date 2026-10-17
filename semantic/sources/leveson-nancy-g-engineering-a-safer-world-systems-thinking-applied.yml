@@ -13,6 +13,16 @@ concepts:
 patterns: []
 relatedBooks:
 - how-serious-systems-learn
+whyThisMatters: >-
+  Leveson’s Engineering a Safer World applies systems thinking to safety
+  engineering, arguing that accidents arise from inadequate control of
+  interactions across sociotechnical layers, not only from isolated component
+  failure. How Serious Systems Learn cites that stance when reliability
+  practices risk becoming form without protective function—sophisticated
+  procedures that no longer route attention toward consequence. The source is a
+  systems-safety framework; the book asks what transfers beyond high-reliability
+  domains when seriousness about harm weakens.
+readerPassagePath: /explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-8-when-failure-is-not-an-option#user-content-fnref-c8-source-nancy-leveson-engineering
 title: 'Engineering a Safer World: Systems Thinking Applied'
 creatorNames:
 - Nancy G Leveson

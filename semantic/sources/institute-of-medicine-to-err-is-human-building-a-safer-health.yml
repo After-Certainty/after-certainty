@@ -7,6 +7,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - how-serious-systems-learn
+whyThisMatters: >-
+  The Institute of Medicine’s To Err Is Human (1999) framed medical error as a
+  systems problem, estimating large harm from preventable mistakes and urging
+  safety cultures that surface error rather than hide it. How Serious Systems
+  Learn cites that stance against “failure is not an option” illusions:
+  high-reliability practice treats uncertainty disclosure as a safety function,
+  not a status threat. The report established systems-oriented patient safety;
+  the book asks how institutions stay error-aware without pretending perfection.
+readerPassagePath: /explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-8-when-failure-is-not-an-option#user-content-fnref-c8-source-institute-of-medicine
 title: 'To Err Is Human: Building a Safer Health'
 creatorNames:
 - Institute of Medicine

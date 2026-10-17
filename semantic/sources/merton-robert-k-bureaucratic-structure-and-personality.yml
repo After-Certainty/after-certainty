@@ -8,6 +8,15 @@ patterns: []
 relatedBooks:
 - coupling
 - when-moral-seriousness-scales
+whyThisMatters: >-
+  Robert Merton’s 1940 essay on bureaucratic structure and personality describes
+  goal displacement and ritualism: officials trained for rule-following can come
+  to treat procedure as the end rather than the means. Coupling cites that
+  ritualism when process metrics improve while outcomes worsen—documentation,
+  audits, and training substituting for learning. Merton analyzes bureaucratic
+  personality and displacement; the book asks how institutions under drift
+  measure compliance as if it were repair.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-4-institutions-under-drift-20-bureaucracy-as-scar-tissue#user-content-fnref-c20-merton
 title: Bureaucratic Structure and Personality.
 creatorNames:
 - Robert K Merton

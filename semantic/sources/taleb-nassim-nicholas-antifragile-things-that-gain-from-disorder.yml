@@ -8,6 +8,14 @@ patterns: []
 relatedBooks:
 - how-serious-systems-learn
 - the-discipline-of-uncertainty
+whyThisMatters: >-
+  Taleb’s Antifragile develops how some systems benefit from volatility when
+  exposure is bounded and reversible rather than when bets are large and
+  unrecoverable. How Serious Systems Learn borrows that orientation for
+  organizational action under uncertainty: treat moves as probes that seek
+  information while limiting irreversible cost, not as proofs of a thesis that
+  must be defended once sunk.
+readerPassagePath: /explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-5-learning-faster-than-prediction#user-content-fnref-c5-source-nassim-nicholas-taleb
 title: 'Antifragile: Things That Gain from Disorder'
 creatorNames:
 - Nassim Nicholas Taleb
