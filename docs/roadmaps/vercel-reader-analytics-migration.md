@@ -1,8 +1,8 @@
 # Vercel reader analytics migration
 
-**Status:** Specialized plan — **PR 1 in progress** (instrumentation); PR 0 merged  
+**Status:** Specialized plan — **PR 2 in progress** (reporting + `reader-analytics` skill); PR 0–1 merged  
 **Created:** 2026-10-17  
-**Revised:** 2026-10-17 (PR 1: facade + dual-write; attribution spike decision; privacy copy)  
+**Revised:** 2026-10-17 (PR 2: Web Analytics API client, weekly brief, PADE `vercel.analytics.read`)  
 **Location:** `docs/roadmaps/vercel-reader-analytics-migration.md`  
 **Authority:** Specialized cross-layer plan. Does **not** replace [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Unfinished follow-ups after each PR merge belong on the master roadmap Observe / Now sections, not as a second backlog.
 
@@ -102,6 +102,7 @@ flowchart LR
 | Privacy copy | `apps/site/app/privacy/page.tsx` | Documents GA4 only — **omits Vercel Analytics / Speed Insights** |
 | GA reporting | `apps/site/.cursor/skills/ga-trends/`, `tools/ga_trends_brief.py`, `apps/site/scripts/ga4-*.sh` | PADE capability `google-analytics.read` |
 | Vercel diagnostics | `apps/site/.cursor/skills/vercel-diagnostics/` | PADE capability `vercel.diagnostics` (CLI whoami/ls/inspect/logs) |
+| Vercel reader reporting | `apps/site/.cursor/skills/reader-analytics/`, `tools/reader_analytics_brief.py`, `apps/site/scripts/vercel-web-analytics-query.sh`, `scripts/reader-analytics-test.sh` | PADE `vercel.analytics.read` (fallback `vercel.diagnostics`) |
 
 ### Environment separation (preserve)
 
@@ -503,6 +504,7 @@ Only after Gate 3 approval. Remove GA runtime completely; update privacy, CSP, e
 | Privacy | `apps/site/app/privacy/page.tsx` |
 | CSP | `apps/site/lib/security/headers.ts` |
 | GA skill / scripts | `apps/site/.cursor/skills/ga-trends/`, `apps/site/scripts/ga4-*.sh`, `tools/ga_trends_brief.py` |
+| Reader analytics skill / scripts | `apps/site/.cursor/skills/reader-analytics/`, `apps/site/scripts/vercel-web-analytics-query.sh`, `scripts/reader-analytics-test.sh`, `tools/reader_analytics_brief.py` |
 | PADE | `pade.yaml`, `.pade/agent-bindings.yaml` |
 | Verify docs | `apps/site/docs/seo-analytics-verification.md` |
 
@@ -510,11 +512,11 @@ Only after Gate 3 approval. Remove GA runtime completely; update privacy, CSP, e
 
 ## 15. Immediate next step
 
-After this PR (PR 0) is reviewed and merged **by the owner**:
+After **PR 2** is reviewed and merged **by the owner**:
 
-1. Open **PR 1** on `feat/vercel-reader-instrumentation` from latest `main` (or a tiny privacy-copy PR immediately before it).  
-2. Fix privacy/cookie disclosure; implement the consent-split facade; run the §6.5 attribution spike; dual-write primary events with property-sufficient shapes.  
-3. Do **not** start PR 2–4 until their prerequisites and gates are satisfied.
+1. Open **PR 3** on `test/vercel-reader-analytics-parity` from latest `main`.  
+2. Run the parallel-measurement observation window and write the Gate 3 decision report.  
+3. Do **not** start PR 4 (retire GA4) without explicit approval of that report.
 
 ---
 
@@ -524,3 +526,5 @@ After this PR (PR 0) is reviewed and merged **by the owner**:
 |------|--------|
 | 2026-10-17 | PR 0: initial architecture, inventory, schema, gates, and PR sequence from live code + Vercel entitlement probe |
 | 2026-10-17 | PR 0 follow-up: review clarifications — source→chapter attribution spike; consent-split facade + tests; early privacy-copy fix; `chapter_advance` / audio property sufficiency; Plus treated as dated observation |
+| 2026-10-17 | PR 1 merged (instrumentation + privacy copy + attribution `to_id`); PR 2 reporting stack started |
+| 2026-10-17 | PR 2: `reader-analytics` skill, Web Analytics query client, weekly brief + Make entry, PADE `vercel.analytics.read` |
