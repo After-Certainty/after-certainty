@@ -1,5 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { spawnSync } from "node:child_process";
+import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -8,6 +10,10 @@ import { resolveMonorepoRoot } from "@/lib/reading/repo-root";
 const script = path.join(
   path.dirname(fileURLToPath(import.meta.url)),
   "validate-reader-passage-fragment.mjs",
+);
+const malformedFixture = path.join(
+  path.dirname(fileURLToPath(import.meta.url)),
+  "fixtures/malformed-footnote-chapter.md",
 );
 
 function run(args: string[]): { code: number; json: Record<string, unknown> } {
@@ -80,5 +86,42 @@ describe("validate-reader-passage-fragment", () => {
       ]);
       expect(json.ok, JSON.stringify(caseRow)).toBe(true);
     }
+  });
+
+  it("rejects a malformed footnote that never mints the claimed fnref id", () => {
+    const tmpRoot = fs.mkdtempSync(path.join(os.tmpdir(), "fn-malformed-"));
+    const bookDir = "books/fixture-malformed";
+    const sourcePath = "parts/part-1/chapter-1.md";
+    const manuscript = path.join(tmpRoot, bookDir, sourcePath);
+    fs.mkdirSync(path.dirname(manuscript), { recursive: true });
+    fs.copyFileSync(malformedFixture, manuscript);
+
+    const result = spawnSync(
+      "node",
+      [
+        script,
+        "--book-dir",
+        bookDir,
+        "--source-path",
+        sourcePath,
+        "--fragment",
+        "user-content-fnref-claimed-id",
+        "--repo",
+        tmpRoot,
+      ],
+      {
+        cwd: path.join(resolveMonorepoRoot(), "apps/site"),
+        encoding: "utf8",
+      },
+    );
+    const stdout = (result.stdout ?? "").trim();
+    const line =
+      stdout
+        .split("\n")
+        .reverse()
+        .find((l) => l.trim().startsWith("{")) ?? "{}";
+    const json = JSON.parse(line) as Record<string, unknown>;
+    expect(json.ok).toBe(false);
+    expect(result.status ?? 1).not.toBe(0);
   });
 });

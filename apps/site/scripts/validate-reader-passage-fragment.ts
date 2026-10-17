@@ -1,18 +1,17 @@
 /**
- * Validate that a reader passage fragment id exists in rendered chapter HTML.
+ * LEGACY — prefer `validate-reader-passage-fragment.mjs`.
  *
- * Uses the same pipeline as the online reader (renderManuscriptHtml).
+ * Kept only so TypeScript tooling can typecheck the same logic. Do not invoke
+ * this entry with `npx tsx` (network install). The supported CLI is:
  *
- * Usage (from apps/site):
- *   npx tsx scripts/validate-reader-passage-fragment.ts \
- *     --book-dir books/coupling \
+ *   node apps/site/scripts/validate-reader-passage-fragment.mjs \
+ *     --book-dir books/... \
  *     --source-path parts/.../chapter.md \
- *     --fragment user-content-fnref-c16-opening \
+ *     --fragment user-content-fnref-... \
  *     [--repo /path/to/repo]
  *
- * Prints a single JSON object to stdout:
- *   { "ok": true, "fragment": "..." }
- *   { "ok": false, "fragment": "...", "error": "..." }
+ * That `.mjs` loads the reader pipeline via the workspace-pinned `jiti`
+ * dependency declared in `apps/site/package.json`.
  */
 import fs from "node:fs";
 import path from "node:path";
