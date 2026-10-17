@@ -174,6 +174,6 @@ Restraint is not the refusal to speak. It is the willingness to delay verdict wi
 
 The distinction worth preserving is between **leaving meaning open** and **leaving another person alone inside a misunderstanding**.
 
-[^c3-kruglanski-need-closure]: Kruglanski, Arie W. "The Need for Cognitive Closure." *Psychological Review* 97, no. 1 (1990): 37–52.
+[^c3-kruglanski-need-closure]: Kruglanski, Arie W., and Donna M. Webster. "Motivated Closing of the Mind: 'Seizing' and 'Freezing.'" *Psychological Review* 103, no. 2 (1996): 263–283. https://doi.org/10.1037/0033-295X.103.2.263.
 [^c3-sensemaking-and-motivated-reasoning]: Weick, Karl E. *Sensemaking in Organizations*. Thousand Oaks, CA: Sage Publications, 1995; Kahan, Dan M. "Motivated Reasoning." *Behavioral and Brain Sciences* 40 (2017): e22.
 [^c3-fricker-epistemic-injustice]: Fricker, Miranda. *Epistemic Injustice*. New York: Oxford University Press, 2007.

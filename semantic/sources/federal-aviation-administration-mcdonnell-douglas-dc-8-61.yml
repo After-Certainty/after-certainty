@@ -3,8 +3,6 @@ name: Federal Aviation Administration — McDonnell Douglas DC-8-61
 type: article
 summary: Federal Aviation Administration. "McDonnell Douglas DC-8-61" (N8082U / United
   Airlines Flight 173). Lessons Learned from Civil Aviation Accidents. https://www.faa.gov/lessons_learned/transport_airplane/accidents/N8082U.
-  See also Advisory Circular 120-51E, Crew Resource Management Training. January 22,
-  2004.
 concepts: []
 patterns: []
 relatedBooks:
@@ -26,8 +24,6 @@ creatorSlugs:
 - federal-aviation-administration
 citation: Federal Aviation Administration. "McDonnell Douglas DC-8-61" (N8082U / United
   Airlines Flight 173). Lessons Learned from Civil Aviation Accidents. https://www.faa.gov/lessons_learned/transport_airplane/accidents/N8082U.
-  See also Advisory Circular 120-51E, Crew Resource Management Training. January 22,
-  2004.
 sourceKind: institutional_document
-year: 2004
 institution: Federal Aviation Administration
+url: https://www.faa.gov/lessons_learned/transport_airplane/accidents/N8082U

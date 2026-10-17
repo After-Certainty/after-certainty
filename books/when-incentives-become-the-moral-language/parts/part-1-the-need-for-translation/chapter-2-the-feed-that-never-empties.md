@@ -156,7 +156,7 @@ Then a notification appears above the conversation. Someone has replied to a com
 
 Engagement begins as information—and becomes evidence and reward. Connection continues across distances that once kept people apart. When behavioral response becomes the language through which the system recognizes worth, the feed stops merely reflecting attention. It begins teaching attention where to go.
 
-[^c2-zuckerberg-senate]: Mark Zuckerberg, testimony before U.S. Senate Judiciary and Commerce Committees, April 10–11, 2018.
+[^c2-zuckerberg-senate]: Mark Zuckerberg, testimony before U.S. Senate Judiciary and Commerce Committees, April 10, 2018.
 [^c2-pichai-house]: Sundar Pichai, testimony before U.S. House Judiciary Committee, December 11, 2018.
 [^c2-horwitz-seetharaman]: Jeff Horwitz and Deepa Seetharaman, "Facebook Executives Shut Down Efforts to Make the Site Less Divisive," *Wall Street Journal*, May 26, 2020.
 [^c2-haugen-senate]: Frances Haugen, testimony and disclosures regarding Facebook internal research, U.S. Senate Commerce Subcommittee on Consumer Protection, October 5, 2021.

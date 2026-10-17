@@ -854,24 +854,13 @@
       ]
     },
     {
-      "slug": "anya-chen",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-helm-limits",
-          "sourceSlug": "hendrycks-dan-collin-burns-anya-chen-and-spencer-ball-holistic-evaluation-of-language-models",
-          "whyThisMatters": "Hendrycks and coauthors\u2019 Holistic Evaluation of Language Models (HELM) argue for multi-metric benchmarking and document limits of context-free model comparison across scenarios and metrics. Coupling uses that evaluation stance to insist benchmarks and model cards help procurement but do not replace testing on one\u2019s own data, tools, and failure history. The paper establishes multi-metric evaluation practice; the book asks whether evaluation reconnects systems to consequence before production finds the failure first."
-        }
-      ]
-    },
-    {
       "slug": "arie-w-kruglanski",
       "workPassageLinks": [
         {
           "evidenceLevel": "A",
           "readerPassagePath": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-3-the-cost-of-leaving-it-open#user-content-fnref-c3-kruglanski-need-closure",
-          "sourceSlug": "kruglanski-arie-w-the-need-for-cognitive-closure",
-          "whyThisMatters": "Kruglanski\u2019s 1990 Psychological Review paper theorizes a need for cognitive closure: a motivated urgency to seize and freeze on a definite answer rather than remain in ambiguity. How Meaning Moves extends that pressure into intimate misreading\u2014the relief of correcting \u201cthat is not what I meant\u201d versus the cost of living inside someone else\u2019s unfinished account. The source names a psychological drive for closure; the book asks what meaning can still do when silence postpones repair while consequence accumulates."
+          "sourceSlug": "kruglanski-arie-w-and-donna-m-webster-motivated-closing-of-the-mind-seizing-and-freezing",
+          "whyThisMatters": "Kruglanski and Webster\u2019s 1996 Psychological Review paper theorizes motivated closing of the mind\u2014urgency to seize and freeze on a definite answer rather than remain in ambiguity. How Meaning Moves extends that pressure into intimate misreading\u2014the relief of correcting \u201cthat is not what I meant\u201d versus the cost of living inside someone else\u2019s unfinished account. The source names a psychological drive for closure; the book asks what meaning can still do when silence postpones repair while consequence accumulates."
         }
       ]
     },
@@ -993,6 +982,17 @@
           "readerPassagePath": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-1-before-the-words#user-content-fnref-c1-french-raven-bases-social-power",
           "sourceSlug": "french-john-r-p-and-bertram-raven-the-bases-of-social-power",
           "whyThisMatters": "French and Raven\u2019s Bases of Social Power classifies how influence operates\u2014reward, coercion, legitimacy, expertise, referent power\u2014before a listener fully evaluates an argument. How Meaning Moves uses that insight for early sorting in conversation: authority changes the weight of a phrase while language is still arriving. The source inventories power bases; the book asks how meaning moves when rank and history shape interpretation before reasoning gets a fair hearing."
+        }
+      ]
+    },
+    {
+      "slug": "betsy-beyer",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-pager-loop",
+          "sourceSlug": "beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin",
+          "whyThisMatters": "The SRE handbook treats incidents as prompts to improve detection, deployment, and rollback\u2014not only to restore service once. Coupling uses the pager loop to show operational coupling returning: the valuable work is making the next failure cheaper to see and reverse."
         }
       ]
     }
@@ -1196,6 +1196,11 @@
     {
       "readerPassagePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-index",
       "slug": "bogle-john-c-the-clash-of-the-cultures-investment-vs-speculation",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-helm-limits",
+      "slug": "bommasani-rishi-percy-liang-and-tony-lee-holistic-evaluation-of-language-models",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1754,11 +1759,6 @@
       "status": "verified_link_tied_citation"
     },
     {
-      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-helm-limits",
-      "slug": "hendrycks-dan-collin-burns-anya-chen-and-spencer-ball-holistic-evaluation-of-language-models",
-      "status": "verified_link_tied_citation"
-    },
-    {
       "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-hersh",
       "slug": "hersh-eitan-politics-is-for-power",
       "status": "verified_link_tied_citation"
@@ -1930,7 +1930,7 @@
     },
     {
       "readerPassagePath": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-3-the-cost-of-leaving-it-open#user-content-fnref-c3-kruglanski-need-closure",
-      "slug": "kruglanski-arie-w-the-need-for-cognitive-closure",
+      "slug": "kruglanski-arie-w-and-donna-m-webster-motivated-closing-of-the-mind-seizing-and-freezing",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2850,7 +2850,7 @@
     },
     {
       "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-2-the-feed-that-never-empties#user-content-fnref-c2-zuckerberg-senate",
-      "slug": "zuckerberg-mark-testimony-before-the-u-s-senate-judiciary-and-commerce-committees-april-10-11-20",
+      "slug": "zuckerberg-mark-testimony-before-the-u-s-senate-judiciary-and-commerce-committees-april-10-2018",
       "status": "verified_link_tied_citation"
     }
   ],

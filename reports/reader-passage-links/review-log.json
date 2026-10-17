@@ -572,6 +572,16 @@
       "status": "applied",
       "updatedAt": "2026-10-17T22:30:24Z"
     },
+    "source:bommasani-rishi-percy-liang-and-tony-lee-holistic-evaluation-of-language-models:/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-helm-limits": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-helm-limits",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR6 review fix: HELM identity \u2192 Bommasani/Liang/Lee NYAS 2023 (DOI 10.1111/nyas.15007); manuscript footnote + biblio corrected; erroneous Hendrycks thinkers removed.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture",
+      "slug": "bommasani-rishi-percy-liang-and-tony-lee-holistic-evaluation-of-language-models",
+      "status": "applied",
+      "updatedAt": "2026-10-17T23:52:16Z"
+    },
     "source:bowen-murray-family-therapy-in-clinical-practice:/explore/books/when-authority-outlives-accountability/chapters/parts-part-2-integration-and-use-chapter-6-leadership-at-human-scale#user-content-fnref-c6-bowen-family-therapy-in": {
       "candidatePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-2-integration-and-use-chapter-6-leadership-at-human-scale#user-content-fnref-c6-bowen-family-therapy-in",
       "entityKind": "source",
@@ -1286,11 +1296,11 @@
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-4-the-chair#user-content-fnref-c4-crm",
       "entityKind": "source",
       "evidenceLevel": "A",
-      "note": "PR6 editorial batch (240 clean single-work): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "note": "PR6 review fix: narrowed to Flight 173 lessons-learned case only (removed AC 120-51E from footnote/summary/citation for single-work honesty).",
       "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-4-the-chair",
       "slug": "federal-aviation-administration-mcdonnell-douglas-dc-8-61",
       "status": "applied",
-      "updatedAt": "2026-10-17T23:40:35Z"
+      "updatedAt": "2026-10-17T23:52:16Z"
     },
     "source:federal-reserve-bank-of-philadelphia-survey-of-professional-forecasters:/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-spf": {
       "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-spf",
@@ -1732,16 +1742,6 @@
       "status": "applied",
       "updatedAt": "2026-10-17T23:40:35Z"
     },
-    "source:hendrycks-dan-collin-burns-anya-chen-and-spencer-ball-holistic-evaluation-of-language-models:/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-helm-limits": {
-      "candidatePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-helm-limits",
-      "entityKind": "source",
-      "evidenceLevel": "A",
-      "note": "PR6 editorial batch (240 clean single-work): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
-      "routeKey": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture",
-      "slug": "hendrycks-dan-collin-burns-anya-chen-and-spencer-ball-holistic-evaluation-of-language-models",
-      "status": "applied",
-      "updatedAt": "2026-10-17T23:40:35Z"
-    },
     "source:hersh-eitan-politics-is-for-power:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-hersh": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-hersh",
       "entityKind": "source",
@@ -2092,15 +2092,15 @@
       "status": "applied",
       "updatedAt": "2026-10-17T23:40:35Z"
     },
-    "source:kruglanski-arie-w-the-need-for-cognitive-closure:/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-3-the-cost-of-leaving-it-open#user-content-fnref-c3-kruglanski-need-closure": {
+    "source:kruglanski-arie-w-and-donna-m-webster-motivated-closing-of-the-mind-seizing-and-freezing:/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-3-the-cost-of-leaving-it-open#user-content-fnref-c3-kruglanski-need-closure": {
       "candidatePath": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-3-the-cost-of-leaving-it-open#user-content-fnref-c3-kruglanski-need-closure",
       "entityKind": "source",
       "evidenceLevel": "A",
-      "note": "PR6 editorial batch (240 clean single-work): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "note": "PR6 review fix: replace nonexistent 1990 Psych Review solo paper with Kruglanski & Webster 1996 seize/freeze (DOI 10.1037/0033-295X.103.2.263); footnote + biblio + patterns retargeted.",
       "routeKey": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-3-the-cost-of-leaving-it-open",
-      "slug": "kruglanski-arie-w-the-need-for-cognitive-closure",
+      "slug": "kruglanski-arie-w-and-donna-m-webster-motivated-closing-of-the-mind-seizing-and-freezing",
       "status": "applied",
-      "updatedAt": "2026-10-17T23:40:35Z"
+      "updatedAt": "2026-10-17T23:52:16Z"
     },
     "source:kuhn-thomas-s-the-structure-of-scientific-revolutions:/explore/books/learning-to-see/chapters/parts-part-3-what-traditions-carry-chapter-10-cultural-sediment#user-content-fnref-c10-paradigm": {
       "candidatePath": "/explore/books/learning-to-see/chapters/parts-part-3-what-traditions-carry-chapter-10-cultural-sediment#user-content-fnref-c10-paradigm",
@@ -4002,15 +4002,15 @@
       "status": "applied",
       "updatedAt": "2026-10-17T23:40:35Z"
     },
-    "source:zuckerberg-mark-testimony-before-the-u-s-senate-judiciary-and-commerce-committees-april-10-11-20:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-2-the-feed-that-never-empties#user-content-fnref-c2-zuckerberg-senate": {
+    "source:zuckerberg-mark-testimony-before-the-u-s-senate-judiciary-and-commerce-committees-april-10-2018:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-2-the-feed-that-never-empties#user-content-fnref-c2-zuckerberg-senate": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-2-the-feed-that-never-empties#user-content-fnref-c2-zuckerberg-senate",
       "entityKind": "source",
       "evidenceLevel": "A",
-      "note": "PR6 editorial batch (240 clean single-work): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "note": "PR6 review fix: Senate hearing dated April 10, 2018 only; type/sourceKind \u2192 speech; footnote + biblio corrected.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-2-the-feed-that-never-empties",
-      "slug": "zuckerberg-mark-testimony-before-the-u-s-senate-judiciary-and-commerce-committees-april-10-11-20",
+      "slug": "zuckerberg-mark-testimony-before-the-u-s-senate-judiciary-and-commerce-committees-april-10-2018",
       "status": "applied",
-      "updatedAt": "2026-10-17T23:40:35Z"
+      "updatedAt": "2026-10-17T23:52:16Z"
     }
   }
 }

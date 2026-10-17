@@ -32,8 +32,8 @@
 - Kahan, Dan M. "Motivated Reasoning."
   *Behavioral and Brain Sciences* 40 (2017): e22.
 
-- Kruglanski, Arie W. "The Need for Cognitive Closure."
-  *Psychological Review* 97, no. 1 (1990): 37–52.
+- Kruglanski, Arie W., and Donna M. Webster. "Motivated Closing of the Mind: \"Seizing\" and \"Freezing.\""
+  *Psychological Review* 103, no. 2 (1996): 263–283. https://doi.org/10.1037/0033-295X.103.2.263.
 
 - Lazarus, Richard S. *Emotion and Adaptation*.
   New York: Oxford University Press, 1991.

@@ -1,0 +1,13 @@
+slug: percy-liang
+name: Percy Liang
+type: person
+summary: Stanford computer scientist and CRFM co-director known for foundation-model
+  research and the HELM evaluation framework.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- bommasani-rishi-percy-liang-and-tony-lee-holistic-evaluation-of-language-models
+whyThisMatters: Liang ties language-model capability claims to shared scenarios and
+  metrics—evaluation as the correction loop when systems scale faster than understanding.

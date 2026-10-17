@@ -1,0 +1,13 @@
+slug: rishi-bommasani
+name: Rishi Bommasani
+type: person
+summary: AI researcher at Stanford CRFM working on foundation-model evaluation,
+  transparency, and holistic language-model benchmarking.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- bommasani-rishi-percy-liang-and-tony-lee-holistic-evaluation-of-language-models
+whyThisMatters: Bommasani makes multi-metric evaluation a public standard—so model
+  claims stay tied to measured tradeoffs rather than single-score myth.

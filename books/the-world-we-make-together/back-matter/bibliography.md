@@ -57,7 +57,7 @@ Encyclopedia of Arkansas. “Lost Year.” https://encyclopediaofarkansas.net/en
 :::
 
 ::: {custom-style="Bibliography"}
-Federal Aviation Administration. “McDonnell Douglas DC-8-61” (N8082U / United Airlines Flight 173). Lessons Learned from Civil Aviation Accidents. https://www.faa.gov/lessons_learned/transport_airplane/accidents/N8082U. See also Advisory Circular 120-51E, *Crew Resource Management Training*. January 22, 2004.
+Federal Aviation Administration. “McDonnell Douglas DC-8-61” (N8082U / United Airlines Flight 173). Lessons Learned from Civil Aviation Accidents. https://www.faa.gov/lessons_learned/transport_airplane/accidents/N8082U.
 :::
 
 ::: {custom-style="Bibliography"}

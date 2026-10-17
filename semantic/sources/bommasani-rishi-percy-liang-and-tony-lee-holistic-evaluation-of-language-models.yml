@@ -1,0 +1,37 @@
+slug: bommasani-rishi-percy-liang-and-tony-lee-holistic-evaluation-of-language-models
+name: Rishi Bommasani, Percy Liang, and Tony Lee — Holistic Evaluation of Language
+  Models
+type: article
+summary: >-
+  Bommasani, Rishi, Percy Liang, and Tony Lee. "Holistic Evaluation of Language
+  Models." Annals of the New York Academy of Sciences 1525, no. 1 (2023): 140–146.
+  https://doi.org/10.1111/nyas.15007.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+whyThisMatters: >-
+  Bommasani, Liang, and Lee’s Holistic Evaluation of Language Models (HELM)
+  argue for multi-metric benchmarking and document limits of context-free model
+  comparison across scenarios and metrics. Coupling uses that evaluation stance
+  to insist benchmarks and model cards help procurement but do not replace
+  testing on one’s own data, tools, and failure history. The paper establishes
+  multi-metric evaluation practice; the book asks whether evaluation reconnects
+  systems to consequence before production finds the failure first.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-helm-limits
+title: Holistic Evaluation of Language Models
+creatorNames:
+- Rishi Bommasani
+- Percy Liang
+- Tony Lee
+creatorSlugs:
+- rishi-bommasani
+- percy-liang
+- tony-lee
+citation: >-
+  Bommasani, Rishi, Percy Liang, and Tony Lee. "Holistic Evaluation of Language
+  Models." Annals of the New York Academy of Sciences 1525, no. 1 (2023): 140–146.
+  https://doi.org/10.1111/nyas.15007.
+sourceKind: article
+year: 2023
+url: https://doi.org/10.1111/nyas.15007
