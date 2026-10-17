@@ -10,3 +10,7 @@ spec:
       access: read
     vercel.diagnostics:
       access: read
+    # Read-only Vercel Web Analytics query API (same VERCEL_TOKEN Material as diagnostics).
+    # Broker policy may lag; reader-analytics-test.sh falls back to vercel.diagnostics.
+    vercel.analytics.read:
+      access: read

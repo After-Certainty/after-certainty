@@ -23,6 +23,7 @@ Configured in [`pade.yaml`](../pade.yaml):
 - `github.repo.read` — GitHub repo metadata via broker
 - `google-analytics.read` — GA4 Admin + Data API via broker
 - `vercel.diagnostics` — ordinary Vercel CLI receives `VERCEL_TOKEN` Material from the broker (inspect / logs / whoami; not deploy)
+- `vercel.analytics.read` — read-only Vercel Web Analytics query API (same `VERCEL_TOKEN` Material). Until the broker grants this capability, `make reader-analytics-test` falls back to `vercel.diagnostics`.
 
 Broker resolves Cursor OIDC, runs server-side exec providers, and injects process-scoped Material into `pade exec` children (e.g. `GA_ACCESS_TOKEN`, `GA_PROPERTY_ID`, `VERCEL_TOKEN`).
 
@@ -77,7 +78,7 @@ Expect:
 
 - `pade --version` → `v0.4.0`
 - `vercel --version` → matches [`tools/vercel-cli/package.json`](../tools/vercel-cli/package.json)
-- `pade capabilities` → `github.repo.read`, `google-analytics.read`, and `vercel.diagnostics` all `provider: broker`, configured
+- `pade capabilities` → `github.repo.read`, `google-analytics.read`, `vercel.diagnostics`, and `vercel.analytics.read` all `provider: broker`, configured (`vercel.analytics.read` may remain runtime-denied until broker policy catches up)
 - Property meta + minimal GA report succeed
 - `pade exec … vercel whoami` succeeds (never prints `$VERCEL_TOKEN`)
 
@@ -91,6 +92,17 @@ make ga-trends-test
 ```
 
 The pack is **13 core reports** plus realtime screens (8b) and optional custom-dimension breakdowns (14–15). Brief rendering lives in [`tools/ga_trends_brief.py`](../tools/ga_trends_brief.py). Reports run sequentially with brief pauses (`PADE_PAUSE=0.75` default) to avoid broker identity-mint contention. Override: `PADE_PAUSE=1.5 make ga-trends-test`.
+
+### Full reader-analytics report pack (Vercel Web Analytics)
+
+End-to-end test of the [`reader-analytics`](../apps/site/.cursor/skills/reader-analytics/SKILL.md) skill via PADE broker (prints markdown brief to stdout):
+
+```bash
+make reader-analytics-test
+# or: bash scripts/reader-analytics-test.sh
+```
+
+Prefers `vercel.analytics.read`, falls back to `vercel.diagnostics`. Brief rendering lives in [`tools/reader_analytics_brief.py`](../tools/reader_analytics_brief.py). Same `PADE_PAUSE` contention guidance as ga-trends.
 
 ## Environment builds
 

@@ -74,6 +74,7 @@ Google Analytics trend reports on **Cursor Cloud Agents** use [PADE v0.4.0](http
 - Broker URL and bindings: [`.pade/agent-bindings.yaml`](../.pade/agent-bindings.yaml)
 - Setup and smoke test: [`docs/pade-cloud-agent.md`](../pade-cloud-agent.md)
 - Report workflow: [`apps/site/.cursor/skills/ga-trends/`](../apps/site/.cursor/skills/ga-trends/SKILL.md)
+- Vercel reader briefs: [`apps/site/.cursor/skills/reader-analytics/`](../apps/site/.cursor/skills/reader-analytics/SKILL.md) (`vercel.analytics.read`, fallback `vercel.diagnostics`)
 
 **Local laptop only:** MCP `user-analytics-mcp` + `gcloud auth application-default login` remains the fallback when broker mode is unavailable.
 
@@ -86,6 +87,7 @@ injects process-scoped `VERCEL_TOKEN` Material into the child only.
 - Broker URL and bindings: [`.pade/agent-bindings.yaml`](../.pade/agent-bindings.yaml)
 - Setup and smoke test: [`docs/pade-cloud-agent.md`](../pade-cloud-agent.md)
 - Diagnostic workflow: [`apps/site/.cursor/skills/vercel-diagnostics/`](../apps/site/.cursor/skills/vercel-diagnostics/SKILL.md)
+- Reader analytics (Web Analytics API): [`apps/site/.cursor/skills/reader-analytics/`](../apps/site/.cursor/skills/reader-analytics/SKILL.md)
 
 Do **not** export `VERCEL_TOKEN` into the agent session, pass `--token`, run
 `vercel login` / `vercel env pull`, or use Vercel MCP on Cloud Agents.
