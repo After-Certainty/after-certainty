@@ -1,0 +1,4 @@
+plan pro
+invoiceItem.analytics {'price': 1000, 'createdAt': 1785222000000, 'quantity': 1, 'highestQuantity': 0, 'hidden': False}
+invoiceItem.analyticsUsage {'batch': 10000, 'price': 65, 'threshold': 0, 'hidden': False}
+invoiceItem.webAnalyticsEvent {'batch': 1, 'price': 0.003, 'threshold': 0, 'hidden': False}
