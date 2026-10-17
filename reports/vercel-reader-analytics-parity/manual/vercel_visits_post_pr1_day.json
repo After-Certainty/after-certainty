@@ -1,0 +1,1 @@
+{"version":1,"query":{"since":"2026-10-17T00:00:00.000Z","until":"2026-10-18T00:00:00.000Z","filter":"environment eq 'production'"},"data":{"visitors":13,"pageviews":13}}

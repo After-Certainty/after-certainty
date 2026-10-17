@@ -1,0 +1,142 @@
+{
+  "schema": "gate3-comparison-summary/v1",
+  "generated_at_utc": "2026-10-17T23:02:46Z",
+  "timezone_labels": "America/Denver",
+  "window": {
+    "denver_inclusive_since": "2026-10-10",
+    "denver_inclusive_until": "2026-10-16",
+    "rule": "last_7_completed_denver_days_ending_yesterday",
+    "vercel_request_since": "2026-10-10T00:00:00.000Z",
+    "vercel_request_until": "2026-10-17T00:00:00.000Z",
+    "vercel_request_until_param_arg": "2026-10-17T00:00:00.000Z",
+    "vercel_resolved_since_until_pairs": [
+      {
+        "since": "2026-10-10T00:00:00.000Z",
+        "until": "2026-10-17T00:00:00.000Z"
+      },
+      {
+        "since": "2026-10-10T00:00:00.000Z",
+        "until": "2026-10-17T01:00:00.000Z"
+      }
+    ],
+    "ga4_property_timezone": "America/Denver",
+    "alignment": "approximate_calendar_days_utc_vs_denver",
+    "alignment_notes": [
+      "Vercel visits/count resolves until at T00:00:00.000Z while */aggregate often resolves the same UTC calendar day at T01:00:00.000Z \u2014 documented platform quirk; treat as one exclusive end day, not mixed multi-day slices.",
+      "Vercel since aligned at 2026-10-10T00:00:00.000Z; until exclusive end day 2026-10-17 (count and aggregate shapes: ['2026-10-17T00:00:00.000Z', '2026-10-17T01:00:00.000Z']).",
+      "GA4 startDate/endDate use America/Denver property midnights \u2014 approximately aligned calendar days, not identical UTC instants to Vercel."
+    ]
+  },
+  "vercel": {
+    "visitors": 176,
+    "pageviews": 208,
+    "events": {
+      "corpus_navigation": {
+        "count": 4,
+        "visitors": 4
+      },
+      "listen_item_selected": {
+        "count": 6,
+        "visitors": 2
+      }
+    },
+    "google_referrer_visitors": 11,
+    "empty_referrer_visitors": 169,
+    "top_countries": [
+      {
+        "country": "SG",
+        "visitors": 132,
+        "pageviews": 140
+      },
+      {
+        "country": "US",
+        "visitors": 19,
+        "pageviews": 35
+      },
+      {
+        "country": "CN",
+        "visitors": 12,
+        "pageviews": 12
+      },
+      {
+        "country": "TH",
+        "visitors": 4,
+        "pageviews": 6
+      },
+      {
+        "country": "BR",
+        "visitors": 3,
+        "pageviews": 4
+      },
+      {
+        "country": "VN",
+        "visitors": 2,
+        "pageviews": 2
+      },
+      {
+        "country": "AU",
+        "visitors": 1,
+        "pageviews": 1
+      },
+      {
+        "country": "CL",
+        "visitors": 1,
+        "pageviews": 1
+      },
+      {
+        "country": "DE",
+        "visitors": 1,
+        "pageviews": 3
+      },
+      {
+        "country": "JP",
+        "visitors": 1,
+        "pageviews": 1
+      },
+      {
+        "country": "NO",
+        "visitors": 1,
+        "pageviews": 4
+      }
+    ]
+  },
+  "ga4": {
+    "overview": {
+      "sessions": "9",
+      "activeUsers": "4",
+      "totalUsers": "5",
+      "screenPageViews": "32",
+      "eventCount": "63",
+      "engagedSessions": "5",
+      "engagementRate": "0.55555555555555558"
+    },
+    "reader_events": {
+      "chapter_open": 2
+    },
+    "selected_events": {
+      "chapter_open": 2,
+      "next_chapter": 0,
+      "file_download": 0,
+      "page_view": 32,
+      "session_start": 9,
+      "search_query": 4
+    },
+    "organic_search_sessions": 5
+  },
+  "directional_comparisons": {
+    "volume_scale": "Vercel visitors include ungated aggregate traffic; GA4 is consent-gated \u2014 expect large numeric gaps",
+    "chapter_open": {
+      "ga4_event_count": 2,
+      "vercel_event_count": 0
+    },
+    "corpus_navigation_vercel_only": {
+      "count": 4,
+      "visitors": 4
+    }
+  },
+  "provenance": {
+    "regenerable": true,
+    "gate_decision_path": "gate-decision.json",
+    "note": "This file is overwritten by make reader-analytics-parity. Recommendation, revisit dates, owner smoke, and billing interpretation live in gate-decision.json and must not be copied here."
+  }
+}
