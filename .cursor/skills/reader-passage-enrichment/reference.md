@@ -33,10 +33,19 @@ node apps/site/scripts/validate-reader-passage-fragment.mjs \
 | Path | Purpose |
 |------|---------|
 | `reports/reader-passage-links/audit.md` | Human coverage summary |
-| `reports/reader-passage-links/audit.json` | Machine-readable full audit |
+| `reports/reader-passage-links/audit.summary.json` | Compact tracked totals + top opportunities |
+| `reports/reader-passage-links/audit.full.json` | Full corpus dump (gitignored; `--write-full-json`) |
 | `reports/reader-passage-links/candidates.md` | Latest propose batch |
 | `reports/reader-passage-links/candidates.json` | Latest propose batch (JSON) |
 | `reports/reader-passage-links/review-log.json` | Idempotent review statuses |
+
+`anchor_exists` on candidates is `true`/`false` only after the reader HTML check;
+`null` means unverified. Newly proposed connections always set
+`needsEditorialReview: true` until approved/applied in the review log.
+
+Propose supports `--max-per-source N` (default 3) so rejecting the first
+footnote still surfaces alternate chapter/footnote candidates under
+`--unreviewed-only`.
 
 ### Review-log states
 
@@ -79,8 +88,8 @@ Pattern enforced in `schema/semantic/source-entry.schema.json` and site Zod.
 | `tools/reader_passage_links.py` | Shared audit / propose library |
 | `tools/audit_reader_passage_links.py` | Audit CLI |
 | `tools/propose_reader_passage_links.py` | Propose CLI |
-| `apps/site/scripts/validate-reader-passage-fragment.mjs` | Rendered-HTML fragment check (jiti) |
-| `apps/site/scripts/validate-reader-passage-fragment.ts` | Legacy TS entry (prefer `.mjs`) |
+| `apps/site/scripts/validate-reader-passage-fragment.mjs` | Rendered-HTML fragment check (pinned `jiti`) |
+| `apps/site/scripts/validate-reader-passage-fragment.ts` | Legacy TS twin — do not run via `npx tsx` |
 | `apps/site/lib/reading/render-manuscript-html.ts` | Reader HTML pipeline |
 | `apps/site/app/explore/(browse)/sources/[slug]/page.tsx` | Source CTA for passage links |
 | `tests/test_reader_passage_links.py` | Python regression tests |

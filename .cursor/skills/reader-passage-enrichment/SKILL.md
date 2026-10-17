@@ -99,9 +99,11 @@ node apps/site/scripts/validate-reader-passage-fragment.mjs \
   --repo .
 ```
 
-Level **A** requires the authored `readerPassagePath` fragment to be the matched
-citation invocation (`#user-content-fnref-{id}`), not merely a working chapter URL.
-Mechanical footnote matches are level **B** until editorial confirmation.
+Level **A** means a public path whose fragment is the matched citation
+invocation (`#user-content-fnref-{id}`) — a *mechanical* tied-citation
+condition, not editorial approval of philosophical relevance. Mechanical
+footnote matches are level **B**; all newly proposed connections still need
+editorial review before YAML enrichment.
 
 ## 4 — Propose editorial changes
 
