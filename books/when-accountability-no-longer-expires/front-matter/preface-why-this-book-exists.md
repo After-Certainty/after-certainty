@@ -130,9 +130,10 @@ Before we can ask how accountability should work, we need to understand:
 
 This book is an exercise in diagnosis, not cure.
 
-As Hannah Arendt once noted—less as a solution than as a warning—clarity
-alone does not interrupt power. Insight explains. It does not
-constrain.[^preface-arendt-clarity]
+Arendt's essays on authority, tradition, and judgment track what happens
+when inherited forms of understanding lose their hold.[^preface-arendt-clarity]
+The warning this book draws from that terrain is more local: clarity alone
+does not interrupt power. Insight explains. It does not constrain.
 
 ### **What you can expect going forward**
 
