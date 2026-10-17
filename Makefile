@@ -1,4 +1,4 @@
-.PHONY: help sync-semantic check check-pandoc test lint lint-fix pade-smoke ga-trends-test validate-book-specs validate-editorial-preservation build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities validate-discovery-content report-semantic-completeness lint-semantic-graph generate-book-cover-assets validate-book-cover-assets generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology compare-site-discovery compare-manifest-parity install-local-manifest-for-site propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts dedupe-semantic-sources backfill-source-metadata derive-thinker-drafts promote-thinker-drafts infer-semantic-source-links audit-semantic-metadata-quality audit-semantic-graph audit-bibliography-semantic-drift reconcile-bibliography-semantic-drift normalize-semantic-metadata sync-suno-playlist sync-suno-playlist-apply reconcile-suno-playlist docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx export-ingramspark-epub export-ingramspark-print build-ingramspark-pdfx-proof validate-ingramspark-print-cover build-ingramspark-print-cover package-ingramspark preflight-ingramspark install-epubcheck clean-import-md spellcheck typography-check-how-meaning-moves list-chapter-audio plan-chapter-audio discover-chapter-audio generate-chapter-audio generate-chapter-audio-manifest validate-chapter-audio verify-chapter-audio install-chapter-audio-for-site
+.PHONY: help sync-semantic check check-pandoc test lint lint-fix pade-smoke ga-trends-test validate-book-specs validate-editorial-preservation build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities validate-discovery-content report-semantic-completeness lint-semantic-graph generate-book-cover-assets validate-book-cover-assets generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology compare-site-discovery compare-manifest-parity install-local-manifest-for-site propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts dedupe-semantic-sources backfill-source-metadata derive-thinker-drafts promote-thinker-drafts infer-semantic-source-links audit-semantic-metadata-quality audit-semantic-graph audit-bibliography-semantic-drift audit-reader-passage-links propose-reader-passage-links reconcile-bibliography-semantic-drift normalize-semantic-metadata sync-suno-playlist sync-suno-playlist-apply reconcile-suno-playlist docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx export-ingramspark-epub export-ingramspark-print build-ingramspark-pdfx-proof validate-ingramspark-print-cover build-ingramspark-print-cover package-ingramspark preflight-ingramspark install-epubcheck clean-import-md spellcheck typography-check-how-meaning-moves list-chapter-audio plan-chapter-audio discover-chapter-audio generate-chapter-audio generate-chapter-audio-manifest validate-chapter-audio verify-chapter-audio install-chapter-audio-for-site
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -237,6 +237,19 @@ audit-bibliography-semantic-drift:
 	python3 tools/audit_bibliography_semantic_drift.py --repo . \
 		--md-out reports/bibliography-semantic-drift.md \
 		--json-out reports/bibliography-semantic-drift.json
+
+audit-reader-passage-links:
+	python3 tools/audit_reader_passage_links.py --repo .
+
+propose-reader-passage-links:
+	python3 tools/propose_reader_passage_links.py --repo . \
+		--kind $(or $(KIND),all) \
+		--batch-size $(or $(BATCH_SIZE),10) \
+		$(if $(BOOK),--book "$(BOOK)") \
+		$(if $(filter 1,$(ONLY_MISSING)),--only-missing) \
+		$(if $(filter 1,$(UNREVIEWED_ONLY)),--unreviewed-only) \
+		$(if $(filter 1,$(DRY_RUN)),--dry-run) \
+		$(if $(filter 1,$(WRITE_REVIEW_LOG)),--write-review-log)
 
 reconcile-suno-playlist:
 	python3 tools/songs/reconcile_suno_playlist.py \
