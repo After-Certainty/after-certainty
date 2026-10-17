@@ -20,7 +20,7 @@ The same pattern appears in personal life as readily as in institutions. A marri
 
 The same pattern appears at larger scale. Sports fans often describe victories and defeats as though they personally participated. Religious communities can become intertwined with family history and belonging across generations. Family identity can make questions about one member feel like questions about the lineage itself.
 
-In more serious cases, identity can make institutional criticism feel like an attack on the community itself. The Freeh Report found that many Penn State supporters experienced criticism of the university—and of Joe Paterno—not simply as criticism of decisions, but as criticism of a community that had become part of who they were.[^c3-freeh-penn-state] Trust stops being something you hold and becomes something you are.
+In more serious cases, identity can make institutional criticism feel like an attack on the community itself. The Freeh Report on Penn State documented failures of leadership, safety, and governance around Sandusky’s abuse—not a study of supporter psychology.[^c3-freeh-penn-state] After those findings became public, many supporters still experienced criticism of the university—and of Joe Paterno—not simply as criticism of decisions, but as criticism of a community that had become part of who they were. Trust stops being something you hold and becomes something you are.
 
 Identity strengthens commitment, commitment strengthens participation, and participation strengthens trust. Most of the time, that cycle is a source of stability. Organizations need committed people. Families need loyalty. Trust often becomes durable because identity helps sustain it.
 
@@ -40,4 +40,4 @@ That is often the moment when trust becomes harder to revise.
 
 Trust becomes harder to revise when it becomes part of the self.
 
-[^c3-freeh-penn-state]: Freeh, Sporkin, & Sullivan LLC, *Report of the Special Investigative Counsel Regarding the Actions of the Pennsylvania State University Related to the Child Sexual Abuse Committed by Gerald A. Sandusky* (July 12, 2012). The report documented how institutional loyalty and personal identification with senior figures led many supporters to experience criticism as an attack on the community itself.
+[^c3-freeh-penn-state]: Freeh, Sporkin, & Sullivan LLC, *Report of the Special Investigative Counsel Regarding the Actions of the Pennsylvania State University Related to the Child Sexual Abuse Committed by Gerald A. Sandusky* (July 12, 2012). The report concerns institutional handling of Sandusky’s abuse and failures of leadership, safety, and governance. The claim that supporters experienced criticism as an attack on community identity is this chapter’s interpretation of the subsequent public reaction, not a Freeh finding.

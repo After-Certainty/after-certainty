@@ -8,6 +8,13 @@ patterns: []
 relatedBooks:
 - coupling
 - how-serious-systems-learn
+whyThisMatters: >-
+  Gawande’s Checklist Manifesto treats checklists and related protocols as tools
+  that keep skilled people reliable under pressure, not as substitutes for
+  judgment. How Serious Systems Learn places that practice inside
+  high-reliability constraint: cross-checks and handoffs preserve capability
+  when uncertainty would otherwise erode it.
+readerPassagePath: /explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-4-constraint-as-discipline#user-content-fnref-c4-source-atul-gawande-the
 title: 'The Checklist Manifesto: How to Get Things Right'
 creatorNames:
 - Atul Gawande

@@ -10,6 +10,15 @@ concepts:
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Cockburn’s hexagonal architecture (ports and adapters) protects core domain
+  logic behind stable boundaries so external systems can change without
+  entangling business rules. Coupling uses that boundary discipline after “shift
+  left”: earlier detection helps only if the system can still adapt without
+  destabilizing everything it touches. The source argues for intentional
+  coupling at the edge; the book asks whether faster feedback still fails when
+  core logic remains fused to dependencies.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression#user-content-fnref-c10-bridge-hex
 title: Hexagonal Architecture (Ports and Adapters).
 creatorNames:
 - Alistair Cockburn

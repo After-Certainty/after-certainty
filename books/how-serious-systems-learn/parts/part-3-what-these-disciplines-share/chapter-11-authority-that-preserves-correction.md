@@ -61,7 +61,7 @@ pause, challenge, or redesign high-risk trajectories.
 
 Failure 4: Escalation without consequence.  
 Systems create reporting channels that surface concerns but do not alter
-decision pathways, producing performative openness.
+decision pathways, producing performative openness.[^c11-source-david-graeber-on]
 
 None requires malicious actors.
 All can emerge from ordinary governance under pressure.[^c11-source-diane-vaughan-the]
@@ -145,7 +145,7 @@ It creates deliberate temporal slack:
 - and protected time to integrate weak signals before narrative closure.
 
 In uncertain systems, temporal discipline is a form of ethical discipline.
-It prevents speed from becoming moral exemption.[^c11-source-david-graeber-on]
+It prevents speed from becoming moral exemption.
 
 ### From Personal Virtue to Institutional Pattern
 

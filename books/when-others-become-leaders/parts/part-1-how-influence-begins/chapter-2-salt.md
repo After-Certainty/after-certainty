@@ -517,4 +517,4 @@ The hand opened.
 [^s2-7]: B. R. Ambedkar, *What Congress and Gandhi Have Done to the Untouchables* (1945); Anupama Rao, *The Caste Question* (Berkeley: University of California Press, 2009).
 [^s2-8]: Ashwin Desai and Goolam Vahed, *The South African Gandhi: Stretcher-Bearer of Empire* (Stanford: Stanford University Press, 2015).
 [^s2-9]: Ramachandra Guha, *Gandhi Before India* (New York: Knopf, 2013) and *Gandhi: The Years That Changed the World* (New York: Knopf, 2018), discussions of late-life celibacy experiments.
-[^s2-10]: Judith M. Brown, *Gandhi’s Rise to Power* (Cambridge: Cambridge University Press, 1972); Gandhi-Irwin Pact documentation.
+[^s2-10]: Gandhi–Irwin Pact documentation and Round Table Conference records, 1931; see also Judith M. Brown, *Gandhi: Prisoner of Hope* (New Haven: Yale University Press, 1989), on the campaign’s negotiated pause.

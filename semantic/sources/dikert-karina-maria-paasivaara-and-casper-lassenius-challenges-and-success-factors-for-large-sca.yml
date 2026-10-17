@@ -10,6 +10,16 @@ concepts:
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Dikert, Paasivaara, and Lassenius review challenges and success factors in
+  large-scale agile transformations, documenting how adoption often fails when
+  practices are adopted without the conditions that make them work. Coupling
+  uses that literature for the failure mode in which “be agile” becomes slogan
+  drift—skipping reflection, removing safeguards, or speeding up without
+  restoring ownership clarity. The book’s operational question is whether
+  simplification still keeps consequence visibility and learning loops intact,
+  or only makes the organization feel lighter while adaptation weakens.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-misuse
 title: 'Challenges and Success Factors for Large-Scale Agile Transformations: A Systematic
   Literature Review.'
 creatorNames:

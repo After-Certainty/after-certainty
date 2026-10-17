@@ -7,6 +7,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - how-serious-systems-learn
+whyThisMatters: >-
+  Dietrich Dörner’s The Logic of Failure shows how people mismanage complex
+  situations by oversimplifying, ignoring delayed feedback, and locking in
+  premature pictures of the system. How Serious Systems Learn extends that
+  cognitive pattern to institutions: once certainty is formally declared, the
+  burden of proof reverses and critics must justify interruption. Dörner
+  explains error under complexity; the book asks how planning cycles and
+  incentives produce that certainty earlier than reality warrants.
+readerPassagePath: /explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-dietrich-d-rner
 title: 'The Logic of Failure: Recognizing and Avoiding Error'
 creatorNames:
 - Dietrich Dörner
