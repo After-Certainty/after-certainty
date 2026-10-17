@@ -7,6 +7,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Bogle’s critique of indexing versus ownership attention warns that
+  diversification can thin feedback from how companies are actually run.
+  Coupling names the resulting pattern: financially connected ownership that
+  remains informationally distant from operational redesign.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-index
 title: 'The Clash of the Cultures: Investment vs. Speculation'
 creatorNames:
 - John C Bogle

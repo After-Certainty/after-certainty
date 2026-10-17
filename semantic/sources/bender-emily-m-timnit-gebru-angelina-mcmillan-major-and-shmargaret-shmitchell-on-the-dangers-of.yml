@@ -10,6 +10,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Bender and coauthors warn that scaling language models can raise throughput
+  while leaving labor, verification, and accountability misaligned. Coupling
+  extends the warning beyond AI: institutions that speed drafting without
+  redesigning ownership and review shift consequence downstream.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-12-the-frictionless-illusion#user-content-fnref-c12-cross-domain
 title: 'On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?'
 creatorNames:
 - Angelina McMillan-Major, Emily M. Bender, Shmargaret Shmitchell, and Timnit Gebru

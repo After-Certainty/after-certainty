@@ -6,6 +6,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Beer’s viable-system work insists that control depends on consequence
+  returning clearly enough to correct the system. Coupling adapts that
+  requirement to human institutions: healthy coupling is how directly outcomes
+  still reach the people with redesign authority.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-1-the-structural-grammar-03-consequence-as-coupling#user-content-fnref-c3-consequence-distance
 title: Brain of the Firm
 creatorNames:
 - Stafford Beer
