@@ -30,8 +30,8 @@ export function CookieBanner() {
             Cookies & analytics
           </p>
           <p id="cookie-banner-desc" className="mt-2 text-sm leading-relaxed text-muted">
-            We use Google Analytics to understand how visitors use this site. Analytics cookies are off until you
-            choose. See our{" "}
+            This choice controls Google Analytics cookies (off until you accept). The site also uses Vercel&apos;s
+            aggregate Web Analytics and Speed Insights, which are not gated by this banner. See our{" "}
             <Link href="/privacy" className="text-accent underline-offset-4 hover:underline">
               privacy & cookies
             </Link>{" "}
