@@ -62,6 +62,20 @@ export default async function ExploreSourceDetailPage({ params }: PageProps) {
   if (!source) notFound();
 
   const related = relatedContentForSource(index, source);
+  const readerChapterPath = source.readerPassagePath?.split("#", 1)[0];
+  const readerBook = readerChapterPath
+    ? related.books.find((book) =>
+        readerChapterPath.startsWith(`${explorePaths.books}/${book.slug}/chapters/`),
+      )
+    : undefined;
+  const readerHref =
+    readerBook &&
+    (graph.chapters ?? []).some(
+      (chapter) => chapter.public && chapter.routeKey === readerChapterPath,
+    )
+      ? source.readerPassagePath
+      : undefined;
+  const featuredBook = readerHref ? readerBook : related.books[0];
   const sourcesInListOrder = sourcesSortedForExploreIndex(graph.sources);
   const { prev: prevSource, next: nextSource } = exploreSourceAdjacentInIndexOrder(
     sourcesInListOrder,
@@ -143,13 +157,14 @@ export default async function ExploreSourceDetailPage({ params }: PageProps) {
             <p className="text-lg leading-relaxed text-muted md:text-xl">
               <LinkifiedText text={source.whyThisMatters} />
             </p>
-            {related.books[0] ? (
+            {featuredBook ? (
               <CorpusNavigationRegion fromType="source">
                 <Link
-                  href={`${explorePaths.books}/${related.books[0].slug}`}
+                  href={readerHref ?? `${explorePaths.books}/${featuredBook.slug}`}
                   className="inline-flex min-h-11 items-center text-sm font-medium text-accent underline decoration-accent/40 underline-offset-4 transition-colors hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
                 >
-                  Explore this connection in {related.books[0].title}
+                  {readerHref ? "Read the relevant passage in" : "Explore this connection in"}{" "}
+                  {featuredBook.title}
                 </Link>
               </CorpusNavigationRegion>
             ) : null}
