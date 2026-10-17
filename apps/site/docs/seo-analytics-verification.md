@@ -41,17 +41,33 @@ Thin source stubs (citation + links) may remain “Crawled – currently not ind
 
 ## Analytics & CSP (clean profile / cleared site data)
 
-Network filters: `gtag`, `collect`, `google-analytics`, `googletagmanager`.
+Network filters: `gtag`, `collect`, `google-analytics`, `googletagmanager`, `/_vercel/insights`.
 
 | State | Expected |
 | --- | --- |
-| First visit before choice | gtag may load on production; `analytics_storage` denied; no analytics cookies |
-| Reject | Consent update denied; no analytics cookies; custom events absent |
-| Accept | Consent granted; GA collect succeeds; **no CSP errors**; one `page_view` |
-| Client-side nav after Accept | Additional page_view via Enhanced Measurement history (or explicit tracker); not duplicated on hard refresh |
-| Clear `ac_cookie_consent` | Future hits denied; banner returns |
-| Vercel **preview** | No production GA unless `NEXT_PUBLIC_GA_ENABLE_PREVIEW=1` |
+| First visit before choice | gtag may load on production; `analytics_storage` denied; no GA analytics cookies; Vercel Web Analytics / Speed Insights scripts may still load |
+| Reject | Consent update denied; no GA analytics cookies; **GA custom events absent**; Vercel custom reader events **still fire** (consent-split facade) |
+| Accept | Consent granted; GA collect succeeds; **no CSP errors**; one GA `page_view`; dual-write reader events reach both GA and Vercel |
+| Client-side nav after Accept | Additional GA page_view via Enhanced Measurement history (or explicit tracker); not duplicated on hard refresh |
+| Clear `ac_cookie_consent` | Future GA hits denied; banner returns; Vercel aggregate collection continues |
+| Vercel **preview** | No production GA unless `NEXT_PUBLIC_GA_ENABLE_PREVIEW=1`; filter Vercel analytics by `environment=preview` |
 | `next dev` | No gtag |
+| Privacy / cookie copy | Banner and `/privacy` state that the cookie choice controls **GA4**; Vercel Web Analytics & Speed Insights are separate always-on aggregate tools |
+
+### Reader dual-write smoke (production or preview with GA opt-in)
+
+After Accept (or with consent denied, for Vercel-only rows):
+
+| Action | Vercel event | GA event (consent required) |
+| --- | --- | --- |
+| Open a chapter | `chapter_open` (`book_id`, `chapter_id`) | `chapter_open` |
+| Click Next chapter | `chapter_advance` (`from_chapter_id`, `to_chapter_id`) | `next_chapter` |
+| Download from reader | `book_download` (`book_id`, `format`) | `file_download` |
+| Start chapter audio | `reader_audio_started` (`book_id`, `chapter_id`) | (none) |
+| Source/thinker → chapter link | `corpus_navigation` with `to_id` | (none) |
+| Start a question/trail path | `reading_path_started` | `question_path_start` / `trail_path_start` |
+
+Confirm each intended action fires **once** (no duplicate `corpus_navigation` / audio events). See also [`reader-analytics-attribution-spike.md`](reader-analytics-attribution-spike.md).
 
 Also confirm GA4 Admin:
 
