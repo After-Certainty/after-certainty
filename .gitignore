@@ -46,6 +46,10 @@ apps/site/public/manuscript-assets/
 reports/manifest-parity.json
 reports/manifest-parity.md
 
+# Reader-passage full corpus dumps (compact audit.summary.json is tracked)
+reports/reader-passage-links/audit.full.json
+reports/reader-passage-links/audit.json
+
 # Node / Turborepo (site lives under apps/site)
 node_modules/
 .turbo/

@@ -400,6 +400,10 @@ const sourceSchema = z.object({
   institution: z.string().min(1).optional(),
   url: httpUrlSchema.optional(),
   whyThisMatters: z.string().min(1).optional(),
+  readerPassagePath: z
+    .string()
+    .regex(/^\/explore\/books\/[a-z0-9-]+\/chapters\/[a-z0-9-]+(?:#[a-z0-9-]+)?$/)
+    .optional(),
 });
 
 const thinkerSchema = z.object({

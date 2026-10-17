@@ -222,6 +222,14 @@ run = "uv run python tools/audit_semantic_metadata_quality.py --repo . --out rep
 description = "Bibliography ↔ sources/thinkers drift audit → reports/"
 run = "uv run python tools/audit_bibliography_semantic_drift.py --repo . --md-out reports/bibliography-semantic-drift.md --json-out reports/bibliography-semantic-drift.json"
 
+[tasks."semantic:audit-reader-passages"]
+description = "Source/thinker → reader passage link audit → reports/reader-passage-links/"
+run = "uv run python tools/audit_reader_passage_links.py --repo ."
+
+[tasks."semantic:propose-reader-passages"]
+description = "Propose a bounded reader-passage candidate batch (pass -- --dry-run --batch-size N)"
+run = "uv run python tools/propose_reader_passage_links.py --repo ."
+
 [tasks."semantic:enrich-propose"]
 description = "Scaffold enrichment drafts under semantic/_drafts/enrichment/"
 usage = '''

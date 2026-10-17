@@ -28,6 +28,15 @@ Trust solves a problem the first three layers cannot solve alone: **scale**.
 
 The world is larger than any one pair of eyes. Specialization exists because competence requires narrowed attention trained over time—a surgeon’s hands, an inspector’s checklist, an accountant’s tolerance for detail most of us gladly outsource. Delegation makes collective life possible. It also makes error possible at a distance, which is why trust always arrives with a shadow.
 
+Expertise has conditions, too. Kahneman and Klein, approaching intuitive judgment
+from different traditions, found common ground: reliable intuition develops when
+an environment offers sufficiently regular patterns to learn and people have
+opportunities to practice with clear, timely feedback.[^c4-kahneman-klein-intuitive-expertise]
+Experience without those conditions can build confidence without reliably
+improving accuracy. When we trust an inspector—or a surgeon—we should ask
+not only how much experience they have, but whether their work lets them
+discover when they are wrong.
+
 Trust is something like a **bridge**. You cross because you cannot walk the whole river yourself. The bridge is not the territory—it is a path chosen because the crossing matters and the water is too wide. A bridge can hold. It can also creak. It can point you where someone else decided you should go.
 
 Used well, trust buys reach. Used blindly, it buys certainty you have not earned.
@@ -71,3 +80,5 @@ Which raises the next pressure. Trust and incentive do not only live inside peop
 > When do our tools begin shaping what we are able to see?
 
 That is where the inquiry goes next.
+
+[^c4-kahneman-klein-intuitive-expertise]: Kahneman, Daniel, and Gary Klein. "Conditions for Intuitive Expertise: A Failure to Disagree." *American Psychologist* 64, no. 6 (2009): 515–526.
