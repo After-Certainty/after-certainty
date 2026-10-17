@@ -20,11 +20,11 @@
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-fremont-close",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "Deferred; applied research locus instead.",
+      "note": "Rejected alternative after applying the Adler-only research locus.",
       "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard",
       "slug": "adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc",
       "status": "skipped",
-      "updatedAt": "2026-10-17T15:32:57Z"
+      "updatedAt": "2026-10-17T16:14:37Z"
     },
     "source:adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc:/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-open": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-open",
@@ -78,21 +78,21 @@
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "Skipped: shared footnote with Timeless Way; disambiguate in a later batch.",
+      "note": "Shared footnote with Timeless Way; defer until a primary locus is chosen.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering",
       "slug": "alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language",
-      "status": "skipped",
-      "updatedAt": "2026-10-17T15:32:57Z"
+      "status": "deferred",
+      "updatedAt": "2026-10-17T16:14:37Z"
     },
     "source:alexander-christopher-the-timeless-way-of-building:/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns": {
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "Skipped: shared footnote with Pattern Language; disambiguate in a later batch.",
+      "note": "Shared footnote with Pattern Language; defer until a primary locus is chosen.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering",
       "slug": "alexander-christopher-the-timeless-way-of-building",
-      "status": "skipped",
-      "updatedAt": "2026-10-17T15:32:57Z"
+      "status": "deferred",
+      "updatedAt": "2026-10-17T16:14:37Z"
     },
     "source:alexander-robin-die-getriebenen-merkel-und-die-fl-chtlingspolitik:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-refugees": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-refugees",
@@ -106,11 +106,11 @@
       "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-devops-emergence",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "Skipped: shared footnote with DevOps Handbook; needs a clean single-work locus.",
+      "note": "Shared footnote with DevOps Handbook; defer until a clean single-work locus exists.",
       "routeKey": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling",
       "slug": "allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr",
-      "status": "skipped",
-      "updatedAt": "2026-10-17T15:32:57Z"
+      "status": "deferred",
+      "updatedAt": "2026-10-17T16:14:37Z"
     },
     "source:ambedkar-b-r-what-congress-and-gandhi-have-done-to-the-untouchables:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-7": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-7",
@@ -124,11 +124,11 @@
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "Skipped: shared footnote with Institute of Medicine.",
+      "note": "Shared footnote with Institute of Medicine; defer until a primary locus is chosen.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs",
       "slug": "american-college-of-emergency-physicians-boarding",
-      "status": "skipped",
-      "updatedAt": "2026-10-17T15:32:57Z"
+      "status": "deferred",
+      "updatedAt": "2026-10-17T16:14:37Z"
     },
     "source:anderson-benedict-imagined-communities-reflections-on-the-origin-and-spread-of-nationalism:/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined": {
       "candidatePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined",
@@ -192,13 +192,14 @@
     },
     "source:argyris-chris-overcoming-organizational-defenses:/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-correction-and-insulation": {
       "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-correction-and-insulation",
+      "editorialApproval": true,
       "entityKind": "source",
-      "evidenceLevel": "A",
-      "note": "PR2 applied. Footnote text names only Overcoming Organizational Defenses; audit marks shared_or_ambiguous because another Argyris work also scores the same note.",
+      "evidenceLevel": "B",
+      "note": "PR2 applied with editorial approval. Mechanical evidence remains B (path_valid_shared_or_ambiguous_citation): footnote text names only Overcoming Organizational Defenses, but another Argyris work also scores the note.",
       "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to",
       "slug": "argyris-chris-overcoming-organizational-defenses",
       "status": "applied",
-      "updatedAt": "2026-10-17T15:32:57Z"
+      "updatedAt": "2026-10-17T16:14:37Z"
     }
   }
 }

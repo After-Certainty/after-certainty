@@ -540,6 +540,65 @@ def test_alternate_passage_candidates_per_source(tmp_path: Path, monkeypatch: An
     assert second[0].needs_editorial_review is True
 
 
+def test_deferred_review_log_status_is_not_terminal(tmp_path: Path, monkeypatch: Any) -> None:
+    """``deferred`` parks work for later without suppressing --unreviewed-only."""
+    repo = _mini_repo(tmp_path)
+    monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)
+    result = rpl.run_audit(repo, check_fragments=False)
+
+    assert "deferred" in rpl.REVIEW_LOG_NONTERMINAL
+    assert "deferred" not in rpl.REVIEW_LOG_TERMINAL
+    assert "skipped" in rpl.REVIEW_LOG_TERMINAL
+
+    batch = rpl.build_candidates(
+        result,
+        kind="sources",
+        only_missing=True,
+        batch_size=5,
+        unreviewed_only=True,
+        review_log={},
+        slugs={"kahneman-klein-pilot"},
+        repo=repo,
+        check_anchors=False,
+    )
+    assert batch
+    key = rpl._candidate_key(
+        "source",
+        batch[0].slug,
+        batch[0].route_key,
+        footnote_id=(batch[0].candidate_reader_passage_path or "").split("user-content-fnref-", 1)[
+            -1
+        ],
+    )
+
+    still = rpl.build_candidates(
+        result,
+        kind="sources",
+        only_missing=True,
+        batch_size=5,
+        unreviewed_only=True,
+        review_log={key: {"status": "deferred", "note": "shared footnote; revisit later"}},
+        slugs={"kahneman-klein-pilot"},
+        repo=repo,
+        check_anchors=False,
+    )
+    assert still
+    assert still[0].slug == "kahneman-klein-pilot"
+
+    suppressed = rpl.build_candidates(
+        result,
+        kind="sources",
+        only_missing=True,
+        batch_size=5,
+        unreviewed_only=True,
+        review_log={key: {"status": "skipped"}},
+        slugs={"kahneman-klein-pilot"},
+        repo=repo,
+        check_anchors=False,
+    )
+    assert not suppressed
+
+
 def test_propose_batch_advances_past_proposed(tmp_path: Path, monkeypatch: Any) -> None:
     repo = _mini_repo(tmp_path)
     monkeypatch.setattr(rpl, "validate_fragment_in_rendered_html", _stub_fragment_ok)

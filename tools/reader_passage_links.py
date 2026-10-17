@@ -41,8 +41,11 @@ from audit_citations import FOOTNOTE_DEF, REF_USE  # noqa: E402
 
 # Review-log statuses. ``proposed`` counts as already queued: ``--unreviewed-only``
 # skips it so later batches advance. Transition: (absent) → proposed →
-# approved|rejected|skipped|applied. Re-queue by deleting the entry or clearing status.
+# approved|rejected|skipped|applied. ``deferred`` is *not* terminal — shared or
+# ambiguous candidates parked for a later disambiguation batch stay eligible.
+# Re-queue by deleting the entry or clearing status.
 REVIEW_LOG_TERMINAL = frozenset({"proposed", "approved", "rejected", "applied", "skipped"})
+REVIEW_LOG_NONTERMINAL = frozenset({"deferred"})
 from bibliography_parse import parse_bibliography  # noqa: E402
 from book_specs import discover_book_spec_paths  # noqa: E402
 from manuscript_structure import build_structure_for_book, load_chapter_enrichment  # noqa: E402

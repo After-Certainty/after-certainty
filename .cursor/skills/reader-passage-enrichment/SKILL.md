@@ -76,7 +76,8 @@ Filters: `--kind sources|thinkers|all`, `--book`, `--slug`, `--only-missing`,
 `--only-invalid`, `--batch-size`, `--unreviewed-only`.
 
 Writes `candidates.{md,json}` and optionally updates `review-log.json`
-(`proposed|approved|rejected|applied|skipped`).
+(`proposed|deferred|approved|rejected|applied|skipped`). Use `deferred`
+(not `skipped`) for shared-footnote work that should return in a later batch.
 
 ## 3 — Review the evidence
 
