@@ -1180,6 +1180,10 @@
         },
         "whyThisMatters": {
           "type": "string"
+        },
+        "readerPassagePath": {
+          "type": "string",
+          "pattern": "^/explore/books/[a-z0-9-]+/chapters/[a-z0-9-]+(?:#[a-z0-9-]+)?$"
         }
       }
     },
