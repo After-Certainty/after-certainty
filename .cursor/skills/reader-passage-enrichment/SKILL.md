@@ -120,9 +120,10 @@ editorial review before YAML enrichment.
 PR1 tooling is read-only for YAML/manuscripts. Apply by editing canonical
 YAML (and, when needed, a focused manuscript citation) after review.
 
-Update `review-log.json` statuses to `approved` / `applied` / `rejected` so
-later sessions skip completed work. Progress must be recoverable from
-canonical YAML + the review log — not Cursor chat history.
+Update `review-log.json` statuses to `approved` / `applied` / `rejected` /
+`skipped` (terminal alternatives) or `deferred` (revisit later) so later
+sessions advance correctly. Progress must be recoverable from canonical YAML
++ the review log — not Cursor chat history.
 
 ## 6 — Validate
 
