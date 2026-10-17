@@ -2,7 +2,7 @@
 
 **Status:** Active — authoritative for *remaining* cross-layer work  
 **Created:** 2026-07-24  
-**Last audited:** 2026-08-22 (evidence-before-expansion prune; GAME-001e and CORPUS-003/004 marked complete; Observe section added)  
+**Last audited:** 2026-10-17 (Vercel reader analytics migration plan registered under Observe; prior 2026-08-22 prune retained)  
 **Surviving repository:** [`After-Certainty/after-certainty`](https://github.com/After-Certainty/after-certainty)  
 **Former site repository (archived):** [`ksteffe/after-certainty-site`](https://github.com/ksteffe/after-certainty-site)
 
@@ -35,8 +35,8 @@ Discovery, catalog orientation, native chapter reading, monorepo same-checkout b
 | Offline / PWA | Deferred (no-ship) | [`offline-reading-spike.md`](../../apps/site/docs/offline-reading-spike.md) (READ-017) |
 | Corpus contract (manifest 2.3) | Established | [`semantic-manifest-contract.md`](../semantic-manifest-contract.md) |
 | IngramSpark packaging | Shipped | `tools/ingramspark/`; pilots production-approved; operating procedure |
-| Site analytics (discovery/search/reader/game) | Present | `apps/site/lib/analytics/`; GA4 + Vercel Analytics; `tools/ga_trends_brief.py` |
-| Reader funnel events | Shipped | `chapter_open` / `next_chapter` / `file_download` (`location=reader`); consent-gated; GA4 Admin key-event marking remains Kevin |
+| Site analytics (discovery/search/reader/game) | Present; migration planned | `apps/site/lib/analytics/`; GA4 + Vercel Analytics; `tools/ga_trends_brief.py`; see [`vercel-reader-analytics-migration.md`](vercel-reader-analytics-migration.md) |
+| Reader funnel events | Shipped | `chapter_open` / `next_chapter` / `file_download` (`location=reader`); consent-gated; GA4 Admin key-event marking remains Kevin until migration Gate 3 |
 | Chapter Listen (TTS platform) | Platform complete | [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md) Phases 0–6; OP + WOLTY v1 + CBC + WMSS + WOLTY Companion available; How Trust Forms + When Trust Stops Tracking Reality audio-enabled (pending generate) |
 | Pattern Recognition Challenge | Through GAME-001e complete | [`pattern-recognition-challenge.md`](pattern-recognition-challenge.md); enjoyability Observe gate before further game investment |
 | Root CONTRIBUTING + issue templates | CONTRIBUTING done; templates open | [`CONTRIBUTING.md`](../../CONTRIBUTING.md); OPS-001b for issue templates |
@@ -103,16 +103,21 @@ Application events for the reader funnel are **shipped**. Remaining work is GA4 
 
 ## 3. Observe
 
-Signals that may create future work. No arbitrary KPI targets. Use existing GA4 / reporting tooling (`apps/site/lib/analytics/`, `tools/ga_trends_brief.py`, site GA scripts, PADE broker) to decide where investment is justified.
+Signals that may create future work. No arbitrary KPI targets. Use existing GA4 / reporting tooling (`apps/site/lib/analytics/`, `tools/ga_trends_brief.py`, site GA scripts, PADE broker) — and, as the migration lands, Vercel Web Analytics reports — to decide where investment is justified.
+
+### Vercel reader analytics migration
+
+Specialized plan: [`vercel-reader-analytics-migration.md`](vercel-reader-analytics-migration.md). Goal: make Vercel Web Analytics the primary readership measurement system, keep Google Search Console for search discovery, and retire GA4 only after parallel measurement and an explicit approval gate. **Do not start destructive GA4 removal from this Observe note alone.**
 
 | Signal area | What to watch | Notes |
 |-------------|---------------|--------|
-| **Acquisition / discovery** | Landing pages, search-engine traffic, high-performing book/thinker/pattern pages, referral traffic | |
-| **Reader funnel** | Book page → chapter open; chapter continuation (`next_chapter`); reader exits; reading depth where available | Events shipped; Admin key-event marking is Now (ops) |
+| **Acquisition / discovery** | Landing pages, search-engine traffic, high-performing book/thinker/pattern pages, referral traffic | GSC remains authoritative for queries/rankings |
+| **Reader funnel** | Book page → chapter open; chapter continuation (`next_chapter`); reader exits; reading depth where available | Events shipped; Admin key-event marking is Now (ops); dual-write to Vercel is PR 1 of the migration plan |
 | **Search** | Search usage; successful result selection; no-result / weak-result queries if available | |
-| **Audio / Listen** | Whether chapters are played; which books get Listen use; whether usage justifies more narration cost/storage | Player shipped; **Listen play/complete events are weak or absent** — add minimal instrumentation only if audio investment decisions require it |
+| **Audio / Listen** | Whether chapters are played; which books get Listen use; whether usage justifies more narration cost/storage | Player shipped; Vercel already emits `listen_started` / `listen_item_selected` — align names in migration PR 1 |
 | **Game** | Starts, completions, repeat use; whether people return voluntarily | **Enjoyability gate:** after GAME-001e, observe before any further game phases |
 | **Outbound / purchase** | Book purchase links; external source clicks; other meaningful outbound actions | |
+| **Anomalous traffic** | Geo × device × path family × empty-referrer concentrations (e.g. SG desktop on research/thinker pages) | Heuristic classification only; do not silently exclude visitors |
 
 **Game sequence:** finish was GAME-001e (complete) → **observe** enjoyability/usage → **stop** unless evidence pulls more work. Do not automatically promote Supabase or advanced modes.
 

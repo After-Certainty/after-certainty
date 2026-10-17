@@ -145,6 +145,7 @@ def test_build_sources_emits_v15_fields_when_present(tmp_path: Path) -> None:
         "concepts": [],
         "patterns": [],
         "relatedBooks": [],
+        "readerPassagePath": "/explore/books/sample/chapters/part-1-chapter-1#my-heading",
     }
     (sources_dir / "sample-enriched.yml").write_text(yaml.safe_dump(record), encoding="utf-8")
     # Minimal dirs so _load_dir_yml works for sources only
@@ -157,6 +158,9 @@ def test_build_sources_emits_v15_fields_when_present(tmp_path: Path) -> None:
     assert entry["creatorSlugs"] == ["sample-author"]
     assert entry["title"] == "Sample Title"
     assert entry["year"] == 2020
+    assert entry["readerPassagePath"] == (
+        "/explore/books/sample/chapters/part-1-chapter-1#my-heading"
+    )
 
 
 def test_manifest_v2_with_thinkers_on_repo(

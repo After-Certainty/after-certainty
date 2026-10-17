@@ -62,6 +62,20 @@ export default async function ExploreSourceDetailPage({ params }: PageProps) {
   if (!source) notFound();
 
   const related = relatedContentForSource(index, source);
+  const readerChapterPath = source.readerPassagePath?.split("#", 1)[0];
+  const readerBook = readerChapterPath
+    ? related.books.find((book) =>
+        readerChapterPath.startsWith(`${explorePaths.books}/${book.slug}/chapters/`),
+      )
+    : undefined;
+  const readerHref =
+    readerBook &&
+    (graph.chapters ?? []).some(
+      (chapter) => chapter.public && chapter.routeKey === readerChapterPath,
+    )
+      ? source.readerPassagePath
+      : undefined;
+  const featuredBook = readerHref ? readerBook : related.books[0];
   const sourcesInListOrder = sourcesSortedForExploreIndex(graph.sources);
   const { prev: prevSource, next: nextSource } = exploreSourceAdjacentInIndexOrder(
     sourcesInListOrder,
@@ -136,11 +150,24 @@ export default async function ExploreSourceDetailPage({ params }: PageProps) {
           )
         ) : null}
         {source.whyThisMatters ? (
-          <div className="mt-6 max-w-2xl space-y-3 md:mt-8">
-            <h2 className="text-[11px] uppercase tracking-[0.24em] text-muted">Why this matters</h2>
+          <div className="mt-6 max-w-2xl space-y-3 border-l-2 border-accent/40 pl-4 md:mt-8 md:pl-6">
+            <h2 className="text-[11px] uppercase tracking-[0.24em] text-muted">
+              Why this matters here
+            </h2>
             <p className="text-lg leading-relaxed text-muted md:text-xl">
               <LinkifiedText text={source.whyThisMatters} />
             </p>
+            {featuredBook ? (
+              <CorpusNavigationRegion fromType="source">
+                <Link
+                  href={readerHref ?? `${explorePaths.books}/${featuredBook.slug}`}
+                  className="inline-flex min-h-11 items-center text-sm font-medium text-accent underline decoration-accent/40 underline-offset-4 transition-colors hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                >
+                  {readerHref ? "Read the relevant passage in" : "Explore this connection in"}{" "}
+                  {featuredBook.title}
+                </Link>
+              </CorpusNavigationRegion>
+            ) : null}
           </div>
         ) : null}
         <ExploreEntityDetailActions observatory={{ kind: "source", slug: source.slug }} />

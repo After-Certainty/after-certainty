@@ -48,6 +48,33 @@ describe("rewriteManuscriptAssetUrls", () => {
 });
 
 describe("renderManuscriptHtml", () => {
+  it.each([
+    {
+      bookDir: "books/when-authority-outlives-accountability",
+      sourcePath: "parts/part-1-the-three-dimensions/chapter-3-effectiveness.md",
+      footnoteId: "c3-goodhart-monetary-management",
+      citation: "Problems of Monetary Management",
+    },
+    {
+      bookDir: "books/what-we-cannot-see",
+      sourcePath:
+        "parts/part-1-bias-learning-to-see-your-own-mind/chapter-4-who-and-what-we-trust.md",
+      footnoteId: "c4-kahneman-klein-intuitive-expertise",
+      citation: "Conditions for Intuitive Expertise",
+    },
+  ])(
+    "preserves reader source-to-chapter citation anchor $footnoteId",
+    async ({ bookDir, sourcePath, footnoteId, citation }) => {
+      const markdown = fs.readFileSync(
+        path.join(resolveMonorepoRoot(), bookDir, sourcePath),
+        "utf8",
+      );
+      const html = await renderManuscriptHtml({ markdown, bookDir, sourcePath });
+      expect(html).toContain(`id="user-content-fnref-${footnoteId}"`);
+      expect(html).toContain(citation);
+    },
+  );
+
   it("renders footnotes, heading ids, and sanitizes scripts", async () => {
     const markdown = `## **Section One**
 
@@ -66,6 +93,8 @@ A claim with a note.[^n1]
     expect(html).toContain("Section One");
     expect(html).toMatch(/id="[^"]*section-one"/i);
     expect(html).toContain("data-footnote-ref");
+    // Curated source links may target a chapter citation with this stable fragment.
+    expect(html).toContain('id="user-content-fnref-n1"');
     expect(html).toContain("footnotes");
     expect(html).toContain("Citation body");
     expect(html).not.toContain("<script>");

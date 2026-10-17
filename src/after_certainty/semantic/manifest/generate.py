@@ -106,6 +106,7 @@ OPTIONAL_SOURCE_STRING_FIELDS = (
     "institution",
     "url",
     "whyThisMatters",
+    "readerPassagePath",
 )
 
 

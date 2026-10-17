@@ -404,6 +404,8 @@ export interface Source {
   institution?: string;
   url?: string;
   whyThisMatters?: string;
+  /** Optional curated chapter URL with a stable heading or citation fragment. */
+  readerPassagePath?: string;
 }
 
 export type ThinkerType = "person" | "organization" | "author_group" | "collective";
