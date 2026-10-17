@@ -27,30 +27,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-fremont-close",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 3,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-4-scale-pressure-misjudgment-chapter-10-tradeoffs-under-pressure#user-content-fnref-c10-crisis-precedent",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 2,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "agamben-giorgio-state-of-exception",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-babylonian-exile",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -142,30 +118,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "anderson-benedict-imagined-communities-reflections-on-the-origin-and-spread-of-nationalism",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-19-media-and-algorithmic-coupling#user-content-fnref-c19-editorial",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "anderson-c-w-rebuilding-the-news-metropolitan-journalism-in-the-digital-age",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-luck",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -176,18 +128,6 @@
       "readerPassagePath": null,
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-public-service",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr",
       "status": "strong_candidate"
     },
     {
@@ -204,125 +144,17 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/when-accountability-no-longer-expires/chapters/front-matter-preface-why-this-book-exists#user-content-fnref-preface-arendt-clarity",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 9,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "arendt-hannah-between-past-and-future",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-2-moral-posture-toward-harm#user-content-fnref-c2-arendt-eichmann-in-jerusalem",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 5,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "arendt-hannah-eichmann-in-jerusalem-a-report-on-the-banality-of-evil",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/when-moral-seriousness-scales/chapters/parts-part-4-what-remains-possible-chapter-9-rebuilding-density#user-content-fnref-c9-arendt-on-revolution",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "arendt-hannah-on-revolution",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-3-effectiveness#user-content-fnref-c3-arendt-on-violence-distinguishing",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "arendt-hannah-on-violence",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/coupling/chapters/back-matter-epilogue-stay-cohesive-stay-close#user-content-fnref-epi-judgment",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 18,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "arendt-hannah-responsibility-and-judgment",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-bridge#user-content-fnref-p3-arendt",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 8,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "arendt-hannah-the-human-condition",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-8-legitimacy-over-time#user-content-fnref-c8-arendt",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 3,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "arendt-hannah-what-is-authority",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-7-effectiveness-and-its-illusions#user-content-fnref-c7-performance-paradox",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 7,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "argyris-chris-and-donald-a-schon-organizational-learning-ii",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/when-accountability-no-longer-expires/chapters/parts-part-3-learning-without-resolution-chapter-6-adaptation-is-not-renewal#user-content-fnref-c6-argyris-reform",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 2,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "argyris-chris-on-organizational-learning",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-correction-and-insulation",
       "evidenceLevel": "B",
       "footnoteHitCount": 5,
       "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
+        "fragment_tied_but_shared_or_ambiguous",
+        "shared_footnote_with:argyris-chris-and-donald-a-schon-organizational-learning-ii"
       ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
+      "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-correction-and-insulation",
+      "recommendedAction": "editorial_confirm_passage_relevance",
       "slug": "argyris-chris-overcoming-organizational-defenses",
-      "status": "strong_candidate"
+      "status": "path_valid_shared_or_ambiguous_citation"
     },
     {
       "candidatePath": "/explore/books/learning-to-see/chapters/parts-part-1-the-formation-of-a-knower-chapter-1-the-experiment-i-had-never-tried#user-content-fnref-c1-sediment-hypothesis",
@@ -492,18 +324,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-modeling-and-signals",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 3,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "bandura-albert-social-learning-theory",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-team-cohesion",
       "evidenceLevel": "B",
       "footnoteHitCount": 2,
@@ -513,18 +333,6 @@
       "readerPassagePath": null,
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-1-why-leadership-evaluation-fails#user-content-fnref-c1-hershey-outcome-bias-in",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 2,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "baron-jonathan-and-john-c-hershey-outcome-bias-in-decision",
       "status": "strong_candidate"
     },
     {
@@ -626,9 +434,237 @@
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr",
       "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-6-harm-under-influence#user-content-fnref-c6-risk-distribution",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "beck-ulrich-risk-society-towards-a-new-modernity",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-03-consequence-as-coupling#user-content-fnref-c3-consequence-distance",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 3,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "beer-stafford-brain-of-the-firm",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-12-the-frictionless-illusion#user-content-fnref-c12-cross-domain",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 2,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-4-when-disciplines-fail-chapter-12-when-methods-become-myths#user-content-fnref-c12-source-peter-l-berger",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 8,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-opening",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-property",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world#user-content-fnref-c6-bernanke",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 2,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "bernanke-ben-s-the-courage-to-act-a-memoir-of-a-crisis-and-its-aftermath",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-06-agile-increasing-cohesion-of-teams#user-content-fnref-c6-nonengineering-vignette",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 2,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "berwick-donald-m-developing-and-testing-changes-in-delivery-of-care",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-clinical",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 2,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "berwick-donald-m-era-3-for-medicine-and-health-care",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-healthcare",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "berwick-donald-m-measuring-surgical-outcomes-for-improvement-was-codman-wrong",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-pager-loop",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 3,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-usda",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 3,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "blackpast-black-panther-party-s-free-breakfast-program-1969-1980",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-blackwell",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 2,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "blackwell-richard-j-galileo-bellarmine-and-the-bible",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-eurozone",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "blyth-mark-austerity-the-history-of-a-dangerous-idea",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-beige",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "board-of-governors-of-the-federal-reserve-system-beige-book-summary-of-commentary-on-current-eco",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-aggregate",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 5,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "board-of-governors-of-the-federal-reserve-system-financial-stability-report",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/front-matter-introduction-the-chart-and-the-receipt#user-content-fnref-intro-shed",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 8,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "board-of-governors-of-the-federal-reserve-system-report-on-the-economic-well-being-of-u-s-househ",
+      "status": "strong_candidate"
     }
   ],
   "thinkersWithDerivablePassages": [
+    {
+      "slug": "albert-bandura",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-modeling-and-signals",
+          "sourceSlug": "bandura-albert-social-learning-theory",
+          "whyThisMatters": "Social Learning Theory treats observation and modeling as ordinary routes by which people acquire behavior. When Others Look to You applies that mechanism to influence: tolerance, silence, and reaction become instruction for those watching what a leader makes normal."
+        }
+      ]
+    },
+    {
+      "slug": "benedict-anderson",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined",
+          "sourceSlug": "anderson-benedict-imagined-communities-reflections-on-the-origin-and-spread-of-nationalism",
+          "whyThisMatters": "Anderson analyzes how nations are imagined through shared narratives and print-mediated belonging. Trust Beyond Similarity extends that insight into ordinary groups: shared stories reduce uncertainty, and they can also teach people what not to notice\u2014including which questions feel safe to ask."
+        }
+      ]
+    },
+    {
+      "slug": "c-w-anderson",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-19-media-and-algorithmic-coupling#user-content-fnref-c19-editorial",
+          "sourceSlug": "anderson-c-w-rebuilding-the-news-metropolitan-journalism-in-the-digital-age",
+          "whyThisMatters": "Anderson documents how digital pressure fragments newsrooms into competing production systems under one brand. Coupling asks what that fragmentation does to public experience when engagement optimization and investigative judgment no longer share the same operational loop."
+        }
+      ]
+    },
     {
       "slug": "charles-a-e-goodhart",
       "workPassageLinks": [
@@ -637,6 +673,23 @@
           "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-3-effectiveness#user-content-fnref-c3-goodhart-monetary-management",
           "sourceSlug": "goodhart-charles-a-e-problems-of-monetary-management-the-u-k",
           "whyThisMatters": "Goodhart's work on monetary targets raises a problem that extends beyond monetary policy: a measure used to steer an institution can lose touch with what it was meant to represent. The connection to accountability is worth asking about: what happens when meeting the target displaces answering for the consequences?"
+        }
+      ]
+    },
+    {
+      "slug": "chris-argyris",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-7-effectiveness-and-its-illusions#user-content-fnref-c7-performance-paradox",
+          "sourceSlug": "argyris-chris-and-donald-a-schon-organizational-learning-ii",
+          "whyThisMatters": "Organizational Learning II distinguishes performance that looks effective from learning that keeps effectiveness real over time. When Others Look to You uses that contrast to ask which results preserve the conditions for later correction\u2014and which only look successful from a distance."
+        },
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-accountability-no-longer-expires/chapters/parts-part-3-learning-without-resolution-chapter-6-adaptation-is-not-renewal#user-content-fnref-c6-argyris-reform",
+          "sourceSlug": "argyris-chris-on-organizational-learning",
+          "whyThisMatters": "On Organizational Learning analyzes how organizations adapt in ways that can stabilize routines without renewing accountability. When Accountability No Longer Expires treats that adaptation as equilibrium: competence continues while the conditions for moral renewal stay out of reach."
         }
       ]
     },
@@ -652,6 +705,17 @@
       ]
     },
     {
+      "slug": "donald-a-schon",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-7-effectiveness-and-its-illusions#user-content-fnref-c7-performance-paradox",
+          "sourceSlug": "argyris-chris-and-donald-a-schon-organizational-learning-ii",
+          "whyThisMatters": "Organizational Learning II distinguishes performance that looks effective from learning that keeps effectiveness real over time. When Others Look to You uses that contrast to ask which results preserve the conditions for later correction\u2014and which only look successful from a distance."
+        }
+      ]
+    },
+    {
       "slug": "gary-klein",
       "workPassageLinks": [
         {
@@ -659,6 +723,130 @@
           "readerPassagePath": "/explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-4-who-and-what-we-trust#user-content-fnref-c4-kahneman-klein-intuitive-expertise",
           "sourceSlug": "kahneman-daniel-and-gary-klein-conditions-for-intuitive-expertise-a-failure-to-disagree",
           "whyThisMatters": "Kahneman and Klein move beyond treating intuition as simply trustworthy or unreliable. Skilled judgment depends on learnable regularities and feedback that makes improvement possible. That distinction informs the question in What We Cannot See: when our perspective is partial, what earns our confidence?"
+        }
+      ]
+    },
+    {
+      "slug": "giorgio-agamben",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-others-look-to-you-v2/chapters/parts-part-3-eroding-chapter-9-exceptions-are-forever#user-content-fnref-c9-temporary-becomes-permanent",
+          "sourceSlug": "agamben-giorgio-state-of-exception",
+          "whyThisMatters": "Agamben traces how emergency measures can outlast the emergency that justified them. When Others Look to You asks the practical follow-on: when an exception is never corrected, what makes it feel necessary\u2014necessity, or familiarity?"
+        }
+      ]
+    },
+    {
+      "slug": "hannah-arendt",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-accountability-no-longer-expires/chapters/front-matter-preface-why-this-book-exists#user-content-fnref-preface-arendt-clarity",
+          "sourceSlug": "arendt-hannah-between-past-and-future",
+          "whyThisMatters": "Between Past and Future examines authority, tradition, and judgment\u2014how inherited forms of understanding lose force without something replacing them. When Accountability No Longer Expires draws its own inference from that terrain: diagnosis can clarify permanence without, by itself, interrupting the arrangements that keep accountability from expiring."
+        },
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-2-moral-posture-toward-harm#user-content-fnref-c2-arendt-eichmann-in-jerusalem",
+          "sourceSlug": "arendt-hannah-eichmann-in-jerusalem-a-report-on-the-banality-of-evil",
+          "whyThisMatters": "Arendt's report on Eichmann confronts how ordinary administrative posture can absorb harm as an acceptable byproduct of maintaining order. When Authority Outlives Accountability takes that diagnosis as a measure of moral posture: was harm treated as something to prevent, or as an operational risk to manage?"
+        },
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-moral-seriousness-scales/chapters/parts-part-4-what-remains-possible-chapter-9-rebuilding-density#user-content-fnref-c9-arendt-on-revolution",
+          "sourceSlug": "arendt-hannah-on-revolution",
+          "whyThisMatters": "On Revolution examines how political beginnings depend on lasting institutions and forms of restraint, not only on founding energy. When Moral Seriousness Scales asks a related operational question: what procedures\u2014review, sunset, delay\u2014force reconsideration before authority expands automatically?"
+        },
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-3-effectiveness#user-content-fnref-c3-arendt-on-violence-distinguishing",
+          "sourceSlug": "arendt-hannah-on-violence",
+          "whyThisMatters": "Arendt distinguishes power from violence and warns that effectiveness without restraint can entrench coercion and degrade trust. When Authority Outlives Accountability uses that distinction to ask whether \"working\" still answers for the long-term harms an effective action leaves behind."
+        },
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/coupling/chapters/back-matter-epilogue-stay-cohesive-stay-close#user-content-fnref-epi-judgment",
+          "sourceSlug": "arendt-hannah-responsibility-and-judgment",
+          "whyThisMatters": "Responsibility and Judgment argues that judgment still matters when existing rules no longer fully fit novel situations. Coupling takes that claim into large systems: when structures drift, someone still has to notice what no longer makes sense before adaptation becomes the only remaining skill."
+        },
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-chapter-9-why-trust-matters#user-content-fnref-c9-arendt",
+          "sourceSlug": "arendt-hannah-the-human-condition",
+          "whyThisMatters": "The Human Condition treats plurality\u2014action among distinct people who cannot be reduced to one will\u2014as basic to political life. How Trust Forms uses that description to ask how trust sustains collective capacity when no one person owns the whole outcome."
+        },
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-8-legitimacy-over-time#user-content-fnref-c8-arendt",
+          "sourceSlug": "arendt-hannah-what-is-authority",
+          "whyThisMatters": "\"What Is Authority?\" distinguishes authority from coercion and persuasion and asks what happens when questioning power becomes a threat to identity. When Others Look to You names that pattern sacralized legitimacy: correction grows costly, then rare."
+        }
+      ]
+    },
+    {
+      "slug": "john-c-hershey",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-1-why-leadership-evaluation-fails#user-content-fnref-c1-hershey-outcome-bias-in",
+          "sourceSlug": "baron-jonathan-and-john-c-hershey-outcome-bias-in-decision",
+          "whyThisMatters": "Baron and Hershey show that people judge decisions by outcomes even when those outcomes were not foreseeable. When Authority Outlives Accountability asks what that bias does to leadership evaluation: visible harm looks like failure, while delayed or diluted harm looks like inevitability."
+        }
+      ]
+    },
+    {
+      "slug": "jonathan-baron",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-1-why-leadership-evaluation-fails#user-content-fnref-c1-hershey-outcome-bias-in",
+          "sourceSlug": "baron-jonathan-and-john-c-hershey-outcome-bias-in-decision",
+          "whyThisMatters": "Baron and Hershey show that people judge decisions by outcomes even when those outcomes were not foreseeable. When Authority Outlives Accountability asks what that bias does to leadership evaluation: visible harm looks like failure, while delayed or diluted harm looks like inevitability."
+        }
+      ]
+    },
+    {
+      "slug": "lant-pritchett",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-public-service",
+          "sourceSlug": "andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr",
+          "whyThisMatters": "Andrews, Pritchett, and Woolcock argue that public organizations escape capability traps through problem-driven iteration more reliably than through large redesigns detached from feedback. Coupling uses that finding to ask when simplification preserves ownership and consequence return\u2014and when it only removes structure."
+        }
+      ]
+    },
+    {
+      "slug": "matthew-andrews",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-public-service",
+          "sourceSlug": "andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr",
+          "whyThisMatters": "Andrews, Pritchett, and Woolcock argue that public organizations escape capability traps through problem-driven iteration more reliably than through large redesigns detached from feedback. Coupling uses that finding to ask when simplification preserves ownership and consequence return\u2014and when it only removes structure."
+        }
+      ]
+    },
+    {
+      "slug": "michael-woolcock",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-public-service",
+          "sourceSlug": "andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr",
+          "whyThisMatters": "Andrews, Pritchett, and Woolcock argue that public organizations escape capability traps through problem-driven iteration more reliably than through large redesigns detached from feedback. Coupling uses that finding to ask when simplification preserves ownership and consequence return\u2014and when it only removes structure."
+        }
+      ]
+    },
+    {
+      "slug": "paul-s-adler",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-research",
+          "sourceSlug": "adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc",
+          "whyThisMatters": "Adler's NUMMI study shows that high performance came from structured routines, training, trust, and the standing to surface problems\u2014not from removing organization. The World We Make Together takes that finding into a broader question: what does a system assume people can contribute, and who is allowed to make defects visible before they travel?"
         }
       ]
     },
@@ -676,8 +864,88 @@
   ],
   "tiedCitationExamples": [
     {
+      "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-research",
+      "slug": "adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-look-to-you-v2/chapters/parts-part-3-eroding-chapter-9-exceptions-are-forever#user-content-fnref-c9-temporary-becomes-permanent",
+      "slug": "agamben-giorgio-state-of-exception",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-16-the-new-professional-literacy#user-content-fnref-c16-opening",
       "slug": "amershi-saleema-et-al-guidelines-for-human-ai-interaction",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined",
+      "slug": "anderson-benedict-imagined-communities-reflections-on-the-origin-and-spread-of-nationalism",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-19-media-and-algorithmic-coupling#user-content-fnref-c19-editorial",
+      "slug": "anderson-c-w-rebuilding-the-news-metropolitan-journalism-in-the-digital-age",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-public-service",
+      "slug": "andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-accountability-no-longer-expires/chapters/front-matter-preface-why-this-book-exists#user-content-fnref-preface-arendt-clarity",
+      "slug": "arendt-hannah-between-past-and-future",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-2-moral-posture-toward-harm#user-content-fnref-c2-arendt-eichmann-in-jerusalem",
+      "slug": "arendt-hannah-eichmann-in-jerusalem-a-report-on-the-banality-of-evil",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-moral-seriousness-scales/chapters/parts-part-4-what-remains-possible-chapter-9-rebuilding-density#user-content-fnref-c9-arendt-on-revolution",
+      "slug": "arendt-hannah-on-revolution",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-3-effectiveness#user-content-fnref-c3-arendt-on-violence-distinguishing",
+      "slug": "arendt-hannah-on-violence",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/coupling/chapters/back-matter-epilogue-stay-cohesive-stay-close#user-content-fnref-epi-judgment",
+      "slug": "arendt-hannah-responsibility-and-judgment",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-chapter-9-why-trust-matters#user-content-fnref-c9-arendt",
+      "slug": "arendt-hannah-the-human-condition",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-8-legitimacy-over-time#user-content-fnref-c8-arendt",
+      "slug": "arendt-hannah-what-is-authority",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-7-effectiveness-and-its-illusions#user-content-fnref-c7-performance-paradox",
+      "slug": "argyris-chris-and-donald-a-schon-organizational-learning-ii",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-accountability-no-longer-expires/chapters/parts-part-3-learning-without-resolution-chapter-6-adaptation-is-not-renewal#user-content-fnref-c6-argyris-reform",
+      "slug": "argyris-chris-on-organizational-learning",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-modeling-and-signals",
+      "slug": "bandura-albert-social-learning-theory",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-1-why-leadership-evaluation-fails#user-content-fnref-c1-hershey-outcome-bias-in",
+      "slug": "baron-jonathan-and-john-c-hershey-outcome-bias-in-decision",
       "status": "verified_link_tied_citation"
     },
     {
@@ -695,35 +963,35 @@
     "sources": {
       "bibliographyOnly": 54,
       "byEvidenceLevel": {
-        "A": 3,
-        "B": 639,
+        "A": 19,
+        "B": 623,
         "C": 0,
         "D": 54,
         "E": 18
       },
       "invalidPassageLinks": 0,
-      "mechanicalFootnoteCandidates": 639,
-      "missingPathWithFootnote": 639,
-      "pathNeedsEditorialReview": 0,
-      "tiedCitationCoveragePct": 0.42,
+      "mechanicalFootnoteCandidates": 622,
+      "missingPathWithFootnote": 622,
+      "pathNeedsEditorialReview": 1,
+      "tiedCitationCoveragePct": 2.66,
       "total": 714,
       "unverifiedFragmentLinks": 0,
-      "validPassageLinks": 3,
-      "verifiedLinkTiedCitation": 3,
-      "whyThisMattersOk": 3,
-      "withReaderPassagePath": 3
+      "validPassageLinks": 20,
+      "verifiedLinkTiedCitation": 19,
+      "whyThisMattersOk": 20,
+      "withReaderPassagePath": 20
     },
     "thinkers": {
       "byEvidenceLevel": {
-        "A": 4,
-        "B": 589,
+        "A": 17,
+        "B": 576,
         "C": 0,
         "D": 50,
         "E": 0
       },
       "total": 643,
-      "usefulPathPct": 0.62,
-      "withDerivablePassages": 4
+      "usefulPathPct": 2.64,
+      "withDerivablePassages": 17
     }
   }
 }

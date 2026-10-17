@@ -20,17 +20,51 @@
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-fremont-close",
       "entityKind": "source",
       "evidenceLevel": "B",
+      "note": "Rejected alternative after applying the Adler-only research locus.",
       "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard",
       "slug": "adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc",
-      "status": "proposed"
+      "status": "skipped",
+      "updatedAt": "2026-10-17T16:14:37Z"
+    },
+    "source:adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc:/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-open": {
+      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-open",
+      "entityKind": "source",
+      "evidenceLevel": "B",
+      "note": "Preferred Adler-only research locus (c5-nummi-research) over shared opening note.",
+      "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard",
+      "slug": "adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc",
+      "status": "skipped",
+      "updatedAt": "2026-10-17T15:32:57Z"
+    },
+    "source:adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc:/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-research": {
+      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-research",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR2 editorial batch: readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard",
+      "slug": "adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc",
+      "status": "applied",
+      "updatedAt": "2026-10-17T15:32:57Z"
     },
     "source:agamben-giorgio-state-of-exception:/explore/books/when-others-look-to-you-v1/chapters/parts-part-4-scale-pressure-misjudgment-chapter-10-tradeoffs-under-pressure#user-content-fnref-c10-crisis-precedent": {
       "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-4-scale-pressure-misjudgment-chapter-10-tradeoffs-under-pressure#user-content-fnref-c10-crisis-precedent",
       "entityKind": "source",
       "evidenceLevel": "B",
+      "note": "Applied v2 Exceptions-are-Forever locus instead.",
       "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-4-scale-pressure-misjudgment-chapter-10-tradeoffs-under-pressure",
       "slug": "agamben-giorgio-state-of-exception",
-      "status": "proposed"
+      "status": "skipped",
+      "updatedAt": "2026-10-17T15:32:57Z"
+    },
+    "source:agamben-giorgio-state-of-exception:/explore/books/when-others-look-to-you-v2/chapters/parts-part-3-eroding-chapter-9-exceptions-are-forever#user-content-fnref-c9-temporary-becomes-permanent": {
+      "candidatePath": "/explore/books/when-others-look-to-you-v2/chapters/parts-part-3-eroding-chapter-9-exceptions-are-forever#user-content-fnref-c9-temporary-becomes-permanent",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR2 editorial batch: readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/when-others-look-to-you-v2/chapters/parts-part-3-eroding-chapter-9-exceptions-are-forever",
+      "slug": "agamben-giorgio-state-of-exception",
+      "status": "applied",
+      "updatedAt": "2026-10-17T15:32:57Z"
     },
     "source:albertz-rainer-israel-in-exile-the-history-and-literature-of-the:/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-babylonian-exile": {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-babylonian-exile",
@@ -44,17 +78,21 @@
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns",
       "entityKind": "source",
       "evidenceLevel": "B",
+      "note": "Shared footnote with Timeless Way; defer until a primary locus is chosen.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering",
       "slug": "alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language",
-      "status": "proposed"
+      "status": "deferred",
+      "updatedAt": "2026-10-17T16:14:37Z"
     },
     "source:alexander-christopher-the-timeless-way-of-building:/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns": {
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns",
       "entityKind": "source",
       "evidenceLevel": "B",
+      "note": "Shared footnote with Pattern Language; defer until a primary locus is chosen.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering",
       "slug": "alexander-christopher-the-timeless-way-of-building",
-      "status": "proposed"
+      "status": "deferred",
+      "updatedAt": "2026-10-17T16:14:37Z"
     },
     "source:alexander-robin-die-getriebenen-merkel-und-die-fl-chtlingspolitik:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-refugees": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-refugees",
@@ -68,9 +106,11 @@
       "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-devops-emergence",
       "entityKind": "source",
       "evidenceLevel": "B",
+      "note": "Shared footnote with DevOps Handbook; defer until a clean single-work locus exists.",
       "routeKey": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling",
       "slug": "allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr",
-      "status": "proposed"
+      "status": "deferred",
+      "updatedAt": "2026-10-17T16:14:37Z"
     },
     "source:ambedkar-b-r-what-congress-and-gandhi-have-done-to-the-untouchables:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-7": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-7",
@@ -79,6 +119,207 @@
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt",
       "slug": "ambedkar-b-r-what-congress-and-gandhi-have-done-to-the-untouchables",
       "status": "proposed"
+    },
+    "source:american-college-of-emergency-physicians-boarding:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding": {
+      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding",
+      "entityKind": "source",
+      "evidenceLevel": "B",
+      "note": "Shared footnote with Institute of Medicine; defer until a primary locus is chosen.",
+      "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs",
+      "slug": "american-college-of-emergency-physicians-boarding",
+      "status": "deferred",
+      "updatedAt": "2026-10-17T16:14:37Z"
+    },
+    "source:anderson-benedict-imagined-communities-reflections-on-the-origin-and-spread-of-nationalism:/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined": {
+      "candidatePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR2 editorial batch: readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust",
+      "slug": "anderson-benedict-imagined-communities-reflections-on-the-origin-and-spread-of-nationalism",
+      "status": "applied",
+      "updatedAt": "2026-10-17T15:32:57Z"
+    },
+    "source:anderson-c-w-rebuilding-the-news-metropolitan-journalism-in-the-digital-age:/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-19-media-and-algorithmic-coupling#user-content-fnref-c19-editorial": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-19-media-and-algorithmic-coupling#user-content-fnref-c19-editorial",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR2 editorial batch: readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-19-media-and-algorithmic-coupling",
+      "slug": "anderson-c-w-rebuilding-the-news-metropolitan-journalism-in-the-digital-age",
+      "status": "applied",
+      "updatedAt": "2026-10-17T15:32:57Z"
+    },
+    "source:andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-public-service": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-public-service",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR2 editorial batch: readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials",
+      "slug": "andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr",
+      "status": "applied",
+      "updatedAt": "2026-10-17T15:32:57Z"
+    },
+    "source:arendt-hannah-between-past-and-future:/explore/books/when-accountability-no-longer-expires/chapters/front-matter-preface-why-this-book-exists#user-content-fnref-preface-arendt-clarity": {
+      "candidatePath": "/explore/books/when-accountability-no-longer-expires/chapters/front-matter-preface-why-this-book-exists#user-content-fnref-preface-arendt-clarity",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR2 editorial batch: readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/when-accountability-no-longer-expires/chapters/front-matter-preface-why-this-book-exists",
+      "slug": "arendt-hannah-between-past-and-future",
+      "status": "applied",
+      "updatedAt": "2026-10-17T15:34:15Z"
+    },
+    "source:arendt-hannah-eichmann-in-jerusalem-a-report-on-the-banality-of-evil:/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-2-moral-posture-toward-harm#user-content-fnref-c2-arendt-eichmann-in-jerusalem": {
+      "candidatePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-2-moral-posture-toward-harm#user-content-fnref-c2-arendt-eichmann-in-jerusalem",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR2 editorial batch: readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-2-moral-posture-toward-harm",
+      "slug": "arendt-hannah-eichmann-in-jerusalem-a-report-on-the-banality-of-evil",
+      "status": "applied",
+      "updatedAt": "2026-10-17T15:32:57Z"
+    },
+    "source:arendt-hannah-on-revolution:/explore/books/when-moral-seriousness-scales/chapters/parts-part-4-what-remains-possible-chapter-9-rebuilding-density#user-content-fnref-c9-arendt-on-revolution": {
+      "candidatePath": "/explore/books/when-moral-seriousness-scales/chapters/parts-part-4-what-remains-possible-chapter-9-rebuilding-density#user-content-fnref-c9-arendt-on-revolution",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR3 editorial batch: readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/when-moral-seriousness-scales/chapters/parts-part-4-what-remains-possible-chapter-9-rebuilding-density",
+      "slug": "arendt-hannah-on-revolution",
+      "status": "applied",
+      "updatedAt": "2026-10-17T21:38:13Z"
+    },
+    "source:arendt-hannah-on-violence:/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-3-effectiveness#user-content-fnref-c3-arendt-on-violence-distinguishing": {
+      "candidatePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-3-effectiveness#user-content-fnref-c3-arendt-on-violence-distinguishing",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR2 editorial batch: readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-3-effectiveness",
+      "slug": "arendt-hannah-on-violence",
+      "status": "applied",
+      "updatedAt": "2026-10-17T15:32:57Z"
+    },
+    "source:arendt-hannah-responsibility-and-judgment:/explore/books/coupling/chapters/back-matter-epilogue-stay-cohesive-stay-close#user-content-fnref-epi-judgment": {
+      "candidatePath": "/explore/books/coupling/chapters/back-matter-epilogue-stay-cohesive-stay-close#user-content-fnref-epi-judgment",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR3 editorial batch: readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/coupling/chapters/back-matter-epilogue-stay-cohesive-stay-close",
+      "slug": "arendt-hannah-responsibility-and-judgment",
+      "status": "applied",
+      "updatedAt": "2026-10-17T21:38:13Z"
+    },
+    "source:arendt-hannah-responsibility-and-judgment:/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-02-responsibility-as-cohesion#user-content-fnref-c2-cohesive-responsibility": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-02-responsibility-as-cohesion#user-content-fnref-c2-cohesive-responsibility",
+      "entityKind": "source",
+      "evidenceLevel": "B",
+      "note": "Rejected alternative after applying Coupling epilogue judgment locus.",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-02-responsibility-as-cohesion",
+      "slug": "arendt-hannah-responsibility-and-judgment",
+      "status": "skipped",
+      "updatedAt": "2026-10-17T21:38:13Z"
+    },
+    "source:arendt-hannah-the-human-condition:/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-bridge#user-content-fnref-p3-arendt": {
+      "candidatePath": "/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-bridge#user-content-fnref-p3-arendt",
+      "entityKind": "source",
+      "evidenceLevel": "B",
+      "note": "Rejected thinner bridge locus; applied chapter 9 plurality passage.",
+      "routeKey": "/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-bridge",
+      "slug": "arendt-hannah-the-human-condition",
+      "status": "skipped",
+      "updatedAt": "2026-10-17T21:38:13Z"
+    },
+    "source:arendt-hannah-the-human-condition:/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-chapter-9-why-trust-matters#user-content-fnref-c9-arendt": {
+      "candidatePath": "/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-chapter-9-why-trust-matters#user-content-fnref-c9-arendt",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR3 editorial batch: readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-chapter-9-why-trust-matters",
+      "slug": "arendt-hannah-the-human-condition",
+      "status": "applied",
+      "updatedAt": "2026-10-17T21:38:13Z"
+    },
+    "source:arendt-hannah-what-is-authority:/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-working-definition": {
+      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-working-definition",
+      "entityKind": "source",
+      "evidenceLevel": "B",
+      "note": "Rejected shared Weber+Arendt definition note; applied c8 sacralized-legitimacy locus.",
+      "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to",
+      "slug": "arendt-hannah-what-is-authority",
+      "status": "skipped",
+      "updatedAt": "2026-10-17T21:38:13Z"
+    },
+    "source:arendt-hannah-what-is-authority:/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-8-legitimacy-over-time#user-content-fnref-c8-arendt": {
+      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-8-legitimacy-over-time#user-content-fnref-c8-arendt",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR3 editorial batch: readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-8-legitimacy-over-time",
+      "slug": "arendt-hannah-what-is-authority",
+      "status": "applied",
+      "updatedAt": "2026-10-17T21:38:13Z"
+    },
+    "source:argyris-chris-and-donald-a-schon-organizational-learning-ii:/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-7-effectiveness-and-its-illusions#user-content-fnref-c7-performance-paradox": {
+      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-7-effectiveness-and-its-illusions#user-content-fnref-c7-performance-paradox",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR3 editorial batch: readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-7-effectiveness-and-its-illusions",
+      "slug": "argyris-chris-and-donald-a-schon-organizational-learning-ii",
+      "status": "applied",
+      "updatedAt": "2026-10-17T21:38:13Z"
+    },
+    "source:argyris-chris-and-donald-a-schon-organizational-learning-ii:/explore/books/when-others-look-to-you-v2/chapters/back-matter-epilogue#user-content-fnref-epilogue-learning-and-defenses": {
+      "candidatePath": "/explore/books/when-others-look-to-you-v2/chapters/back-matter-epilogue#user-content-fnref-epilogue-learning-and-defenses",
+      "entityKind": "source",
+      "evidenceLevel": "B",
+      "note": "Rejected v2 epilogue locus; applied v1 performance-paradox chapter.",
+      "routeKey": "/explore/books/when-others-look-to-you-v2/chapters/back-matter-epilogue",
+      "slug": "argyris-chris-and-donald-a-schon-organizational-learning-ii",
+      "status": "skipped",
+      "updatedAt": "2026-10-17T21:38:13Z"
+    },
+    "source:argyris-chris-on-organizational-learning:/explore/books/when-accountability-no-longer-expires/chapters/parts-part-3-learning-without-resolution-chapter-6-adaptation-is-not-renewal#user-content-fnref-c6-argyris-reform": {
+      "candidatePath": "/explore/books/when-accountability-no-longer-expires/chapters/parts-part-3-learning-without-resolution-chapter-6-adaptation-is-not-renewal#user-content-fnref-c6-argyris-reform",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR3 editorial batch: readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/when-accountability-no-longer-expires/chapters/parts-part-3-learning-without-resolution-chapter-6-adaptation-is-not-renewal",
+      "slug": "argyris-chris-on-organizational-learning",
+      "status": "applied",
+      "updatedAt": "2026-10-17T21:38:13Z"
+    },
+    "source:argyris-chris-overcoming-organizational-defenses:/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-correction-and-insulation": {
+      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-correction-and-insulation",
+      "editorialApproval": true,
+      "entityKind": "source",
+      "evidenceLevel": "B",
+      "note": "PR2 applied with editorial approval. Mechanical evidence remains B (path_valid_shared_or_ambiguous_citation): footnote text names only Overcoming Organizational Defenses, but another Argyris work also scores the note.",
+      "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to",
+      "slug": "argyris-chris-overcoming-organizational-defenses",
+      "status": "applied",
+      "updatedAt": "2026-10-17T16:14:37Z"
+    },
+    "source:bandura-albert-social-learning-theory:/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-modeling-and-signals": {
+      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-modeling-and-signals",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR3 editorial batch: readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to",
+      "slug": "bandura-albert-social-learning-theory",
+      "status": "applied",
+      "updatedAt": "2026-10-17T21:38:13Z"
+    },
+    "source:baron-jonathan-and-john-c-hershey-outcome-bias-in-decision:/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-1-why-leadership-evaluation-fails#user-content-fnref-c1-hershey-outcome-bias-in": {
+      "candidatePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-1-why-leadership-evaluation-fails#user-content-fnref-c1-hershey-outcome-bias-in",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "PR3 editorial batch: readerPassagePath + whyThisMatters applied.",
+      "routeKey": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-1-why-leadership-evaluation-fails",
+      "slug": "baron-jonathan-and-john-c-hershey-outcome-bias-in-decision",
+      "status": "applied",
+      "updatedAt": "2026-10-17T21:38:13Z"
     }
   }
 }

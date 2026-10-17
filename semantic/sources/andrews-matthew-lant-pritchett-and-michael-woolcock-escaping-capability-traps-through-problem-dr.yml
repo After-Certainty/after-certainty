@@ -9,6 +9,13 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Andrews, Pritchett, and Woolcock argue that public organizations escape
+  capability traps through problem-driven iteration more reliably than through
+  large redesigns detached from feedback. Coupling uses that finding to ask when
+  simplification preserves ownership and consequence return—and when it only
+  removes structure.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-public-service
 title: Escaping Capability Traps Through Problem Driven Iterative Adaptation (PDIA).
 creatorNames:
 - Lant Pritchett, Matthew Andrews, and Michael Woolcock
