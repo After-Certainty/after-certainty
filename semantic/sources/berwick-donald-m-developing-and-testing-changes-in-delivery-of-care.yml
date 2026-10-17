@@ -7,6 +7,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Berwick’s care-delivery work shows learning accelerating when teams stay close
+  to outcomes and can redesign quickly. Coupling cites that non-software
+  parallel for Agile’s deeper claim: shorter loops matter because they restore
+  cohesion between action and consequence.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-06-agile-increasing-cohesion-of-teams#user-content-fnref-c6-nonengineering-vignette
 title: Developing and Testing Changes in Delivery of Care.
 creatorNames:
 - Donald M Berwick

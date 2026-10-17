@@ -1,20 +1,24 @@
 slug: arthur-w-brian-increasing-returns-and-path-dependence-in-the-economy
 name: W. Brian Arthur — Increasing Returns and Path Dependence in the Economy.
-type: article
-summary: 'Arthur, W. Brian. "Increasing Returns and Path Dependence in the Economy."
-  In The Economy as an Evolving Complex System II, edited by W. Brian Arthur, Steven
-  N. Durlauf, and David A. Lane, 1–24. Reading, MA: Addison-Wesley, 1997.'
+type: book
+summary: 'Arthur, W. Brian. Increasing Returns and Path Dependence in the Economy.
+  Ann Arbor: University of Michigan Press, 1994.'
 concepts: []
 patterns: []
 relatedBooks:
 - living-in-sediment
+whyThisMatters: >-
+  Arthur shows how increasing returns lock early solutions into place until they
+  feel natural rather than contingent. Living in Sediment takes that lock-in
+  into ordinary life: weekdays, keyboards, and dialing habits keep solving
+  vanished constraints long after the original problem is gone.
+readerPassagePath: /explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-arthur-lock-in
 title: Increasing Returns and Path Dependence in the Economy.
 creatorNames:
 - W. Brian Arthur
 creatorSlugs:
 - w-brian-arthur
-citation: 'Arthur, W. Brian. "Increasing Returns and Path Dependence in the Economy."
-  In The Economy as an Evolving Complex System II, edited by W. Brian Arthur, Steven
-  N. Durlauf, and David A. Lane, 1–24. Reading, MA: Addison-Wesley, 1997.'
-sourceKind: article
-year: 1997
+citation: 'Arthur, W. Brian. Increasing Returns and Path Dependence in the Economy.
+  Ann Arbor: University of Michigan Press, 1994.'
+sourceKind: book
+year: 1994

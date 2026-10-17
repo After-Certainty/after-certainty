@@ -8,6 +8,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Berwick argues surgical outcome measurement improves care only when it
+  reconnects to local operational change. Coupling applies the same structural
+  test beyond software: metrics without redesign authority become compliance
+  theater while outcomes stagnate.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-healthcare
 title: 'Measuring Surgical Outcomes for Improvement: Was Codman Wrong?'
 creatorNames:
 - Donald M Berwick
