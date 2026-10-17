@@ -7,6 +7,11 @@ concepts: []
 patterns: []
 relatedBooks:
 - when-authority-outlives-accountability
+whyThisMatters: >-
+  Goodhart's work on monetary targets raises a problem that extends beyond monetary
+  policy: a measure used to steer an institution can lose touch with what it was
+  meant to represent. The connection to accountability is worth asking about:
+  what happens when meeting the target displaces answering for the consequences?
 title: 'Problems of Monetary Management: The U.K.'
 creatorNames:
 - Charles A. E Goodhart
@@ -16,3 +21,4 @@ citation: 'Goodhart, Charles A. E. "Problems of Monetary Management: The U.K. Ex
   In Papers in Monetary Economics, vol. 1. Sydney: Reserve Bank of Australia, 1975.'
 sourceKind: article
 year: 1975
+readerPassagePath: /explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-3-effectiveness#effective-at-what

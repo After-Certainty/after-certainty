@@ -66,6 +66,8 @@ A claim with a note.[^n1]
     expect(html).toContain("Section One");
     expect(html).toMatch(/id="[^"]*section-one"/i);
     expect(html).toContain("data-footnote-ref");
+    // Curated source links may target a chapter citation with this stable fragment.
+    expect(html).toContain('id="user-content-fnref-n1"');
     expect(html).toContain("footnotes");
     expect(html).toContain("Citation body");
     expect(html).not.toContain("<script>");
