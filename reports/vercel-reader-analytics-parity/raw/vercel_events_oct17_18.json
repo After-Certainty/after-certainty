@@ -1,0 +1,1 @@
+{"version":1,"query":{"since":"2026-10-17T00:00:00.000Z","until":"2026-10-18T01:00:00.000Z","groupBy":["eventName"],"filter":"environment eq 'production'","limit":40},"data":[]}

@@ -1,0 +1,58 @@
+{
+  "generated_at_utc": "2026-10-17T22:36:00Z",
+  "timezone": "America/Denver",
+  "window": {
+    "since": "2026-10-10",
+    "until": "2026-10-16",
+    "rule": "last_7_completed_denver_days_ending_yesterday"
+  },
+  "pr1_merged_at_utc": "2026-10-17T21:15:09Z",
+  "pr2_merged_at_utc": "2026-10-17T22:14:33Z",
+  "observation_window_note": "Gate 3 requires 2–4 weeks after PR 1. This snapshot is baseline / early-signal only.",
+  "earliest_revisit_date": "2026-10-31",
+  "preferred_decision_date": "2026-11-14",
+  "decision_report": "docs/analytics/vercel-reader-analytics-parity-decision.md",
+  "vercel": {
+    "visitors": 176,
+    "pageviews": 208,
+    "events": {
+      "corpus_navigation": { "count": 4, "visitors": 4 },
+      "listen_item_selected": { "count": 6, "visitors": 2 }
+    },
+    "google_referrer_visitors": 11,
+    "empty_referrer_visitors": 131,
+    "top_countries": [
+      { "country": "SG", "visitors": 98, "pageviews": 104 },
+      { "country": "US", "visitors": 18, "pageviews": 32 },
+      { "country": "CN", "visitors": 10, "pageviews": 10 }
+    ]
+  },
+  "ga4": {
+    "overview": {
+      "sessions": "9",
+      "activeUsers": "4",
+      "totalUsers": "5",
+      "screenPageViews": "32",
+      "eventCount": "63"
+    },
+    "reader_events": { "chapter_open": 2 },
+    "organic_search_sessions": 5
+  },
+  "post_pr1_owner_smoke_2026_10_17": {
+    "note": "Owner production clicks after PR 1; until=2026-10-18 for Vercel event API",
+    "vercel_events": {
+      "chapter_open": { "count": 2, "visitors": 1 },
+      "chapter_advance": { "count": 3, "visitors": 1 },
+      "book_download": { "count": 1, "visitors": 1 },
+      "corpus_navigation": { "count": 3, "visitors": 1 }
+    },
+    "dual_write_verified": true,
+    "attribution_to_id_observed": true
+  },
+  "billing_observation": {
+    "plan": "pro",
+    "web_analytics_plus_invoice_item_price_cents": 1000,
+    "web_analytics_event_price_per_event_usd": 0.003
+  },
+  "recommendation": "keep_parallel_longer"
+}

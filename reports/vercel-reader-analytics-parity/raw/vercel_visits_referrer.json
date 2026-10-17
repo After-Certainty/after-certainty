@@ -1,0 +1,1 @@
+{"version":1,"query":{"since":"2026-10-10T00:00:00.000Z","until":"2026-10-16T01:00:00.000Z","groupBy":["referrerHostname"],"filter":"environment eq 'production'","limit":20},"data":[{"referrerHostname":"","visitors":131,"pageviews":156},{"referrerHostname":"google.com","visitors":11,"pageviews":11}]}

@@ -1,0 +1,1 @@
+{"version":1,"query":{"since":"2026-10-17T00:00:00.000Z","until":"2026-10-18T01:00:00.000Z","groupBy":["eventData/book_id","eventData/format"],"filter":"environment eq 'production' and eventName eq 'book_download'","limit":20},"data":[{"eventData/book_id":"book-when-others-look-to-you-v1","eventData/format":"pdf","visitors":1,"count":1}]}
