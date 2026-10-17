@@ -26,3 +26,11 @@ capabilities:
     broker:
       endpoint: "https://pade-broker-754719312452.us-central1.run.app"
       audience: "https://pade-broker-754719312452.us-central1.run.app"
+
+  # PR 2: read-only Web Analytics API. Until the broker grants this capability,
+  # reader-analytics scripts fall back to vercel.diagnostics (identical Material).
+  vercel.analytics.read:
+    provider: broker
+    broker:
+      endpoint: "https://pade-broker-754719312452.us-central1.run.app"
+      audience: "https://pade-broker-754719312452.us-central1.run.app"

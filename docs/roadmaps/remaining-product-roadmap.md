@@ -103,11 +103,11 @@ Application events for the reader funnel are **shipped**. Remaining work is GA4 
 
 ## 3. Observe
 
-Signals that may create future work. No arbitrary KPI targets. Use existing GA4 / reporting tooling (`apps/site/lib/analytics/`, `tools/ga_trends_brief.py`, site GA scripts, PADE broker) — and, as the migration lands, Vercel Web Analytics reports — to decide where investment is justified.
+Signals that may create future work. No arbitrary KPI targets. Use existing GA4 / reporting tooling (`apps/site/lib/analytics/`, `tools/ga_trends_brief.py`, site GA scripts, PADE broker) — and Vercel Web Analytics reports via `make reader-analytics-test` / [`reader-analytics`](../../apps/site/.cursor/skills/reader-analytics/SKILL.md) as PR 2 lands — to decide where investment is justified.
 
 ### Vercel reader analytics migration
 
-Specialized plan: [`vercel-reader-analytics-migration.md`](vercel-reader-analytics-migration.md). Goal: make Vercel Web Analytics the primary readership measurement system, keep Google Search Console for search discovery, and retire GA4 only after parallel measurement and an explicit approval gate. **Do not start destructive GA4 removal from this Observe note alone.**
+Specialized plan: [`vercel-reader-analytics-migration.md`](vercel-reader-analytics-migration.md). Goal: make Vercel Web Analytics the primary readership measurement system, keep Google Search Console for search discovery, and retire GA4 only after parallel measurement and an explicit approval gate. **PR 0–1 merged; PR 2 reporting in flight.** **Do not start destructive GA4 removal from this Observe note alone.**
 
 | Signal area | What to watch | Notes |
 |-------------|---------------|--------|
