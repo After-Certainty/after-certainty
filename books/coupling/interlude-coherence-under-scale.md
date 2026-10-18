@@ -84,7 +84,7 @@ The chapters that follow explore how systems oscillate between reform and rigidi
 
 [^int-scale-coordination]: Friedrich A. Hayek, "The Use of Knowledge in Society," *American Economic Review* 35, no. 4 (1945): 519-530; Herbert A. Simon, *Administrative Behavior*, on bounded rationality under complexity; Donella Meadows, *Thinking in Systems: A Primer*.
 [^int-coordination-pressure]: Herbert A. Simon, *Administrative Behavior*, 4th ed., on administrative coordination under complexity; Elinor Ostrom, *Governing the Commons*, on rule structures under distributed actors.
-[^int-sync-cost]: Gene Kim et al., *The DevOps Handbook*, on incident bridges and cross-team synchronization; Nicole Forsgren, Jez Humble, and Gene Kim, *Accelerate*, on recovery and change-failure dynamics.
+[^int-sync-cost]: Gene Kim et al., *The DevOps Handbook*, on incident bridges and cross-team synchronization. On recovery and change-failure metrics, see [^int-dora-coherence].
 [^int-dora-coherence]: Nicole Forsgren, Jez Humble, and Gene Kim, *Accelerate* (IT Revolution Press, 2018), on delivery and stability metrics as system-level signals.
 [^int-stale-representations]: W. Edwards Deming, *Out of the Crisis*; Stafford Beer, *Brain of the Firm*, on signal delay through layered control.
 [^int-bureaucracy-lock]: James Madison, *The Federalist Papers*; Christopher Pollitt and Geert Bouckaert, *Public Management Reform*, on procedural accumulation and adaptation limits.

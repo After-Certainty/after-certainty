@@ -79,19 +79,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-devops-emergence",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-7",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -109,13 +96,13 @@
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
       "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
+        "fragment_tied_but_shared_or_ambiguous",
+        "shared_footnote_with:institute-of-medicine-hospital-based-emergency-care-at-the-breaking-point"
       ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
+      "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding",
+      "recommendedAction": "editorial_confirm_passage_relevance",
       "slug": "american-college-of-emergency-physicians-boarding",
-      "status": "strong_candidate"
+      "status": "path_valid_shared_or_ambiguous_citation"
     },
     {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-luck",
@@ -170,22 +157,9 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-david-qwerty",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "arthur-w-brian-competing-technologies-increasing-returns-and-lock-in-by",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-arthur-lock-in",
       "evidenceLevel": "B",
-      "footnoteHitCount": 4,
+      "footnoteHitCount": 3,
       "notes": [
         "fragment_tied_but_shared_or_ambiguous",
         "shared_footnote_with:pierson-paul-increasing-returns-path-dependence-and-the-study-of-politics"
@@ -194,19 +168,6 @@
       "recommendedAction": "editorial_confirm_passage_relevance",
       "slug": "arthur-w-brian-increasing-returns-and-path-dependence-in-the-economy",
       "status": "path_valid_shared_or_ambiguous_citation"
-    },
-    {
-      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-smith-carlos",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "associated-press-ap-was-there-smith-and-carlos-protest-during-1968-olympics",
-      "status": "strong_candidate"
     },
     {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-knight-method",
@@ -473,13 +434,13 @@
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
       "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
+        "fragment_tied_but_shared_or_ambiguous",
+        "shared_footnote_with:calhoun-craig-neither-gods-nor-emperors-students-and-the-struggle-for-democracy-in-china,lim-louisa-the-people-s-republic-of-amnesia-tiananmen-revisited"
       ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen",
+      "recommendedAction": "editorial_confirm_passage_relevance",
       "slug": "brook-timothy-quelling-the-people-the-military-suppression-of-the-beijing-democracy-movement",
-      "status": "strong_candidate"
+      "status": "path_valid_shared_or_ambiguous_citation"
     },
     {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-close",
@@ -647,6 +608,45 @@
       "readerPassagePath": null,
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "cockburn-alistair-the-heart-of-agile",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-4-population-growth-and-social-density#user-content-fnref-c4-lachish-siege",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "cogan-mordechai-the-raging-torrent-historical-inscriptions-from",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-aca",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "cohn-jonathan-the-ten-year-war-obamacare-and-the-unmaking-of-american-establishment",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/what-we-cannot-see/chapters/parts-part-3-integration-learning-together-chapter-11-when-failure-teaches-the-system#user-content-fnref-c11-shuttle",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "columbia-accident-investigation-board-report-of-the-columbia-accident-investigation-board",
       "status": "strong_candidate"
     }
   ],
@@ -894,6 +894,12 @@
       "workPassageLinks": [
         {
           "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-smith-carlos",
+          "sourceSlug": "associated-press-ap-was-there-smith-and-carlos-protest-during-1968-olympics",
+          "whyThisMatters": "The AP retrospective documents the 1968 podium protest and the immediate institutional response\u2014suspension and removal from the Olympic Village. The Game We Think We Saw uses that event record before turning to later honor. The source establishes what happened then; the book asks how the same gesture becomes a different message once audiences no longer have to respond now."
+        },
+        {
+          "evidenceLevel": "A",
           "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-nike",
           "sourceSlug": "associated-press-nike-unveils-kaepernick-ad-to-air-during-nfl-season-opener",
           "whyThisMatters": "The Associated Press reports Nike\u2019s September 2018 campaign built around Kaepernick as a commercial image of conviction after his protest. The Game We Think We Saw uses that translation\u2014from quarterback to protester to brand symbol\u2014to ask what a gesture still means once markets restore visibility on their own terms. The wire story records the ad\u2019s public debut; the book asks whether commercial recovery clarifies or replaces the protest\u2019s original claim."
@@ -1012,6 +1018,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-devops-emergence",
+      "slug": "allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-16-the-new-professional-literacy#user-content-fnref-c16-opening",
       "slug": "amershi-saleema-et-al-guidelines-for-human-ai-interaction",
       "status": "verified_link_tied_citation"
@@ -1074,6 +1085,11 @@
     {
       "readerPassagePath": "/explore/books/when-accountability-no-longer-expires/chapters/parts-part-3-learning-without-resolution-chapter-6-adaptation-is-not-renewal#user-content-fnref-c6-argyris-reform",
       "slug": "argyris-chris-on-organizational-learning",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-smith-carlos",
+      "slug": "associated-press-ap-was-there-smith-and-carlos-protest-during-1968-olympics",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1414,6 +1430,11 @@
     {
       "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-sabermetrics-spread",
       "slug": "dave-studeman-the-triumph-of-moneyball",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-david-qwerty",
+      "slug": "david-paul-a-clio-and-the-economics-of-qwerty",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1929,6 +1950,11 @@
     {
       "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-9-what-judgment-can-still-do#user-content-fnref-c9-kiernan-overview",
       "slug": "kiernan-ben-the-pol-pot-regime-race-power-and-genocide-in-cambodia-under-the-khmer-rouge-1975-79",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/coupling/chapters/interlude-coherence-under-scale#user-content-fnref-int-sync-cost",
+      "slug": "kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2882,6 +2908,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-smith-carlos-honor",
+      "slug": "world-athletics-iconic-mexico-city-olympic-podium-protest-turns-50",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-porto-alegre-1999",
       "slug": "world-bank-brazil-toward-a-more-inclusive-and-effective-participatory-budget-in-porto-alegre",
       "status": "verified_link_tied_citation"
@@ -2924,37 +2955,37 @@
   ],
   "totals": {
     "sources": {
-      "bibliographyOnly": 56,
+      "bibliographyOnly": 57,
       "byEvidenceLevel": {
-        "A": 384,
-        "B": 255,
+        "A": 389,
+        "B": 249,
         "C": 1,
-        "D": 56,
+        "D": 57,
         "E": 18
       },
       "invalidPassageLinks": 0,
-      "mechanicalFootnoteCandidates": 243,
-      "missingPathWithFootnote": 243,
-      "pathNeedsEditorialReview": 12,
-      "tiedCitationCoveragePct": 53.78,
+      "mechanicalFootnoteCandidates": 235,
+      "missingPathWithFootnote": 235,
+      "pathNeedsEditorialReview": 14,
+      "tiedCitationCoveragePct": 54.48,
       "total": 714,
       "unverifiedFragmentLinks": 0,
-      "validPassageLinks": 396,
-      "verifiedLinkTiedCitation": 384,
-      "whyThisMattersOk": 396,
-      "withReaderPassagePath": 396
+      "validPassageLinks": 403,
+      "verifiedLinkTiedCitation": 389,
+      "whyThisMattersOk": 403,
+      "withReaderPassagePath": 403
     },
     "thinkers": {
       "byEvidenceLevel": {
-        "A": 379,
-        "B": 212,
+        "A": 385,
+        "B": 206,
         "C": 0,
         "D": 52,
         "E": 0
       },
       "total": 643,
-      "usefulPathPct": 58.94,
-      "withDerivablePassages": 379
+      "usefulPathPct": 59.88,
+      "withDerivablePassages": 385
     }
   }
 }
