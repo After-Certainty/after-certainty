@@ -7,6 +7,16 @@ concepts: []
 patterns: []
 relatedBooks:
 - how-serious-systems-learn
+whyThisMatters: >-
+  Hollnagel’s Safety-I and Safety-II contrasts managing safety as the absence of
+  failure with managing the presence of capacities that make everyday
+  performance go right under variable conditions. How Serious Systems Learn
+  borrows that orientation for preoccupation with failure as attention
+  discipline—near misses and small anomalies as structural information, not mere
+  inconvenience. Hollnagel reframes safety management; the book asks how
+  reliability is preserved without letting routine success erase sensitivity to
+  emerging risk.
+readerPassagePath: /explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-8-when-failure-is-not-an-option#user-content-fnref-c8-source-erik-hollnagel-safety
 title: 'Safety-I and Safety-II: The Past and Future of Safety'
 creatorNames:
 - Erik Hollnagel

@@ -7,6 +7,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
+whyThisMatters: >-
+  Hirsch’s 2005 PNAS paper proposes the h-index as a single integer summarizing
+  an individual’s scientific research output via citation patterns. When
+  Incentives Become the Moral Language places that tool among portable influence
+  measures that hiring and funding systems absorb even when the original intent
+  was narrower. Hirsch offers a quantification method; the book asks what
+  happens when careers compress into comparable integers and institutions need
+  fairness they can count.
+readerPassagePath: /explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-3-the-paper-that-must-count#user-content-fnref-c3-hirsch
 title: An Index to Quantify an Individual's Scientific Research Output.
 creatorNames:
 - Jorge E Hirsch

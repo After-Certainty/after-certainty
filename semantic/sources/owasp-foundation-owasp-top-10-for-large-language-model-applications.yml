@@ -6,6 +6,14 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  The OWASP Top 10 for Large Language Model Applications catalogs risks in
+  tool-mediated LLM workflows, including excessive agency, insecure output
+  handling, and supply-chain exposure. Coupling uses those categories for a
+  constraint stack—input, action, and output limits—because generation becomes
+  dangerous mainly when it gains agency to act, not only when it answers
+  wrongly.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-constraint-stack
 title: OWASP Top 10 for Large Language Model Applications
 creatorNames:
 - OWASP Foundation

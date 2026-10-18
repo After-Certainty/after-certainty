@@ -8,6 +8,14 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Peng and coauthors report task-level productivity gains from GitHub Copilot in
+  controlled settings, measuring authoring speed under AI assistance. Coupling
+  accepts those empirical gains, then asks where they land in the wider
+  system—review load, incidents, and ownership design—when authoring accelerates
+  faster than the feedback loops that keep throughput from becoming deferred
+  cost.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-12-the-frictionless-illusion#user-content-fnref-c12-productivity-limits
 title: 'The Impact of AI on Developer Productivity: Evidence from GitHub Copilot.'
 creatorNames:
 - Sida Peng

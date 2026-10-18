@@ -8,6 +8,16 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  NASA’s Aviation Safety Reporting System (ASRS) materials describe a voluntary,
+  confidential incident-reporting channel designed to surface operational
+  hazards and support learning without treating every report as a prosecutorial
+  event. Coupling parallels that tightening of feedback loops—incident
+  reporting, review, cross-role visibility—with DevOps practices that shorten
+  the path from runtime reality to redesign. ASRS documents aviation’s learning
+  infrastructure; the book asks how software can restore operational coupling
+  without dissolving necessary role boundaries.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-aviation-safety
 creatorNames:
 - National Aeronautics and Space Administration
 creatorSlugs:

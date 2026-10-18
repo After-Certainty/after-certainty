@@ -8,6 +8,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - how-serious-systems-learn
+whyThisMatters: >-
+  Eric Ries’s The Lean Startup argues for validated learning through short
+  feedback cycles, minimum viable products, and pivots when evidence contradicts
+  initial assumptions. How Serious Systems Learn treats that lineage as evidence
+  that feedback latency is architectural—instrumentation, signal integrity,
+  decision rhythms, and authority to change direction—not a cultural preference.
+  Ries offers entrepreneurial method under uncertainty; the book asks whether
+  “learning culture” is real without those structural properties.
+readerPassagePath: /explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-5-learning-faster-than-prediction#user-content-fnref-c5-source-eric-ries-the
 title: 'The Lean Startup: How Today''s Entrepreneurs Use Continuous'
 creatorNames:
 - Eric Ries

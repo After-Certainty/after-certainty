@@ -422,4 +422,4 @@ And someone begins taking notes.
 
 [^c4-ntsb-ua173]: See NTSB-AAR-79-7 concluding that the captain failed to monitor and respond properly to the fuel state and that other crew members failed either to understand fully or communicate successfully the urgency of the situation; ten people died.
 
-[^c4-crm]: See Federal Aviation Administration, “McDonnell Douglas DC-8-61” (N8082U / United Airlines Flight 173), Lessons Learned from Civil Aviation Accidents, https://www.faa.gov/lessons_learned/transport_airplane/accidents/N8082U, identifying the accident as a catalyst for CRM adoption; and FAA Advisory Circular 120-51E, *Crew Resource Management Training* (January 22, 2004).
+[^c4-crm]: Federal Aviation Administration, “McDonnell Douglas DC-8-61” (N8082U / United Airlines Flight 173), Lessons Learned from Civil Aviation Accidents, https://www.faa.gov/lessons_learned/transport_airplane/accidents/N8082U, identifying the accident as a catalyst for CRM adoption.

@@ -79,6 +79,14 @@ candidate, confirm in one pass:
 4. **Landing sentence** — Does the invocation sit on prose that engages the
    source, or only on an adjacent theme? Relocate the `[^id]` or defer if the
    bridge is only structural.
+5. **Bibliographic identity** — Spot-check hard identifiers against primary
+   records before apply. For DOI/URL citations: open the DOI/landing page and
+   confirm title, authors, year/venue match the YAML *and* the manuscript
+   footnote (do not trust slug/author strings alone). For government hearings
+   and testimony: confirm hearing date and committee (Senate vs House;
+   joint vs single), and keep `type`/`sourceKind` as speech or
+   institutional_document—not book. Mismatches are source-identity errors;
+   fix YAML + footnote (+ bibliography) together, or defer.
 
 Sample stratified across books on large batches; do not treat audit A% as
 editorial completion.

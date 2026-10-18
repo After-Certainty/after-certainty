@@ -1,0 +1,13 @@
+slug: tony-lee
+name: Tony Lee
+type: person
+summary: AI researcher contributing to Holistic Evaluation of Language Models (HELM)
+  and standardized multi-metric benchmarking.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- bommasani-rishi-percy-liang-and-tony-lee-holistic-evaluation-of-language-models
+whyThisMatters: Lee helps make model limits legible across scenarios—evaluation that
+  travels beyond headline benchmark scores.

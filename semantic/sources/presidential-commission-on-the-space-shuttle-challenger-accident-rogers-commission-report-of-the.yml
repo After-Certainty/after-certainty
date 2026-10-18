@@ -9,6 +9,14 @@ concepts: []
 patterns: []
 relatedBooks:
 - the-world-we-make-together
+whyThisMatters: >-
+  The Rogers Commission report reconstructs the Challenger accident, including
+  the January 27, 1986 teleconference, Morton Thiokol's low-temperature O-ring
+  concerns, and the company's initial recommendation against launching below
+  53°F. The World We Make Together uses that decision sequence for how clock,
+  hierarchy, and inconclusive prior data can keep engineering dissent from
+  stopping a launch once schedule pressure owns the room.
+readerPassagePath: /explore/books/the-world-we-make-together/chapters/parts-part-1-who-makes-history-chapter-3-the-clock#user-content-fnref-c3-thiokol-telecon
 title: Report of the Presidential Commission on the Space Shuttle Challenger Accident
 creatorNames:
 - Presidential Commission on the Space Shuttle Challenger Accident (Rogers Commission)

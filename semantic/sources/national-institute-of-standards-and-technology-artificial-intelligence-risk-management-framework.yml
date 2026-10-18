@@ -8,6 +8,16 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  NIST’s AI Risk Management Framework (AI RMF 1.0) is a voluntary framework for
+  governing, mapping, measuring, and managing risks of AI systems across their
+  lifecycle—emphasizing trustworthy characteristics and organizational practice
+  rather than a single technical fix. Coupling cites it at the bridge into
+  AI-era conditions where generation speed intensifies existing ownership and
+  boundary pressures. The framework establishes risk-management vocabulary for
+  AI; the book asks what happens when plausible output arrives faster than teams
+  can keep responsibility boundaries clear.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-11-hexagonal-architecture-boundary-discipline-at-scale#user-content-fnref-c11-bridge-p3
 title: Artificial Intelligence Risk Management Framework (AI RMF 1.0)
 creatorNames:
 - National Institute of Standards and Technology

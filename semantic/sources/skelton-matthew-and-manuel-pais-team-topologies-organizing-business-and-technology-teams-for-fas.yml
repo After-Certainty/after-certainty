@@ -8,6 +8,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Matthew Skelton and Manuel Pais’s Team Topologies argues for clear team
+  ownership and explicit interaction modes so change can flow without constant
+  coordination overload. Coupling uses that ownership clarity after boundary
+  discipline: teams can distinguish domain-rule failure from integration-adapter
+  failure, shortening correction cycles under pressure. The source argues for
+  team and interaction design; the book asks how weak boundaries create
+  synchronization cost and blame diffusion.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-11-hexagonal-architecture-boundary-discipline-at-scale#user-content-fnref-c11-ownership
 title: 'Team Topologies: Organizing Business and Technology Teams for Fast Flow'
 creatorNames:
 - Manuel Pais and Matthew Skelton

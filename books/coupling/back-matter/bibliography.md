@@ -55,6 +55,10 @@
 - Bogle, John C. *The Clash of the Cultures: Investment vs. Speculation*.
   Hoboken, NJ: Wiley, 2012.
 
+- Bommasani, Rishi, Percy Liang, and Tony Lee. "Holistic Evaluation of Language Models."
+  *Annals of the New York Academy of Sciences* 1525, no. 1 (2023): 140–146.
+  https://doi.org/10.1111/nyas.15007.
+
 - Brooks, Frederick P., Jr. *The Mythical Man-Month: Essays on Software Engineering*. Anniversary ed.
   Boston: Addison-Wesley, 1995.
 
@@ -103,10 +107,6 @@
 
 - Hayek, Friedrich A. "The Use of Knowledge in Society."
   *American Economic Review* 35, no. 4 (1945): 519-530.
-
-- Hendrycks, Dan, Collin Burns, Anya Chen, and Spencer Ball. "Holistic Evaluation of Language Models."
-  *Annals of the New York Academy of Sciences* (2023).
-  https://doi.org/10.1111/nyas.15007.
 
 - Hood, Christopher, and Ruth Dixon. *A Government That Worked Better and Cost Less?*
   Oxford: Oxford University Press, 2015.

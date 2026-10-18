@@ -10,6 +10,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  NIST SP 800-218 (SSDF 1.1) recommends practices for mitigating software
+  vulnerabilities across the development lifecycle—integrating security earlier
+  so defects are found and addressed before late release or runtime. Coupling
+  uses that “shift left” pressure as temporal compression: faster delivery still
+  fails if consequence timing does not move with calendar speed. SSDF states
+  federal guidance for secure development; the book asks whether earlier
+  detection becomes earlier learning or only earlier ceremony.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression#user-content-fnref-c10-shift-left-origin
 title: 'Secure Software Development Framework (SSDF) Version 1.1: Recommendations
   for Mitigating the Risk of Software Vulnerabilities'
 creatorNames:

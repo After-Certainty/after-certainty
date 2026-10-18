@@ -10,6 +10,14 @@ patterns: []
 relatedBooks:
 - trust-beyond-similarity
 - when-trust-stops-tracking-reality
+whyThisMatters: >-
+  Eric S. Raymond's The Cathedral and the Bazaar describes open-source
+  collaboration as a bazaar of distributed review, release norms, and many eyes
+  on shared code. Trust Beyond Similarity presses what open participation alone
+  does not supply: without trust structures that distinguish a rejected change
+  from a rejected person, disagreement becomes noise rather than usable
+  information.
+readerPassagePath: /explore/books/trust-beyond-similarity/chapters/parts-part-2-the-shock-of-the-partial-chapter-6-collaboration-across-difference#user-content-fnref-c6-open-source
 title: 'The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental
   Revolutionary'
 creatorNames:

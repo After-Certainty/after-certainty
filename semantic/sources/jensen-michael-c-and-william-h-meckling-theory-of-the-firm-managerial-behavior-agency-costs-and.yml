@@ -9,6 +9,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Jensen and Meckling’s 1976 theory of the firm analyzes agency costs when
+  ownership and control separate—managers optimizing local objectives that need
+  not align with principals’ interests. Coupling extends that layered
+  optimization to risk systems where each metric layer sees only part of the
+  structure while consequence accumulates underneath. The paper theorizes agency
+  and ownership; the book asks when local metrics look coordinated while
+  feedback returns too slowly to educate judgment.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-agents
 title: 'Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure.'
 creatorNames:
 - Michael C. Jensen and William H. Meckling

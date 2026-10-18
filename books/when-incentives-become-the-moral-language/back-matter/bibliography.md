@@ -22,7 +22,7 @@ Horwitz, Jeff, and Deepa Seetharaman. "Facebook Executives Shut Down Efforts to 
 
 Pichai, Sundar. Testimony before the U.S. House Judiciary Committee, December 11, 2018.
 
-Zuckerberg, Mark. Testimony before the U.S. Senate Judiciary and Commerce Committees, April 10–11, 2018.
+Zuckerberg, Mark. Testimony before the U.S. Senate Judiciary and Commerce Committees, April 10, 2018.
 
 ## Chapter 3
 

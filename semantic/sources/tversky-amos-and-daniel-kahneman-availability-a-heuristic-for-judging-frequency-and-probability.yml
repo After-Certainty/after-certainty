@@ -8,6 +8,14 @@ concepts: []
 patterns: []
 relatedBooks:
 - what-we-cannot-see
+whyThisMatters: >-
+  Tversky and Kahneman’s availability heuristic shows that people judge
+  frequency and probability by what comes easily to mind, which systematically
+  diverges from base rates. What We Cannot See extends that cognitive finding
+  into institutional memory after dramatic events: the vivid week crowds out
+  logged near misses, so memory answers “what comes to mind?” while statistics
+  would ask a different question.
+readerPassagePath: /explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-2-what-stays-and-what-fades#user-content-fnref-c2-availability
 title: 'Availability: A Heuristic for Judging Frequency and Probability.'
 creatorNames:
 - Tversky, Amos, and Daniel Kahneman

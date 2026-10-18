@@ -8,6 +8,14 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Pollitt and Bouckaert's comparative analysis of public management reform
+  examines performance regimes, KPI oversight, and the limits of implementation
+  across jurisdictions. Coupling extends that pattern beyond software:
+  measurement can improve visibility while frontline agencies remain unable to
+  redesign the structures producing poor outcomes—reporting as governance
+  theater when learning stays weak.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-public-sector
 title: 'Public Management Reform: A Comparative Analysis'
 creatorNames:
 - Christopher Pollitt and Geert Bouckaert

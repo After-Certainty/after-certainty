@@ -6,6 +6,17 @@ concepts: []
 patterns: []
 relatedBooks:
 - the-game-we-think-we-saw
+whyThisMatters: >-
+  MLB’s announcement of the Automated Ball-Strike (ABS) challenge system for
+  2026 describes a designed strike zone: a two-dimensional rectangle at the
+  middle of the plate rather than the full three-dimensional volume in the
+  rulebook, after testing showed some volumetric calls looked inconsistent to
+  players and viewers. The Game We Think We Saw uses that design choice to show
+  that measurement still requires the sport to decide which measurable zone
+  still counts as baseball. The source reports the league’s technological and
+  rule design; the book asks how authority and perception meet when precision
+  cannot discover a natural zone.
+readerPassagePath: /explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-3-the-authority-of-the-whistle#user-content-fnref-c3-mlb-abs-design
 title: MLB to Use ABS Challenge System Starting in 2026
 creatorNames:
 - MLB.com

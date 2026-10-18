@@ -7,6 +7,13 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Eli Pariser's The Filter Bubble describes how personalized distribution can
+  narrow shared public exposure by ranking what each user is most likely to
+  engage. Coupling uses that exposure dynamic—without treating personalization
+  as destiny—for the correction problem: updating an article is easy, while
+  updating what millions already absorbed is much harder.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-4-institutions-under-drift-19-media-and-algorithmic-coupling#user-content-fnref-c19-opening
 title: 'The Filter Bubble: What the Internet Is Hiding from You'
 creatorNames:
 - Eli Pariser

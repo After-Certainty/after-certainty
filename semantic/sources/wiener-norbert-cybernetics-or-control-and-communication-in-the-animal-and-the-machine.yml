@@ -8,6 +8,14 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Wiener’s Cybernetics formalizes feedback control and shows how delayed or
+  degraded signals impair a system’s capacity to correct itself. Coupling
+  extends that control insight into organizations: when consequence arrives
+  late, systems drift toward fast local metrics and healthy-looking reports
+  before reality fully arrives—not mainly from dishonesty, but from responding
+  hardest to the earliest signals.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-1-the-structural-grammar-03-consequence-as-coupling#user-content-fnref-c3-delayed-optimization
 title: 'Cybernetics: Or Control and Communication in the Animal and the Machine'
 creatorNames:
 - Norbert Wiener
