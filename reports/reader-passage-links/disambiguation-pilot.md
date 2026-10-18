@@ -228,9 +228,11 @@ Outcomes: **A** Separate · **B** Primary · **C** Preserve shared · **D** Corr
 | Outcome C preserve shared | 6 (Timeless; Pattern Language; Marot; Walker; AP grievance; ESPN grievance) + Lim/Calhoun still deferred under shared Tiananmen |
 | Outcome D | 1 (Levine control) |
 | Newly linked (`readerPassagePath` set) | 7 |
+| Of which mechanical tied A | 5 (Allspaw, Handbook, AP, World Athletics, David) |
+| Of which path-valid but shared (evidence B) | 2 (ACEP+IOM; Brook+Calhoun+Lim) |
 | Still deferred after pilot (among reviewed) | 10 |
 
-Expect **well under half** newly linked: 7/17 ≈ 41% of reviewed rows; of shared clusters, most stayed shared or primary-only.
+Expect **well under half** newly linked: 7/17 ≈ 41% of reviewed rows; tied-A gains only +5 because Outcome B with intentional co-cites stays mechanically shared.
 
 ### Easiest vs hardest ambiguity classes
 
