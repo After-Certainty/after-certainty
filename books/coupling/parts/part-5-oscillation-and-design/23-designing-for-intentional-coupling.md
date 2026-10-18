@@ -124,7 +124,7 @@ Healthy systems need enough connection to learn—without becoming so tightly bo
 [^c23-opening]: Donella Meadows, *Thinking in Systems: A Primer* (White River Junction, VT: Chelsea Green Publishing, 2008), on delays between local signal and institutional response.
 [^c23-intentional]: Chapter 22 in this book on cohesion; Chapter 3 in this book on calibration between tight and loose coupling.
 [^c23-feedback]: W. Edwards Deming, *Out of the Crisis*; and Chapter 10 in this book on shift left as temporal compression.
-[^c23-measurement]: Donald T. Campbell, "Assessing the Impact of Planned Social Change" (1976); and Chapter 9 in this book on metric governance.
+[^c23-measurement]: Donald T. Campbell, "Assessing the Impact of Planned Social Change," *Evaluation and Program Planning* 2, no. 1 (1979): 67–90, https://doi.org/10.1016/0149-7189(79)90048-X; and Chapter 9 in this book on metric governance.
 [^c23-handoffs]: Chapter 2 in this book on escalation; and the Prologue in this book on displaced consequence.
 [^c23-delay]: See the interlude *Coherence Under Scale* in this book on stale representation; and Chapter 4 on coordination pressure.
 

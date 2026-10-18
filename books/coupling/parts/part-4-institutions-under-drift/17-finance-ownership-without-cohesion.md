@@ -87,7 +87,7 @@ The structural problem becomes similar: many actors, partial information, delaye
 [^c17-agents]: Michael C. Jensen and William H. Meckling, "Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure," *Journal of Financial Economics* 3, no. 4 (1976): 305-360, on agency layers and local optimization.
 [^c17-stale-reporting]: Donella Meadows, *Thinking in Systems: A Primer* (White River Junction, VT: Chelsea Green Publishing, 2008), on delays between action and feedback; and the interlude *Coherence Under Scale* in this book on stale representation.
 [^c17-incentives]: Rakesh Khurana, *From Higher Aims to Hired Hands* (Princeton: Princeton University Press, 2007), on managerial metrics and institutional purpose (used here for incentive-layer critique).
-[^c17-goodhart]: Donald T. Campbell, "Assessing the Impact of Planned Social Change" (1976), on metric distortion when indicators become targets.
+[^c17-goodhart]: Donald T. Campbell, "Assessing the Impact of Planned Social Change," *Evaluation and Program Planning* 2, no. 1 (1979): 67–90, https://doi.org/10.1016/0149-7189(79)90048-X, on metric distortion when indicators become targets.
 [^c17-bridge-c18]: James Madison, *The Federalist Papers*, No. 10 and No. 51, on faction, representation, and divided authority under scale.
 
 > Ownership on paper is not the same thing as ownership that can still learn from consequence and redesign the system afterward.

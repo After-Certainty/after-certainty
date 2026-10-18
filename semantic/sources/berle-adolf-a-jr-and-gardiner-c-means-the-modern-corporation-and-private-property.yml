@@ -8,6 +8,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Berle and Means document the modern corporation’s separation of formal ownership
+  from operational control—shareholders hold title while managers and layered
+  intermediaries absorb the consequence chain. Coupling takes that classic
+  diagnosis into software and organizational ownership: paper title without
+  operational coupling. The 1932 study names fragmented corporate ownership; the
+  book asks where consequence actually lands when “owners” cannot feel the
+  system’s failure modes.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-opening
 title: The Modern Corporation and Private Property
 creatorNames:
 - Adolf A. Berle Jr. and Gardiner C. Means

@@ -569,8 +569,8 @@ Someone reaches for it, breaks it, and passes it on.
 ## Notes
 
 [^t1-1]: E. P. Sanders, *The Historical Figure of Jesus* (London: Penguin, 1993); John P. Meier, *A Marginal Jew* (New York: Doubleday, 1991–2016), on historical method and meal traditions.
-[^t1-2]: Luke 19:1–10; Amy-Jill Levine, *Short Stories by Jesus* (New York: HarperOne, 2014), and historical commentary on social status and tax collection under Roman rule.
+[^t1-2]: Luke 19:1–10 (Zacchaeus).
 [^t1-3]: Luke 14:1–24; Dennis E. Smith, *From Symposium to Eucharist* (Minneapolis: Fortress Press, 2003), on meals, status, and early Christian practice.
 [^t1-4]: Mark 6:7–13; Luke 9:1–6 and 10:1–24; N. T. Wright, *Jesus and the Victory of God* (Minneapolis: Fortress Press, 1996), on mission and kingdom praxis.
 [^t1-5]: Acts 2:42–47; 1 Corinthians 11:17–34; Galatians 2:11–14; Wayne A. Meeks, *The First Urban Christians* (New Haven: Yale University Press, 1983), on early community dispute and practice.
-[^t1-6]: Mark 16:9; John 20:11–18; Matthew 28:1–10; Amy-Jill Levine, *Short Stories by Jesus* (New York: HarperOne, 2014), on Mary Magdalene and resurrection witness traditions.
+[^t1-6]: Mark 16:9; John 20:11–18; Matthew 28:1–10 (women as resurrection witnesses; Mary Magdalene in the empty-tomb traditions).

@@ -52,4 +52,4 @@ The sentence everyone heard differently was never a sealed container transferred
 
 That is the communication pressure on every later case in this book. Before a leader becomes a story, a sentence has already been reconstructed—often more than once—by people who never compared the reconstructions aloud.
 
-[^c1-grice]: H. P. Grice’s conversational maxims describe how listeners routinely infer more than is said; the inference is cooperative until constraint makes checking the inference too costly. See Grice, “Logic and Conversation,” in *Syntax and Semantics*, vol. 3, *Speech Acts*, ed. Peter Cole and Jerry L. Morgan (New York: Academic Press, 1975), 41–58.
+[^c1-grice]: H. P. Grice, “Logic and Conversation,” in *Syntax and Semantics*, vol. 3, *Speech Acts*, ed. Peter Cole and Jerry L. Morgan (New York: Academic Press, 1975), 41–58, on cooperative maxims and conversational implicature—how listeners routinely infer more than is said. The claim that organizational rooms can price checking an inference higher than moving on with a partial understanding is this chapter’s application, not Grice’s empirical finding.

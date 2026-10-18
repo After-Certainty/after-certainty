@@ -29,6 +29,7 @@
 
 - Campbell, Donald T. "Assessing the Impact of Planned Social Change."
   *Evaluation and Program Planning* 2, no. 1 (1979): 67–90.
+  https://doi.org/10.1016/0149-7189(79)90048-X.
 
 - Edmondson, Amy C. *The Fearless Organization: Creating Psychological
   Safety in the Workplace for Learning, Innovation, and Growth*.
