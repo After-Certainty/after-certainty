@@ -81,7 +81,7 @@ The next chapter examines bureaucracy as accumulated coordination machinery: som
 [^c19-opening]: Eli Pariser, *The Filter Bubble: What the Internet Is Hiding from You* (New York: Penguin Press, 2011), on personalized distribution and narrowed public view (used here for exposure dynamics, not determinism).
 [^c19-speed]: Donella Meadows, *Thinking in Systems: A Primer* (White River Junction, VT: Chelsea Green Publishing, 2008), on feedback delays and leverage points.
 [^c19-algorithmic]: Shoshana Zuboff, *The Age of Surveillance Capitalism* (New York: PublicAffairs, 2019), on behavioral surplus and incentive alignment in digital platforms (structural incentives, not moral panic).
-[^c19-goodhart]: Donald T. Campbell, "Assessing the Impact of Planned Social Change" (1976); and Chapter 9 in this book on metric governance in software delivery.
+[^c19-goodhart]: Donald T. Campbell, "Assessing the Impact of Planned Social Change," *Evaluation and Program Planning* 2, no. 1 (1979): 67–90, https://doi.org/10.1016/0149-7189(79)90048-X; and Chapter 9 in this book on metric governance in software delivery.
 [^c19-editorial]: C. W. Anderson, *Rebuilding the News: Metropolitan Journalism in the Digital Age* (Philadelphia: Temple University Press, 2013), on organizational fragmentation under digital pressure.
 [^c19-corrections]: Maxwell E. McCombs and Donald L. Shaw, "The Agenda-Setting Function of Mass Media," *Public Opinion Quarterly* 36, no. 2 (1972): 176-187, on salience and public attention (used here for correction visibility limits).
 [^c19-networked]: Zeynep Tufekci, *Twitter and Tear Gas: The Power and Fragility of Networked Protest* (New Haven: Yale University Press, 2017), on speed, visibility, and institutional lag.

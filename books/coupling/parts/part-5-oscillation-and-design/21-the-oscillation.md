@@ -126,7 +126,7 @@ Systems do not permanently solve the tension between adaptability and control. T
 
 [^c21-opening]: Gene Kim et al., *The Phoenix Project* (IT Revolution Press, 2013), on incident-driven controls and delivery pressure; and Nicole Forsgren, Jez Humble, and Gene Kim, *Accelerate*, on velocity versus stability signals.
 [^c21-why-swing]: Donella Meadows, *Thinking in Systems: A Primer* (White River Junction, VT: Chelsea Green Publishing, 2008), on competing goals and compensating dynamics in large systems.
-[^c21-acceleration]: Donald T. Campbell, "Assessing the Impact of Planned Social Change" (1976), on activity metrics displacing learning; and Chapter 12 in this book on acceleration without ownership.
+[^c21-acceleration]: Donald T. Campbell, "Assessing the Impact of Planned Social Change," *Evaluation and Program Planning* 2, no. 1 (1979): 67–90, https://doi.org/10.1016/0149-7189(79)90048-X, on activity metrics displacing learning; and Chapter 12 in this book on acceleration without ownership.
 [^c21-entropy]: See the interlude *Coherence Under Scale* and the Part V bridge in this book on drift and coordination substitutes; and Chapter 4 on coordination pressure.
 [^c21-stabilization]: Chapter 20 in this book on bureaucracy as institutional memory; and James C. Scott, *Seeing Like a State*, on legibility and rigidity (structural risk, not anti-planning polemic).
 [^c21-reform-cycles]: Christopher Pollitt and Geert Bouckaert, *Public Management Reform: A Comparative Analysis*, 3rd ed. (Oxford: Oxford University Press, 2017).

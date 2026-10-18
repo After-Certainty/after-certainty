@@ -63,8 +63,9 @@
   Boston: Addison-Wesley, 1995.
 
 - Campbell, Donald T. "Assessing the Impact of Planned Social Change."
-  Evaluation and Program Planning 2, no. 1 (1979): 67-90.
-  (Working paper, 1976; often cited for metric-distortion dynamics.)
+  *Evaluation and Program Planning* 2, no. 1 (1979): 67–90.
+  https://doi.org/10.1016/0149-7189(79)90048-X.
+  (An earlier 1976 working-paper version is sometimes cited; the journal publication is 1979.)
 
 - Cockburn, Alistair. *Agile Software Development*.
   Boston: Addison-Wesley, 2002.

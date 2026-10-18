@@ -113,4 +113,4 @@ The work is not to fill every blank. It is to keep the blank visible.
 Because every measure is a translation. Every translation leaves something behind. And sometimes what was left behind is the very thing we were trying to serve.
 
 [^epi-monmonier]: Mark Monmonier, *How to Lie with Maps*, 3rd ed. (Chicago: University of Chicago Press, 2018).
-[^epi-campbell]: Donald T. Campbell, "Assessing the Impact of Planned Social Change," *Evaluation and Program Planning* 2, no. 1 (1979): 85–87.
+[^epi-campbell]: Donald T. Campbell, "Assessing the Impact of Planned Social Change," *Evaluation and Program Planning* 2, no. 1 (1979): 67–90, https://doi.org/10.1016/0149-7189(79)90048-X.

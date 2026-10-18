@@ -1,8 +1,9 @@
 slug: campbell-donald-t-assessing-the-impact-of-planned-social-change
-name: Donald T Campbell — Assessing the Impact of Planned Social Change.
+name: Donald T. Campbell — Assessing the Impact of Planned Social Change
 type: article
-summary: 'Campbell, Donald T. "Assessing the Impact of Planned Social Change." Evaluation
-  and Program Planning 2, no. 1 (1979): 85-87.'
+summary: >-
+  Campbell, Donald T. "Assessing the Impact of Planned Social Change." Evaluation
+  and Program Planning 2, no. 1 (1979): 67–90. https://doi.org/10.1016/0149-7189(79)90048-X.
 concepts: []
 patterns: []
 relatedBooks:
@@ -10,18 +11,22 @@ relatedBooks:
 - when-authority-outlives-accountability
 - when-incentives-become-the-moral-language
 whyThisMatters: >-
-  Campbell’s 1976/1979 paper on assessing planned social change is a primary
-  source for the target-distortion dynamic later associated with Goodhart/Campbell
-  effects—indicators cease to be good measures once used as targets. Coupling
-  cites that pressure where DORA and delivery metrics risk defining success
-  instead of triggering inquiry. Campbell names the measurement hazard; the book
-  asks how teams keep metrics coupled to learning rather than to defended scores.
+  Campbell’s 1979 Evaluation and Program Planning article on assessing planned
+  social change is a primary source for the target-distortion dynamic later
+  associated with Goodhart/Campbell effects—indicators cease to be good measures
+  once used as targets. Coupling cites that pressure where DORA and delivery
+  metrics risk defining success instead of triggering inquiry. Campbell names
+  the measurement hazard; the book asks how teams keep metrics coupled to
+  learning rather than to defended scores.
 readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-goodhart
-title: Assessing the Impact of Planned Social Change.
+title: Assessing the Impact of Planned Social Change
 creatorNames:
-- Donald T Campbell
+- Donald T. Campbell
 creatorSlugs:
 - donald-t-campbell
-citation: 'Campbell, Donald T. "Assessing the Impact of Planned Social Change." Evaluation
-  and Program Planning 2, no. 1 (1979): 85-87.'
+citation: >-
+  Campbell, Donald T. "Assessing the Impact of Planned Social Change." Evaluation
+  and Program Planning 2, no. 1 (1979): 67–90. https://doi.org/10.1016/0149-7189(79)90048-X.
 sourceKind: article
+year: 1979
+url: https://doi.org/10.1016/0149-7189(79)90048-X

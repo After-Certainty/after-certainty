@@ -108,7 +108,7 @@ Organisation for Economic Co-operation and Development. *PISA 2022 Results* (Vol
 
 ## Chapter 9
 
-Campbell, Donald T. "Assessing the Impact of Planned Social Change." *Evaluation and Program Planning* 2, no. 1 (1979): 85–87.
+Campbell, Donald T. "Assessing the Impact of Planned Social Change." *Evaluation and Program Planning* 2, no. 1 (1979): 67–90. https://doi.org/10.1016/0149-7189(79)90048-X.
 
 ## Chapter 10
 
@@ -124,6 +124,6 @@ Rushton, Cynda Hylton. "Moral Distress and Moral Resilience." *American Journal 
 
 ## Epilogue
 
-Campbell, Donald T. "Assessing the Impact of Planned Social Change." *Evaluation and Program Planning* 2, no. 1 (1979): 85–87.
+Campbell, Donald T. "Assessing the Impact of Planned Social Change." *Evaluation and Program Planning* 2, no. 1 (1979): 67–90. https://doi.org/10.1016/0149-7189(79)90048-X.
 
 Monmonier, Mark. *How to Lie with Maps*. 3rd ed. Chicago: University of Chicago Press, 2018.

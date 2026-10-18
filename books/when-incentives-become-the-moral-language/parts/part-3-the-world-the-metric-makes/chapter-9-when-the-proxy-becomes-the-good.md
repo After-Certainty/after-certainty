@@ -70,4 +70,4 @@ The question that follows is who pays when displacement succeeds: which bodies c
 
 Incentives enter as answers to real coordination problems. They become moral language when the institution can no longer speak the aim except through the measure. The whiteboard, the feed, the shelf, the poster, the matrix, the homepage, the poll, the grade—each began as a way of making value travel. Together they teach a world in which what can be counted is what counts. Remembering the translation does not end the pattern. It changes what we see when we touch the next surface.
 
-[^c9-campbell]: Donald T. Campbell, "Assessing the Impact of Planned Social Change," *Evaluation and Program Planning* 2, no. 1 (1979): 85–87.
+[^c9-campbell]: Donald T. Campbell, "Assessing the Impact of Planned Social Change," *Evaluation and Program Planning* 2, no. 1 (1979): 67–90, https://doi.org/10.1016/0149-7189(79)90048-X.

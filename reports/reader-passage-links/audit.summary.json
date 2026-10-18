@@ -780,17 +780,6 @@
       ]
     },
     {
-      "slug": "amy-jill-levine",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-1-the-table#user-content-fnref-t1-2",
-          "sourceSlug": "levine-amy-jill-short-stories-by-jesus-the-enigmatic-parables-of-a-controversial-rabbi",
-          "whyThisMatters": "Levine reads the Zacchaeus episode and related parables against first-century status, wealth, and Roman tax realities rather than later pious flattening. When Others Become Leaders uses that historical sharpness for how welcome and accountability meet at a table. Levine restores social texture to the story; the book asks what kind of leadership begins when relationship makes wealth answerable without collapsing into neat moral theater."
-        }
-      ]
-    },
-    {
       "slug": "andrew-s-grove",
       "workPassageLinks": [
         {
@@ -996,6 +985,17 @@
           "readerPassagePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined",
           "sourceSlug": "anderson-benedict-imagined-communities-reflections-on-the-origin-and-spread-of-nationalism",
           "whyThisMatters": "Anderson analyzes how nations are imagined through shared narratives and print-mediated belonging. Trust Beyond Similarity extends that insight into ordinary groups: shared stories reduce uncertainty, and they can also teach people what not to notice\u2014including which questions feel safe to ask."
+        }
+      ]
+    },
+    {
+      "slug": "beno-t-monin",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-1-before-the-leader-becomes-a-story-chapter-2-the-chair-no-one-reconsiders#user-content-fnref-c2-posture",
+          "sourceSlug": "merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to",
+          "whyThisMatters": "Merritt, Effron, and Monin\u2019s review of moral self-licensing shows that prior good deeds or virtuous self-image can psychologically free people to act less scrupulously later\u2014past virtue becomes credit that reduces subsequent restraint. When Authority Is Misread extends that mechanism to how well-meaning posture can thin scrutiny of accumulating costs elsewhere. The article documents licensing in social psychology; the book asks how moral credit attached to leaders can keep authority standing after accountability has already drifted."
         }
       ]
     }
@@ -2017,11 +2017,6 @@
       "status": "verified_link_tied_citation"
     },
     {
-      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-1-the-table#user-content-fnref-t1-2",
-      "slug": "levine-amy-jill-short-stories-by-jesus-the-enigmatic-parables-of-a-controversial-rabbi",
-      "status": "verified_link_tied_citation"
-    },
-    {
       "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-education",
       "slug": "lewis-catherine-c-rebecca-r-perry-and-akihiko-murata-how-should-research-contribute-to-instructi",
       "status": "verified_link_tied_citation"
@@ -2929,37 +2924,37 @@
   ],
   "totals": {
     "sources": {
-      "bibliographyOnly": 55,
+      "bibliographyOnly": 56,
       "byEvidenceLevel": {
-        "A": 385,
+        "A": 384,
         "B": 255,
         "C": 1,
-        "D": 55,
+        "D": 56,
         "E": 18
       },
       "invalidPassageLinks": 0,
       "mechanicalFootnoteCandidates": 243,
       "missingPathWithFootnote": 243,
       "pathNeedsEditorialReview": 12,
-      "tiedCitationCoveragePct": 53.92,
+      "tiedCitationCoveragePct": 53.78,
       "total": 714,
       "unverifiedFragmentLinks": 0,
-      "validPassageLinks": 397,
-      "verifiedLinkTiedCitation": 385,
-      "whyThisMattersOk": 397,
-      "withReaderPassagePath": 397
+      "validPassageLinks": 396,
+      "verifiedLinkTiedCitation": 384,
+      "whyThisMattersOk": 396,
+      "withReaderPassagePath": 396
     },
     "thinkers": {
       "byEvidenceLevel": {
-        "A": 380,
+        "A": 379,
         "B": 212,
         "C": 0,
-        "D": 51,
+        "D": 52,
         "E": 0
       },
       "total": 643,
-      "usefulPathPct": 59.1,
-      "withDerivablePassages": 380
+      "usefulPathPct": 58.94,
+      "withDerivablePassages": 379
     }
   }
 }

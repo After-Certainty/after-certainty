@@ -9,40 +9,40 @@ bibliography-only and keyword overlap never count as verified passages.
 ### Sources
 
 - Total sources scanned: **714**
-- With `readerPassagePath`: **397**
-- Structurally valid + fragment-checked paths: **397**
-- Verified link + mechanically tied citation (level A): **385**
+- With `readerPassagePath`: **396**
+- Structurally valid + fragment-checked paths: **396**
+- Verified link + mechanically tied citation (level A): **384**
 - Mechanical footnote candidates (level B / strong_candidate): **243**
 - Path present but needs editorial review: **12**
 - Fragment check skipped (unverified): **0**
 - Invalid passage links: **0**
 - Missing path but footnote-cited: **243**
-- Bibliography only (level D): **55**
-- Tied-citation (level A) coverage: **53.92%**
-- `whyThisMatters` present/substantive: **397**
+- Bibliography only (level D): **56**
+- Tied-citation (level A) coverage: **53.78%**
+- `whyThisMatters` present/substantive: **396**
 
 Level A means a public path whose fragment is the matched citation invocation — a *mechanical* condition, not editorial approval of philosophical relevance. All newly proposed connections still need editorial review before YAML enrichment.
 
 Evidence levels:
 
-- A: 385
+- A: 384
 - B: 255
 - C: 1
-- D: 55
+- D: 56
 - E: 18
 
 ### Thinkers
 
 - Total thinkers scanned: **643**
-- With derivable work passage links: **380**
-- Useful derived path coverage: **59.1%**
+- With derivable work passage links: **379**
+- Useful derived path coverage: **58.94%**
 
 Evidence levels:
 
-- A: 380
+- A: 379
 - B: 212
 - C: 0
-- D: 51
+- D: 52
 - E: 0
 
 ## Unresolved / invalid passage links
@@ -138,7 +138,6 @@ _None._
 - `alice-h-eagly`: `eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth` → `/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-eagly`
 - `alistair-cockburn`: `cockburn-alistair-hexagonal-architecture-ports-and-adapters` → `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression#user-content-fnref-c10-bridge-hex`, `cockburn-alistair-how-to-step-up-stepping-up-promoting-guest` → `/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-attention-and-leadership`
 - `amy-c-edmondson`: `edmondson-amy-c-psychological-safety-and-learning-behavior-in-work` → `/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-silence-and-accountability`, `edmondson-amy-c-the-fearless-organization-creating-psychological-safety-in-the-workplace-for-lea` → `/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-amy-c-edmondson`
-- `amy-jill-levine`: `levine-amy-jill-short-stories-by-jesus-the-enigmatic-parables-of-a-controversial-rabbi` → `/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-1-the-table#user-content-fnref-t1-2`
 - `andrew-s-grove`: `grove-andrew-s-high-output-management` → `/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-andrew-s-grove`
 - `angelina-mcmillan-major`: `bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of` → `/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-12-the-frictionless-illusion#user-content-fnref-c12-cross-domain`
 - `anna-c-merritt`: `merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to` → `/explore/books/when-authority-is-misread/chapters/parts-part-1-before-the-leader-becomes-a-story-chapter-2-the-chair-no-one-reconsiders#user-content-fnref-c2-posture`
@@ -158,3 +157,4 @@ _None._
 - `ben-kiernan`: `kiernan-ben-the-pol-pot-regime-race-power-and-genocide-in-cambodia-under-the-khmer-rouge-1975-79` → `/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-9-what-judgment-can-still-do#user-content-fnref-c9-kiernan-overview`
 - `ben-s-bernanke`: `bernanke-ben-s-the-courage-to-act-a-memoir-of-a-crisis-and-its-aftermath` → `/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world#user-content-fnref-c6-bernanke`
 - `benedict-anderson`: `anderson-benedict-imagined-communities-reflections-on-the-origin-and-spread-of-nationalism` → `/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined`
+- `beno-t-monin`: `merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to` → `/explore/books/when-authority-is-misread/chapters/parts-part-1-before-the-leader-becomes-a-story-chapter-2-the-chair-no-one-reconsiders#user-content-fnref-c2-posture`
