@@ -261,18 +261,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-nike",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "associated-press-nike-unveils-kaepernick-ad-to-air-during-nfl-season-opener",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-return",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -361,18 +349,6 @@
       "readerPassagePath": null,
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-opening",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-property",
       "status": "strong_candidate"
     },
     {
@@ -519,18 +495,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-1-where-interpretation-ends-chapter-1-the-door-that-opens-only-inward#user-content-fnref-c1-bushman",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 3,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "bushman-richard-lyman-joseph-smith-rough-stone-rolling",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -554,18 +518,6 @@
       "readerPassagePath": null,
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "california-african-american-museum-free-breakfast-for-school-children-program",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-goodhart",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 8,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "campbell-donald-t-assessing-the-impact-of-planned-social-change",
       "status": "strong_candidate"
     },
     {
@@ -645,9 +597,71 @@
       "recommendedAction": "editorial_confirm_passage_relevance",
       "slug": "church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp",
       "status": "path_valid_shared_or_ambiguous_citation"
+    },
+    {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-firing",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "cnn-indiana-university-keeps-coach-knight-with-sanctions",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-trump-weekend",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "cnn-politics-trump-nfl-owners-should-fire-players-who-protest-the-national-anthem",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-bridge#user-content-fnref-p2b-method-history",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "cockburn-alistair-agile-software-development",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-emergence",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "cockburn-alistair-the-heart-of-agile",
+      "status": "strong_candidate"
     }
   ],
   "thinkersWithDerivablePassages": [
+    {
+      "slug": "adolf-a-berle",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-opening",
+          "sourceSlug": "berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-property",
+          "whyThisMatters": "Berle and Means document the modern corporation\u2019s separation of formal ownership from operational control\u2014shareholders hold title while managers and layered intermediaries absorb the consequence chain. Coupling takes that classic diagnosis into software and organizational ownership: paper title without operational coupling. The 1932 study names fragmented corporate ownership; the book asks where consequence actually lands when \u201cowners\u201d cannot feel the system\u2019s failure modes."
+        }
+      ]
+    },
     {
       "slug": "akihiko-murata",
       "workPassageLinks": [
@@ -766,6 +780,17 @@
       ]
     },
     {
+      "slug": "amy-jill-levine",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-1-the-table#user-content-fnref-t1-2",
+          "sourceSlug": "levine-amy-jill-short-stories-by-jesus-the-enigmatic-parables-of-a-controversial-rabbi",
+          "whyThisMatters": "Levine reads the Zacchaeus episode and related parables against first-century status, wealth, and Roman tax realities rather than later pious flattening. When Others Become Leaders uses that historical sharpness for how welcome and accountability meet at a table. Levine restores social texture to the story; the book asks what kind of leadership begins when relationship makes wealth answerable without collapsing into neat moral theater."
+        }
+      ]
+    },
+    {
       "slug": "andrew-s-grove",
       "workPassageLinks": [
         {
@@ -876,6 +901,17 @@
       ]
     },
     {
+      "slug": "associated-press",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-nike",
+          "sourceSlug": "associated-press-nike-unveils-kaepernick-ad-to-air-during-nfl-season-opener",
+          "whyThisMatters": "The Associated Press reports Nike\u2019s September 2018 campaign built around Kaepernick as a commercial image of conviction after his protest. The Game We Think We Saw uses that translation\u2014from quarterback to protester to brand symbol\u2014to ask what a gesture still means once markets restore visibility on their own terms. The wire story records the ad\u2019s public debut; the book asks whether commercial recovery clarifies or replaces the protest\u2019s original claim."
+        }
+      ]
+    },
+    {
       "slug": "atul-gawande",
       "workPassageLinks": [
         {
@@ -962,39 +998,6 @@
           "whyThisMatters": "Anderson analyzes how nations are imagined through shared narratives and print-mediated belonging. Trust Beyond Similarity extends that insight into ordinary groups: shared stories reduce uncertainty, and they can also teach people what not to notice\u2014including which questions feel safe to ask."
         }
       ]
-    },
-    {
-      "slug": "beno-t-monin",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-1-before-the-leader-becomes-a-story-chapter-2-the-chair-no-one-reconsiders#user-content-fnref-c2-posture",
-          "sourceSlug": "merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to",
-          "whyThisMatters": "Merritt, Effron, and Monin\u2019s review of moral self-licensing shows that prior good deeds or virtuous self-image can psychologically free people to act less scrupulously later\u2014past virtue becomes credit that reduces subsequent restraint. When Authority Is Misread extends that mechanism to how well-meaning posture can thin scrutiny of accumulating costs elsewhere. The article documents licensing in social psychology; the book asks how moral credit attached to leaders can keep authority standing after accountability has already drifted."
-        }
-      ]
-    },
-    {
-      "slug": "bertram-raven",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-1-before-the-words#user-content-fnref-c1-french-raven-bases-social-power",
-          "sourceSlug": "french-john-r-p-and-bertram-raven-the-bases-of-social-power",
-          "whyThisMatters": "French and Raven\u2019s Bases of Social Power classifies how influence operates\u2014reward, coercion, legitimacy, expertise, referent power\u2014before a listener fully evaluates an argument. How Meaning Moves uses that insight for early sorting in conversation: authority changes the weight of a phrase while language is still arriving. The source inventories power bases; the book asks how meaning moves when rank and history shape interpretation before reasoning gets a fair hearing."
-        }
-      ]
-    },
-    {
-      "slug": "betsy-beyer",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-pager-loop",
-          "sourceSlug": "beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin",
-          "whyThisMatters": "The SRE handbook treats incidents as prompts to improve detection, deployment, and rollback\u2014not only to restore service once. Coupling uses the pager loop to show operational coupling returning: the valuable work is making the next failure cheaper to see and reverse."
-        }
-      ]
     }
   ],
   "tiedCitationExamples": [
@@ -1074,6 +1077,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-nike",
+      "slug": "associated-press-nike-unveils-kaepernick-ad-to-air-during-nfl-season-opener",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/how-trust-forms/chapters/front-matter-introduction-how-trust-forms#user-content-fnref-intro-baier-vulnerability",
       "slug": "baier-annette-c-trust-and-antitrust",
       "status": "verified_link_tied_citation"
@@ -1131,6 +1139,11 @@
     {
       "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-4-when-disciplines-fail-chapter-12-when-methods-become-myths#user-content-fnref-c12-source-peter-l-berger",
       "slug": "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-opening",
+      "slug": "berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-property",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1254,8 +1267,18 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-1-where-interpretation-ends-chapter-1-the-door-that-opens-only-inward#user-content-fnref-c1-bushman",
+      "slug": "bushman-richard-lyman-joseph-smith-rough-stone-rolling",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/after-certainty/chapters/parts-part-3-living-with-limits-chapter-9-when-to-stop-interpreting#user-content-fnref-c9-interpretive-patience",
       "slug": "butler-judith-frames-of-war-when-is-life-grievable",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-goodhart",
+      "slug": "campbell-donald-t-assessing-the-impact-of-planned-social-change",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1629,6 +1652,16 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-dialogue",
+      "slug": "galilei-galileo-dialogue-concerning-the-two-chief-world-systems",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-sidereus",
+      "slug": "galilei-galileo-sidereus-nuncius-or-the-sidereal-messenger",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-2",
       "slug": "gandhi-mohandas-k-letter-to-lord-irwin-2-march-1930-in-the-collected-works-of-mahatma-gandhi",
       "status": "verified_link_tied_citation"
@@ -1701,6 +1734,11 @@
     {
       "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-5-the-matrix-with-no-author#user-content-fnref-c5-greenberg",
       "slug": "greenberg-jerald-organizational-justice-yesterday-today-and-tomorrow",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-1-before-the-leader-becomes-a-story-chapter-1-the-sentence-everyone-heard-differently#user-content-fnref-c1-grice",
+      "slug": "grice-h-p-logic-and-conversation",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1979,6 +2017,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-1-the-table#user-content-fnref-t1-2",
+      "slug": "levine-amy-jill-short-stories-by-jesus-the-enigmatic-parables-of-a-controversial-rabbi",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-education",
       "slug": "lewis-catherine-c-rebecca-r-perry-and-akihiko-murata-how-should-research-contribute-to-instructi",
       "status": "verified_link_tied_citation"
@@ -2086,6 +2129,11 @@
     {
       "readerPassagePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-12-the-frictionless-illusion#user-content-fnref-c12-temporal",
       "slug": "meadows-donella-h-thinking-in-systems-a-primer",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-1-the-table#user-content-fnref-t1-5",
+      "slug": "meeks-wayne-a-the-first-urban-christians",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2326,6 +2374,11 @@
     {
       "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-3-the-paper-that-must-count#user-content-fnref-c3-osc",
       "slug": "open-science-collaboration-estimating-the-reproducibility-of-psychological-science",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold#user-content-fnref-c8-pisa",
+      "slug": "organisation-for-economic-co-operation-and-development-pisa-2022-results",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2599,6 +2652,16 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-1-the-table#user-content-fnref-t1-3",
+      "slug": "smith-dennis-e-from-symposium-to-eucharist-the-banquet-in-the-early-christian-world",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-accountability-no-longer-expires/chapters/parts-part-3-learning-without-resolution-chapter-7-correction-without-consequence#user-content-fnref-c7-smith-apology",
+      "slug": "smith-nick-i-was-wrong-the-meanings-of-apologies",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-5-the-applause-no-one-wants-to-end#user-content-fnref-c5-solzhenitsyn-ovation",
       "slug": "solzhenitsyn-aleksandr-i-the-gulag-archipelago-1918-1956-an-experiment-in-literary-investigation",
       "status": "verified_link_tied_citation"
@@ -2681,6 +2744,11 @@
     {
       "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-1-why-leadership-evaluation-fails#user-content-fnref-c1-tetlock-expert-political-judgment",
       "slug": "tetlock-philip-e-expert-political-judgment-how-good-is-it-how-can-we-know",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-1-where-interpretation-ends-chapter-1-the-door-that-opens-only-inward#user-content-fnref-c1-jsh",
+      "slug": "the-church-of-jesus-christ-of-latter-day-saints-pearl-of-great-price",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2829,6 +2897,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-1-the-table#user-content-fnref-t1-4",
+      "slug": "wright-n-t-jesus-and-the-victory-of-god",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-6-the-story-that-explains-every-objection#user-content-fnref-c6-wright-armageddon",
       "slug": "wright-stuart-a-ed-armageddon-in-waco-critical-perspectives-on-the-branch-davidian-conflict",
       "status": "verified_link_tied_citation"
@@ -2858,35 +2931,35 @@
     "sources": {
       "bibliographyOnly": 55,
       "byEvidenceLevel": {
-        "A": 371,
-        "B": 269,
+        "A": 385,
+        "B": 255,
         "C": 1,
         "D": 55,
         "E": 18
       },
       "invalidPassageLinks": 0,
-      "mechanicalFootnoteCandidates": 257,
-      "missingPathWithFootnote": 257,
+      "mechanicalFootnoteCandidates": 243,
+      "missingPathWithFootnote": 243,
       "pathNeedsEditorialReview": 12,
-      "tiedCitationCoveragePct": 51.96,
+      "tiedCitationCoveragePct": 53.92,
       "total": 714,
       "unverifiedFragmentLinks": 0,
-      "validPassageLinks": 383,
-      "verifiedLinkTiedCitation": 371,
-      "whyThisMattersOk": 383,
-      "withReaderPassagePath": 383
+      "validPassageLinks": 397,
+      "verifiedLinkTiedCitation": 385,
+      "whyThisMattersOk": 397,
+      "withReaderPassagePath": 397
     },
     "thinkers": {
       "byEvidenceLevel": {
-        "A": 366,
-        "B": 226,
+        "A": 380,
+        "B": 212,
         "C": 0,
         "D": 51,
         "E": 0
       },
       "total": 643,
-      "usefulPathPct": 56.92,
-      "withDerivablePassages": 366
+      "usefulPathPct": 59.1,
+      "withDerivablePassages": 380
     }
   }
 }

@@ -9,6 +9,14 @@ relatedBooks:
 - coupling
 - when-authority-outlives-accountability
 - when-incentives-become-the-moral-language
+whyThisMatters: >-
+  Campbell’s 1976/1979 paper on assessing planned social change is a primary
+  source for the target-distortion dynamic later associated with Goodhart/Campbell
+  effects—indicators cease to be good measures once used as targets. Coupling
+  cites that pressure where DORA and delivery metrics risk defining success
+  instead of triggering inquiry. Campbell names the measurement hazard; the book
+  asks how teams keep metrics coupled to learning rather than to defended scores.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-goodhart
 title: Assessing the Impact of Planned Social Change.
 creatorNames:
 - Donald T Campbell
