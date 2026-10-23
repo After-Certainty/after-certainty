@@ -59,7 +59,7 @@ package = true
 override-dependencies = [
   "pip>=26.2",
   "urllib3>=2.8.0",
-  "virtualenv>=21.7.13",
+  "virtualenv>=21.14.11",
 ]
 
 [tool.hatch.build.targets.wheel]
