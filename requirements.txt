@@ -7,7 +7,7 @@
 # transitive filelock (<3.20.3). uv.lock already has a newer fixed version.
 filelock>=4.1.1
 urllib3>=2.8.0
-virtualenv>=21.7.13
+virtualenv>=21.14.11
 jinja2>=3.1
 jsonschema>=4
 PyYAML>=6

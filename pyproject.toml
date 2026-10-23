@@ -23,7 +23,7 @@ dependencies = [
   "pre-commit>=4.6.2",
   "python-docx>=1.1",
   "pip-audit>=2.7",
-  "certifi>=2026.7.22",
+  "certifi>=2026.10.19",
 ]
 
 [dependency-groups]
@@ -59,7 +59,7 @@ package = true
 override-dependencies = [
   "pip>=26.2",
   "urllib3>=2.8.0",
-  "virtualenv>=21.7.13",
+  "virtualenv>=21.14.11",
 ]
 
 [tool.hatch.build.targets.wheel]
