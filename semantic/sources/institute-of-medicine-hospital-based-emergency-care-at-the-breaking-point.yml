@@ -1,6 +1,5 @@
 slug: institute-of-medicine-hospital-based-emergency-care-at-the-breaking-point
-name: 'Institute of Medicine — Hospital-Based Emergency Care: At the Breaking Point.
-  Washington, DC: National Academies Press, 2007'
+name: 'Institute of Medicine — Hospital-Based Emergency Care: At the Breaking Point'
 type: book
 summary: 'Institute of Medicine. Hospital-Based Emergency Care: At the Breaking Point.
   Washington, DC: National Academies Press, 2007.'
@@ -8,8 +7,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
-title: 'Hospital-Based Emergency Care: At the Breaking Point. Washington, DC: National
-  Academies Press, 2007'
+whyThisMatters: >-
+  The Institute of Medicine's 2007 review describes constrained emergency-care
+  capacity, crowded hospitals, and the difficulty of transferring patients to
+  inpatient beds. When Incentives Become the Moral Language cites that system
+  pressure where the hospital must coordinate many rooms and decisions at once.
+  The source documents capacity and boarding pressures; the book's argument
+  about how judgment travels through standardized criteria is its own.
+readerPassagePath: /explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-capacity
+title: 'Hospital-Based Emergency Care: At the Breaking Point'
 creatorNames:
 - Institute of Medicine
 creatorSlugs:
