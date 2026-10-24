@@ -1,0 +1,437 @@
+[
+  {
+    "evidenceLevel": "B",
+    "footnoteHits": [
+      {
+        "ambiguous": false,
+        "book": "when-incentives-become-the-moral-language",
+        "citation": null,
+        "footnote": "c1-boarding",
+        "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs",
+        "score": 90,
+        "sharedWith": [
+          "institute-of-medicine-hospital-based-emergency-care-at-the-breaking-point"
+        ]
+      }
+    ],
+    "notes": [
+      "fragment_tied_but_shared_or_ambiguous",
+      "shared_footnote_with:institute-of-medicine-hospital-based-emergency-care-at-the-breaking-point"
+    ],
+    "path": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding",
+    "slug": "american-college-of-emergency-physicians-boarding",
+    "status": "path_valid_shared_or_ambiguous_citation"
+  },
+  {
+    "evidenceLevel": "B",
+    "footnoteHits": [
+      {
+        "ambiguous": false,
+        "book": "when-others-look-to-you-v1",
+        "citation": null,
+        "footnote": "c1-correction-and-insulation",
+        "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to",
+        "score": 90,
+        "sharedWith": [
+          "argyris-chris-and-donald-a-schon-organizational-learning-ii"
+        ]
+      },
+      {
+        "ambiguous": false,
+        "book": "when-others-look-to-you-v1",
+        "citation": null,
+        "footnote": "c2-organizational-defenses",
+        "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-2-renewal-erosion-circulation-chapter-2-the-two-groups",
+        "score": 90,
+        "sharedWith": [
+          "argyris-chris-and-donald-a-schon-organizational-learning-ii"
+        ]
+      },
+      {
+        "ambiguous": false,
+        "book": "when-others-look-to-you-v1",
+        "citation": null,
+        "footnote": "c7-deferred-costs",
+        "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-7-effectiveness-and-its-illusions",
+        "score": 90,
+        "sharedWith": [
+          "argyris-chris-and-donald-a-schon-organizational-learning-ii"
+        ]
+      },
+      {
+        "ambiguous": false,
+        "book": "when-others-look-to-you-v1",
+        "citation": null,
+        "footnote": "c11-structural-blindness",
+        "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-4-scale-pressure-misjudgment-chapter-11-why-we-misjudge-leaders",
+        "score": 90,
+        "sharedWith": [
+          "argyris-chris-and-donald-a-schon-organizational-learning-ii",
+          "vaughan-diane-the-challenger-launch-decision-risky-technology-culture-and-deviance-at-nasa",
+          "weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing"
+        ]
+      },
+      {
+        "ambiguous": false,
+        "book": "when-others-look-to-you-v2",
+        "citation": null,
+        "footnote": "epilogue-learning-and-defenses",
+        "routeKey": "/explore/books/when-others-look-to-you-v2/chapters/back-matter-epilogue",
+        "score": 90,
+        "sharedWith": [
+          "argyris-chris-and-donald-a-schon-organizational-learning-ii"
+        ]
+      }
+    ],
+    "notes": [
+      "fragment_tied_but_shared_or_ambiguous",
+      "shared_footnote_with:argyris-chris-and-donald-a-schon-organizational-learning-ii"
+    ],
+    "path": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-correction-and-insulation",
+    "slug": "argyris-chris-overcoming-organizational-defenses",
+    "status": "path_valid_shared_or_ambiguous_citation"
+  },
+  {
+    "evidenceLevel": "B",
+    "footnoteHits": [
+      {
+        "ambiguous": false,
+        "book": "living-in-sediment",
+        "citation": null,
+        "footnote": "c1-arthur-lock-in",
+        "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week",
+        "score": 90,
+        "sharedWith": [
+          "pierson-paul-increasing-returns-path-dependence-and-the-study-of-politics"
+        ]
+      },
+      {
+        "ambiguous": false,
+        "book": "living-in-sediment",
+        "citation": null,
+        "footnote": "c2-path-dependence",
+        "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds",
+        "score": 60,
+        "sharedWith": [
+          "north-douglass-c-institutions-institutional-change-and-economic-performance",
+          "pierson-paul-increasing-returns-path-dependence-and-the-study-of-politics"
+        ]
+      },
+      {
+        "ambiguous": false,
+        "book": "living-in-sediment",
+        "citation": null,
+        "footnote": "c5-path-dependence",
+        "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-5-the-small-states-and-the-senate",
+        "score": 60,
+        "sharedWith": [
+          "levin-yuval-the-fractured-republic-renewing-america-s-social-contract-in-the-age",
+          "pierson-paul-increasing-returns-path-dependence-and-the-study-of-politics"
+        ]
+      }
+    ],
+    "notes": [
+      "fragment_tied_but_shared_or_ambiguous",
+      "shared_footnote_with:pierson-paul-increasing-returns-path-dependence-and-the-study-of-politics"
+    ],
+    "path": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-arthur-lock-in",
+    "slug": "arthur-w-brian-increasing-returns-and-path-dependence-in-the-economy",
+    "status": "path_valid_shared_or_ambiguous_citation"
+  },
+  {
+    "evidenceLevel": "B",
+    "footnoteHits": [
+      {
+        "ambiguous": false,
+        "book": "the-world-we-make-together",
+        "citation": null,
+        "footnote": "c8-cointelpro",
+        "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl",
+        "score": 90,
+        "sharedWith": [
+          "blackpast-black-panther-party-s-free-breakfast-program-1969-1980"
+        ]
+      }
+    ],
+    "notes": [
+      "fragment_tied_but_shared_or_ambiguous",
+      "shared_footnote_with:blackpast-black-panther-party-s-free-breakfast-program-1969-1980"
+    ],
+    "path": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-cointelpro",
+    "slug": "church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp",
+    "status": "path_valid_shared_or_ambiguous_citation"
+  },
+  {
+    "evidenceLevel": "B",
+    "footnoteHits": [
+      {
+        "ambiguous": false,
+        "book": "when-others-become-leaders",
+        "citation": null,
+        "footnote": "s2-8",
+        "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt",
+        "score": 90,
+        "sharedWith": [
+          "south-african-history-online-south-africa-s-first-democratic-elections-27-april-1994"
+        ]
+      }
+    ],
+    "notes": [
+      "fragment_tied_but_shared_or_ambiguous",
+      "shared_footnote_with:south-african-history-online-south-africa-s-first-democratic-elections-27-april-1994"
+    ],
+    "path": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-8",
+    "slug": "desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire",
+    "status": "path_valid_shared_or_ambiguous_citation"
+  },
+  {
+    "evidenceLevel": "B",
+    "footnoteHits": [
+      {
+        "ambiguous": false,
+        "book": "coupling",
+        "citation": null,
+        "footnote": "c14-public-sector",
+        "routeKey": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture",
+        "score": 90,
+        "sharedWith": [
+          "pollitt-christopher-and-geert-bouckaert-public-management-reform-a-comparative-analysis"
+        ]
+      }
+    ],
+    "notes": [
+      "fragment_tied_but_shared_or_ambiguous",
+      "shared_footnote_with:pollitt-christopher-and-geert-bouckaert-public-management-reform-a-comparative-analysis"
+    ],
+    "path": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-public-sector",
+    "slug": "hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less",
+    "status": "path_valid_shared_or_ambiguous_citation"
+  },
+  {
+    "evidenceLevel": "B",
+    "footnoteHits": [
+      {
+        "ambiguous": false,
+        "book": "the-game-we-think-we-saw",
+        "citation": null,
+        "footnote": "c6-beam",
+        "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no",
+        "score": 85,
+        "sharedWith": [
+          "international-olympic-committee-simone-biles-opens-up-about-the-twisties-my-mind-and-body-are-si",
+          "international-olympic-committee-simone-biles-speaks-about-pulling-out-of-team-event-i-took-a-ste",
+          "will-graves-biles-returns-to-olympic-competition-wins-bronze-on-beam"
+        ]
+      },
+      {
+        "ambiguous": false,
+        "book": "the-game-we-think-we-saw",
+        "citation": null,
+        "footnote": "c6-paris",
+        "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no",
+        "score": 90,
+        "sharedWith": [
+          "international-olympic-committee-simone-biles-opens-up-about-the-twisties-my-mind-and-body-are-si",
+          "international-olympic-committee-simone-biles-speaks-about-pulling-out-of-team-event-i-took-a-ste"
+        ]
+      },
+      {
+        "ambiguous": false,
+        "book": "the-game-we-think-we-saw",
+        "citation": null,
+        "footnote": "c6-tokyo-team",
+        "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no",
+        "score": 85,
+        "sharedWith": [
+          "international-olympic-committee-simone-biles-opens-up-about-the-twisties-my-mind-and-body-are-si",
+          "international-olympic-committee-simone-biles-speaks-about-pulling-out-of-team-event-i-took-a-ste",
+          "will-graves-biles-withdraws-from-gymnastics-final-to-protect-team-self"
+        ]
+      },
+      {
+        "ambiguous": false,
+        "book": "the-game-we-think-we-saw",
+        "citation": null,
+        "footnote": "c6-twisties",
+        "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no",
+        "score": 85,
+        "sharedWith": [
+          "international-olympic-committee-gymnastics-what-are-the-twisties",
+          "international-olympic-committee-simone-biles-opens-up-about-the-twisties-my-mind-and-body-are-si",
+          "international-olympic-committee-simone-biles-speaks-about-pulling-out-of-team-event-i-took-a-ste"
+        ]
+      },
+      {
+        "ambiguous": false,
+        "book": "the-game-we-think-we-saw",
+        "citation": null,
+        "footnote": "c6-usag-frame",
+        "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no",
+        "score": 85,
+        "sharedWith": [
+          "international-olympic-committee-simone-biles-opens-up-about-the-twisties-my-mind-and-body-are-si",
+          "international-olympic-committee-simone-biles-speaks-about-pulling-out-of-team-event-i-took-a-ste",
+          "will-graves-biles-withdraws-from-gymnastics-final-to-protect-team-self"
+        ]
+      }
+    ],
+    "notes": [
+      "fragment_tied_but_shared_or_ambiguous",
+      "shared_footnote_with:international-olympic-committee-simone-biles-opens-up-about-the-twisties-my-mind-and-body-are-si,international-olympic-committee-simone-biles-speaks-about-pulling-out-of-team-event-i-took-a-ste"
+    ],
+    "path": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-paris",
+    "slug": "international-olympic-committee-simone-biles-all-titles-records-and-medals-complete-list",
+    "status": "path_valid_shared_or_ambiguous_citation"
+  },
+  {
+    "evidenceLevel": "B",
+    "footnoteHits": [
+      {
+        "ambiguous": false,
+        "book": "the-world-we-make-together",
+        "citation": null,
+        "footnote": "c10-expansion",
+        "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window",
+        "score": 90,
+        "sharedWith": [
+          "lowcountry-digital-history-initiative-the-progressive-club-johns-island"
+        ]
+      }
+    ],
+    "notes": [
+      "fragment_tied_but_shared_or_ambiguous",
+      "shared_footnote_with:lowcountry-digital-history-initiative-the-progressive-club-johns-island"
+    ],
+    "path": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-expansion",
+    "slug": "lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark",
+    "status": "path_valid_shared_or_ambiguous_citation"
+  },
+  {
+    "evidenceLevel": "B",
+    "footnoteHits": [
+      {
+        "ambiguous": false,
+        "book": "when-others-become-leaders",
+        "citation": null,
+        "footnote": "v4",
+        "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory",
+        "score": 90,
+        "sharedWith": [
+          "mandela-nelson-long-walk-to-freedom"
+        ]
+      }
+    ],
+    "notes": [
+      "fragment_tied_but_shared_or_ambiguous",
+      "shared_footnote_with:mandela-nelson-long-walk-to-freedom"
+    ],
+    "path": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v4",
+    "slug": "mandela-nelson-statement-from-the-dock-rivonia-trial-20-april-1964",
+    "status": "path_valid_shared_or_ambiguous_citation"
+  },
+  {
+    "evidenceLevel": "B",
+    "footnoteHits": [
+      {
+        "ambiguous": false,
+        "book": "the-game-we-think-we-saw",
+        "citation": null,
+        "footnote": "c5-nfl-protocol",
+        "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt",
+        "score": 90,
+        "sharedWith": [
+          "national-collegiate-athletic-association-concussion-fact-sheet-for-coaches"
+        ]
+      }
+    ],
+    "notes": [
+      "fragment_tied_but_shared_or_ambiguous",
+      "shared_footnote_with:national-collegiate-athletic-association-concussion-fact-sheet-for-coaches"
+    ],
+    "path": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-nfl-protocol",
+    "slug": "nfl-concussion-protocol-return-to-participation-protocol-overview",
+    "status": "path_valid_shared_or_ambiguous_citation"
+  },
+  {
+    "evidenceLevel": "B",
+    "footnoteHits": [
+      {
+        "ambiguous": false,
+        "book": "the-world-we-make-together",
+        "citation": null,
+        "footnote": "c10-shaw",
+        "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window",
+        "score": 90,
+        "sharedWith": [
+          "ransby-barbara-ella-baker-and-the-black-freedom-movement-a-radical-democratic-vision"
+        ]
+      }
+    ],
+    "notes": [
+      "fragment_tied_but_shared_or_ambiguous",
+      "shared_footnote_with:ransby-barbara-ella-baker-and-the-black-freedom-movement-a-radical-democratic-vision"
+    ],
+    "path": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-shaw",
+    "slug": "sncc-digital-gateway-birth-of-sncc",
+    "status": "path_valid_shared_or_ambiguous_citation"
+  },
+  {
+    "evidenceLevel": "B",
+    "footnoteHits": [
+      {
+        "ambiguous": false,
+        "book": "when-others-look-to-you-v1",
+        "citation": null,
+        "footnote": "c2-adaptive-systems",
+        "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-2-renewal-erosion-circulation-chapter-2-the-two-groups",
+        "score": 90,
+        "sharedWith": [
+          "weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing"
+        ]
+      },
+      {
+        "ambiguous": false,
+        "book": "when-others-look-to-you-v2",
+        "citation": null,
+        "footnote": "c5-sensemaking",
+        "routeKey": "/explore/books/when-others-look-to-you-v2/chapters/parts-part-2-renewing-chapter-5-feedback-drives-change",
+        "score": 90,
+        "sharedWith": [
+          "weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing"
+        ]
+      }
+    ],
+    "notes": [
+      "fragment_tied_but_shared_or_ambiguous",
+      "shared_footnote_with:weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing"
+    ],
+    "path": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-2-renewal-erosion-circulation-chapter-2-the-two-groups#user-content-fnref-c2-adaptive-systems",
+    "slug": "weick-karl-e-the-social-psychology-of-organizing",
+    "status": "path_valid_shared_or_ambiguous_citation"
+  },
+  {
+    "evidenceLevel": "B",
+    "footnoteHits": [
+      {
+        "ambiguous": false,
+        "book": "the-game-we-think-we-saw",
+        "citation": null,
+        "footnote": "c6-beam",
+        "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no",
+        "score": 90,
+        "sharedWith": [
+          "international-olympic-committee-simone-biles-all-titles-records-and-medals-complete-list",
+          "international-olympic-committee-simone-biles-opens-up-about-the-twisties-my-mind-and-body-are-si",
+          "international-olympic-committee-simone-biles-speaks-about-pulling-out-of-team-event-i-took-a-ste"
+        ]
+      }
+    ],
+    "notes": [
+      "fragment_tied_but_shared_or_ambiguous",
+      "shared_footnote_with:international-olympic-committee-simone-biles-all-titles-records-and-medals-complete-list,international-olympic-committee-simone-biles-opens-up-about-the-twisties-my-mind-and-body-are-si,international-olympic-committee-simone-biles-speaks-about-pulling-out-of-team-event-i-took-a-ste"
+    ],
+    "path": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-beam",
+    "slug": "will-graves-biles-returns-to-olympic-competition-wins-bronze-on-beam",
+    "status": "path_valid_shared_or_ambiguous_citation"
+  }
+]
