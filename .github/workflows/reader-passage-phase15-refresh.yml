@@ -36,7 +36,7 @@ jobs:
           uv sync --frozen
           npm ci --no-audit --no-fund --ignore-scripts
 
-      - name: Format the new test and run core plus Phase 10–15 regressions
+      - name: Format and validate all Phase 10–15 reader-passage regressions
         run: |
           set -euo pipefail
           uv run ruff format tests/test_reader_passage_phase15.py
