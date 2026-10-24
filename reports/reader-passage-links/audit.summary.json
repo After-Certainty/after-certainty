@@ -1,32 +1,6 @@
 {
   "rankedOpportunities": [
     {
-      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-close",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "abate-tom-nummi-workers-say-their-final-good-byes",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-7-the-house#user-content-fnref-h1",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "addams-jane-twenty-years-at-hull-house",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-babylonian-exile",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -378,45 +352,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-garrow",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "branch-taylor-at-canaan-s-edge-america-in-the-king-years-1965-68",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-garrow",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 3,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "branch-taylor-parting-the-waters-america-in-the-king-years-1954-63",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-garrow",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "branch-taylor-pillar-of-fire-america-in-the-king-years-1963-65",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/living-in-sediment/chapters/front-matter-prologue-september-is-not-seven#user-content-fnref-pro-ordinary-history",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -427,45 +362,6 @@
       "readerPassagePath": null,
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "braudel-fernand-the-structures-of-everyday-life",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "fragment_tied_but_shared_or_ambiguous",
-        "shared_footnote_with:calhoun-craig-neither-gods-nor-emperors-students-and-the-struggle-for-democracy-in-china,lim-louisa-the-people-s-republic-of-amnesia-tiananmen-revisited"
-      ],
-      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen",
-      "recommendedAction": "editorial_confirm_passage_relevance",
-      "slug": "brook-timothy-quelling-the-people-the-military-suppression-of-the-beijing-democracy-movement",
-      "status": "path_valid_shared_or_ambiguous_citation"
-    },
-    {
-      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-close",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 2,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "calhoun-craig-neither-gods-nor-emperors-students-and-the-struggle-for-democracy-in-china",
       "status": "strong_candidate"
     },
     {
@@ -647,6 +543,109 @@
       "readerPassagePath": null,
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "columbia-accident-investigation-board-report-of-the-columbia-accident-investigation-board",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-aca",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment#user-content-fnref-c11-optimization-authority",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "crawford-kate-atlas-of-ai-power-politics-and-the-planetary-costs-of-artificial",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-peltz",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 2,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "de-la-merced-michael-j-pepsico-tells-activist-investor-its-answer-is-still-no",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-8",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "fragment_tied_but_shared_or_ambiguous",
+        "shared_footnote_with:south-african-history-online-south-africa-s-first-democratic-elections-27-april-1994"
+      ],
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-8",
+      "recommendedAction": "editorial_confirm_passage_relevance",
+      "slug": "desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire",
+      "status": "path_valid_shared_or_ambiguous_citation"
+    },
+    {
+      "candidatePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-lazarus-deutsch-pace-conflict",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "deutsch-morton-the-resolution-of-conflict",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-lakoff-metaphor",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "deutscher-guy-the-unfolding-of-language-an-evolutionary-tour-of-mankind-s",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-13-when-justification-fades#user-content-fnref-c13-life-cycle",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "douglas-mary-how-institutions-think",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-early-moral-anthropology",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 2,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "douglas-mary-purity-and-danger-an-analysis-of-concepts-of-pollution",
       "status": "strong_candidate"
     }
   ],
@@ -1008,6 +1007,16 @@
   ],
   "tiedCitationExamples": [
     {
+      "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-workers",
+      "slug": "abate-tom-nummi-workers-say-their-final-good-byes",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-7-the-house#user-content-fnref-h1",
+      "slug": "addams-jane-twenty-years-at-hull-house",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-research",
       "slug": "adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc",
       "status": "verified_link_tied_citation"
@@ -1248,6 +1257,21 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-chicago",
+      "slug": "branch-taylor-at-canaan-s-edge-america-in-the-king-years-1965-68",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-1963",
+      "slug": "branch-taylor-parting-the-waters-america-in-the-king-years-1954-63",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-selma",
+      "slug": "branch-taylor-pillar-of-fire-america-in-the-king-years-1963-65",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-reactance",
       "slug": "brehm-jack-w-a-theory-of-psychological-reactance",
       "status": "verified_link_tied_citation"
@@ -1255,6 +1279,11 @@
     {
       "readerPassagePath": "/explore/books/trust-beyond-similarity/chapters/back-matter-conclusion-the-building-and-the-people#user-content-fnref-c10-brinkmann-standpoints",
       "slug": "brinkmann-svend-standpoints-ten-old-ideas-for-a-new-world",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen",
+      "slug": "brook-timothy-quelling-the-people-the-military-suppression-of-the-beijing-democracy-movement",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1283,6 +1312,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-close",
+      "slug": "bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-1-where-interpretation-ends-chapter-1-the-door-that-opens-only-inward#user-content-fnref-c1-bushman",
       "slug": "bushman-richard-lyman-joseph-smith-rough-stone-rolling",
       "status": "verified_link_tied_citation"
@@ -1290,6 +1324,11 @@
     {
       "readerPassagePath": "/explore/books/after-certainty/chapters/parts-part-3-living-with-limits-chapter-9-when-to-stop-interpreting#user-content-fnref-c9-interpretive-patience",
       "slug": "butler-judith-frames-of-war-when-is-life-grievable",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen-protest",
+      "slug": "calhoun-craig-neither-gods-nor-emperors-students-and-the-struggle-for-democracy-in-china",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2050,6 +2089,11 @@
     {
       "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-5",
       "slug": "library-of-congress-bayard-rustin-papers-march-on-washington-planning-materials",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen-memory",
+      "slug": "lim-louisa-the-people-s-republic-of-amnesia-tiananmen-revisited",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2957,35 +3001,35 @@
     "sources": {
       "bibliographyOnly": 57,
       "byEvidenceLevel": {
-        "A": 389,
-        "B": 249,
+        "A": 398,
+        "B": 240,
         "C": 1,
         "D": 57,
         "E": 18
       },
       "invalidPassageLinks": 0,
-      "mechanicalFootnoteCandidates": 235,
-      "missingPathWithFootnote": 235,
-      "pathNeedsEditorialReview": 14,
-      "tiedCitationCoveragePct": 54.48,
+      "mechanicalFootnoteCandidates": 227,
+      "missingPathWithFootnote": 227,
+      "pathNeedsEditorialReview": 13,
+      "tiedCitationCoveragePct": 55.74,
       "total": 714,
       "unverifiedFragmentLinks": 0,
-      "validPassageLinks": 403,
-      "verifiedLinkTiedCitation": 389,
-      "whyThisMattersOk": 403,
-      "withReaderPassagePath": 403
+      "validPassageLinks": 411,
+      "verifiedLinkTiedCitation": 398,
+      "whyThisMattersOk": 411,
+      "withReaderPassagePath": 411
     },
     "thinkers": {
       "byEvidenceLevel": {
-        "A": 385,
-        "B": 206,
+        "A": 390,
+        "B": 201,
         "C": 0,
         "D": 52,
         "E": 0
       },
       "total": 643,
-      "usefulPathPct": 59.88,
-      "withDerivablePassages": 385
+      "usefulPathPct": 60.65,
+      "withDerivablePassages": 390
     }
   }
 }
