@@ -114,9 +114,7 @@ def test_weak_attribution_is_only_a_review_cue() -> None:
     hints = rpl.disambiguation_hints_for_hit(source, hit, {"source": source})
     assert [h["kind"] for h in hints] == ["verify_work_identity"]
     assert hints[0]["confidence"] == "low"
-    assert not rpl.disambiguation_hints_for_hit(
-        source, _hit("strong"), {"source": source}
-    )
+    assert not rpl.disambiguation_hints_for_hit(source, _hit("strong"), {"source": source})
 
 
 def test_ambiguous_only_proposal_preserves_review_log_and_yaml(tmp_path: Path) -> None:
@@ -153,18 +151,26 @@ def test_ambiguous_only_proposal_preserves_review_log_and_yaml(tmp_path: Path) -
     # Do not silently change candidate statuses, and obey the existing
     # deferred vs. proposed distinction when --unreviewed-only is enabled.
     first = batch[0]
-    key = rpl._candidate_key(
-        first.entity_kind, first.slug, first.route_key, footnote_id="shared"
-    )
+    key = rpl._candidate_key(first.entity_kind, first.slug, first.route_key, footnote_id="shared")
     eligible = rpl.build_candidates(
-        result, kind="sources", ambiguous_only=True, only_missing=True,
-        unreviewed_only=True, review_log={key: {"status": "deferred"}},
-        repo=None, check_anchors=False,
+        result,
+        kind="sources",
+        ambiguous_only=True,
+        only_missing=True,
+        unreviewed_only=True,
+        review_log={key: {"status": "deferred"}},
+        repo=None,
+        check_anchors=False,
     )
     assert first.slug in {c.slug for c in eligible}
     not_eligible = rpl.build_candidates(
-        result, kind="sources", ambiguous_only=True, only_missing=True,
-        unreviewed_only=True, review_log={key: {"status": "proposed"}},
-        repo=None, check_anchors=False,
+        result,
+        kind="sources",
+        ambiguous_only=True,
+        only_missing=True,
+        unreviewed_only=True,
+        review_log={key: {"status": "proposed"}},
+        repo=None,
+        check_anchors=False,
     )
     assert first.slug not in {c.slug for c in not_eligible}
