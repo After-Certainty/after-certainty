@@ -37,7 +37,7 @@ jobs:
           uv run ruff check tools/reader_passage_links.py tests/test_reader_passage_phase12.py
           uv run ruff format --check tools/reader_passage_links.py tests/test_reader_passage_phase12.py
           uv run pytest tests/test_reader_passage_links.py tests/test_reader_passage_phase10.py tests/test_reader_passage_phase11.py tests/test_reader_passage_phase12.py -q
-      - name: Verify eight sole-work and five shared citations with rendered HTML
+      - name: Verify nine sole-work and four shared citations with rendered HTML
         run: |
           set -euo pipefail
           uv run python - <<'PY'
@@ -51,6 +51,7 @@ jobs:
               "arthur-w-brian-increasing-returns-and-path-dependence-in-the-economy",
               "church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp",
               "desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire",
+              "hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less",
               "international-olympic-committee-simone-biles-all-titles-records-and-medals-complete-list",
               "nfl-concussion-protocol-return-to-participation-protocol-overview",
               "weick-karl-e-the-social-psychology-of-organizing",
@@ -58,7 +59,6 @@ jobs:
           ]
           shared=[
               "american-college-of-emergency-physicians-boarding",
-              "hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less",
               "lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark",
               "mandela-nelson-statement-from-the-dock-rivonia-trial-20-april-1964",
               "sncc-digital-gateway-birth-of-sncc",
