@@ -124,7 +124,7 @@ Guardrails are remembered as obstacles until the road disappears.
 
 [^c8-bernanke]: Ben S. Bernanke, *The Courage to Act: A Memoir of a Crisis and Its Aftermath* (New York: W. W. Norton, 2015), on institutional decisions during the financial crisis and their implications for subsequent reform.
 
-[^c8-banks-2023]: U.S. Department of the Treasury, Board of Governors of the Federal Reserve System, and Federal Deposit Insurance Corporation, “Joint Statement,” March 12, 2023, on the systemic-risk exceptions and protection of depositors at Silicon Valley Bank and Signature Bank. The Federal Reserve lending facility and insurance-design options are sourced separately.
+[^c8-banks-2023]: U.S. Department of the Treasury, Board of Governors of the Federal Reserve System, and Federal Deposit Insurance Corporation, “Joint Statement by the Department of the Treasury, Federal Reserve, and FDIC,” March 12, 2023, https://www.fdic.gov/news/press-releases/2023/pr23017.html, on systemic-risk exceptions and protection of depositors at Silicon Valley Bank and Signature Bank. The lending facility and insurance-design options are sourced separately.
 
 [^c8-fiscal-stabilizers]: Congressional Budget Office, *Effects of Automatic Stabilizers on the Federal Budget: 2024 to 2034* (November 2024); legislative and administrative histories of unemployment insurance, Medicaid, nutrition assistance, and pandemic-era relief programs.
 
