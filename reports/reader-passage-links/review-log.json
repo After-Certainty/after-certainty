@@ -6,15 +6,30 @@
       "evidenceLevel": "B",
       "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard",
       "slug": "abate-tom-nummi-workers-say-their-final-good-byes",
-      "status": "proposed"
+      "status": "skipped",
+      "note": "Phase 10: superseded by reviewed sole-work claim at /explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-workers. Earlier shared candidate is no longer the target.",
+      "supersededBy": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-workers",
+      "updatedAt": "2026-10-24T18:30:00Z"
+    },
+    "source:abate-tom-nummi-workers-say-their-final-good-byes:/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-workers": {
+      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-workers",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard",
+      "slug": "abate-tom-nummi-workers-say-their-final-good-byes",
+      "note": "Phase 10 editorially reviewed and applied: Workers' farewell at the closing plant. Footnote now specific to this work; subject to rendered fragment verification.",
+      "status": "applied",
+      "updatedAt": "2026-10-24T18:30:00Z"
     },
     "source:addams-jane-twenty-years-at-hull-house:/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-7-the-house#user-content-fnref-h1": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-7-the-house#user-content-fnref-h1",
       "entityKind": "source",
-      "evidenceLevel": "B",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-7-the-house",
       "slug": "addams-jane-twenty-years-at-hull-house",
-      "status": "proposed"
+      "status": "applied",
+      "note": "Phase 10 editorially reviewed and applied: Founding Hull-House from Addams's own account. Footnote now specific to this work; subject to rendered fragment verification.",
+      "updatedAt": "2026-10-24T18:30:00Z"
     },
     "source:adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc:/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-fremont-close": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-fremont-close",
@@ -832,35 +847,68 @@
       "status": "applied",
       "updatedAt": "2026-10-17T22:57:10Z"
     },
+    "source:branch-taylor-at-canaan-s-edge-america-in-the-king-years-1965-68:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-chicago": {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-chicago",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet",
+      "slug": "branch-taylor-at-canaan-s-edge-america-in-the-king-years-1965-68",
+      "note": "Phase 10 editorially reviewed and applied: Northern open-housing struggle 1966. Footnote now specific to this work; subject to rendered fragment verification.",
+      "status": "applied",
+      "updatedAt": "2026-10-24T18:30:00Z"
+    },
     "source:branch-taylor-at-canaan-s-edge-america-in-the-king-years-1965-68:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-garrow": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-garrow",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 10: superseded by reviewed sole-work claim at /explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-chicago. Earlier shared candidate is no longer the target.",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet",
       "slug": "branch-taylor-at-canaan-s-edge-america-in-the-king-years-1965-68",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T18:30:00Z",
+      "supersededBy": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-chicago"
+    },
+    "source:branch-taylor-parting-the-waters-america-in-the-king-years-1954-63:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-1963": {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-1963",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet",
+      "slug": "branch-taylor-parting-the-waters-america-in-the-king-years-1954-63",
+      "note": "Phase 10 editorially reviewed and applied: Birmingham and March on Washington 1963. Footnote now specific to this work; subject to rendered fragment verification.",
+      "status": "applied",
+      "updatedAt": "2026-10-24T18:30:00Z"
     },
     "source:branch-taylor-parting-the-waters-america-in-the-king-years-1954-63:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-garrow": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-garrow",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 10: superseded by reviewed sole-work claim at /explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-1963. Earlier shared candidate is no longer the target.",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet",
       "slug": "branch-taylor-parting-the-waters-america-in-the-king-years-1954-63",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T18:30:00Z",
+      "supersededBy": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-1963"
     },
     "source:branch-taylor-pillar-of-fire-america-in-the-king-years-1963-65:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-garrow": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-garrow",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 10: superseded by reviewed sole-work claim at /explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-selma. Earlier shared candidate is no longer the target.",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet",
       "slug": "branch-taylor-pillar-of-fire-america-in-the-king-years-1963-65",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T18:30:00Z",
+      "supersededBy": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-selma"
+    },
+    "source:branch-taylor-pillar-of-fire-america-in-the-king-years-1963-65:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-selma": {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-selma",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet",
+      "slug": "branch-taylor-pillar-of-fire-america-in-the-king-years-1963-65",
+      "note": "Phase 10 editorially reviewed and applied: Selma voting rights campaign 1965. Footnote now specific to this work; subject to rendered fragment verification.",
+      "status": "applied",
+      "updatedAt": "2026-10-24T18:30:00Z"
     },
     "source:braudel-fernand-the-structures-of-everyday-life:/explore/books/living-in-sediment/chapters/front-matter-prologue-september-is-not-seven#user-content-fnref-pro-ordinary-history": {
       "candidatePath": "/explore/books/living-in-sediment/chapters/front-matter-prologue-september-is-not-seven#user-content-fnref-pro-ordinary-history",
@@ -895,12 +943,12 @@
     "source:brook-timothy-quelling-the-people-the-military-suppression-of-the-beijing-democracy-movement:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "Phase 8 Outcome B applied (Brook primary; Calhoun/Lim contextual). Mechanical audit: path_valid_shared_or_ambiguous_citation (not tied A) — evidenceLevel B while multi-historiography footnote remains shared.",
+      "evidenceLevel": "A",
+      "note": "Phase 10: narrowed [^c7-tiananmen] to Brook's 1989 crackdown history; Calhoun and Lim now have separate claim-specific footnotes. Structural fragment verification required.",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working",
       "slug": "brook-timothy-quelling-the-people-the-military-suppression-of-the-beijing-democracy-movement",
       "status": "applied",
-      "updatedAt": "2026-10-18T01:36:12Z"
+      "updatedAt": "2026-10-24T18:30:00Z"
     },
     "source:brooks-frederick-p-jr-the-mythical-man-month-essays-on-software-engineering:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-05-waterfall-low-temporal-coupling#user-content-fnref-c5-opening-scene": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-05-waterfall-low-temporal-coupling#user-content-fnref-c5-opening-scene",
@@ -965,12 +1013,12 @@
     "source:bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california:/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-close": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-close",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 10 editorially reviewed and applied: Corporate end of NUMMI venture. Footnote now specific to this work; subject to rendered fragment verification.",
       "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard",
       "slug": "bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T18:30:00Z"
     },
     "source:bushman-richard-lyman-joseph-smith-rough-stone-rolling:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-1-where-interpretation-ends-chapter-1-the-door-that-opens-only-inward#user-content-fnref-c1-bushman": {
       "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-1-where-interpretation-ends-chapter-1-the-door-that-opens-only-inward#user-content-fnref-c1-bushman",
@@ -996,11 +1044,22 @@
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "Phase 8: still deferred — Calhoun remains contextual co-cite under multi-historiography footnote; Brook took primary path. Shared note still correct; not skipped.",
+      "note": "Phase 10: superseded by reviewed sole-work claim at /explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen-protest. Earlier shared candidate is no longer the target.",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working",
       "slug": "calhoun-craig-neither-gods-nor-emperors-students-and-the-struggle-for-democracy-in-china",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T01:32:23Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T18:30:00Z",
+      "supersededBy": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen-protest"
+    },
+    "source:calhoun-craig-neither-gods-nor-emperors-students-and-the-struggle-for-democracy-in-china:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen-protest": {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen-protest",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working",
+      "slug": "calhoun-craig-neither-gods-nor-emperors-students-and-the-struggle-for-democracy-in-china",
+      "note": "Phase 10 editorially reviewed and applied: Original student-movement claim. Footnote now specific to this work; subject to rendered fragment verification.",
+      "status": "applied",
+      "updatedAt": "2026-10-24T18:30:00Z"
     },
     "source:california-african-american-museum-free-breakfast-for-school-children-program:/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-oakland": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-oakland",
@@ -3466,11 +3525,22 @@
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "Phase 8: still deferred — Lim’s memory/amnesia framing is real but not isolated to a separate claim sentence this pass; Brook primary on shared [^c7-tiananmen]. Future Outcome A possible; shared evidence still correct for now.",
+      "note": "Phase 10: superseded by reviewed sole-work claim at /explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen-memory. Earlier shared candidate is no longer the target.",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working",
       "slug": "lim-louisa-the-people-s-republic-of-amnesia-tiananmen-revisited",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T01:32:23Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T18:30:00Z",
+      "supersededBy": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen-memory"
+    },
+    "source:lim-louisa-the-people-s-republic-of-amnesia-tiananmen-revisited:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen-memory": {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen-memory",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working",
+      "slug": "lim-louisa-the-people-s-republic-of-amnesia-tiananmen-revisited",
+      "note": "Phase 10 editorially reviewed and applied: Subsequent official memory and censorship claim. Footnote now specific to this work; subject to rendered fragment verification.",
+      "status": "applied",
+      "updatedAt": "2026-10-24T18:30:00Z"
     },
     "source:lin-justin-yifu-the-household-responsibility-system-in-china-s-agricultural-reform:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-rural": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-rural",

@@ -57,7 +57,7 @@ management problem. King’s presence, arrests, and the decision to
 involve young marchers drew national attention toward police dogs, fire
 hoses, and mass detention. The strategy compressed structural injustice
 into scenes the country could not ignore without also discovering what
-it would tolerate.[^c4-branch-garrow]
+it would tolerate.[^c4-branch-1963]
 
 From that confrontation came the text that still names the door marked
 “not yet.” Confined in Birmingham Jail after violating an injunction
@@ -112,14 +112,14 @@ both mass and disciplined. King spoke within that negotiated field. The
 quotable aspiration detached from the day’s fuller demand for jobs and
 freedom. On that August afternoon it was one speech among many,
 delivered into a politics that still resisted the Civil Rights Act and
-still treated Black citizenship as a managed concession.[^c4-branch-garrow]
+still treated Black citizenship as a managed concession.[^c4-branch-1963]
 
 Selma sharpened the same design around the franchise. Local organizers
 and the Student Nonviolent Coordinating Committee had already absorbed
 years of risk in Dallas County. The effort to secure voting rights met
 local terror and federal hesitation. Bloody Sunday on the Edmund Pettus
 Bridge made the state’s method televised again—clubs, gas, horses,
-bodies on a bridge named for a Confederate. The Voting Rights Act of
+bodies on a bridge named for a Confederate.[^c4-branch-selma] The Voting Rights Act of
 1965 followed: not a gift of enlightened timing, but a partial
 institutional answer extracted under crisis that made continued delay
 politically expensive. After 1965 he publicly argued that statutes left
@@ -131,7 +131,7 @@ practical rooms of power—credit, housing, employment, policing—
 organized by older keys.
 
 When the campaigns moved north—Chicago’s open-housing struggle among
-them—the door’s manners changed and its function did not. Northern
+them—the door’s manners changed and its function did not.[^c4-branch-chicago] Northern
 audiences who had applauded southern martyrdom often rediscovered the
 virtues of gradualism when the demand approached property values,
 school boundaries, and neighborhood exclusion. Public opinion remained
@@ -292,7 +292,11 @@ for early recognition of what the living man demanded.
 
 [^c4-gallup]: Gallup mid-1960s surveys: majority unfavorable; by 1966 roughly two-thirds disapproved. Discussed in David J. Garrow, *Bearing the Cross: Martin Luther King, Jr., and the Southern Christian Leadership Conference* (New York: William Morrow, 1986).
 
-[^c4-branch-garrow]: On Birmingham, Project C, the March on Washington, Chicago open housing, and Selma, see Taylor Branch, *Parting the Waters: America in the King Years 1954–63* (New York: Simon & Schuster, 1988); Branch, *Pillar of Fire* and *At Canaan’s Edge* (New York: Simon & Schuster, 1998, 2006); and Garrow, *Bearing the Cross*.
+[^c4-branch-1963]: Taylor Branch, *Parting the Waters: America in the King Years 1954–63* (New York: Simon & Schuster, 1988), on the Birmingham campaign and the 1963 March on Washington.
+
+[^c4-branch-selma]: Taylor Branch, *Pillar of Fire: America in the King Years 1963–65* (New York: Simon & Schuster, 1998), on the movement toward voting rights and Selma.
+
+[^c4-branch-chicago]: Taylor Branch, *At Canaan’s Edge: America in the King Years 1965–68* (New York: Simon & Schuster, 2006), on King's movement into northern cities and the struggle over housing.
 
 [^c4-letter]: Martin Luther King Jr., “Letter from Birmingham Jail” (16 April 1963), in *Why We Can’t Wait* (New York: Harper & Row, 1964; Signet Classics reprint, 2000).
 
