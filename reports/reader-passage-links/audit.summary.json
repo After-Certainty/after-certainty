@@ -146,19 +146,6 @@
     {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-knight-method",
       "evidenceLevel": "B",
-      "footnoteHitCount": 2,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "associated-press-bob-knight-indiana-s-combustible-coaching-giant-dies-at-age-83",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair",
-      "evidenceLevel": "B",
       "footnoteHitCount": 1,
       "notes": [
         "shared_or_ambiguous_footnote",
@@ -166,7 +153,7 @@
       ],
       "readerPassagePath": null,
       "recommendedAction": "editorial_review_then_add_path",
-      "slug": "associated-press-bob-knight-s-chair-college-basketball-s-classic-furniture",
+      "slug": "associated-press-bob-knight-indiana-s-combustible-coaching-giant-dies-at-age-83",
       "status": "strong_candidate"
     },
     {
@@ -647,6 +634,19 @@
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "douglas-mary-purity-and-danger-an-analysis-of-concepts-of-pollution",
       "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-slavery",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "dunbar-erica-armstrong-never-caught-the-washingtons-relentless-pursuit-of-their-runaway-slave-on",
+      "status": "strong_candidate"
     }
   ],
   "thinkersWithDerivablePassages": [
@@ -899,6 +899,12 @@
         },
         {
           "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair-incident",
+          "sourceSlug": "associated-press-bob-knight-s-chair-college-basketball-s-classic-furniture",
+          "whyThisMatters": "The Associated Press retrospective records Knight throwing a chair during the February 23, 1985 Purdue game and the ejection, while also describing the moment's later public mythology. The Game We Think We Saw uses the incident to ask what winning permits audiences to excuse; that moral conclusion is the book's, not the report's."
+        },
+        {
+          "evidenceLevel": "A",
           "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-nike",
           "sourceSlug": "associated-press-nike-unveils-kaepernick-ad-to-air-during-nfl-season-opener",
           "whyThisMatters": "The Associated Press reports Nike\u2019s September 2018 campaign built around Kaepernick as a commercial image of conviction after his protest. The Game We Think We Saw uses that translation\u2014from quarterback to protester to brand symbol\u2014to ask what a gesture still means once markets restore visibility on their own terms. The wire story records the ad\u2019s public debut; the book asks whether commercial recovery clarifies or replaces the protest\u2019s original claim."
@@ -1099,6 +1105,11 @@
     {
       "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-smith-carlos",
       "slug": "associated-press-ap-was-there-smith-and-carlos-protest-during-1968-olympics",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair-incident",
+      "slug": "associated-press-bob-knight-s-chair-college-basketball-s-classic-furniture",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1902,6 +1913,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-knight-record",
+      "slug": "indiana-university-athletics-coach-bob-knight-passes-away-at-83",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-8-when-failure-is-not-an-option#user-content-fnref-c8-source-institute-of-medicine",
       "slug": "institute-of-medicine-to-err-is-human-building-a-safer-health",
       "status": "verified_link_tied_citation"
@@ -2104,6 +2120,11 @@
     {
       "readerPassagePath": "/explore/books/the-discipline-of-uncertainty/chapters/parts-part-4-institutions-authority-and-drift-chapter-7-warning-systems-that-incriminate-their-own-success#user-content-fnref-c7-confirm",
       "slug": "lord-charles-g-lee-ross-and-mark-r-lepper-biased-assimilation-and-attitude-polarization-the-effe",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair-sanction",
+      "slug": "los-angeles-times-knight-suspended-for-a-game-by-big-ten-for-throwing-chair",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2379,6 +2400,16 @@
     {
       "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-nba-ppp",
       "slug": "nba-communications-nba-board-of-governors-approves-new-player-participation-policy",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-policy-standstill",
+      "slug": "nfl-com-nfl-anthem-policy-on-hold-under-standstill-agreement",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-policy-approved",
+      "slug": "nfl-com-nfl-owners-approve-national-anthem-policy-for-2018",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2999,37 +3030,37 @@
   ],
   "totals": {
     "sources": {
-      "bibliographyOnly": 57,
+      "bibliographyOnly": 58,
       "byEvidenceLevel": {
-        "A": 398,
-        "B": 240,
+        "A": 403,
+        "B": 234,
         "C": 1,
-        "D": 57,
+        "D": 58,
         "E": 18
       },
       "invalidPassageLinks": 0,
-      "mechanicalFootnoteCandidates": 227,
-      "missingPathWithFootnote": 227,
+      "mechanicalFootnoteCandidates": 221,
+      "missingPathWithFootnote": 221,
       "pathNeedsEditorialReview": 13,
-      "tiedCitationCoveragePct": 55.74,
+      "tiedCitationCoveragePct": 56.44,
       "total": 714,
       "unverifiedFragmentLinks": 0,
-      "validPassageLinks": 411,
-      "verifiedLinkTiedCitation": 398,
-      "whyThisMattersOk": 411,
-      "withReaderPassagePath": 411
+      "validPassageLinks": 416,
+      "verifiedLinkTiedCitation": 403,
+      "whyThisMattersOk": 416,
+      "withReaderPassagePath": 416
     },
     "thinkers": {
       "byEvidenceLevel": {
-        "A": 390,
-        "B": 201,
+        "A": 392,
+        "B": 199,
         "C": 0,
         "D": 52,
         "E": 0
       },
       "total": 643,
-      "usefulPathPct": 60.65,
-      "withDerivablePassages": 390
+      "usefulPathPct": 60.96,
+      "withDerivablePassages": 392
     }
   }
 }

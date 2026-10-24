@@ -9,38 +9,38 @@ bibliography-only and keyword overlap never count as verified passages.
 ### Sources
 
 - Total sources scanned: **714**
-- With `readerPassagePath`: **411**
-- Structurally valid + fragment-checked paths: **411**
-- Verified link + mechanically tied citation (level A): **398**
-- Mechanical footnote candidates (level B / strong_candidate): **227**
+- With `readerPassagePath`: **416**
+- Structurally valid + fragment-checked paths: **416**
+- Verified link + mechanically tied citation (level A): **403**
+- Mechanical footnote candidates (level B / strong_candidate): **221**
 - Path present but needs editorial review: **13**
 - Fragment check skipped (unverified): **0**
 - Invalid passage links: **0**
-- Missing path but footnote-cited: **227**
-- Bibliography only (level D): **57**
-- Tied-citation (level A) coverage: **55.74%**
-- `whyThisMatters` present/substantive: **411**
+- Missing path but footnote-cited: **221**
+- Bibliography only (level D): **58**
+- Tied-citation (level A) coverage: **56.44%**
+- `whyThisMatters` present/substantive: **416**
 
 Level A means a public path whose fragment is the matched citation invocation — a *mechanical* condition, not editorial approval of philosophical relevance. All newly proposed connections still need editorial review before YAML enrichment.
 
 Evidence levels:
 
-- A: 398
-- B: 240
+- A: 403
+- B: 234
 - C: 1
-- D: 57
+- D: 58
 - E: 18
 
 ### Thinkers
 
 - Total thinkers scanned: **643**
-- With derivable work passage links: **390**
-- Useful derived path coverage: **60.65%**
+- With derivable work passage links: **392**
+- Useful derived path coverage: **60.96%**
 
 Evidence levels:
 
-- A: 390
-- B: 201
+- A: 392
+- B: 199
 - C: 0
 - D: 52
 - E: 0
@@ -63,7 +63,6 @@ _None._
 - **B** `arrington-leonard-j-great-basin-kingdom` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/learning-to-see/chapters/parts-part-1-the-formation-of-a-knower-chapter-1-the-experiment-i-had-never-tried#user-content-fnref-c1-sediment-hypothesis`
 - **B** `arthur-w-brian-increasing-returns-and-path-dependence-in-the-economy` — path_valid_shared_or_ambiguous_citation; action `editorial_confirm_passage_relevance`; candidate `/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-arthur-lock-in`
 - **B** `associated-press-bob-knight-indiana-s-combustible-coaching-giant-dies-at-age-83` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-knight-method`
-- **B** `associated-press-bob-knight-s-chair-college-basketball-s-classic-furniture` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair`
 - **B** `associated-press-kaepernick-eric-reid-settle-collusion-grievances-with-nfl` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-grievance-settled`
 - **B** `associated-press-kaepernick-files-grievance-against-nfl-alleging-collusion` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-grievance-filed`
 - **B** `associated-press-return-of-the-hoosier-knight-back-at-indiana-after-20-years` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-return`
@@ -101,7 +100,8 @@ _None._
 - **B** `deutscher-guy-the-unfolding-of-language-an-evolutionary-tour-of-mankind-s` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-lakoff-metaphor`
 - **B** `douglas-mary-how-institutions-think` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-13-when-justification-fades#user-content-fnref-c13-life-cycle`
 - **B** `douglas-mary-purity-and-danger-an-analysis-of-concepts-of-pollution` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-early-moral-anthropology`
-- … and 191 more (see JSON).
+- **B** `dunbar-erica-armstrong-never-caught-the-washingtons-relentless-pursuit-of-their-runaway-slave-on` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-slavery`
+- … and 185 more (see JSON).
 
 ## Verified link + mechanically tied citation examples (level A)
 
@@ -124,7 +124,7 @@ _None._
 - `argyris-chris-and-donald-a-schon-organizational-learning-ii` → `/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-7-effectiveness-and-its-illusions#user-content-fnref-c7-performance-paradox`
 - `argyris-chris-on-organizational-learning` → `/explore/books/when-accountability-no-longer-expires/chapters/parts-part-3-learning-without-resolution-chapter-6-adaptation-is-not-renewal#user-content-fnref-c6-argyris-reform`
 - `associated-press-ap-was-there-smith-and-carlos-protest-during-1968-olympics` → `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-smith-carlos`
-- `associated-press-nike-unveils-kaepernick-ad-to-air-during-nfl-season-opener` → `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-nike`
+- `associated-press-bob-knight-s-chair-college-basketball-s-classic-furniture` → `/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair-incident`
 
 ## Thinkers with derivable passage links
 
@@ -148,7 +148,7 @@ _None._
 - `anthony-sampson`: `sampson-anthony-mandela-the-authorized-biography` → `/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter#user-content-fnref-c8-sampson`
 - `arie-w-kruglanski`: `kruglanski-arie-w-and-donna-m-webster-motivated-closing-of-the-mind-seizing-and-freezing` → `/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-3-the-cost-of-leaving-it-open#user-content-fnref-c3-kruglanski-need-closure`
 - `arlie-russell-hochschild`: `hochschild-arlie-russell-the-managed-heart-commercialization-of-human-feeling` → `/explore/books/why-collaboration-is-so-hard/chapters/parts-chapter-3-the-person-who-keeps-the-spreadsheet#user-content-fnref-c3-hochschild`
-- `associated-press`: `associated-press-ap-was-there-smith-and-carlos-protest-during-1968-olympics` → `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-smith-carlos`, `associated-press-nike-unveils-kaepernick-ad-to-air-during-nfl-season-opener` → `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-nike`
+- `associated-press`: `associated-press-ap-was-there-smith-and-carlos-protest-during-1968-olympics` → `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-smith-carlos`, `associated-press-bob-knight-s-chair-college-basketball-s-classic-furniture` → `/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair-incident`, `associated-press-nike-unveils-kaepernick-ad-to-air-during-nfl-season-opener` → `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-nike`
 - `atul-gawande`: `gawande-atul-the-checklist-manifesto-how-to-get-things-right` → `/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-4-constraint-as-discipline#user-content-fnref-c4-source-atul-gawande-the`
 - `b-r-nanda`: `nanda-b-r-mahatma-gandhi-a-biography` → `/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-3`
 - `barbara-ransby`: `ransby-barbara-ella-baker-and-the-black-freedom-movement-a-radical-democratic-vision` → `/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-autonomy`
