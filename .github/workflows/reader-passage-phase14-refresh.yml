@@ -1,0 +1,93 @@
+# Temporary one-shot Phase 14 report generation; removed before merge.
+name: Reader passage Phase 14 full audit (temporary)
+
+on:
+  push:
+    branches:
+      - feat/reader-passage-phase14-coverage-editorial-batch
+    paths:
+      - .github/workflows/reader-passage-phase14-refresh.yml
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    if: github.repository == 'After-Certainty/after-certainty'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: "22.23.4"
+          cache: npm
+      - uses: jdx/mise-action@9b200bcecbfd6303e69a4a261b2e09e3757440a7 # v5.2.0
+        with:
+          install_args: "python uv"
+
+      - name: Install frozen dependencies for the reader renderer
+        run: |
+          set -euo pipefail
+          uv sync --frozen
+          npm ci --no-audit --no-fund --ignore-scripts
+
+      - name: Ruff and reader passage regression suites
+        run: |
+          set -euo pipefail
+          uv run ruff check tests/test_reader_passage_phase14.py
+          uv run ruff format --check tests/test_reader_passage_phase14.py
+          uv run pytest tests/test_reader_passage_phase10.py tests/test_reader_passage_phase11.py tests/test_reader_passage_phase12.py tests/test_reader_passage_phase13.py tests/test_reader_passage_phase14.py tests/test_reader_passage_links.py -q
+
+      - name: Regenerate full corpus audit with rendered fragments
+        run: |
+          set -euo pipefail
+          uv run python tools/audit_reader_passage_links.py --repo .
+
+      - name: Assert all five new citations and overall audit integrity
+        run: |
+          set -euo pipefail
+          uv run python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path("reports/reader-passage-links/audit.summary.json").read_text())
+          sources = report["totals"]["sources"]
+          expected = {
+              "california-african-american-museum-free-breakfast-for-school-children-program",
+              "associated-press-taylor-swift-donates-to-food-banks-on-eras-tour-providing-thousands-of-meals",
+              "cockburn-alistair-the-heart-of-agile",
+              "crawford-kate-atlas-of-ai-power-politics-and-the-planetary-costs-of-artificial",
+              "blackpast-black-panther-party-s-free-breakfast-program-1969-1980",
+          }
+          tied = {x["slug"] for x in report["tiedCitationExamples"]}
+          missing = sorted(expected - tied)
+          print("Full source audit:", json.dumps(sources, sort_keys=True))
+          print("New source paths without mechanically tied citations:", missing)
+          assert not missing, "Phase 14 source links not uniquely verified"
+          assert sources["invalidPassageLinks"] == 0
+          assert sources["unverifiedFragmentLinks"] == 0
+          assert sources["pathNeedsEditorialReview"] == 0
+          assert sources["withReaderPassagePath"] == 422, "Unexpected source-path count"
+          PY
+
+      - name: Commit regenerated tracked audit snapshots
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git add -- reports/reader-passage-links/audit.md reports/reader-passage-links/audit.summary.json
+          if git diff --cached --quiet; then
+            echo "Audit reports already up to date"
+            exit 0
+          fi
+          git diff --cached --check
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(sources): regenerate Phase 14 verified passage-link audit"
+          auth="$(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w0)"
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth" \
+            push origin HEAD:refs/heads/feat/reader-passage-phase14-coverage-editorial-batch
