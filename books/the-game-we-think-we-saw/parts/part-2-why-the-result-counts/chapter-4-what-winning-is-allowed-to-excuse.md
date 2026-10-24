@@ -100,7 +100,7 @@ Effectiveness does not confer moral legitimacy on everything that accompanied it
 
 ### The Chair
 
-On February 23, 1985, during an Indiana game against Purdue, Knight became furious over the officiating. He picked up a red plastic chair and threw it across the court. He was ejected, later apologized, and received a one-game suspension from the Big Ten, with a warning that further unsportsmanlike conduct would bring an additional suspension.[^c4-chair]
+On February 23, 1985, during an Indiana game against Purdue, Knight became furious over the officiating. He picked up a red plastic chair and threw it across the court, and was ejected.[^c4-chair-incident] He later apologized. On March 2, the Big Ten suspended him for one game, warning that further unsportsmanlike conduct could bring additional suspension.[^c4-chair-sanction]
 
 The chair became one of the most recognizable objects in American sports.
 
@@ -328,11 +328,13 @@ The trophy remains in the frame.
 
 What it is allowed to excuse does not.
 
-[^c4-knight-record]: Indiana University Athletics, “Coach Bob Knight Passes Away at 83,” November 1, 2023, https://iuhoosiers.com/news/2023/11/1/mens-basketball-coach-bob-knight-passes-away-at-83; Associated Press, “Bob Knight, Indiana’s Combustible Coaching Giant, Dies at Age 83,” November 1, 2023, https://apnews.com/article/bob-knight-death-indiana-army-college-basketball-c29a7cb601f64e9181564037e8c78758. Three NCAA titles at Indiana (1976, 1981, 1987); 902–371 career record; 1984 Olympic gold as U.S. coach.
+[^c4-knight-record]: Indiana University Athletics, “Coach Bob Knight Passes Away at 83,” November 1, 2023, https://iuhoosiers.com/news/2023/11/1/mens-basketball-coach-bob-knight-passes-away-at-83. Official institutional summary of three NCAA titles at Indiana (1976, 1981, 1987), a 902–371 career record, the undefeated 1976 season, and the 1984 Olympic gold.
 
 [^c4-knight-method]: Indiana University Athletics, “Coach Bob Knight Passes Away at 83”; John Feinstein, *A Season on the Brink* (New York: Macmillan, 1986); Associated Press, “Bob Knight, Indiana’s Combustible Coaching Giant, Dies at Age 83.” Motion offense, coaching tree, academic emphasis, and contemporaneous reputation regarding recruiting violations are scoped as secondary summaries, not a completed NCAA compliance audit.
 
-[^c4-chair]: *Los Angeles Times*, “Knight Suspended for a Game by Big Ten for Throwing Chair,” March 3, 1985, https://www.latimes.com/archives/la-xpm-1985-03-03-sp-32864-story.html; Associated Press, “Bob Knight’s Chair: College Basketball’s Classic Furniture,” https://apnews.com/article/bob-knight-chair-toss-indiana-76621ab4996a4e92a43a3c166ccde446.
+[^c4-chair-incident]: Associated Press, “Bob Knight’s Chair: College Basketball’s Classic Furniture,” November 1, 2023, https://apnews.com/article/bob-knight-chair-toss-indiana-76621ab4996a4e92a43a3c166ccde446. Retrospective account of the February 23, 1985 incident, ejection, and subsequent public lore.
+
+[^c4-chair-sanction]: *Los Angeles Times* (Associated Press), “Knight Suspended for a Game by Big Ten for Throwing Chair,” March 3, 1985, https://www.latimes.com/archives/la-xpm-1985-03-03-sp-32864-story.html. Contemporary reporting on Commissioner Wayne Duke’s March 2 suspension decision and warning.
 
 [^c4-reed]: *Los Angeles Times*, “Former Hoosier Reed Says He Was Choked by Knight,” March 15, 2000, https://www.latimes.com/archives/la-xpm-2000-mar-15-sp-9181-story.html; *Los Angeles Times*, “Tape Has Knight Grabbing Player,” April 12, 2000, https://www.latimes.com/archives/la-xpm-2000-apr-12-sp-18804-story.html; ESPN, “Video Supports Reed’s Allegation against Knight,” April 13, 2000, http://www.espn.com/ncb/news/2000/0411/476311.html.
 
