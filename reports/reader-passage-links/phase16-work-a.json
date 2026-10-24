@@ -1,0 +1,225 @@
+{
+  "docs": [
+    {
+      "path": "books/when-incentives-become-the-moral-language/parts/part-3-the-world-the-metric-makes/chapter-7-the-poll-before-the-position.md",
+      "edits": [
+        [
+          "Fundraising totals function as enthusiasm barometers independent of argument quality.[^c7-fec]",
+          "Federal Election Commission filings record campaign contributions and expenditures in public reports.[^c7-fec] OpenSecrets organizes these disclosures into fundraising totals and donor profiles.[^c7-opensecrets] Those totals can function as enthusiasm barometers independent of argument quality."
+        ],
+        [
+          "Senate vote counts, procedural constraints, and coalition management told a harder story.[^c7-aca]",
+          "The 111th Congress debated the Affordable Care Act and proposed public-option provisions as legislation moved through the chamber.[^c7-legislative-record] Senate vote counts, procedural constraints, and coalition management told a harder story.[^c7-aca]"
+        ]
+      ],
+      "footnotes": {
+        "c7-fec": "Federal Election Commission, publicly available campaign finance disclosure data, https://www.fec.gov/, recording contributions and expenditures; these disclosures do not themselves evaluate the moral quality of campaign arguments.",
+        "c7-aca": "Jonathan Cohn, *The Ten Year War: Obamacare and the Unmaking of American Establishment* (New York: St. Martin's Press, 2021), on political coalition constraints, Senate votes, and the loss of the proposed public option.",
+        "c7-pew": "Pew Research Center, *A Guide to Pew Research Center's Methodology*, on polling methods, question design and the interpretation of survey results. Survey data cannot itself determine which political outcome is morally required."
+      },
+      "newFootnotes": {
+        "c7-opensecrets": "Center for Responsive Politics (OpenSecrets), fundraising and donor data, https://www.opensecrets.org/, on the aggregation and analysis of campaign finance disclosures.",
+        "c7-legislative-record": "*Congressional Record*, 111th Congress, debates on the Affordable Care Act and the public-option proposals, 2009–2010, for the legislative context and competing provisions discussed by lawmakers."
+      },
+      "sources": [
+        [
+          "center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-open",
+          "c7-opensecrets",
+          "OpenSecrets collects and presents donor and campaign fundraising figures drawn from election disclosures. The chapter cites this aggregation as an example of metrics that make political capacity visible; it does not claim donations demonstrate the merit of a proposed policy."
+        ],
+        [
+          "federal-election-commission-campaign-finance-disclosure-data-https-www-fec-gov",
+          "c7-fec",
+          "FEC campaign finance reports document money received and spent by campaigns. The chapter links the primary public-disclosure system separately from OpenSecrets' subsequent aggregation and asks how reported fundraising can become a proxy for public legitimacy."
+        ],
+        [
+          "cohn-jonathan-the-ten-year-war-obamacare-and-the-unmaking-of-american-establishment",
+          "c7-aca",
+          "Jonathan Cohn's retrospective history explains the Affordable Care Act public-option negotiations, coalition and Senate-vote constraints. The manuscript uses that account for the political compromises, distinct from the official Congressional Record debates."
+        ],
+        [
+          "congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions",
+          "c7-legislative-record",
+          "The Congressional Record contains the public legislative debates and proposals concerning the Affordable Care Act during the 111th Congress. The chapter links this legislative record as contemporaneous evidence for what was debated, not as proof of private motives."
+        ],
+        [
+          "pew-research-center-a-guide-to-pew-research-center-s-methodology",
+          "c7-pew",
+          "Pew Research Center's methodological documentation describes sampling, questionnaire design, and reporting of public-opinion surveys. The chapter invokes these methods for polling's capacity to make public views visible while explicitly distinguishing survey measurement from moral judgment."
+        ]
+      ]
+    },
+    {
+      "path": "books/living-in-sediment/parts/part-1-fossils-we-dont-notice/chapter-4-gold-in-the-mind.md",
+      "edits": [
+        [
+          "Gold became more than a metal. It became a metaphor.",
+          "Gold became more than a metal. It became a metaphor.[^c4-money-philosophy]"
+        ],
+        [
+          "not from convertibility into metal but from institutions, taxation, productive capacity, and collective confidence.[^c4-money-institution]",
+          "not from convertibility into metal but from institutions, taxation, productive capacity, and collective confidence.[^c4-money-institution] Geoffrey Ingham's institutional account treats money as a social relation maintained by monetary authority rather than merely a commodity.[^c4-money-social]"
+        ]
+      ],
+      "footnotes": {
+        "c4-gold-intuition": "Niall Ferguson, *The Ascent of Money: A Financial History of the World* (New York: Penguin Press, 2008), on the history of material stores of value and the development of monetary systems.",
+        "c4-money-institution": "Felix Martin, *Money: The Unauthorized Biography* (New York: Alfred A. Knopf, 2013), on monetary systems as historically changing conventions of credit and collective trust."
+      },
+      "newFootnotes": {
+        "c4-money-philosophy": "Georg Simmel, *The Philosophy of Money*, trans. Tom Bottomore and David Frisby (London: Routledge, 1978), on how money mediates relationships and turns qualitative valuations into apparently impersonal equivalents.",
+        "c4-money-social": "Geoffrey Ingham, *The Nature of Money* (Cambridge: Polity Press, 2004), on money as a social and institutional relation rather than only a physical commodity."
+      },
+      "sources": [
+        [
+          "ferguson-niall-the-ascent-of-money-a-financial-history-of-the-world",
+          "c4-gold-intuition",
+          "Ferguson's financial history situates gold and other stores of value in the development of money and banking. Living in Sediment invokes the historical narrative where durable matter shapes intuitions about value; it does not equate material permanence with an eternal monetary standard."
+        ],
+        [
+          "simmel-georg-the-philosophy-of-money",
+          "c4-money-philosophy",
+          "Simmel's philosophy of money examines social relationships, valuation, and the abstractions enabled by exchange. The manuscript connects this analysis to the symbolic force of gold and the way monetary metaphors outlive their immediate material conditions."
+        ],
+        [
+          "martin-felix-money-the-unauthorized-biography",
+          "c4-money-institution",
+          "Felix Martin traces changing monetary arrangements and emphasizes credit, trust, and socially maintained money rather than an unchanging metal backing. The chapter cites this history in its account of twentieth-century currency changes and institutional confidence."
+        ],
+        [
+          "ingham-geoffrey-the-nature-of-money",
+          "c4-money-social",
+          "Geoffrey Ingham describes money as socially and institutionally constituted, not simply valuable physical matter. The chapter draws on this conceptual distinction where collective authority and economic institutions replace gold convertibility as sources of monetary trust."
+        ]
+      ]
+    },
+    {
+      "path": "books/living-in-sediment/parts/part-2-fossils-that-shape-power/chapter-8-the-building-and-the-gathering.md",
+      "edits": [
+        [
+          "The building solved a real problem.[^c8-alexander-patterns]",
+          "The building solved a real problem.[^c8-alexander-patterns] Christopher Alexander's account of building also describes the slower work of adapting places to repeated patterns of human life.[^c8-timeless-way]"
+        ],
+        [
+          "Architecture slowly becomes pedagogy.[^c8-architecture-pedagogy]",
+          "Jane Jacobs described how the arrangements of streets and neighborhoods influence everyday interactions and the conditions for shared urban life.[^c8-jacobs-streets] Architecture slowly becomes pedagogy.[^c8-architecture-pedagogy]"
+        ]
+      ],
+      "footnotes": {
+        "c8-alexander-patterns": "Christopher Alexander, Sara Ishikawa, Murray Silverstein, et al., *A Pattern Language: Towns, Buildings, Construction* (New York: Oxford University Press, 1977), on recurring design patterns as practical responses to the needs of inhabitants, not as a direct source for every medieval-cathedral detail.",
+        "c8-architecture-pedagogy": "Lewis Mumford, *Technics and Civilization* (New York: Harcourt, Brace, 1934), on how technical and built arrangements shape social organization and expectations."
+      },
+      "newFootnotes": {
+        "c8-timeless-way": "Christopher Alexander, *The Timeless Way of Building* (New York: Oxford University Press, 1979), on the fit between patterns of construction and lived human practices.",
+        "c8-jacobs-streets": "Jane Jacobs, *The Death and Life of Great American Cities* (New York: Random House, 1961), on urban street life, neighborhood organization, and the social consequences of physical design."
+      },
+      "sources": [
+        [
+          "alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language",
+          "c8-alexander-patterns",
+          "A Pattern Language documents recurring arrangements for buildings and cities that respond to inhabitants' activities. The chapter uses it as a model for how built forms address practical needs, while distinguishing this framework from the historical narrative of particular cathedrals."
+        ],
+        [
+          "alexander-christopher-the-timeless-way-of-building",
+          "c8-timeless-way",
+          "The Timeless Way of Building discusses forms that grow from repeated human needs and the fit between places and life. The chapter cites it separately from Alexander and collaborators' pattern catalogue to explain why useful structures can persist and become normative."
+        ],
+        [
+          "mumford-lewis-technics-and-civilization",
+          "c8-architecture-pedagogy",
+          "Mumford's account of technology and civilization analyzes the social implications of durable technical and built systems. The manuscript invokes this historical framework for how architecture can structure attention and authority long after its designers have gone."
+        ],
+        [
+          "jacobs-jane-the-death-and-life-of-great-american-cities",
+          "c8-jacobs-streets",
+          "Jane Jacobs studies social relationships formed through city streets, mixed uses, and the everyday organization of neighborhoods. The manuscript cites her observations where it describes how spatial arrangements teach expectations through repeated public interaction."
+        ]
+      ]
+    },
+    {
+      "path": "books/the-game-we-think-we-saw/parts/part-3-what-the-result-demands/chapter-5-the-moral-language-of-playing-hurt.md",
+      "edits": [
+        [
+          "Many of these conditions are experienced internally before they become obvious to anyone watching.[^c5-concussion-symptoms]",
+          "Many of these conditions are experienced internally before they become obvious to anyone watching.[^c5-concussion-symptoms] Coaching guidance also warns that suspected concussions may go unreported when athletes fear being removed from play.[^c5-coaches-warning]"
+        ],
+        [
+          "Research involving collegiate athletes has found that pressure to avoid disclosing a concussion can come from coaches, teammates, parents, and fans, while NCAA educational material has explicitly warned that athletes may hide symptoms because they fear losing playing time.[^c5-reporting-pressure]",
+          "Research involving collegiate athletes has found that pressure to avoid disclosing a concussion can come from coaches, teammates, parents, and fans.[^c5-reporting-pressure] A separate study of incoming Division I college athletes examined the underreporting of concussion symptoms before athletes entered their programs.[^c5-underreporting]"
+        ]
+      ],
+      "footnotes": {
+        "c5-concussion-symptoms": "Centers for Disease Control and Prevention, “Symptoms of Concussion,” https://www.cdc.gov/heads-up/signs-symptoms/, identifying symptoms that may not be visible to teammates and coaches.",
+        "c5-reporting-pressure": "Moore et al., “Factors and Expectations Influencing Concussion Disclosure within NCAA Division I Athletes,” *Journal of Athletic Training* (2023), https://pmc.ncbi.nlm.nih.gov/articles/PMC10199141/, on social and competitive pressures affecting symptom disclosure."
+      },
+      "newFootnotes": {
+        "c5-coaches-warning": "National Collegiate Athletic Association, “Concussion Fact Sheet for Coaches,” http://fs.ncaa.org/Docs/health_safety/ConFactSheetcoaches.pdf, warning coaches to take possible concussions seriously because athletes may hide symptoms out of concern about playing time.",
+        "c5-underreporting": "Weber Rawlins et al., “Concussion Symptom Underreporting among Incoming NCAA Division I College Athletes,” *Clinical Journal of Sport Medicine* (2019), https://pmc.ncbi.nlm.nih.gov/articles/PMC6488438/, reporting underdisclosure in this population."
+      },
+      "sources": [
+        [
+          "centers-for-disease-control-and-prevention-symptoms-of-concussion",
+          "c5-concussion-symptoms",
+          "The CDC's concussion guidance enumerates symptoms such as headache, dizziness, altered concentration and balance difficulties. The manuscript cites that symptom description before examining how evidence of injury can be hidden from the public judgment of toughness."
+        ],
+        [
+          "national-collegiate-athletic-association-concussion-fact-sheet-for-coaches",
+          "c5-coaches-warning",
+          "The NCAA coach guidance warns that athletes may conceal concussion symptoms, in particular when playing time appears at stake. The chapter cites this athlete-safety communication separately from clinical symptom descriptions and academic research on reporting behavior."
+        ],
+        [
+          "moore-et-al-factors-and-expectations-influencing-concussion-disclosure-within-ncaa-division-i-at",
+          "c5-reporting-pressure",
+          "Moore and colleagues study factors and expectations shaping concussion disclosure among NCAA Division I athletes. The chapter uses the findings to show that reporting behavior is socially situated and cannot be interpreted solely as a private preference."
+        ],
+        [
+          "weber-rawlins-et-al-concussion-symptom-underreporting-among-incoming-ncaa-division-i-college-ath",
+          "c5-underreporting",
+          "Weber Rawlins and colleagues investigate concussion-symptom underreporting among incoming NCAA Division I college athletes. The manuscript cites that population-specific research distinctly from studies of perceived pressure during collegiate participation."
+        ]
+      ]
+    },
+    {
+      "path": "books/how-meaning-moves/parts/part-ii-rooms-that-accelerate-meaning/chapter-4-when-the-pauses-disappear.md",
+      "edits": [
+        [
+          "One person experiences speed as responsibility; another experiences the same speed as closure before the problem has been understood.[^c4-lazarus-deutsch-pace-conflict]",
+          "One person experiences speed as responsibility; another experiences the same speed as closure before the problem has been understood.[^c4-lazarus-deutsch-pace-conflict] Morton Deutsch's analysis of conflict helps explain how perceived competition can make a disagreement reinforce itself.[^c4-deutsch-conflict]"
+        ],
+        [
+          "Neither description was fair. Both were becoming useful.",
+          "Neither description was fair. Both were becoming useful. The room was beginning to assign James and Rachel identities that could substitute for continued attention to their actual concerns.[^c4-social-identity]"
+        ]
+      ],
+      "footnotes": {
+        "c4-lazarus-deutsch-pace-conflict": "Richard S. Lazarus, *Emotion and Adaptation* (New York: Oxford University Press, 1991), on appraisal processes by which the same situation can be experienced as opportunity or threat.",
+        "c4-identity-and-caricature": "Lee Ross and Andrew Ward, “Naive Realism in Everyday Life: Implications for Social Conflict and Misunderstanding,” in *Values and Knowledge* (1996), 103–135, on the tendency to treat one's own construal as objective and another's disagreement as a defect."
+      },
+      "newFootnotes": {
+        "c4-deutsch-conflict": "Morton Deutsch, *The Resolution of Conflict* (New Haven, CT: Yale University Press, 1973), on how competitive and cooperative processes shape the escalation or resolution of disputes.",
+        "c4-social-identity": "Henri Tajfel and John C. Turner, “The Social Identity Theory of Intergroup Behavior,” in *Psychology of Intergroup Relations* (Chicago: Nelson-Hall, 1979), on group categorization and identity-based interpretations of others."
+      },
+      "sources": [
+        [
+          "lazarus-richard-s-emotion-and-adaptation",
+          "c4-lazarus-deutsch-pace-conflict",
+          "Lazarus's appraisal account explains why people can experience the same setting under different emotional and practical meanings. How Meaning Moves uses this lens for James and Rachel's contrasting experiences of urgency, while the scene remains a fictional illustration."
+        ],
+        [
+          "deutsch-morton-the-resolution-of-conflict",
+          "c4-deutsch-conflict",
+          "Morton Deutsch's conflict research distinguishes cooperative and competitive processes and how they transform interaction. The manuscript invokes this theory where speed and perceived opposition can make a disagreement escalate rather than clarify."
+        ],
+        [
+          "ross-lee-and-andrew-ward-naive-realism-in-everyday-life",
+          "c4-identity-and-caricature",
+          "Ross and Ward describe naive realism: the expectation that one's own perception is objective and contrary views reflect others' deficiencies. The manuscript uses this idea to explain how caricature can replace attention to James's and Rachel's actual concerns."
+        ],
+        [
+          "tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior",
+          "c4-social-identity",
+          "Tajfel and Turner's social-identity theory analyzes how people categorize themselves and others into meaningful groups. The chapter cites this mechanism where a conflict begins assigning people fixed identities rather than treating their comments as situated judgments."
+        ]
+      ]
+    }
+  ]
+}
