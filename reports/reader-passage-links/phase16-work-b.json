@@ -1,0 +1,188 @@
+{
+  "docs": [
+    {
+      "path": "books/when-others-become-leaders/parts/part-3-how-influence-endures/chapter-9-the-bracelet.md",
+      "edits": [
+        [
+          "Pollstar estimated more than ten million tickets sold and roughly $2.2 billion grossed—far beyond previous tours.[^b1]",
+          "Pollstar's 2023 year-end tour reporting had already shown the unusual scale of the production.[^b1-pollstar] By the tour's conclusion, published figures put its total gross above $2 billion—far beyond previous tours.[^b1]"
+        ],
+        [
+          "During the first U.S. leg, truck drivers reportedly received $100,000 each, with handwritten notes.",
+          "During the first U.S. leg, truck drivers reportedly received $100,000 each, with handwritten notes.[^b2-truck]"
+        ]
+      ],
+      "footnotes": {
+        "b1": "Ben Sisario, “Taylor Swift’s Eras Tour Is the First to Surpass $2 Billion,” *The New York Times*, December 9, 2024, https://www.nytimes.com/2024/12/09/arts/music/taylor-swift-eras-tour-2-billion.html, on the tour's final record-setting reported revenue.",
+        "b2": "Chloe Melas, “Taylor Swift Gave Eras Tour Crew $197 Million in Bonuses (Exclusive),” *People*, December 9, 2024, https://people.com/taylor-swift-gave-eras-tour-crew-usd197-million-in-bonuses-exclusive-8758216, reporting the aggregate crew bonuses."
+      },
+      "newFootnotes": {
+        "b1-pollstar": "Pollstar, “Year-End Special Features: Top Tours,” December 2023, on the tour's position in concert-industry rankings at that point. The later full-run revenue is cited separately.",
+        "b2-truck": "Chloe Melas, “Taylor Swift Gives ‘Life-Changing’ $100,000 Bonuses to Eras Tour Truck Drivers,” CNN Business, August 2, 2023, https://www.cnn.com/2023/08/02/business/taylor-swift-100000-life-changing-bonus-truck-crew, on the truck-drivers' payments."
+      },
+      "sources": [
+        [
+          "melas-chloe-taylor-swift-gave-eras-tour-crew-197-million-in-bonuses-exclusive",
+          "b2",
+          "Chloe Melas's December 2024 People report documents the total reported value of crew bonuses during Taylor Swift's Eras Tour. The manuscript uses this reported compensation figure to contrast celebrity recognition with labor distributed across many participants."
+        ],
+        [
+          "melas-chloe-taylor-swift-gives-life-changing-100-000-bonuses-to-eras-tour-truck-drivers",
+          "b2-truck",
+          "Chloe Melas's earlier report documents the six-figure bonuses and individual notes received by Eras Tour truck drivers. When Others Become Leaders uses this distinct event to discuss recognition of labor, separate from the later aggregate bonus estimate."
+        ],
+        [
+          "pollstar-year-end-special-features-top-tours",
+          "b1-pollstar",
+          "Pollstar's 2023 year-end coverage places major tours in the concert industry's comparative rankings. The chapter uses the contemporary ranking as evidence of early scale, without attributing the tour's final 2024 total to a 2023 publication."
+        ],
+        [
+          "sisario-ben-taylor-swift-s-eras-tour-is-the-first-to-surpass-2-billion",
+          "b1",
+          "Ben Sisario's December 2024 New York Times account reports that the Eras Tour surpassed $2 billion in gross revenue. The chapter cites this final-tour figure separately from Pollstar's earlier year-end reporting and does not treat revenue as a measure of moral worth."
+        ]
+      ]
+    },
+    {
+      "path": "books/when-others-become-leaders/parts/part-1-how-influence-begins/chapter-3-victory.md",
+      "edits": [
+        [
+          "The Truth and Reconciliation Commission would later investigate abuses committed across the political conflict, not only by the apartheid government.[^v5]",
+          "The Truth and Reconciliation Commission would later investigate abuses committed across the political conflict, not only by the apartheid government.[^v5] Desmond Tutu later described the difficult effort to pursue truth and reconciliation without pretending those injuries had never occurred.[^v5-tutu]"
+        ]
+      ],
+      "footnotes": {
+        "v5": "Truth and Reconciliation Commission of South Africa, *Final Report* (1998), examining human rights violations by actors across the apartheid-era conflict."
+      },
+      "newFootnotes": {
+        "v5-tutu": "Desmond Tutu, *No Future Without Forgiveness* (New York: Doubleday, 1999), reflecting on the aims, tensions, and limits of the Truth and Reconciliation Commission."
+      },
+      "sources": [
+        [
+          "government-of-south-africa-truth-and-reconciliation-commission-final-report",
+          "v5",
+          "The South African Truth and Reconciliation Commission's Final Report documented gross human-rights violations by multiple parties to the political conflict. The chapter cites the official report for the scope of inquiry, separately from Tutu's first-person reflection on reconciliation."
+        ],
+        [
+          "tutu-desmond-no-future-without-forgiveness",
+          "v5-tutu",
+          "Desmond Tutu's No Future Without Forgiveness offers a participant's account and defense of truth-seeking and restorative aims after apartheid. The manuscript cites the memoir as an interpretation of the commission's purpose, not as a substitute for its formal findings."
+        ]
+      ]
+    },
+    {
+      "path": "books/when-authority-is-misread/parts/part-2-leaders-becoming-legible/chapter-8-nelson-mandela-the-unsent-letter.md",
+      "edits": [
+        [
+          "Negotiations proceeded beside funerals.",
+          "Negotiations proceeded beside funerals. Patti Waldmeir's account of the transition describes how uncertainty and violence shadowed the prospect of a constitutional settlement.[^c8-waldmeir]"
+        ]
+      ],
+      "footnotes": {
+        "c8-sparks": "Allister Sparks, *Tomorrow Is Another Country: The Inside Story of South Africa’s Road to Change* (New York: Hill and Wang, 1995), on the negotiations, political threats and fragility of the early-1990s transition.",
+        "c8-mamdani": "Mahmood Mamdani, “Amnesty or Impunity? A Preliminary Critique of the Report of the Truth and Reconciliation Commission of South Africa (TRC),” *Diacritics* 32, no. 3/4 (2002): 33–59, criticizing a focus on individual offenses that can obscure structural injustices."
+      },
+      "newFootnotes": {
+        "c8-waldmeir": "Patti Waldmeir, *Anatomy of a Miracle: The End of Apartheid and the Birth of the New South Africa* (New York: W. W. Norton, 1997), on the uncertainty and escalating violence around the political transition."
+      },
+      "sources": [
+        [
+          "mamdani-mahmood-amnesty-or-impunity-a-preliminary-critique-of-the-report-of-the-truth-and-reconc",
+          "c8-mamdani",
+          "Mahmood Mamdani's critique of South Africa's TRC warns that individualized perpetrator-victim framing may miss structural oppression and redistribution. When Authority Is Misread cites this specific argument while resisting the false conclusion that all the commission's work should be dismissed."
+        ],
+        [
+          "sparks-allister-tomorrow-is-another-country-the-inside-story-of-south-africa-s-road-to-change",
+          "c8-sparks",
+          "Allister Sparks chronicles negotiations and political conflict during South Africa's early-1990s transition. The chapter cites this account for the fragility of settlement amid threats of violence, distinguishing it from broader judgments about national reconciliation."
+        ],
+        [
+          "waldmeir-patti-anatomy-of-a-miracle-the-end-of-apartheid-and-the-birth-of-the-new-south-africa",
+          "c8-waldmeir",
+          "Patti Waldmeir reports on the political transition from apartheid and the violence and uncertainty accompanying it. The manuscript draws on her historical account as a distinct contemporary interpretive witness rather than a duplicate citation to Allister Sparks."
+        ]
+      ]
+    },
+    {
+      "path": "books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-1-life-under-constraint.md",
+      "edits": [
+        [
+          "Ritual, taboo, and authority functioned as social technologies for reducing uncertainty when material and existential risk was high.[^c1-early-moral-anthropology]",
+          "Ritual, taboo, and authority functioned as social technologies for reducing uncertainty when material and existential risk was high.[^c1-early-moral-anthropology] Christopher Boehm's comparative account of hierarchy also describes how members of small-scale groups can collectively constrain domination.[^c1-hierarchy]"
+        ],
+        [
+          "daily by many hands.[^c1-catalhoyuk]",
+          "daily by many hands.[^c1-catalhoyuk] Hodder's later work develops the broader idea that human lives and material things become mutually dependent over time.[^c1-entanglement]"
+        ]
+      ],
+      "footnotes": {
+        "c1-early-moral-anthropology": "Mary Douglas, *Purity and Danger: An Analysis of Concepts of Pollution and Taboo* (London: Routledge, 1966), on ritual classification and taboo as socially organizing patterns; this is not a claim that all early groups shared a single moral system.",
+        "c1-catalhoyuk": "Ian Hodder, *The Leopard's Tale: Revealing the Mysteries of Çatalhöyük* (London: Thames & Hudson, 2006), on excavations and domestic material practices at the Neolithic settlement."
+      },
+      "newFootnotes": {
+        "c1-hierarchy": "Christopher Boehm, *Hierarchy in the Forest: The Evolution of Egalitarian Behavior* (Cambridge, MA: Harvard University Press, 1999), on collective restraints imposed on would-be dominators in smaller human groups.",
+        "c1-entanglement": "Ian Hodder, *Where Are We Heading? The Evolution of Humans and Things* (New Haven, CT: Yale University Press, 2018), on historically accumulated dependencies between human societies and the things they make."
+      },
+      "sources": [
+        [
+          "boehm-christopher-hierarchy-in-the-forest-the-evolution-of",
+          "c1-hierarchy",
+          "Boehm's comparative analysis examines how members of smaller communities constrain dominance and authority. The manuscript uses that account where it distinguishes social enforcement of norms from the ritual classifications documented by Mary Douglas."
+        ],
+        [
+          "douglas-mary-purity-and-danger-an-analysis-of-concepts-of-pollution",
+          "c1-early-moral-anthropology",
+          "Mary Douglas analyzes concepts of pollution, taboo and classification as organizing elements of social life. The chapter invokes her anthropology for the normative work performed by rituals without reducing early human ethics to a universal list of prohibitions."
+        ],
+        [
+          "hodder-ian-the-leopard-s-tale-revealing-the-mysteries-of",
+          "c1-catalhoyuk",
+          "Ian Hodder's archaeological account describes everyday material arrangements at Çatalhöyük, including domestic space and repeated building practices. Before Certainty Arrives cites the work for the excavated settlement, not for an untestable claim about every inhabitant's private beliefs."
+        ],
+        [
+          "hodder-ian-where-are-we-heading-the-evolution-of-humans-and-things",
+          "c1-entanglement",
+          "Hodder's later study argues that humans and material things become increasingly entangled through dependencies. The chapter invokes this theoretical argument separately from his account of a specific Neolithic excavation."
+        ]
+      ]
+    },
+    {
+      "path": "books/living-in-sediment/parts/part-1-fossils-we-dont-notice/chapter-2-sixty-seconds.md",
+      "edits": [
+        [
+          "The measurement was no longer simply a measurement. It had become an ecosystem.",
+          "The measurement was no longer simply a measurement. It had become an ecosystem. Douglass North's institutional account helps explain how shared rules can structure the options available to later participants.[^c2-north-institutions]"
+        ],
+        [
+          "We experience time constantly, but we rarely experience its measurements. They arrive already assembled.",
+          "We experience time constantly, but we rarely experience its measurements. Physics itself complicates the intuition that time is a single, simple, universal flow.[^c2-rovelli-time] The familiar social measurements arrive already assembled."
+        ]
+      ],
+      "footnotes": {
+        "c2-path-dependence": "Paul Pierson, “Increasing Returns, Path Dependence, and the Study of Politics,” *American Political Science Review* 94, no. 2 (2000): 251–267, on positive feedback and the persistence of institutional arrangements after early choices.",
+        "c2-time-constructed": "Eviatar Zerubavel, *Hidden Rhythms: Schedules and Calendars in Social Life* (Chicago: University of Chicago Press, 1981), on the social organization of schedules and calendrical rhythms. The familiar sixty-minute hour is a social convention, not a physical law."
+      },
+      "newFootnotes": {
+        "c2-north-institutions": "Douglass C. North, *Institutions, Institutional Change and Economic Performance* (Cambridge: Cambridge University Press, 1990), on institutions as constraints that shape later choices and patterns of economic interaction.",
+        "c2-rovelli-time": "Carlo Rovelli, *The Order of Time* (New York: Riverhead Books, 2018), on physical accounts of time and the limitations of ordinary intuitions; this source does not determine the cultural history of minute and hour conventions."
+      },
+      "sources": [
+        [
+          "north-douglass-c-institutions-institutional-change-and-economic-performance",
+          "c2-north-institutions",
+          "Douglass North treats institutions as shared constraints that shape what future participants can do. Living in Sediment invokes this theory as an analogy for the endurance of standardized time conventions and the cost of changing mutually dependent social arrangements."
+        ],
+        [
+          "pierson-paul-increasing-returns-path-dependence-and-the-study-of-politics",
+          "c2-path-dependence",
+          "Paul Pierson's work on increasing returns in politics analyzes why initial choices can make established institutional routes resistant to change. The chapter applies this mechanism to inherited systems of time measurement, explicitly as a structural parallel."
+        ],
+        [
+          "rovelli-carlo-the-order-of-time",
+          "c2-rovelli-time",
+          "Carlo Rovelli explains why physical time is more complicated than a universal, uniform background in modern physics. The manuscript draws on that account only to question intuitive simplicity, while sourcing culturally standardized schedules separately."
+        ]
+      ]
+    }
+  ]
+}
