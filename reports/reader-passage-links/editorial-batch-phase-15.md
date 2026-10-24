@@ -79,5 +79,22 @@ Existing footnotes for the **Paris Agreement**, **World Bank carbon pricing**, a
 - Ruff checks, prior Phase 10–14 tests, and site/book-export CI must remain green.
 - No new global audit-matcher heuristics, schema changes, or bulk updates to other source profiles are introduced in this batch.
 
-**After audit:** Record the actual counts below, including tied A, any linked-path review flags, and invalid or unverified fragments. If all 27 do not pass, fix or defer the unsupported ones rather than silently reclassifying them.
+## Observed full-corpus audit
+
+The Phase 15 workflow successfully ran Ruff formatting and lint, core and Phase 10–15 regressions, then the full reader HTML/fragment audit. All **27** specific source slugs occur in the regenerated `tiedCitationExamples` collection. These are observed counts, not arithmetic estimates.
+
+| Measure | Merged Phase 14 baseline | Phase 15 verified |
+|---|---:|---:|
+| Total scanned sources | 714 | **714** |
+| Valid source reader links | 422 | **449** |
+| Mechanically tied source citations (A) | 422 | **449** |
+| Footnote-cited sources without paths | 215 | **188** |
+| Already linked paths requiring review | 0 | **0** |
+| Thinkers with derivable reader passages | 403 | **425** |
+| Invalid links / unverified fragments | 0 / 0 | **0 / 0** |
+| Tied A coverage | 59.1% | **62.89%** |
+
+The 27 new paths therefore account for every increase in linked-source coverage; the review backlog does not expand. The original shared note for Illich/Kuhn remains unlinked as planned, and no broad matching-heuristic changes were used.
+
+[Successful full-corpus Phase 15 audit workflow](https://github.com/After-Certainty/after-certainty/actions/runs/40141441667). The branch-only temporary workflow was removed before opening the PR.
 
