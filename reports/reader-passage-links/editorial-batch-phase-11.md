@@ -69,6 +69,21 @@ These are review dispositions, not denials of the sources' value. In particular,
 
 **Audit generation belongs in this PR.** After the source and manuscript changes, run the full audit with rendered HTML validation and commit its generated `audit.md` and `audit.summary.json`. Do not manually edit coverage metrics. The generated result must have zero invalid and zero unverified fragment paths, and all five newly linked sources must appear among mechanically tied A examples (which still are not an editorial attestation).
 
+### Regenerated renderer-backed audit results
+
+Full-corpus audit and source-link tests completed successfully in the Phase 11 validation workflow. The generated reports are checked in with this editorial batch:
+
+| Source metric | Phase 10 baseline | Phase 11 audit |
+|---|---:|---:|
+| `readerPassagePath` present and valid | 411 | **416** |
+| Mechanically tied A citations | 398 | **403** |
+| Missing-path footnote-cited sources | 227 | **221** |
+| Bibliography-only | 57 | **58** |
+| Thinkers with derivable work links | 390 | **392** |
+| Invalid reader paths / unverified fragments | 0 / 0 | **0 / 0** |
+
+All five new Phase 11 source slugs occur in `tiedCitationExamples`, and the audit reports **zero** invalid and unverified fragment paths. Source evidence levels, including changes in the bibliography-only bucket, are computed by the full audit and must not be inferred from simple link-count arithmetic. The runner used the actual reader rendering pipeline, not `--skip-fragment-check`.
+
 ### Checks
 
 ```bash
