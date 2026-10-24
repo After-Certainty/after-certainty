@@ -182,7 +182,7 @@ The message no longer belonged to one speaker because there was no longer one me
 
 ### What a Rule Says the Gesture Means
 
-In May 2018, NFL owners approved a policy requiring players and league personnel on the sideline to stand during the anthem while allowing those who did not wish to stand to remain in the locker room. Teams could be fined for on-field violations. The policy was later placed on hold while the league and players’ association discussed it.[^c7-policy]
+In May 2018, NFL owners approved a policy requiring players and league personnel on the sideline to stand during the anthem while allowing those who did not wish to stand to remain in the locker room. Teams could be fined for on-field violations.[^c7-policy-approved] In July, the NFL and the players’ association reached a standstill agreement under which no new anthem rules would be issued or enforced for several weeks while discussions continued.[^c7-policy-standstill]
 
 The policy attempted to solve the controversy spatially. The field would remain a place of visible unity. Dissent could continue somewhere the camera was less likely to find it.
 
@@ -334,7 +334,9 @@ The argument has moved far beyond the field.
 
 [^c7-trump-weekend]: CNN Politics, “Trump: NFL Owners Should Fire Players Who Protest the National Anthem,” September 22, 2017, https://www.cnn.com/2017/09/22/politics/donald-trump-alabama-nfl; Associated Press, “Trump Says NFL Should Fire Players Who Kneel during Anthem,” September 23, 2017, https://apnews.com/article/7e3fcc1d5c2446098652affae9e6322a.
 
-[^c7-policy]: ESPN, “New Policy Requires On-Field Players, Personnel to Stand for Anthem,” May 23, 2018, https://www.espn.com/nfl/story/_/id/23582533/nfl-owners-approve-new-national-anthem-policy; NFL.com, “NFL Owners Approve National Anthem Policy for 2018,” May 23, 2018, https://www.nfl.com/news/nfl-owners-approve-national-anthem-policy-for-2018-0ap3000000933971; NFL.com, “NFL Anthem Policy on Hold under Standstill Agreement,” July 19, 2018, https://www.nfl.com/news/nfl-anthem-policy-on-hold-under-standstill-agreement-0ap3000000941064.
+[^c7-policy-approved]: NFL.com, “NFL Owners Approve National Anthem Policy for 2018,” May 23, 2018, https://www.nfl.com/news/nfl-owners-approve-national-anthem-policy-for-2018-0ap3000000933971. The policy allowed staying off the field, required those on the sideline to stand, and provided for team fines. ESPN's same-day account corroborates the adoption but is not a separate event or claim here.
+
+[^c7-policy-standstill]: NFL.com, “NFL Anthem Policy on Hold under Standstill Agreement,” July 19, 2018, https://www.nfl.com/news/nfl-anthem-policy-on-hold-under-standstill-agreement-0ap3000000941064. The NFL/NFLPA joint statement on July 19 suspended new anthem-rule issuance or enforcement for several weeks pending talks; this is a later decision, not part of the May policy announcement.
 
 [^c7-unsigned]: San Francisco 49ers, “Colin Kaepernick Opts Out of Contract, Becomes a Free Agent,” March 3, 2017, https://www.49ers.com/news/colin-kaepernick-opts-out-of-contract-becomes-a-free-agent-18611631.
 
