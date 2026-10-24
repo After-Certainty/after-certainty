@@ -139,11 +139,11 @@
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "Phase 8 Outcome B applied (ACEP primary; IOM contextual co-cite). Mechanical audit: path_valid_shared_or_ambiguous_citation (not tied A) — evidenceLevel B until footnote is sole-work.",
+      "note": "Phase 12: reviewer-confirmed genuine shared citation; reader fragment and source are valid, but another independently named work supports this same claim. Keep link; do not promote to mechanically sole-work A until manuscript splits distinct claims.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs",
       "slug": "american-college-of-emergency-physicians-boarding",
       "status": "applied",
-      "updatedAt": "2026-10-18T01:36:12Z"
+      "updatedAt": "2026-10-24T21:30:00Z"
     },
     "source:anderson-benedict-imagined-communities-reflections-on-the-origin-and-spread-of-nationalism:/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined": {
       "candidatePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined",
@@ -329,12 +329,12 @@
       "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-correction-and-insulation",
       "editorialApproval": true,
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR2 applied with editorial approval. Mechanical evidence remains B (path_valid_shared_or_ambiguous_citation): footnote text names only Overcoming Organizational Defenses, but another Argyris work also scores the note.",
+      "evidenceLevel": "A",
+      "note": "Phase 12: manuscript footnote directly names the work; the previous shared warning came from a coincidental/partial metadata match. Work-specific path stays at the existing citation. Tightened matcher must confirm the sole-work A tie.",
       "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to",
       "slug": "argyris-chris-overcoming-organizational-defenses",
       "status": "applied",
-      "updatedAt": "2026-10-17T16:14:37Z"
+      "updatedAt": "2026-10-24T21:30:00Z"
     },
     "source:arrington-leonard-j-great-basin-kingdom:/explore/books/learning-to-see/chapters/parts-part-1-the-formation-of-a-knower-chapter-1-the-experiment-i-had-never-tried#user-content-fnref-c1-sediment-hypothesis": {
       "candidatePath": "/explore/books/learning-to-see/chapters/parts-part-1-the-formation-of-a-knower-chapter-1-the-experiment-i-had-never-tried#user-content-fnref-c1-sediment-hypothesis",
@@ -360,12 +360,12 @@
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-arthur-lock-in",
       "editorialApproval": true,
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR4 review fix: corrected bibliographic identity to Arthur 1994 Michigan Press book (was misattributed to 1997 Evolving Complex System II). Mechanical evidence remains B (shared_footnote_with Pierson increasing-returns note). Editorial approval of Arthur-only footnote text + Living in Sediment lock-in locus.",
+      "evidenceLevel": "A",
+      "note": "Phase 12: manuscript footnote directly names the work; the previous shared warning came from a coincidental/partial metadata match. Work-specific path stays at the existing citation. Tightened matcher must confirm the sole-work A tie.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week",
       "slug": "arthur-w-brian-increasing-returns-and-path-dependence-in-the-economy",
       "status": "applied",
-      "updatedAt": "2026-10-17T22:30:24Z"
+      "updatedAt": "2026-10-24T21:30:00Z"
     },
     "source:associated-press-ap-was-there-smith-and-carlos-protest-during-1968-olympics:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-smith-carlos": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-smith-carlos",
@@ -1246,11 +1246,11 @@
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-cointelpro",
       "entityKind": "source",
       "evidenceLevel": "A",
-      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "note": "Phase 12: manuscript footnote directly names the work; the previous shared warning came from a coincidental/partial metadata match. Work-specific path stays at the existing citation. Tightened matcher must confirm the sole-work A tie.",
       "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl",
       "slug": "church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp",
       "status": "applied",
-      "updatedAt": "2026-10-17T22:57:10Z"
+      "updatedAt": "2026-10-24T21:30:00Z"
     },
     "source:cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus:/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-norm-formation": {
       "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-norm-formation",
@@ -1586,11 +1586,11 @@
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-8",
       "entityKind": "source",
       "evidenceLevel": "A",
-      "note": "PR5 editorial batch (100): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "note": "Phase 12: manuscript footnote directly names the work; the previous shared warning came from a coincidental/partial metadata match. Work-specific path stays at the existing citation. Tightened matcher must confirm the sole-work A tie.",
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt",
       "slug": "desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire",
       "status": "applied",
-      "updatedAt": "2026-10-17T22:57:10Z"
+      "updatedAt": "2026-10-24T21:30:00Z"
     },
     "source:deutsch-morton-the-resolution-of-conflict:/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-lazarus-deutsch-pace-conflict": {
       "candidatePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-lazarus-deutsch-pace-conflict",
@@ -2776,11 +2776,11 @@
       "candidatePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-public-sector",
       "entityKind": "source",
       "evidenceLevel": "A",
-      "note": "PR6 editorial batch (240 clean single-work): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "note": "Phase 12: the c14-public-sector note cites only Hood and Dixon. Pollitt is an unrelated fuzzy match from topical/title overlap, not a co-cited work. Keep existing path as source-specific A.",
       "routeKey": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture",
       "slug": "hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less",
       "status": "applied",
-      "updatedAt": "2026-10-17T23:40:35Z"
+      "updatedAt": "2026-10-24T21:30:00Z"
     },
     "source:horwitz-jeff-and-deepa-seetharaman-facebook-executives-shut-down-efforts-to-make-the-site-less-d:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-2-the-feed-that-never-empties#user-content-fnref-c2-horwitz-seetharaman": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-2-the-feed-that-never-empties#user-content-fnref-c2-horwitz-seetharaman",
@@ -2906,11 +2906,11 @@
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-paris",
       "entityKind": "source",
       "evidenceLevel": "A",
-      "note": "PR6 editorial batch (240 clean single-work): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "note": "Phase 12: manuscript footnote directly names the work; the previous shared warning came from a coincidental/partial metadata match. Work-specific path stays at the existing citation. Tightened matcher must confirm the sole-work A tie.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no",
       "slug": "international-olympic-committee-simone-biles-all-titles-records-and-medals-complete-list",
       "status": "applied",
-      "updatedAt": "2026-10-17T23:40:35Z"
+      "updatedAt": "2026-10-24T21:30:00Z"
     },
     "source:international-olympic-committee-simone-biles-opens-up-about-the-twisties-my-mind-and-body-are-si:/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-twisties": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-twisties",
@@ -3647,12 +3647,12 @@
     "source:lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark:/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-expansion": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-expansion",
       "entityKind": "source",
-      "evidenceLevel": "A",
-      "note": "PR6 editorial batch (240 clean single-work): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "evidenceLevel": "B",
+      "note": "Phase 12: reviewer-confirmed genuine shared citation; reader fragment and source are valid, but another independently named work supports this same claim. Keep link; do not promote to mechanically sole-work A until manuscript splits distinct claims.",
       "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window",
       "slug": "lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark",
       "status": "applied",
-      "updatedAt": "2026-10-17T23:40:35Z"
+      "updatedAt": "2026-10-24T21:30:00Z"
     },
     "source:lowcountry-digital-history-initiative-the-progressive-club-johns-island:/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-citizenship": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-citizenship",
@@ -3797,12 +3797,12 @@
     "source:mandela-nelson-statement-from-the-dock-rivonia-trial-20-april-1964:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v4": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v4",
       "entityKind": "source",
-      "evidenceLevel": "A",
-      "note": "PR6 editorial batch (240 clean single-work): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "evidenceLevel": "B",
+      "note": "Phase 12: reviewer-confirmed genuine shared citation; reader fragment and source are valid, but another independently named work supports this same claim. Keep link; do not promote to mechanically sole-work A until manuscript splits distinct claims.",
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory",
       "slug": "mandela-nelson-statement-from-the-dock-rivonia-trial-20-april-1964",
       "status": "applied",
-      "updatedAt": "2026-10-17T23:40:35Z"
+      "updatedAt": "2026-10-24T21:30:00Z"
     },
     "source:march-james-g-and-herbert-a-simon-organizations:/explore/books/when-moral-seriousness-scales/chapters/parts-part-2-what-scale-changes-chapter-6-the-incentive-gradient#user-content-fnref-c6-simon-organizations": {
       "candidatePath": "/explore/books/when-moral-seriousness-scales/chapters/parts-part-2-what-scale-changes-chapter-6-the-incentive-gradient#user-content-fnref-c6-simon-organizations",
@@ -4540,11 +4540,11 @@
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-nfl-protocol",
       "entityKind": "source",
       "evidenceLevel": "A",
-      "note": "PR6 editorial batch (240 clean single-work): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "note": "Phase 12: manuscript footnote directly names the work; the previous shared warning came from a coincidental/partial metadata match. Work-specific path stays at the existing citation. Tightened matcher must confirm the sole-work A tie.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt",
       "slug": "nfl-concussion-protocol-return-to-participation-protocol-overview",
       "status": "applied",
-      "updatedAt": "2026-10-17T23:40:35Z"
+      "updatedAt": "2026-10-24T21:30:00Z"
     },
     "source:nfl-football-operations-art-mcnally-gameday-central:/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-3-the-authority-of-the-whistle#user-content-fnref-c3-nfl-clear-obvious": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-3-the-authority-of-the-whistle#user-content-fnref-c3-nfl-clear-obvious",
@@ -5629,12 +5629,12 @@
     "source:sncc-digital-gateway-birth-of-sncc:/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-shaw": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-shaw",
       "entityKind": "source",
-      "evidenceLevel": "A",
-      "note": "PR6 editorial batch (240 clean single-work): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "evidenceLevel": "B",
+      "note": "Phase 12: reviewer-confirmed genuine shared citation; reader fragment and source are valid, but another independently named work supports this same claim. Keep link; do not promote to mechanically sole-work A until manuscript splits distinct claims.",
       "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window",
       "slug": "sncc-digital-gateway-birth-of-sncc",
       "status": "applied",
-      "updatedAt": "2026-10-17T23:40:35Z"
+      "updatedAt": "2026-10-24T21:30:00Z"
     },
     "source:snow-john-on-the-mode-of-communication-of-cholera:/explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-5-structures-that-see-for-us#user-content-fnref-c5-snow": {
       "candidatePath": "/explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-5-structures-that-see-for-us#user-content-fnref-c5-snow",
@@ -6400,11 +6400,11 @@
       "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-2-renewal-erosion-circulation-chapter-2-the-two-groups#user-content-fnref-c2-adaptive-systems",
       "entityKind": "source",
       "evidenceLevel": "A",
-      "note": "PR6 editorial batch (240 clean single-work): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "note": "Phase 12: manuscript footnote directly names the work; the previous shared warning came from a coincidental/partial metadata match. Work-specific path stays at the existing citation. Tightened matcher must confirm the sole-work A tie.",
       "routeKey": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-2-renewal-erosion-circulation-chapter-2-the-two-groups",
       "slug": "weick-karl-e-the-social-psychology-of-organizing",
       "status": "applied",
-      "updatedAt": "2026-10-17T23:40:35Z"
+      "updatedAt": "2026-10-24T21:30:00Z"
     },
     "source:wiedeman-reeves-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusion:/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-3-preservation-chapter-7-trust-protects-authority#user-content-fnref-c7-wiedeman-wework": {
       "candidatePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-3-preservation-chapter-7-trust-protects-authority#user-content-fnref-c7-wiedeman-wework",
@@ -6430,11 +6430,11 @@
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-beam",
       "entityKind": "source",
       "evidenceLevel": "A",
-      "note": "PR6 editorial batch (240 clean single-work): readerPassagePath + whyThisMatters applied; mechanical A after audit.",
+      "note": "Phase 12: manuscript footnote directly names the work; the previous shared warning came from a coincidental/partial metadata match. Work-specific path stays at the existing citation. Tightened matcher must confirm the sole-work A tie.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no",
       "slug": "will-graves-biles-returns-to-olympic-competition-wins-bronze-on-beam",
       "status": "applied",
-      "updatedAt": "2026-10-17T23:40:35Z"
+      "updatedAt": "2026-10-24T21:30:00Z"
     },
     "source:will-graves-biles-withdraws-from-gymnastics-final-to-protect-team-self:/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-tokyo-team": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-tokyo-team",

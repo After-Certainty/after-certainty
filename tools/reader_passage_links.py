@@ -593,8 +593,51 @@ def index_chapter_engagement(
             ambiguous = len(near_top) > 1 and near_top[0][1] < 90
             matched_slugs = [s[0] for s in scored]
 
+            # A partial-title / same-author hit can accompany an unambiguous
+            # work citation (e.g. Arthur's book falsely attracting Pierson,
+            # or an IOC medal article attracting other Biles coverage).
+            # Let the *only* fully named, high-confidence work retain its
+            # own citation. Keep all weaker co-matches as candidates needing
+            # review; do not silently promote them to source-specific A.
+            # Two explicitly named works must remain a genuinely shared note.
+            def_norm = normalize_match_text(body)
+            directly_named: list[str] = []
+            for hit_slug, hit_score, _ in scored:
+                source = sources[hit_slug]
+                title = strip_markdown_italics(
+                    str(source.get("title") or split_display_name(str(source.get("name") or ""))[1])
+                )
+                title_norm = normalize_match_text(title)
+                if (
+                    hit_score >= 80
+                    and len(title_norm) >= 8
+                    and re.search(r"(?<!\w)" + re.escape(title_norm) + r"(?!\w)", def_norm)
+                ):
+                    directly_named.append(hit_slug)
+            sole_named = directly_named[0] if len(directly_named) == 1 else None
+
+            # A second cited work sometimes appears by abbreviated title but
+            # with a fully identified *different* author (e.g. Hood alongside
+            # Pollitt). Do not erase that real co-citation merely because
+            # only one metadata title occurs verbatim in full.
+            if sole_named:
+                named_creators = creator_author_tokens(sources[sole_named])
+                for candidate_slug, _, _ in scored:
+                    if candidate_slug == sole_named:
+                        continue
+                    distinguishing = creator_author_tokens(sources[candidate_slug]) - named_creators
+                    if distinguishing and all(
+                        re.search(r"(?<!\w)" + re.escape(token) + r"(?!\w)", def_norm)
+                        for token in distinguishing
+                    ):
+                        sole_named = None
+                        break
+
             for slug, score, method in scored:
-                others = [s for s in matched_slugs if s != slug]
+                # Asymmetric on purpose: the specifically named work is not
+                # shared with speculative matches, but speculative matches
+                # still share with the evidenced work and require review.
+                others = [] if slug == sole_named else [s for s in matched_slugs if s != slug]
                 shared = bool(others)
                 footnote_by_source[slug].append(
                     FootnoteHit(
