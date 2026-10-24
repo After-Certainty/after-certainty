@@ -1586,7 +1586,6 @@ def _resolve_anchor_exists(
     return ok
 
 
-
 # Phase 9: bounded, explanation-first heuristics for multi-work citations.
 # These hints inform editorial triage only; they do not raise evidence levels,
 # accept links, modify YAML/manuscripts, or settle attribution questions.
@@ -1597,16 +1596,56 @@ _ANNIVERSARY_CUE = re.compile(
 )
 _EVENT_WORDS = frozenset(
     {
-        "announces", "announced", "retirement", "retired", "files", "filed",
-        "grievance", "protest", "protests", "settles", "settled", "collusion",
-        "suspension", "death", "dies", "died", "crackdown", "election",
+        "announces",
+        "announced",
+        "retirement",
+        "retired",
+        "files",
+        "filed",
+        "grievance",
+        "protest",
+        "protests",
+        "settles",
+        "settled",
+        "collusion",
+        "suspension",
+        "death",
+        "dies",
+        "died",
+        "crackdown",
+        "election",
     }
 )
 _TITLE_STOPWORDS = frozenset(
     {
-        "the", "a", "an", "and", "or", "for", "of", "on", "in", "at", "from",
-        "to", "with", "by", "is", "was", "were", "his", "her", "their", "it",
-        "as", "after", "against", "during", "about", "new", "says",
+        "the",
+        "a",
+        "an",
+        "and",
+        "or",
+        "for",
+        "of",
+        "on",
+        "in",
+        "at",
+        "from",
+        "to",
+        "with",
+        "by",
+        "is",
+        "was",
+        "were",
+        "his",
+        "her",
+        "their",
+        "it",
+        "as",
+        "after",
+        "against",
+        "during",
+        "about",
+        "new",
+        "says",
     }
 )
 
@@ -1728,9 +1767,15 @@ def disambiguation_hints_for_hit(
                     }
                 )
 
-    if hit.ambiguous or hit.score < 80 or hit.method in {
-        "footnote_title_only", "footnote_title_tokens",
-    }:
+    if (
+        hit.ambiguous
+        or hit.score < 80
+        or hit.method
+        in {
+            "footnote_title_only",
+            "footnote_title_tokens",
+        }
+    ):
         hints.append(
             {
                 "kind": "verify_work_identity",
