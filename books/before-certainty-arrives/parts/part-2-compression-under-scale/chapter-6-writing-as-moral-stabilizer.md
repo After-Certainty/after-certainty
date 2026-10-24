@@ -18,7 +18,7 @@ formulations appeared across provinces, repeatedly
 naming restraint toward living beings, obedience to parents and elders,
 respect for teachers, mercy in judgment, and duties owed to neighbors
 and officials—though wording, script, and emphasis varied by location
-and audience. A traveler who could not read might still hear the text
+and audience.[^c6-ashoka-epigraphy] A traveler who could not read might still hear the text
 read aloud; a provincial officer who would never see the emperor could
 still act under the standards the stone declared.[^c6-ashoka-edicts]
 
@@ -99,12 +99,13 @@ how to prevent endless fragmentation without returning entirely to oral
 authority.
 
 At Qumran, a settlement near the northwestern shore of the Dead Sea,
-and more broadly within the late Second Temple Jewish world, scribes
+manuscript collections preserve many genres of ancient Jewish writing.[^c6-qumran-scrolls]
+More broadly within the late Second Temple Jewish world, scribes
 copied and preserved texts treated with differing forms of authority—Torah,
 prophets, hymns, rules for community life—alongside other writings whose
 status remained less settled.[^c6-qumran-canon]
 Careful copying made a text durable. It did not by itself mean that a
-single, closed canon had already been agreed upon. Multiple writings
+single, closed canon had already been agreed upon.[^c6-qumran-composition] Multiple writings
 could carry binding force even while the boundaries of authoritative
 collections remained unsettled.
 
@@ -176,6 +177,10 @@ The archives still stood.
 
 The roads between them did not.
 
-[^c6-ashoka-edicts]: See Romila Thapar, *Asoka and the Decline of the Mauryas*, 2nd ed. (Delhi: Oxford University Press, 1998); Richard Salomon, *Indian Epigraphy: A Guide to the Study of Inscriptions in Sanskrit, Prakrit, and the Other Indo-Aryan Languages* (New York: Oxford University Press, 1998).
-[^c6-qumran-canon]: See Emanuel Tov, *Textual Criticism of the Hebrew Bible*, 3rd ed. (Minneapolis: Fortress Press, 2011); Eugene Ulrich, *The Dead Sea Scrolls and the Developmental Composition of the Bible* (Grand Rapids, MI: William B. Eerdmans, 2012); James C. VanderKam, *The Dead Sea Scrolls Today*, rev. ed. (Grand Rapids, MI: William B. Eerdmans, 2010).
+[^c6-ashoka-edicts]: Romila Thapar, *Asoka and the Decline of the Mauryas*, 2nd ed. (Delhi: Oxford University Press, 1998), on Ashoka's reign, imperial communications, and the promulgation of edicts.
+[^c6-qumran-canon]: Emanuel Tov, *Textual Criticism of the Hebrew Bible*, 3rd ed. (Minneapolis: Fortress Press, 2011), on manuscript variation and transmitted textual traditions. The claim that historical canon boundaries differed from later ones remains a qualified scholarly reconstruction.
 [^c6-tools-outliving]: See Ivan Illich, *Tools for Conviviality* (New York: Harper & Row, 1973); Thomas S. Kuhn, *The Structure of Scientific Revolutions* (Chicago: University of Chicago Press, 1962).
+
+[^c6-ashoka-epigraphy]: Richard Salomon, *Indian Epigraphy: A Guide to the Study of Inscriptions in Sanskrit, Prakrit, and the Other Indo-Aryan Languages* (New York: Oxford University Press, 1998), on differing scripts, audiences, and inscriptional contexts.
+[^c6-qumran-scrolls]: James C. VanderKam, *The Dead Sea Scrolls Today*, rev. ed. (Grand Rapids, MI: William B. Eerdmans, 2010), on the Qumran discoveries and the range of surviving scrolls.
+[^c6-qumran-composition]: Eugene Ulrich, *The Dead Sea Scrolls and the Developmental Composition of the Bible* (Grand Rapids, MI: William B. Eerdmans, 2012), on the developmental and variant forms of biblical texts before a uniformly closed collection.
