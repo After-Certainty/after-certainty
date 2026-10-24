@@ -58,7 +58,7 @@ Nobody remembers who first gave away the bracelet. That may be evidence that the
 
 ---
 
-By the time the Eras Tour began, Taylor Swift had spent more than half her life in public. She had learned what happens when a person becomes both human being and symbol, when ordinary choices are treated as evidence in narratives written by strangers. The scale of the tour made abstraction almost inevitable. Pollstar estimated more than ten million tickets sold and roughly $2.2 billion grossed—far beyond previous tours.[^b1] At that size, a production is not merely a performance. It is a temporary city assembled, operated, dismantled, moved, and rebuilt again and again.
+By the time the Eras Tour began, Taylor Swift had spent more than half her life in public. She had learned what happens when a person becomes both human being and symbol, when ordinary choices are treated as evidence in narratives written by strangers. The scale of the tour made abstraction almost inevitable. Pollstar's 2023 year-end tour reporting had already shown the unusual scale of the production.[^b1-pollstar] By the tour's conclusion, published figures put its total gross above $2 billion—far beyond previous tours.[^b1] At that size, a production is not merely a performance. It is a temporary city assembled, operated, dismantled, moved, and rebuilt again and again.
 
 The public sees the illuminated stage. The stage travels because someone drives it through the night.
 
@@ -66,7 +66,7 @@ Every spectacle rests on workers: riggers, carpenters, drivers, caterers, securi
 
 That is what attention does. The more visible the leader, the easier it becomes to miss the system around her.
 
-At the tour’s conclusion, reports estimated Swift distributed $197 million in bonuses across the crew.[^b2] During the first U.S. leg, truck drivers reportedly received $100,000 each, with handwritten notes. The money was extraordinary, but the notes reveal what numbers cannot. Compensation recognizes labor in aggregate; a note addresses a person.
+At the tour’s conclusion, reports estimated Swift distributed $197 million in bonuses across the crew.[^b2] During the first U.S. leg, truck drivers reportedly received $100,000 each, with handwritten notes.[^b2-truck] The money was extraordinary, but the notes reveal what numbers cannot. Compensation recognizes labor in aggregate; a note addresses a person.
 
 A bonus can still read as transaction: the tour succeeded, revenue rose, participants received a share. That matters. Many leaders praise teamwork while allowing most reward to move upward; gratitude is easiest when it costs nothing.
 
@@ -176,6 +176,10 @@ The bracelet becomes fully itself only when it leaves the hand that made it.
 
 ## Notes
 
-[^b1]: Pollstar, “Year-End Special Features: Top Tours,” December 2023; Taylor Swift Touring figures reported via *The New York Times*, Ben Sisario, “Taylor Swift’s Eras Tour Is the First to Surpass $2 Billion,” December 9, 2024, https://www.nytimes.com/2024/12/09/arts/music/taylor-swift-eras-tour-2-billion.html.
-[^b2]: Chloe Melas, “Taylor Swift Gave Eras Tour Crew $197 Million in Bonuses (Exclusive),” *People*, December 9, 2024, https://people.com/taylor-swift-gave-eras-tour-crew-usd197-million-in-bonuses-exclusive-8758216; Chloe Melas, “Taylor Swift Gives ‘Life-Changing’ $100,000 Bonuses to Eras Tour Truck Drivers,” CNN Business, August 2, 2023, https://www.cnn.com/2023/08/02/business/taylor-swift-100000-life-changing-bonus-truck-crew; Ben Sisario, “Taylor Swift’s Eras Tour Is the First to Surpass $2 Billion,” *The New York Times*, December 9, 2024.
+[^b1]: Ben Sisario, “Taylor Swift’s Eras Tour Is the First to Surpass $2 Billion,” *The New York Times*, December 9, 2024, https://www.nytimes.com/2024/12/09/arts/music/taylor-swift-eras-tour-2-billion.html, on the tour's final record-setting reported revenue.
+[^b2]: Chloe Melas, “Taylor Swift Gave Eras Tour Crew $197 Million in Bonuses (Exclusive),” *People*, December 9, 2024, https://people.com/taylor-swift-gave-eras-tour-crew-usd197-million-in-bonuses-exclusive-8758216, reporting the aggregate crew bonuses.
 [^b3]: Stephanie Beasley, “Did Taylor Swift Create a New Era for Food Bank Donations?,” *Chronicle of Philanthropy*, distributed by the Associated Press, August 25, 2024, https://ny1.com/nyc/all-boroughs/ap-top-news/2024/08/25/did-taylor-swift-create-a-new-era-for-food-bank-donations. The story documents donations along the tour route and attributes the 75,000-meal figure to Food Bank of the Rockies in Denver.
+
+[^b1-pollstar]: Pollstar, “Year-End Special Features: Top Tours,” December 2023, on the tour's position in concert-industry rankings at that point. The later full-run revenue is cited separately.
+
+[^b2-truck]: Chloe Melas, “Taylor Swift Gives ‘Life-Changing’ $100,000 Bonuses to Eras Tour Truck Drivers,” CNN Business, August 2, 2023, https://www.cnn.com/2023/08/02/business/taylor-swift-100000-life-changing-bonus-truck-crew, on the truck-drivers' payments.
