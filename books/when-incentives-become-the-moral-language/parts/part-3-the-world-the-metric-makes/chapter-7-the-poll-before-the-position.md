@@ -88,6 +88,6 @@ Polls began as instruments for listening. They became, for many campaigns, the p
 [^c7-hersh]: Eitan Hersh, *Politics Is for Power* (New York: Scribner, 2020).
 [^c7-trust]: Pew Research Center, "Public Trust in Government: 1958–2024," April 2024.
 
-[^c7-opensecrets]: Center for Responsive Politics (OpenSecrets), fundraising and donor data, https://www.opensecrets.org/, on the aggregation and analysis of campaign finance disclosures.
+[^c7-opensecrets]: Center for Responsive Politics (OpenSecrets), “OpenSecrets fundraising totals and donor reporting,” https://www.opensecrets.org/, on the aggregation and analysis of campaign finance disclosures.
 
 [^c7-legislative-record]: *Congressional Record*, 111th Congress, debates on the Affordable Care Act and the public-option proposals, 2009–2010, for the legislative context and competing provisions discussed by lawmakers.
