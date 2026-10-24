@@ -36,7 +36,7 @@ Everything surrounding the paper remains less equal.
 
 On April 27, 1994, people formed lines outside polling stations across South Africa. In Soweto, a photograph captured a long queue moving toward a polling place in the country’s first election conducted across racial lines. People waited beneath the same sky while carrying histories that had never been treated as politically equal.[^c6-soweto-queue]
 
-For the first time, South Africans registered on a common voters’ roll could participate in choosing the national government. The election followed years of negotiation and political violence and marked the end of apartheid rule as the governing structure of the state.[^c6-sa-election]
+For the first time, South Africans registered on a common voters’ roll could participate in choosing the national government. The election followed years of negotiation and political violence and marked the end of apartheid rule as the governing structure of the state.[^c6-sa-election][^c6-election-history]
 
 Nearly 19.7 million votes were cast. Seven parties received enough support to enter Parliament.[^c6-sa-votes]
 
@@ -422,9 +422,9 @@ The citizens leave together.
 
 Between them, the boundaries remain.
 
-[^c6-soweto-queue]: See South African History Online on Denis Farrell’s 1994 aerial photograph of a Soweto election queue, https://www.sahistory.org.za/people/denis-farrell; and “The South African general elections: 1994,” https://www.sahistory.org.za/article/south-african-general-elections-1994.
+[^c6-soweto-queue]: South African History Online, Denis Farrell biography and documentation of his 1994 Soweto election-queue photograph, https://www.sahistory.org.za/people/denis-farrell, on the photographer and the historical image. The photograph is not evidence of every individual's private political perspective.
 
-[^c6-sa-election]: See Electoral Commission of South Africa, “27 Apr 1994 National Election” results archive, https://www.elections.org.za/content/pages/reports/npe/selection.aspx; and South African History Online, “Election Results 1994,” https://www.sahistory.org.za/archive/election-results-1994, on the first election on a common voters’ roll after the negotiated transition begun in 1990.
+[^c6-sa-election]: Electoral Commission of South Africa, “27 Apr 1994 National Election,” official results archive, https://www.elections.org.za/content/pages/reports/npe/selection.aspx, on the first national election under the new common voters' roll.
 
 [^c6-sa-votes]: See South African History Online, “Election Results 1994,” https://www.sahistory.org.za/archive/election-results-1994, reporting that approximately 19.7 million votes were cast in the April 1994 nonracial election and that seven parties gained representation in Parliament.
 
@@ -437,3 +437,5 @@ Between them, the boundaries remain.
 [^c6-sa-constitution]: See Constitution of the Republic of South Africa Act 200 of 1993 (Interim Constitution), committing the country to universal adult suffrage, a common voters’ roll, multiparty democracy, and proportional representation.
 
 [^c6-mill-obligation]: See Mill, *Considerations on Representative Government*, arguing that voting carries a moral obligation to consider the public interest rather than merely private advantage.
+
+[^c6-election-history]: South African History Online, “The South African general elections: 1994,” https://www.sahistory.org.za/article/south-african-general-elections-1994, on the negotiated transition and national election context.
