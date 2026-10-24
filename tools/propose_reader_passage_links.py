@@ -36,6 +36,14 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--repo", default=".", help="Repository root")
     parser.add_argument(
+        "--ambiguous-only",
+        action="store_true",
+        help=(
+            "Queue only shared or ambiguous footnote matches for explainable "
+            "Phase 9 editorial triage (source candidates only)"
+        ),
+    )
+    parser.add_argument(
         "--kind",
         choices=("sources", "thinkers", "all"),
         default="all",
@@ -138,6 +146,7 @@ def main(argv: list[str] | None = None) -> int:
         kind=kind,
         only_missing=args.only_missing,
         only_invalid=args.only_invalid,
+        ambiguous_only=args.ambiguous_only,
         book_id=args.book,
         slugs=slugs,
         unreviewed_only=args.unreviewed_only,
@@ -155,7 +164,7 @@ def main(argv: list[str] | None = None) -> int:
                 f"  [{c.evidence_level}] {c.entity_kind}/{c.slug} → "
                 f"{c.candidate_reader_passage_path or c.route_key} "
                 f"(anchor={c.anchor_exists!s}, review={c.needs_editorial_review}, "
-                f"{c.recommended_action})"
+                f"{c.recommended_action}, hints={len(c.disambiguation_hints)})"
             )
         return 0
 
