@@ -83,7 +83,7 @@ def test_shared_footnote_supersessions_and_claim_dates() -> None:
     policy = (ROOT / ANTHEM).read_text(encoding="utf-8")
     assert "[^c4-chair]" not in knight
     assert "[^c7-policy]" not in policy
-    assert "He was ejected.[^c4-chair-incident]" in knight
+    assert "and was ejected.[^c4-chair-incident]" in knight
     assert "additional suspension.[^c4-chair-sanction]" in knight
     assert "on-field violations.[^c7-policy-approved]" in policy
     assert "discussions continued.[^c7-policy-standstill]" in policy
