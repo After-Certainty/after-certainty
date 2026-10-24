@@ -36,7 +36,7 @@ jobs:
           uv sync --frozen
           npm ci --no-audit --no-fund --ignore-scripts
 
-      - name: Ruff and reader passage regression suites
+      - name: Validate revised Phase 14 footnotes and regression suites
         run: |
           set -euo pipefail
           uv run ruff check tests/test_reader_passage_phase14.py
