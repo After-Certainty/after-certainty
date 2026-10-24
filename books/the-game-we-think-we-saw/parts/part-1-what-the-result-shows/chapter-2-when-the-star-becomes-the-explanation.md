@@ -52,7 +52,7 @@ By the time the result reaches memory, the system has acquired a face.
 
 ### A Dynasty with Two Faces
 
-For two decades, the New England Patriots offered one of the most successful partnerships in professional sports. Tom Brady and Bill Belichick spent twenty seasons together, reaching nine Super Bowls and winning six.[^c2-brady-belichick-era] Their run became long enough and successful enough that the quarterback and coach were often treated not merely as central participants in the Patriots’ dynasty, but as competing explanations for it.
+For two decades, the New England Patriots offered one of the most successful partnerships in professional sports. Tom Brady and Bill Belichick spent twenty seasons together, reaching nine Super Bowls and winning six.[^c2-brady-belichick-era] Their run became long enough and successful enough that the quarterback and coach were often treated not merely as central participants in the Patriots’ dynasty, but as competing explanations for it.[^c2-brady-debate]
 
 The argument seemed simple.
 
@@ -82,7 +82,7 @@ So the partnership was repeatedly compressed into an argument over which individ
 
 Two later seasons appeared to offer natural experiments.
 
-In the opening game of 2008, Brady suffered a knee injury that ended his year. Matt Cassel, who had rarely started meaningful professional football, took over. New England finished 11–5 and missed the playoffs.[^c2-2008-cassel]
+In the opening game of 2008, Brady suffered a knee injury that ended his year.[^c2-brady-injury] Matt Cassel, who had rarely started meaningful professional football, took over. New England finished 11–5 and missed the playoffs.[^c2-2008-cassel]
 
 The season seemed to prove that Belichick’s system mattered more than the star. The organization had absorbed the loss of its most visible player and remained competitive.
 
@@ -94,7 +94,7 @@ The replacement revealed that the system possessed capacity beyond the star.
 
 It did not reveal what the same system would have become if the star had never been there.
 
-When Brady left New England and joined Tampa Bay in 2020, the partnership offered a second experiment. In his first season with the Buccaneers, Brady threw three touchdown passes in Super Bowl LV, was named its most valuable player, and won his seventh championship—his first outside New England.[^c2-sb-lv]
+When Brady left New England and joined Tampa Bay in 2020, the partnership offered a second experiment. In his first season with the Buccaneers, Brady threw three touchdown passes in Super Bowl LV and won his seventh championship—his first outside New England.[^c2-sb-lv] He was also named the game's most valuable player.[^c2-sb-mvp]
 
 Again the result seemed to settle the argument: Brady had won without Belichick.
 
@@ -320,8 +320,12 @@ The shooter points back.
 
 The result has a face. It still needed a ruling before it could count.
 
-[^c2-brady-belichick-era]: Pro-Football-Reference, “New England Patriots Franchise Encyclopedia,” https://www.pro-football-reference.com/teams/nwe/; NBC Sports Boston, “Who Gets Most of the Credit — Brady or Belichick?,” https://www.nbcboston.com/news/sports/nbc-sports-boston/who-gets-most-of-the-credit-brady-or-belichick/2092515/. Brady and Belichick were together with New England across twenty seasons (2000–2019), reaching nine Super Bowls and winning six.
+[^c2-brady-belichick-era]: Pro-Football-Reference, “New England Patriots Franchise Encyclopedia,” https://www.pro-football-reference.com/teams/nwe/, for the joint Patriots-era seasons, Super Bowl appearances and championships; the contest over who deserves credit is documented separately.
 
-[^c2-2008-cassel]: NFL.com, “Brady to Have Season-Ending Knee Surgery…,” September 8, 2008, https://www.nfl.com/news/brady-to-have-season-ending-knee-surgery-will-be-placed-on-ir-09000d5d80a95089; Pro-Football-Reference, “2008 New England Patriots,” https://www.pro-football-reference.com/teams/nwe/2008.htm.
+[^c2-2008-cassel]: Pro-Football-Reference, “2008 New England Patriots,” https://www.pro-football-reference.com/teams/nwe/2008.htm, recording New England's 11–5 result and missed postseason following Brady's injury.
 
-[^c2-sb-lv]: Pro-Football-Reference, “Super Bowl LV Box Score,” February 7, 2021, https://www.pro-football-reference.com/boxscores/202102070tam.htm; NFL.com, “Buccaneers QB Tom Brady Extends Record with Fifth Super Bowl MVP…,” https://www.nfl.com/news/buccaneers-qb-tom-brady-extends-record-with-fifth-super-bowl-mvp-in-win-over-chi.
+[^c2-sb-lv]: Pro-Football-Reference, “Super Bowl LV Box Score,” February 7, 2021, https://www.pro-football-reference.com/boxscores/202102070tam.htm, for Brady's passing statistics and Tampa Bay's victory.
+
+[^c2-brady-debate]: NBC Sports Boston, “Who Gets Most of the Credit — Brady or Belichick?,” https://www.nbcboston.com/news/sports/nbc-sports-boston/who-gets-most-of-the-credit-brady-or-belichick/2092515/, documenting the debate over attributing the New England dynasty to the coach or the quarterback.
+[^c2-brady-injury]: NFL.com, “Brady to Have Season-Ending Knee Surgery; Will Be Placed on IR,” September 8, 2008, https://www.nfl.com/news/brady-to-have-season-ending-knee-surgery-will-be-placed-on-ir-09000d5d80a95089, for the knee injury and season-ending prognosis.
+[^c2-sb-mvp]: NFL.com, “Buccaneers QB Tom Brady Extends Record with Fifth Super Bowl MVP,” February 2021, https://www.nfl.com/news/buccaneers-qb-tom-brady-extends-record-with-fifth-super-bowl-mvp-in-win-over-chi, for Brady's game-MVP honor.

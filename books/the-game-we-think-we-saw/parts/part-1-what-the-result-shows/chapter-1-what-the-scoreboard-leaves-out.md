@@ -102,7 +102,7 @@ It is what becomes visible when the statistic changes—and what disappears once
 
 Baseball supplied one of the clearest modern examples of measurement correcting inherited judgment.
 
-The approach associated with *Moneyball* did not begin from the belief that numbers were more real than baseball. It began from a practical observation: the baseball market did not value every contribution accurately. The Oakland Athletics, operating with fewer financial resources than many rivals, used statistical analysis to identify skills that contributed to winning but were comparatively inexpensive to acquire. On-base percentage became an important example because traditional evaluation had often given greater cultural attention to batting average, while the ability to avoid making outs could be purchased more cheaply than its value suggested.[^c1-lewis-moneyball]
+The approach associated with *Moneyball* did not begin from the belief that numbers were more real than baseball. It began from a practical observation: the baseball market did not value every contribution accurately. The Oakland Athletics, operating with fewer financial resources than many rivals, used statistical analysis to identify skills that contributed to winning but were comparatively inexpensive to acquire. On-base percentage became an important example because traditional evaluation had often given greater cultural attention to batting average, while the ability to avoid making outs could be purchased more cheaply than its value suggested.[^c1-lewis-moneyball] A later economic study by Jahn Hakes and Raymond Sauer evaluated the Moneyball hypothesis against patterns of player performance and market valuation, rather than assuming that the narrative alone settled the case.[^c1-hakes-evaluation]
 
 The insight was not simply that scouts were wrong and spreadsheets were right.
 
@@ -240,10 +240,12 @@ The game remains larger.
 
 Often the larger game still gathers around one face.
 
-[^c1-russell-career]: Basketball-Reference, “Bill Russell,” https://www.basketball-reference.com/players/r/russebi01.html; NBA.com, “Legends Profile: Bill Russell,” https://www.nba.com/history/legends/profiles/bill-russell. Career: thirteen seasons with Boston; eleven NBA championships; five MVP awards; 21,620 rebounds (22.5 per game).
+[^c1-russell-career]: Basketball-Reference, “Bill Russell,” https://www.basketball-reference.com/players/r/russebi01.html, on Russell's thirteen seasons with Boston, eleven championships, five MVP awards, and 21,620 rebounds (22.5 per game).
 
 [^c1-blocks-official]: NBA.com, “Legends Profile: Bill Russell.” The NBA began recording blocked shots as an official statistic in 1973–74; Russell’s final season as a player was 1968–69.
 
-[^c1-lewis-moneyball]: Michael Lewis, *Moneyball: The Art of Winning an Unfair Game* (New York: W. W. Norton, 2003); Jahn K. Hakes and Raymond D. Sauer, “An Economic Evaluation of the *Moneyball* Hypothesis,” *Journal of Economic Perspectives* 20, no. 3 (2006): 173–185.
+[^c1-lewis-moneyball]: Michael Lewis, *Moneyball: The Art of Winning an Unfair Game* (New York: W. W. Norton, 2003), on the Oakland Athletics' use of undervalued on-base performance and the contrast with established scouting conventions.
 
 [^c1-sabermetrics-spread]: Dave Studeman, “The Triumph of Moneyball,” *The Hardball Times* / FanGraphs, January 23, 2014, https://tht.fangraphs.com/the-triumph-of-moneyball/.
+
+[^c1-hakes-evaluation]: Jahn K. Hakes and Raymond D. Sauer, “An Economic Evaluation of the *Moneyball* Hypothesis,” *Journal of Economic Perspectives* 20, no. 3 (2006): 173–185, empirically evaluating statistical measures of player contribution and their market prices.

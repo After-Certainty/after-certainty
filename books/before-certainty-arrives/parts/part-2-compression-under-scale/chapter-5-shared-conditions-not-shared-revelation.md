@@ -21,8 +21,8 @@ Buddhism are treated as discoveries of deeper truth arriving almost
 mysteriously across distant cultures.
 
 That label is useful but contested. Karl Jaspers named the period to
-describe a family resemblance across traditions; later scholars have
-questioned whether the resemblance is too neat, whether "axial"
+describe a family resemblance across traditions.[^c5-jaspers-origin]
+Later scholars have questioned whether the resemblance is too neat, whether "axial"
 civilizations were as unified as the term suggests, and whether
 breakthrough language smuggles in a progress narrative the evidence does
 not support.[^c5-axial-debate] What remains defensible is narrower:
@@ -46,7 +46,7 @@ Texts could be copied and carried. Sabbath and festival calendars could
 mark time without sacrifice at the temple. Prayer, dietary practice, and
 household instruction could preserve obligation in rooms far from
 Jerusalem. Covenant language could bind a people through loss of land and
-loss of king. What had been centralized in one place became portable in
+loss of king.[^c5-sinai-zion] What had been centralized in one place became portable in
 practice as well as in memory.
 
 Scholars disagree about how quickly each element developed and which
@@ -104,11 +104,11 @@ In Warring States China—a landscape of competing kingdoms spread across
 much of the Chinese heartland—the background condition was different from
 exile, though the coordination problem rhymed. Political fragmentation
 outran any single court's ability to hold conduct steady across
-territories that warred, shifted allegiance, and absorbed refugees.
+territories that warred, shifted allegiance, and absorbed refugees.[^c5-warring-states]
 
 Confucian teachers and ritual specialists moved between competing states
 carrying texts, models of conduct, and ceremonies that could be taught
-rather than merely inherited at one shrine.[^c5-warring-states] Cultivated
+rather than merely inherited at one shrine.[^c5-warring-ritual] Cultivated
 virtue, filial duty, and proper ritual became a moral grammar applicable
 where centralized sacred authority had weakened. The aim was not
 primarily covenantal survival in diaspora, but teachable order amid
@@ -173,6 +173,10 @@ When certainty had to survive the death of teachers, the dispersal of
 empires, and the silence of oral tradition, coordination turned toward
 matter—stone, scroll, and archive.
 
-[^c5-axial-debate]: See Karl Jaspers, *The Origin and Goal of History* (New Haven, CT: Yale University Press, 1953); Shmuel N. Eisenstadt, ed., *The Origins and Diversity of Axial Age Civilizations* (Albany: State University of New York Press, 1986).
-[^c5-babylonian-exile]: See Rainer Albertz, *Israel in Exile: The History and Literature of the Sixth Century B.C.E.* (Atlanta: Society of Biblical Literature, 2003); Jon D. Levenson, *Sinai and Zion: An Entry into the Jewish Bible* (Minneapolis: Winston Press, 1985).
-[^c5-warring-states]: See Mark Edward Lewis, *Sanctioned Violence in Early China* (Albany: State University of New York Press, 1990); Michael J. Puett, *To Become a God: Cosmology, Sacrifice, and Self-Divinization in Early China* (Cambridge, MA: Harvard University Press, 2002).
+[^c5-axial-debate]: Shmuel N. Eisenstadt, ed., *The Origins and Diversity of Axial Age Civilizations* (Albany: State University of New York Press, 1986), on the differing historical settings and institutional forms grouped under the axial label.
+[^c5-babylonian-exile]: Rainer Albertz, *Israel in Exile: The History and Literature of the Sixth Century B.C.E.* (Atlanta: Society of Biblical Literature, 2003), on the Babylonian conquest, Judean displacement, and exilic religious history.
+[^c5-warring-states]: Mark Edward Lewis, *Sanctioned Violence in Early China* (Albany: State University of New York Press, 1990), on political fragmentation, warfare, and state power in ancient China.
+
+[^c5-jaspers-origin]: Karl Jaspers, *The Origin and Goal of History* (New Haven, CT: Yale University Press, 1953), on the original comparative concept of an Axial Age; that concept is not presented as an undisputed periodization.
+[^c5-sinai-zion]: Jon D. Levenson, *Sinai and Zion: An Entry into the Jewish Bible* (Minneapolis: Winston Press, 1985), on covenant and the relation of Sinai, Zion, and enduring religious identity. The manuscript's portability argument is a separate interpretation.
+[^c5-warring-ritual]: Michael J. Puett, *To Become a God: Cosmology, Sacrifice, and Self-Divinization in Early China* (Cambridge, MA: Harvard University Press, 2002), on early Chinese ritual and cosmological traditions, not as proof that all Warring States teaching had a uniform purpose.
