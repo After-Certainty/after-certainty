@@ -82,16 +82,16 @@ These eight clusters are editorial outcomes, not claims that source URLs were al
 - **Eight** new `readerPassagePath` + `whyThisMatters` pairs added; **one** previously shared path (Brook) becomes sole-work tied.
 - Historic deferred/proposed candidate keys that no longer point to an existing note are marked `skipped` as superseded, with replacement paths. New work-specific keys are `applied`; intentional shared-note entries remain `deferred`.
 - All source schema changes are limited to existing sources associated with the cited books. There are no changes to the one-path-per-source schema.
-- The `audit.md` and `audit.summary.json` checked-in snapshots reflect the previous Phase 8 audit until a complete renderer-backed `make audit-reader-passage-links` regeneration is run. **Do not infer new totals merely by arithmetic;** automatic matching and the audit may classify references differently.
-- Validation commands before merging:
+- A follow-up cleanup regenerated both tracked reports using the **full renderer-backed** `make audit-reader-passage-links` command, rather than calculating totals by hand. Observed results: **411/714** source paths (from 403), **398** mechanically tied A citations (from 389), **227** missing-path footnote citations (from 235), **390** thinkers with derivable passages (from 385), **0** invalid passage paths, and **0** unverified fragment links. All eight Phase 10 additions are in the audit's mechanically tied examples; the formerly shared Brook note also now qualifies as A.
+
+Validated with:
 
 ```bash
-uv run pytest tests/test_reader_passage_phase10.py tests/test_reader_passage_links.py
-uv run python tools/validate_semantic_entities.py --repo .
-make audit-reader-passage-links
+uv run pytest tests/test_reader_passage_phase10.py -q
+uv run python tools/audit_reader_passage_links.py --repo .
 ```
 
-If audit output differs, use the generated files as authoritative; do not manually set coverage counts. The CI site/book export workflows must remain green. Fragment checks should verify all eight new targets before merging.
+The regenerated `reports/reader-passage-links/audit.md` and `audit.summary.json` are authoritative for this repository revision. Future manuscript or semantic source changes should regenerate these snapshots before merging; do not infer new totals from previous counts.
 
 ## Later work
 
