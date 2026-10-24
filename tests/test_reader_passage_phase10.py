@@ -60,9 +60,7 @@ LINKS = (
 
 
 def _source(slug: str) -> dict:
-    return yaml.safe_load(
-        (ROOT / "semantic/sources" / f"{slug}.yml").read_text(encoding="utf-8")
-    )
+    return yaml.safe_load((ROOT / "semantic/sources" / f"{slug}.yml").read_text(encoding="utf-8"))
 
 
 def test_all_new_links_have_invocations_and_defined_notes() -> None:
@@ -110,9 +108,7 @@ def test_nummi_and_king_old_multiwork_notes_not_used() -> None:
 
 def test_review_log_applied_paths_match_canonical_sources() -> None:
     review = json.loads(
-        (ROOT / "reports/reader-passage-links/review-log.json").read_text(
-            encoding="utf-8"
-        )
+        (ROOT / "reports/reader-passage-links/review-log.json").read_text(encoding="utf-8")
     )["entries"]
     for slug, _, _ in LINKS:
         target = _source(slug)["readerPassagePath"]
@@ -126,9 +122,5 @@ def test_review_log_applied_paths_match_canonical_sources() -> None:
         "alexander-christopher-the-timeless-way-of-building",
         "andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl",
     ):
-        records = [
-            value
-            for key, value in review.items()
-            if key.startswith(f"source:{slug}:")
-        ]
+        records = [value for key, value in review.items() if key.startswith(f"source:{slug}:")]
         assert records and any(x["status"] == "deferred" for x in records)
