@@ -330,7 +330,3 @@ def test_representative_claims_are_not_conflated() -> None:
         "sisario-ben-taylor-swift-s-eras-tour-is-the-first-to-surpass-2-billion",
         "b1",
     )
-    assert "Voluntary" not in note(
-        "integrity-council-for-the-voluntary-carbon-market-core-carbon-principles",
-        "c4-credit-integrity",
-    ) if False else True
