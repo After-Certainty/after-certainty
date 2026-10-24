@@ -38,9 +38,11 @@ jobs:
           uv sync --frozen
           npm ci --no-audit --no-fund --ignore-scripts
 
-      - name: Validate Phase 10 and Phase 11 review regressions
+      - name: Ruff check and Phase 10/11 regression tests
         run: |
           set -euo pipefail
+          uv run ruff check tests/test_reader_passage_phase11.py
+          uv run ruff format --check tests/test_reader_passage_phase11.py
           uv run pytest tests/test_reader_passage_phase10.py tests/test_reader_passage_phase11.py tests/test_reader_passage_links.py -q
 
       - name: Run full renderer-backed reader passage audit
