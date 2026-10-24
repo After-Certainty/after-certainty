@@ -162,17 +162,14 @@ def _manuscript_for_reader_path(path: str) -> Path:
     manuscripts = [
         candidate
         for candidate in base.rglob("*.md")
-        if candidate.relative_to(base).with_suffix("").as_posix().replace("/", "-")
-        == route
+        if candidate.relative_to(base).with_suffix("").as_posix().replace("/", "-") == route
     ]
     assert len(manuscripts) == 1, (path, manuscripts)
     return manuscripts[0]
 
 
 def _source(slug: str) -> dict:
-    return yaml.safe_load(
-        (ROOT / "semantic/sources" / f"{slug}.yml").read_text(encoding="utf-8")
-    )
+    return yaml.safe_load((ROOT / "semantic/sources" / f"{slug}.yml").read_text(encoding="utf-8"))
 
 
 def _note(text: str, note: str) -> str:
@@ -186,9 +183,7 @@ def _note(text: str, note: str) -> str:
 
 def test_all_27_source_links_are_substantive_reviewed_citations() -> None:
     reviews = json.loads(
-        (ROOT / "reports/reader-passage-links/review-log.json").read_text(
-            encoding="utf-8"
-        )
+        (ROOT / "reports/reader-passage-links/review-log.json").read_text(encoding="utf-8")
     )["entries"]
     assert len(CASES) == 27
     assert len({slug for slug, _, _ in CASES}) == 27
@@ -259,12 +254,8 @@ def test_climate_credit_criteria_and_claims_regimes_stay_distinct() -> None:
     assert "Voluntary Carbon Markets Integrity Initiative" not in _note(
         climate, "c4-credit-integrity"
     )
-    assert "European Financial Reporting Advisory Group" not in _note(
-        climate, "c4-issb"
-    )
-    assert "International Sustainability Standards Board" not in _note(
-        climate, "c4-esrs"
-    )
+    assert "European Financial Reporting Advisory Group" not in _note(climate, "c4-issb")
+    assert "International Sustainability Standards Board" not in _note(climate, "c4-esrs")
     assert "California Air Resources Board" not in _note(climate, "c4-vw")
     assert "California Air Resources Board" in _note(climate, "c4-vw-settlements")
     assert "World Bank" in _note(climate, "c4-world-bank")
