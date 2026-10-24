@@ -98,7 +98,7 @@ ranged from anti-corruption and dialogue to deeper political reform.
 Workers and other urban residents joined in places and moments that
 enlarged the movement beyond campus grievance. Hunger strikes and
 occupation of Tiananmen Square made the capital’s politics suddenly
-visible to global media. The leadership split over response. Reformers
+visible to global media.[^c7-tiananmen-protest] The leadership split over response. Reformers
 who favored negotiation lost. Deng supported the decision to clear the
 Square by force. The military crackdown on and around June 3–4, 1989
 killed and injured large numbers of civilians; the full accounting
@@ -109,7 +109,7 @@ Arrests, purges, and tightened control followed. International sanctions
 and condemnation arrived. Domestically, official narrative treated the
 events as necessary restoration of order against turmoil that threatened
 the reform trajectory itself—and then, over time, treated public
-commemoration as a threat to that same order.
+commemoration as a threat to that same order.[^c7-tiananmen-memory]
 
 Here the hardest moral structure of the case becomes unavoidable.
 
@@ -294,6 +294,10 @@ description is done.
 
 [^c7-aphorism]: Deng’s pragmatic maxims—including the cat metaphor and “seek truth from facts”—are discussed throughout Vogel, *Deng Xiaoping*; they signaled performance over rhetorical orthodoxy without dissolving Party supremacy.
 
-[^c7-tiananmen]: On the June 1989 protests and crackdown, see Timothy Brook, *Quelling the People* (New York: Oxford University Press, 1992); Craig Calhoun, *Neither Gods nor Emperors* (Berkeley: University of California Press, 1994); and Louisa Lim, *The People’s Republic of Amnesia* (New York: Oxford University Press, 2014). Exact casualty totals remain uncertain under censorship; lethal force against civilians is documented across these accounts.
+[^c7-tiananmen-protest]: Craig Calhoun, *Neither Gods nor Emperors: Students and the Struggle for Democracy in China* (Berkeley: University of California Press, 1994), on the student movement, its organization, demands, and escalation in spring 1989.
+
+[^c7-tiananmen]: Timothy Brook, *Quelling the People: The Military Suppression of the Beijing Democracy Movement* (New York: Oxford University Press, 1992), on military suppression in June 1989. Exact casualty totals remain disputed, but lethal force against civilians is documented.
+
+[^c7-tiananmen-memory]: Louisa Lim, *The People’s Republic of Amnesia: Tiananmen Revisited* (New York: Oxford University Press, 2014), on the official suppression and later reshaping of public memory of June 1989.
 
 [^c7-vogel-legacy]: Vogel, *Deng Xiaoping*, on contested legacy frames—modernization narrative versus repression—and Deng’s preference for comparative baselines over moral theater.
