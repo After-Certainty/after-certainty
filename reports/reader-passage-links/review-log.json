@@ -391,11 +391,22 @@
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 11: previous shared-note candidate superseded by a distinct, reviewed claim at /explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair-incident.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse",
       "slug": "associated-press-bob-knight-s-chair-college-basketball-s-classic-furniture",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T21:00:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair-incident"
+    },
+    "source:associated-press-bob-knight-s-chair-college-basketball-s-classic-furniture:/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair-incident": {
+      "status": "applied",
+      "entityKind": "source",
+      "slug": "associated-press-bob-knight-s-chair-college-basketball-s-classic-furniture",
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair-incident",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse",
+      "evidenceLevel": "A",
+      "note": "Phase 11 editorial application: February chair incident and ejection. Citation-specific note and text reviewed; must pass renderer-backed audit.",
+      "updatedAt": "2026-10-24T21:00:00Z"
     },
     "source:associated-press-kaepernick-eric-reid-settle-collusion-grievances-with-nfl:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-grievance-settled": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-grievance-settled",
@@ -2821,6 +2832,16 @@
       "status": "deferred",
       "updatedAt": "2026-10-18T00:21:13Z"
     },
+    "source:indiana-university-athletics-coach-bob-knight-passes-away-at-83:/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-knight-record": {
+      "status": "applied",
+      "entityKind": "source",
+      "slug": "indiana-university-athletics-coach-bob-knight-passes-away-at-83",
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-knight-record",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse",
+      "evidenceLevel": "A",
+      "note": "Phase 11 editorial application: Official Indiana career statistics, distinct from the mixed method note. Citation-specific note and text reviewed; must pass renderer-backed audit.",
+      "updatedAt": "2026-10-24T21:00:00Z"
+    },
     "source:ingham-geoffrey-the-nature-of-money:/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-money-institution": {
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-money-institution",
       "entityKind": "source",
@@ -3586,11 +3607,22 @@
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 11: previous shared-note candidate superseded by a distinct, reviewed claim at /explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair-sanction.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse",
       "slug": "los-angeles-times-knight-suspended-for-a-game-by-big-ten-for-throwing-chair",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T21:00:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair-sanction"
+    },
+    "source:los-angeles-times-knight-suspended-for-a-game-by-big-ten-for-throwing-chair:/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair-sanction": {
+      "status": "applied",
+      "entityKind": "source",
+      "slug": "los-angeles-times-knight-suspended-for-a-game-by-big-ten-for-throwing-chair",
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair-sanction",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse",
+      "evidenceLevel": "A",
+      "note": "Phase 11 editorial application: March 2 Big Ten decision. Citation-specific note and text reviewed; must pass renderer-backed audit.",
+      "updatedAt": "2026-10-24T21:00:00Z"
     },
     "source:los-angeles-times-tape-has-knight-grabbing-player:/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-reed": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-reed",
@@ -4436,21 +4468,43 @@
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-policy",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 11: previous shared-note candidate superseded by a distinct, reviewed claim at /explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-policy-standstill.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message",
       "slug": "nfl-com-nfl-anthem-policy-on-hold-under-standstill-agreement",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T21:00:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-policy-standstill"
+    },
+    "source:nfl-com-nfl-anthem-policy-on-hold-under-standstill-agreement:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-policy-standstill": {
+      "status": "applied",
+      "entityKind": "source",
+      "slug": "nfl-com-nfl-anthem-policy-on-hold-under-standstill-agreement",
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-policy-standstill",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message",
+      "evidenceLevel": "A",
+      "note": "Phase 11 editorial application: July standstill rather than May policy. Citation-specific note and text reviewed; must pass renderer-backed audit.",
+      "updatedAt": "2026-10-24T21:00:00Z"
     },
     "source:nfl-com-nfl-owners-approve-national-anthem-policy-for-2018:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-policy": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-policy",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 11: previous shared-note candidate superseded by a distinct, reviewed claim at /explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-policy-approved.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message",
       "slug": "nfl-com-nfl-owners-approve-national-anthem-policy-for-2018",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T21:00:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-policy-approved"
+    },
+    "source:nfl-com-nfl-owners-approve-national-anthem-policy-for-2018:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-policy-approved": {
+      "status": "applied",
+      "entityKind": "source",
+      "slug": "nfl-com-nfl-owners-approve-national-anthem-policy-for-2018",
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-policy-approved",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message",
+      "evidenceLevel": "A",
+      "note": "Phase 11 editorial application: May 23 league-approved policy. Citation-specific note and text reviewed; must pass renderer-backed audit.",
+      "updatedAt": "2026-10-24T21:00:00Z"
     },
     "source:nfl-com-nfl-teams-unanimously-approve-simplified-catch-rule:/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-3-the-authority-of-the-whistle#user-content-fnref-c3-catch-rule-2018": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-3-the-authority-of-the-whistle#user-content-fnref-c3-catch-rule-2018",
