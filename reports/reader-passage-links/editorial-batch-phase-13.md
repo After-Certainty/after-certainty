@@ -43,6 +43,23 @@ Evidence: [Mandela's 1964 speech reproduced by the United Nations](https://www.u
 
 Evidence: [SNCC Digital Gateway's firsthand movement history, *Birth of SNCC*](https://snccdigital.org/inside-sncc/the-story-of-sncc/birth-of-sncc/).
 
+## Verified full-corpus results
+
+The Phase 13 validation job successfully ran Ruff and Phase 10–13/core reader-passage tests, then regenerated both checked-in audit snapshots using the **actual HTML reader fragment checker**, not the skip-fragment option. It also asserted that all five newly narrowed or linked work identifiers appear among the mechanically tied A evidence, and that no source paths are invalid, unverified, or still classified for linked-path editorial review.
+
+| Metric | Merged Phase 12 | Phase 13 audit |
+|---|---:|---:|
+| Sources with verified paths | 416 | **417** |
+| Mechanically tied source citations (A) | 412 | **417** |
+| Existing path requiring editorial review | 4 | **0** |
+| Footnote-cited sources lacking paths | 221 | **220** |
+| Thinkers with derivable work passages | 400 | **402** |
+| Invalid / unverified links | 0 / 0 | **0 / 0** |
+
+These are outputs of the full corpus audit; they were not inferred from the edit count. A mechanical A proves a valid, specifically cited reader fragment, **not** independent validation of the cited author's argument or the manuscript's interpretation.
+
+Validation: [Phase 13 full renderer-backed audit workflow](https://github.com/After-Certainty/after-certainty/actions/runs/40137023195).
+
 ## Required outcome
 
 - The four previously B-ranked source paths should become mechanically tied **A** without moving their existing destinations.
