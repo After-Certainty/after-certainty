@@ -627,7 +627,7 @@ def index_chapter_engagement(
                         continue
                     distinguishing = creator_author_tokens(sources[candidate_slug]) - named_creators
                     if any(
-                        re.search(r"(?<!\\w)" + re.escape(token) + r"(?!\\w)", def_norm)
+                        re.search(r"(?<!\w)" + re.escape(token) + r"(?!\w)", def_norm)
                         for token in distinguishing
                     ):
                         sole_named = None
