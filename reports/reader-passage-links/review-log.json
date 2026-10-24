@@ -138,12 +138,12 @@
     "source:american-college-of-emergency-physicians-boarding:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "Phase 12: reviewer-confirmed genuine shared citation; reader fragment and source are valid, but another independently named work supports this same claim. Keep link; do not promote to mechanically sole-work A until manuscript splits distinct claims.",
+      "evidenceLevel": "A",
+      "note": "Phase 13 editorially narrowed citation: ACEP's 2023 policy now supports the distinct boarding/capacity claim; the IOM 2007 system-capacity study has its own note. Renderer audit must confirm sole-work A.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs",
       "slug": "american-college-of-emergency-physicians-boarding",
       "status": "applied",
-      "updatedAt": "2026-10-24T21:30:00Z"
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:anderson-benedict-imagined-communities-reflections-on-the-origin-and-spread-of-nationalism:/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined": {
       "candidatePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined",
@@ -2856,11 +2856,22 @@
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "Phase 8 Outcome B contextual: IOM remains valuable capacity co-cite under shared [^c1-boarding]; ACEP took the unique path. Still deferred (not skipped) — shared difficulty / secondary evidence, not rejection.",
+      "note": "Phase 13: IOM's previously shared boarding reference was superseded by its independent c1-capacity footnote. The original link is not assigned as sole-source evidence.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs",
       "slug": "institute-of-medicine-hospital-based-emergency-care-at-the-breaking-point",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T01:32:23Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T22:00:00Z",
+      "supersededBy": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-capacity"
+    },
+    "source:institute-of-medicine-hospital-based-emergency-care-at-the-breaking-point:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-capacity": {
+      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-capacity",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "note": "Phase 13: the Institute of Medicine's 2007 report documents system-wide emergency capacity and transfer pressure under a new sole-work citation. Reviewer-approved, subject to rendered-fragment audit.",
+      "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs",
+      "slug": "institute-of-medicine-hospital-based-emergency-care-at-the-breaking-point",
+      "status": "applied",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:institute-of-medicine-to-err-is-human-building-a-safer-health:/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-8-when-failure-is-not-an-option#user-content-fnref-c8-source-institute-of-medicine": {
       "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-8-when-failure-is-not-an-option#user-content-fnref-c8-source-institute-of-medicine",
@@ -3647,12 +3658,12 @@
     "source:lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark:/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-expansion": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-expansion",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "Phase 12: reviewer-confirmed genuine shared citation; reader fragment and source are valid, but another independently named work supports this same claim. Keep link; do not promote to mechanically sole-work A until manuscript splits distinct claims.",
+      "evidenceLevel": "A",
+      "note": "Phase 13 editorially narrowed citation: This LDHI page supports the Citizenship School's expansion and SCLC's 1961 role. Its different Progressive Club page remains cited in the 1957 local-class note. Renderer audit must confirm sole-work A.",
       "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window",
       "slug": "lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark",
       "status": "applied",
-      "updatedAt": "2026-10-24T21:30:00Z"
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:lowcountry-digital-history-initiative-the-progressive-club-johns-island:/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-citizenship": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-citizenship",
@@ -3797,12 +3808,12 @@
     "source:mandela-nelson-statement-from-the-dock-rivonia-trial-20-april-1964:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v4": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v4",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "Phase 12: reviewer-confirmed genuine shared citation; reader fragment and source are valid, but another independently named work supports this same claim. Keep link; do not promote to mechanically sole-work A until manuscript splits distinct claims.",
+      "evidenceLevel": "A",
+      "note": "Phase 13 editorially narrowed citation: Mandela's own April 1964 trial statement supports the sabotage rationale and institutional history. His 1994 memoir is independently cited elsewhere in the chapter. Renderer audit must confirm sole-work A.",
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory",
       "slug": "mandela-nelson-statement-from-the-dock-rivonia-trial-20-april-1964",
       "status": "applied",
-      "updatedAt": "2026-10-24T21:30:00Z"
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:march-james-g-and-herbert-a-simon-organizations:/explore/books/when-moral-seriousness-scales/chapters/parts-part-2-what-scale-changes-chapter-6-the-incentive-gradient#user-content-fnref-c6-simon-organizations": {
       "candidatePath": "/explore/books/when-moral-seriousness-scales/chapters/parts-part-2-what-scale-changes-chapter-6-the-incentive-gradient#user-content-fnref-c6-simon-organizations",
@@ -5629,12 +5640,12 @@
     "source:sncc-digital-gateway-birth-of-sncc:/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-shaw": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-shaw",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "Phase 12: reviewer-confirmed genuine shared citation; reader fragment and source are valid, but another independently named work supports this same claim. Keep link; do not promote to mechanically sole-work A until manuscript splits distinct claims.",
+      "evidenceLevel": "A",
+      "note": "Phase 13 editorially narrowed citation: SNCC Digital Gateway supports Baker's convening role and the Shaw University meeting. Ransby's biography is cited separately for Baker's autonomy argument. Renderer audit must confirm sole-work A.",
       "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window",
       "slug": "sncc-digital-gateway-birth-of-sncc",
       "status": "applied",
-      "updatedAt": "2026-10-24T21:30:00Z"
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:snow-john-on-the-mode-of-communication-of-cholera:/explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-5-structures-that-see-for-us#user-content-fnref-c5-snow": {
       "candidatePath": "/explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-5-structures-that-see-for-us#user-content-fnref-c5-snow",

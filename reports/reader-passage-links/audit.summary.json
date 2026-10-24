@@ -66,19 +66,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "fragment_tied_but_shared_or_ambiguous",
-        "shared_footnote_with:institute-of-medicine-hospital-based-emergency-care-at-the-breaking-point"
-      ],
-      "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding",
-      "recommendedAction": "editorial_confirm_passage_relevance",
-      "slug": "american-college-of-emergency-physicians-boarding",
-      "status": "path_valid_shared_or_ambiguous_citation"
-    },
-    {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-luck",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -642,6 +629,19 @@
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "ellis-joseph-j-his-excellency-george-washington",
       "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-kneel",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 3,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "espn-colin-kaepernick-takes-knee-for-anthem-joined-by-teammate-eric-reid",
+      "status": "strong_candidate"
     }
   ],
   "thinkersWithDerivablePassages": [
@@ -753,6 +753,17 @@
           "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-attention-and-leadership",
           "sourceSlug": "cockburn-alistair-how-to-step-up-stepping-up-promoting-guest",
           "whyThisMatters": "Cockburn\u2019s \u201cguest leadership\u201d essay describes how people without formal authority can step up\u2014and step back\u2014so collaboration keeps moving when the titled leader is not the best actor for the moment. When Others Look to You starts from a related observation: leadership begins when others take their cues from you, title or not. The book extends Cockburn\u2019s collaboration practice into the moral weight of that attention\u2014influence multiplies once people keep looking."
+        }
+      ]
+    },
+    {
+      "slug": "american-college-of-emergency-physicians",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding",
+          "sourceSlug": "american-college-of-emergency-physicians-boarding",
+          "whyThisMatters": "ACEP\u2019s boarding policy statement defines emergency-department boarding and frames capacity pressure as a clinical and operational problem. When Incentives Become the Moral Language cites that capacity fact where hospitals must make decisions travel across rooms and shifts. The source establishes boarding pressure; the book\u2019s translation/moral-language thesis is an After Certainty inference, not ACEP\u2019s claim."
         }
       ]
     },
@@ -993,17 +1004,6 @@
           "whyThisMatters": "Bernanke\u2019s crisis memoir stresses that central-bank words about liquidity and resolve can move behavior before facts are settled. The Economy We Don\u2019t Experience uses that lesson for compressed leadership: under stress, speech itself becomes part of the intervention."
         }
       ]
-    },
-    {
-      "slug": "benedict-anderson",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined",
-          "sourceSlug": "anderson-benedict-imagined-communities-reflections-on-the-origin-and-spread-of-nationalism",
-          "whyThisMatters": "Anderson analyzes how nations are imagined through shared narratives and print-mediated belonging. Trust Beyond Similarity extends that insight into ordinary groups: shared stories reduce uncertainty, and they can also teach people what not to notice\u2014including which questions feel safe to ask."
-        }
-      ]
     }
   ],
   "tiedCitationExamples": [
@@ -1030,6 +1030,11 @@
     {
       "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-devops-emergence",
       "slug": "allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding",
+      "slug": "american-college-of-emergency-physicians-boarding",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1938,6 +1943,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-capacity",
+      "slug": "institute-of-medicine-hospital-based-emergency-care-at-the-breaking-point",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-8-when-failure-is-not-an-option#user-content-fnref-c8-source-institute-of-medicine",
       "slug": "institute-of-medicine-to-err-is-human-building-a-safer-health",
       "status": "verified_link_tied_citation"
@@ -2153,6 +2163,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-expansion",
+      "slug": "lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-citizenship",
       "slug": "lowcountry-digital-history-initiative-the-progressive-club-johns-island",
       "status": "verified_link_tied_citation"
@@ -2185,6 +2200,11 @@
     {
       "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-pitch-smart",
       "slug": "major-league-baseball-pitch-smart-pitching-guidelines",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v4",
+      "slug": "mandela-nelson-statement-from-the-dock-rivonia-trial-20-april-1964",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2788,6 +2808,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-shaw",
+      "slug": "sncc-digital-gateway-birth-of-sncc",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-5-the-applause-no-one-wants-to-end#user-content-fnref-c5-solzhenitsyn-ovation",
       "slug": "solzhenitsyn-aleksandr-i-the-gulag-archipelago-1918-1956-an-experiment-in-literary-investigation",
       "status": "verified_link_tied_citation"
@@ -3072,35 +3097,35 @@
     "sources": {
       "bibliographyOnly": 58,
       "byEvidenceLevel": {
-        "A": 412,
-        "B": 225,
+        "A": 417,
+        "B": 220,
         "C": 1,
         "D": 58,
         "E": 18
       },
       "invalidPassageLinks": 0,
-      "mechanicalFootnoteCandidates": 221,
-      "missingPathWithFootnote": 221,
-      "pathNeedsEditorialReview": 4,
-      "tiedCitationCoveragePct": 57.7,
+      "mechanicalFootnoteCandidates": 220,
+      "missingPathWithFootnote": 220,
+      "pathNeedsEditorialReview": 0,
+      "tiedCitationCoveragePct": 58.4,
       "total": 714,
       "unverifiedFragmentLinks": 0,
-      "validPassageLinks": 416,
-      "verifiedLinkTiedCitation": 412,
-      "whyThisMattersOk": 416,
-      "withReaderPassagePath": 416
+      "validPassageLinks": 417,
+      "verifiedLinkTiedCitation": 417,
+      "whyThisMattersOk": 417,
+      "withReaderPassagePath": 417
     },
     "thinkers": {
       "byEvidenceLevel": {
-        "A": 400,
-        "B": 191,
+        "A": 402,
+        "B": 189,
         "C": 0,
         "D": 52,
         "E": 0
       },
       "total": 643,
-      "usefulPathPct": 62.21,
-      "withDerivablePassages": 400
+      "usefulPathPct": 62.52,
+      "withDerivablePassages": 402
     }
   }
 }
