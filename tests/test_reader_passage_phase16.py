@@ -270,10 +270,10 @@ def test_every_phase16_profile_targets_an_invoked_unique_reader_footnote() -> No
         )
         assert source["readerPassagePath"] == expected, slug
         assert len(source["whyThisMatters"]) >= 120, slug
-        definitions = re.findall(rf"(?m)^\\[\\^{re.escape(note)}\\]:.*$", manuscript)
+        definitions = re.findall(rf"(?m)^\[\^{re.escape(note)}\]:.*$", manuscript)
         assert len(definitions) == 1, (slug, note)
         assert len(definitions[0]) >= 70, slug
-        body = re.sub(r"(?m)^\\[\\^[^]]+\\]:.*$", "", manuscript)
+        body = re.sub(r"(?m)^\[\^[^]]+\]:.*$", "", manuscript)
         assert f"[^{note}]" in body, slug
         review = review_log[f"source:{slug}:{expected}"]
         assert review["status"] == "applied"
@@ -299,7 +299,7 @@ def test_old_shared_source_candidates_remain_as_review_history() -> None:
 def test_new_footnote_ids_are_not_duplicated() -> None:
     for manuscript_path in {path for _, _, path in CASES}:
         content = (ROOT / manuscript_path).read_text(encoding="utf-8")
-        definitions = re.findall(r"(?m)^\\[\\^([^]]+)\\]:", content)
+        definitions = re.findall(r"(?m)^\[\^([^]]+)\]:", content)
         assert len(definitions) == len(set(definitions)), manuscript_path
 
 
@@ -307,7 +307,7 @@ def test_representative_claims_are_not_conflated() -> None:
     def note(slug: str, note_id: str) -> str:
         doc = next(path for s, _, path in CASES if s == slug)
         text = (ROOT / doc).read_text(encoding="utf-8")
-        found = re.findall(rf"(?m)^\\[\\^{re.escape(note_id)}\\]:.*$", text)
+        found = re.findall(rf"(?m)^\[\^{re.escape(note_id)}\]:.*$", text)
         assert len(found) == 1
         return found[0]
 
