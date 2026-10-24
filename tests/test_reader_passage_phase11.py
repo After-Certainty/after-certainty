@@ -115,8 +115,6 @@ def test_review_decisions_preserve_other_shared_sources() -> None:
     deferred = [
         v
         for k, v in review.items()
-        if k.startswith(
-            "source:andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl:"
-        )
+        if k.startswith("source:andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl:")
     ]
     assert deferred and any(v["status"] == "deferred" for v in deferred)
