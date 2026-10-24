@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import json
 import re
-from functools import lru_cache
+from functools import cache
 from pathlib import Path
 
 import yaml
@@ -150,7 +150,7 @@ CASES = (
 )
 
 
-@lru_cache(maxsize=None)
+@cache
 def _manuscript_for_reader_path(path: str) -> Path:
     match = re.fullmatch(
         r"/explore/books/([^/]+)/chapters/([^#]+)#user-content-fnref-([^#]+)",
