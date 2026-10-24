@@ -105,19 +105,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-correction-and-insulation",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 5,
-      "notes": [
-        "fragment_tied_but_shared_or_ambiguous",
-        "shared_footnote_with:argyris-chris-and-donald-a-schon-organizational-learning-ii"
-      ],
-      "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-correction-and-insulation",
-      "recommendedAction": "editorial_confirm_passage_relevance",
-      "slug": "argyris-chris-overcoming-organizational-defenses",
-      "status": "path_valid_shared_or_ambiguous_citation"
-    },
-    {
       "candidatePath": "/explore/books/learning-to-see/chapters/parts-part-1-the-formation-of-a-knower-chapter-1-the-experiment-i-had-never-tried#user-content-fnref-c1-sediment-hypothesis",
       "evidenceLevel": "B",
       "footnoteHitCount": 2,
@@ -129,19 +116,6 @@
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "arrington-leonard-j-great-basin-kingdom",
       "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-arthur-lock-in",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 3,
-      "notes": [
-        "fragment_tied_but_shared_or_ambiguous",
-        "shared_footnote_with:pierson-paul-increasing-returns-path-dependence-and-the-study-of-politics"
-      ],
-      "readerPassagePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-arthur-lock-in",
-      "recommendedAction": "editorial_confirm_passage_relevance",
-      "slug": "arthur-w-brian-increasing-returns-and-path-dependence-in-the-economy",
-      "status": "path_valid_shared_or_ambiguous_citation"
     },
     {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-knight-method",
@@ -200,7 +174,6 @@
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
       "notes": [
-        "shared_or_ambiguous_footnote",
         "missing_or_weak_whyThisMatters"
       ],
       "readerPassagePath": null,
@@ -274,11 +247,10 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-clinical",
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-15-architectural-cohesion#user-content-fnref-c15-clinical",
       "evidenceLevel": "B",
       "footnoteHitCount": 2,
       "notes": [
-        "shared_or_ambiguous_footnote",
         "missing_or_weak_whyThisMatters"
       ],
       "readerPassagePath": null,
@@ -356,7 +328,6 @@
       "evidenceLevel": "B",
       "footnoteHitCount": 2,
       "notes": [
-        "shared_or_ambiguous_footnote",
         "missing_or_weak_whyThisMatters"
       ],
       "readerPassagePath": null,
@@ -395,7 +366,6 @@
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
       "notes": [
-        "shared_or_ambiguous_footnote",
         "missing_or_weak_whyThisMatters"
       ],
       "readerPassagePath": null,
@@ -428,19 +398,6 @@
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "christian-brian-the-alignment-problem-machine-learning-and-human-values",
       "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-cointelpro",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "fragment_tied_but_shared_or_ambiguous",
-        "shared_footnote_with:blackpast-black-panther-party-s-free-breakfast-program-1969-1980"
-      ],
-      "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-cointelpro",
-      "recommendedAction": "editorial_confirm_passage_relevance",
-      "slug": "church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp",
-      "status": "path_valid_shared_or_ambiguous_citation"
     },
     {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-firing",
@@ -571,19 +528,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-8",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "fragment_tied_but_shared_or_ambiguous",
-        "shared_footnote_with:south-african-history-online-south-africa-s-first-democratic-elections-27-april-1994"
-      ],
-      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-8",
-      "recommendedAction": "editorial_confirm_passage_relevance",
-      "slug": "desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire",
-      "status": "path_valid_shared_or_ambiguous_citation"
-    },
-    {
       "candidatePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-lazarus-deutsch-pace-conflict",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -646,6 +590,57 @@
       "readerPassagePath": null,
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "dunbar-erica-armstrong-never-caught-the-washingtons-relentless-pursuit-of-their-runaway-slave-on",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-sanitization",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "dyson-michael-eric-i-may-not-get-there-with-you-the-true-martin-luther-king-jr",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-axial-debate",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "eisenstadt-shmuel-n-ed-the-origins-and-diversity-of-axial-age",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-sa-election",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "electoral-commission-of-south-africa-27-apr-1994-national-election",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-ellis",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 4,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "ellis-joseph-j-his-excellency-george-washington",
       "status": "strong_candidate"
     }
   ],
@@ -889,6 +884,17 @@
       ]
     },
     {
+      "slug": "ashwin-desai",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-8",
+          "sourceSlug": "desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire",
+          "whyThisMatters": "Desai and Vahed argue that Gandhi\u2019s South African years were a partial awakening: loyalty to empire, efforts to elevate Indians by distinguishing them from Black Africans, and political language shaped by racial hierarchies he later opposed more broadly\u2014while earlier narratives often centered him and minimized indentured and working-class Indian agency. When Others Become Leaders treats that record as a general leadership pattern: someone can recognize injustice when it reaches them and still fail to see its larger architecture. The book\u2019s claim is operational, not biographical: partial recognition of harm is common, not uniquely Gandhian."
+        }
+      ]
+    },
+    {
       "slug": "associated-press",
       "workPassageLinks": [
         {
@@ -998,17 +1004,6 @@
           "whyThisMatters": "Anderson analyzes how nations are imagined through shared narratives and print-mediated belonging. Trust Beyond Similarity extends that insight into ordinary groups: shared stories reduce uncertainty, and they can also teach people what not to notice\u2014including which questions feel safe to ask."
         }
       ]
-    },
-    {
-      "slug": "beno-t-monin",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-1-before-the-leader-becomes-a-story-chapter-2-the-chair-no-one-reconsiders#user-content-fnref-c2-posture",
-          "sourceSlug": "merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to",
-          "whyThisMatters": "Merritt, Effron, and Monin\u2019s review of moral self-licensing shows that prior good deeds or virtuous self-image can psychologically free people to act less scrupulously later\u2014past virtue becomes credit that reduces subsequent restraint. When Authority Is Misread extends that mechanism to how well-meaning posture can thin scrutiny of accumulating costs elsewhere. The article documents licensing in social psychology; the book asks how moral credit attached to leaders can keep authority standing after accountability has already drifted."
-        }
-      ]
     }
   ],
   "tiedCitationExamples": [
@@ -1100,6 +1095,16 @@
     {
       "readerPassagePath": "/explore/books/when-accountability-no-longer-expires/chapters/parts-part-3-learning-without-resolution-chapter-6-adaptation-is-not-renewal#user-content-fnref-c6-argyris-reform",
       "slug": "argyris-chris-on-organizational-learning",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-correction-and-insulation",
+      "slug": "argyris-chris-overcoming-organizational-defenses",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-arthur-lock-in",
+      "slug": "arthur-w-brian-increasing-returns-and-path-dependence-in-the-economy",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1398,6 +1403,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-cointelpro",
+      "slug": "church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-norm-formation",
       "slug": "cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus",
       "status": "verified_link_tied_citation"
@@ -1510,6 +1520,11 @@
     {
       "readerPassagePath": "/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-02-responsibility-as-cohesion#user-content-fnref-c2-postmortem-learning",
       "slug": "deming-w-edwards-out-of-the-crisis",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-8",
+      "slug": "desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1903,6 +1918,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-public-sector",
+      "slug": "hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-2-the-feed-that-never-empties#user-content-fnref-c2-horwitz-seetharaman",
       "slug": "horwitz-jeff-and-deepa-seetharaman-facebook-executives-shut-down-efforts-to-make-the-site-less-d",
       "status": "verified_link_tied_citation"
@@ -1925,6 +1945,11 @@
     {
       "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-3-the-authority-of-the-whistle#user-content-fnref-c3-ifab-slowmo",
       "slug": "international-football-association-board-video-assistant-referee-var-protocol",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-paris",
+      "slug": "international-olympic-committee-simone-biles-all-titles-records-and-medals-complete-list",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2420,6 +2445,11 @@
     {
       "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-3-the-authority-of-the-whistle#user-content-fnref-c3-dez-bryant",
       "slug": "nfl-com-referee-dez-bryant-catch-incomplete-once-ball-hit-ground",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-nfl-protocol",
+      "slug": "nfl-concussion-protocol-return-to-participation-protocol-overview",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2973,6 +3003,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-2-renewal-erosion-circulation-chapter-2-the-two-groups#user-content-fnref-c2-adaptive-systems",
+      "slug": "weick-karl-e-the-social-psychology-of-organizing",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-3-preservation-chapter-7-trust-protects-authority#user-content-fnref-c7-wiedeman-wework",
       "slug": "wiedeman-reeves-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusion",
       "status": "verified_link_tied_citation"
@@ -2980,6 +3015,11 @@
     {
       "readerPassagePath": "/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-03-consequence-as-coupling#user-content-fnref-c3-delayed-optimization",
       "slug": "wiener-norbert-cybernetics-or-control-and-communication-in-the-animal-and-the-machine",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-beam",
+      "slug": "will-graves-biles-returns-to-olympic-competition-wins-bronze-on-beam",
       "status": "verified_link_tied_citation"
     },
     {
@@ -3032,8 +3072,8 @@
     "sources": {
       "bibliographyOnly": 58,
       "byEvidenceLevel": {
-        "A": 403,
-        "B": 234,
+        "A": 412,
+        "B": 225,
         "C": 1,
         "D": 58,
         "E": 18
@@ -3041,26 +3081,26 @@
       "invalidPassageLinks": 0,
       "mechanicalFootnoteCandidates": 221,
       "missingPathWithFootnote": 221,
-      "pathNeedsEditorialReview": 13,
-      "tiedCitationCoveragePct": 56.44,
+      "pathNeedsEditorialReview": 4,
+      "tiedCitationCoveragePct": 57.7,
       "total": 714,
       "unverifiedFragmentLinks": 0,
       "validPassageLinks": 416,
-      "verifiedLinkTiedCitation": 403,
+      "verifiedLinkTiedCitation": 412,
       "whyThisMattersOk": 416,
       "withReaderPassagePath": 416
     },
     "thinkers": {
       "byEvidenceLevel": {
-        "A": 392,
-        "B": 199,
+        "A": 400,
+        "B": 191,
         "C": 0,
         "D": 52,
         "E": 0
       },
       "total": 643,
-      "usefulPathPct": 60.96,
-      "withDerivablePassages": 392
+      "usefulPathPct": 62.21,
+      "withDerivablePassages": 400
     }
   }
 }
