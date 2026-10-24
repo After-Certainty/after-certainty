@@ -620,11 +620,7 @@ def index_chapter_engagement(
                 # Asymmetric on purpose: the specifically named work is not
                 # shared with speculative matches, but speculative matches
                 # still share with the evidenced work and require review.
-                others = (
-                    []
-                    if slug == sole_named
-                    else [s for s in matched_slugs if s != slug]
-                )
+                others = [] if slug == sole_named else [s for s in matched_slugs if s != slug]
                 shared = bool(others)
                 footnote_by_source[slug].append(
                     FootnoteHit(
