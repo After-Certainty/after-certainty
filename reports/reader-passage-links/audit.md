@@ -9,24 +9,24 @@ bibliography-only and keyword overlap never count as verified passages.
 ### Sources
 
 - Total sources scanned: **714**
-- With `readerPassagePath`: **403**
-- Structurally valid + fragment-checked paths: **403**
-- Verified link + mechanically tied citation (level A): **389**
-- Mechanical footnote candidates (level B / strong_candidate): **235**
-- Path present but needs editorial review: **14**
+- With `readerPassagePath`: **411**
+- Structurally valid + fragment-checked paths: **411**
+- Verified link + mechanically tied citation (level A): **398**
+- Mechanical footnote candidates (level B / strong_candidate): **227**
+- Path present but needs editorial review: **13**
 - Fragment check skipped (unverified): **0**
 - Invalid passage links: **0**
-- Missing path but footnote-cited: **235**
+- Missing path but footnote-cited: **227**
 - Bibliography only (level D): **57**
-- Tied-citation (level A) coverage: **54.48%**
-- `whyThisMatters` present/substantive: **403**
+- Tied-citation (level A) coverage: **55.74%**
+- `whyThisMatters` present/substantive: **411**
 
 Level A means a public path whose fragment is the matched citation invocation — a *mechanical* condition, not editorial approval of philosophical relevance. All newly proposed connections still need editorial review before YAML enrichment.
 
 Evidence levels:
 
-- A: 389
-- B: 249
+- A: 398
+- B: 240
 - C: 1
 - D: 57
 - E: 18
@@ -34,13 +34,13 @@ Evidence levels:
 ### Thinkers
 
 - Total thinkers scanned: **643**
-- With derivable work passage links: **385**
-- Useful derived path coverage: **59.88%**
+- With derivable work passage links: **390**
+- Useful derived path coverage: **60.65%**
 
 Evidence levels:
 
-- A: 385
-- B: 206
+- A: 390
+- B: 201
 - C: 0
 - D: 52
 - E: 0
@@ -51,8 +51,6 @@ _None._
 
 ## Ranked improvement opportunities
 
-- **B** `abate-tom-nummi-workers-say-their-final-good-byes` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-close`
-- **B** `addams-jane-twenty-years-at-hull-house` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-7-the-house#user-content-fnref-h1`
 - **B** `albertz-rainer-israel-in-exile-the-history-and-literature-of-the` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-babylonian-exile`
 - **B** `alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns`
 - **B** `alexander-christopher-the-timeless-way-of-building` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns`
@@ -80,13 +78,7 @@ _None._
 - **B** `board-of-governors-of-the-federal-reserve-system-financial-stability-report` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-aggregate`
 - **B** `boehm-christopher-hierarchy-in-the-forest-the-evolution-of` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-early-moral-anthropology`
 - **B** `boss-pauline-ambiguous-loss-learning-to-live-with-unresolved-grief` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-2-the-cost-of-explanation#user-content-fnref-c2-analysis-paralysis`
-- **B** `branch-taylor-at-canaan-s-edge-america-in-the-king-years-1965-68` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-garrow`
-- **B** `branch-taylor-parting-the-waters-america-in-the-king-years-1954-63` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-garrow`
-- **B** `branch-taylor-pillar-of-fire-america-in-the-king-years-1963-65` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-branch-garrow`
 - **B** `braudel-fernand-the-structures-of-everyday-life` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/living-in-sediment/chapters/front-matter-prologue-september-is-not-seven#user-content-fnref-pro-ordinary-history`
-- **B** `brook-timothy-quelling-the-people-the-military-suppression-of-the-beijing-democracy-movement` — path_valid_shared_or_ambiguous_citation; action `editorial_confirm_passage_relevance`; candidate `/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen`
-- **B** `bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-close`
-- **B** `calhoun-craig-neither-gods-nor-emperors-students-and-the-struggle-for-democracy-in-china` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-tiananmen`
 - **B** `california-african-american-museum-free-breakfast-for-school-children-program` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-oakland`
 - **B** `center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-open` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-fec`
 - **B** `centers-for-disease-control-and-prevention-symptoms-of-concussion` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-concussion-symptoms`
@@ -101,10 +93,20 @@ _None._
 - **B** `cogan-mordechai-the-raging-torrent-historical-inscriptions-from` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-4-population-growth-and-social-density#user-content-fnref-c4-lachish-siege`
 - **B** `cohn-jonathan-the-ten-year-war-obamacare-and-the-unmaking-of-american-establishment` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-aca`
 - **B** `columbia-accident-investigation-board-report-of-the-columbia-accident-investigation-board` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/what-we-cannot-see/chapters/parts-part-3-integration-learning-together-chapter-11-when-failure-teaches-the-system#user-content-fnref-c11-shuttle`
-- … and 200 more (see JSON).
+- **B** `congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-aca`
+- **B** `crawford-kate-atlas-of-ai-power-politics-and-the-planetary-costs-of-artificial` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment#user-content-fnref-c11-optimization-authority`
+- **B** `de-la-merced-michael-j-pepsico-tells-activist-investor-its-answer-is-still-no` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-peltz`
+- **B** `desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire` — path_valid_shared_or_ambiguous_citation; action `editorial_confirm_passage_relevance`; candidate `/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-8`
+- **B** `deutsch-morton-the-resolution-of-conflict` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-lazarus-deutsch-pace-conflict`
+- **B** `deutscher-guy-the-unfolding-of-language-an-evolutionary-tour-of-mankind-s` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-lakoff-metaphor`
+- **B** `douglas-mary-how-institutions-think` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-13-when-justification-fades#user-content-fnref-c13-life-cycle`
+- **B** `douglas-mary-purity-and-danger-an-analysis-of-concepts-of-pollution` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-early-moral-anthropology`
+- … and 191 more (see JSON).
 
 ## Verified link + mechanically tied citation examples (level A)
 
+- `abate-tom-nummi-workers-say-their-final-good-byes` → `/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-workers`
+- `addams-jane-twenty-years-at-hull-house` → `/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-7-the-house#user-content-fnref-h1`
 - `adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc` → `/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-research`
 - `agamben-giorgio-state-of-exception` → `/explore/books/when-others-look-to-you-v2/chapters/parts-part-3-eroding-chapter-9-exceptions-are-forever#user-content-fnref-c9-temporary-becomes-permanent`
 - `allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr` → `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-devops-emergence`
@@ -123,8 +125,6 @@ _None._
 - `argyris-chris-on-organizational-learning` → `/explore/books/when-accountability-no-longer-expires/chapters/parts-part-3-learning-without-resolution-chapter-6-adaptation-is-not-renewal#user-content-fnref-c6-argyris-reform`
 - `associated-press-ap-was-there-smith-and-carlos-protest-during-1968-olympics` → `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-smith-carlos`
 - `associated-press-nike-unveils-kaepernick-ad-to-air-during-nfl-season-opener` → `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-nike`
-- `baier-annette-c-trust-and-antitrust` → `/explore/books/how-trust-forms/chapters/front-matter-introduction-how-trust-forms#user-content-fnref-intro-baier-vulnerability`
-- `bandura-albert-social-learning-theory` → `/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-modeling-and-signals`
 
 ## Thinkers with derivable passage links
 
