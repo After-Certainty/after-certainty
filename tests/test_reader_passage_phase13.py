@@ -18,8 +18,7 @@ BOWL = ROOT / (
     "part-4-from-power-over-to-power-with/chapter-10-the-window.md"
 )
 VICTORY = ROOT / (
-    "books/when-others-become-leaders/parts/"
-    "part-1-how-influence-begins/chapter-3-victory.md"
+    "books/when-others-become-leaders/parts/part-1-how-influence-begins/chapter-3-victory.md"
 )
 LINKS = (
     (
@@ -56,9 +55,7 @@ LINKS = (
 
 
 def _source(slug: str) -> dict:
-    return yaml.safe_load(
-        (ROOT / "semantic/sources" / f"{slug}.yml").read_text(encoding="utf-8")
-    )
+    return yaml.safe_load((ROOT / "semantic/sources" / f"{slug}.yml").read_text(encoding="utf-8"))
 
 
 def _definition(text: str, note: str) -> str:
@@ -110,8 +107,7 @@ def test_review_log_preserves_the_superseded_iom_candidate() -> None:
     old_keys = [
         key
         for key in entries
-        if key.startswith("source:" + iom + ":")
-        and key.endswith("#user-content-fnref-c1-boarding")
+        if key.startswith("source:" + iom + ":") and key.endswith("#user-content-fnref-c1-boarding")
     ]
     assert len(old_keys) == 1
     assert entries[old_keys[0]]["status"] == "skipped"
