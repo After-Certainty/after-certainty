@@ -617,7 +617,7 @@ def index_chapter_engagement(
             sole_named = directly_named[0] if len(directly_named) == 1 else None
 
             # A second cited work sometimes appears by abbreviated title but
-            # with an explicitly *different* author (e.g. Hood alongside
+            # with a fully identified *different* author (e.g. Hood alongside
             # Pollitt). Do not erase that real co-citation merely because
             # only one metadata title occurs verbatim in full.
             if sole_named:
@@ -626,7 +626,7 @@ def index_chapter_engagement(
                     if candidate_slug == sole_named:
                         continue
                     distinguishing = creator_author_tokens(sources[candidate_slug]) - named_creators
-                    if any(
+                    if distinguishing and all(
                         re.search(r"(?<!\w)" + re.escape(token) + r"(?!\w)", def_norm)
                         for token in distinguishing
                     ):
