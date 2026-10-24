@@ -378,7 +378,7 @@ No one owns the view.
 
 Together, they may create an opening wide enough to act.
 
-[^c10-shaw]: See Barbara Ransby, *Ella Baker and the Black Freedom Movement: A Radical Democratic Vision* (Chapel Hill: University of North Carolina Press, 2003), and SNCC Digital Gateway, “Birth of SNCC,” https://snccdigital.org/, on the Shaw University conference of April 15–17, 1960.
+[^c10-shaw]: SNCC Digital Gateway, “Birth of SNCC,” https://snccdigital.org/inside-sncc/the-story-of-sncc/birth-of-sncc/, on Ella Baker’s role in convening the April 1960 Shaw University gathering and the formation of SNCC. Barbara Ransby’s *Ella Baker and the Black Freedom Movement* is cited separately at [^c10-autonomy] for Baker’s defense of student autonomy.
 
 [^c10-autonomy]: See Ransby, *Ella Baker and the Black Freedom Movement*, on Baker’s insistence that students retain autonomy and practice group-centered leadership rather than become a youth division of an established organization.
 
@@ -386,7 +386,7 @@ Together, they may create an opening wide enough to act.
 
 [^c10-citizenship]: See Lowcountry Digital History Initiative, “The Progressive Club, Johns Island,” https://ldhi.library.cofc.edu/exhibits/show/septima_clark/virtual-tour/the-progressive-club, on the Progressive Club class beginning in 1957 and the roles of Septima Clark, Esau Jenkins, Bernice Robinson, and Highlander Folk School.
 
-[^c10-expansion]: See Lowcountry Digital History Initiative, “The Progressive Club, Johns Island,” and “Local and National Leader: Septima P. Clark,” https://ldhi.library.cofc.edu/exhibits/show/septima_clark/local-and-national-leader, on expansion beyond Johns Island and SCLC’s assumption of the broader Citizenship School program in 1961.
+[^c10-expansion]: Lowcountry Digital History Initiative, “Local and National Leader: Septima P. Clark,” https://ldhi.library.cofc.edu/exhibits/show/septima_clark/local-and-national-leader, on expansion across the South and the move from Highlander sponsorship to SCLC in 1961. The same archive’s “The Progressive Club, Johns Island” is cited separately at [^c10-citizenship] for the 1957 local beginning.
 
 [^c10-ostrom-prize]: See the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2009 citation for Elinor Ostrom “for her analysis of economic governance, especially the commons.”
 
