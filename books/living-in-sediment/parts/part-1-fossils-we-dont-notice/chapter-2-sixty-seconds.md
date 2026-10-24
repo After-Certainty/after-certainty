@@ -6,7 +6,7 @@ A minute is too small to notice until we are waiting for it.
 
 A microwave counts down from sixty while coffee grows warm. A traffic light lingers just long enough to make us wonder whether we should have taken another route. A child is told to brush their teeth for two minutes and counts silently until the task feels complete. Athletes lose races by hundredths of one. Parents discover that a single quiet minute in a house full of children can feel almost luxurious.
 
-We experience time constantly, but we rarely experience its measurements. They arrive already assembled.
+We experience time constantly, but we rarely experience its measurements. Physics itself complicates the intuition that time is a single, simple, universal flow.[^c2-rovelli-time] The familiar social measurements arrive already assembled.
 
 No one pauses over the number sixty. It feels as natural as breathing. There are sixty seconds in a minute, sixty minutes in an hour, twenty-four hours in a day. The rhythm becomes so familiar that it begins to feel like a property of the universe rather than a way of describing it.[^c2-time-constructed]
 
@@ -38,7 +38,7 @@ Almost no one wanted to live inside it.[^c2-decimal-time]
 
 The problem was not arithmetic. It was civilization.
 
-Time had become woven into everything else. Church bells, factory whistles, train schedules, astronomical tables, navigation, commerce, habit, memory. The measurement was no longer simply a measurement. It had become an ecosystem.
+Time had become woven into everything else. Church bells, factory whistles, train schedules, astronomical tables, navigation, commerce, habit, memory. The measurement was no longer simply a measurement. It had become an ecosystem. Douglass North's institutional account helps explain how shared rules can structure the options available to later participants.[^c2-north-institutions]
 
 Changing it meant changing countless other things at the same time.
 
@@ -72,8 +72,12 @@ The clock on the wall does not remember them. It simply continues counting.
 
 And we continue counting with it.
 
-[^c2-time-constructed]: See Carlo Rovelli, *The Order of Time* (New York: Riverhead Books, 2018); Eviatar Zerubavel, *Hidden Rhythms: Schedules and Calendars in Social Life* (Chicago: University of Chicago Press, 1981).
+[^c2-time-constructed]: Eviatar Zerubavel, *Hidden Rhythms: Schedules and Calendars in Social Life* (Chicago: University of Chicago Press, 1981), on the social organization of schedules and calendrical rhythms. The familiar sixty-minute hour is a social convention, not a physical law.
 
 [^c2-decimal-time]: See David S. Landes, *Revolution in Time: Clocks and the Making of the Modern World* (Cambridge, MA: Harvard University Press, 1983).
 
-[^c2-path-dependence]: See Paul Pierson, "Increasing Returns, Path Dependence, and the Study of Politics," *American Political Science Review* 94, no. 2 (2000): 251–267; Douglass C. North, *Institutions, Institutional Change and Economic Performance* (Cambridge: Cambridge University Press, 1990).
+[^c2-path-dependence]: Paul Pierson, “Increasing Returns, Path Dependence, and the Study of Politics,” *American Political Science Review* 94, no. 2 (2000): 251–267, on positive feedback and the persistence of institutional arrangements after early choices.
+
+[^c2-north-institutions]: Douglass C. North, *Institutions, Institutional Change and Economic Performance* (Cambridge: Cambridge University Press, 1990), on institutions as constraints that shape later choices and patterns of economic interaction.
+
+[^c2-rovelli-time]: Carlo Rovelli, *The Order of Time* (New York: Riverhead Books, 2018), on physical accounts of time and the limitations of ordinary intuitions; this source does not determine the cultural history of minute and hour conventions.
