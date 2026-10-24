@@ -176,7 +176,7 @@ A group described as dangerous begins feeding children whom established institut
 
 Whoever reliably meets a public need acquires moral and interpretive authority. They demonstrate that the need could have been met. They reveal the choices hidden inside neglect. They create relationships that official institutions do not control. The meal rearranges the answer to a dangerous question: who is taking responsibility for us?
 
-The federal School Breakfast Program had begun as a pilot in 1966, before the Panthers opened their first breakfast site. Congress made the federal program permanent in 1975. Historians have argued that the Panthers’ breakfast programs helped press national attention onto the limits of existing school-meal provision and toward that permanent expansion.[^c8-bpp-legacy]
+The federal School Breakfast Program had begun as a pilot in 1966, before the Panthers opened their first breakfast site. Congress made the federal program permanent in 1975.[^c8-usda] Historians have argued that the Panthers’ breakfast programs helped press national attention onto the limits of existing school-meal provision and toward that permanent expansion.[^c8-bpp-legacy]
 
 The Panthers did not invent the idea that children should eat before school, and the federal government was not entirely inactive until activists forced it to notice. Yet they made the need visible through a practice that spread quickly and carried political meaning. They did not merely demand that someone feed children. They showed what feeding them required.
 
