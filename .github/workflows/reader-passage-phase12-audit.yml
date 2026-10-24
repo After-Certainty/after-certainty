@@ -31,7 +31,7 @@ jobs:
           set -euo pipefail
           uv sync --frozen
           npm ci --no-audit --no-fund --ignore-scripts
-      - name: Ruff and reader passage test suites
+      - name: Ruff and complete reader passage regression suites
         run: |
           set -euo pipefail
           uv run ruff check tools/reader_passage_links.py tests/test_reader_passage_phase12.py
