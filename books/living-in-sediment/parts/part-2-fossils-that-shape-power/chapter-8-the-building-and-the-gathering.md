@@ -30,7 +30,7 @@ This was not a corruption of the original idea. It was, in many ways, a practica
 
 Communities grew. Living rooms became too small. Public worship became possible. Stone buildings lasted longer than wooden houses. Cathedrals protected congregations from weather, preserved art, amplified music, and offered a visible center for communities whose identities stretched across generations.
 
-The building solved a real problem.[^c8-alexander-patterns]
+The building solved a real problem.[^c8-alexander-patterns] Christopher Alexander's account of building also describes the slower work of adapting places to repeated patterns of human life.[^c8-timeless-way]
 
 Like most successful solutions, it gradually became something more than the problem it solved.
 
@@ -78,7 +78,7 @@ A judge's robe. A professor's lecture hall. A chief executive's corner office. A
 
 None of these arrangements necessarily creates authority. But they teach us where authority is expected to reside. They organize attention before anyone has earned or questioned it.
 
-Architecture slowly becomes pedagogy.[^c8-architecture-pedagogy]
+Jane Jacobs described how the arrangements of streets and neighborhoods influence everyday interactions and the conditions for shared urban life.[^c8-jacobs-streets] Architecture slowly becomes pedagogy.[^c8-architecture-pedagogy]
 
 This is not a criticism. Institutions often need visible symbols. Shared spaces help strangers cooperate. A courthouse should inspire confidence. A hospital should feel trustworthy. A library should invite quiet concentration. Buildings can cultivate habits that make communities possible.
 
@@ -108,6 +108,10 @@ The building is no longer the beginning of the story.
 
 It is one of its most enduring layers.
 
-[^c8-alexander-patterns]: See Christopher Alexander, *The Timeless Way of Building* (New York: Oxford University Press, 1979); Christopher Alexander et al., *A Pattern Language: Towns, Buildings, Construction* (New York: Oxford University Press, 1977).
+[^c8-alexander-patterns]: Christopher Alexander, Sara Ishikawa, Murray Silverstein, et al., *A Pattern Language: Towns, Buildings, Construction* (New York: Oxford University Press, 1977), on recurring design patterns as practical responses to the needs of inhabitants, not as a direct source for every medieval-cathedral detail.
 
-[^c8-architecture-pedagogy]: See Lewis Mumford, *Technics and Civilization* (New York: Harcourt, Brace, 1934); Jane Jacobs, *The Death and Life of Great American Cities* (New York: Random House, 1961).
+[^c8-architecture-pedagogy]: Lewis Mumford, *Technics and Civilization* (New York: Harcourt, Brace, 1934), on how technical and built arrangements shape social organization and expectations.
+
+[^c8-timeless-way]: Christopher Alexander, *The Timeless Way of Building* (New York: Oxford University Press, 1979), on the fit between patterns of construction and lived human practices.
+
+[^c8-jacobs-streets]: Jane Jacobs, *The Death and Life of Great American Cities* (New York: Random House, 1961), on urban street life, neighborhood organization, and the social consequences of physical design.
