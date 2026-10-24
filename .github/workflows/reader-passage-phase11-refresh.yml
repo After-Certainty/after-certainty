@@ -38,7 +38,7 @@ jobs:
           uv sync --frozen
           npm ci --no-audit --no-fund --ignore-scripts
 
-      - name: Ruff check and Phase 10/11 regression tests
+      - name: Ruff and Phase 10/11 regression validation
         run: |
           set -euo pipefail
           uv run ruff check tests/test_reader_passage_phase11.py
