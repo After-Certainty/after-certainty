@@ -45,6 +45,25 @@ All four paths remain structurally valid and intellectually relevant, but a foot
 - Reconcile all 13 existing `review-log.json` records (9 A, 4 B), without adding new paths or manufacturing historical events.
 - Regenerate both tracked audit reports with the site's **real rendered fragment checker**. Verify the nine direct links are mechanically A, the four shared links remain B, and no existing links become invalid or fragment-unverified.
 
+## Observed full-corpus audit results
+
+The Phase 12 source-link audit ran successfully using the real rendered chapter HTML validator, and regenerated **both** tracked audit snapshots as part of this change (not in a later cleanup PR).
+
+| Measure | Phase 11 / `main` | Phase 12 regenerated |
+|---|---:|---:|
+| Sources scanned | 714 | **714** |
+| Reader paths present and fragment checked | 416 | **416** |
+| Mechanically tied citations (A) | 403 | **412** |
+| Working paths requiring editorial review | 13 | **4** |
+| Cited sources still missing reader paths | 221 | **221** |
+| Thinkers with derivable passages | 392 | **400** |
+| Invalid links | 0 | **0** |
+| Unverified fragments | 0 | **0** |
+
+Exactly **nine** previously ambiguous links became mechanically sole-work A; the four source profiles still marked B are ACEP/IOM boarding, Lowcountry's two Citizenship School pages, the Rivonia speech/Mandela memoir, and SNCC Digital Gateway/Barbara Ransby. No passages were added, and no paths were removed. Reader URL counts are unchanged.
+
+The analysis job [completed successfully](https://github.com/After-Certainty/after-certainty/actions/runs/40134273170). All source paths were checked against rendered chapter fragments, and the named source-specific/shared cases were explicitly asserted. The temporary diagnostic and audit workflows used during this investigation were removed before opening the PR.
+
 ## Checks
 
 ```bash
@@ -54,4 +73,4 @@ uv run pytest tests/test_reader_passage_links.py tests/test_reader_passage_phase
 uv run python tools/audit_reader_passage_links.py --repo .
 ```
 
-The regenerated report is authoritative: do not calculate the number of A results by adding eight to an old total without a full corpus scan. A mechanical A remains a validated source/fragment relationship, **not** an external scholarly endorsement of the book's interpretation.
+The regenerated report is authoritative: do not calculate the number of A results by adding nine to an old total without a full corpus scan. A mechanical A remains a validated source/fragment relationship, **not** an external scholarly endorsement of the book's interpretation.
