@@ -611,7 +611,7 @@ def index_chapter_engagement(
                 if (
                     hit_score >= 80
                     and len(title_norm) >= 8
-                    and re.search(r"(?<!\\w)" + re.escape(title_norm) + r"(?!\\w)", def_norm)
+                    and re.search(r"(?<!\w)" + re.escape(title_norm) + r"(?!\w)", def_norm)
                 ):
                     directly_named.append(hit_slug)
             sole_named = directly_named[0] if len(directly_named) == 1 else None
