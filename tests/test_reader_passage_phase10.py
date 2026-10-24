@@ -103,7 +103,7 @@ def test_nummi_and_king_old_multiwork_notes_not_used() -> None:
 
     king = (ROOT / LINKS[5][1]).read_text(encoding="utf-8")
     assert "[^c4-branch-garrow]" not in king
-    assert king.count("[^c4-branch-1963]") == 2
+    assert len(re.findall(r"\\[\\^c4-branch-1963\\](?!:)", king)) == 2
     assert "[^c4-branch-selma]" in king
     assert "[^c4-branch-chicago]" in king
 
