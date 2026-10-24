@@ -616,6 +616,23 @@ def index_chapter_engagement(
                     directly_named.append(hit_slug)
             sole_named = directly_named[0] if len(directly_named) == 1 else None
 
+            # A second cited work sometimes appears by abbreviated title but
+            # with an explicitly *different* author (e.g. Hood alongside
+            # Pollitt). Do not erase that real co-citation merely because
+            # only one metadata title occurs verbatim in full.
+            if sole_named:
+                named_creators = creator_author_tokens(sources[sole_named])
+                for candidate_slug, _, _ in scored:
+                    if candidate_slug == sole_named:
+                        continue
+                    distinguishing = creator_author_tokens(sources[candidate_slug]) - named_creators
+                    if any(
+                        re.search(r"(?<!\\w)" + re.escape(token) + r"(?!\\w)", def_norm)
+                        for token in distinguishing
+                    ):
+                        sole_named = None
+                        break
+
             for slug, score, method in scored:
                 # Asymmetric on purpose: the specifically named work is not
                 # shared with speculative matches, but speculative matches
