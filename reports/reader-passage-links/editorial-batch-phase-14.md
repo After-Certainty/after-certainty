@@ -47,3 +47,22 @@ Review five previously deferred source candidates across four published books, r
 - Include new source-specific regression tests, rerun core and Phases 10–14 suites, and regenerate the tracked `audit.md` and `audit.summary.json` in **this** PR.
 
 Mechanical level A is a verified source-to-reader-citation association, not scholarly endorsement of the author's interpretation.
+
+
+## Observed renderer-validated Phase 14 results
+
+The branch passed Ruff and the core plus Phase 10–14 reader-passage regression suites. The complete rendered-HTML audit was then regenerated and committed with the editorial changes. All five new source paths appear in its mechanically tied citation examples.
+
+| Measure | Merged Phase 13 baseline | Phase 14 full audit |
+|---|---:|---:|
+| Sources scanned | 714 | **714** |
+| Source paths present and fragment-verified | 417 | **422** |
+| Mechanically tied sources (A) | 417 | **422** |
+| Footnote-cited sources lacking paths | 220 | **215** |
+| Paths requiring editorial review | 0 | **0** |
+| Thinkers with derivable paths | 402 | **403** |
+| Invalid / unverified links | 0 / 0 | **0 / 0** |
+
+The increase is **five** reviewed source-specific citations, not a bulk matching promotion. The former USDA `c8-usda` citation remains attached to the 1966/1975 federal program sentence; the new BlackPast citation supports the qualified Panther-program influence claim separately.
+
+[Successful Phase 14 renderer-backed audit](https://github.com/After-Certainty/after-certainty/actions/runs/40138957662). The branch-only report-refresh workflow was removed before opening the PR.
