@@ -72,7 +72,7 @@ This is a different kind of authority. It is quieter. Less visible. Harder to lo
 
 When a banker denied a loan, the decision had an address. When an optimization system shapes thousands of lending decisions, responsibility becomes distributed across software engineers, executives, regulators, data scientists, product managers, compliance officers, and institutional incentives.
 
-No single person appears to be in charge. Everyone participates. The architecture begins making choices that once belonged to individuals.
+No single person appears to be in charge. Everyone participates. The architecture begins making choices that once belonged to individuals.[^c11-crawford-power]
 
 There are profound advantages in this arrangement. Systems become more consistent. Certain kinds of prejudice become easier to identify and reduce. Resources can be allocated more efficiently. Lives are often improved because of it.
 
@@ -92,4 +92,6 @@ Not because it demands obedience. Because, little by little, it becomes the plac
 
 [^c11-judgment-upstream]: See Brian Christian, *The Alignment Problem: Machine Learning and Human Values* (New York: W. W. Norton, 2020); Langdon Winner, "Do Artifacts Have Politics?" *Daedalus* 109, no. 1 (1980): 121–136.
 
-[^c11-optimization-authority]: See Donella H. Meadows, *Thinking in Systems: A Primer*, ed. Diana Wright (White River Junction, VT: Chelsea Green, 2008); Kate Crawford, *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence* (New Haven, CT: Yale University Press, 2021).
+[^c11-optimization-authority]: Donella H. Meadows, *Thinking in Systems: A Primer*, ed. Diana Wright (White River Junction, VT: Chelsea Green, 2008), on the influence of system structure and feedback on which choices become intelligible.
+
+[^c11-crawford-power]: Kate Crawford, *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence* (New Haven, CT: Yale University Press, 2021), on the institutional, labor, and material relations through which AI systems distribute decision-making power. The manuscript’s account of responsibility dispersing across roles is its own interpretation.
