@@ -2775,8 +2775,8 @@
     "source:hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less:/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-public-sector": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-public-sector",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "Phase 12: reviewer-confirmed genuine shared citation; reader fragment and source are valid, but another independently named work supports this same claim. Keep link; do not promote to mechanically sole-work A until manuscript splits distinct claims.",
+      "evidenceLevel": "A",
+      "note": "Phase 12: the c14-public-sector note cites only Hood and Dixon. Pollitt is an unrelated fuzzy match from topical/title overlap, not a co-cited work. Keep existing path as source-specific A.",
       "routeKey": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture",
       "slug": "hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less",
       "status": "applied",
