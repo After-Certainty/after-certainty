@@ -73,7 +73,31 @@ uv run python tools/propose_reader_passage_links.py --repo . \
 ```
 
 Filters: `--kind sources|thinkers|all`, `--book`, `--slug`, `--only-missing`,
-`--only-invalid`, `--batch-size`, `--unreviewed-only`.
+`--only-invalid`, `--batch-size`, `--unreviewed-only`, `--ambiguous-only`.
+
+### Phase 9: explainable citation disambiguation (read-only)
+
+```bash
+uv run python tools/propose_reader_passage_links.py --repo . \
+  --kind sources --ambiguous-only --only-missing \
+  --unreviewed-only --batch-size 15 --dry-run
+
+# Omit --dry-run to write candidate suggestions (NOT source YAML).
+```
+
+The source queue now carries `disambiguation_hints` in candidate JSON and a
+readable list in Markdown. Confidence is **confidence in the detected cue**,
+not probability that a source supports the manuscript. Heuristics identify
+shared footnotes; existing sole-work citations in the same edition; titles
+suggesting event versus retrospective framing; potentially corroborating
+same-event titles; and matches needing identity verification. Compare source
+bodies/dates before any editorial action. These hints do **not** change
+evidence levels, overwrite curated paths, rewrite footnotes, or automatically
+mark candidates approved. `deferred` remains eligible for later review.
+
+When `--ambiguous-only` is used, the queue includes shared or ambiguous
+footnote matches, not ordinary prose-only or thinker candidates. Leave it off
+for standard enrichment.
 
 Writes `candidates.{md,json}` and optionally updates `review-log.json`
 (`proposed|deferred|approved|rejected|applied|skipped`). Use `deferred`

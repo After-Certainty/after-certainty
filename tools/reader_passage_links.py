@@ -235,6 +235,8 @@ class Candidate:
     recommended_action: str
     needs_editorial_review: bool
     related_work_slug: str | None = None
+    # Review-only heuristics; never evidence of citation validity by themselves.
+    disambiguation_hints: list[dict[str, str]] = field(default_factory=list)
 
 
 @dataclass
@@ -1584,12 +1586,221 @@ def _resolve_anchor_exists(
     return ok
 
 
+# Phase 9: bounded, explanation-first heuristics for multi-work citations.
+# These hints inform editorial triage only; they do not raise evidence levels,
+# accept links, modify YAML/manuscripts, or settle attribution questions.
+_ANNIVERSARY_CUE = re.compile(
+    r"\b(?:anniversar(?:y|ies)|commemorat\w*|retrospectiv\w*|"
+    r"turns?\s+\d+|honou?r(?:ed|ing|s)?|legacy)\b",
+    re.I,
+)
+_EVENT_WORDS = frozenset(
+    {
+        "announces",
+        "announced",
+        "retirement",
+        "retired",
+        "files",
+        "filed",
+        "grievance",
+        "protest",
+        "protests",
+        "settles",
+        "settled",
+        "collusion",
+        "suspension",
+        "death",
+        "dies",
+        "died",
+        "crackdown",
+        "election",
+    }
+)
+_TITLE_STOPWORDS = frozenset(
+    {
+        "the",
+        "a",
+        "an",
+        "and",
+        "or",
+        "for",
+        "of",
+        "on",
+        "in",
+        "at",
+        "from",
+        "to",
+        "with",
+        "by",
+        "is",
+        "was",
+        "were",
+        "his",
+        "her",
+        "their",
+        "it",
+        "as",
+        "after",
+        "against",
+        "during",
+        "about",
+        "new",
+        "says",
+    }
+)
+
+
+def _work_tokens(source: SourceAudit) -> set[str]:
+    """Crude title keywords from catalog metadata, not verified source content."""
+    title = source.name.rsplit(" — ", 1)[-1]
+    return {
+        token
+        for token in normalize_match_text(title).split()
+        if len(token) > 2 and token not in _TITLE_STOPWORDS
+    }
+
+
+def disambiguation_hints_for_hit(
+    source: SourceAudit,
+    hit: FootnoteHit,
+    sources_by_slug: dict[str, SourceAudit],
+) -> list[dict[str, str]]:
+    """Suggest review questions from evidence already present in the audit.
+
+    Confidence describes confidence in a *cue*, NOT confidence that a
+    source supports the manuscript's interpretation or deserves a link.
+    Hints are deterministic, ordered, and intentionally non-authoritative.
+    """
+    hints: list[dict[str, str]] = []
+    shared = sorted(set(hit.shared_with))
+    if shared:
+        hints.append(
+            {
+                "kind": "multi_work_footnote",
+                "confidence": "high",
+                "reason": (
+                    f"[^{hit.footnote_id}] matches multiple catalog works. "
+                    "Inspect the invocation and preserve shared corroboration "
+                    "unless distinct claims justify separating citations."
+                ),
+                "evidence": ", ".join(shared),
+            }
+        )
+
+        # Look for an existing less ambiguous footnote elsewhere in this book,
+        # including one for the current work. Never fabricate a new anchor.
+        for slug in [source.slug, *shared]:
+            other_source = sources_by_slug.get(slug)
+            if other_source is None:
+                continue
+            alternatives = sorted(
+                (
+                    candidate
+                    for candidate in other_source.footnote_hits
+                    if candidate.edition_slug == hit.edition_slug
+                    and not candidate.shared_with
+                    and not candidate.ambiguous
+                    and (
+                        candidate.route_key != hit.route_key
+                        or candidate.footnote_id != hit.footnote_id
+                    )
+                ),
+                key=lambda candidate: (candidate.route_key, candidate.footnote_id),
+            )
+            if alternatives:
+                other = alternatives[0]
+                hints.append(
+                    {
+                        "kind": "existing_sole_work_citation",
+                        "confidence": "high",
+                        "reason": (
+                            f"Work '{slug}' has a separate, mechanically "
+                            "matched sole-work citation in this edition. "
+                            "Compare its claim before editing the shared footnote."
+                        ),
+                        "evidence": candidate_path_from_footnote(other),
+                    }
+                )
+
+        own_title = source.name.rsplit(" — ", 1)[-1]
+        own_anniversary = bool(_ANNIVERSARY_CUE.search(own_title))
+        own_tokens = _work_tokens(source)
+        for slug in shared:
+            other_source = sources_by_slug.get(slug)
+            if other_source is None:
+                continue
+            other_title = other_source.name.rsplit(" — ", 1)[-1]
+            other_tokens = _work_tokens(other_source)
+            if own_anniversary != bool(_ANNIVERSARY_CUE.search(other_title)):
+                hints.append(
+                    {
+                        "kind": "event_versus_retrospective",
+                        "confidence": "medium",
+                        "reason": (
+                            "Work titles suggest event reporting alongside "
+                            "later retrospective or commemorative framing. "
+                            "Check whether the prose contains separate "
+                            "event and later-reception claims."
+                        ),
+                        "evidence": f"{source.slug}; {slug}",
+                    }
+                )
+                continue
+            shared_words = sorted(own_tokens & other_tokens)
+            union = own_tokens | other_tokens
+            similarity = len(shared_words) / len(union) if union else 0
+            if (
+                len(shared_words) >= 3
+                and similarity >= 0.3
+                and bool(set(shared_words) & _EVENT_WORDS)
+            ):
+                hints.append(
+                    {
+                        "kind": "possible_same_event_corrob",
+                        "confidence": "low",
+                        "reason": (
+                            "Work titles overlap on event-related terms. "
+                            "They may corroborate one event rather than "
+                            "support different claims; check dates and bodies."
+                        ),
+                        "evidence": ", ".join(shared_words),
+                    }
+                )
+
+    if (
+        hit.ambiguous
+        or hit.score < 80
+        or hit.method
+        in {
+            "footnote_title_only",
+            "footnote_title_tokens",
+        }
+    ):
+        hints.append(
+            {
+                "kind": "verify_work_identity",
+                "confidence": "medium" if hit.ambiguous else "low",
+                "reason": (
+                    "The match lacks strong independent title-and-creator "
+                    "attribution or is marked ambiguous. Confirm title, "
+                    "author, year and whether the cited work actually covers "
+                    "the invocation claim before approving a path."
+                ),
+                "evidence": f"score={hit.score}; method={hit.method}",
+            }
+        )
+
+    # Keep duplicate cues bounded without discarding genuinely different slugs.
+    return hints
+
+
 def build_candidates(
     result: AuditResult,
     *,
     kind: Literal["sources", "thinkers", "all"] = "all",
     only_missing: bool = False,
     only_invalid: bool = False,
+    ambiguous_only: bool = False,
     book_id: str | None = None,
     slugs: set[str] | None = None,
     unreviewed_only: bool = False,
@@ -1613,6 +1824,7 @@ def build_candidates(
     review_log = review_log or {}
     fragment_cache = fragment_cache if fragment_cache is not None else {}
     out: list[Candidate] = []
+    sources_by_slug = {source.slug: source for source in result.sources}
 
     if kind in {"sources", "all"}:
         for src in result.sources:
@@ -1646,6 +1858,8 @@ def build_candidates(
             for hit in book_hits:
                 if emitted >= max_per_source:
                     break
+                if ambiguous_only and not (hit.shared_with or hit.ambiguous):
+                    continue
                 route = hit.route_key
                 cand_path = candidate_path_from_footnote(hit)
                 fragment = f"user-content-fnref-{hit.footnote_id}"
@@ -1697,11 +1911,14 @@ def build_candidates(
                         or "editorial_review_then_add_path",
                         # Newly proposed semantic connections always need editorial review.
                         needs_editorial_review=True,
+                        disambiguation_hints=disambiguation_hints_for_hit(
+                            src, hit, sources_by_slug
+                        ),
                     )
                 )
                 emitted += 1
 
-            if emitted == 0 and book_prose:
+            if not ambiguous_only and emitted == 0 and book_prose:
                 prose = book_prose[0]
                 key = _candidate_key("source", src.slug, prose.route_key)
                 if not (unreviewed_only and _is_queued(review_log, key)):
@@ -1729,7 +1946,7 @@ def build_candidates(
                         )
                     )
 
-    if kind in {"thinkers", "all"}:
+    if not ambiguous_only and kind in {"thinkers", "all"}:
         for thinker in result.thinkers:
             if slugs is not None and thinker.slug not in slugs:
                 continue
@@ -1864,6 +2081,16 @@ def format_candidates_markdown(candidates: list[Candidate]) -> str:
                 f"- Needs editorial review: `{c.needs_editorial_review}`",
                 f"- Related work: `{c.related_work_slug or '—'}`",
                 f"- Why: {c.explanation}",
+                "- Disambiguation hints: "
+                + (str(len(c.disambiguation_hints)) if c.disambiguation_hints else "none"),
+                "",
+                *[
+                    (
+                        f"  - [{hint['confidence']}] {hint['kind']}: "
+                        f"{hint['reason']} (cue: {hint['evidence']})"
+                    )
+                    for hint in c.disambiguation_hints
+                ],
                 "",
                 "Excerpt:",
                 "",

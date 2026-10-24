@@ -15,6 +15,11 @@ uv run python tools/audit_reader_passage_links.py --repo . --skip-fragment-check
 uv run python tools/propose_reader_passage_links.py --repo . \
   --kind all --batch-size 10 --only-missing --unreviewed-only --dry-run
 
+# Phase 9 triage: multi-work / ambiguous footnotes with explainable review hints
+uv run python tools/propose_reader_passage_links.py --repo . \
+  --kind sources --ambiguous-only --only-missing --unreviewed-only \
+  --batch-size 15 --dry-run
+
 uv run python tools/propose_reader_passage_links.py --repo . \
   --kind sources --batch-size 10 --only-missing --write-review-log
 
