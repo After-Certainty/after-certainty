@@ -105,13 +105,13 @@ Outcomes: **A** Separate · **B** Primary · **C** Preserve shared · **D** Corr
 1. **Source slug / identity:** `david-paul-a-clio-and-the-economics-of-qwerty` — David, *AER* 75(2) 1985: 332–337.
 2. **Location:** *Living in Sediment* · Ch.1 · `[^c1-david-qwerty]`.
 3. **Shared footnote works:** David 1985; Arthur 1989 *Economic Journal* lock-in article.
-4. **Claim supported:** QWERTY persists after the mechanical jam problem disappears — inherited map for a vanished landscape.
-5. **Source establishes:** Classic QWERTY path-dependence / lock-in case in economic history. Verification: title/metadata/footnote (standard AER citation; DOI not opened this pass).
+4. **Claim supported:** QWERTY persists on devices without mechanical typewriter arms; David offers an influential path-dependence explanation, but not an uncontested account of its origins.
+5. **Source establishes:** An influential theoretical and historical argument for QWERTY path dependence. Verification: David article identification and scholarly summaries; secondary critique checked against Liebowitz and Margolis, “The Fable of the Keys,” *Journal of Law and Economics* 33(1) (1990): 1–25 (https://doi.org/10.1086/467198). The origin and inferiority claims remain disputed.
 6. **AC adds:** Sediment metaphor for ordinary inheritances (weekdays, dialing, icons).
 7. **Outcome B — Primary.** David owns the QWERTY case sentence; Arthur 1989 is general lock-in theory (Arthur 1994 already linked at `[^c1-arthur-lock-in]`).
 8. **Manuscript change:** Narrow footnote to David; keep Arthur 1989 as optional “see also” or drop from this note (keep biblio entry).
 9. **New path:** Yes — David → `#user-content-fnref-c1-david-qwerty`.
-10. **Uncertainty:** Low on David primacy; Arthur 1989 fans may want a separate sentence later (not manufactured here).
+10. **Uncertainty:** Low on David as the primary source for the account; medium on the historical mechanism and degree of lock-in. The revised manuscript attributes the explanation rather than presenting it as settled fact.
 
 ---
 
