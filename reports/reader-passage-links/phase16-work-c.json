@@ -1,0 +1,142 @@
+{
+  "docs": [
+    {
+      "path": "books/when-incentives-become-the-moral-language/parts/part-3-the-world-the-metric-makes/chapter-8-the-child-the-score-cannot-hold.md",
+      "edits": [
+        [
+          "Teachers are asked to form persons while being evaluated as technicians of scores.[^c8-rand]",
+          "Teachers are asked to form persons while being evaluated as technicians of scores.[^c8-rand] National evidence on teacher shortages and turnover captures another dimension of this problem: staffing instability can limit the continuity on which sustained educational relationships depend.[^c8-teacher-turnover]"
+        ]
+      ],
+      "footnotes": {
+        "c8-rand": "Jason A. Grissom et al., “Teacher Stress and Health: Effects on Teachers, Students, and Schools,” RAND Corporation, 2021, on how stress and institutional demands can affect teachers and school experiences. This is a cited study, not empirical proof of the chapter's entire account of standardized scoring."
+      },
+      "newFootnotes": {
+        "c8-teacher-turnover": "Learning Policy Institute, *Teacher Shortages and Turnover in the United States* (2024), on teacher supply, staffing gaps and departures. The manuscript interprets these institutional pressures rather than attributing every departure to testing."
+      },
+      "sources": [
+        [
+          "grissom-jason-a-et-al-teacher-stress-and-health-effects-on-teachers-students-and-schools",
+          "c8-rand",
+          "The cited RAND research addresses stress and its consequences for teachers and school settings. The manuscript uses the work for professional pressures that accompany institutional measurement, while distinguishing that empirical research from the fictional student's experience."
+        ],
+        [
+          "learning-policy-institute-teacher-shortages-and-turnover-in-the-united-states",
+          "c8-teacher-turnover",
+          "The Learning Policy Institute report examines teacher shortages and turnover as systemic workforce patterns. The chapter draws on that evidence for a distinct issue of staffing instability, separate from the health and stress discussion attributed to the RAND report."
+        ]
+      ]
+    },
+    {
+      "path": "books/the-economy-we-dont-experience/parts/part-4-what-holds/chapter-8-the-guardrails-we-notice-only-when-they-fail.md",
+      "edits": [
+        [
+          "approved systemic risk exceptions that allowed the FDIC to protect all depositors at the two failed banks. The Federal Reserve also created the Bank Term Funding Program to lend against eligible collateral and help banks meet depositor needs.[^c8-banks-2023]",
+          "approved systemic risk exceptions that allowed the FDIC to protect all depositors at the two failed banks.[^c8-banks-2023] The Federal Reserve also created the Bank Term Funding Program to lend against eligible collateral and help banks meet depositor needs.[^c8-fed-funding] The FDIC later examined alternative models for deposit-insurance coverage and their tradeoffs after those failures.[^c8-fdic-options]"
+        ],
+        [
+          "The crisis produces reform. Rules are written.",
+          "The crisis produces reform.[^c8-bernanke] Rules are written."
+        ],
+        [
+          "resolution planning, stress testing, and cross-border oversight became ways of storing lessons from a failure that had spread far beyond the firms where it began.[^c8-bernanke]",
+          "resolution planning, stress testing, and cross-border oversight became ways of storing lessons from a failure that had spread far beyond the firms where it began.[^c8-fsb-reforms]"
+        ]
+      ],
+      "footnotes": {
+        "c8-banks-2023": "U.S. Department of the Treasury, Board of Governors of the Federal Reserve System, and Federal Deposit Insurance Corporation, “Joint Statement,” March 12, 2023, on the systemic-risk exceptions and protection of depositors at Silicon Valley Bank and Signature Bank. The Federal Reserve lending facility and insurance-design options are sourced separately.",
+        "c8-bernanke": "Ben S. Bernanke, *The Courage to Act: A Memoir of a Crisis and Its Aftermath* (New York: W. W. Norton, 2015), on institutional decisions during the financial crisis and their implications for subsequent reform."
+      },
+      "newFootnotes": {
+        "c8-fed-funding": "Board of Governors of the Federal Reserve System, *Financial Stability Report*, May 2023, on bank funding stresses and the Federal Reserve's steps to support liquidity. Distinct from the March 12 joint statement.",
+        "c8-fdic-options": "Federal Deposit Insurance Corporation, *Options for Deposit Insurance Reform* (May 2023), https://www.fdic.gov/analysis/options-deposit-insurance-reforms/report/options-deposit-insurance-reform-full.pdf, evaluating reform options rather than claiming one was adopted.",
+        "c8-fsb-reforms": "Financial Stability Board, *Implementation and Effects of the G20 Financial Regulatory Reforms: 2020 Annual Report*, on the implementation and effects of post-crisis regulatory changes, including capital, resolution and cross-border measures."
+      },
+      "sources": [
+        [
+          "u-s-department-of-the-treasury-board-of-governors-of-the-federal-reserve-system-and-federal-depo",
+          "c8-banks-2023",
+          "The March 2023 joint Treasury, Federal Reserve and FDIC statement documented systemic-risk exceptions and protection of depositors at failed banks. The chapter cites this contemporary government action separately from later deposit insurance reform analysis."
+        ],
+        [
+          "federal-deposit-insurance-corporation-options-for-deposit-insurance-reform",
+          "c8-fdic-options",
+          "The FDIC's May 2023 options report analyzes possible reforms to deposit insurance after bank failures. The manuscript cites the report for alternatives being considered, not for an assertion that the proposed options had already become policy."
+        ],
+        [
+          "financial-stability-board-implementation-and-effects-of-the-g20-financial-regulatory-reforms",
+          "c8-fsb-reforms",
+          "The Financial Stability Board's 2020 review examines implementation and effects of post-crisis financial-regulatory reforms. The chapter links it to the institutional memory embedded in capital, resolution and cross-border requirements, distinct from Bernanke's personal memoir."
+        ]
+      ]
+    },
+    {
+      "path": "books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-9-industrial-scale-and-institutional-certainty.md",
+      "edits": [
+        [
+          "Before that day, local noon still differed town by town.",
+          "Before that day, local noon still differed town by town.[^c9-railway-time]"
+        ],
+        [
+          "not argument about time, but a train gone.[^c9-railway-time]",
+          "not argument about time, but a train gone.[^c9-railway-experience]"
+        ]
+      ],
+      "footnotes": {
+        "c9-railway-time": "Ian R. Bartky, “The Adoption of Standard Time,” *Technology and Culture* 30, no. 1 (1989): 25–56, on the coordination of railway schedules and the shift from local to standardized civil time."
+      },
+      "newFootnotes": {
+        "c9-railway-experience": "Wolfgang Schivelbusch, *The Railway Journey: The Industrialization of Time and Space in the Nineteenth Century* (Berkeley: University of California Press, 1986), on how railway transport changed lived experiences of time and space."
+      },
+      "sources": [
+        [
+          "bartky-ian-r-the-adoption-of-standard-time",
+          "c9-railway-time",
+          "Ian Bartky documents the history of the adoption of standardized time and the difficulties of coordinating local clocks across rail networks. The chapter cites the historical implementation of common railway time, separate from cultural accounts of what train travel felt like."
+        ],
+        [
+          "schivelbusch-wolfgang-the-railway-journey-the-industrialization-of",
+          "c9-railway-experience",
+          "Wolfgang Schivelbusch analyzes the nineteenth-century transformation of spatial and temporal experience through the railway. The chapter invokes this account for the felt effects of industrial synchronization rather than as the statistical record of time-standard adoption."
+        ]
+      ]
+    },
+    {
+      "path": "books/the-world-we-make-together/parts/part-2-where-power-gathers/chapter-6-the-ballot.md",
+      "edits": [
+        [
+          "People waited beneath the same sky while carrying histories that had never been treated as politically equal.[^c6-soweto-queue]",
+          "People waited beneath the same sky while carrying histories that had never been treated as politically equal.[^c6-soweto-queue]"
+        ],
+        [
+          "The election followed years of negotiation and political violence and marked the end of apartheid rule as the governing structure of the state.[^c6-sa-election]",
+          "The election followed years of negotiation and political violence and marked the end of apartheid rule as the governing structure of the state.[^c6-sa-election][^c6-election-history]"
+        ]
+      ],
+      "footnotes": {
+        "c6-sa-election": "Electoral Commission of South Africa, “27 Apr 1994 National Election,” official results archive, https://www.elections.org.za/content/pages/reports/npe/selection.aspx, on the first national election under the new common voters' roll.",
+        "c6-soweto-queue": "South African History Online, Denis Farrell biography and documentation of his 1994 Soweto election-queue photograph, https://www.sahistory.org.za/people/denis-farrell, on the photographer and the historical image. The photograph is not evidence of every individual's private political perspective."
+      },
+      "newFootnotes": {
+        "c6-election-history": "South African History Online, “The South African general elections: 1994,” https://www.sahistory.org.za/article/south-african-general-elections-1994, on the negotiated transition and national election context."
+      },
+      "sources": [
+        [
+          "electoral-commission-of-south-africa-27-apr-1994-national-election",
+          "c6-sa-election",
+          "South Africa's Electoral Commission preserves the official April 1994 national election results and institutional record. The World We Make Together cites the election and common voters' roll separately from the photograph of voters in Soweto."
+        ],
+        [
+          "south-african-history-online-denis-farrell",
+          "c6-soweto-queue",
+          "South African History Online documents Denis Farrell's photographic work and the iconic Soweto election queue image. The manuscript uses it to identify a specific historical photograph rather than treating imagery as comprehensive evidence of all South Africans' experience."
+        ],
+        [
+          "south-african-history-online-the-south-african-general-elections-1994",
+          "c6-election-history",
+          "South African History Online's 1994 elections history describes the political transition and the national vote ending apartheid government. The chapter cites this context separately from the official election results and the photographer's record."
+        ]
+      ]
+    }
+  ]
+}
