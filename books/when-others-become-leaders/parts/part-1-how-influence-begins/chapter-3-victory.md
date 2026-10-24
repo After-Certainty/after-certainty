@@ -384,5 +384,5 @@ Leadership appeared in what he chose not to keep there.
 [^v1]: South African History Online, “South Africa’s first democratic elections, 27 April 1994,” and Nelson Mandela Foundation chronology pages.
 [^v2]: John Carlin, *Playing the Enemy: Nelson Mandela and the Game That Made a Nation* (New York: Penguin, 2008).
 [^v3]: Nelson Mandela, *Long Walk to Freedom* (Boston: Little, Brown and Company, 1994); South African Government and Parliamentary records for 1999 transition.
-[^v4]: Nelson Mandela, statement from the dock, Rivonia Trial (20 April 1964); *Long Walk to Freedom*, chs. on Umkhonto we Sizwe.
+[^v4]: Nelson Mandela, statement from the dock at the Rivonia Trial (20 April 1964), https://www.un.org/en/events/mandeladay/court_statement_1964.shtml, on the formation of Umkhonto we Sizwe and his justification for sabotage rather than terrorism or racial war. Mandela’s later memoir, *Long Walk to Freedom*, is cited independently at [^v3].
 [^v5]: Truth and Reconciliation Commission of South Africa, *Final Report* (1998); Desmond Tutu, *No Future Without Forgiveness* (New York: Doubleday, 1999).
