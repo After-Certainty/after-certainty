@@ -37,7 +37,7 @@ jobs:
           uv run ruff check tools/reader_passage_links.py tests/test_reader_passage_phase12.py
           uv run ruff format --check tools/reader_passage_links.py tests/test_reader_passage_phase12.py
           uv run pytest tests/test_reader_passage_links.py tests/test_reader_passage_phase10.py tests/test_reader_passage_phase11.py tests/test_reader_passage_phase12.py -q
-      - name: Full HTML-validated corpus audit and Phase 12 guardrails
+      - name: Verify eight sole-work and five shared citations with rendered HTML
         run: |
           set -euo pipefail
           uv run python - <<'PY'
