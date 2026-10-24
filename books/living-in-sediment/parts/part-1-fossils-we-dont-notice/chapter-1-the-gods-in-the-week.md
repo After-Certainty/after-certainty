@@ -38,11 +38,11 @@ That compression makes civilization possible. It also makes history surprisingly
 
 Consider the keyboard beneath your hands.
 
-Most readers will have glanced at one within the last few minutes. The letters across the top row—Q, W, E, R, T, Y—look almost inevitable after years of familiarity. Yet their arrangement solved a problem that has almost entirely vanished. Early typewriters contained mechanical arms that could collide if neighboring letters were struck too quickly. Spreading commonly paired letters farther apart reduced the likelihood of jams.
+Most readers will have glanced at one within the last few minutes. The letters across the top row—Q, W, E, R, T, Y—look almost inevitable after years of familiarity. One influential account traces that arrangement to a problem that has almost entirely vanished. Early typewriters contained mechanical arms that could collide when keys were struck in quick succession. Those constraints shaped early keyboard design, but how much they explain QWERTY's eventual dominance remains debated.
 
 The machinery disappeared. The arrangement remained.
 
-Today, children learn QWERTY on devices containing no mechanical arms at all. They inherit a map designed for a landscape that no longer exists.[^c1-david-qwerty]
+Today, children learn QWERTY on devices containing no mechanical arms at all. They inherit a map shaped by a mechanical landscape that no longer exists.[^c1-david-qwerty]
 
 The same pattern appears each time someone taps a phone icon and says they are "dialing" a number. There is no dial. There are no fingers turning a circular wheel one digit at a time while springs patiently return it to its starting position. Many adults under thirty have never used such a device. Yet the word survives because the action it once described became detached from the mechanism that originally made it possible.
 
@@ -78,6 +78,6 @@ History has not disappeared. It has simply learned to sound like everyday conver
 
 [^c1-lakoff-metaphor]: See George Lakoff and Mark Johnson, *Metaphors We Live By* (Chicago: University of Chicago Press, 1980); Guy Deutscher, *The Unfolding of Language* (New York: Metropolitan Books, 2005).
 
-[^c1-david-qwerty]: See Paul A. David, "Clio and the Economics of QWERTY," *American Economic Review* 75, no. 2 (1985): 332–337; W. Brian Arthur, "Competing Technologies, Increasing Returns, and Lock-In by Historical Events," *Economic Journal* 99, no. 394 (1989): 116–131.
+[^c1-david-qwerty]: See Paul A. David, "Clio and the Economics of QWERTY," *American Economic Review* 75, no. 2 (1985): 332–337.
 
 [^c1-arthur-lock-in]: See W. Brian Arthur, *Increasing Returns and Path Dependence in the Economy* (Ann Arbor: University of Michigan Press, 1994).

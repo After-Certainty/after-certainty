@@ -263,7 +263,7 @@ Sports history often remembers protest more generously than sport receives it in
 
 Muhammad Ali’s refusal of military induction in 1967 led to a draft-evasion conviction, the loss of his heavyweight title, and years away from boxing during his athletic prime. His conviction was later overturned, and the athlete once treated by many as disloyal or dangerous eventually became one of the most celebrated figures in global sport.[^c7-ali]
 
-At the 1968 Olympics, Tommie Smith and John Carlos raised black-gloved fists during the medal ceremony after winning gold and bronze in the 200 meters. They were suspended from the U.S. team and sent home from the Olympic Village. Decades later, the photograph became one of the most honored images of athlete protest.[^c7-smith-carlos]
+At the 1968 Olympics, Tommie Smith and John Carlos raised black-gloved fists during the medal ceremony after winning gold and bronze in the 200 meters. They were suspended from the U.S. team and sent home from the Olympic Village.[^c7-smith-carlos] Decades later, the photograph became one of the most honored images of athlete protest.[^c7-smith-carlos-honor]
 
 Later admiration can look like proof that the athlete was right and the institution was wrong. Sometimes it is evidence of moral change. But historical honor performs its own compression. It can turn a disputed person into a symbol of courage while smoothing away the specific demands, affiliations, imperfect judgments, and discomfort that made the protest costly in the first place. The athlete becomes easier to celebrate once the audience no longer has to decide how to respond now.
 
@@ -350,4 +350,5 @@ The argument has moved far beyond the field.
 
 [^c7-ali]: *Clay v. United States*, 403 U.S. 698 (1971), https://www.oyez.org/cases/1970/783.
 
-[^c7-smith-carlos]: Associated Press, “AP Was There: Smith and Carlos Protest during 1968 Olympics,” https://apnews.com/television-general-news-e1bbc830d7424e0392066cf16c25be72; World Athletics, “Iconic Mexico City Olympic Podium Protest Turns 50,” October 16, 2018, https://worldathletics.org/heritage/news/mexico-city-1968-olympic-games-protest-50th-a.
+[^c7-smith-carlos]: Associated Press, “AP Was There: Smith and Carlos Protest during 1968 Olympics,” https://apnews.com/television-general-news-e1bbc830d7424e0392066cf16c25be72.
+[^c7-smith-carlos-honor]: World Athletics, “Iconic Mexico City Olympic Podium Protest Turns 50,” October 16, 2018, https://worldathletics.org/heritage/news/mexico-city-1968-olympic-games-protest-50th-a.
