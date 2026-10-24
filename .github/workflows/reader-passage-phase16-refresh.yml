@@ -44,7 +44,7 @@ jobs:
           uv run ruff format --check tests/test_reader_passage_phase16.py
           uv run pytest tests/test_reader_passage_links.py tests/test_reader_passage_phase10.py tests/test_reader_passage_phase11.py tests/test_reader_passage_phase12.py tests/test_reader_passage_phase13.py tests/test_reader_passage_phase14.py tests/test_reader_passage_phase15.py tests/test_reader_passage_phase16.py -q
 
-      - name: Full corpus renderer-backed passage audit
+      - name: Revalidate all rendered citation fragments
         run: |
           set -euo pipefail
           uv run python tools/audit_reader_passage_links.py --repo .
