@@ -157,18 +157,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b3",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "associated-press-taylor-swift-donates-to-food-banks-on-eras-tour-providing-thousands-of-meals",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-trump-weekend",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -246,19 +234,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-usda",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 3,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "blackpast-black-panther-party-s-free-breakfast-program-1969-1980",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-aggregate",
       "evidenceLevel": "B",
       "footnoteHitCount": 4,
@@ -308,18 +283,6 @@
       "readerPassagePath": null,
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "braudel-fernand-the-structures-of-everyday-life",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-oakland",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 2,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "california-african-american-museum-free-breakfast-for-school-children-program",
       "status": "strong_candidate"
     },
     {
@@ -426,18 +389,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-emergence",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "cockburn-alistair-the-heart-of-agile",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-4-population-growth-and-social-density#user-content-fnref-c4-lachish-siege",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -487,19 +438,6 @@
       "readerPassagePath": null,
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment#user-content-fnref-c11-optimization-authority",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "crawford-kate-atlas-of-ai-power-politics-and-the-planetary-costs-of-artificial",
       "status": "strong_candidate"
     },
     {
@@ -642,6 +580,71 @@
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "espn-colin-kaepernick-takes-knee-for-anthem-joined-by-teammate-eric-reid",
       "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-return",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "espn-emotional-bob-knight-ends-20-year-split-with-indiana",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-goodell",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "espn-nfl-commissioner-roger-goodell-says-nfl-was-wrong-not-to-listen-to-its-players-about-racism",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-grievance-filed",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "espn-qb-colin-kaepernick-files-grievance-for-collusion-against-nfl-owners",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-goodell",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "espn-roger-goodell-wish-we-had-listened-earlier-to-what-colin-kaepernick-was-protesting",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-firing",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "espn-transcript-of-brand-s-statement",
+      "status": "strong_candidate"
     }
   ],
   "thinkersWithDerivablePassages": [
@@ -753,6 +756,12 @@
           "readerPassagePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-attention-and-leadership",
           "sourceSlug": "cockburn-alistair-how-to-step-up-stepping-up-promoting-guest",
           "whyThisMatters": "Cockburn\u2019s \u201cguest leadership\u201d essay describes how people without formal authority can step up\u2014and step back\u2014so collaboration keeps moving when the titled leader is not the best actor for the moment. When Others Look to You starts from a related observation: leadership begins when others take their cues from you, title or not. The book extends Cockburn\u2019s collaboration practice into the moral weight of that attention\u2014influence multiplies once people keep looking."
+        },
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-emergence",
+          "sourceSlug": "cockburn-alistair-the-heart-of-agile",
+          "whyThisMatters": "In his 2015 Heart of Agile essay, Alistair Cockburn reframes elaborate agile procedures around the collaboration, delivery, reflection, and improvement activities needed to make learning visible. Coupling cites that account where it introduces Heart of Agile as a deliberate simplification after proliferating frameworks and ceremonies. The essay motivates the four-word method; the manuscript's argument about structural feedback and responsibility is its own."
         }
       ]
     },
@@ -925,6 +934,12 @@
           "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-nike",
           "sourceSlug": "associated-press-nike-unveils-kaepernick-ad-to-air-during-nfl-season-opener",
           "whyThisMatters": "The Associated Press reports Nike\u2019s September 2018 campaign built around Kaepernick as a commercial image of conviction after his protest. The Game We Think We Saw uses that translation\u2014from quarterback to protester to brand symbol\u2014to ask what a gesture still means once markets restore visibility on their own terms. The wire story records the ad\u2019s public debut; the book asks whether commercial recovery clarifies or replaces the protest\u2019s original claim."
+        },
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b3",
+          "sourceSlug": "associated-press-taylor-swift-donates-to-food-banks-on-eras-tour-providing-thousands-of-meals",
+          "whyThisMatters": "Stephanie Beasley's 2024 Chronicle of Philanthropy report distributed by the Associated Press records Taylor Swift's tour-route food-bank donations, including Food Bank of the Rockies' estimate of 75,000 meals, and the continuing unmet demand for food assistance. When Others Become Leaders uses those reported benefits alongside their limits: personal generosity can change individual experiences without resolving the structural conditions causing hunger. The article supplies the observations, not the manuscript's leadership framework."
         }
       ]
     },
@@ -1128,6 +1143,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b3",
+      "slug": "associated-press-taylor-swift-donates-to-food-banks-on-eras-tour-providing-thousands-of-meals",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/how-trust-forms/chapters/front-matter-introduction-how-trust-forms#user-content-fnref-intro-baier-vulnerability",
       "slug": "baier-annette-c-trust-and-antitrust",
       "status": "verified_link_tied_citation"
@@ -1210,6 +1230,11 @@
     {
       "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-pager-loop",
       "slug": "beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-legacy",
+      "slug": "blackpast-black-panther-party-s-free-breakfast-program-1969-1980",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1353,6 +1378,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-oakland",
+      "slug": "california-african-american-museum-free-breakfast-for-school-children-program",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-goodhart",
       "slug": "campbell-donald-t-assessing-the-impact-of-planned-social-change",
       "status": "verified_link_tied_citation"
@@ -1438,6 +1468,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-emergence",
+      "slug": "cockburn-alistair-the-heart-of-agile",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-2-success-creates-momentum#user-content-fnref-c2-cole-toyota",
       "slug": "cole-robert-e-what-really-happened-to-toyota",
       "status": "verified_link_tied_citation"
@@ -1465,6 +1500,11 @@
     {
       "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-4-the-name-that-survives-every-platform#user-content-fnref-c4-corrales-penfold",
       "slug": "corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment#user-content-fnref-c11-crawford-power",
+      "slug": "crawford-kate-atlas-of-ai-power-politics-and-the-planetary-costs-of-artificial",
       "status": "verified_link_tied_citation"
     },
     {
@@ -3097,35 +3137,35 @@
     "sources": {
       "bibliographyOnly": 58,
       "byEvidenceLevel": {
-        "A": 417,
-        "B": 220,
+        "A": 422,
+        "B": 215,
         "C": 1,
         "D": 58,
         "E": 18
       },
       "invalidPassageLinks": 0,
-      "mechanicalFootnoteCandidates": 220,
-      "missingPathWithFootnote": 220,
+      "mechanicalFootnoteCandidates": 215,
+      "missingPathWithFootnote": 215,
       "pathNeedsEditorialReview": 0,
-      "tiedCitationCoveragePct": 58.4,
+      "tiedCitationCoveragePct": 59.1,
       "total": 714,
       "unverifiedFragmentLinks": 0,
-      "validPassageLinks": 417,
-      "verifiedLinkTiedCitation": 417,
-      "whyThisMattersOk": 417,
-      "withReaderPassagePath": 417
+      "validPassageLinks": 422,
+      "verifiedLinkTiedCitation": 422,
+      "whyThisMattersOk": 422,
+      "withReaderPassagePath": 422
     },
     "thinkers": {
       "byEvidenceLevel": {
-        "A": 402,
-        "B": 189,
+        "A": 403,
+        "B": 188,
         "C": 0,
         "D": 52,
         "E": 0
       },
       "total": 643,
-      "usefulPathPct": 62.52,
-      "withDerivablePassages": 402
+      "usefulPathPct": 62.67,
+      "withDerivablePassages": 403
     }
   }
 }
