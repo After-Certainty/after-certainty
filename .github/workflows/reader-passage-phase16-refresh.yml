@@ -49,7 +49,7 @@ jobs:
           set -euo pipefail
           uv run python tools/audit_reader_passage_links.py --repo .
 
-      - name: Verify 47 paths are tied and renderer-verified
+      - name: Verify forty-seven author- and title-specific rendered citations
         run: |
           set -euo pipefail
           uv run python - <<'PY'
