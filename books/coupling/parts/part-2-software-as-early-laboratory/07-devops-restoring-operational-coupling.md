@@ -59,7 +59,7 @@ DevOps restored operational coupling in many environments. But over time, the ec
 Chapter 8 turns to Heart of Agile as a simplification move: an attempt to preserve learning, collaboration, and adaptation without letting the improvement system itself become another source of fragmentation.[^c7-bridge-hoa]
 
 [^c7-pager-loop]: Betsy Beyer, Chris Jones, Jennifer Petoff, and Niall Richard Murphy, eds., *Site Reliability Engineering: How Google Runs Production Systems* (O'Reilly Media, 2016), on incident response and postmortems linking ownership to faster correction.
-[^c7-devops-emergence]: Gene Kim, Jez Humble, Patrick Debois, and John Willis, *The DevOps Handbook*; and John Allspaw and Paul Hammond, "10+ Deploys Per Day: Dev and Ops Cooperation at Flickr" (Velocity 2009), on reducing handoff distance between build and run.
+[^c7-devops-emergence]: John Allspaw and Paul Hammond, "10+ Deploys Per Day: Dev and Ops Cooperation at Flickr" (Velocity 2009), on reducing handoff distance between build and run. For later practice synthesis, see [^c7-mechanisms].
 [^c7-you-build-it]: Amazon engineering leadership practice commonly summarized as "you build it, you run it," linking service ownership to operational responsibility.
 [^c7-mechanisms]: Gene Kim et al., *The DevOps Handbook*, on deployment automation, observability, and learning-oriented incident response.
 [^c7-aviation-safety]: NASA Aviation Safety Reporting System (ASRS) program documentation; and Sidney Dekker's safety literature on incident learning loops in high-reliability operations.

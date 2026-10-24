@@ -8,6 +8,14 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+whyThisMatters: >-
+  Allspaw and Hammond’s Velocity 2009 talk documents Flickr’s high-frequency
+  deploy practice and Dev–Ops cooperation as a concrete response to handoff
+  distance between build and run. Coupling treats that practice as evidence that
+  DevOps emerged to shorten the path from change to operational consequence.
+  The source supplies the emergence case; the book asks what structural coupling
+  that proximity restores.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-devops-emergence
 title: '10+ Deploys Per Day: Dev and Ops Cooperation at Flickr.'
 creatorNames:
 - John Allspaw and Paul Hammond
