@@ -37,7 +37,7 @@ jobs:
           uv run ruff check tools/reader_passage_links.py tests/test_reader_passage_phase12.py
           uv run ruff format --check tools/reader_passage_links.py tests/test_reader_passage_phase12.py
           uv run pytest tests/test_reader_passage_links.py tests/test_reader_passage_phase10.py tests/test_reader_passage_phase11.py tests/test_reader_passage_phase12.py -q
-      - name: Verify nine sole-work and four shared citations with rendered HTML
+      - name: Verify Phase 12 author-aware attribution and rendered fragments
         run: |
           set -euo pipefail
           uv run python - <<'PY'
