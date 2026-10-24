@@ -1,5 +1,5 @@
 slug: crawford-kate-atlas-of-ai-power-politics-and-the-planetary-costs-of-artificial
-name: 'Kate Crawford — Atlas of AI: Power, Politics, and the Planetary Costs of Artificial'
+name: 'Kate Crawford — Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence'
 type: book
 summary: 'Crawford, Kate. Atlas of AI: Power, Politics, and the Planetary Costs of
   Artificial Intelligence. New Haven, CT: Yale University Press, 2021.'
@@ -7,7 +7,10 @@ concepts: []
 patterns: []
 relatedBooks:
 - living-in-sediment
-title: 'Atlas of AI: Power, Politics, and the Planetary Costs of Artificial'
+whyThisMatters: >-
+  Kate Crawford's Atlas of AI traces the labor, resources, governance decisions, and political arrangements concealed when artificial intelligence is framed as neutral computation. Living in Sediment cites the book where organizational responsibility for algorithmic decisions disperses across engineers, managers, regulators, and infrastructures. Crawford's account supports the visibility of power relations; the manuscript's account of sediment and delegated judgment is its own.
+readerPassagePath: /explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment#user-content-fnref-c11-crawford-power
+title: 'Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence'
 creatorNames:
 - Kate Crawford
 creatorSlugs:

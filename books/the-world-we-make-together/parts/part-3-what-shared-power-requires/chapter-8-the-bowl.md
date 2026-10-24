@@ -176,7 +176,7 @@ A group described as dangerous begins feeding children whom established institut
 
 Whoever reliably meets a public need acquires moral and interpretive authority. They demonstrate that the need could have been met. They reveal the choices hidden inside neglect. They create relationships that official institutions do not control. The meal rearranges the answer to a dangerous question: who is taking responsibility for us?
 
-The federal School Breakfast Program had begun as a pilot in 1966, before the Panthers opened their first breakfast site. Congress made the federal program permanent in 1975. Historians have argued that the Panthers’ breakfast programs helped press national attention onto the limits of existing school-meal provision and toward that permanent expansion.[^c8-usda]
+The federal School Breakfast Program had begun as a pilot in 1966, before the Panthers opened their first breakfast site. Congress made the federal program permanent in 1975.[^c8-usda] Historians have argued that the Panthers’ breakfast programs helped press national attention onto the limits of existing school-meal provision and toward that permanent expansion.[^c8-bpp-legacy]
 
 The Panthers did not invent the idea that children should eat before school, and the federal government was not entirely inactive until activists forced it to notice. Yet they made the need visible through a practice that spread quickly and carried political meaning. They did not merely demand that someone feed children. They showed what feeding them required.
 
@@ -362,12 +362,14 @@ Then we decide whether to pass it on.
 
 [^c8-nanak]: See Harvard University Pluralism Project, “Langar: The Communal Meal,” https://pluralism.org/langar-the-communal-meal, tracing langar to Guru Nanak as a practice of equality and selfless service across caste, religion, gender, and social rank.
 
-[^c8-bpp-oakland]: See California African American Museum, “Free Breakfast for School Children Program,” https://caamuseum.org/, recording the Panthers’ first Oakland site at St. Augustine’s Episcopal Church on January 20, 1969, initially serving eleven children.
+[^c8-bpp-oakland]: California African American Museum, “#blackhistory: On January 20, 1969, the first Free Breakfast for School Children Program is launched by the Black Panther Party,” January 20, 2020, https://caamuseum.org/learn/600state/black-history/blackhistory-on-january-20-1969-the-first-free-breakfast-for-school-children-program-is-launched-by-the-black-panther-party-at-st-augustine-s-episcopal-church-in-oakland, on the first Oakland breakfast at St. Augustine’s Episcopal Church, feeding eleven children.
 
 [^c8-bpp-smithsonian]: See National Museum of African American History and Culture, Black Panther Party community survival programs, https://nmaahc.si.edu/, on programs often locally led by women and breakfast programs feeding approximately 20,000 children each day.
 
 [^c8-cointelpro]: See Church Committee, *Final Report of the Select Committee to Study Governmental Operations with Respect to Intelligence Activities* (Washington, DC: Government Printing Office, 1976), on COINTELPRO targeting of the Black Panther Party, including efforts to disrupt breakfast programs.
 
-[^c8-usda]: On the federal pilot and permanence, see U.S. Department of Agriculture, Food and Nutrition Service, “School Breakfast Program FAQs,” https://www.fns.usda.gov/sbp/faqs (pilot project in 1966; made permanent in 1975). On the Panthers’ program as pressure and precedent for expansion, see “Black Panther Party’s Free Breakfast Program (1969–1980),” BlackPast, https://blackpast.org/african-american-history/black-panther-partys-free-breakfast-program-1969-1980/.
+[^c8-usda]: U.S. Department of Agriculture, Food and Nutrition Service, “School Breakfast Program FAQs,” https://www.fns.usda.gov/sbp/faqs, on the 1966 pilot and permanent authorization in 1975.
+
+[^c8-bpp-legacy]: BlackPast, “Black Panther Party’s Free Breakfast Program (1969–1980),” https://blackpast.org/african-american-history/black-panther-partys-free-breakfast-program-1969-1980/, on the Party’s locally organized breakfast program and its place in accounts of federal breakfast expansion. The manuscript treats influence on national policy as a historical interpretation, not a proven single cause.
 
 [^c8-tronto]: See Joan C. Tronto, *Moral Boundaries: A Political Argument for an Ethic of Care* (New York: Routledge, 1993), on care as beginning from interdependence—that human beings both give and receive care throughout social and political life.

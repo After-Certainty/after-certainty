@@ -9,24 +9,24 @@ bibliography-only and keyword overlap never count as verified passages.
 ### Sources
 
 - Total sources scanned: **714**
-- With `readerPassagePath`: **417**
-- Structurally valid + fragment-checked paths: **417**
-- Verified link + mechanically tied citation (level A): **417**
-- Mechanical footnote candidates (level B / strong_candidate): **220**
+- With `readerPassagePath`: **422**
+- Structurally valid + fragment-checked paths: **422**
+- Verified link + mechanically tied citation (level A): **422**
+- Mechanical footnote candidates (level B / strong_candidate): **215**
 - Path present but needs editorial review: **0**
 - Fragment check skipped (unverified): **0**
 - Invalid passage links: **0**
-- Missing path but footnote-cited: **220**
+- Missing path but footnote-cited: **215**
 - Bibliography only (level D): **58**
-- Tied-citation (level A) coverage: **58.4%**
-- `whyThisMatters` present/substantive: **417**
+- Tied-citation (level A) coverage: **59.1%**
+- `whyThisMatters` present/substantive: **422**
 
 Level A means a public path whose fragment is the matched citation invocation — a *mechanical* condition, not editorial approval of philosophical relevance. All newly proposed connections still need editorial review before YAML enrichment.
 
 Evidence levels:
 
-- A: 417
-- B: 220
+- A: 422
+- B: 215
 - C: 1
 - D: 58
 - E: 18
@@ -34,13 +34,13 @@ Evidence levels:
 ### Thinkers
 
 - Total thinkers scanned: **643**
-- With derivable work passage links: **402**
-- Useful derived path coverage: **62.52%**
+- With derivable work passage links: **403**
+- Useful derived path coverage: **62.67%**
 
 Evidence levels:
 
-- A: 402
-- B: 189
+- A: 403
+- B: 188
 - C: 0
 - D: 52
 - E: 0
@@ -63,19 +63,16 @@ _None._
 - **B** `associated-press-kaepernick-eric-reid-settle-collusion-grievances-with-nfl` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-grievance-settled`
 - **B** `associated-press-kaepernick-files-grievance-against-nfl-alleging-collusion` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-grievance-filed`
 - **B** `associated-press-return-of-the-hoosier-knight-back-at-indiana-after-20-years` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-return`
-- **B** `associated-press-taylor-swift-donates-to-food-banks-on-eras-tour-providing-thousands-of-meals` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b3`
 - **B** `associated-press-trump-says-nfl-should-fire-players-who-kneel-during-anthem` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-trump-weekend`
 - **B** `bartky-ian-r-the-adoption-of-standard-time` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-9-industrial-scale-and-institutional-certainty#user-content-fnref-c9-railway-time`
 - **B** `basketball-reference-bill-russell` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-russell-career`
 - **B** `beard-mary-spqr-a-history-of-ancient-rome` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/living-in-sediment/chapters/back-matter-epilogue-two-months-off#user-content-fnref-epi-future-layers`
 - **B** `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-bridge#user-content-fnref-p2b-method-history`
 - **B** `berwick-donald-m-era-3-for-medicine-and-health-care` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-15-architectural-cohesion#user-content-fnref-c15-clinical`
-- **B** `blackpast-black-panther-party-s-free-breakfast-program-1969-1980` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-usda`
 - **B** `board-of-governors-of-the-federal-reserve-system-financial-stability-report` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-aggregate`
 - **B** `boehm-christopher-hierarchy-in-the-forest-the-evolution-of` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-early-moral-anthropology`
 - **B** `boss-pauline-ambiguous-loss-learning-to-live-with-unresolved-grief` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-2-the-cost-of-explanation#user-content-fnref-c2-analysis-paralysis`
 - **B** `braudel-fernand-the-structures-of-everyday-life` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/living-in-sediment/chapters/front-matter-prologue-september-is-not-seven#user-content-fnref-pro-ordinary-history`
-- **B** `california-african-american-museum-free-breakfast-for-school-children-program` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-oakland`
 - **B** `center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-open` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-fec`
 - **B** `centers-for-disease-control-and-prevention-symptoms-of-concussion` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-concussion-symptoms`
 - **B** `ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-authority-is-misread/chapters/parts-part-3-looking-twice-chapter-10-the-conversation-that-is-no-longer-a-conversation#user-content-fnref-c10-ceplair`
@@ -84,12 +81,10 @@ _None._
 - **B** `cnn-indiana-university-keeps-coach-knight-with-sanctions` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-firing`
 - **B** `cnn-politics-trump-nfl-owners-should-fire-players-who-protest-the-national-anthem` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-trump-weekend`
 - **B** `cockburn-alistair-agile-software-development` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-bridge#user-content-fnref-p2b-method-history`
-- **B** `cockburn-alistair-the-heart-of-agile` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-emergence`
 - **B** `cogan-mordechai-the-raging-torrent-historical-inscriptions-from` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-4-population-growth-and-social-density#user-content-fnref-c4-lachish-siege`
 - **B** `cohn-jonathan-the-ten-year-war-obamacare-and-the-unmaking-of-american-establishment` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-aca`
 - **B** `columbia-accident-investigation-board-report-of-the-columbia-accident-investigation-board` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/what-we-cannot-see/chapters/parts-part-3-integration-learning-together-chapter-11-when-failure-teaches-the-system#user-content-fnref-c11-shuttle`
 - **B** `congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-aca`
-- **B** `crawford-kate-atlas-of-ai-power-politics-and-the-planetary-costs-of-artificial` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment#user-content-fnref-c11-optimization-authority`
 - **B** `de-la-merced-michael-j-pepsico-tells-activist-investor-its-answer-is-still-no` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-peltz`
 - **B** `deutsch-morton-the-resolution-of-conflict` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-lazarus-deutsch-pace-conflict`
 - **B** `deutscher-guy-the-unfolding-of-language-an-evolutionary-tour-of-mankind-s` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-lakoff-metaphor`
@@ -101,7 +96,12 @@ _None._
 - **B** `electoral-commission-of-south-africa-27-apr-1994-national-election` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-sa-election`
 - **B** `ellis-joseph-j-his-excellency-george-washington` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-ellis`
 - **B** `espn-colin-kaepernick-takes-knee-for-anthem-joined-by-teammate-eric-reid` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-kneel`
-- … and 171 more (see JSON).
+- **B** `espn-emotional-bob-knight-ends-20-year-split-with-indiana` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-return`
+- **B** `espn-nfl-commissioner-roger-goodell-says-nfl-was-wrong-not-to-listen-to-its-players-about-racism` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-goodell`
+- **B** `espn-qb-colin-kaepernick-files-grievance-for-collusion-against-nfl-owners` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-grievance-filed`
+- **B** `espn-roger-goodell-wish-we-had-listened-earlier-to-what-colin-kaepernick-was-protesting` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-goodell`
+- **B** `espn-transcript-of-brand-s-statement` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-firing`
+- … and 166 more (see JSON).
 
 ## Verified link + mechanically tied citation examples (level A)
 
@@ -136,7 +136,7 @@ _None._
 - `aldon-d-morris`: `morris-aldon-d-the-origins-of-the-civil-rights-movement-black-communities-organizing-for-change` → `/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-3`
 - `alexander-weisler`: `wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing` → `/explore/books/trust-beyond-similarity/chapters/parts-part-2-the-shock-of-the-partial-chapter-4-different-summaries#user-content-fnref-c4-airbnb-neighborhoods`
 - `alice-h-eagly`: `eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth` → `/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-eagly`
-- `alistair-cockburn`: `cockburn-alistair-hexagonal-architecture-ports-and-adapters` → `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression#user-content-fnref-c10-bridge-hex`, `cockburn-alistair-how-to-step-up-stepping-up-promoting-guest` → `/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-attention-and-leadership`
+- `alistair-cockburn`: `cockburn-alistair-hexagonal-architecture-ports-and-adapters` → `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression#user-content-fnref-c10-bridge-hex`, `cockburn-alistair-how-to-step-up-stepping-up-promoting-guest` → `/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-attention-and-leadership`, `cockburn-alistair-the-heart-of-agile` → `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-emergence`
 - `american-college-of-emergency-physicians`: `american-college-of-emergency-physicians-boarding` → `/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding`
 - `amy-c-edmondson`: `edmondson-amy-c-psychological-safety-and-learning-behavior-in-work` → `/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-silence-and-accountability`, `edmondson-amy-c-the-fearless-organization-creating-psychological-safety-in-the-workplace-for-lea` → `/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-amy-c-edmondson`
 - `andrew-s-grove`: `grove-andrew-s-high-output-management` → `/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-andrew-s-grove`
@@ -150,7 +150,7 @@ _None._
 - `arie-w-kruglanski`: `kruglanski-arie-w-and-donna-m-webster-motivated-closing-of-the-mind-seizing-and-freezing` → `/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-3-the-cost-of-leaving-it-open#user-content-fnref-c3-kruglanski-need-closure`
 - `arlie-russell-hochschild`: `hochschild-arlie-russell-the-managed-heart-commercialization-of-human-feeling` → `/explore/books/why-collaboration-is-so-hard/chapters/parts-chapter-3-the-person-who-keeps-the-spreadsheet#user-content-fnref-c3-hochschild`
 - `ashwin-desai`: `desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire` → `/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-8`
-- `associated-press`: `associated-press-ap-was-there-smith-and-carlos-protest-during-1968-olympics` → `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-smith-carlos`, `associated-press-bob-knight-s-chair-college-basketball-s-classic-furniture` → `/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair-incident`, `associated-press-nike-unveils-kaepernick-ad-to-air-during-nfl-season-opener` → `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-nike`
+- `associated-press`: `associated-press-ap-was-there-smith-and-carlos-protest-during-1968-olympics` → `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-smith-carlos`, `associated-press-bob-knight-s-chair-college-basketball-s-classic-furniture` → `/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair-incident`, `associated-press-nike-unveils-kaepernick-ad-to-air-during-nfl-season-opener` → `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-nike`, `associated-press-taylor-swift-donates-to-food-banks-on-eras-tour-providing-thousands-of-meals` → `/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b3`
 - `atul-gawande`: `gawande-atul-the-checklist-manifesto-how-to-get-things-right` → `/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-4-constraint-as-discipline#user-content-fnref-c4-source-atul-gawande-the`
 - `b-r-nanda`: `nanda-b-r-mahatma-gandhi-a-biography` → `/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-3`
 - `barbara-ransby`: `ransby-barbara-ella-baker-and-the-black-freedom-movement-a-radical-democratic-vision` → `/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-10-the-window#user-content-fnref-c10-autonomy`

@@ -451,12 +451,12 @@
     "source:associated-press-taylor-swift-donates-to-food-banks-on-eras-tour-providing-thousands-of-meals:/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b3": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b3",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 14 editorial application: Corrected the mislabeled 2023 Associated Press citation to Stephanie Beasley's distributed 2024 philanthropy report, including the Denver 75,000-meal attribution. Real-renderer and source citation audit required.",
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet",
       "slug": "associated-press-taylor-swift-donates-to-food-banks-on-eras-tour-providing-thousands-of-meals",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:00:00Z"
     },
     "source:associated-press-trump-says-nfl-should-fire-players-who-kneel-during-anthem:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-trump-weekend": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-trump-weekend",
@@ -688,15 +688,26 @@
       "status": "applied",
       "updatedAt": "2026-10-17T22:12:48Z"
     },
+    "source:blackpast-black-panther-party-s-free-breakfast-program-1969-1980:/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-legacy": {
+      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-legacy",
+      "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl",
+      "entityKind": "source",
+      "slug": "blackpast-black-panther-party-s-free-breakfast-program-1969-1980",
+      "evidenceLevel": "A",
+      "status": "applied",
+      "note": "Phase 14 editorial application: Separated the BlackPast historical interpretation of Panther breakfast-program influence from the USDA program chronology. Real-renderer and source citation audit required.",
+      "updatedAt": "2026-10-24T23:00:00Z"
+    },
     "source:blackpast-black-panther-party-s-free-breakfast-program-1969-1980:/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-smithsonian": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-smithsonian",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=weak",
+      "note": "Phase 14: old shared or inaccurate source candidate superseded by independently cited /explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-legacy.",
       "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl",
       "slug": "blackpast-black-panther-party-s-free-breakfast-program-1969-1980",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:00:00Z",
+      "supersededBy": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-legacy"
     },
     "source:blackwell-richard-j-galileo-bellarmine-and-the-bible:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-blackwell": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-blackwell",
@@ -1075,12 +1086,12 @@
     "source:california-african-american-museum-free-breakfast-for-school-children-program:/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-oakland": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-bpp-oakland",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 14 editorial application: The museum's account of the January 1969 Oakland opening and eleven children is already a sole-work note. Real-renderer and source citation audit required.",
       "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl",
       "slug": "california-african-american-museum-free-breakfast-for-school-children-program",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:00:00Z"
     },
     "source:campbell-donald-t-assessing-the-impact-of-planned-social-change:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-goodhart": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-goodhart",
@@ -1335,12 +1346,12 @@
     "source:cockburn-alistair-the-heart-of-agile:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-emergence": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-emergence",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=multi:see_also",
+      "evidenceLevel": "A",
+      "note": "Phase 14 editorial application: Corrected the work identity to Cockburn's 2015 Heart of Agile begins page and narrowed the note from a separate 2016 technical report. Real-renderer and source citation audit required.",
       "routeKey": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials",
       "slug": "cockburn-alistair-the-heart-of-agile",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:00:00Z"
     },
     "source:cogan-mordechai-the-raging-torrent-historical-inscriptions-from:/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-4-population-growth-and-social-density#user-content-fnref-c4-lachish-siege": {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-4-population-growth-and-social-density#user-content-fnref-c4-lachish-siege",
@@ -1442,15 +1453,26 @@
       "status": "applied",
       "updatedAt": "2026-10-17T22:57:10Z"
     },
+    "source:crawford-kate-atlas-of-ai-power-politics-and-the-planetary-costs-of-artificial:/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment#user-content-fnref-c11-crawford-power": {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment#user-content-fnref-c11-crawford-power",
+      "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment",
+      "entityKind": "source",
+      "slug": "crawford-kate-atlas-of-ai-power-politics-and-the-planetary-costs-of-artificial",
+      "evidenceLevel": "A",
+      "status": "applied",
+      "note": "Phase 14 editorial application: Added a distinct citation for Crawford's AI political/material power argument, separating it from Meadows' systems text. Real-renderer and source citation audit required.",
+      "updatedAt": "2026-10-24T23:00:00Z"
+    },
     "source:crawford-kate-atlas-of-ai-power-politics-and-the-planetary-costs-of-artificial:/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment#user-content-fnref-c11-optimization-authority": {
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment#user-content-fnref-c11-optimization-authority",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 14: old shared or inaccurate source candidate superseded by independently cited /explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment#user-content-fnref-c11-crawford-power.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment",
       "slug": "crawford-kate-atlas-of-ai-power-politics-and-the-planetary-costs-of-artificial",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:00:00Z",
+      "supersededBy": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment#user-content-fnref-c11-crawford-power"
     },
     "source:d-rner-dietrich-the-logic-of-failure-recognizing-and-avoiding-error:/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-dietrich-d-rner": {
       "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-dietrich-d-rner",
