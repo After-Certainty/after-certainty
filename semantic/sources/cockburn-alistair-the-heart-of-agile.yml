@@ -1,17 +1,20 @@
 slug: cockburn-alistair-the-heart-of-agile
-name: Alistair Cockburn — The Heart of Agile.
+name: Alistair Cockburn — The Heart of Agile begins
 type: article
-summary: Cockburn, Alistair. "The Heart of Agile." https://heartofagile.com/.
+summary: 'Cockburn, Alistair. "The Heart of Agile begins." Heart of Agile, 2015. https://heartofagile.com/the-heart-of-agile-begins/.'
 concepts:
 - agile
 - feedback
 patterns: []
 relatedBooks:
 - coupling
-title: The Heart of Agile.
+whyThisMatters: >-
+  In his 2015 Heart of Agile essay, Alistair Cockburn reframes elaborate agile procedures around the collaboration, delivery, reflection, and improvement activities needed to make learning visible. Coupling cites that account where it introduces Heart of Agile as a deliberate simplification after proliferating frameworks and ceremonies. The essay motivates the four-word method; the manuscript's argument about structural feedback and responsibility is its own.
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-emergence
+title: The Heart of Agile begins
 creatorNames:
 - Alistair Cockburn
 creatorSlugs:
 - alistair-cockburn
-citation: Cockburn, Alistair. "The Heart of Agile." https://heartofagile.com/.
+citation: 'Cockburn, Alistair. "The Heart of Agile begins." Heart of Agile, 2015. https://heartofagile.com/the-heart-of-agile-begins/.'
 sourceKind: article
