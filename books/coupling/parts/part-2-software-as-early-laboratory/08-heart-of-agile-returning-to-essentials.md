@@ -52,7 +52,7 @@ Heart of Agile recenters the learning loop. Chapter 9 asks how organizations mea
 
 DORA became important because it attempted to measure whether changes in delivery practice actually improved reliability, recovery, deployment quality, and consequence-return speed in practice.[^c8-bridge-dora] The question shifts from "Does the process feel lighter?" to "Is the system actually learning faster from reality?"
 
-[^c8-emergence]: Alistair Cockburn, "The Heart of Agile begins" (2015), Heart of Agile, https://heartofagile.com/the-heart-of-agile-begins/; see also Alistair Cockburn, *The Heart of Agile Technical Report* (2016), https://alistair.cockburn.us/wp-content/uploads/2018/02/The-Heart-of-Agile-Technical-Report.pdf.
+[^c8-emergence]: Alistair Cockburn, “The Heart of Agile begins” (2015), Heart of Agile, https://heartofagile.com/the-heart-of-agile-begins/, on simplifying accumulated agile practices to restore visible collaboration, delivery, reflection, and improvement.
 [^c8-four-verbs]: Alistair Cockburn, "Let's Begin," Heart of Agile, outlining Collaborate, Deliver, Reflect, Improve, https://heartofagile.com/lets-begin/.
 [^c8-team-cohesion]: Helena Barke and Lutz Prechelt, "Role Clarity Deficiencies Can Wreck Agile Teams," *PeerJ Computer Science* 5 (2019): e241, https://doi.org/10.7717/peerj-cs.241.
 [^c8-misuse]: Karina Dikert, Maria Paasivaara, and Casper Lassenius, "Challenges and Success Factors for Large-Scale Agile Transformations: A Systematic Literature Review," *Journal of Systems and Software* 119 (2016): 87-108.
