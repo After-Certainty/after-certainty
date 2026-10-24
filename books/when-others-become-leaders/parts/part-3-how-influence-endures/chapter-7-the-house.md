@@ -275,5 +275,5 @@ One evening there is another knock. This time, she opens the door.
 
 ## Notes
 
-[^h1]: Jane Addams, *Twenty Years at Hull-House* (New York: Macmillan, 1910); Hull-House Museum historical timeline.
+[^h1]: Jane Addams, *Twenty Years at Hull-House* (New York: Macmillan, 1910), on founding the settlement with Ellen Gates Starr in 1889.
 [^h2]: Residents of Hull-House, *Hull-House Maps and Papers* (New York: Thomas Y. Crowell, 1895).
