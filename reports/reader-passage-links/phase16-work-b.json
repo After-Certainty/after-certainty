@@ -74,8 +74,8 @@
       "path": "books/when-authority-is-misread/parts/part-2-leaders-becoming-legible/chapter-8-nelson-mandela-the-unsent-letter.md",
       "edits": [
         [
-          "Negotiations proceeded beside funerals.",
-          "Negotiations proceeded beside funerals. Patti Waldmeir's account of the transition describes how uncertainty and violence shadowed the prospect of a constitutional settlement.[^c8-waldmeir]"
+          "Negotiations proceeded\nbeside funerals.",
+          "Negotiations proceeded\nbeside funerals. Patti Waldmeir's account of the transition describes how uncertainty and violence shadowed the prospect of a constitutional settlement.[^c8-waldmeir]"
         ]
       ],
       "footnotes": {
@@ -107,8 +107,8 @@
       "path": "books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-1-life-under-constraint.md",
       "edits": [
         [
-          "Ritual, taboo, and authority functioned as social technologies for reducing uncertainty when material and existential risk was high.[^c1-early-moral-anthropology]",
-          "Ritual, taboo, and authority functioned as social technologies for reducing uncertainty when material and existential risk was high.[^c1-early-moral-anthropology] Christopher Boehm's comparative account of hierarchy also describes how members of small-scale groups can collectively constrain domination.[^c1-hierarchy]"
+          "Ritual,\ntaboo, and authority functioned as social technologies for reducing\nuncertainty when material and existential risk was high.[^c1-early-moral-anthropology]",
+          "Ritual,\ntaboo, and authority functioned as social technologies for reducing\nuncertainty when material and existential risk was high.[^c1-early-moral-anthropology] Christopher Boehm's comparative account of hierarchy also describes how members of small-scale groups can collectively constrain domination.[^c1-hierarchy]"
         ],
         [
           "daily by many hands.[^c1-catalhoyuk]",
