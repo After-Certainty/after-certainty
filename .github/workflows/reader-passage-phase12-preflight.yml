@@ -1,0 +1,74 @@
+# Temporary branch-scoped editorial preflight; remove before merging.
+name: Reader passage Phase 12 preflight (temporary)
+on:
+  push:
+    branches:
+      - feat/reader-passage-phase12-editorial-review
+    paths:
+      - .github/workflows/reader-passage-phase12-preflight.yml
+permissions:
+  contents: read
+jobs:
+  extract:
+    if: github.repository == 'After-Certainty/after-certainty'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: "22.23.4"
+          cache: npm
+      - uses: jdx/mise-action@9b200bcecbfd6303e69a4a261b2e09e3757440a7 # v5.2.0
+        with:
+          install_args: "python uv"
+      - name: Install pinned dependencies
+        run: |
+          set -euo pipefail
+          uv sync --frozen
+          npm ci --no-audit --no-fund --ignore-scripts
+      - name: Capture all source links with editorial warnings
+        run: |
+          set -euo pipefail
+          uv run python - <<'PY'
+          import json
+          from dataclasses import asdict
+          from pathlib import Path
+          from tools.reader_passage_links import run_audit
+          report = run_audit(Path('.').resolve(), check_fragments=True)
+          flagged = [
+              {"slug": s.slug, "status": s.status, "evidenceLevel": s.evidence_level,
+               "path": s.reader_passage_path, "notes": s.notes,
+               "footnoteHits": [
+                   {"book": h.edition_slug, "routeKey": h.route_key,
+                    "footnote": h.footnote_id, "score": h.score,
+                    "sharedWith": h.shared_with, "ambiguous": h.ambiguous,
+                    "citation": h.definition_text if hasattr(h, "definition_text") else None}
+                   for h in s.footnote_hits
+               ]}
+              for s in report.sources
+              if s.reader_passage_path and s.status in
+              {"path_valid_shared_or_ambiguous_citation","path_valid_needs_editorial_review"}
+          ]
+          print("Flagged source paths:", len(flagged))
+          assert len(flagged) == 13, "Baseline changed; inspect before modifying"
+          out=Path("reports/reader-passage-links/phase12-preflight.json")
+          out.write_text(json.dumps(flagged, indent=2, sort_keys=True)+"\n")
+          PY
+      - name: Commit diagnostic snapshot for editorial review
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git add -- reports/reader-passage-links/phase12-preflight.json
+          git diff --cached --check
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(sources): snapshot Phase 12 attribution review targets"
+          auth="$(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w0)"
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth" \
+            push origin HEAD:refs/heads/feat/reader-passage-phase12-editorial-review
