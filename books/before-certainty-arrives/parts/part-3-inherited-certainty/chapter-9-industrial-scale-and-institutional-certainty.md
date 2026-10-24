@@ -12,10 +12,10 @@ empire, trade, and modernization
 On November 18, 1883, railroads across the United States and Canada
 adopted a system of standard time zones so that departure boards, telegraph
 schedules, and freight contracts could refer to the same hour across
-hundreds of miles of track. Before that day, local noon still differed town by town. A traveler who
+hundreds of miles of track. Before that day, local noon still differed town by town.[^c9-railway-time] A traveler who
 missed a connection because one town's clock ran ahead of another had
 learned what abstraction felt like in the body: not argument about time,
-but a train gone.[^c9-railway-time]
+but a train gone.[^c9-railway-experience]
 
 The factory bell did not ask whether the shift was fair. It marked time
 in uniform intervals so thousands of workers could coordinate without
@@ -150,5 +150,7 @@ A century after the railroads synchronized the clock, the same logic
 had spread into offices, schools, armies, and markets: conduct held by
 schedule and file rather than by presence or sacred awe.
 
-[^c9-railway-time]: See Ian R. Bartky, "The Adoption of Standard Time," *Technology and Culture* 30, no. 1 (1989): 25–56; Wolfgang Schivelbusch, *The Railway Journey: The Industrialization of Time and Space in the Nineteenth Century* (Berkeley: University of California Press, 1986).
+[^c9-railway-time]: Ian R. Bartky, “The Adoption of Standard Time,” *Technology and Culture* 30, no. 1 (1989): 25–56, on the coordination of railway schedules and the shift from local to standardized civil time.
 [^c9-factory-time]: See Hew Strachan, *The First World War* (New York: Viking, 2004); Karl Polanyi, *The Great Transformation* (Boston: Beacon Press, 2001).
+
+[^c9-railway-experience]: Wolfgang Schivelbusch, *The Railway Journey: The Industrialization of Time and Space in the Nineteenth Century* (Berkeley: University of California Press, 1986), on how railway transport changed lived experiences of time and space.
