@@ -84,10 +84,12 @@
     "source:albertz-rainer-israel-in-exile-the-history-and-literature-of-the:/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-babylonian-exile": {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-babylonian-exile",
       "entityKind": "source",
-      "evidenceLevel": "B",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation",
       "slug": "albertz-rainer-israel-in-exile-the-history-and-literature-of-the",
-      "status": "proposed"
+      "status": "applied",
+      "note": "Phase 15 editorial coverage: manuscript footnote c5-babylonian-exile ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language:/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns": {
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns",
@@ -541,12 +543,12 @@
     "source:basketball-reference-bill-russell:/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-russell-career": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-russell-career",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 15 editorial coverage: manuscript footnote c1-russell-career ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out",
       "slug": "basketball-reference-bill-russell",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:bauman-zygmunt-modernity-and-the-holocaust:/explore/books/when-accountability-no-longer-expires/chapters/parts-part-2-harm-after-accountability-chapter-4-the-distribution-of-suffering#user-content-fnref-c4-bauman-distance": {
       "candidatePath": "/explore/books/when-accountability-no-longer-expires/chapters/parts-part-2-harm-after-accountability-chapter-4-the-distribution-of-suffering#user-content-fnref-c4-bauman-distance",
@@ -1817,12 +1819,12 @@
     "source:eisenstadt-shmuel-n-ed-the-origins-and-diversity-of-axial-age:/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-axial-debate": {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-axial-debate",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 15 editorial coverage: manuscript footnote c5-axial-debate ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
       "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation",
       "slug": "eisenstadt-shmuel-n-ed-the-origins-and-diversity-of-axial-age",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:eisenstein-elizabeth-l-the-printing-press-as-an-agent-of-change:/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-8-renaissance-exploration-and-fracture#user-content-fnref-c8-printing-press": {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-8-renaissance-exploration-and-fracture#user-content-fnref-c8-printing-press",
@@ -1964,15 +1966,26 @@
       "status": "deferred",
       "updatedAt": "2026-10-18T00:21:13Z"
     },
+    "source:european-financial-reporting-advisory-group-efrag-european-sustainability-reporting-standards-es:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-esrs": {
+      "entityKind": "source",
+      "slug": "european-financial-reporting-advisory-group-efrag-european-sustainability-reporting-standards-es",
+      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-esrs",
+      "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall",
+      "evidenceLevel": "A",
+      "status": "applied",
+      "note": "Phase 15 editorial coverage: manuscript footnote c4-esrs ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
+      "updatedAt": "2026-10-24T22:00:00Z"
+    },
     "source:european-financial-reporting-advisory-group-efrag-european-sustainability-reporting-standards-es:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-issb": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-issb",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 15: previous ambiguous co-citation superseded by reviewed claim-specific anchor /explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-esrs; see editorial-batch-phase-15.md.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall",
       "slug": "european-financial-reporting-advisory-group-efrag-european-sustainability-reporting-standards-es",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T22:00:00Z",
+      "supersededBy": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-esrs"
     },
     "source:evans-eric-domain-driven-design-tackling-complexity-in-the-heart-of-software:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-11-hexagonal-architecture-boundary-discipline-at-scale#user-content-fnref-c11-why-now": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-11-hexagonal-architecture-boundary-discipline-at-scale#user-content-fnref-c11-why-now",
@@ -2905,15 +2918,26 @@
       "status": "applied",
       "updatedAt": "2026-10-17T23:40:35Z"
     },
+    "source:integrity-council-for-the-voluntary-carbon-market-core-carbon-principles:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-credit-integrity": {
+      "entityKind": "source",
+      "slug": "integrity-council-for-the-voluntary-carbon-market-core-carbon-principles",
+      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-credit-integrity",
+      "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall",
+      "evidenceLevel": "A",
+      "status": "applied",
+      "note": "Phase 15 editorial coverage: manuscript footnote c4-credit-integrity ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
+      "updatedAt": "2026-10-24T22:00:00Z"
+    },
     "source:integrity-council-for-the-voluntary-carbon-market-core-carbon-principles:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-vcmi": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-vcmi",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 15: previous ambiguous co-citation superseded by reviewed claim-specific anchor /explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-credit-integrity; see editorial-batch-phase-15.md.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall",
       "slug": "integrity-council-for-the-voluntary-carbon-market-core-carbon-principles",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T22:00:00Z",
+      "supersededBy": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-credit-integrity"
     },
     "source:international-football-association-board-video-assistant-referee-var-protocol:/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-3-the-authority-of-the-whistle#user-content-fnref-c3-ifab-slowmo": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-3-the-authority-of-the-whistle#user-content-fnref-c3-ifab-slowmo",
@@ -2968,12 +2992,12 @@
     "source:international-sustainability-standards-board-issb-ifrs-s1-general-requirements-for-disclosure-of:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-issb": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-issb",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 15 editorial coverage: manuscript footnote c4-issb ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall",
       "slug": "international-sustainability-standards-board-issb-ifrs-s1-general-requirements-for-disclosure-of",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:ioannidis-john-p-a-why-most-published-research-findings-are-false:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-3-the-paper-that-must-count#user-content-fnref-c3-ioannidis": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-3-the-paper-that-must-count#user-content-fnref-c3-ioannidis",
@@ -3015,15 +3039,26 @@
       "status": "deferred",
       "updatedAt": "2026-10-18T00:21:13Z"
     },
+    "source:jahn-k-hakes-and-raymond-d-sauer-an-economic-evaluation-of-the-moneyball-hypothesis:/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-hakes-evaluation": {
+      "entityKind": "source",
+      "slug": "jahn-k-hakes-and-raymond-d-sauer-an-economic-evaluation-of-the-moneyball-hypothesis",
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-hakes-evaluation",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out",
+      "evidenceLevel": "A",
+      "status": "applied",
+      "note": "Phase 15 editorial coverage: manuscript footnote c1-hakes-evaluation ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
+      "updatedAt": "2026-10-24T22:00:00Z"
+    },
     "source:jahn-k-hakes-and-raymond-d-sauer-an-economic-evaluation-of-the-moneyball-hypothesis:/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-lewis-moneyball": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-lewis-moneyball",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 15: previous ambiguous co-citation superseded by reviewed claim-specific anchor /explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-hakes-evaluation; see editorial-batch-phase-15.md.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out",
       "slug": "jahn-k-hakes-and-raymond-d-sauer-an-economic-evaluation-of-the-moneyball-hypothesis",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T22:00:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-hakes-evaluation"
     },
     "source:jameton-andrew-nursing-practice-the-ethical-issues:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-4-what-judgment-still-knows-chapter-11-the-institution-that-cannot-hear-itself#user-content-fnref-c11-jameton": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-4-what-judgment-still-knows-chapter-11-the-institution-that-cannot-hear-itself#user-content-fnref-c11-jameton",
@@ -3049,11 +3084,22 @@
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-axial-debate",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 15: previous ambiguous co-citation superseded by reviewed claim-specific anchor /explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-jaspers-origin; see editorial-batch-phase-15.md.",
       "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation",
       "slug": "jaspers-karl-the-origin-and-goal-of-history",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T22:00:00Z",
+      "supersededBy": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-jaspers-origin"
+    },
+    "source:jaspers-karl-the-origin-and-goal-of-history:/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-jaspers-origin": {
+      "entityKind": "source",
+      "slug": "jaspers-karl-the-origin-and-goal-of-history",
+      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-jaspers-origin",
+      "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation",
+      "evidenceLevel": "A",
+      "status": "applied",
+      "note": "Phase 15 editorial coverage: manuscript footnote c5-jaspers-origin ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:jensen-michael-c-and-william-h-meckling-theory-of-the-firm-managerial-behavior-agency-costs-and:/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-agents": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-agents",
@@ -3489,11 +3535,22 @@
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-babylonian-exile",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 15: previous ambiguous co-citation superseded by reviewed claim-specific anchor /explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-sinai-zion; see editorial-batch-phase-15.md.",
       "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation",
       "slug": "levenson-jon-d-sinai-and-zion-an-entry-into-the-jewish-bible",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T22:00:00Z",
+      "supersededBy": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-sinai-zion"
+    },
+    "source:levenson-jon-d-sinai-and-zion-an-entry-into-the-jewish-bible:/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-sinai-zion": {
+      "entityKind": "source",
+      "slug": "levenson-jon-d-sinai-and-zion-an-entry-into-the-jewish-bible",
+      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-sinai-zion",
+      "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation",
+      "evidenceLevel": "A",
+      "status": "applied",
+      "note": "Phase 15 editorial coverage: manuscript footnote c5-sinai-zion ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:leveson-nancy-g-and-clark-s-turner-an-investigation-of-the-therac-25-accidents:/explore/books/what-we-cannot-see/chapters/parts-part-3-integration-learning-together-chapter-12-institutions-that-remember-and-forget#user-content-fnref-c12-cases": {
       "candidatePath": "/explore/books/what-we-cannot-see/chapters/parts-part-3-integration-learning-together-chapter-12-institutions-that-remember-and-forget#user-content-fnref-c12-cases",
@@ -3558,12 +3615,12 @@
     "source:lewis-mark-edward-sanctioned-violence-in-early-china:/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-warring-states": {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-warring-states",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 15 editorial coverage: manuscript footnote c5-warring-states ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
       "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation",
       "slug": "lewis-mark-edward-sanctioned-violence-in-early-china",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:library-of-congress-bayard-rustin-papers-march-on-washington-planning-materials:/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-5": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-5",
@@ -4070,12 +4127,12 @@
     "source:michael-lewis-moneyball-the-art-of-winning-an-unfair-game:/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-lewis-moneyball": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-lewis-moneyball",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 15 editorial coverage: manuscript footnote c1-lewis-moneyball ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out",
       "slug": "michael-lewis-moneyball-the-art-of-winning-an-unfair-game",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:michael-marot-oft-injured-colts-qb-andrew-luck-29-announces-retirement:/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-luck": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-luck",
@@ -4440,12 +4497,12 @@
     "source:nba-com-legends-profile-bill-russell:/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-blocks-official": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-blocks-official",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 15 editorial coverage: manuscript footnote c1-blocks-official ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out",
       "slug": "nba-com-legends-profile-bill-russell",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:nba-com-nba-sends-teams-the-results-found-in-load-management-study:/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-nba-load-study": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-nba-load-study",
@@ -4471,31 +4528,64 @@
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-brady-belichick-era",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 15: previous ambiguous co-citation superseded by reviewed claim-specific anchor /explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-brady-debate; see editorial-batch-phase-15.md.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation",
       "slug": "nbc-sports-boston-who-gets-most-of-the-credit-brady-or-belichick",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T22:00:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-brady-debate"
+    },
+    "source:nbc-sports-boston-who-gets-most-of-the-credit-brady-or-belichick:/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-brady-debate": {
+      "entityKind": "source",
+      "slug": "nbc-sports-boston-who-gets-most-of-the-credit-brady-or-belichick",
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-brady-debate",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation",
+      "evidenceLevel": "A",
+      "status": "applied",
+      "note": "Phase 15 editorial coverage: manuscript footnote c2-brady-debate ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:nfl-com-brady-to-have-season-ending-knee-surgery:/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-2008-cassel": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-2008-cassel",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 15: previous ambiguous co-citation superseded by reviewed claim-specific anchor /explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-brady-injury; see editorial-batch-phase-15.md.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation",
       "slug": "nfl-com-brady-to-have-season-ending-knee-surgery",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T22:00:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-brady-injury"
+    },
+    "source:nfl-com-brady-to-have-season-ending-knee-surgery:/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-brady-injury": {
+      "entityKind": "source",
+      "slug": "nfl-com-brady-to-have-season-ending-knee-surgery",
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-brady-injury",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation",
+      "evidenceLevel": "A",
+      "status": "applied",
+      "note": "Phase 15 editorial coverage: manuscript footnote c2-brady-injury ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:nfl-com-buccaneers-qb-tom-brady-extends-record-with-fifth-super-bowl-mvp:/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-sb-lv": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-sb-lv",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 15: previous ambiguous co-citation superseded by reviewed claim-specific anchor /explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-sb-mvp; see editorial-batch-phase-15.md.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation",
       "slug": "nfl-com-buccaneers-qb-tom-brady-extends-record-with-fifth-super-bowl-mvp",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T22:00:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-sb-mvp"
+    },
+    "source:nfl-com-buccaneers-qb-tom-brady-extends-record-with-fifth-super-bowl-mvp:/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-sb-mvp": {
+      "entityKind": "source",
+      "slug": "nfl-com-buccaneers-qb-tom-brady-extends-record-with-fifth-super-bowl-mvp",
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-sb-mvp",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation",
+      "evidenceLevel": "A",
+      "status": "applied",
+      "note": "Phase 15 editorial coverage: manuscript footnote c2-sb-mvp ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:nfl-com-nfl-anthem-policy-on-hold-under-standstill-agreement:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-policy": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-policy",
@@ -5082,42 +5172,53 @@
     "source:pro-football-reference-2008-new-england-patriots:/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-2008-cassel": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-2008-cassel",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 15 editorial coverage: manuscript footnote c2-2008-cassel ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation",
       "slug": "pro-football-reference-2008-new-england-patriots",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:pro-football-reference-new-england-patriots-franchise-encyclopedia:/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-brady-belichick-era": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-brady-belichick-era",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 15 editorial coverage: manuscript footnote c2-brady-belichick-era ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation",
       "slug": "pro-football-reference-new-england-patriots-franchise-encyclopedia",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:pro-football-reference-super-bowl-lv-box-score:/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-sb-lv": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation#user-content-fnref-c2-sb-lv",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 15 editorial coverage: manuscript footnote c2-sb-lv ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-2-when-the-star-becomes-the-explanation",
       "slug": "pro-football-reference-super-bowl-lv-box-score",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T22:00:00Z"
+    },
+    "source:puett-michael-j-to-become-a-god-cosmology-sacrifice-and:/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-warring-ritual": {
+      "entityKind": "source",
+      "slug": "puett-michael-j-to-become-a-god-cosmology-sacrifice-and",
+      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-warring-ritual",
+      "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation",
+      "evidenceLevel": "A",
+      "status": "applied",
+      "note": "Phase 15 editorial coverage: manuscript footnote c5-warring-ritual ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:puett-michael-j-to-become-a-god-cosmology-sacrifice-and:/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-warring-states": {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-warring-states",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 15: previous ambiguous co-citation superseded by reviewed claim-specific anchor /explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-warring-ritual; see editorial-batch-phase-15.md.",
       "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation",
       "slug": "puett-michael-j-to-become-a-god-cosmology-sacrifice-and",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T22:00:00Z",
+      "supersededBy": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-warring-ritual"
     },
     "source:putnam-hilary-reason-truth-and-history:/explore/books/after-certainty/chapters/back-matter-conclusion-enough#user-content-fnref-conclusion-epistemic-closure": {
       "candidatePath": "/explore/books/after-certainty/chapters/back-matter-conclusion-enough#user-content-fnref-conclusion-epistemic-closure",
@@ -5363,11 +5464,22 @@
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-ashoka-edicts",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 15: previous ambiguous co-citation superseded by reviewed claim-specific anchor /explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-ashoka-epigraphy; see editorial-batch-phase-15.md.",
       "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer",
       "slug": "salomon-richard-indian-epigraphy-a-guide-to-the-study-of-inscriptions",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T22:00:00Z",
+      "supersededBy": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-ashoka-epigraphy"
+    },
+    "source:salomon-richard-indian-epigraphy-a-guide-to-the-study-of-inscriptions:/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-ashoka-epigraphy": {
+      "entityKind": "source",
+      "slug": "salomon-richard-indian-epigraphy-a-guide-to-the-study-of-inscriptions",
+      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-ashoka-epigraphy",
+      "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer",
+      "evidenceLevel": "A",
+      "status": "applied",
+      "note": "Phase 15 editorial coverage: manuscript footnote c6-ashoka-epigraphy ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:sampson-anthony-mandela-the-authorized-biography:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter#user-content-fnref-c8-sampson": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter#user-content-fnref-c8-sampson",
@@ -5473,11 +5585,22 @@
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-paris",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=multi:multi_italic:2",
+      "note": "Phase 15: previous ambiguous co-citation superseded by reviewed claim-specific anchor /explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-science-targets; see editorial-batch-phase-15.md.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall",
       "slug": "science-based-targets-initiative-corporate-net-zero-standard",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T22:00:00Z",
+      "supersededBy": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-science-targets"
+    },
+    "source:science-based-targets-initiative-corporate-net-zero-standard:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-science-targets": {
+      "entityKind": "source",
+      "slug": "science-based-targets-initiative-corporate-net-zero-standard",
+      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-science-targets",
+      "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall",
+      "evidenceLevel": "A",
+      "status": "applied",
+      "note": "Phase 15 editorial coverage: manuscript footnote c4-science-targets ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:scott-james-c-domination-and-the-arts-of-resistance-hidden-transcripts:/explore/books/when-others-look-to-you-v1/chapters/parts-part-4-scale-pressure-misjudgment-chapter-9-scale-and-drift#user-content-fnref-c9-hidden-transcripts": {
       "candidatePath": "/explore/books/when-others-look-to-you-v1/chapters/parts-part-4-scale-pressure-misjudgment-chapter-9-scale-and-drift#user-content-fnref-c9-hidden-transcripts",
@@ -5942,12 +6065,12 @@
     "source:thapar-romila-asoka-and-the-decline-of-the-mauryas:/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-ashoka-edicts": {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-ashoka-edicts",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 15 editorial coverage: manuscript footnote c6-ashoka-edicts ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
       "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer",
       "slug": "thapar-romila-asoka-and-the-decline-of-the-mauryas",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:the-church-of-jesus-christ-of-latter-day-saints-pearl-of-great-price:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-1-where-interpretation-ends-chapter-1-the-door-that-opens-only-inward#user-content-fnref-c1-jsh": {
       "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-1-where-interpretation-ends-chapter-1-the-door-that-opens-only-inward#user-content-fnref-c1-jsh",
@@ -6012,12 +6135,12 @@
     "source:tov-emanuel-textual-criticism-of-the-hebrew-bible:/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-qumran-canon": {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-qumran-canon",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 15 editorial coverage: manuscript footnote c6-qumran-canon ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
       "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer",
       "slug": "tov-emanuel-textual-criticism-of-the-hebrew-bible",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of-care:/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-tronto": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-tronto",
@@ -6122,12 +6245,12 @@
     "source:u-s-environmental-protection-agency-notice-of-violation-volkswagen-clean-diesel-vehicles:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-vw": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-vw",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=force_defer_multi",
+      "evidenceLevel": "A",
+      "note": "Phase 15 editorial coverage: manuscript footnote c4-vw ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall",
       "slug": "u-s-environmental-protection-agency-notice-of-violation-volkswagen-clean-diesel-vehicles",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:u-s-government-accountability-office-year-2000-computing-challenge-lessons-learned-can-be-applie:/explore/books/the-world-we-make-together/chapters/parts-part-1-who-makes-history-chapter-3-the-clock#user-content-fnref-c3-gao-outcome": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-1-who-makes-history-chapter-3-the-clock#user-content-fnref-c3-gao-outcome",
@@ -6203,11 +6326,22 @@
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-qumran-canon",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 15: previous ambiguous co-citation superseded by reviewed claim-specific anchor /explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-qumran-composition; see editorial-batch-phase-15.md.",
       "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer",
       "slug": "ulrich-eugene-the-dead-sea-scrolls-and-the-developmental-composition",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T22:00:00Z",
+      "supersededBy": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-qumran-composition"
+    },
+    "source:ulrich-eugene-the-dead-sea-scrolls-and-the-developmental-composition:/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-qumran-composition": {
+      "entityKind": "source",
+      "slug": "ulrich-eugene-the-dead-sea-scrolls-and-the-developmental-composition",
+      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-qumran-composition",
+      "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer",
+      "evidenceLevel": "A",
+      "status": "applied",
+      "note": "Phase 15 editorial coverage: manuscript footnote c6-qumran-composition ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:ung-loung-first-they-killed-my-father-a-daughter-of-cambodia-remembers:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-9-what-judgment-can-still-do#user-content-fnref-c9-ung-memoir": {
       "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-9-what-judgment-can-still-do#user-content-fnref-c9-ung-memoir",
@@ -6273,11 +6407,22 @@
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-qumran-canon",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 15: previous ambiguous co-citation superseded by reviewed claim-specific anchor /explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-qumran-scrolls; see editorial-batch-phase-15.md.",
       "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer",
       "slug": "vanderkam-james-c-the-dead-sea-scrolls-today",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T22:00:00Z",
+      "supersededBy": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-qumran-scrolls"
+    },
+    "source:vanderkam-james-c-the-dead-sea-scrolls-today:/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-qumran-scrolls": {
+      "entityKind": "source",
+      "slug": "vanderkam-james-c-the-dead-sea-scrolls-today",
+      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer#user-content-fnref-c6-qumran-scrolls",
+      "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-6-writing-as-moral-stabilizer",
+      "evidenceLevel": "A",
+      "status": "applied",
+      "note": "Phase 15 editorial coverage: manuscript footnote c6-qumran-scrolls ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:vaughan-diane-the-challenger-launch-decision-risky-technology-culture-and-deviance-at-nasa:/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-1-when-knowing-is-no-longer-enough#user-content-fnref-c1-source-diane-vaughan-the": {
       "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-1-when-knowing-is-no-longer-enough#user-content-fnref-c1-source-diane-vaughan-the",
@@ -6312,12 +6457,12 @@
     "source:voluntary-carbon-markets-integrity-initiative-claims-code-of-practice:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-vcmi": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-vcmi",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 15 editorial coverage: manuscript footnote c4-vcmi ties this work to a discrete historical, statistical, or governance claim. The interpretation remains the manuscript's; renderer-backed verification is required.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall",
       "slug": "voluntary-carbon-markets-integrity-initiative-claims-code-of-practice",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T22:00:00Z"
     },
     "source:wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing:/explore/books/trust-beyond-similarity/chapters/parts-part-2-the-shock-of-the-partial-chapter-4-different-summaries#user-content-fnref-c4-airbnb-neighborhoods": {
       "candidatePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-2-the-shock-of-the-partial-chapter-4-different-summaries#user-content-fnref-c4-airbnb-neighborhoods",
