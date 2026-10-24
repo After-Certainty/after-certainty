@@ -21,6 +21,10 @@ DIRECTLY_CITED = (
         "c8-cointelpro",
     ),
     (
+        "hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less",
+        "c14-public-sector",
+    ),
+    (
         "desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire",
         "s2-8",
     ),
@@ -38,7 +42,7 @@ def _source(slug: str) -> dict:
     return yaml.safe_load((ROOT / "semantic/sources" / f"{slug}.yml").read_text(encoding="utf-8"))
 
 
-def test_eight_directly_cited_sources_retain_their_original_reader_paths() -> None:
+def test_nine_directly_cited_sources_retain_their_original_reader_paths() -> None:
     for slug, footnote_id in DIRECTLY_CITED:
         src = _source(slug)
         assert src["readerPassagePath"].endswith("#user-content-fnref-" + footnote_id)
