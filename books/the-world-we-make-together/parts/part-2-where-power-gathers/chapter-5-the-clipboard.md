@@ -184,7 +184,7 @@ Participation can coexist with unequal power.
 
 A worker may have a voice over quality without a voice over whether the factory closes. A team may control the local process while corporate leaders control investment, ownership, and strategy. A person may experience dignity within the work and insecurity around the job.
 
-NUMMI itself eventually closed in 2010 after General Motors withdrew from the joint venture and Toyota decided to end production there. The employees’ skill and participation did not give them ownership of the decisions that determined the plant’s survival.[^c5-nummi-close]
+NUMMI itself eventually closed in 2010 after General Motors withdrew from the joint venture and Toyota decided to end production there.[^c5-nummi-close] Workers said their final goodbyes as the plant shut down.[^c5-nummi-workers] The employees’ skill and participation did not give them ownership of the decisions that determined the plant’s survival.
 
 This does not erase what the system accomplished.
 
@@ -486,7 +486,9 @@ And the next mark is made on a ballot.
 
 [^c5-nummi-research]: See Adler, “The ‘Learning Bureaucracy,’” emphasizing routines, training, trust, leadership, teamwork, and worker participation in identifying problems and improving processes.
 
-[^c5-nummi-close]: See Nick Bunkley, “G.M. and Toyota’s Joint Venture Ends in California,” *New York Times* Wheels blog, April 2, 2010, https://archive.nytimes.com/wheels.blogs.nytimes.com/2010/04/02/g-m-and-toyotas-joint-venture-ends-in-california/; and Tom Abate, “Nummi workers say their final good-byes,” *San Francisco Chronicle*, April 2, 2010, https://www.sfgate.com/bayarea/article/Nummi-workers-say-their-final-good-byes-3194045.php.
+[^c5-nummi-close]: Nick Bunkley, “G.M. and Toyota’s Joint Venture Ends in California,” *New York Times* Wheels blog, April 2, 2010, https://archive.nytimes.com/wheels.blogs.nytimes.com/2010/04/02/g-m-and-toyotas-joint-venture-ends-in-california/.
+
+[^c5-nummi-workers]: Tom Abate, “Nummi workers say their final good-byes,” *San Francisco Chronicle*, April 2, 2010, https://www.sfgate.com/bayarea/article/Nummi-workers-say-their-final-good-byes-3194045.php.
 
 [^c5-porto-alegre-begin]: See World Bank, *Brazil: Toward a More Inclusive and Effective Participatory Budget in Porto Alegre*, Report No. 40144-BR, vol. 1 (Washington, DC: World Bank, January 29, 2008), https://documents.worldbank.org/en/publication/documents-reports/documentdetail/778301468019774995, on the program’s beginning in 1989 during Brazil’s democratic transition.
 
