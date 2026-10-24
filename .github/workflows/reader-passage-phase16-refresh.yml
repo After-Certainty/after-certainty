@@ -36,7 +36,7 @@ jobs:
           uv sync --frozen
           npm ci --no-audit --no-fund --ignore-scripts
 
-      - name: Ruff and Phase 10 through 16 regression suites
+      - name: Ruff plus updated Phase 10 through 16 regressions
         run: |
           set -euo pipefail
           uv run ruff format tests/test_reader_passage_phase16.py
