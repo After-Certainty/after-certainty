@@ -324,11 +324,6 @@ Struggle Is My Life* and extensively discussed in Sampson,
 *Mandela*.
 
 [^c8-sparks]: Allister Sparks, *Tomorrow Is Another Country: The Inside Story of South Africa’s Road to Change* (New York: Hill and Wang, 1995), on the negotiations, political threats and fragility of the early-1990s transition.
-Inside Story of South Africa’s Road to Change* (New York: Hill and
-Wang, 1995); Patti Waldmeir, *Anatomy of a Miracle: The End of
-Apartheid and the Birth of the New South Africa* (New York: W. W.
-Norton, 1997). Both emphasize how close the early 1990s remained
-to large-scale civil conflict.
 
 [^c8-springbok]: On Mandela’s appearance at the 1995 Rugby World
 Cup final and the politics of national symbolism, see Sampson,
@@ -340,11 +335,6 @@ victim testimony, and findings concerning state and
 liberation-movement violations.
 
 [^c8-mamdani]: Mahmood Mamdani, “Amnesty or Impunity? A Preliminary Critique of the Report of the Truth and Reconciliation Commission of South Africa (TRC),” *Diacritics* 32, no. 3/4 (2002): 33–59, criticizing a focus on individual offenses that can obscure structural injustices.
-Preliminary Critique of the Report of the Truth and Reconciliation
-Commission of South Africa (TRC),” *Diacritics* 32, no. 3/4
-(2002): 33–59; see also Mamdani’s broader arguments on the limits
-of criminalizing political violence without addressing structural
-injustice.
 
 [^c8-surplus]: On Mandela’s refusal to convert personal suffering
 into political entitlement, and on a presidency often evaluated
