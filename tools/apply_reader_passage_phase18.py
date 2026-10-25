@@ -9,6 +9,7 @@ and the Phase 18 ledger supplies human-reviewed source-specific interpretations.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 from dataclasses import asdict
@@ -48,6 +49,8 @@ def main() -> None:
     previously_linked: list[str] = []
 
     preflight = run_audit(repo, check_fragments=False, thinker_slugs=set())
+    source_audits = {source.slug: source for source in preflight.sources}
+    newly_separated: list[str] = []
     eligible = {
         src.slug
         for src in preflight.sources
@@ -137,6 +140,63 @@ def main() -> None:
         if "readerPassagePath:" in source_yaml or "whyThisMatters:" in source_yaml:
             raise RuntimeError(f"Already annotated field for {slug}")
 
+        # An omnibus footnote proves a shared citation exists, but does not supply a
+        # unique source-to-invocation link. Add an independently attributed citation
+        # to the same sentence without changing its claim or erasing the original
+        # note's historical discussion. Original context remains readable.
+        hit = next(
+            (
+                h
+                for h in source_audits[slug].footnote_hits
+                if h.footnote_id == footnote and h.route_key == candidate["route_key"]
+            ),
+            None,
+        )
+        if hit is None:
+            raise RuntimeError(f"Cannot locate the original source hit for {slug}")
+        if hit.shared_with or hit.ambiguous:
+            new_id = (
+                "p18-"
+                + re.sub(r"[^a-z0-9]+", "-", str(profile.get("title", slug)).lower())
+                .strip("-")[:27]
+                .rstrip("-")
+                + "-"
+                + hashlib.sha1(slug.encode()).hexdigest()[:7]
+            )
+            new_marker = f"[^{new_id}]"
+            manuscript_path = repo / candidate["manuscript_path"]
+            if new_marker in manuscript:
+                raise RuntimeError(f"Duplicate new citation marker for {slug}")
+            # Search only footnote references, not their definitions.
+            use_match = re.search(r"\\[\\^" + re.escape(footnote) + r"\\](?!:)", manuscript)
+            if use_match is None:
+                raise RuntimeError(f"No body citation to distinguish for {slug}")
+            citation = re.sub(r"\\s+", " ", str(profile.get("citation") or "").strip())
+            if len(citation) < 18:
+                raise RuntimeError(f"No standalone bibliographic citation for {slug}")
+            manuscript = (
+                manuscript[: use_match.end()]
+                + new_marker
+                + manuscript[use_match.end() :]
+                + f"\\n\\n[{chr(94)}{new_id}]: {citation}\\n"
+            )
+            manuscript_path.write_text(manuscript)
+            original_path = path
+            path = path.split("#", 1)[0] + "#user-content-fnref-" + new_id
+            newly_separated.append(slug)
+            ledger["entries"][record_key] = {
+                "candidatePath": original_path,
+                "entityKind": "source",
+                "evidenceLevel": "B",
+                "routeKey": candidate["route_key"],
+                "slug": slug,
+                "status": "skipped",
+                "note": "Phase 18: superseded by a source-specific citation on the same sentence",
+                "supersededBy": path,
+                "updatedAt": datetime.now(UTC).isoformat(),
+            }
+            record_key = f"source:{slug}:{path}"
+
         # JSON string quoting is valid YAML and preserves every existing field and line.
         appended = (
             source_yaml.rstrip("\n")
@@ -172,7 +232,7 @@ def main() -> None:
         f"Applied **{len(applied)}** reviewed source-to-note decisions. Deferred **{len(deferred)}** unsupported attributions.",
         "A reader-passage link confirms an actual citation invocation, not that every philosophical",
         "interpretation of the source is proven. Shared references remain shared only when the",
-        "footnote genuinely names the work; they are not artificially split to inflate coverage.",
+        "footnote genuinely names the work. Source-specific notes added to an existing sentence preserve its claim.",
         "",
         "## Approved source-specific links",
         "",
@@ -181,7 +241,7 @@ def main() -> None:
     ]
     for slug, path, why in sorted(applied):
         report.append(f"| `{slug}` | `{path}` | {why.replace('|', '/')} |")
-    report.extend(["", "## Intentionally deferred (unsupported linkage)", ""])
+    report.extend(["", f"**Source-specific footnote anchors added:** {len(newly_separated)}.", "", "## Intentionally deferred (unsupported linkage)", ""])
     for slug, why in sorted(deferred):
         report.append(f"- **`{slug}`** — {why}")
     report.extend(
@@ -198,7 +258,7 @@ def main() -> None:
     (report_dir / "editorial-batch-phase-18.md").write_text("\n".join(report))
     print(
         f"Phase 18: applied={len(applied)}, deferred={len(deferred)}, "
-        f"previously-linked candidates={len(previously_linked)}"
+        f"separated_anchors={len(newly_separated)}, previously-linked candidates={len(previously_linked)}"
     )
 
 
