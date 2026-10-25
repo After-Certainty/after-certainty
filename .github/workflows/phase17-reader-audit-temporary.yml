@@ -1,6 +1,7 @@
 # Temporary branch-only validation and report regeneration for Phase 17.
 # Re-run after updating legacy assertions for split Andrew Luck citations.
 # Regression-guard the URL-slug disambiguation in article footnotes.
+# Final rerun after reconciling the measured unlinked-source backlog.
 # Remove this workflow before submitting the final pull request.
 name: Phase 17 full reader citation audit (temporary)
 
