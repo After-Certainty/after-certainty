@@ -14,8 +14,8 @@ Manuscript bibliographies are the source of truth for which works (and thus crea
 
 - Books with bibliography audited: **25**
 - Matched pairs: **871**
-- Missing in semantic (no work found): **37**
-- Exists but missing `relatedBooks` link: **1**
+- Missing in semantic (no work found): **38**
+- Exists but missing `relatedBooks` link: **0**
 - Stale `relatedBooks` links: **0**
 
 | Book | Style | Biblio | Linked | Matched | Missing | Missing RB | Stale |
@@ -42,7 +42,7 @@ Manuscript bibliographies are the source of truth for which works (and thus crea
 | `when-others-become-leaders` | list | 53 | 53 | 53 | 0 | 0 | 0 |
 | `when-others-look-to-you-v1` | list | 26 | 26 | 26 | 0 | 0 | 0 |
 | `when-others-look-to-you-v2` | list | 17 | 17 | 17 | 0 | 0 | 0 |
-| `when-the-key-changes-hands` | list | 64 | 26 | 26 | 37 | 1 | 0 |
+| `when-the-key-changes-hands` | list | 64 | 26 | 26 | 38 | 0 | 0 |
 | `when-trust-stops-tracking-reality` | list | 23 | 23 | 23 | 0 | 0 | 0 |
 | `why-collaboration-is-so-hard` | pandoc_div | 15 | 15 | 15 | 0 | 0 | 0 |
 
@@ -1965,7 +1965,7 @@ _None._
 - `weber-max-economy-and-society-an-outline-of-interpretive-sociology` ← biblio `weber-max-economy-and-society` (title_author, score=85)
 - `zimbardo-philip-the-lucifer-effect-understanding-how-good-people` ← biblio `zimbardo-philip-the-lucifer-effect` (title_author, score=85)
 
-### Missing in semantic (37)
+### Missing in semantic (38)
 
 - Julia Annas — *Intelligent Virtue* (`annas-julia-intelligent-virtue`)
 - G. E. M Anscombe — *Modern Moral Philosophy* (`anscombe-g-e-m-modern-moral-philosophy`)
@@ -1991,6 +1991,7 @@ _None._
 - William James — *Habit* (`james-william-habit`)
 - Karen Jones — *Trust as an Affective Attitude* (`jones-karen-trust-as-an-affective-attitude`)
 - Immanuel Kant — *Groundwork of the Metaphysics of Morals* (`kant-immanuel-groundwork-of-the-metaphysics-of-morals`)
+- Madison, James. Federalist No. 51. In *The Federalist Papers*, edited by — *(no title)* (`madison-james-federalist-no-51-in-the-federalist-papers-edited-by`)
 - Robert K Merton — *The Unanticipated Consequences of Purposive Social* (`merton-robert-k-the-unanticipated-consequences-of-purposive-social`)
 - Walter Mischel — *Personality and Assessment* (`mischel-walter-personality-and-assessment`)
 - Thomas Nagel — *Moral Luck* (`nagel-thomas-moral-luck`)
@@ -2005,9 +2006,9 @@ _None._
 - Susan Wolf — *Moral Saints* (`wolf-susan-moral-saints`)
 - Wendy Wood — *Good Habits, Bad Habits* (`wood-wendy-good-habits-bad-habits`)
 
-### Exists but missing relatedBooks (1)
+### Exists but missing relatedBooks (0)
 
-- `acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power` matches biblio `madison-james-federalist-no-51-in-the-federalist-papers-edited-by` (summary_overlap; current books: living-in-sediment)
+_None._
 
 ### Stale relatedBooks (0)
 

@@ -9861,6 +9861,12 @@
           "summary": "Kant, Immanuel. Groundwork of the Metaphysics of Morals."
         },
         {
+          "biblioSlug": "madison-james-federalist-no-51-in-the-federalist-papers-edited-by",
+          "biblioTitle": "",
+          "biblioAuthor": "Madison, James. Federalist No. 51. In *The Federalist Papers*, edited by",
+          "summary": "Madison, James. Federalist No. 51. In The Federalist Papers, edited by Clinton Rossiter. New York: Mentor, 1961."
+        },
+        {
           "biblioSlug": "merton-robert-k-the-unanticipated-consequences-of-purposive-social",
           "biblioTitle": "The Unanticipated Consequences of Purposive Social",
           "biblioAuthor": "Robert K Merton",
@@ -9939,20 +9945,7 @@
           "summary": "Wood, Wendy. Good Habits, Bad Habits. New York: Farrar, Straus and Giroux, 2019."
         }
       ],
-      "missing_related_books": [
-        {
-          "biblioSlug": "madison-james-federalist-no-51-in-the-federalist-papers-edited-by",
-          "sourceSlug": "acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power",
-          "score": 58,
-          "method": "summary_overlap",
-          "biblioTitle": "",
-          "biblioAuthor": "Madison, James. Federalist No. 51. In *The Federalist Papers*, edited by",
-          "sourceName": "Daron Acemoglu and James A. Robinson — Why Nations Fail: The Origins of Power, Prosperity, and Poverty",
-          "sourceRelatedBooks": [
-            "living-in-sediment"
-          ]
-        }
-      ],
+      "missing_related_books": [],
       "stale_related_books": [],
       "thinker_stale": [],
       "creator_missing_thinker": [
@@ -10597,8 +10590,8 @@
   ],
   "totals": {
     "matched": 871,
-    "missingInSemantic": 37,
-    "missingRelatedBooks": 1,
+    "missingInSemantic": 38,
+    "missingRelatedBooks": 0,
     "staleRelatedBooks": 0
   }
 }

@@ -259,15 +259,13 @@ def score_expected_vs_source(expected: dict[str, Any], src: dict[str, Any]) -> t
                 else split_display_name(str(src.get("name", "")))[0]
             )
             stop = {"and", "the", "for", "from", "with", "edited", "editor"}
-            author_match = (
-                _author_tokens(exp_author) - stop
-            ) & (_author_tokens(creator_text) - stop)
+            author_match = (_author_tokens(exp_author) - stop) & (
+                _author_tokens(creator_text) - stop
+            )
             # For a title-less entry, also require the named publishing body
             # or creator to begin the recorded bibliography author field.
             # Token overlap alone can still match a common given name.
-            source_head = normalize_match_text(
-                split_display_name(str(src.get("name", "")))[0]
-            )
+            source_head = normalize_match_text(split_display_name(str(src.get("name", "")))[0])
             if (
                 len(author_match) >= 2
                 and len(source_head) >= 8

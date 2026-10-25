@@ -11,7 +11,7 @@ supports every assertion made in a chapter.
 - Invalid reader paths: **0**; unverified fragments: **0**
 - Unlinked source records: **80**
 - Fresh metadata issues: **0 critical, 160 warnings, 229 informational**
-- Bibliography drift across **25** audited books: **37 missing sources, 1 missing book links, 0 stale book links**
+- Bibliography drift across **25** audited books: **38 missing sources, 0 missing book links, 0 stale book links**
 
 ## Unlinked sources by evidence
 
@@ -28,7 +28,7 @@ Only high-confidence matches to *existing* source records are safe to add
 automatically. Remaining references need publication and creator metadata
 review, and a weak title-less match must not become a false source link.
 
-### when-the-key-changes-hands — 37 absent sources; 1 unmatched book relations
+### when-the-key-changes-hands — 38 absent sources; 0 unmatched book relations
 
 - **Needs source record:** `annas-julia-intelligent-virtue` — Intelligent Virtue
 - **Needs source record:** `anscombe-g-e-m-modern-moral-philosophy` — Modern Moral Philosophy
@@ -54,6 +54,7 @@ review, and a weak title-less match must not become a false source link.
 - **Needs source record:** `james-william-habit` — Habit
 - **Needs source record:** `jones-karen-trust-as-an-affective-attitude` — Trust as an Affective Attitude
 - **Needs source record:** `kant-immanuel-groundwork-of-the-metaphysics-of-morals` — Groundwork of the Metaphysics of Morals
+- **Needs source record:** `madison-james-federalist-no-51-in-the-federalist-papers-edited-by` — Madison, James. Federalist No. 51. In *The Federalist Papers*, edited by
 - **Needs source record:** `merton-robert-k-the-unanticipated-consequences-of-purposive-social` — The Unanticipated Consequences of Purposive Social
 - **Needs source record:** `mischel-walter-personality-and-assessment` — Personality and Assessment
 - **Needs source record:** `nagel-thomas-moral-luck` — Moral Luck
@@ -67,7 +68,6 @@ review, and a weak title-less match must not become a false source link.
 - **Needs source record:** `williams-bernard-moral-luck` — Moral Luck
 - **Needs source record:** `wolf-susan-moral-saints` — Moral Saints
 - **Needs source record:** `wood-wendy-good-habits-bad-habits` — Good Habits, Bad Habits
-- **Review weak link:** `madison-james-federalist-no-51-in-the-federalist-papers-edited-by` → `acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power` (score 58, summary_overlap)
 
 ## Metadata warning classes
 
