@@ -168,17 +168,17 @@ def main() -> None:
             if new_marker in manuscript:
                 raise RuntimeError(f"Duplicate new citation marker for {slug}")
             # Search only footnote references, not their definitions.
-            use_match = re.search(r"\\[\\^" + re.escape(footnote) + r"\\](?!:)", manuscript)
+            use_match = re.search(r"\[\^" + re.escape(footnote) + r"\](?!:)", manuscript)
             if use_match is None:
                 raise RuntimeError(f"No body citation to distinguish for {slug}")
-            citation = re.sub(r"\\s+", " ", str(profile.get("citation") or "").strip())
+            citation = re.sub(r"\s+", " ", str(profile.get("citation") or "").strip())
             if len(citation) < 18:
                 raise RuntimeError(f"No standalone bibliographic citation for {slug}")
             manuscript = (
                 manuscript[: use_match.end()]
                 + new_marker
                 + manuscript[use_match.end() :]
-                + f"\\n\\n[{chr(94)}{new_id}]: {citation}\\n"
+                + f"\n\n[^{new_id}]: {citation}\n"
             )
             manuscript_path.write_text(manuscript)
             original_path = path
