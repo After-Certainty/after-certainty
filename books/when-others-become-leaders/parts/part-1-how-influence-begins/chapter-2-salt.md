@@ -280,7 +280,7 @@ A person may possess no legal authority and still exert pressure that others can
 
 Gandhi’s fasts make this visible.
 
-In 1932, while imprisoned, he began a fast unto death in opposition to a British proposal granting separate electorates to the communities then officially described as the “Depressed Classes.” B. R. Ambedkar and other Dalit leaders had supported separate electorates as a means of securing independent political representation rather than leaving Dalit candidates dependent upon the votes and approval of caste Hindus. Under the pressure created by Gandhi’s fast, negotiations produced the Poona Pact, which replaced separate electorates with reserved seats elected through joint electorates. Ambedkar later remained deeply dissatisfied with the loss of the separate vote he regarded as a crucial political safeguard.[^s2-7]
+In 1932, while imprisoned, he began a fast unto death in opposition to a British proposal granting separate electorates to the communities then officially described as the “Depressed Classes.” B. R. Ambedkar and other Dalit leaders had supported separate electorates as a means of securing independent political representation rather than leaving Dalit candidates dependent upon the votes and approval of caste Hindus. Under the pressure created by Gandhi’s fast, negotiations produced the Poona Pact, which replaced separate electorates with reserved seats elected through joint electorates.[^s2-rao-caste-politics] Ambedkar later remained deeply dissatisfied with the loss of the separate vote he regarded as a crucial political safeguard.[^s2-7]
 
 Gandhi experienced the fast as self-sacrifice.
 
@@ -514,7 +514,9 @@ The hand opened.
 [^s2-4]: Dennis Dalton, *Mahatma Gandhi: Nonviolent Power in Action* (New York: Columbia University Press, 1993), chapter on the salt campaign.
 [^s2-5]: Geraldine Forbes, *Women in Modern India* (Cambridge: Cambridge University Press, 1996), sections on women in civil disobedience.
 [^s2-6]: Webb Miller dispatches from Dharasana (May 1930), syndicated international reporting archives.
-[^s2-7]: B. R. Ambedkar, *What Congress and Gandhi Have Done to the Untouchables* (1945); Anupama Rao, *The Caste Question* (Berkeley: University of California Press, 2009).
+[^s2-7]: B. R. Ambedkar, *What Congress and Gandhi Have Done to the Untouchables* (1945).
 [^s2-8]: Ashwin Desai and Goolam Vahed, *The South African Gandhi: Stretcher-Bearer of Empire* (Stanford: Stanford University Press, 2015).
 [^s2-9]: Ramachandra Guha, *Gandhi Before India* (New York: Knopf, 2013) and *Gandhi: The Years That Changed the World* (New York: Knopf, 2018), discussions of late-life celibacy experiments.
 [^s2-10]: Gandhi–Irwin Pact documentation and Round Table Conference records, 1931; see also Judith M. Brown, *Gandhi: Prisoner of Hope* (New Haven: Yale University Press, 1989), on the campaign’s negotiated pause.
+
+[^s2-rao-caste-politics]: Anupama Rao, *The Caste Question: Dalits and the Politics of Modern India* (Berkeley: University of California Press, 2009).

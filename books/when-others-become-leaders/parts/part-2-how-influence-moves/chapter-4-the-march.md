@@ -28,7 +28,7 @@ The decision is often remembered through two people. Rosa Parks remained seated.
 
 But movements rarely begin where memory places their beginning.
 
-Before Parks’s arrest, the Women’s Political Council had spent years protesting the treatment of Black passengers. Other women, including fifteen-year-old Claudette Colvin and eighteen-year-old Mary Louise Smith, had already been arrested after refusing to comply with segregated seating. When Parks was arrested on December 1, Jo Ann Robinson and the council prepared and distributed thousands of leaflets calling for a one-day boycott. E. D. Nixon contacted ministers and community leaders. King entered a plan already moving through Montgomery.[^m4-1]
+Before Parks’s arrest, the Women’s Political Council had spent years protesting the treatment of Black passengers. Other women, including fifteen-year-old Claudette Colvin and eighteen-year-old Mary Louise Smith, had already been arrested after refusing to comply with segregated seating. When Parks was arrested on December 1, Jo Ann Robinson and the council prepared and distributed thousands of leaflets calling for a one-day boycott.[^m4-robinson-wpc] E. D. Nixon contacted ministers and community leaders. King entered a plan already moving through Montgomery.[^m4-1]
 
 This does not make him incidental. It changes the kind of importance we should look for.
 
@@ -332,7 +332,7 @@ Selma may reveal the pattern most clearly because the march began while King was
 
 Local Black citizens and organizations had pursued voting rights in Dallas County for years. SNCC organizers and the Dallas County Voters League had established relationships and campaigns before SCLC joined in early 1965. When Jimmie Lee Jackson was shot during a police attack on demonstrators in nearby Marion and later died, activists planned a march from Selma to Montgomery.
 
-On March 7, Hosea Williams of SCLC and John Lewis of SNCC led the marchers across the Edmund Pettus Bridge.
+On March 7, Hosea Williams of SCLC and John Lewis of SNCC led the marchers across the Edmund Pettus Bridge.[^m4-lewis-selma]
 
 King was in Atlanta.
 
@@ -432,7 +432,7 @@ Perhaps it is the person whose presence helps people discover that they already 
 
 ## Notes
 
-[^m4-1]: Taylor Branch, *Parting the Waters: America in the King Years, 1954–63* (New York: Simon & Schuster, 1988), Montgomery sections; Jo Ann Gibson Robinson, *The Montgomery Bus Boycott and the Women Who Started It* (Knoxville: University of Tennessee Press, 1987).
+[^m4-1]: Taylor Branch, *Parting the Waters: America in the King Years, 1954–63* (New York: Simon & Schuster, 1988), Montgomery sections.
 [^m4-2]: David J. Garrow, *Bearing the Cross* (New York: HarperCollins, 1986), early King leadership in Montgomery.
 [^m4-3]: Aldon D. Morris, *The Origins of the Civil Rights Movement* (New York: Free Press, 1984), movement infrastructure and MIA logistics.
 [^m4-4]: William P. Jones, *The March on Washington* (New York: W. W. Norton, 2013), coalition and labor roots.
@@ -445,4 +445,7 @@ Perhaps it is the person whose presence helps people discover that they already 
 [^m4-11]: Martin Luther King Jr., “Beyond Vietnam” (1967); records and scholarship on the Poor People’s Campaign.
 [^m4-12]: Michael K. Honey, *Going Down Jericho Road* (New York: W. W. Norton, 2007), Memphis sanitation strike history.
 [^m4-13]: Honey, *Going Down Jericho Road*; union and city records on strike settlement after April 1968.
-[^m4-14]: John Lewis with Michael D’Orso, *Walking with the Wind* (New York: Simon & Schuster, 1998); SNCC and SCLC accounts of Selma and Bloody Sunday.
+[^m4-14]: SNCC and SCLC accounts of Selma and Bloody Sunday.
+
+[^m4-robinson-wpc]: Jo Ann Gibson Robinson, *The Montgomery Bus Boycott and the Women Who Started It* (Knoxville: University of Tennessee Press, 1987).
+[^m4-lewis-selma]: John Lewis with Michael D’Orso, *Walking with the Wind: A Memoir of the Movement* (New York: Simon & Schuster, 1998).
