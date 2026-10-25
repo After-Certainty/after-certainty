@@ -10,7 +10,7 @@ The volunteers asked to close at six. Several had been staying late every week, 
 
 Elena agreed. The new hours were printed and posted two weeks in advance.
 
-On the first Tuesday, Mara arrived at six-eight. She had come straight from a shift that ended later than expected, with her work badge still clipped to her coat. The kitchen was closed. A volunteer had already signed off on the remaining food and gone home. Elena was putting chairs onto tables.
+On the first Tuesday, Mara arrived at 6:08 PM. She had come straight from a shift that ended later than expected, with her work badge still clipped to her coat. The kitchen was closed. A volunteer had already signed off on the remaining food and gone home. Elena was putting chairs onto tables.
 
 Mara looked at the sign, then at the bags stacked behind the counter.
 
