@@ -460,7 +460,7 @@ For that, the room needs a window.
 
 [^c9-commission]: See United States Strike Commission, *Report on the Chicago Strike of June–July, 1894*, criticizing the company town’s paternalistic structure and Pullman’s response to worker grievances.
 
-[^c9-follett-power]: See Mary Parker Follett, *Creative Experience* (New York: Longmans, Green, 1924), and *Dynamic Administration*, ed. Henry C. Metcalf and L. Urwick (New York: Harper & Brothers, 1942), distinguishing coercive “power-over” from jointly developed “power-with.”
+[^c9-follett-power]: See Mary Parker Follett, *Creative Experience* (New York: Longmans, Green, 1924), on jointly developed power, conflict, and integration. Her separately cited *Dynamic Administration* elaborates the law of the situation.
 
 [^c9-law-situation]: See Follett, “The Giving of Orders,” in *Dynamic Administration*, arguing for joint study of the situation and orders arising from the requirements of the situation rather than from rank alone.
 
