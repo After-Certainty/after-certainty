@@ -40,7 +40,7 @@ Good boundaries answer simple questions clearly:
 - Which changes are external?
 - Who learns when this fails?
 
-Domain-driven design calls these boundaries bounded contexts. The name matters less than the idea: a bounded context is simply a place where terms still mean one thing and somebody still owns the consequences of changing them.[^c15-bounded-contexts]
+Domain-driven design calls these boundaries bounded contexts. The name matters less than the idea: a bounded context is simply a place where terms still mean one thing and somebody still owns the consequences of changing them.[^c15-bounded-contexts] Context mapping extends this insight across boundaries by making translation and integration relationships explicit.[^c15-vernon-context-mapping]
 
 ## Context Collapse in Assisted Systems
 
@@ -130,7 +130,7 @@ The final chapter argues that the important literacy is not prompt tricks. It is
 
 [^c15-opening]: Matthew Skelton and Manuel Pais, *Team Topologies: Organizing Business and Technology Teams for Fast Flow* (IT Revolution Press, 2019), on ownership clarity and interaction modes under fast flow.
 [^c15-amplifier]: Eric Evans, *Domain-Driven Design: Tackling Complexity in the Heart of Software* (Boston: Addison-Wesley, 2003), on models, boundaries, and explicit context mapping.
-[^c15-bounded-contexts]: Eric Evans, *Domain-Driven Design*; and Vaughn Vernon, *Implementing Domain-Driven Design* (Upper Saddle River, NJ: Addison-Wesley, 2013), on context maps and integration across bounded contexts.
+[^c15-bounded-contexts]: Eric Evans, *Domain-Driven Design*.
 [^c15-interfaces]: Saleema Amershi et al., "Guidelines for Human-AI Interaction," *Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*, paper 3, https://doi.org/10.1145/3290605.3300233; and OWASP Foundation, *OWASP Top 10 for Large Language Model Applications*, on excessive agency and tool-mediated risk.
 [^c15-composition]: Alistair Cockburn, "Hexagonal Architecture," on composition through ports and adapters; and Matthew Skelton and Manuel Pais, *Team Topologies*, on stream-aligned teams and deliberate interaction modes.
 [^c15-ownership]: Gene Kim et al., *The DevOps Handbook*, 2nd ed. (IT Revolution Press, 2021), on service ownership and operational learning loops; and Robert C. Martin, *Clean Architecture*, on dependency direction and policy/core separation.
@@ -138,3 +138,5 @@ The final chapter argues that the important literacy is not prompt tricks. It is
 [^c15-bridge-c16]: National Institute of Standards and Technology, *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*, NIST AI 100-1 (2023), on lifecycle governance and role accountability.
 
 > Assistance accelerates systems. Cohesion determines whether what accelerates can still be understood, owned, and redesigned.
+
+[^c15-vernon-context-mapping]: Vaughn Vernon, *Implementing Domain-Driven Design* (Upper Saddle River, NJ: Addison-Wesley, 2013), on context maps and integration among bounded contexts.

@@ -24,7 +24,7 @@ Gradually, the same controls introduced after the incident begin weakening: exce
 
 The organization accelerates again. Then another failure happens.
 
-Usually with a different technical cause. Usually with the same structural pattern underneath: responsibility sounded clearer than it actually was.[^c21-opening]
+Usually with a different technical cause. Usually with the same structural pattern underneath: responsibility sounded clearer than it actually was.[^c21-opening] The fictional organization in *The Phoenix Project* dramatizes the same delivery-versus-stability tension without itself supplying measurement of its prevalence.[^c21-phoenix-novel]
 
 This cycle appears far beyond software. Governments expand oversight after public failures, then loosen enforcement under economic pressure. News organizations tighten editorial standards after scandals, then weaken them again while chasing engagement and revenue. Corporations centralize governance after crises, then decentralize when speed and growth become more valuable.
 
@@ -124,7 +124,7 @@ The challenge is not preventing acceleration forever. The challenge is surviving
 
 Systems do not permanently solve the tension between adaptability and control. They swing between corrections.
 
-[^c21-opening]: Gene Kim et al., *The Phoenix Project* (IT Revolution Press, 2013), on incident-driven controls and delivery pressure; and Nicole Forsgren, Jez Humble, and Gene Kim, *Accelerate*, on velocity versus stability signals.
+[^c21-opening]: Nicole Forsgren, Jez Humble, and Gene Kim, *Accelerate*, on velocity versus stability signals.
 [^c21-why-swing]: Donella Meadows, *Thinking in Systems: A Primer* (White River Junction, VT: Chelsea Green Publishing, 2008), on competing goals and compensating dynamics in large systems.
 [^c21-acceleration]: Donald T. Campbell, "Assessing the Impact of Planned Social Change," *Evaluation and Program Planning* 2, no. 1 (1979): 67–90, https://doi.org/10.1016/0149-7189(79)90048-X, on activity metrics displacing learning; and Chapter 12 in this book on acceleration without ownership.
 [^c21-entropy]: See the interlude *Coherence Under Scale* and the Part V bridge in this book on drift and coordination substitutes; and Chapter 4 on coordination pressure.
@@ -132,3 +132,5 @@ Systems do not permanently solve the tension between adaptability and control. T
 [^c21-reform-cycles]: Christopher Pollitt and Geert Bouckaert, *Public Management Reform: A Comparative Analysis*, 3rd ed. (Oxford: Oxford University Press, 2017).
 
 > Systems do not permanently solve the tension between adaptability and control. The question is whether the swing still preserves the ability to learn.
+
+[^c21-phoenix-novel]: Gene Kim, Kevin Behr, and George Spafford, *The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win* (IT Revolution Press, 2013).

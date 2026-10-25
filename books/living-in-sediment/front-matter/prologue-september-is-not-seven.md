@@ -32,7 +32,7 @@ The calendar reflected the rhythm of the world people inhabited. That rhythm cha
 
 In 153 BCE, Rome faced conflict in Hispania. Newly elected consuls needed to assume command sooner than tradition allowed. Waiting until March was no longer practical. The Senate moved the beginning of the political year to January so military leadership could mobilize earlier.
 
-The adjustment solved a problem.[^pro-calendar-reform]
+The adjustment solved a problem.[^pro-calendar-reform][^pro-zerubavel-calendar]
 
 The names did not follow.
 
@@ -66,8 +66,10 @@ We do not live on bare ground. We live on accumulated ground.
 
 The question is not whether there is sediment beneath our feet. The question is whether we remember that it is sediment.
 
-[^pro-calendar-reform]: See Eviatar Zerubavel, *Hidden Rhythms: Schedules and Calendars in Social Life* (Chicago: University of Chicago Press, 1981); David S. Landes, *Revolution in Time: Clocks and the Making of the Modern World* (Cambridge, MA: Harvard University Press, 1983).
+[^pro-calendar-reform]: See David S. Landes, *Revolution in Time: Clocks and the Making of the Modern World* (Cambridge, MA: Harvard University Press, 1983).
 
 [^pro-ordinary-history]: See Neil MacGregor, *A History of the World in 100 Objects* (New York: Viking, 2011); Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981).
 
 [^pro-archaeological-attention]: See E. H. Carr, *What Is History?* (New York: Vintage Books, 1961).
+
+[^pro-zerubavel-calendar]: Eviatar Zerubavel, *Hidden Rhythms: Schedules and Calendars in Social Life* (Chicago: University of Chicago Press, 1981), on socially standardized calendars.
