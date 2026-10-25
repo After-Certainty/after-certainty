@@ -1,4 +1,5 @@
 name: Phase 18 reader audit (temporary)
+# Includes manuscript-level source-specific citations for shared notes.
 # Reviewed candidate selection uses the current source audit, not historical candidates.
 # Every audit-log timestamp uses datetime.UTC (Python 3.12 lint).
 # Source-specific matches resolve by longest key for nested report names.
@@ -72,7 +73,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add tools/apply_reader_passage_phase18.py semantic/sources reports/reader-passage-links/audit.md reports/reader-passage-links/audit.summary.json reports/reader-passage-links/review-log.json reports/reader-passage-links/editorial-batch-phase-18.md
+          git add books/ tools/apply_reader_passage_phase18.py semantic/sources reports/reader-passage-links/audit.md reports/reader-passage-links/audit.summary.json reports/reader-passage-links/review-log.json reports/reader-passage-links/editorial-batch-phase-18.md
           git diff --cached --stat
           git commit -m "feat(sources): link Phase 18 footnote evidence and refresh rendered audit"
           git push
