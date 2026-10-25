@@ -152,7 +152,7 @@ def main() -> None:
             "slug": slug,
             "status": "applied",
             "note": f"Phase 18: {explanation}",
-            "updatedAt": datetime.now(timezone.utc).isoformat(),
+            "updatedAt": datetime.now(UTC).isoformat(),
         }
 
     if len(applied) + len(deferred) != 87:
