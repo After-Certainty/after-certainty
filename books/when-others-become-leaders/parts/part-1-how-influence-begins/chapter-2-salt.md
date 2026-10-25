@@ -368,7 +368,7 @@ Gandhi treated his own life as an experiment. Food, possessions, medicine, sexua
 
 But an experiment conducted by a leader rarely remains purely personal.
 
-In the final years of his life, Gandhi involved young women close to him in controversial “experiments” intended to test his celibacy, including sharing a bed while unclothed. The women included his young grandnieces and a close female physician. The practices troubled members of his own circle and have remained among the most disturbing aspects of his life because the spiritual test was his while the asymmetry of age, reverence, dependence, and authority was borne by everyone involved.[^s2-9]
+In the final years of his life, Gandhi involved young women close to him in controversial “experiments” intended to test his celibacy, including sharing a bed while unclothed. The women included his young grandnieces and a close female physician. The practices troubled members of his own circle and have remained among the most disturbing aspects of his life because the spiritual test was his while the asymmetry of age, reverence, dependence, and authority was borne by everyone involved.[^s2-9][^p18-gandhi-the-years-that-chang-f530a37]
 
 The point is not to use one unsettling episode to cancel a life; cancellation is another form of simplification.
 
@@ -520,3 +520,6 @@ The hand opened.
 [^s2-10]: Gandhi–Irwin Pact documentation and Round Table Conference records, 1931; see also Judith M. Brown, *Gandhi: Prisoner of Hope* (New Haven: Yale University Press, 1989), on the campaign’s negotiated pause.
 
 [^s2-rao-caste-politics]: Anupama Rao, *The Caste Question: Dalits and the Politics of Modern India* (Berkeley: University of California Press, 2009).
+
+
+[^p18-gandhi-the-years-that-chang-f530a37]: Guha, Ramachandra. Gandhi: The Years That Changed the World, 1914-1948. New York: Knopf, 2018.

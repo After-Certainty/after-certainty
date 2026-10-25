@@ -22,3 +22,5 @@ citation: Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Va
   for Model Reporting." Proceedings of the Conference on Fairness, Accountability,
   and Transparency (FAccT), 220-229. https://doi.org/10.1145/3287560.3287596.
 sourceKind: article
+readerPassagePath: /explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-p18-model-cards-for-model-repor-a331fab
+whyThisMatters: "Mitchell and coauthors' model cards proposal calls for documenting intended uses and evaluation limitations of machine-learning models. The chapter cites that accountability practice separately from dataset datasheets."

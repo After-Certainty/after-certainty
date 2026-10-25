@@ -48,7 +48,7 @@ Few college basketball coaches accumulated a record as capable of speaking on th
 
 At Indiana, Knight won national championships in 1976, 1981, and 1987. His 1976 team finished 32–0. Across a forty-two-year head-coaching career at Army, Indiana, and Texas Tech, he won 902 games and was the Division I men’s record holder when he retired. He also coached the United States to Olympic gold in 1984.[^c4-knight-record]
 
-His influence was not limited to the totals. Knight became closely associated with the motion offense, disciplined man-to-man defense, detailed preparation, and a coaching lineage that included players and assistants who later became prominent coaches themselves. His teams were also known for strong academic performance, and contemporaneous and later accounts repeatedly noted that he was not known for major NCAA recruiting violations during an era in which such violations were hardly rare.[^c4-knight-method-ap] Many former players remained devoted to him and described his standards as formative long after their playing careers ended.[^c4-knight-method]
+His influence was not limited to the totals. Knight became closely associated with the motion offense, disciplined man-to-man defense, detailed preparation, and a coaching lineage that included players and assistants who later became prominent coaches themselves. His teams were also known for strong academic performance, and contemporaneous and later accounts repeatedly noted that he was not known for major NCAA recruiting violations during an era in which such violations were hardly rare.[^c4-knight-method-ap] Many former players remained devoted to him and described his standards as formative long after their playing careers ended.[^c4-knight-method][^p18-a-season-on-the-brink-e8964f4]
 
 These facts matter.
 
@@ -152,7 +152,7 @@ Winning makes this loop especially difficult to interrupt. The result continuall
 
 ### The Player and the Tape
 
-In March 2000, former Indiana player Neil Reed publicly accused Knight of having placed a hand around his neck during a 1997 practice. Knight denied Reed’s account. Video from the practice later surfaced and showed Knight making physical contact with Reed’s neck, giving the accusation a form of evidence that could no longer be dismissed as one former player’s memory competing with a famous coach’s reputation.[^c4-reed][^c4-reed-video]
+In March 2000, former Indiana player Neil Reed publicly accused Knight of having placed a hand around his neck during a 1997 practice. Knight denied Reed’s account. Video from the practice later surfaced and showed Knight making physical contact with Reed’s neck, giving the accusation a form of evidence that could no longer be dismissed as one former player’s memory competing with a famous coach’s reputation.[^c4-reed][^p18-tape-has-knight-grabbing-pl-2a57b20][^p18-former-hoosier-reed-says-he-40dfdbc][^c4-reed-video]
 
 The video changed the dispute.
 
@@ -228,7 +228,7 @@ This is one of the most powerful forms of retrospective authority. The outcome r
 
 Lance Armstrong offers a different kind of case.
 
-Armstrong won seven consecutive Tours de France between 1999 and 2005. In 2012, the United States Anti-Doping Agency issued a detailed reasoned decision describing a sustained doping conspiracy involving Armstrong and the U.S. Postal Service team. Armstrong was banned for life, and cycling’s governing body accepted the sanctions that stripped his results from August 1998 forward, including all seven Tour titles.[^c4-armstrong]
+Armstrong won seven consecutive Tours de France between 1999 and 2005. In 2012, the United States Anti-Doping Agency issued a detailed reasoned decision describing a sustained doping conspiracy involving Armstrong and the U.S. Postal Service team. Armstrong was banned for life, and cycling’s governing body accepted the sanctions that stripped his results from August 1998 forward, including all seven Tour titles.[^c4-armstrong][^p18-reasoned-decision-of-the-un-d0a43fd][^p18-lance-armstrong-receives-li-3840b55]
 
 Here the method did not merely raise a moral concern around a valid result.
 
@@ -350,3 +350,18 @@ What it is allowed to excuse does not.
 [^c4-brand-statement]: ESPN, “Transcript of Brand’s Statement,” September 10, 2000, https://www.espn.com/ncb/news/2000/0910/735482.html.
 [^c4-return-ap]: Associated Press, “Return of the Hoosier: Knight Back at Indiana after 20 Years,” February 8, 2020, https://apnews.com/article/885d428d8be3e43f50a2dae95dd5ac34.
 [^c4-return-espn]: ESPN, “Emotional Bob Knight Ends 20-Year Split with Indiana,” February 8, 2020, https://www.espn.com/mens-college-basketball/story/_/id/28660306/emotional-bob-knight-ends-20-year-split-indiana.
+
+
+[^p18-a-season-on-the-brink-e8964f4]: John Feinstein. A Season on the Brink. (New York: Macmillan, 1986).
+
+
+[^p18-former-hoosier-reed-says-he-40dfdbc]: Los Angeles Times. "Former Hoosier Reed Says He Was Choked by Knight." March 15, 2000, https://www.latimes.com/archives/la-xpm-2000-mar-15-sp-9181-story.html.
+
+
+[^p18-tape-has-knight-grabbing-pl-2a57b20]: Los Angeles Times. "Tape Has Knight Grabbing Player." April 12, 2000, https://www.latimes.com/archives/la-xpm-2000-apr-12-sp-18804-story.html.
+
+
+[^p18-lance-armstrong-receives-li-3840b55]: United States Anti-Doping Agency. "Lance Armstrong Receives Lifetime Ban and Disqualification of Competitive Results for Doping Violations Stemming from His Involvement in the United States Postal Service Pro-Cycling Team Doping Conspiracy." August 24, 2012, https://www.usada.org/sanction/lance-armstrong-receives-lifetime-ban-and-disqualification-of-competitive-results-for-doping-violations-stemming-from-his-involvement-in-the-united-states-postal-service-pro-cycling-team-doping-conspi/.
+
+
+[^p18-reasoned-decision-of-the-un-d0a43fd]: United States Anti-Doping Agency. "Reasoned Decision of the United States Anti-Doping Agency on Disqualification and Ineligibility." October 10, 2012, https://www.usada.org/wp-content/uploads/ReasonedDecision.pdf.

@@ -46,7 +46,7 @@ December remained ten.
 
 The war receded into history. The administrative decision remained. Children continued memorizing names that quietly described a calendar no longer in use.
 
-It is difficult to imagine a better example of how history settles. We tend to picture history as something dramatic: revolutions, treaties, inventions, kings. We imagine museums filled with artifacts behind glass, or monuments standing in city squares. But much of history survives in quieter places. It survives in habits. In measurements. In rituals. In words repeated so often they cease to sound like words at all.[^pro-ordinary-history]
+It is difficult to imagine a better example of how history settles. We tend to picture history as something dramatic: revolutions, treaties, inventions, kings. We imagine museums filled with artifacts behind glass, or monuments standing in city squares. But much of history survives in quieter places. It survives in habits. In measurements. In rituals. In words repeated so often they cease to sound like words at all.[^pro-ordinary-history][^p18-a-history-of-the-world-in-1-c1796c0][^p18-the-structures-of-everyday-940d67a]
 
 History has a preference for ordinary things. It lingers beneath the fingertips that reach automatically for a QWERTY keyboard designed for machines that no longer exist. It lives inside the sixty seconds of every minute, a gift from ancient astronomers who counted differently than we do. It waits inside the thirty-year mortgage, inside the quarterly earnings report, inside the icon shaped like a floppy disk that still promises to save work for people who have never touched one.
 
@@ -73,3 +73,9 @@ The question is not whether there is sediment beneath our feet. The question is 
 [^pro-archaeological-attention]: See E. H. Carr, *What Is History?* (New York: Vintage Books, 1961).
 
 [^pro-zerubavel-calendar]: Eviatar Zerubavel, *Hidden Rhythms: Schedules and Calendars in Social Life* (Chicago: University of Chicago Press, 1981), on socially standardized calendars.
+
+
+[^p18-the-structures-of-everyday-940d67a]: Braudel, Fernand. The Structures of Everyday Life. Vol. 1 of Civilization and Capitalism, 15th–18th Century. Translated by Siân Reynolds. New York: Harper & Row, 1981.
+
+
+[^p18-a-history-of-the-world-in-1-c1796c0]: MacGregor, Neil. A History of the World in 100 Objects. New York: Viking, 2011.

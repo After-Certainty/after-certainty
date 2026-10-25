@@ -149,7 +149,7 @@ the recovery of people who fled enslavement. His will provided for
 the freeing of those he personally enslaved after Martha
 Washington’s death—a delayed manumission that registered both a
 troubled conscience and a refusal to disrupt the household economy
-while it still served him.[^c9-slavery] The Washington household’s pursuit of Ona Judge after her escape offers a specific example of how that private power was exercised.[^c9-ona-judge] Historians of slavery and
+while it still served him.[^c9-slavery][^p18-the-only-unavoidable-subjec-e52c606][^p18-george-washington-and-slave-5358e4a] The Washington household’s pursuit of Ona Judge after her escape offers a specific example of how that private power was exercised.[^c9-ona-judge] Historians of slavery and
 the early republic have insisted, correctly, that self-restraining
 authority at the summit of the state is not separable from the
 unrestrained authority exercised over enslaved people within
@@ -340,3 +340,9 @@ Slavery: A Documentary Portrayal* (Columbia: University of
 Missouri Press, 1997).
 
 [^c9-ona-judge]: Erica Armstrong Dunbar, *Never Caught: The Washingtons’ Relentless Pursuit of Their Runaway Slave, Ona Judge* (New York: 37 Ink/Atria, 2017).
+
+
+[^p18-george-washington-and-slave-5358e4a]: Hirschfeld, Fritz. George Washington and Slavery: A Documentary Portrayal. Columbia: University of Missouri Press, 1997.
+
+
+[^p18-the-only-unavoidable-subjec-e52c606]: Thompson, Mary V. "The Only Unavoidable Subject of Regret": George Washington, Slavery, and the Enslaved Community at Mount Vernon. Charlottesville: University of Virginia Press, 2019.

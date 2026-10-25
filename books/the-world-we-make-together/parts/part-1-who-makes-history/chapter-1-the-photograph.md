@@ -68,7 +68,7 @@ The person at the microphone mattered.
 
 He was not interchangeable with the crowd.
 
-His years of preaching had trained his voice. His experience within the movement had formed his moral vocabulary. His public standing allowed his words to travel farther than the same words might have traveled from another mouth. When Mahalia Jackson called from behind him to speak about the dream, King moved away from his prepared text and returned to language he had developed through earlier sermons and speeches.[^c1-jackson-dream] The moment was not created from nothing, but neither was it mechanically predetermined. He heard the invitation, judged the room, and responded.
+His years of preaching had trained his voice. His experience within the movement had formed his moral vocabulary. His public standing allowed his words to travel farther than the same words might have traveled from another mouth. When Mahalia Jackson called from behind him to speak about the dream, King moved away from his prepared text and returned to language he had developed through earlier sermons and speeches.[^c1-jackson-dream][^p18-i-have-a-dream-a1f181d][^p18-i-have-a-dream-e897268] The moment was not created from nothing, but neither was it mechanically predetermined. He heard the invitation, judged the room, and responded.
 
 The speech depended upon preparation and became more than its preparation.
 
@@ -323,3 +323,9 @@ It does not yet show us how the path was built.
 [^c1-nasa-apollo]: See NASA History Division, *Managing NASA in the Apollo Era*, NASA SP-4102 (Washington, DC: NASA, 1982), stating that the Apollo program employed approximately 400,000 Americans at its peak and relied on more than 20,000 companies and universities.
 
 [^c1-bales-alarms]: See NASA, *Apollo 11 Mission Report*, NASA SP-238 (Washington, DC: NASA, 1971), and Apollo 11 flight-operations accounts of Steve Bales’s judgment that descent could continue despite computer program alarms 1201/1202.
+
+
+[^p18-i-have-a-dream-e897268]: Martin Luther King, Jr. Research and Education Institute, Stanford University. "I Have a Dream." https://kinginstitute.stanford.edu/i-have-dream.
+
+
+[^p18-i-have-a-dream-a1f181d]: National Museum of American History. "I Have a Dream" / March on Washington collection. Washington, DC: Smithsonian Institution. https://americanhistory.si.edu/.

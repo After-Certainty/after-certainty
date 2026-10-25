@@ -26,7 +26,7 @@ federal and state agencies issued situation reports, scheduled conference
 calls, and updated organizational charts that still named who was
 responsible for what. Evacuation plans existed on file. Information and requests moved
 through overlapping jurisdictions whose formal responsibilities still
-appeared intact.[^c10-katrina-response]
+appeared intact.[^c10-katrina-response][^p18-the-federal-response-to-hur-d258aa9][^p18-a-failure-of-initiative-fin-a3b226a]
 
 Warnings had identified vulnerabilities in levees, evacuation capacity,
 sheltering, communications, and transport. That knowledge traveled through
@@ -131,3 +131,9 @@ Habit continued to carry the week, even after explanation had begun to
 lose its hold.
 
 [^c10-katrina-response]: See U.S. House of Representatives, *A Failure of Initiative: Final Report of the Select Bipartisan Committee to Investigate the Preparation for and Response to Hurricane Katrina* (Washington, DC: U.S. Government Printing Office, 2006); U.S. White House, *The Federal Response to Hurricane Katrina: Lessons Learned* (Washington, DC: U.S. Government Printing Office, 2006).
+
+
+[^p18-a-failure-of-initiative-fin-a3b226a]: U.S. House of Representatives. A Failure of Initiative: Final Report of the Select Bipartisan Committee to Investigate the Preparation for and Response to Hurricane Katrina. Washington, DC: U.S. Gov
+
+
+[^p18-the-federal-response-to-hur-d258aa9]: U.S. White House. The Federal Response to Hurricane Katrina: Lessons Learned. Washington, DC: U.S. Government Printing Office, 2006.

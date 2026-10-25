@@ -12,7 +12,7 @@ The question at this scale is how a system **learns**—not because individuals 
 
 Engineering learned a version of this lesson in public.
 
-After the space shuttle *Challenger* broke apart in 1986, investigators did not only ask who signed the launch. They asked how a room full of competent people could treat a partial warning—O-rings, cold, foam, data on a slide—as secondary to the schedule. After *Columbia* seventeen years later, the question was eerily similar: a strike seen, a risk normalized, a story that fit the plan until it did not. In both cases the failure was not only technical. It was **organizational**: partial sight distributed across roles, none of it integrated in time—and none of it converted into memory strong enough to change the next launch.[^c11-shuttle]
+After the space shuttle *Challenger* broke apart in 1986, investigators did not only ask who signed the launch. They asked how a room full of competent people could treat a partial warning—O-rings, cold, foam, data on a slide—as secondary to the schedule. After *Columbia* seventeen years later, the question was eerily similar: a strike seen, a risk normalized, a story that fit the plan until it did not. In both cases the failure was not only technical. It was **organizational**: partial sight distributed across roles, none of it integrated in time—and none of it converted into memory strong enough to change the next launch.[^c11-shuttle][^p18-report-of-the-presidential-5d46eef][^p18-report-of-the-columbia-acci-951c585]
 
 Aviation had been building a different feedback loop for decades. The Aviation Safety Reporting System invites pilots and controllers to report near misses and errors **without** default punishment—because the industry learned that hidden near misses become public catastrophes.[^c11-asrs] A captain who notices a confusing approach at dusk sees something the manual never pictured. A controller who hears a phraseology slip sees something the airline’s schedule did not count. A report from one cockpit is partial. Thousands of partial reports, integrated over years, become a map of what the system keeps almost doing wrong. The ASRS does not make pilots unbiased. It makes their partial sight **usable** to the system before the system kills someone—by turning near failure into institutional memory.
 
@@ -67,3 +67,9 @@ That is where the inquiry goes next.
 [^c11-shuttle]: President's Commission on the Space Shuttle *Challenger* Accident, *Report of the Presidential Commission on the Space Shuttle Challenger Accident*, 5 vols. (Washington, DC: Government Printing Office, 1986); Columbia Accident Investigation Board, *Report of the Columbia Accident Investigation Board*, 2 vols. (Washington, DC: Government Printing Office, 2003); Vaughan, Diane, *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA* (Chicago: University of Chicago Press, 1996).
 
 [^c11-asrs]: Federal Aviation Administration and NASA, "Aviation Safety Reporting System (ASRS)," program website, accessed July 4, 2026, https://asrs.arc.nasa.gov/.
+
+
+[^p18-report-of-the-columbia-acci-951c585]: Columbia Accident Investigation Board. Report of the Columbia Accident Investigation Board. 2 vols. Washington, DC: Government Printing Office, 2003.
+
+
+[^p18-report-of-the-presidential-5d46eef]: President's Commission on the Space Shuttle Challenger Accident. Report of the Presidential Commission on the Space Shuttle Challenger Accident. 5 vols. Washington, DC: Government Printing Office, 1986.

@@ -70,7 +70,7 @@ Guardrails weaken over time unless systems keep testing them against reality. Th
 
 Good evaluation asks questions like: What happens under adversarial prompts? What happens when retrieval mixes conflicting contexts? What happens when a tool receives malformed inputs? What failures almost happened last quarter?
 
-The important point is that evaluation is not mainly about scoring models. It is about reconnecting systems to consequence before production discovers the failure first.[^c14-evaluation]
+The important point is that evaluation is not mainly about scoring models. It is about reconnecting systems to consequence before production discovers the failure first.[^c14-evaluation][^p18-model-cards-for-model-repor-a331fab][^p18-datasheets-for-datasets-03897e0]
 
 This is the same pattern we saw earlier with shift left, DORA, DevOps, and fast feedback loops. Systems learn better when consequence arrives early enough that redesign is still affordable.
 
@@ -130,3 +130,9 @@ The next chapter turns to the deeper structural problem: how human and machine s
 > Guardrails matter when they run where harm runs. Otherwise organizations may document risk carefully while leaving the real system unchanged.
 
 [^c14-berwick-era3]: Donald M. Berwick, “Era 3 for Medicine and Health Care,” *JAMA* 315, no. 13 (2016): 1329–1330.
+
+
+[^p18-datasheets-for-datasets-03897e0]: Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, and Kate Crawford. "Datasheets for Datasets." Communications of the ACM 64, no. 12 (2021): 86-92.
+
+
+[^p18-model-cards-for-model-repor-a331fab]: Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. "Model Cards for Model Reporting." Proceedings of the Conference on Fairness, Accountability, and Transparency (FAccT), 220-229. https://doi.org/10.1145/3287560.3287596.

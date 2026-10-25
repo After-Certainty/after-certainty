@@ -110,7 +110,7 @@ what the temple had recorded, not by what each party remembered—or
 preferred to remember.
 
 What began as coordination—who eats when, who owes what—gradually became
-moral order itself, experienced not merely as necessity but as goodness.[^c3-temple-economy]
+moral order itself, experienced not merely as necessity but as goodness.[^c3-temple-economy][^p18-ancient-mesopotamia-portrai-29cc461]
 
 Families ate from what the storehouse released. Hunger remained close
 enough that shared ritual felt less like ornament than survival.
@@ -206,3 +206,6 @@ enforced it.
 [^c3-oracle-bones]: See David N. Keightley, *Sources of Shang History: The Oracle-Bone Inscriptions of Bronze Age China* (Berkeley: University of California Press, 1978).
 [^c3-temple-economy]: See A. Leo Oppenheim, *Ancient Mesopotamia: Portrait of a Dead Civilization*, rev. ed. (Chicago: University of Chicago Press, 1977); Mary Douglas, *Purity and Danger* (London: Routledge, 1966).
 [^c3-mandate-heaven]: See Robert Eno, *The Mandate of Heaven and the Origins of History in China* (Berkeley, CA: Society for the Study of Early China, 1989).
+
+
+[^p18-ancient-mesopotamia-portrai-29cc461]: Oppenheim, A. Leo. Ancient Mesopotamia: Portrait of a Dead Civilization. Revised by Erica Reiner. Chicago: University of Chicago Press, 1977.

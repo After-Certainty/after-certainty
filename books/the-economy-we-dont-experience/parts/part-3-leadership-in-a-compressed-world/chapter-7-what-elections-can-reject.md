@@ -14,7 +14,7 @@ Elections collect these different experiences into one result. A vote is another
 
 ### **Voting Without a Shared Baseline**
 
-Economic voting is often described as retrospective judgment. Are prices higher? Is employment secure? Does the country seem to be improving? Do I feel better or worse than I did before? Voters use answers to questions like these when deciding whether to retain or replace leaders. Political scientists have long observed that incumbents are rewarded or punished partly for economic conditions, even when the connection between a particular officeholder and a particular outcome is indirect.[^c7-economic-voting]
+Economic voting is often described as retrospective judgment. Are prices higher? Is employment secure? Does the country seem to be improving? Do I feel better or worse than I did before? Voters use answers to questions like these when deciding whether to retain or replace leaders. Political scientists have long observed that incumbents are rewarded or punished partly for economic conditions, even when the connection between a particular officeholder and a particular outcome is indirect.[^c7-economic-voting][^p18-the-responsible-electorate-4c76030][^p18-retrospective-voting-in-ame-a3c50d9]
 
 That model assumes agreement about what happened. The agreement has weakened.
 
@@ -109,3 +109,9 @@ At the mailboxes, the point was no longer abstract: elections can tell us what p
 [^c7-bartels]: Larry M. Bartels, "Beyond the Running Tally: Partisan Bias in Political Perceptions," *Political Behavior* 24, no. 2 (2002): 117-150.
 
 [^c7-pew]: Pew Research Center, surveys and reports on economic perceptions, trust in government, political polarization, and fragmented media use, 2022–2024.
+
+
+[^p18-retrospective-voting-in-ame-a3c50d9]: Fiorina, Morris P. Retrospective Voting in American National Elections. New Haven: Yale University Press, 1981.
+
+
+[^p18-the-responsible-electorate-4c76030]: Key, V. O., Jr. The Responsible Electorate: Rationality in Presidential Voting, 1936-1960. With the assistance of Milton C. Cummings, Jr. Cambridge, MA: Belknap Press of Harvard University Press, 19

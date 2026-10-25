@@ -241,7 +241,15 @@ def main() -> None:
     ]
     for slug, path, why in sorted(applied):
         report.append(f"| `{slug}` | `{path}` | {why.replace('|', '/')} |")
-    report.extend(["", f"**Source-specific footnote anchors added:** {len(newly_separated)}.", "", "## Intentionally deferred (unsupported linkage)", ""])
+    report.extend(
+        [
+            "",
+            f"**Source-specific footnote anchors added:** {len(newly_separated)}.",
+            "",
+            "## Intentionally deferred (unsupported linkage)",
+            "",
+        ]
+    )
     for slug, why in sorted(deferred):
         report.append(f"- **`{slug}`** — {why}")
     report.extend(

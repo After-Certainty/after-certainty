@@ -62,7 +62,7 @@ A gesture can activate meanings the speaker did not intend without making intent
 
 The criticism began before the gesture reached its most familiar form.
 
-Sitting during the anthem was interpreted by many observers as dismissive or disrespectful. Nate Boyer, a former Green Beret who had briefly played in the NFL, entered the conversation and met with Kaepernick and safety Eric Reid. After their discussion, Kaepernick changed the protest from sitting to kneeling; Reid joined him before the 49ers’ final preseason game in San Diego on September 1.[^c7-espn-kneel] Reid later explained that kneeling was chosen as a more respectful gesture while preserving the protest, and described the decision as the product of extended discussion and consultation with Boyer.[^c7-kneel]
+Sitting during the anthem was interpreted by many observers as dismissive or disrespectful. Nate Boyer, a former Green Beret who had briefly played in the NFL, entered the conversation and met with Kaepernick and safety Eric Reid. After their discussion, Kaepernick changed the protest from sitting to kneeling; Reid joined him before the 49ers’ final preseason game in San Diego on September 1.[^c7-espn-kneel] Reid later explained that kneeling was chosen as a more respectful gesture while preserving the protest, and described the decision as the product of extended discussion and consultation with Boyer.[^c7-kneel][^p18-from-a-seat-to-a-knee-how-c-105b3d5]
 
 The change is important because it complicates two simple stories.
 
@@ -360,3 +360,6 @@ The argument has moved far beyond the field.
 [^c7-espn-goodell-june]: ESPN, “NFL Commissioner Roger Goodell Says NFL Was ‘Wrong’ Not to Listen to Its Players about Racism,” June 5, 2020, https://www.espn.com/nfl/story/_/id/29272780/nfl-commissioner-roger-goodell-says-nfl-was-wrong-not-listen-players-racism.
 [^c7-goodell-august]: ESPN, “Roger Goodell: ‘Wish We Had Listened Earlier’ to What Colin Kaepernick Was Protesting,” August 23, 2020, https://www.espn.com/nfl/story/_/id/29727180/wished-listened-earlier-colin-kaepernick-was-protesting.
 [^c7-iverson-andscape]: Andscape, “For Allen Iverson, It Was Never Just about ‘Practice,’” May 7, 2022, https://andscape.com/features/for-allen-iverson-it-was-never-just-about-practice/.
+
+
+[^p18-from-a-seat-to-a-knee-how-c-105b3d5]: Nick Wagoner. "From a Seat to a Knee: How Colin Kaepernick and Nate Boyer Are Trying to Affect Change." ESPN.com, September 2016, https://www.espn.com/blog/san-francisco-49ers/post/_/id/19253/from-a-seat-to-a-knee-how-colin-kaepernick-and-nate-boyer-are-trying-to-affect-change.

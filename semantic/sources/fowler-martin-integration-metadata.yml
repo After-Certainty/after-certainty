@@ -13,3 +13,5 @@ creatorSlugs:
 - martin-fowler
 citation: Fowler, Martin. "Integration Metadata." https://martinfowler.com/articles/integrationMetadata.html.
 sourceKind: article
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-05-waterfall-low-temporal-coupling#user-content-fnref-c5-late-integration
+whyThisMatters: "Fowler's article on integration metadata addresses information needed to make software integration legible. The chapter cites that technical discussion at the point where late integration exposes hidden dependencies."

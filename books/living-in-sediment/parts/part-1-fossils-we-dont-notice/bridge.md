@@ -8,7 +8,7 @@ It rarely happens with the grand events we expect to find in history books. It h
 
 Once noticed, these inheritances are difficult to stop seeing.
 
-The chapters that follow begin with such ordinary companions: the names of the days, the way we measure time, the keyboard beneath our hands, the shape of a mortgage, the lingering intuition of gold. None of them asks the reader to question deeply held convictions. None demands agreement with a political position or a philosophy of history.[^b1-curiosity]
+The chapters that follow begin with such ordinary companions: the names of the days, the way we measure time, the keyboard beneath our hands, the shape of a mortgage, the lingering intuition of gold. None of them asks the reader to question deeply held convictions. None demands agreement with a political position or a philosophy of history.[^b1-curiosity][^p18-metaphors-we-live-by-b4d17cf][^p18-the-secret-of-our-success-h-ef0b575]
 
 They ask only for attention.
 
@@ -23,3 +23,9 @@ Before we consider the structures that shape power, identity, and institutions, 
 History often introduces itself this way—not with a revolution, but with a calendar; not with a manifesto, but with the unnoticed habits of an ordinary Tuesday morning.
 
 [^b1-curiosity]: See George Lakoff and Mark Johnson, *Metaphors We Live By* (Chicago: University of Chicago Press, 1980); Joseph Henrich, *The Secret of Our Success* (Princeton, NJ: Princeton University Press, 2015).
+
+
+[^p18-the-secret-of-our-success-h-ef0b575]: Henrich, Joseph. The Secret of Our Success: How Culture Is Driving Human Evolution, Domesticating Our Species, and Making Us Smarter. Princeton, NJ: Princeton University Press, 2015.
+
+
+[^p18-metaphors-we-live-by-b4d17cf]: Lakoff, George, and Mark Johnson. Metaphors We Live By. Chicago: University of Chicago Press, 1980.
