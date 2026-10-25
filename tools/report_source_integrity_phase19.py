@@ -167,20 +167,20 @@ def create_report(repo: Path) -> tuple[dict, str]:
     ]
     for book in drift_books:
         lines.append(
-            f"### {book[\x27book\x27]} — {len(book[\x27missingInSemantic\x27])} absent sources; "
-            f"{len(book[\x27missingRelatedBooks\x27])} unmatched book relations"
+            f"### {book['book']} — {len(book['missingInSemantic'])} absent sources; "
+            f"{len(book['missingRelatedBooks'])} unmatched book relations"
         )
         lines.append("")
         for missing in book["missingInSemantic"]:
             lines.append(
-                f"- **Needs source record:** `{missing[\x27biblioSlug\x27]}` — "
-                f"{missing.get(\x27biblioTitle\x27) or missing.get(\x27biblioAuthor\x27) or \x27unparsed reference\x27}"
+                f"- **Needs source record:** `{missing['biblioSlug']}` — "
+                f"{missing.get('biblioTitle') or missing.get('biblioAuthor') or 'unparsed reference'}"
             )
         for match in book["missingRelatedBooks"]:
             lines.append(
-                f"- **Review weak link:** `{match[\x27biblioSlug\x27]}` → "
-                f"`{match[\x27sourceSlug\x27]}` (score {match[\x27score\x27]}, "
-                f"{match[\x27method\x27]})"
+                f"- **Review weak link:** `{match['biblioSlug']}` → "
+                f"`{match['sourceSlug']}` (score {match['score']}, "
+                f"{match['method']})"
             )
         lines.append("")
     lines += [
