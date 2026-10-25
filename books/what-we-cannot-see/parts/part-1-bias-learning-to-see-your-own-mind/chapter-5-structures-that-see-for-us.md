@@ -10,7 +10,7 @@ That is the move Part I has been building toward. Perspective was never only pri
 
 In the winter of 1854, deaths clustered on a London street that looked ordinary when walked block by block. Individual doctors saw individual fevers. Families saw grief at close range. The pattern became visible only when someone drew it—cases marked on a map until a water pump emerged as the shape of the dying. The pump had always been there. The map made it **seeable** at a scale no single visit could hold.
 
-The map did not create cholera. It did not capture every cause of every death. It selected—through geometry and ink—what a city could finally act on. That is what structures do at their best. They enlarge sight. They also **edit** it.[^c5-snow]
+The map did not create cholera. It did not capture every cause of every death. It selected—through geometry and ink—what a city could finally act on. That is what structures do at their best. They enlarge sight. They also **edit** it.[^c5-snow][^p18-on-the-mode-of-communicatio-c173165][^p18-the-ghost-map-the-story-of-998308b]
 
 ## Selection at scale
 
@@ -81,3 +81,9 @@ That is where the inquiry goes next.
 [^c5-snow]: Snow, John, *On the Mode of Communication of Cholera*, 2nd ed. (London: John Churchill, 1855); Johnson, Steven, *The Ghost Map: The Story of London's Most Terrifying Epidemic—and How It Changed Science, Cities, and the Modern World* (New York: Riverhead Books, 2006).
 
 [^c5-ledger]: Gleeson-White, Jane, *Double Entry: How the Merchants of Venice Created Modern Finance* (New York: W. W. Norton, 2012).
+
+
+[^p18-the-ghost-map-the-story-of-998308b]: Johnson, Steven. The Ghost Map: The Story of London's Most Terrifying Epidemic—and How It Changed Science, Cities, and the Modern World. New York: Riverhead Books, 2006.
+
+
+[^p18-on-the-mode-of-communicatio-c173165]: Snow, John. On the Mode of Communication of Cholera. 2nd ed. London: John Churchill, 1855.

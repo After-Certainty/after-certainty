@@ -54,7 +54,7 @@ It asks something quieter:
 
 I kept noticing the same failure in different rooms: sincere people explaining the problem to one another while the harm continued. Meaning drifted like weather across a ridge—visible from one side, invisible from another. Signals were misread. Outcomes outran explanation. More information did not repair what scale had already made structural.
 
-That does not mean truth disappears. It means stable alignment becomes harder to sustain—and that remaining responsible inside misunderstanding requires something other than one more framework.[^intro-misunderstanding-scale]
+That does not mean truth disappears. It means stable alignment becomes harder to sustain—and that remaining responsible inside misunderstanding requires something other than one more framework.[^intro-misunderstanding-scale][^intro-perrow-accidents]
 
 ## **The Shape of the Book**
 
@@ -78,4 +78,6 @@ This book is for readers who have already done the work of understanding—and d
 
 If you are looking for answers, this book will probably disappoint you. If you are looking for a way to remain responsible without pretending certainty still holds, it may help.
 
-[^intro-misunderstanding-scale]: See Niklas Luhmann, *Social Systems*, trans. John Bednarz Jr. (Stanford, CA: Stanford University Press, 1995); Charles Perrow, *Normal Accidents* (New York: Basic Books, 1984).
+[^intro-misunderstanding-scale]: See Niklas Luhmann, *Social Systems*, trans. John Bednarz Jr. (Stanford, CA: Stanford University Press, 1995).
+
+[^intro-perrow-accidents]: Charles Perrow, *Normal Accidents* (New York: Basic Books, 1984), on interacting failure risks in complex tightly coupled systems.

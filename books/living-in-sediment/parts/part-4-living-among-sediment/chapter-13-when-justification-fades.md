@@ -24,7 +24,7 @@ If it does, another transformation begins.
 
 The emergency passes, but the solution proves useful beyond the crisis that first called it into being. Other people adopt it. They adapt it to circumstances its creators never imagined. It becomes easier to teach than to reinvent. New institutions grow around it. Expectations quietly adjust.
 
-The structure enters ordinary life.[^c13-necessary-useful-habitual]
+The structure enters ordinary life.[^c13-necessary-useful-habitual][^c13-garud-path-creation]
 
 At this stage, usefulness becomes its own argument. The original justification still exists, but it no longer carries the entire weight of the structure. People continue using it because it coordinates activity, reduces uncertainty, or simply saves effort. The solution begins solving problems that did not exist when it was first invented.
 
@@ -48,7 +48,7 @@ First it is necessary.
 
 Then it is useful.
 
-Finally, it is habitual.[^c13-life-cycle]
+Finally, it is habitual.[^c13-life-cycle][^c13-douglas-habit]
 
 The movement is so gradual that the transitions are difficult to notice while living through them. There is no ceremony announcing that a necessity has become merely useful. No holiday marks the moment usefulness becomes habit. The changes occur by accumulation rather than declaration.
 
@@ -84,6 +84,9 @@ The river is still there. The current still follows the bend. But once you have 
 
 It feels historical. And history, once noticed, is difficult to stop seeing.
 
-[^c13-necessary-useful-habitual]: See Ivan Illich, *Tools for Conviviality* (New York: Harper & Row, 1973); Raghu Garud and Peter Karnøe, "Path Dependence and Creation," *Research Policy* 30, no. 1 (2001): 1–21.
+[^c13-necessary-useful-habitual]: See Ivan Illich, *Tools for Conviviality* (New York: Harper & Row, 1973).
 
-[^c13-life-cycle]: See Philip Selznick, *Leadership in Administration: A Sociological Interpretation* (New York: Harper & Row, 1957); Mary Douglas, *How Institutions Think* (Syracuse, NY: Syracuse University Press, 1986).
+[^c13-life-cycle]: See Philip Selznick, *Leadership in Administration: A Sociological Interpretation* (New York: Harper & Row, 1957).
+
+[^c13-douglas-habit]: Mary Douglas, *How Institutions Think* (Syracuse, NY: Syracuse University Press, 1986).
+[^c13-garud-path-creation]: Raghu Garud and Peter Karnøe, “Path Dependence and Creation,” *Research Policy* 30, no. 1 (2001): 1–21.

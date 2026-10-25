@@ -26,7 +26,7 @@ Not morality.
 
 Probability.
 
-Credit scoring emerged to answer that question. Payment history, debt levels, length of credit, and other observable patterns became signals. No individual variable claimed to reveal character. Together they produced an estimate—a statistical forecast about future repayment based upon the behavior of many people who had come before.[^c6-credit-scoring]
+Credit scoring emerged to answer that question. Payment history, debt levels, length of credit, and other observable patterns became signals. No individual variable claimed to reveal character. Together they produced an estimate—a statistical forecast about future repayment based upon the behavior of many people who had come before.[^c6-credit-scoring][^p18-trust-in-numbers-the-pursui-f286941][^p18-the-taming-of-chance-137046b]
 
 It was, in many respects, a remarkable achievement.
 
@@ -91,3 +91,9 @@ The score continues following us. Not because it tells the whole story. But beca
 [^c6-map-landscape]: See Cathy O'Neil, *Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy* (New York: Crown, 2016).
 
 The challenge, as always, is remembering that the story is larger than the number.
+
+
+[^p18-the-taming-of-chance-137046b]: Hacking, Ian. The Taming of Chance. Cambridge: Cambridge University Press, 1990.
+
+
+[^p18-trust-in-numbers-the-pursui-f286941]: Porter, Theodore M. Trust in Numbers: The Pursuit of Objectivity in Science and Public Life. Princeton, NJ: Princeton University Press, 1995.

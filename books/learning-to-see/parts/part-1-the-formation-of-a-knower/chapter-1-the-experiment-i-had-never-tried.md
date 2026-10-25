@@ -82,7 +82,7 @@ Reading scripture as an adult did not restore my belief. It helped me see some o
 
 I began to recognize why conflict could feel dangerous even when nothing terrible was likely to happen. I understood more clearly why respect for authority carried moral weight in the culture around me. I saw how endurance could become both a virtue and a trap: a capacity that helped people survive hardship but also encouraged them to remain silent when something needed to change.
 
-These were not simply personal habits. They were cultural sediment—practices and norms that had helped a community survive hardship and later became difficult to see as anything other than morality.[^c1-sediment-hypothesis]
+These were not simply personal habits. They were cultural sediment—practices and norms that had helped a community survive hardship and later became difficult to see as anything other than morality.[^c1-sediment-hypothesis][^p18-the-mormons-bc888e4][^p18-proclaim-peace-the-restorat-4d494c9][^p18-great-basin-kingdom-an-econ-7520cb1]
 
 A community that experiences persecution, displacement, and the demands of frontier survival may develop strong norms of unity and deference. Under those conditions, cohesion is not irrational. Conflict avoidance is not cowardice. Respect for authority may be part of the machinery that keeps a community alive.
 
@@ -177,3 +177,12 @@ It begins with the possibility that humanity has spent thousands of years develo
 [^c1-ai-companion]: The author used OpenAI's ChatGPT (conversational interface) as a reading companion for the scripture exploration described here and revisited in Chapter 13—querying for passage suggestions, historical context, and interpretive questions, without treating the model as a spiritual authority. Model capabilities and limits as of draft composition (2025–2026).
 
 [^c1-sediment-hypothesis]: On persecution, migration, and communal coordination in early Mormon history, see Leonard J. Arrington, *Great Basin Kingdom: An Economic History of the Latter-day Saints, 1830–1900* (Cambridge, MA: Harvard University Press, 1958); Richard Lyman Bushman, *Joseph Smith: Rough Stone Rolling* (New York: Alfred A. Knopf, 2005); Jan Shipps, *Mormonism: The Story of a New Religious Tradition* (Urbana: University of Illinois Press, 1985). On authority, cooperation, and internal strain in Mormon social life, see Thomas F. O'Dea, *The Mormons* (Chicago: University of Chicago Press, 1957). On contemporary Latter-day Saint tendencies to avoid or misread conflict, see Patrick Q. Mason and J. David Pulsipher, *Proclaim Peace: The Restoration's Answer to an Age of Conflict* (Salt Lake City: Deseret Book; Provo, UT: Neal A. Maxwell Institute for Religious Scholarship, 2021). The link between those historical conditions and present cultural norms is offered here as a working hypothesis—not a settled causal account. See Chapter 10.
+
+
+[^p18-great-basin-kingdom-an-econ-7520cb1]: Arrington, Leonard J. Great Basin Kingdom: An Economic History of the Latter-day Saints, 1830–1900. Cambridge, MA: Harvard University Press, 1958.
+
+
+[^p18-proclaim-peace-the-restorat-4d494c9]: Mason, Patrick Q., and J. David Pulsipher. Proclaim Peace: The Restoration's Answer to an Age of Conflict. Salt Lake City: Deseret Book; Provo, UT: Neal A. Maxwell Institute for Religious Scholarship, 2021.
+
+
+[^p18-the-mormons-bc888e4]: O'Dea, Thomas F. The Mormons. Chicago: University of Chicago Press, 1957.

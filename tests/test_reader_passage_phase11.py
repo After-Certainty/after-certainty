@@ -110,11 +110,13 @@ def test_review_decisions_preserve_other_shared_sources() -> None:
     ]
     assert len(methods) == 1 and methods[0]["status"] == "deferred"
 
-    # Two independent reports of one Andrew Luck announcement must not be
-    # silently promoted merely to increase coverage.
+    # Phase 17 separated the Colts' own Luck announcement from AP's report
+    # of the event and crowd response. The earlier shared citation remains
+    # visible as a skipped-with-replacement decision.
     deferred = [
         v
         for k, v in review.items()
         if k.startswith("source:andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl:")
     ]
-    assert deferred and any(v["status"] == "deferred" for v in deferred)
+    assert any(v["status"] == "applied" for v in deferred)
+    assert any(v["status"] == "skipped" and v.get("supersededBy") for v in deferred)

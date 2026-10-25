@@ -17,7 +17,7 @@ defenders stood. He would later see the city rendered in stone at
 Nineveh, the Assyrian capital in what is now northern Iraq: archers on
 ramparts, captives led away, tribute counted in rows.
 The relief made visible what distance otherwise hid—that decision and
-consequence no longer met in the same place.[^c4-lachish-siege]
+consequence no longer met in the same place.[^c4-lachish-siege][^p18-the-renewed-archaeological-80b0a05][^p18-discoveries-in-the-ruins-of-6838890][^p18-the-raging-torrent-historic-71b9cfb]
 
 A subject in a provincial town might learn of imperial will only when
 soldiers arrived or when a monument proclaimed it years later. Orders
@@ -154,3 +154,12 @@ merely victory, but the claim that distant order was already legible
 before anyone below the wall could argue.
 
 [^c4-lachish-siege]: See David Ussishkin, *The Renewed Archaeological Excavations at Lachish (1973–1994)* (Tel Aviv: Tel Aviv University, 2004); Mordechai Cogan, *The Raging Torrent: Historical Inscriptions from Assyria and Babylonia Relating to Ancient Israel* (Jerusalem: Carta, 2008); Austen Henry Layard, *Discoveries in the Ruins of Nineveh and Babylon* (London: John Murray, 1853).
+
+
+[^p18-the-raging-torrent-historic-71b9cfb]: Cogan, Mordechai. The Raging Torrent: Historical Inscriptions from Assyria and Babylonia Relating to Ancient Israel. Jerusalem: Carta, 2008.
+
+
+[^p18-discoveries-in-the-ruins-of-6838890]: Layard, Austen Henry. Discoveries in the Ruins of Nineveh and Babylon. London: John Murray, 1853.
+
+
+[^p18-the-renewed-archaeological-80b0a05]: Ussishkin, David. The Renewed Archaeological Excavations at Lachish (1973-1994). Tel Aviv: Tel Aviv University, 2004.

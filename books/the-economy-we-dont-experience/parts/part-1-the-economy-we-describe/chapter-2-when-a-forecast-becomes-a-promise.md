@@ -76,7 +76,7 @@ None of these decisions proves that the forecast was wrong. Decisions made under
 
 Its costs appear as absences: the employee never hired, the machine never purchased, the store never opened, the move never made. These absences do not appear together in a single national statistic. They remain distributed among households and firms, each too small to become the public story. The manufacturer who delayed the second shift could later say employment remained strong nationally. That did not put the postponed shift on the shop floor or restore the year of production she did not attempt.
 
-When the worst outcome is avoided, institutions naturally emphasize resilience. The labor market held. The financial system absorbed the strain. The feared recession did not arrive. These statements can all be true.[^c2-aggregate] They do not reverse the decisions made while the warning was active. Continuity and invisible protection still leave costs; what the system holds back is not the same as what a household or firm is free to attempt.
+When the worst outcome is avoided, institutions naturally emphasize resilience. The labor market held. The financial system absorbed the strain. The feared recession did not arrive. These statements can all be true.[^c2-aggregate][^p18-financial-stability-report-15c3d2f] They do not reverse the decisions made while the warning was active. Continuity and invisible protection still leave costs; what the system holds back is not the same as what a household or firm is free to attempt.
 
 This creates a peculiar credibility problem. The institution evaluates the forecast against the range of outcomes that might have occurred. The public evaluates it against the life reorganized in response. The institution sees avoided risk. The household or firm sees a cost already paid. Both are looking backward. They are remembering different events. A later speech celebrating soft landing can therefore sound accurate to the room that owns the chart and premature to the room that owns the unused equipment proposal.
 
@@ -125,3 +125,6 @@ Institutions had spoken in probabilities. She had reorganized the company around
 [^c2-tetlock]: Philip E. Tetlock and Dan Gardner, *Superforecasting: The Art and Science of Prediction* (New York: Crown, 2015).
 
 [^c2-beige]: Board of Governors of the Federal Reserve System, *Beige Book: Summary of Commentary on Current Economic Conditions by Federal Reserve District*, 2022–2024.
+
+
+[^p18-financial-stability-report-15c3d2f]: Board of Governors of the Federal Reserve System. Financial Stability Report. May 2023; November 2023. Washington, DC: Federal Reserve Board.

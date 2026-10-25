@@ -19,3 +19,5 @@ citation: 'Kim, Gene, Kevin Behr, and George Spafford. The Phoenix Project: A No
   2013.'
 sourceKind: book
 year: 2013
+readerPassagePath: /explore/books/coupling/chapters/parts-part-5-oscillation-and-design-21-the-oscillation#user-content-fnref-c21-phoenix-novel
+whyThisMatters: "The Phoenix Project portrays operational instability and the tension between delivery and reliability through a fictional IT organization. The chapter invokes the novel as a recognizable illustration of this pattern, not as empirical evidence for how frequently those failures occur."

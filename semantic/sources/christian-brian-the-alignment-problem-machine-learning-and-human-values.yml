@@ -17,3 +17,5 @@ citation: 'Christian, Brian. The Alignment Problem: Machine Learning and Human V
 sourceKind: book
 year: 2020
 publisher: W
+readerPassagePath: /explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment#user-content-fnref-p18-the-alignment-problem-machi-9ac45a7
+whyThisMatters: "Brian Christian documents value choices embedded in machine-learning systems. The chapter cites that account when it argues that delegating decisions relocates human judgment upstream, without claiming every algorithm has the same effects."

@@ -70,7 +70,7 @@ Guardrails weaken over time unless systems keep testing them against reality. Th
 
 Good evaluation asks questions like: What happens under adversarial prompts? What happens when retrieval mixes conflicting contexts? What happens when a tool receives malformed inputs? What failures almost happened last quarter?
 
-The important point is that evaluation is not mainly about scoring models. It is about reconnecting systems to consequence before production discovers the failure first.[^c14-evaluation]
+The important point is that evaluation is not mainly about scoring models. It is about reconnecting systems to consequence before production discovers the failure first.[^c14-evaluation][^p18-model-cards-for-model-repor-a331fab][^p18-datasheets-for-datasets-03897e0]
 
 This is the same pattern we saw earlier with shift left, DORA, DevOps, and fast feedback loops. Systems learn better when consequence arrives early enough that redesign is still affordable.
 
@@ -98,7 +98,7 @@ If a guardrail fails tonight, the useful question is simple: who learns, who can
 
 ## The Pattern Beyond AI
 
-Hospitals use checklists not because surgeons are unintelligent, but because fast-moving environments make memory unreliable.[^c14-clinical] Aviation uses incident reporting systems because weak signals matter before disasters occur.[^c14-aviation] Public institutions require waiting periods, reviews, and appeal paths because speed alone does not guarantee legitimacy.[^c14-public-sector]
+Hospitals use checklists not because surgeons are unintelligent, but because fast-moving environments make memory unreliable. Berwick's argument for a third era of medicine likewise asks how accountability can support learning instead of making measurement its own purpose.[^c14-berwick-era3][^c14-clinical] Aviation uses incident reporting systems because weak signals matter before disasters occur.[^c14-aviation] Public institutions require waiting periods, reviews, and appeal paths because speed alone does not guarantee legitimacy.[^c14-public-sector]
 
 The same structural pattern appears everywhere: healthy systems place constraints where consequence becomes expensive or irreversible. The point is not to eliminate human judgment. The point is to keep systems from moving faster than people can still understand and redesign them responsibly.
 
@@ -122,9 +122,17 @@ The next chapter turns to the deeper structural problem: how human and machine s
 [^c14-evaluation]: Margaret Mitchell et al., "Model Cards for Model Reporting," *Proceedings of the Conference on Fairness, Accountability, and Transparency* (FAT* 2019), 220-229, https://doi.org/10.1145/3287560.3287596; and Timnit Gebru et al., "Datasheets for Datasets," *Communications of the ACM* 64, no. 12 (2021): 86-92.
 [^c14-helm-limits]: Rishi Bommasani, Percy Liang, and Tony Lee, "Holistic Evaluation of Language Models," *Annals of the New York Academy of Sciences* 1525, no. 1 (2023): 140–146, https://doi.org/10.1111/nyas.15007, on multi-metric benchmarking and limits of context-free comparison.
 [^c14-nist-rmf]: National Institute of Standards and Technology, *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*, NIST AI 100-1 (2023), on roles, measurement, and continual improvement in AI governance.
-[^c14-clinical]: Atul Gawande, *The Checklist Manifesto: How to Get Things Right* (New York: Metropolitan Books, 2009); and Donald M. Berwick, "Era 3 for Medicine and Health Care," *JAMA* 315, no. 13 (2016): 1329-1330.
+[^c14-clinical]: Atul Gawande, *The Checklist Manifesto: How to Get Things Right* (New York: Metropolitan Books, 2009).
 [^c14-aviation]: NASA Aviation Safety Reporting System (ASRS) program materials; and Sidney Dekker, *Drift into Failure* (Farnham, UK: Ashgate, 2011), on incident reporting and organizational learning in high-hazard operations.
 [^c14-public-sector]: Christopher Hood and Ruth Dixon, *A Government That Worked Better and Cost Less?* (Oxford: Oxford University Press, 2015), on administrative controls and procedural constraint in public management.
 [^c14-bridge-c15]: Eric Evans, *Domain-Driven Design*; and Alistair Cockburn, "Hexagonal Architecture," on boundary discipline and explicit coupling control.
 
 > Guardrails matter when they run where harm runs. Otherwise organizations may document risk carefully while leaving the real system unchanged.
+
+[^c14-berwick-era3]: Donald M. Berwick, “Era 3 for Medicine and Health Care,” *JAMA* 315, no. 13 (2016): 1329–1330.
+
+
+[^p18-datasheets-for-datasets-03897e0]: Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, and Kate Crawford. "Datasheets for Datasets." Communications of the ACM 64, no. 12 (2021): 86-92.
+
+
+[^p18-model-cards-for-model-repor-a331fab]: Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. "Model Cards for Model Reporting." Proceedings of the Conference on Fairness, Accountability, and Transparency (FAccT), 220-229. https://doi.org/10.1145/3287560.3287596.

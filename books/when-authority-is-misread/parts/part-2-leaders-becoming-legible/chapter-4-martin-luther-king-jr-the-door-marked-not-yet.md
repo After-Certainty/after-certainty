@@ -304,4 +304,4 @@ for early recognition of what the living man demanded.
 
 [^c4-riverside]: Martin Luther King Jr., “Beyond Vietnam: A Time to Break Silence,” Riverside Church, New York, 4 April 1967.
 
-[^c4-sanitization]: On selective posthumous softening of King’s economic and antiwar critique, see Michael Eric Dyson, *I May Not Get There with You* (New York: Free Press, 2000); Garrow, *Bearing the Cross*, epilogue.
+[^c4-sanitization]: On selective posthumous softening of King’s economic and antiwar critique, see Michael Eric Dyson, *I May Not Get There with You* (New York: Free Press, 2000)

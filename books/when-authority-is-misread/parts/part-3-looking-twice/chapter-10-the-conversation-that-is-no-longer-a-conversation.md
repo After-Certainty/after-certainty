@@ -157,10 +157,8 @@ refusal to answer, contempt convictions, and the blacklist as a system
 of compelled affiliation performance, see Victor S. Navasky, *Naming
 Names* (New York: Viking Press, 1980).
 
-[^c10-ceplair]: On studio cooperation, blacklist mechanics, and the
-institutional reach of loyalty testing beyond the hearing room—including
-university and occupational oath cultures—see Larry Ceplair and Steven
-Englund, *The Inquisition in Hollywood: Politics in the Film Community,
-1930–1960* (Garden City, NY: Anchor Press/Doubleday, 1980); and, on the
-federal loyalty program inaugurated by Executive Order 9835 (21 March
-1947), Schrecker, *Many Are the Crimes*.
+[^c10-ceplair]: For studio cooperation and Hollywood blacklist practices,
+see Larry Ceplair and Steven Englund, *The Inquisition in Hollywood:
+Politics in the Film Community, 1930–1960* (Garden City, NY:
+Anchor Press/Doubleday, 1980). For the wider loyalty-security program
+see the separate Schrecker note in this chapter.

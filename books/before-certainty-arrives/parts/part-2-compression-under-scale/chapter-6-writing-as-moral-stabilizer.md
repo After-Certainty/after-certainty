@@ -164,7 +164,7 @@ norms while becoming less responsive to the world around it.
 **Tools Survive Their Purpose.**
 
 Moral instruments outlive the pressures that shaped them while
-continuing to operate with inherited authority.[^c6-tools-outliving]
+continuing to operate with inherited authority.[^c6-tools-outliving][^p18-tools-for-conviviality-9e4f017]
 
 At this stage certainty has not yet failed, though it has begun to
 harden. Permanence has done its work, and quietly the distance between
@@ -184,3 +184,5 @@ The roads between them did not.
 [^c6-ashoka-epigraphy]: Richard Salomon, *Indian Epigraphy: A Guide to the Study of Inscriptions in Sanskrit, Prakrit, and the Other Indo-Aryan Languages* (New York: Oxford University Press, 1998), on differing scripts, audiences, and inscriptional contexts.
 [^c6-qumran-scrolls]: James C. VanderKam, *The Dead Sea Scrolls Today*, rev. ed. (Grand Rapids, MI: William B. Eerdmans, 2010), on the Qumran discoveries and the range of surviving scrolls.
 [^c6-qumran-composition]: Eugene Ulrich, *The Dead Sea Scrolls and the Developmental Composition of the Bible* (Grand Rapids, MI: William B. Eerdmans, 2012), on the developmental and variant forms of biblical texts before a uniformly closed collection.
+
+[^p18-tools-for-conviviality-9e4f017]: Illich, Ivan. Tools for Conviviality. New York: Harper & Row, 1973.

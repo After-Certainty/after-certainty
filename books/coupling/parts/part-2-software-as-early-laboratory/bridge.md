@@ -6,7 +6,7 @@ Part I introduced the book's core grammar: responsibility, consequence, cohesion
 
 Software delivery became one of the clearest laboratories for these structural pressures because software systems expose feedback unusually quickly. A deployment can fail within minutes. An architectural shortcut can create operational pain within weeks. A dependency problem can spread across teams almost immediately. Many institutions experience the same pressures more slowly; software made them difficult to ignore.
 
-This is one reason software organizations repeatedly redesigned how they worked: not simply because new methodologies became fashionable, but because existing structures stopped learning fast enough from consequence. Seen this way, software history is not just a sequence of engineering trends. Method changes are not only cultural stories. They are design responses to consequence distance. Each shift changes who makes decisions, who absorbs operational cost, how quickly feedback returns, and whether learning reaches the people capable of redesigning the system.[^p2b-method-history]
+This is one reason software organizations repeatedly redesigned how they worked: not simply because new methodologies became fashionable, but because existing structures stopped learning fast enough from consequence. Seen this way, software history is not just a sequence of engineering trends. Method changes are not only cultural stories. They are design responses to consequence distance. Each shift changes who makes decisions, who absorbs operational cost, how quickly feedback returns, and whether learning reaches the people capable of redesigning the system.[^p2b-method-history][^p18-agile-software-development-3c26df5][^p18-manifesto-for-agile-softwar-48083dd]
 
 ## What This Part Explores
 
@@ -50,3 +50,9 @@ Chapter 5 begins with Waterfall, where long planning horizons often stabilized c
 
 [^p2b-method-history]: Winston W. Royce, "Managing the Development of Large Software Systems" (1970); Kent Beck et al., "Manifesto for Agile Software Development" (2001); and Alistair Cockburn, *Agile Software Development* (Addison-Wesley, 2002), on method evolution as shifts in feedback boundaries and decision cadence.
 [^p2b-dora]: Nicole Forsgren, Jez Humble, and Gene Kim, *Accelerate: The Science of Lean Software and DevOps* (IT Revolution Press, 2018); and Gene Kim, Jez Humble, Patrick Debois, and John Willis, *The DevOps Handbook*, 2nd ed. (IT Revolution Press, 2021), on delivery metrics and operational learning loops.
+
+
+[^p18-manifesto-for-agile-softwar-48083dd]: Kent Beck and fellow signatories, “Manifesto for Agile Software Development” (2001), https://agilemanifesto.org/.
+
+
+[^p18-agile-software-development-3c26df5]: Cockburn, Alistair. Agile Software Development. Boston: Addison-Wesley, 2002.

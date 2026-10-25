@@ -142,7 +142,7 @@ The signal person raised an arm. The crane began its slow turn. Everyone watched
 
 No one could see the whole lift alone. The operator could not see every clearance. The signal person could not feel the machine. The riggers could not control the wind. The foreman could not stand in every place where the load might pass. The structure connected their partial views.
 
-A gesture traveled from the ground to the operator. A pause traveled back through the machine. A concern could stop the sequence before momentum made stopping more expensive.[^c4-osha]
+A gesture traveled from the ground to the operator. A pause traveled back through the machine. A concern could stop the sequence before momentum made stopping more expensive.[^c4-osha][^p18-cranes-and-derricks-in-cons-6e66f10][^p18-cranes-and-derricks-cc8fbad]
 
 The lift did not become safe because uncertainty disappeared.
 
@@ -155,3 +155,9 @@ It became safer because uncertainty had somewhere to go.
 [^c4-weick]: See Weick, *Sensemaking in Organizations*.
 
 [^c4-osha]: Occupational Safety and Health Administration, *Cranes and Derricks in Construction: Final Rule*, 29 CFR Part 1926 Subpart CC (Washington, DC: U.S. Department of Labor, 2010); see also OSHA, *Cranes and Derricks*, OSHA 3433-05 (2011), on pre-lift planning and the operator’s authority to stop and refuse to handle loads when safety is in doubt.
+
+
+[^p18-cranes-and-derricks-cc8fbad]: Occupational Safety and Health Administration. Cranes and Derricks. OSHA 3433-05. Washington, DC: U.S. Department of Labor, 2011.
+
+
+[^p18-cranes-and-derricks-in-cons-6e66f10]: Occupational Safety and Health Administration, 2010 final rule for construction sites concerning cranes, hoists, and derricks, 29 C.F.R. Part 1926, Subpart CC (U.S. Department of Labor, 2010).

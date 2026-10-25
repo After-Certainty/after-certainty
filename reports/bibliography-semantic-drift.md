@@ -12,9 +12,9 @@ Manuscript bibliographies are the source of truth for which works (and thus crea
 
 ## Portfolio summary
 
-- Books with bibliography audited: **24**
-- Matched pairs: **845**
-- Missing in semantic (no work found): **0**
+- Books with bibliography audited: **25**
+- Matched pairs: **871**
+- Missing in semantic (no work found): **38**
 - Exists but missing `relatedBooks` link: **0**
 - Stale `relatedBooks` links: **0**
 
@@ -42,6 +42,7 @@ Manuscript bibliographies are the source of truth for which works (and thus crea
 | `when-others-become-leaders` | list | 53 | 53 | 53 | 0 | 0 | 0 |
 | `when-others-look-to-you-v1` | list | 26 | 26 | 26 | 0 | 0 | 0 |
 | `when-others-look-to-you-v2` | list | 17 | 17 | 17 | 0 | 0 | 0 |
+| `when-the-key-changes-hands` | list | 64 | 26 | 26 | 38 | 0 | 0 |
 | `when-trust-stops-tracking-reality` | list | 23 | 23 | 23 | 0 | 0 | 0 |
 | `why-collaboration-is-so-hard` | pandoc_div | 15 | 15 | 15 | 0 | 0 | 0 |
 
@@ -109,9 +110,10 @@ _None._
 - `judith-n-shklar` (Judith N Shklar)
 - `ross-lee-and-richard-e-nisbett` (Ross, Lee, and Richard E. Nisbett)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (2)
 
-_None._
+- `lee-ross-and-richard-nisbett` on `ross-lee-and-richard-nisbett-the-person-and-the-situation`
+- `judith-n-shklar` on `shklar-judith-n-putting-cruelty-first`
 
 ## `before-certainty-arrives`
 
@@ -187,9 +189,9 @@ _None._
 - `eisenstadt-shmuel-n` (Eisenstadt, Shmuel N.)
 - `nissen-hans-j-peter-damerow-and-robert-k-englund` (Nissen, Hans J., Peter Damerow, and Robert K. Englund)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (1)
 
-_None._
+- `nissen-hans-j-peter-damerow-and-robert-k-englund` on `nissen-hans-j-peter-damerow-and-robert-k-englund-archaic`
 
 ## `coupling`
 
@@ -217,6 +219,7 @@ _None._
 - `beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin` ← biblio `beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin` (exact_slug, score=100)
 - `boehm-barry-w-software-engineering-economics` ← biblio `boehm-barry-w-software-engineering-economics` (exact_slug, score=100)
 - `bogle-john-c-the-clash-of-the-cultures-investment-vs-speculation` ← biblio `bogle-john-c-the-clash-of-the-cultures-investment-vs-speculation` (exact_slug, score=100)
+- `bommasani-rishi-percy-liang-and-tony-lee-holistic-evaluation-of-language-models` ← biblio `bommasani-rishi-percy-liang-and-tony-lee-holistic-evaluation-of-language-models` (exact_slug, score=100)
 - `brooks-frederick-p-jr-the-mythical-man-month-essays-on-software-engineering` ← biblio `brooks-frederick-p-jr-the-mythical-man-month-essays-on-software-engineering` (exact_slug, score=100)
 - `campbell-donald-t-assessing-the-impact-of-planned-social-change` ← biblio `campbell-donald-t-assessing-the-impact-of-planned-social-change` (exact_slug, score=100)
 - `cockburn-alistair-agile-software-development` ← biblio `cockburn-alistair-agile-software-development` (exact_slug, score=100)
@@ -233,7 +236,6 @@ _None._
 - `gawande-atul-the-checklist-manifesto-how-to-get-things-right` ← biblio `gawande-atul-the-checklist-manifesto-how-to-get-things-right` (exact_slug, score=100)
 - `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum` ← biblio `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum` (exact_slug, score=100)
 - `hayek-friedrich-a-the-use-of-knowledge-in-society` ← biblio `hayek-friedrich-a-the-use-of-knowledge-in-society` (exact_slug, score=100)
-- `hendrycks-dan-collin-burns-anya-chen-and-spencer-ball-holistic-evaluation-of-language-models` ← biblio `hendrycks-dan-collin-burns-anya-chen-and-spencer-ball-holistic-evaluation-of-language-models` (exact_slug, score=100)
 - `hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less` ← biblio `hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less` (exact_slug, score=100)
 - `humble-jez-and-david-farley-continuous-delivery-reliable-software-releases-through-build-test-an` ← biblio `humble-jez-and-david-farley-continuous-delivery-reliable-software-releases-through-build-test-an` (exact_slug, score=100)
 - `international-organization-for-standardization-iso-iec-42001-2023-information-technology-artific` ← biblio `international-organization-for-standardization-iso-iec-42001-2023-information-technology-artific` (exact_slug, score=100)
@@ -296,11 +298,11 @@ _None._
 - `bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell` (Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell)
 - `berle-adolf-a-jr-and-gardiner-c-means` (Berle, Adolf A., Jr., and Gardiner C. Means)
 - `beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy` (Beyer, Betsy, Chris Jones, Jennifer Petoff, and Niall Richard Murphy)
+- `bommasani-rishi-percy-liang-and-tony-lee` (Bommasani, Rishi, Percy Liang, and Tony Lee)
 - `dikert-karina-maria-paasivaara-and-casper-lassenius` (Dikert, Karina, Maria Paasivaara, and Casper Lassenius)
 - `ford-neal-rebecca-parsons-and-patrick-kua` (Ford, Neal, Rebecca Parsons, and Patrick Kua)
 - `forsgren-nicole-jez-humble-and-gene-kim` (Forsgren, Nicole, Jez Humble, and Gene Kim)
 - `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum-iii-and-kate-crawford` (Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, and Kate Crawford)
-- `hendrycks-dan-collin-burns-anya-chen-and-spencer-ball` (Hendrycks, Dan, Collin Burns, Anya Chen, and Spencer Ball)
 - `hood-christopher-and-ruth-dixon` (Hood, Christopher, and Ruth Dixon)
 - `humble-jez-and-david-farley` (Humble, Jez, and David Farley)
 - `jensen-michael-c-and-william-h-meckling` (Jensen, Michael C., and William H. Meckling)
@@ -316,9 +318,33 @@ _None._
 - `skelton-matthew-and-manuel-pais` (Skelton, Matthew, and Manuel Pais)
 - `u-s-department-of-defense-dod-std-2167a` (U.S. Department of Defense. DOD-STD-2167A)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (25)
 
-_None._
+- `john-allspaw-and-paul-hammond` on `allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr`
+- `lant-pritchett-matthew-andrews-and-michael-woolcock` on `andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr`
+- `helena-barke-and-lutz-prechelt` on `barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams`
+- `lucian-a-bebchuk-and-scott-hirst` on `bebchuk-lucian-a-and-scott-hirst-index-funds-and-the-future-of-corporate-governance-theory-evide`
+- `alistair-cockburn-andrew-hunt-arie-van-bennekum-brian-marick-dave-thomas-james-grenning-jeff-sutherland-jim-highsmith-jon-kern-ken-schwaber-kent-beck-martin-fowler-mike-beedle-robert-c-martin-ron-jeffries-steve-mellor-and-ward-cunningham` on `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr`
+- `angelina-mcmillan-major-emily-m-bender-shmargaret-shmitchell-and-timnit-gebru` on `bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of`
+- `adolf-a-berle-jr-and-gardiner-c-means` on `berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-property`
+- `betsy-beyer-chris-jones-jennifer-petoff-and-niall-richard-murphy` on `beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin`
+- `frederick-p-brooks-jr` on `brooks-frederick-p-jr-the-mythical-man-month-essays-on-software-engineering`
+- `casper-lassenius-karina-dikert-and-maria-paasivaara` on `dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca`
+- `neal-ford-patrick-kua-and-rebecca-parsons` on `ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c`
+- `gene-kim-jez-humble-and-nicole-forsgren` on `forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build`
+- `briana-vecchione-hal-daum-iii-hanna-wallach-jamie-morgenstern-jennifer-wortman-vaughan-kate-crawford-and-timnit-gebru` on `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum`
+- `christopher-hood-and-ruth-dixon` on `hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less`
+- `david-farley-and-jez-humble` on `humble-jez-and-david-farley-continuous-delivery-reliable-software-releases-through-build-test-an`
+- `michael-c-jensen-and-william-h-meckling` on `jensen-michael-c-and-william-h-meckling-theory-of-the-firm-managerial-behavior-agency-costs-and`
+- `gene-kim-jez-humble-john-willis-and-patrick-debois` on `kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class`
+- `gene-kim-george-spafford-and-kevin-behr` on `kim-gene-kevin-behr-and-george-spafford-the-phoenix-project-a-novel-about-it-devops-and-helping`
+- `akihiko-murata-catherine-c-lewis-and-rebecca-r-perry` on `lewis-catherine-c-rebecca-r-perry-and-akihiko-murata-how-should-research-contribute-to-instructi`
+- `donald-l-shaw-and-maxwell-e-mccombs` on `mccombs-maxwell-e-and-donald-l-shaw-the-agenda-setting-function-of-mass-media`
+- `andrew-zaldivar-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-lucy-vasserman-margaret-mitchell-parker-barnes-simone-wu-and-timnit-gebru` on `mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp`
+- `national-aeronautics-and-space-administration` on `national-aeronautics-and-space-administration-aviation-safety-reporting-system-asrs-program-mate`
+- `dan-boneh-deepak-kumar-megha-srivastava-and-neil-perry` on `perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai`
+- `christopher-pollitt-and-geert-bouckaert` on `pollitt-christopher-and-geert-bouckaert-public-management-reform-a-comparative-analysis`
+- `manuel-pais-and-matthew-skelton` on `skelton-matthew-and-manuel-pais-team-topologies-organizing-business-and-technology-teams-for-fas`
 
 ## `how-meaning-moves`
 
@@ -337,7 +363,6 @@ _None._
 - `french-john-r-p-and-bertram-raven-the-bases-of-social-power` ← biblio `french-john-r-p-and-bertram-raven-the-bases-of-social-power` (exact_slug, score=100)
 - `goffman-erving-interaction-ritual` ← biblio `goffman-erving-interaction-ritual` (exact_slug, score=100)
 - `kahan-dan-m-motivated-reasoning` ← biblio `kahan-dan-m-motivated-reasoning` (exact_slug, score=100)
-- `kruglanski-arie-w-the-need-for-cognitive-closure` ← biblio `kruglanski-arie-w-the-need-for-cognitive-closure` (exact_slug, score=100)
 - `lazarus-richard-s-emotion-and-adaptation` ← biblio `lazarus-richard-s-emotion-and-adaptation` (exact_slug, score=100)
 - `ledoux-joseph-the-emotional-brain` ← biblio `ledoux-joseph-the-emotional-brain` (exact_slug, score=100)
 - `march-james-g-and-herbert-a-simon-organizations` ← biblio `march-james-g-and-herbert-a-simon-organizations` (exact_slug, score=100)
@@ -351,6 +376,7 @@ _None._
 - `weick-karl-e-sensemaking-in-organizations` ← biblio `weick-karl-e-sensemaking-in-organizations` (exact_slug, score=100)
 - `edmondson-amy-c-the-fearless-organization-creating-psychological-safety-in-the-workplace-for-lea` ← biblio `edmondson-amy-c-the-fearless-organization` (title_author, score=85)
 - `fricker-miranda-epistemic-injustice-power-and-the-ethics-of-knowing` ← biblio `fricker-miranda-epistemic-injustice` (title_author, score=85)
+- `kruglanski-arie-w-and-donna-m-webster-motivated-closing-of-the-mind-seizing-and-freezing` ← biblio `kruglanski-arie-w-and-donna-m-webster-motivated-closing-of-the-mind` (title_author, score=85)
 - `ross-lee-and-andrew-ward-naive-realism-in-everyday-life` ← biblio `ross-lee-and-andrew-ward-naive-realism-in-everyday-life-implications-for-social-conflict-and-mis` (title_author, score=85)
 
 ### Missing in semantic (0)
@@ -369,16 +395,21 @@ _None._
 
 _None._
 
-### Biblio creators without thinker node (4)
+### Biblio creators without thinker node (5)
 
 - `french-john-r-p-and-bertram-raven` (French, John R. P., and Bertram Raven)
+- `kruglanski-arie-w-and-donna-m-webster` (Kruglanski, Arie W., and Donna M. Webster)
 - `march-james-g-and-herbert-a-simon` (March, James G., and Herbert A. Simon)
 - `ross-lee-and-andrew-ward` (Ross, Lee, and Andrew Ward)
 - `tajfel-henri-and-john-c-turner` (Tajfel, Henri, and John C. Turner)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (5)
 
-_None._
+- `bertram-raven-and-john-r-p-french` on `french-john-r-p-and-bertram-raven-the-bases-of-social-power`
+- `march-james-g-and-herbert-a-simon` on `march-james-g-and-herbert-a-simon-organizations`
+- `lee-ross-and-andrew-ward` on `ross-lee-and-andrew-ward-naive-realism-in-everyday-life`
+- `lee-ross-and-richard-nisbett` on `ross-lee-the-intuitive-psychologist-and-his-shortcomings`
+- `henri-tajfel-and-john-c-turner` on `tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior`
 
 ## `how-serious-systems-learn`
 
@@ -458,9 +489,19 @@ _None._
 - `tetlock-philip-e-and-dan-gardner` (Tetlock, Philip E., and Dan Gardner)
 - `weick-karl-e-and-kathleen-m-sutcliffe` (Weick, Karl E., and Kathleen M. Sutcliffe)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (11)
 
-_None._
+- `peter-l-berger-and-thomas-luckmann` on `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog`
+- `betsy-beyer-chris-jones-jennifer-petoff-and-niall-richard-murphy` on `beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin`
+- `dietrich-d-rner` on `d-rner-dietrich-the-logic-of-failure-recognizing-and-avoiding-error`
+- `timothy-r-lister-and-tom-demarco` on `demarco-tom-and-timothy-r-lister-peopleware-productive-projects`
+- `liam-fahey-and-robert-m-randall` on `fahey-liam-and-robert-m-randall-eds-learning-from-the-future`
+- `gene-kim-jez-humble-and-nicole-forsgren` on `forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build`
+- `eliyahu-m-goldratt-and-jeff-cox` on `goldratt-eliyahu-m-and-jeff-cox-the-goal-a-process-of-ongoing`
+- `donald-a-sch-n` on `sch-n-donald-a-the-reflective-practitioner-how-professionals-think`
+- `carol-tavris-and-elliot-aronson` on `tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me`
+- `tetlock-philip-e-and-dan-gardner` on `tetlock-philip-e-and-dan-gardner-superforecasting-the-art-and-science-of-prediction`
+- `weick-karl-e-and-kathleen-m-sutcliffe` on `weick-karl-e-and-kathleen-m-sutcliffe-managing-the-unexpected-resilient-performance-in-an-age-of`
 
 ## `how-trust-forms`
 
@@ -507,9 +548,9 @@ _None._
 
 - `berger-peter-l-and-thomas-luckmann` (Berger, Peter L., and Thomas Luckmann)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (1)
 
-_None._
+- `peter-l-berger-and-thomas-luckmann` on `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog`
 
 ## `living-in-sediment`
 
@@ -623,9 +664,18 @@ _None._
 - `liebowitz-s-j-and-stephen-e-margolis` (Liebowitz, S. J., and Stephen E. Margolis)
 - `march-james-g-and-herbert-a-simon` (March, James G., and Herbert A. Simon)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (10)
 
-_None._
+- `daron-acemoglu-and-james-a-robinson` on `acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power`
+- `alexander-christopher-sara-ishikawa-murray-silverstein-et-al` on `alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language`
+- `peter-l-berger-and-thomas-luckmann` on `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog`
+- `geoffrey-c-bowker-and-susan-leigh-star` on `bowker-geoffrey-c-and-susan-leigh-star-sorting-things-out-classification-and`
+- `timothy-lister-and-tom-demarco` on `demarco-tom-and-timothy-lister-slack-getting-past-burnout-busywork-and-the`
+- `peter-karn-e-and-raghu-garud` on `garud-raghu-and-peter-karn-e-path-dependence-and-creation`
+- `l-on-krier` on `krier-l-on-the-architecture-of-community`
+- `george-lakoff-and-mark-johnson` on `lakoff-george-and-mark-johnson-metaphors-we-live-by`
+- `s-j-liebowitz-and-stephen-e-margolis` on `liebowitz-s-j-and-stephen-e-margolis-path-dependence-lock-in-and-history`
+- `march-james-g-and-herbert-a-simon` on `march-james-g-and-herbert-a-simon-organizations`
 
 ## `the-discipline-of-uncertainty`
 
@@ -668,9 +718,10 @@ _None._
 - `u-s-securities-and-exchange-commission-office-of-the-whistleblower` (U.S. Securities and Exchange Commission, Office of the Whistleblower)
 - `weick-karl-e-and-kathleen-m-sutcliffe` (Weick, Karl E., and Kathleen M. Sutcliffe)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (2)
 
-_None._
+- `charles-g-lord-lee-ross-and-mark-r-lepper` on `lord-charles-g-lee-ross-and-mark-r-lepper-biased-assimilation-and-attitude-polarization-the-effe`
+- `weick-karl-e-and-kathleen-m-sutcliffe` on `weick-karl-e-and-kathleen-m-sutcliffe-managing-the-unexpected-resilient-performance-in-an-age-of`
 
 ## `the-economy-we-dont-experience`
 
@@ -733,9 +784,13 @@ _None._
 - `reinhart-carmen-m-and-kenneth-s-rogoff` (Reinhart, Carmen M., and Kenneth S. Rogoff)
 - `tetlock-philip-e-and-dan-gardner` (Tetlock, Philip E., and Dan Gardner)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (5)
 
-_None._
+- `hovland-carl-i-and-walter-weiss` on `hovland-carl-i-and-walter-weiss-the-influence-of-source-credibility-on-communication-effectivene`
+- `kahneman-daniel-and-amos-tversky` on `kahneman-daniel-and-amos-tversky-prospect-theory-an-analysis-of-decision-under-risk`
+- `lupia-arthur-and-mathew-d-mccubbins` on `lupia-arthur-and-mathew-d-mccubbins-the-democratic-dilemma-can-citizens-learn-what-they-need-to`
+- `carmen-m-reinhart-and-kenneth-s-rogoff` on `reinhart-carmen-m-and-kenneth-s-rogoff-this-time-is-different-eight-centuries-of-financial-folly`
+- `tetlock-philip-e-and-dan-gardner` on `tetlock-philip-e-and-dan-gardner-superforecasting-the-art-and-science-of-prediction`
 
 ## `the-game-we-think-we-saw`
 
@@ -959,13 +1014,17 @@ _None._
 - `u-s-government-accountability-office` (U.S. Government Accountability Office)
 - `united-states-strike-commission` (United States Strike Commission)
 
-### Orphan creatorSlugs on linked sources (25)
+### Orphan creatorSlugs on linked sources (38)
 
 - `tom-abate` on `abate-tom-nummi-workers-say-their-final-good-byes`
+- `belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-april-1998-london-uk-government-https-www-gov-uk-government-publications-the-belfast-agreement` on `belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-apr`
 - `blackpast` on `blackpast-black-panther-party-s-free-breakfast-program-1969-1980`
+- `347-u-s-483-1954-brown-v-board-of-education` on `brown-v-board-of-education-347-u-s-483-1954`
 - `nick-bunkley` on `bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california`
 - `california-african-american-museum` on `california-african-american-museum-free-breakfast-for-school-children-program`
 - `church-committee` on `church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp`
+- `constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution` on `constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution`
+- `eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction-of-justice-within-the-state-of-arkansas-24-september-1957-national-archives-https-www-archives-gov-milestone-documents-executive-order-10730` on `eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction`
 - `electoral-commission-of-south-africa` on `electoral-commission-of-south-africa-27-apr-1994-national-election`
 - `encyclopedia-of-arkansas` on `encyclopedia-of-arkansas-lost-year`
 - `federal-aviation-administration` on `federal-aviation-administration-mcdonnell-douglas-dc-8-61`
@@ -973,17 +1032,26 @@ _None._
 - `harvard-university-pluralism-project` on `harvard-university-pluralism-project-langar-the-communal-meal`
 - `lowcountry-digital-history-initiative` on `lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark`
 - `lowcountry-digital-history-initiative` on `lowcountry-digital-history-initiative-the-progressive-club-johns-island`
+- `martin-luther-king-jr-research-and-education-institute-stanford-university` on `martin-luther-king-jr-research-and-education-institute-stanford-university-i-have-a-dream`
 - `mount-vernon` on `mount-vernon-newburgh-address`
 - `mount-vernon` on `mount-vernon-newburgh-conspiracy`
 - `national-aeronautics-and-space-administration` on `national-aeronautics-and-space-administration-apollo-11-mission-report`
 - `national-aeronautics-and-space-administration` on `national-aeronautics-and-space-administration-managing-nasa-in-the-apollo-era`
+- `national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-programs-washington-dc-smithsonian-institution-https-nmaahc-si-edu` on `national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p`
 - `national-museum-of-american-history` on `national-museum-of-american-history-i-have-a-dream`
+- `national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-chsc` on `national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-c`
 - `national-park-service` on `national-park-service-march-history`
 - `national-park-service` on `national-park-service-march-on-washington-for-jobs-and-freedom`
+- `national-park-service-pullman-national-historical-park-https-www-nps-gov-pull` on `national-park-service-pullman-national-historical-park-https-www-nps-gov-pull`
 - `national-transportation-safety-board` on `national-transportation-safety-board-aircraft-accident-report-united-airlines-inc-mcdonnell-doug`
 - `northern-ireland-department-of-justice` on `northern-ireland-department-of-justice-department-of-justice-interface-programme`
+- `northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referendum-on-the-belfast-agreement` on `northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referen`
 - `pettigrew-thomas-f-and-linda-r-tropp` on `pettigrew-thomas-f-and-linda-r-tropp-a-meta-analytic-test-of-intergroup-contact-theory`
+- `presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission` on `presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission-report-of-the`
+- `377-u-s-533-1964-reynolds-v-sims` on `reynolds-v-sims-377-u-s-533-1964`
 - `sncc-digital-gateway` on `sncc-digital-gateway-birth-of-sncc`
+- `especially-the-commons-https-www-nobelprize-org-prizes-economic-sciences-2009-summary-sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-for-elinor-ostrom-for-her-analysis-of-economic-governance` on `sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-f`
+- `u-s-department-of-agriculture-food-and-nutrition-service` on `u-s-department-of-agriculture-food-and-nutrition-service-school-breakfast-program-faqs`
 - `u-s-government-accountability-office` on `u-s-government-accountability-office-year-2000-computing-challenge-lessons-learned-can-be-applie`
 - `united-states-strike-commission` on `united-states-strike-commission-report-on-the-chicago-strike-of-june-july-1894`
 
@@ -1066,9 +1134,16 @@ _None._
 - `wachsmuth-david-and-alexander-weisler` (Wachsmuth, David, and Alexander Weisler)
 - `weick-karl-e-and-kathleen-m-sutcliffe` (Weick, Karl E., and Kathleen M. Sutcliffe)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (8)
 
-_None._
+- `peter-l-berger-and-thomas-luckmann` on `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog`
+- `bruce-patton-roger-fisher-and-william-ury` on `fisher-roger-william-ury-and-bruce-patton-getting-to-yes-negotiating-agreement-without-giving-in`
+- `james-m-cook-lynn-smith-lovin-and-miller-mcpherson` on `mcpherson-miller-lynn-smith-lovin-and-james-m-cook-birds-of-a-feather-homophily-in-social-networ`
+- `james-r-griesemer-and-susan-leigh-star` on `star-susan-leigh-and-james-r-griesemer-institutional-ecology-translations-and-boundary-objects`
+- `peter-suedfeld-philip-e-tetlock-and-sally-streufert` on `suedfeld-peter-philip-e-tetlock-and-sally-streufert-conceptual-integrative-complexity`
+- `tetlock-philip-e-and-dan-gardner` on `tetlock-philip-e-and-dan-gardner-superforecasting-the-art-and-science-of-prediction`
+- `alexander-weisler-and-david-wachsmuth` on `wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing`
+- `weick-karl-e-and-kathleen-m-sutcliffe` on `weick-karl-e-and-kathleen-m-sutcliffe-managing-the-unexpected-resilient-performance-in-an-age-of`
 
 ## `what-we-cannot-see`
 
@@ -1128,9 +1203,14 @@ _None._
 - `simons-daniel-j-and-christopher-f-chabris` (Simons, Daniel J., and Christopher F. Chabris)
 - `tversky-amos-and-daniel-kahneman` (Tversky, Amos, and Daniel Kahneman)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (6)
 
-_None._
+- `federal-aviation-administration` on `federal-aviation-administration-and-nasa-aviation-safety-reporting-system-asrs`
+- `kahneman-daniel-and-gary-klein` on `kahneman-daniel-and-gary-klein-conditions-for-intuitive-expertise-a-failure-to-disagree`
+- `leveson-nancy-g-and-clark-s-turner` on `leveson-nancy-g-and-clark-s-turner-an-investigation-of-the-therac-25-accidents`
+- `jeffrey-kluger-and-jim-lovell` on `lovell-jim-and-jeffrey-kluger-lost-moon-the-perilous-voyage-of-apollo-13`
+- `christopher-f-chabris-and-daniel-j-simons` on `simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes`
+- `tversky-amos-and-daniel-kahneman` on `tversky-amos-and-daniel-kahneman-availability-a-heuristic-for-judging-frequency-and-probability`
 
 ## `when-accountability-no-longer-expires`
 
@@ -1264,9 +1344,13 @@ _None._
 - `michael-j-de-la-merc` (Michael J de la Merc)
 - `truth-and-reconciliation-commission-of-south-africa` (Truth and Reconciliation Commission of South Africa)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (5)
 
-_None._
+- `brownell-kelly-d-and-kenneth-e-warner` on `brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an`
+- `ceplair-larry-and-steven-englund` on `ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193`
+- `alice-h-eagly-and-linda-l-carli` on `eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth`
+- `martin-luther-king-jr` on `king-martin-luther-jr-letter-from-birmingham-jail`
+- `merritt-anna-c-daniel-a-effron-and-beno-t-monin` on `merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to`
 
 ## `when-authority-outlives-accountability`
 
@@ -1331,9 +1415,13 @@ _None._
 - `march-james-g-and-johan-p-olsen` (March, James G., and Johan P. Olsen)
 - `maslach-christina-and-michael-p-leiter` (Maslach, Christina, and Michael P. Leiter)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (5)
 
-_None._
+- `john-c-hershey-and-jonathan-baron` on `baron-jonathan-and-john-c-hershey-outcome-bias-in-decision`
+- `bren-brown` on `brown-bren-dare-to-lead-brave-work-tough-conversations-whole`
+- `james-g-march-and-johan-p-olsen` on `march-james-g-and-johan-p-olsen-rediscovering-institutions-the`
+- `christina-maslach-and-michael-p-leiter` on `maslach-christina-and-michael-p-leiter-the-truth-about-burnout`
+- `lee-ross-and-richard-nisbett` on `ross-lee-the-intuitive-psychologist-and-his-shortcomings`
 
 ## `when-incentives-become-the-moral-language`
 
@@ -1384,7 +1472,7 @@ _None._
 - `u-s-environmental-protection-agency-notice-of-violation-volkswagen-clean-diesel-vehicles` ← biblio `u-s-environmental-protection-agency-notice-of-violation-volkswagen-clean-diesel-vehicles` (exact_slug, score=100)
 - `voluntary-carbon-markets-integrity-initiative-claims-code-of-practice` ← biblio `voluntary-carbon-markets-integrity-initiative-claims-code-of-practice` (exact_slug, score=100)
 - `worker-adjustment-and-retraining-notification-act-29-u-s-c-2101-2109` ← biblio `worker-adjustment-and-retraining-notification-act-29-u-s-c-2101-2109` (exact_slug, score=100)
-- `zuckerberg-mark-testimony-before-the-u-s-senate-judiciary-and-commerce-committees-april-10-11-20` ← biblio `zuckerberg-mark-testimony-before-the-u-s-senate-judiciary-and-commerce-committees-april-10-11-20` (exact_slug, score=100)
+- `zuckerberg-mark-testimony-before-the-u-s-senate-judiciary-and-commerce-committees-april-10-2018` ← biblio `zuckerberg-mark-testimony-before-the-u-s-senate-judiciary-and-commerce-committees-april-10-2018` (exact_slug, score=100)
 - `centers-for-medicare-medicaid-services-hospital-readmissions` ← biblio `centers-for-medicare-medicaid-services-hospital-readmissions-reduction-program-hrrp` (title_author, score=85)
 - `talbot-s-g-and-w-dean-physicians-aren-t-burning-out-they-re` ← biblio `talbot-s-g-and-w-dean-physicians-aren-t-burning-out-they-re-suffering-from-moral-injury` (title_author, score=85)
 - `united-nations-framework-convention-on-climate-change-paris` ← biblio `united-nations-framework-convention-on-climate-change-paris-agreement` (title_author, score=85)
@@ -1422,11 +1510,14 @@ _None._
 - `san-francisco-declaration-on-research-assessment-dora-2012-https-sfdora-org` (San Francisco Declaration on Research Assessment (DORA). 2012. https://sfdora.org/)
 - `talbot-s-g-and-w-dean` (Talbot, S. G., and W. Dean)
 - `worker-adjustment-and-retraining-notification-act-29-u-s-c-2101-2109` (Worker Adjustment and Retraining Notification Act, 29 U.S.C. §§ 2101-2109)
-- `zuckerberg-mark-testimony-before-the-u-s-senate-judiciary-and-commerce-committees-april-10-11-2018` (Zuckerberg, Mark. Testimony before the U.S. Senate Judiciary and Commerce Committees, April 10-11, 2018)
+- `zuckerberg-mark-testimony-before-the-u-s-senate-judiciary-and-commerce-committees-april-10-2018` (Zuckerberg, Mark. Testimony before the U.S. Senate Judiciary and Commerce Committees, April 10, 2018)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (4)
 
-_None._
+- `cappelli-peter-and-anna-tavis` on `cappelli-peter-and-anna-tavis-the-performance-management-revolution`
+- `horwitz-jeff-and-deepa-seetharaman` on `horwitz-jeff-and-deepa-seetharaman-facebook-executives-shut-down-efforts-to-make-the-site-less-d`
+- `dora` on `san-francisco-declaration-on-research-assessment-dora-2012-https-sfdora-org`
+- `s-g-talbot-and-w-dean` on `talbot-s-g-and-w-dean-physicians-aren-t-burning-out-they-re`
 
 ## `when-interpretation-no-longer-matters`
 
@@ -1534,12 +1625,19 @@ _None._
 - `u-s-house-of-representatives-impeaching-donald-john-trump-president-of-the-united-states-for-high-crimes-and-misdemeanors-h-res-24-117th-cong-january-13-2021` (U.S. House of Representatives. Impeaching Donald John Trump, President of the United States, for High Crimes and Misdemeanors. H. Res. 24. 117th Cong. (January 13, 2021))
 - `wright-stuart-a` (Wright, Stuart A.)
 
-### Orphan creatorSlugs on linked sources (5)
+### Orphan creatorSlugs on linked sources (12)
 
+- `eliot-brown-and-maureen-farrell` on `brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio`
+- `javier-corrales-and-michael-penfold` on `corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy`
+- `frank-dik-tter` on `dik-tter-frank-the-cultural-revolution-a-people-s-history-1962-1976`
+- `carlos-escud` on `escud-carlos-argentine-political-culture`
 - `jeffrey-m-jones` on `jones-jeffrey-m-last-trump-job-approval-34-average-is-record-low-41`
 - `jeffrey-m-jones` on `jones-jeffrey-m-trump-approval-more-stable-than-approval-for-prior-presidents`
 - `jeffrey-m-jones` on `jones-jeffrey-m-trump-job-approval-sets-new-record-for-polarization`
+- `kessler-glenn-salvador-rizzo-and-meg-kelly` on `kessler-glenn-salvador-rizzo-and-meg-kelly-president-trump-has-made-more-than-20-000-false-or-mi`
+- `michael-schoenhals-and-roderick-macfarquhar` on `macfarquhar-roderick-and-michael-schoenhals-mao-s-last-revolution`
 - `aleksandr-i-solzhenitsyn` on `solzhenitsyn-aleksandr-i-the-gulag-archipelago-1918-1956-an-experiment-in-literary-investigation`
+- `eugene-v-gallagher-and-james-d-tabor` on `tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer`
 - `loung-ung` on `ung-loung-first-they-killed-my-father-a-daughter-of-cambodia-remembers`
 
 ## `when-moral-seriousness-scales`
@@ -1595,9 +1693,10 @@ _None._
 - `march-james-g-and-herbert-a-simon` (March, James G., and Herbert A. Simon)
 - `march-james-g-and-johan-p-olsen` (March, James G., and Johan P. Olsen)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (2)
 
-_None._
+- `march-james-g-and-herbert-a-simon` on `march-james-g-and-herbert-a-simon-organizations`
+- `james-g-march-and-johan-p-olsen` on `march-james-g-and-johan-p-olsen-rediscovering-institutions-the`
 
 ## `when-others-become-leaders`
 
@@ -1693,9 +1792,13 @@ _None._
 - `v-clav-havel` (Václav Havel)
 - `webb-miller-dispatches-from-dharasana-salt-works-raid-may-1930` (Webb Miller. Dispatches from Dharasana Salt Works raid. May 1930)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (5)
 
-_None._
+- `stephanie-beasley` on `associated-press-taylor-swift-donates-to-food-banks-on-eras-tour-providing-thousands-of-meals`
+- `desai-ashwin-and-goolam-vahed` on `desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire`
+- `government-of-south-africa-truth-and-reconciliation-commission` on `government-of-south-africa-truth-and-reconciliation-commission-final-report`
+- `v-clav-havel` on `havel-vaclav-the-power-of-the-powerless`
+- `martin-luther-king-jr` on `king-martin-luther-jr-letter-from-birmingham-jail`
 
 ## `when-others-look-to-you-v1`
 
@@ -1759,9 +1862,15 @@ _None._
 - `weick-karl-e-and-kathleen-m-sutcliffe` (Weick, Karl E., and Kathleen M. Sutcliffe)
 - `weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld` (Weick, Karl E., Kathleen M. Sutcliffe, and David Obstfeld)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (7)
 
-_None._
+- `chris-argyris-and-donald-a-sch-n` on `argyris-chris-and-donald-a-schon-organizational-learning-ii`
+- `john-c-hershey-and-jonathan-baron` on `baron-jonathan-and-john-c-hershey-outcome-bias-in-decision`
+- `carl-a-kallgren-raymond-r-reno-and-robert-b-cialdini` on `cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus`
+- `sidney-w-a-dekker` on `dekker-sidney-w-a-just-culture-restoring-trust-and-accountability`
+- `gerard-b-carsten-kelly-lowe-michael-uhl-bien-and-ronald-e-riggio` on `uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b`
+- `weick-karl-e-and-kathleen-m-sutcliffe` on `weick-karl-e-and-kathleen-m-sutcliffe-managing-the-unexpected-resilient-performance-in-an-age-of`
+- `weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld` on `weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing`
 
 ## `when-others-look-to-you-v2`
 
@@ -1813,9 +1922,149 @@ _None._
 - `weick-karl-e-and-kathleen-m-sutcliffe` (Weick, Karl E., and Kathleen M. Sutcliffe)
 - `weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld` (Weick, Karl E., Kathleen M. Sutcliffe, and David Obstfeld)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (4)
+
+- `chris-argyris-and-donald-a-sch-n` on `argyris-chris-and-donald-a-schon-organizational-learning-ii`
+- `carl-a-kallgren-raymond-r-reno-and-robert-b-cialdini` on `cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus`
+- `weick-karl-e-and-kathleen-m-sutcliffe` on `weick-karl-e-and-kathleen-m-sutcliffe-managing-the-unexpected-resilient-performance-in-an-age-of`
+- `weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld` on `weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing`
+
+## `when-the-key-changes-hands`
+
+- Bibliography: `books/when-the-key-changes-hands/back-matter/bibliography.md`
+- Parse style: `list` (64 entries)
+- Semantic linked sources: 26
+- Parse warning: other styles also matched: plain_chicago=14
+
+### Matched (26)
+
+- `arendt-hannah-responsibility-and-judgment` ← biblio `arendt-hannah-responsibility-and-judgment` (exact_slug, score=100)
+- `bandura-albert-social-learning-theory` ← biblio `bandura-albert-social-learning-theory` (exact_slug, score=100)
+- `goffman-erving-the-presentation-of-self-in-everyday-life` ← biblio `goffman-erving-the-presentation-of-self-in-everyday-life` (exact_slug, score=100)
+- `hardin-russell-trust-and-trustworthiness` ← biblio `hardin-russell-trust-and-trustworthiness` (exact_slug, score=100)
+- `hayek-friedrich-a-the-use-of-knowledge-in-society` ← biblio `hayek-friedrich-a-the-use-of-knowledge-in-society` (exact_slug, score=100)
+- `heifetz-ronald-a-leadership-without-easy-answers` ← biblio `heifetz-ronald-a-leadership-without-easy-answers` (exact_slug, score=100)
+- `murdoch-iris-the-sovereignty-of-good` ← biblio `murdoch-iris-the-sovereignty-of-good` (exact_slug, score=100)
+- `popper-karl-the-open-society-and-its-enemies` ← biblio `popper-karl-the-open-society-and-its-enemies` (exact_slug, score=100)
+- `schein-edgar-h-organizational-culture-and-leadership` ← biblio `schein-edgar-h-organizational-culture-and-leadership` (exact_slug, score=100)
+- `simon-herbert-a-a-behavioral-model-of-rational-choice` ← biblio `simon-herbert-a-a-behavioral-model-of-rational-choice` (exact_slug, score=100)
+- `smith-nick-i-was-wrong-the-meanings-of-apologies` ← biblio `smith-nick-i-was-wrong-the-meanings-of-apologies` (exact_slug, score=100)
+- `baier-annette-c-trust-and-antitrust` ← biblio `baier-annette-trust-and-antitrust` (title_author, score=85)
+- `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog` ← biblio `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality` (title_author, score=85)
+- `edmondson-amy-c-the-fearless-organization-creating-psychological-safety-in-the-workplace-for-lea` ← biblio `edmondson-amy-c-the-fearless-organization` (title_author, score=85)
+- `luhmann-niklas-trust-and-power-two-works` ← biblio `luhmann-niklas-trust-and-power` (title_author, score=85)
+- `macintyre-alasdair-after-virtue-a-study-in-moral-theory` ← biblio `macintyre-alasdair-after-virtue` (title_author, score=85)
+- `march-james-g-and-johan-p-olsen-rediscovering-institutions-the` ← biblio `march-james-g-and-johan-p-olsen-rediscovering-institutions` (title_author, score=85)
+- `milgram-stanley-obedience-to-authority-an-experimental-view` ← biblio `milgram-stanley-obedience-to-authority` (title_author, score=85)
+- `ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action` ← biblio `ostrom-elinor-governing-the-commons` (title_author, score=85)
+- `ross-lee-and-richard-nisbett-the-person-and-the-situation` ← biblio `ross-lee-and-richard-e-nisbett-the-person-and-the-situation` (title_author, score=85)
+- `scott-james-c-seeing-like-a-state-how-certain-schemes-to-improve-the-human-condition-have-failed` ← biblio `scott-james-c-seeing-like-a-state` (title_author, score=85)
+- `selznick-philip-leadership-in-administration-a-sociological-interpretation` ← biblio `selznick-philip-leadership-in-administration` (title_author, score=85)
+- `tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of-care` ← biblio `tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of` (title_author, score=85)
+- `vaughan-diane-the-challenger-launch-decision-risky-technology-culture-and-deviance-at-nasa` ← biblio `vaughan-diane-the-challenger-launch-decision` (title_author, score=85)
+- `weber-max-economy-and-society-an-outline-of-interpretive-sociology` ← biblio `weber-max-economy-and-society` (title_author, score=85)
+- `zimbardo-philip-the-lucifer-effect-understanding-how-good-people` ← biblio `zimbardo-philip-the-lucifer-effect` (title_author, score=85)
+
+### Missing in semantic (38)
+
+- Julia Annas — *Intelligent Virtue* (`annas-julia-intelligent-virtue`)
+- G. E. M Anscombe — *Modern Moral Philosophy* (`anscombe-g-e-m-modern-moral-philosophy`)
+- Aristotle — *Nicomachean Ethics* (`aristotle-nicomachean-ethics`)
+- Albert Bandura — *Moral Disengagement in the Perpetration of Inhumanities* (`bandura-albert-moral-disengagement-in-the-perpetration-of-inhumanities`)
+- James MacGregor Burns — *Leadership* (`burns-james-macgregor-leadership`)
+- Cheshire Calhoun — *Standing for Something* (`calhoun-cheshire-standing-for-something`)
+- John M Doris — *Lack of Character: Personality and Moral Behavior* (`doris-john-m-lack-of-character-personality-and-moral-behavior`)
+- Angela Duckworth — *Grit* (`duckworth-angela-grit`)
+- Murray Edelman — *The Symbolic Uses of Politics* (`edelman-murray-the-symbolic-uses-of-politics`)
+- Eisenstadt, Shmuel N. — *Max Weber on Charisma and Institution Building* (`eisenstadt-shmuel-n-ed-max-weber-on-charisma-and-institution-building`)
+- Harry G Frankfurt — *The Importance of What We Care About* (`frankfurt-harry-g-the-importance-of-what-we-care-about`)
+- Harry G Frankfurt — *The Reasons of Love* (`frankfurt-harry-g-the-reasons-of-love`)
+- John W Gardner — *On Leadership* (`gardner-john-w-on-leadership`)
+- Clifford Geertz — *Centers, Kings, and Charisma: Reflections on the* (`geertz-clifford-centers-kings-and-charisma-reflections-on-the`)
+- Charles L Griswold — *Forgiveness: A Philosophical Exploration* (`griswold-charles-l-forgiveness-a-philosophical-exploration`)
+- Oscar Grusky — *Managerial Succession and Organizational Effectiveness* (`grusky-oscar-managerial-succession-and-organizational-effectiveness`)
+- Gilbert Harman — *Moral Philosophy Meets Social Psychology: Virtue Ethics* (`harman-gilbert-moral-philosophy-meets-social-psychology-virtue-ethics`)
+- Heifetz, Ronald, Alexander Grashow, and Marty Linsky — *The Practice of* (`heifetz-ronald-alexander-grashow-and-marty-linsky-the-practice-of`)
+- Virginia Held — *The Ethics of Care: Personal, Political, and Global* (`held-virginia-the-ethics-of-care-personal-political-and-global`)
+- Judith Herman — *Truth and Repair: How Trauma Survivors Envision Justice* (`herman-judith-truth-and-repair-how-trauma-survivors-envision-justice`)
+- bell hooks — *All About Love: New Visions* (`hooks-bell-all-about-love-new-visions`)
+- William James — *Habit* (`james-william-habit`)
+- Karen Jones — *Trust as an Affective Attitude* (`jones-karen-trust-as-an-affective-attitude`)
+- Immanuel Kant — *Groundwork of the Metaphysics of Morals* (`kant-immanuel-groundwork-of-the-metaphysics-of-morals`)
+- Madison, James. Federalist No. 51. In *The Federalist Papers*, edited by — *(no title)* (`madison-james-federalist-no-51-in-the-federalist-papers-edited-by`)
+- Robert K Merton — *The Unanticipated Consequences of Purposive Social* (`merton-robert-k-the-unanticipated-consequences-of-purposive-social`)
+- Walter Mischel — *Personality and Assessment* (`mischel-walter-personality-and-assessment`)
+- Thomas Nagel — *Moral Luck* (`nagel-thomas-moral-luck`)
+- Reinhold Niebuhr — *The Irony of American History* (`niebuhr-reinhold-the-irony-of-american-history`)
+- Onora O'Neill — *A Question of Trust: The BBC Reith Lectures 2002* (`o-neill-onora-a-question-of-trust-the-bbc-reith-lectures-2002`)
+- Philip Pettit — *Republicanism: A Theory of Freedom and Government* (`pettit-philip-republicanism-a-theory-of-freedom-and-government`)
+- Jeffrey Pfeffer — *The Ambiguity of Leadership* (`pfeffer-jeffrey-the-ambiguity-of-leadership`)
+- Michael Polanyi — *The Tacit Dimension* (`polanyi-michael-the-tacit-dimension`)
+- Paul Ricoeur — *Oneself as Another* (`ricoeur-paul-oneself-as-another`)
+- Margaret Urban Walker — *Moral Repair: Reconstructing Moral Relations after* (`walker-margaret-urban-moral-repair-reconstructing-moral-relations-after`)
+- Bernard Williams — *Moral Luck* (`williams-bernard-moral-luck`)
+- Susan Wolf — *Moral Saints* (`wolf-susan-moral-saints`)
+- Wendy Wood — *Good Habits, Bad Habits* (`wood-wendy-good-habits-bad-habits`)
+
+### Exists but missing relatedBooks (0)
 
 _None._
+
+### Stale relatedBooks (0)
+
+_None._
+
+### Thinkers stale for this book (0)
+
+_None._
+
+### Biblio creators without thinker node (38)
+
+- `angela-duckworth` (Angela Duckworth)
+- `annette-baier` (Annette Baier)
+- `aristotle` (Aristotle)
+- `bell-hooks` (bell hooks)
+- `berger-peter-l-and-thomas-luckmann` (Berger, Peter L., and Thomas Luckmann)
+- `bernard-williams` (Bernard Williams)
+- `charles-l-griswold` (Charles L Griswold)
+- `cheshire-calhoun` (Cheshire Calhoun)
+- `eisenstadt-shmuel-n` (Eisenstadt, Shmuel N.)
+- `g-e-m-anscombe` (G. E. M Anscombe)
+- `gilbert-harman` (Gilbert Harman)
+- `harry-g-frankfurt` (Harry G Frankfurt)
+- `heifetz-ronald-alexander-grashow-and-marty-linsky` (Heifetz, Ronald, Alexander Grashow, and Marty Linsky)
+- `immanuel-kant` (Immanuel Kant)
+- `james-macgregor-burns` (James MacGregor Burns)
+- `jeffrey-pfeffer` (Jeffrey Pfeffer)
+- `john-m-doris` (John M Doris)
+- `john-w-gardner` (John W Gardner)
+- `judith-herman` (Judith Herman)
+- `julia-annas` (Julia Annas)
+- `karen-jones` (Karen Jones)
+- `karl-popper` (Karl Popper)
+- `madison-james-federalist-no-51-in-the-federalist-papers-edited-by` (Madison, James. Federalist No. 51. In *The Federalist Papers*, edited by)
+- `march-james-g-and-johan-p-olsen` (March, James G., and Johan P. Olsen)
+- `margaret-urban-walker` (Margaret Urban Walker)
+- `michael-polanyi` (Michael Polanyi)
+- `murray-edelman` (Murray Edelman)
+- `oscar-grusky` (Oscar Grusky)
+- `paul-ricoeur` (Paul Ricoeur)
+- `philip-pettit` (Philip Pettit)
+- `reinhold-niebuhr` (Reinhold Niebuhr)
+- `ross-lee-and-richard-e-nisbett` (Ross, Lee, and Richard E. Nisbett)
+- `susan-wolf` (Susan Wolf)
+- `thomas-nagel` (Thomas Nagel)
+- `virginia-held` (Virginia Held)
+- `walter-mischel` (Walter Mischel)
+- `wendy-wood` (Wendy Wood)
+- `william-james` (William James)
+
+### Orphan creatorSlugs on linked sources (4)
+
+- `peter-l-berger-and-thomas-luckmann` on `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog`
+- `james-g-march-and-johan-p-olsen` on `march-james-g-and-johan-p-olsen-rediscovering-institutions-the`
+- `karl-popper` on `popper-karl-the-open-society-and-its-enemies`
+- `lee-ross-and-richard-nisbett` on `ross-lee-and-richard-nisbett-the-person-and-the-situation`
 
 ## `when-trust-stops-tracking-reality`
 
@@ -1872,9 +2121,9 @@ _None._
 - `druckman-james-n-et-al` (Druckman, James N., et al)
 - `keep-william-w-and-peter-j-vander-nat` (Keep, William W., and Peter J. Vander Nat)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (1)
 
-_None._
+- `peter-j-vander-nat-and-william-w-keep` on `keep-william-w-and-peter-j-vander-nat-multilevel-marketing-and-pyramid-schemes-in-the-united-sta`
 
 ## `why-collaboration-is-so-hard`
 
@@ -1926,9 +2175,14 @@ _None._
 - `occupational-safety-and-health-administration` (Occupational Safety and Health Administration)
 - `star-susan-leigh-and-anselm-strauss` (Star, Susan Leigh, and Anselm Strauss)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (6)
 
-_None._
+- `kwan-janice-l-lisha-lo-margaret-sampson-and-kaveh-g-shojania` on `kwan-janice-l-lisha-lo-margaret-sampson-and-kaveh-g-shojania-medication-reconciliation-during-tr`
+- `march-james-g-and-herbert-a-simon` on `march-james-g-and-herbert-a-simon-organizations`
+- `morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman` on `morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman-emergency-departme`
+- `occupational-safety-and-health-administration` on `occupational-safety-and-health-administration-cranes-and-derricks-in-construction-final-rule`
+- `occupational-safety-and-health-administration` on `occupational-safety-and-health-administration-cranes-and-derricks`
+- `anselm-strauss-and-susan-leigh-star` on `star-susan-leigh-and-anselm-strauss-layers-of-silence-arenas-of-voice-the-ecology-of-visible-and`
 
 ---
 

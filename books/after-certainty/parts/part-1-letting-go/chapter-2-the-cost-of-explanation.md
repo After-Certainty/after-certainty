@@ -66,7 +66,7 @@ Explanation protects us from confusion. It does not protect us from responsibili
 
 You can sometimes see the shift in how people talk about an event. At first the questions are urgent: What happened? Who is affected? What needs to change now? Then the vocabulary stabilizes—root causes, systemic factors, contributing conditions. The language grows more sophisticated, and the room grows calmer. The sophistication keeps increasing while the harm stays strangely fixed, like a river widening its banks while the current keeps cutting the same channel.
 
-Explanation crosses a threshold when it stops illuminating harm and starts absorbing it. We begin explaining not only to understand what happened, but to soften what responsibility might require—from ourselves or from others. Structural causes begin softening agency. Complexity starts delaying judgment. Inevitability slowly displaces choice.[^c2-explanation-moral-work]
+Explanation crosses a threshold when it stops illuminating harm and starts absorbing it. We begin explaining not only to understand what happened, but to soften what responsibility might require—from ourselves or from others. Structural causes begin softening agency. Complexity starts delaying judgment. Inevitability slowly displaces choice.[^c2-explanation-moral-work][^c2-bauman-bureaucracy]
 
 This often sounds reasonable because much of it is true. But something important begins to shift. We keep asking why long after the explanation has stopped changing what we know. The question begins to perform a different function. Instead of asking what this requires of us now, we continue asking why it happened—as though a complete enough explanation might eventually remove the need to respond at all.
 
@@ -84,7 +84,7 @@ Most people would assume more understanding is prudence. Serious people do not a
 
 Uncertainty exposes people to error, regret, and misjudgment. It exposes institutions to liability, reputational damage, and the charge of having moved too soon. Explanation promises that if we gather enough information, uncertainty will eventually recede. The next interview, the next report, the next root-cause diagram can feel like moral respectability itself.
 
-Some uncertainty does not recede. Motives remain mixed. Systems remain opaque. Consequences unfold unevenly across time. Under those conditions, explanation can become endless—every answer producing another question, every clarification opening another ambiguity, understanding turning into motion without arrival. What feels like intellectual rigor is often emotional avoidance. We continue explaining because stopping feels irresponsible, even when additional explanation no longer changes what we see or what responsibility now requires.[^c2-analysis-paralysis]
+Some uncertainty does not recede. Motives remain mixed. Systems remain opaque. Consequences unfold unevenly across time. Under those conditions, explanation can become endless—every answer producing another question, every clarification opening another ambiguity, understanding turning into motion without arrival. What feels like intellectual rigor is often emotional avoidance. We continue explaining because stopping feels irresponsible, even when additional explanation no longer changes what we see or what responsibility now requires.[^c2-analysis-paralysis][^p18-a-behavioral-model-of-ratio-95eaa71][^p18-ambiguous-loss-learning-to-d63b97d]
 
 ### **How Explanation Quietly Displaces Responsibility**
 
@@ -116,5 +116,13 @@ What remains afterward is less comfortable—not resolution, not certainty, not 
 
 The map has done its work. The journey remains.
 
-[^c2-explanation-moral-work]: See Charles Taylor, *Sources of the Self* (Cambridge, MA: Harvard University Press, 1989); Zygmunt Bauman, *Modernity and the Holocaust* (Ithaca, NY: Cornell University Press, 1989).
+[^c2-explanation-moral-work]: See Charles Taylor, *Sources of the Self* (Cambridge, MA: Harvard University Press, 1989).
 [^c2-analysis-paralysis]: See Herbert A. Simon, "A Behavioral Model of Rational Choice," *Quarterly Journal of Economics* 69, no. 1 (1955): 99–118; Pauline Boss, *Ambiguous Loss* (Cambridge, MA: Harvard University Press, 1999).
+
+[^c2-bauman-bureaucracy]: Zygmunt Bauman, *Modernity and the Holocaust* (Ithaca, NY: Cornell University Press, 1989), on administrative distancing and moral responsibility.
+
+
+[^p18-ambiguous-loss-learning-to-d63b97d]: Boss, Pauline. Ambiguous Loss: Learning to Live with Unresolved Grief. Cambridge, MA: Harvard University Press, 1999.
+
+
+[^p18-a-behavioral-model-of-ratio-95eaa71]: Simon, Herbert A. "A Behavioral Model of Rational Choice." Quarterly Journal of Economics 69, no. 1 (1955): 99–118.

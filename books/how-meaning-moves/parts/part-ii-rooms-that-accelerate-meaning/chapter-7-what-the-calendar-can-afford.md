@@ -160,7 +160,7 @@ Anna turned her notebook slightly. Under one column she had written *Early*. Und
 
 "It is what the room rewards," she said.
 
-Evaluative settings teach people quickly. A question raised by someone with less authority can be heard not only as information but as evidence about judgment, confidence, or alignment.[^c7-evaluative-threat-and-identity]
+Evaluative settings teach people quickly. A question raised by someone with less authority can be heard not only as information but as evidence about judgment, confidence, or alignment.[^c7-evaluative-threat-and-identity][^p18-whistling-vivaldi-43f5c7e]
 
 "What would have made it safer to raise the vendor issue earlier?" Philip asked.
 
@@ -254,3 +254,6 @@ The distinction worth preserving is between **a room that has resolved its uncer
 
 [^c7-evaluative-threat-and-identity]: Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018; Steele, Claude M. *Whistling Vivaldi*. New York: W. W. Norton & Company, 2010.
 [^c7-nickerson-confirmation-bias]: Nickerson, Raymond S. "Confirmation Bias." *Review of General Psychology* 2, no. 2 (1998): 175–220.
+
+
+[^p18-whistling-vivaldi-43f5c7e]: Steele, Claude M. Whistling Vivaldi. New York: W. W. Norton & Company, 2010.

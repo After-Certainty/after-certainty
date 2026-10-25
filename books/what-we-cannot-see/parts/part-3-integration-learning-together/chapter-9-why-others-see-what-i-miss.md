@@ -16,7 +16,7 @@ In April 1970, three astronauts were halfway to the moon when an oxygen tank rup
 
 Mission control in Houston did not become wise by averaging opinions. It became wise by **assembling** them. A flight director watched the whole arc of the mission. A life-support engineer knew what the scrubbers could and could not do. A guidance officer tracked the trajectory. Someone on the ground remembered that the command module carried lithium hydroxide canisters incompatible with the lunar module’s square intake—the wrong shape for the wrong socket, a detail that would have stayed invisible from any single console until the carbon dioxide reading climbed.
 
-The famous fix—duct tape, cardboard, tubing—was not a triumph of generic teamwork. It was **integration**: a larger picture built from partial pictures, each one real, each one insufficient alone. The astronaut who understood the cabin was not the same person who understood the inventory was not the same person who understood the physics of the scrubber. None of them saw everything. Together they saw **enough**—not because they eliminated partiality, but because they refused to treat any one partial view as complete.[^c9-apollo13]
+The famous fix—duct tape, cardboard, tubing—was not a triumph of generic teamwork. It was **integration**: a larger picture built from partial pictures, each one real, each one insufficient alone. The astronaut who understood the cabin was not the same person who understood the inventory was not the same person who understood the physics of the scrubber. None of them saw everything. Together they saw **enough**—not because they eliminated partiality, but because they refused to treat any one partial view as complete.[^c9-apollo13][^p18-lost-moon-the-perilous-voya-c9767d4][^p18-failure-is-not-an-option-mi-373bca8]
 
 That is the move Part III begins with.
 
@@ -79,3 +79,9 @@ Nearly every durable institution humans have built can be understood as an attem
 That is where the inquiry goes next.
 
 [^c9-apollo13]: Lovell, Jim, and Jeffrey Kluger, *Lost Moon: The Perilous Voyage of Apollo 13* (Boston: Houghton Mifflin, 1994); Kranz, Gene, *Failure Is Not an Option: Mission Control from Mercury to Apollo 13 and Beyond* (New York: Simon & Schuster, 2000).
+
+
+[^p18-failure-is-not-an-option-mi-373bca8]: Kranz, Gene. Failure Is Not an Option: Mission Control from Mercury to Apollo 13 and Beyond. New York: Simon & Schuster, 2000.
+
+
+[^p18-lost-moon-the-perilous-voya-c9767d4]: Lovell, Jim, and Jeffrey Kluger. Lost Moon: The Perilous Voyage of Apollo 13. Boston: Houghton Mifflin, 1994.

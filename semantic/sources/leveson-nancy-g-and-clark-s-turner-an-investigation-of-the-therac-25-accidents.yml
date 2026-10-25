@@ -15,3 +15,5 @@ creatorSlugs:
 citation: 'Leveson, Nancy G., and Clark S. Turner. "An Investigation of the Therac-25
   Accidents." Computer 26, no. 7 (1993): 18–41.'
 sourceKind: article
+readerPassagePath: /explore/books/what-we-cannot-see/chapters/parts-part-3-integration-learning-together-chapter-12-institutions-that-remember-and-forget#user-content-fnref-p18-an-investigation-of-the-the-b850011
+whyThisMatters: "Leveson and Turner's Therac-25 case study identifies engineering and organizational failures in radiation-treatment accidents. The chapter cites this specific investigation as a case of institutional lessons surviving individual engineers."

@@ -10,6 +10,7 @@ concepts:
 patterns: []
 relatedBooks:
 - after-certainty
+- when-the-key-changes-hands
 title: A Behavioral Model of Rational Choice.
 creatorNames:
 - Herbert A Simon
@@ -18,3 +19,5 @@ creatorSlugs:
 citation: 'Simon, Herbert A. "A Behavioral Model of Rational Choice." Quarterly Journal
   of Economics 69, no. 1 (1955): 99–118.'
 sourceKind: article
+readerPassagePath: /explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-2-the-cost-of-explanation#user-content-fnref-p18-a-behavioral-model-of-ratio-95eaa71
+whyThisMatters: "Simon's bounded-rationality model explains the limits of optimization under real constraints. The chapter uses it for the cognitive cost of exhaustive explanation, separately from Pauline Boss's account of unresolved loss."

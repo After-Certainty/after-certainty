@@ -14,13 +14,13 @@ The sequence has been practiced often enough that it should no longer require or
 
 But this time the chain breaks.
 
-Biles had intended an Amanar—a vault with two and a half twists. She completed only one and a half after losing her orientation in the air, landed awkwardly, and left the competition floor. Soon afterward, USA Gymnastics announced that she had withdrawn from the remaining events in the Olympic team final. Her teammates continued without her and won the silver medal.[^c6-tokyo-team]
+Biles had intended an Amanar—a vault with two and a half twists. She completed only one and a half after losing her orientation in the air, landed awkwardly, and left the competition floor. Soon afterward, USA Gymnastics announced that she had withdrawn from the remaining events in the Olympic team final. Her teammates continued without her and won the silver medal.[^c6-tokyo-team][^p18-biles-withdraws-from-gymnas-31b9ada][^p18-simone-biles-speaks-about-p-8b55391]
 
 From the stands, the mistake lasted only a few seconds.
 
 Inside the movement, something more serious had disappeared.
 
-Biles could still run. She could still jump. Her strength had not visibly left her. But the relationship between intention and location—the awareness that tells a gymnast where the body is while turning above the ground—was no longer reliable. The twisties are a loss of that air awareness and orientation; she later described her mind and body as out of sync and explained that the condition made it dangerous to perform skills she had completed for years.[^c6-twisties]
+Biles could still run. She could still jump. Her strength had not visibly left her. But the relationship between intention and location—the awareness that tells a gymnast where the body is while turning above the ground—was no longer reliable. The twisties are a loss of that air awareness and orientation; she later described her mind and body as out of sync and explained that the condition made it dangerous to perform skills she had completed for years.[^c6-twisties][^p18-simone-biles-opens-up-about-556715c][^p18-gymnastics-what-are-the-twi-3060616]
 
 The audience could see the size of the moment.
 
@@ -132,7 +132,7 @@ The problem is not inquiry. It is the assumption that the institution begins neu
 
 Andrew Luck’s refusal came at a larger boundary. He did not leave one game or one obligation. He left football.
 
-In August 2019, shortly before the regular season, news spread during an Indianapolis Colts preseason game that Luck intended to retire. Some fans booed as he walked toward the tunnel. At the press conference that followed, the twenty-nine-year-old quarterback described years of cycling through injury, pain, and rehabilitation—an unrelenting process that, he said, had taken away his joy in the game.[^c6-luck]
+In August 2019, shortly before the regular season, news spread during an Indianapolis Colts preseason game that Luck intended to retire. Some fans booed as he walked toward the tunnel. At the press conference that followed, the twenty-nine-year-old quarterback described years of cycling through injury, pain, and rehabilitation—an unrelenting process that, he said, had taken away his joy in the game.[^c6-luck][^c6-colts-retirement]
 
 The timing made the cost impossible to hide. The Colts had built plans around him; teammates, coaches, and fans had organized a season that now had to be reorganized weeks before it began. Luck’s retirement was his decision. Its consequences belonged to many people. The boos expressed that collision in its rawest form: some spectators experienced the moment less as the end of a person’s injury cycle than as the sudden removal of the future they had expected him to provide. That does not make the reaction admirable. It does make it intelligible.
 
@@ -208,8 +208,22 @@ Only the athlete can feel the condition of the body entering it.
 
 [^c6-osaka-time]: Naomi Osaka, “It’s O.K. Not to Be O.K.,” *TIME*, July 8, 2021, https://time.com/6077128/naomi-osaka-essay-tokyo-olympics/.
 
-[^c6-luck]: Michael Marot, “Oft-Injured Colts QB Andrew Luck, 29, Announces Retirement,” Associated Press, August 24, 2019, https://apnews.com/article/8f17a790d2d04ec49a84fc6c1a25388d; Andrew Walker, “Andrew Luck Announces His Retirement from the NFL,” Colts.com, August 25, 2019, https://www.colts.com/news/andrew-luck-announces-retirement-from-nfl.
+[^c6-luck]: Michael Marot, “Oft-Injured Colts QB Andrew Luck, 29, Announces Retirement,” Associated Press, August 24, 2019, https://apnews.com/article/8f17a790d2d04ec49a84fc6c1a25388d
 
 [^c6-beam]: Will Graves, “Biles Returns to Olympic Competition, Wins Bronze on Beam,” Associated Press, August 3, 2021, https://apnews.com/article/2020-tokyo-olympics-gymnastics-simone-biles-8d61f4de9ec021860cda002f4eac5804.
 
 [^c6-paris]: International Olympic Committee, “Simone Biles: All Titles, Records and Medals — Complete List,” Olympics.com, August 5, 2024, https://www.olympics.com/en/news/simone-biles-all-titles-records-and-medals-complete-list-paris-2024.
+
+[^c6-colts-retirement]: Andrew Walker, “Andrew Luck Announces His Retirement from the NFL,” Colts.com, August 25, 2019, https://www.colts.com/news/andrew-luck-announces-retirement-from-nfl.
+
+
+[^p18-gymnastics-what-are-the-twi-3060616]: International Olympic Committee. "Gymnastics: What Are the Twisties?" Olympics.com, July 27, 2021, https://www.olympics.com/en/news/what-are-the-twisties.
+
+
+[^p18-simone-biles-opens-up-about-556715c]: International Olympic Committee. "Simone Biles Opens Up about the Twisties: 'My Mind and Body Are Simply Not in Sync.'" Olympics.com, July 30, 2021, https://www.olympics.com/en/news/simone-biles-opens-up-about-the-twisties-my-mind-and-body-are-simply-not-in-sync.
+
+
+[^p18-simone-biles-speaks-about-p-8b55391]: International Olympic Committee. "Simone Biles Speaks about Pulling Out of Team Event: 'I Took a Step Back.'" Olympics.com, July 27, 2021, https://www.olympics.com/en/news/simone-biles-pulls-out-of-team-event-after-one-event.
+
+
+[^p18-biles-withdraws-from-gymnas-31b9ada]: Will Graves. "Biles Withdraws from Gymnastics Final to Protect Team, Self." Associated Press, July 27, 2021, https://apnews.com/article/2020-tokyo-olympics-gymnastics-simone-biles-injured-463f9be556246eada6dec265297df4d2.

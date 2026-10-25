@@ -119,7 +119,7 @@ to freeze the older wage and labor order in law.
 
 The **Statute of Labourers** (1351) declared that men and women under
 sixty must work, that wages must not rise above pre-plague levels, and
-that leaving a manor without permission remained punishable.[^c7-statute-labourers]
+that leaving a manor without permission remained punishable.[^c7-statute-labourers][^p18-statutes-of-the-realm-vol-1-e79fd0f][^p18-plague-population-and-the-e-d0d16dc]
 Catastrophe had altered the ground. The statute tried to hold the map.
 
 The Domesday survey had fixed landholding, resources, and obligation in
@@ -156,3 +156,9 @@ It held.
 
 [^c7-domesday]: See H. C. Darby, *Domesday England* (Cambridge: Cambridge University Press, 1977).
 [^c7-statute-labourers]: See *Statutes of the Realm*, vol. 1 (London: Record Commission, 1810); John Hatcher, *Plague, Population and the English Economy, 1348–1530* (London: Macmillan, 1977).
+
+
+[^p18-plague-population-and-the-e-d0d16dc]: Hatcher, John. Plague, Population and the English Economy, 1348-1530. London: Macmillan, 1977.
+
+
+[^p18-statutes-of-the-realm-vol-1-e79fd0f]: Statutes of the Realm. Vol. 1. London: Record Commission, 1810.

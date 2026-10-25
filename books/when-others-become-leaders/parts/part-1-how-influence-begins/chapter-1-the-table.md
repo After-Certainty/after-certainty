@@ -46,7 +46,7 @@ For Christians, he is not simply a leader among other leaders. He is Christ, Son
 
 These understandings cannot be flattened into agreement.
 
-A book about leadership should not pretend to resolve questions that have organized religious life for two thousand years. It can notice something more modest and still consequential: the stories earliest communities preserved about Jesus repeatedly place him at tables, near food, among people whose presence created trouble.[^t1-1]
+A book about leadership should not pretend to resolve questions that have organized religious life for two thousand years. It can notice something more modest and still consequential: the stories earliest communities preserved about Jesus repeatedly place him at tables, near food, among people whose presence created trouble.[^t1-1][^p18-the-historical-figure-of-je-29645f0][^p18-a-marginal-jew-rethinking-t-7aed5a7]
 
 He eats with tax collectors and people described as sinners. He accepts hospitality from religious leaders and then disrupts the moral clarity of the room. He feeds crowds. He tells stories about banquets where expected guests refuse to come and strangers are brought in from roads and alleys. He compares the kingdom of God to meals, bread, seed, harvest, wine, and invitations that do not behave according to ordinary rank. The table is not scenery in these stories; it is one of the places where his leadership becomes visible.
 
@@ -574,3 +574,9 @@ Someone reaches for it, breaks it, and passes it on.
 [^t1-4]: Mark 6:7–13; Luke 9:1–6 and 10:1–24; N. T. Wright, *Jesus and the Victory of God* (Minneapolis: Fortress Press, 1996), on mission and kingdom praxis.
 [^t1-5]: Acts 2:42–47; 1 Corinthians 11:17–34; Galatians 2:11–14; Wayne A. Meeks, *The First Urban Christians* (New Haven: Yale University Press, 1983), on early community dispute and practice.
 [^t1-6]: Mark 16:9; John 20:11–18; Matthew 28:1–10 (women as resurrection witnesses; Mary Magdalene in the empty-tomb traditions).
+
+
+[^p18-a-marginal-jew-rethinking-t-7aed5a7]: Meier, John P. A Marginal Jew: Rethinking the Historical Jesus. New York: Doubleday, 1991-2016.
+
+
+[^p18-the-historical-figure-of-je-29645f0]: Sanders, E. P. The Historical Figure of Jesus. London: Penguin, 1993.
