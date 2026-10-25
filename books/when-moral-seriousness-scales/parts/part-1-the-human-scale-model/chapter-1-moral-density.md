@@ -2,15 +2,15 @@
 
 ## The Door at Six
 
-The neighborhood meal program had been closing at six-thirty for years. No one could remember a meeting at which that hour had been chosen. It was simply when the last bags went out, the tables were wiped down, and someone turned off the kitchen lights.
+The neighborhood meal program had closed at 6:30 PM for years. No one could remember a meeting at which that hour had been chosen. It was simply when the last bags went out, the tables were wiped down, and someone turned off the kitchen lights.
 
 Elena coordinated the program. On Tuesdays she arrived before the first volunteer and stayed until the last one left. She knew which households needed food that could be carried on a bus, which families shared a refrigerator, and which volunteers were quietly doing more than their schedules said. Knowing these things did not give her enough resources to solve them. It did mean that a change on the sign by the door would not remain a change on a sign for long.
 
-The volunteers asked to close at six. Several had been staying late every week, and one had stopped taking Tuesday shifts because the cleanup kept interfering with childcare. The food-safety checklist still had to be completed after the final pickup. Closing earlier would allow people to finish before exhaustion turned a useful routine into an obligation they resented.
+The volunteers asked to close at 6:00 PM. Several had been staying late every week, and one had stopped taking Tuesday shifts because the cleanup kept interfering with childcare. The food-safety checklist still had to be completed after the final pickup. Closing earlier would allow people to finish before exhaustion turned a useful routine into an obligation they resented.
 
-Elena agreed. The new hours were printed and posted two weeks in advance.
+Elena agreed. The new hours were posted two weeks before they took effect.
 
-On the first Tuesday, Mara arrived at 6:08 PM. She had come straight from a shift that ended later than expected, with her work badge still clipped to her coat. The kitchen was closed. A volunteer had already signed off on the remaining food and gone home. Elena was putting chairs onto tables.
+On the first Tuesday under the new schedule, Mara arrived at 6:08 PM. She had come straight from a shift that ended later than expected, with her work badge still clipped to her coat. The kitchen was closed. The last volunteer had completed the inventory and gone home. Elena was lifting chairs onto tables.
 
 Mara looked at the sign, then at the bags stacked behind the counter.
 
@@ -20,15 +20,15 @@ Mara looked at the sign, then at the bags stacked behind the counter.
 
 Mara listened without interrupting. She did not accuse the volunteers of laziness. She knew the program ran because other people gave up evenings to keep it open. But her shifts changed with little warning. The earlier closing time meant that on some weeks she would have to choose between leaving paid work early and getting the food she had counted on.
 
-Elena could see the reason for the rule and its cost in the same room. Neither cancelled the other.
+Elena could see the reason for the rule and its cost in the same room. Neither canceled the other.
 
-She could not simply reopen the kitchen every time someone arrived late. The program depended on volunteers who were entitled to go home. But treating the posted hour as the end of the matter would make the decision seem cleaner than it was. Mara would still have to get through the week.
+Elena could let Mara take a bag that evening. She was still there to update the inventory. But the program depended on volunteers who were entitled to go home; it could not promise that someone would always be available after closing. Treating the posted hour as the end of the matter would make the decision seem cleaner than it was.
 
-That evening they found a temporary way for Mara to collect a bag at the next pickup. It did not solve Tuesday. It also left Elena with a question she could not pass to a spreadsheet: *Whose time had the program protected, and whose had it made less flexible?*
+Mara left with food that Tuesday because Elena happened to be there. Another late shift might leave her outside a locked door. Elena was left with a question she could not pass to a spreadsheet: *Whose time had the program protected, and whose had it made less flexible?*
 
 At the following volunteer meeting, she raised it. One volunteer pointed out that a late pickup option would become a second shift unless somebody agreed to staff it. Another suggested holding prepacked bags for people whose work hours changed. Mara was not at the meeting, but Elena had asked her what would actually help. A later hour was one answer. Being able to send a neighbor was another.
 
-They agreed to trial a small number of reserved bags with an authorized pickup arrangement, and to revisit the closing time after a month. The trial required extra coordination. It did not make everyone's needs compatible. Some families would still miss a pickup.
+They agreed to pilot a small number of reserved bags that a designated neighbor could collect, and to revisit the closing time after a month. The trial required extra coordination. It did not make everyone's needs compatible.
 
 Yet the original decision had been reopened because someone could bring its consequences back to the people with the power to change it.
 
@@ -94,7 +94,7 @@ Elena could not approve the hours and remain untouched by the result. The volunt
 
 That is the promise of moral density. Not that people will be fair, nor that every competing need can be satisfied, but that consequences have a way of finding their way back into the conversation before the decision becomes too large to reopen.
 
-The program still closed its doors. Someone still went without what they needed on some evenings. The trial made a difference without making the disagreement vanish.
+The program still closed its doors. Some people still missed a pickup. The trial made a difference without making the disagreement vanish.
 
 As institutions grow, people do not stop having faces, limits, or reasons. What changes is how far those reasons must travel to reach the people who can act on them. The next question is what happens to restraint when the people carrying the cost and the people shaping the decision no longer expect to encounter one another.
 
