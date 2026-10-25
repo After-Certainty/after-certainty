@@ -52,7 +52,7 @@ Chapter 5 begins with Waterfall, where long planning horizons often stabilized c
 [^p2b-dora]: Nicole Forsgren, Jez Humble, and Gene Kim, *Accelerate: The Science of Lean Software and DevOps* (IT Revolution Press, 2018); and Gene Kim, Jez Humble, Patrick Debois, and John Willis, *The DevOps Handbook*, 2nd ed. (IT Revolution Press, 2021), on delivery metrics and operational learning loops.
 
 
-[^p18-manifesto-for-agile-softwar-48083dd]: Beck, Kent, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham, Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon Kern, Brian Marick, Robert C. Martin, Steve Mellor, Ken Schwaber, Jeff Sutherland, and Dave Thomas. "Manifesto for Agile Software Development." 2001. https://agilemanifesto.org/.
+[^p18-manifesto-for-agile-softwar-48083dd]: Kent Beck and fellow signatories, “Manifesto for Agile Software Development” (2001), https://agilemanifesto.org/.
 
 
 [^p18-agile-software-development-3c26df5]: Cockburn, Alistair. Agile Software Development. Boston: Addison-Wesley, 2002.
