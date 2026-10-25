@@ -171,7 +171,9 @@ def main() -> None:
             use_match = re.search(r"\[\^" + re.escape(footnote) + r"\](?!:)", manuscript)
             if use_match is None:
                 raise RuntimeError(f"No body citation to distinguish for {slug}")
-            bibliographic_text = decisions.get("citationNotes", {}).get(slug) or profile.get("citation")
+            bibliographic_text = decisions.get("citationNotes", {}).get(slug) or profile.get(
+                "citation"
+            )
             citation = re.sub(r"\s+", " ", str(bibliographic_text or "").strip())
             if len(citation) < 18:
                 raise RuntimeError(f"No standalone bibliographic citation for {slug}")
