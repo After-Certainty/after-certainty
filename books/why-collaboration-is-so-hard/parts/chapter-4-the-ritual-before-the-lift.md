@@ -160,4 +160,4 @@ It became safer because uncertainty had somewhere to go.
 [^p18-cranes-and-derricks-cc8fbad]: Occupational Safety and Health Administration. Cranes and Derricks. OSHA 3433-05. Washington, DC: U.S. Department of Labor, 2011.
 
 
-[^p18-cranes-and-derricks-in-cons-6e66f10]: Occupational Safety and Health Administration. Cranes and Derricks in Construction: Final Rule. 29 CFR Part 1926 Subpart CC. Washington, DC: U.S. Department of Labor, 2010.
+[^p18-cranes-and-derricks-in-cons-6e66f10]: Occupational Safety and Health Administration, 2010 final rule for construction sites concerning cranes, hoists, and derricks, 29 C.F.R. Part 1926, Subpart CC (U.S. Department of Labor, 2010).
