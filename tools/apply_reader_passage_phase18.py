@@ -11,12 +11,13 @@ from __future__ import annotations
 import argparse
 import json
 import re
-from datetime import datetime, timezone
+from dataclasses import asdict
+from datetime import UTC, datetime
 from pathlib import Path
 
 import yaml
 
-from reader_passage_links import run_audit
+from reader_passage_links import build_candidates, run_audit
 
 
 def selected_note(slug: str, decisions: dict[str, str]) -> str | None:
@@ -53,6 +54,19 @@ def main() -> None:
     source_candidates = [
         c for c in candidates if c["entity_kind"] == "source" and c["slug"] in eligible
     ]
+    unseen = eligible - {c["slug"] for c in source_candidates}
+    if unseen:
+        discovered = build_candidates(
+            preflight,
+            kind="sources",
+            only_missing=True,
+            slugs=unseen,
+            batch_size=len(unseen),
+            max_per_source=1,
+            repo=repo,
+            check_anchors=True,
+        )
+        source_candidates.extend(asdict(c) for c in discovered)
     unlinked = []
     for candidate in source_candidates:
         slug = candidate["slug"]
@@ -85,7 +99,7 @@ def main() -> None:
                 "slug": slug,
                 "status": "deferred",
                 "note": f"Phase 18: {reason}",
-                "updatedAt": datetime.now(timezone.utc).isoformat(),
+                "updatedAt": datetime.now(UTC).isoformat(),
             }
             continue
 
@@ -150,7 +164,7 @@ def main() -> None:
     report = [
         "# Reader passage editorial coverage — Phase 18",
         "",
-        f"Starting baseline: **548 of 714** verified source passages; **87** footnote-cited sources without links.",
+        "Starting baseline: **548 of 714** verified source passages; **87** footnote-cited sources without links.",
         f"Applied **{len(applied)}** reviewed source-to-note decisions. Deferred **{len(deferred)}** unsupported attributions.",
         "A reader-passage link confirms an actual citation invocation, not that every philosophical",
         "interpretation of the source is proven. Shared references remain shared only when the",
