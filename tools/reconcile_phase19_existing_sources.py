@@ -68,6 +68,10 @@ def reconcile(repo: Path) -> tuple[int, list[str]]:
     if target is None:
         raise RuntimeError(f"Missing expected bibliography audit: {TARGET_BOOK}")
 
+    # An already-reconciled branch should be safe to re-check without rewriting.
+    if not target.missing_related_books and target.linked_count >= 26:
+        return 0, []
+
     applied: list[str] = []
     deferred: list[str] = []
     for entry in target.missing_related_books:
