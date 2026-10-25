@@ -248,7 +248,21 @@ def score_expected_vs_source(expected: dict[str, Any], src: dict[str, Any]) -> t
                 and any(tok in summary_norm for tok in src_name_norm.split() if len(tok) > 4)
             )
         ):
-            if any(t in citation_blob or t in summary_norm for t in _author_tokens(exp_author)):
+            # A single common given name can make an unrelated work look like
+            # an archival citation (e.g. "James" in Madison vs. James Robinson).
+            # Require two substantive creator tokens from the source's *actual*
+            # creator metadata, not generic words from its title or summary.
+            creators = src.get("creatorNames") or []
+            creator_text = (
+                " ".join(str(name) for name in creators)
+                if isinstance(creators, list) and creators
+                else split_display_name(str(src.get("name", "")))[0]
+            )
+            stop = {"and", "the", "for", "from", "with", "edited", "editor"}
+            author_match = (
+                _author_tokens(exp_author) - stop
+            ) & (_author_tokens(creator_text) - stop)
+            if len(author_match) >= 2:
                 return 58, "summary_overlap"
 
     # Fuzzy token Jaccard on title (+ light author boost)
