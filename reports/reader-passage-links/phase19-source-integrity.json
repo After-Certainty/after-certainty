@@ -1,0 +1,1245 @@
+{
+  "generatedBy": "tools/report_source_integrity_phase19.py",
+  "citationAudit": {
+    "verifiedCount": 634,
+    "totalSources": 714,
+    "invalidPassageLinks": 0,
+    "unverifiedFragmentLinks": 0,
+    "editorialReviewPendingOnLinks": 0,
+    "method": "Phase 18 saved rendered-reader audit; not independently re-rendered here"
+  },
+  "unlinkedCounts": {
+    "footnote_cited_not_linked": 2,
+    "thematic_connection_only": 1,
+    "bibliography_only": 59,
+    "no_detected_evidence": 18
+  },
+  "sourceMetadata": {
+    "sources": 714,
+    "thinkers": 643,
+    "critical": 0,
+    "warnings": 160,
+    "info": 229,
+    "byIssueType": {
+      "orphan_creator_slug": 150,
+      "missing_name_separator": 10,
+      "work_creator_mismatch": 229
+    }
+  },
+  "bibliographyDrift": {
+    "auditedBooks": 25,
+    "matched": 871,
+    "missingInSemantic": 38,
+    "missingRelatedBooks": 0,
+    "staleRelatedBooks": 0
+  },
+  "bibliographyProblems": [
+    {
+      "book": "when-the-key-changes-hands",
+      "missingInSemantic": [
+        {
+          "biblioSlug": "annas-julia-intelligent-virtue",
+          "biblioTitle": "Intelligent Virtue",
+          "biblioAuthor": "Julia Annas",
+          "summary": "Annas, Julia. Intelligent Virtue. Oxford: Oxford University Press, 2011."
+        },
+        {
+          "biblioSlug": "anscombe-g-e-m-modern-moral-philosophy",
+          "biblioTitle": "Modern Moral Philosophy",
+          "biblioAuthor": "G. E. M Anscombe",
+          "summary": "Anscombe, G. E. M. \"Modern Moral Philosophy.\" Philosophy 33, no. 124 (1958): 1-19."
+        },
+        {
+          "biblioSlug": "aristotle-nicomachean-ethics",
+          "biblioTitle": "Nicomachean Ethics",
+          "biblioAuthor": "Aristotle",
+          "summary": "Aristotle. Nicomachean Ethics."
+        },
+        {
+          "biblioSlug": "bandura-albert-moral-disengagement-in-the-perpetration-of-inhumanities",
+          "biblioTitle": "Moral Disengagement in the Perpetration of Inhumanities",
+          "biblioAuthor": "Albert Bandura",
+          "summary": "Bandura, Albert. \"Moral Disengagement in the Perpetration of Inhumanities.\" Personality and Social Psychology Review 3, no. 3 (1999): 193-209."
+        },
+        {
+          "biblioSlug": "burns-james-macgregor-leadership",
+          "biblioTitle": "Leadership",
+          "biblioAuthor": "James MacGregor Burns",
+          "summary": "Burns, James MacGregor. Leadership. New York: Harper & Row, 1978."
+        },
+        {
+          "biblioSlug": "calhoun-cheshire-standing-for-something",
+          "biblioTitle": "Standing for Something",
+          "biblioAuthor": "Cheshire Calhoun",
+          "summary": "Calhoun, Cheshire. \"Standing for Something.\" Journal of Philosophy 92, no. 5 (1995): 235-260."
+        },
+        {
+          "biblioSlug": "doris-john-m-lack-of-character-personality-and-moral-behavior",
+          "biblioTitle": "Lack of Character: Personality and Moral Behavior",
+          "biblioAuthor": "John M Doris",
+          "summary": "Doris, John M. Lack of Character: Personality and Moral Behavior. Cambridge: Cambridge University Press, 2002."
+        },
+        {
+          "biblioSlug": "duckworth-angela-grit",
+          "biblioTitle": "Grit",
+          "biblioAuthor": "Angela Duckworth",
+          "summary": "Duckworth, Angela. Grit. New York: Scribner, 2016."
+        },
+        {
+          "biblioSlug": "edelman-murray-the-symbolic-uses-of-politics",
+          "biblioTitle": "The Symbolic Uses of Politics",
+          "biblioAuthor": "Murray Edelman",
+          "summary": "Edelman, Murray. The Symbolic Uses of Politics. Urbana: University of Illinois Press, 1964."
+        },
+        {
+          "biblioSlug": "eisenstadt-shmuel-n-ed-max-weber-on-charisma-and-institution-building",
+          "biblioTitle": "Max Weber on Charisma and Institution Building",
+          "biblioAuthor": "Eisenstadt, Shmuel N.",
+          "summary": "Eisenstadt, Shmuel N., ed. Max Weber on Charisma and Institution Building. Chicago: University of Chicago Press, 1968."
+        },
+        {
+          "biblioSlug": "frankfurt-harry-g-the-importance-of-what-we-care-about",
+          "biblioTitle": "The Importance of What We Care About",
+          "biblioAuthor": "Harry G Frankfurt",
+          "summary": "Frankfurt, Harry G. The Importance of What We Care About. Cambridge: Cambridge University Press, 1988."
+        },
+        {
+          "biblioSlug": "frankfurt-harry-g-the-reasons-of-love",
+          "biblioTitle": "The Reasons of Love",
+          "biblioAuthor": "Harry G Frankfurt",
+          "summary": "Frankfurt, Harry G. The Reasons of Love. Princeton: Princeton University Press, 2004."
+        },
+        {
+          "biblioSlug": "gardner-john-w-on-leadership",
+          "biblioTitle": "On Leadership",
+          "biblioAuthor": "John W Gardner",
+          "summary": "Gardner, John W. On Leadership. New York: Free Press, 1990."
+        },
+        {
+          "biblioSlug": "geertz-clifford-centers-kings-and-charisma-reflections-on-the",
+          "biblioTitle": "Centers, Kings, and Charisma: Reflections on the",
+          "biblioAuthor": "Clifford Geertz",
+          "summary": "Geertz, Clifford. \"Centers, Kings, and Charisma: Reflections on the Symbolics of Power.\" In Local Knowledge. New York: Basic Books, 1983."
+        },
+        {
+          "biblioSlug": "griswold-charles-l-forgiveness-a-philosophical-exploration",
+          "biblioTitle": "Forgiveness: A Philosophical Exploration",
+          "biblioAuthor": "Charles L Griswold",
+          "summary": "Griswold, Charles L. Forgiveness: A Philosophical Exploration. Cambridge: Cambridge University Press, 2007."
+        },
+        {
+          "biblioSlug": "grusky-oscar-managerial-succession-and-organizational-effectiveness",
+          "biblioTitle": "Managerial Succession and Organizational Effectiveness",
+          "biblioAuthor": "Oscar Grusky",
+          "summary": "Grusky, Oscar. \"Managerial Succession and Organizational Effectiveness.\" American Journal of Sociology 69, no. 1 (1963): 21-31."
+        },
+        {
+          "biblioSlug": "harman-gilbert-moral-philosophy-meets-social-psychology-virtue-ethics",
+          "biblioTitle": "Moral Philosophy Meets Social Psychology: Virtue Ethics",
+          "biblioAuthor": "Gilbert Harman",
+          "summary": "Harman, Gilbert. \"Moral Philosophy Meets Social Psychology: Virtue Ethics and the Fundamental Attribution Error.\" Proceedings of the Aristotelian Society 99 (1999): 315-331."
+        },
+        {
+          "biblioSlug": "heifetz-ronald-alexander-grashow-and-marty-linsky-the-practice-of",
+          "biblioTitle": "The Practice of",
+          "biblioAuthor": "Heifetz, Ronald, Alexander Grashow, and Marty Linsky",
+          "summary": "Heifetz, Ronald, Alexander Grashow, and Marty Linsky. The Practice of Adaptive Leadership. Boston: Harvard Business Press, 2009."
+        },
+        {
+          "biblioSlug": "held-virginia-the-ethics-of-care-personal-political-and-global",
+          "biblioTitle": "The Ethics of Care: Personal, Political, and Global",
+          "biblioAuthor": "Virginia Held",
+          "summary": "Held, Virginia. The Ethics of Care: Personal, Political, and Global. Oxford: Oxford University Press, 2006."
+        },
+        {
+          "biblioSlug": "herman-judith-truth-and-repair-how-trauma-survivors-envision-justice",
+          "biblioTitle": "Truth and Repair: How Trauma Survivors Envision Justice",
+          "biblioAuthor": "Judith Herman",
+          "summary": "Herman, Judith. Truth and Repair: How Trauma Survivors Envision Justice. New York: Basic Books, 2023."
+        },
+        {
+          "biblioSlug": "hooks-bell-all-about-love-new-visions",
+          "biblioTitle": "All About Love: New Visions",
+          "biblioAuthor": "bell hooks",
+          "summary": "hooks, bell. All About Love: New Visions. New York: William Morrow, 2000."
+        },
+        {
+          "biblioSlug": "james-william-habit",
+          "biblioTitle": "Habit",
+          "biblioAuthor": "William James",
+          "summary": "James, William. \"Habit.\" In The Principles of Psychology. New York: Henry Holt and Company, 1890."
+        },
+        {
+          "biblioSlug": "jones-karen-trust-as-an-affective-attitude",
+          "biblioTitle": "Trust as an Affective Attitude",
+          "biblioAuthor": "Karen Jones",
+          "summary": "Jones, Karen. \"Trust as an Affective Attitude.\" Ethics 107, no. 1 (1996): 4-25."
+        },
+        {
+          "biblioSlug": "kant-immanuel-groundwork-of-the-metaphysics-of-morals",
+          "biblioTitle": "Groundwork of the Metaphysics of Morals",
+          "biblioAuthor": "Immanuel Kant",
+          "summary": "Kant, Immanuel. Groundwork of the Metaphysics of Morals."
+        },
+        {
+          "biblioSlug": "madison-james-federalist-no-51-in-the-federalist-papers-edited-by",
+          "biblioTitle": "",
+          "biblioAuthor": "Madison, James. Federalist No. 51. In *The Federalist Papers*, edited by",
+          "summary": "Madison, James. Federalist No. 51. In The Federalist Papers, edited by Clinton Rossiter. New York: Mentor, 1961."
+        },
+        {
+          "biblioSlug": "merton-robert-k-the-unanticipated-consequences-of-purposive-social",
+          "biblioTitle": "The Unanticipated Consequences of Purposive Social",
+          "biblioAuthor": "Robert K Merton",
+          "summary": "Merton, Robert K. \"The Unanticipated Consequences of Purposive Social Action.\" American Sociological Review 1, no. 6 (1936): 894-904."
+        },
+        {
+          "biblioSlug": "mischel-walter-personality-and-assessment",
+          "biblioTitle": "Personality and Assessment",
+          "biblioAuthor": "Walter Mischel",
+          "summary": "Mischel, Walter. Personality and Assessment. New York: Wiley, 1968."
+        },
+        {
+          "biblioSlug": "nagel-thomas-moral-luck",
+          "biblioTitle": "Moral Luck",
+          "biblioAuthor": "Thomas Nagel",
+          "summary": "Nagel, Thomas. \"Moral Luck.\" In Mortal Questions. Cambridge: Cambridge University Press, 1979."
+        },
+        {
+          "biblioSlug": "niebuhr-reinhold-the-irony-of-american-history",
+          "biblioTitle": "The Irony of American History",
+          "biblioAuthor": "Reinhold Niebuhr",
+          "summary": "Niebuhr, Reinhold. The Irony of American History. Chicago: University of Chicago Press, 1952."
+        },
+        {
+          "biblioSlug": "o-neill-onora-a-question-of-trust-the-bbc-reith-lectures-2002",
+          "biblioTitle": "A Question of Trust: The BBC Reith Lectures 2002",
+          "biblioAuthor": "Onora O'Neill",
+          "summary": "O'Neill, Onora. A Question of Trust: The BBC Reith Lectures 2002. Cambridge: Cambridge University Press, 2002."
+        },
+        {
+          "biblioSlug": "pettit-philip-republicanism-a-theory-of-freedom-and-government",
+          "biblioTitle": "Republicanism: A Theory of Freedom and Government",
+          "biblioAuthor": "Philip Pettit",
+          "summary": "Pettit, Philip. Republicanism: A Theory of Freedom and Government. Oxford: Oxford University Press, 1997."
+        },
+        {
+          "biblioSlug": "pfeffer-jeffrey-the-ambiguity-of-leadership",
+          "biblioTitle": "The Ambiguity of Leadership",
+          "biblioAuthor": "Jeffrey Pfeffer",
+          "summary": "Pfeffer, Jeffrey. \"The Ambiguity of Leadership.\" Academy of Management Review 2, no. 1 (1977): 104-112."
+        },
+        {
+          "biblioSlug": "polanyi-michael-the-tacit-dimension",
+          "biblioTitle": "The Tacit Dimension",
+          "biblioAuthor": "Michael Polanyi",
+          "summary": "Polanyi, Michael. The Tacit Dimension. Chicago: University of Chicago Press, 1966."
+        },
+        {
+          "biblioSlug": "ricoeur-paul-oneself-as-another",
+          "biblioTitle": "Oneself as Another",
+          "biblioAuthor": "Paul Ricoeur",
+          "summary": "Ricoeur, Paul. Oneself as Another. Translated by Kathleen Blamey. Chicago: University of Chicago Press, 1992."
+        },
+        {
+          "biblioSlug": "walker-margaret-urban-moral-repair-reconstructing-moral-relations-after",
+          "biblioTitle": "Moral Repair: Reconstructing Moral Relations after",
+          "biblioAuthor": "Margaret Urban Walker",
+          "summary": "Walker, Margaret Urban. Moral Repair: Reconstructing Moral Relations after Wrongdoing. Cambridge: Cambridge University Press, 2006."
+        },
+        {
+          "biblioSlug": "williams-bernard-moral-luck",
+          "biblioTitle": "Moral Luck",
+          "biblioAuthor": "Bernard Williams",
+          "summary": "Williams, Bernard. Moral Luck. Cambridge: Cambridge University Press, 1981."
+        },
+        {
+          "biblioSlug": "wolf-susan-moral-saints",
+          "biblioTitle": "Moral Saints",
+          "biblioAuthor": "Susan Wolf",
+          "summary": "Wolf, Susan. \"Moral Saints.\" Journal of Philosophy 79, no. 8 (1982): 419-439."
+        },
+        {
+          "biblioSlug": "wood-wendy-good-habits-bad-habits",
+          "biblioTitle": "Good Habits, Bad Habits",
+          "biblioAuthor": "Wendy Wood",
+          "summary": "Wood, Wendy. Good Habits, Bad Habits. New York: Farrar, Straus and Giroux, 2019."
+        }
+      ],
+      "missingRelatedBooks": [],
+      "staleRelatedBooks": []
+    }
+  ],
+  "unlinkedSources": [
+    {
+      "slug": "abbott-andrew-the-system-of-professions-an-essay-on-the-division-of-expert-labor",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "arendt-hannah-the-life-of-the-mind",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "when-moral-seriousness-scales"
+      ],
+      "inBibliographies": [
+        "when-moral-seriousness-scales"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "arendt-hannah-the-origins-of-totalitarianism",
+      "category": "no_detected_evidence",
+      "relatedBooks": [],
+      "inBibliographies": [],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "arthur-w-brian-competing-technologies-increasing-returns-and-lock-in-by",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": "The candidate's QWERTY note was intentionally narrowed to David. Arthur's 1989 increasing-returns paper has no independent supported claim in that passage.",
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "barker-eileen-the-making-of-a-moonie-choice-or-brainwashing",
+      "category": "no_detected_evidence",
+      "relatedBooks": [],
+      "inBibliographies": [],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-apr",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "the-world-we-make-together"
+      ],
+      "inBibliographies": [
+        "the-world-we-make-together"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "berlin-isaiah-the-hedgehog-and-the-fox",
+      "category": "no_detected_evidence",
+      "relatedBooks": [],
+      "inBibliographies": [],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "braudel-fernand-on-history",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "before-certainty-arrives"
+      ],
+      "inBibliographies": [
+        "before-certainty-arrives"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "brown-judith-m-gandhi-s-rise-to-power-indian-politics-1915-1922",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "when-others-become-leaders"
+      ],
+      "inBibliographies": [
+        "when-others-become-leaders"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "brown-v-board-of-education-347-u-s-483-1954",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "the-world-we-make-together"
+      ],
+      "inBibliographies": [
+        "the-world-we-make-together"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "chryssides-george-d-the-advent-of-sun-myung-moon-the-origins-beliefs-and-practices-of-the-unific",
+      "category": "no_detected_evidence",
+      "relatedBooks": [],
+      "inBibliographies": [],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "the-world-we-make-together"
+      ],
+      "inBibliographies": [
+        "the-world-we-make-together"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "davies-paul-about-time-einstein-s-unfinished-revolution",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "demarco-tom-and-timothy-lister-slack-getting-past-burnout-busywork-and-the",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "deutscher-guy-through-the-language-glass-why-the-world-looks-different-in-other",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "dewey-john-ethics",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "after-certainty"
+      ],
+      "inBibliographies": [
+        "after-certainty"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "edmondson-amy-c-teaming-how-organizations-learn-innovate-and-compete-in-the-knowledge-economy",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "trust-beyond-similarity"
+      ],
+      "inBibliographies": [
+        "trust-beyond-similarity"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "the-world-we-make-together"
+      ],
+      "inBibliographies": [
+        "the-world-we-make-together"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "elias-norbert-time-an-essay",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "ellul-jacques-propaganda-the-formation-of-men-s-attitudes",
+      "category": "no_detected_evidence",
+      "relatedBooks": [],
+      "inBibliographies": [],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "espn-new-policy-requires-on-field-players-personnel-to-stand-for-anthem",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "the-game-we-think-we-saw"
+      ],
+      "inBibliographies": [
+        "the-game-we-think-we-saw"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "espn-qb-colin-kaepernick-files-grievance-for-collusion-against-nfl-owners",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "the-game-we-think-we-saw"
+      ],
+      "inBibliographies": [
+        "the-game-we-think-we-saw"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails",
+      "category": "no_detected_evidence",
+      "relatedBooks": [],
+      "inBibliographies": [],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "feynman-richard-p-personal-observations-on-the-reliability-of-the-shuttle",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "the-world-we-make-together"
+      ],
+      "inBibliographies": [
+        "the-world-we-make-together"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "foucault-michel-power-knowledge-selected-interviews-and-other-writings-1972-1977",
+      "category": "no_detected_evidence",
+      "relatedBooks": [],
+      "inBibliographies": [],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "foucault-michel-society-must-be-defended-lectures-at-the-coll-ge-de-france-1975-76",
+      "category": "no_detected_evidence",
+      "relatedBooks": [],
+      "inBibliographies": [],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "foucault-michel-the-order-of-things-an-archaeology-of-the-human-sciences",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "frankopan-peter-the-silk-roads-a-new-history-of-the-world",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "fukuyama-francis-trust-the-social-virtues-and-the-creation-of-prosperity",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "trust-beyond-similarity",
+        "when-authority-outlives-accountability"
+      ],
+      "inBibliographies": [
+        "trust-beyond-similarity",
+        "when-authority-outlives-accountability"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "geertz-clifford-the-interpretation-of-cultures",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "gospel-of-luke-gospel-of-mark-acts-of-the-apostles-pauline-epistles-1-corinthians-galatians-and",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "when-others-become-leaders"
+      ],
+      "inBibliographies": [
+        "when-others-become-leaders"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "gott-richard-hugo-ch-vez-and-the-bolivarian-revolution",
+      "category": "no_detected_evidence",
+      "relatedBooks": [],
+      "inBibliographies": [],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "graeber-david-debt-the-first-5-000-years",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "guha-ramachandra-gandhi-before-india",
+      "category": "footnote_cited_not_linked",
+      "relatedBooks": [
+        "when-others-become-leaders"
+      ],
+      "inBibliographies": [
+        "when-others-become-leaders"
+      ],
+      "footnoteHitCount": 1,
+      "editorialExclusion": "Gandhi Before India covers his early career, not the late-life celibacy practices described by the shared note. Do not present it as evidence for those practices.",
+      "nextAction": "review_claim_and_source_before_linking"
+    },
+    {
+      "slug": "habermas-j-rgen-the-theory-of-communicative-action",
+      "category": "no_detected_evidence",
+      "relatedBooks": [],
+      "inBibliographies": [],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "haidt-jonathan-the-righteous-mind-why-good-people-are-divided-by-politics-and-religion",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "trust-beyond-similarity"
+      ],
+      "inBibliographies": [
+        "trust-beyond-similarity"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "heilbron-john-l-galileo",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "when-authority-is-misread"
+      ],
+      "inBibliographies": [
+        "when-authority-is-misread"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "international-organization-for-standardization-iso-iec-42001-2023-information-technology-artific",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "coupling"
+      ],
+      "inBibliographies": [
+        "coupling"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "knutti-reto-et-al-challenges-in-combining-projections-from-multiple-climate-models",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "what-we-cannot-see"
+      ],
+      "inBibliographies": [
+        "what-we-cannot-see"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "krier-l-on-the-architecture-of-community",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "latour-bruno-reassembling-the-social-an-introduction-to-actor-network-theory",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "levine-amy-jill-short-stories-by-jesus-the-enigmatic-parables-of-a-controversial-rabbi",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "when-others-become-leaders"
+      ],
+      "inBibliographies": [
+        "when-others-become-leaders"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": "Short Stories by Jesus discusses parables, whereas the cited Zacchaeus passage concerns Luke 19. Do not attach this title to the unsupported citation.",
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "liebowitz-s-j-and-stephen-e-margolis-path-dependence-lock-in-and-history",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "maslach-christina-and-michael-p-leiter-the-truth-about-burnout",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "when-authority-outlives-accountability"
+      ],
+      "inBibliographies": [
+        "when-authority-outlives-accountability"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "mellers-barbara-et-al-identifying-and-cultivating-superforecasters-as-a-method-of-improving-prob",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "what-we-cannot-see"
+      ],
+      "inBibliographies": [
+        "what-we-cannot-see"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "mouffe-chantal-the-democratic-paradox",
+      "category": "no_detected_evidence",
+      "relatedBooks": [],
+      "inBibliographies": [],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "the-world-we-make-together"
+      ],
+      "inBibliographies": [
+        "the-world-we-make-together"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-c",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "the-world-we-make-together"
+      ],
+      "inBibliographies": [
+        "the-world-we-make-together"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "national-park-service-pullman-national-historical-park-https-www-nps-gov-pull",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "the-world-we-make-together"
+      ],
+      "inBibliographies": [
+        "the-world-we-make-together"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "nguyen-c-thi-games-agency-as-art",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "trust-beyond-similarity"
+      ],
+      "inBibliographies": [
+        "trust-beyond-similarity"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "nissen-hans-j-peter-damerow-and-robert-k-englund-archaic",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "before-certainty-arrives"
+      ],
+      "inBibliographies": [
+        "before-certainty-arrives"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referen",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "the-world-we-make-together"
+      ],
+      "inBibliographies": [
+        "the-world-we-make-together"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "page-scott-e-the-diversity-bonus-how-great-teams-pay-off-in-the-knowledge-economy",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "trust-beyond-similarity"
+      ],
+      "inBibliographies": [
+        "trust-beyond-similarity"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth",
+      "category": "no_detected_evidence",
+      "relatedBooks": [],
+      "inBibliographies": [],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "petroski-henry-the-evolution-of-useful-things",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "popper-karl-the-open-society-and-its-enemies",
+      "category": "footnote_cited_not_linked",
+      "relatedBooks": [
+        "when-the-key-changes-hands"
+      ],
+      "inBibliographies": [
+        "when-the-key-changes-hands"
+      ],
+      "footnoteHitCount": 1,
+      "editorialExclusion": null,
+      "nextAction": "review_claim_and_source_before_linking"
+    },
+    {
+      "slug": "postman-neil-amusing-ourselves-to-death",
+      "category": "no_detected_evidence",
+      "relatedBooks": [],
+      "inBibliographies": [],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "reuters-u-s-quarterback-kaepernick-settles-grievance-case-with-nfl",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "the-game-we-think-we-saw"
+      ],
+      "inBibliographies": [
+        "the-game-we-think-we-saw"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "reynolds-v-sims-377-u-s-533-1964",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "the-world-we-make-together"
+      ],
+      "inBibliographies": [
+        "the-world-we-make-together"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "rosenblat-alex-uberland-how-algorithms-are-rewriting-the-rules-of-work",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "trust-beyond-similarity"
+      ],
+      "inBibliographies": [
+        "trust-beyond-similarity"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "schmitt-carl-the-concept-of-the-political",
+      "category": "no_detected_evidence",
+      "relatedBooks": [],
+      "inBibliographies": [],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "schneider-howard-powell-says-soft-landing-not-baseline-but-it-s-sure-in-the-forecast",
+      "category": "thematic_connection_only",
+      "relatedBooks": [
+        "the-economy-we-dont-experience"
+      ],
+      "inBibliographies": [
+        "the-economy-we-dont-experience"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "review_for_actual_citation_need"
+    },
+    {
+      "slug": "schulz-kenneth-f-et-al-empirical-evidence-of-bias-dimensions-of-methodological-quality-associate",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "what-we-cannot-see"
+      ],
+      "inBibliographies": [
+        "what-we-cannot-see"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "shklar-judith-ordinary-vices",
+      "category": "no_detected_evidence",
+      "relatedBooks": [],
+      "inBibliographies": [],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "silver-nate-the-signal-and-the-noise-why-so-many-predictions",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "how-serious-systems-learn"
+      ],
+      "inBibliographies": [
+        "how-serious-systems-learn"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "solnit-rebecca-a-field-guide-to-getting-lost",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "solnit-rebecca-hope-in-the-dark-untold-histories-wild-possibilities",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "solnit-rebecca-no-straight-road-takes-you-there-essays-for-uneven-terrain",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "star-susan-leigh-and-james-r-griesemer-institutional-ecology-translations-and-boundary-objects",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "trust-beyond-similarity"
+      ],
+      "inBibliographies": [
+        "trust-beyond-similarity"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "steffensen-kevin-when-authority-is-misread",
+      "category": "no_detected_evidence",
+      "relatedBooks": [],
+      "inBibliographies": [],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "steffensen-kevin-when-authority-outlives-accountability-a-lens-for",
+      "category": "no_detected_evidence",
+      "relatedBooks": [],
+      "inBibliographies": [],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "steffensen-kevin-when-others-look-to-you-companion-edition",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "when-authority-is-misread"
+      ],
+      "inBibliographies": [
+        "when-authority-is-misread"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "svendsen-gert-tinggaard-trust",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "trust-beyond-similarity"
+      ],
+      "inBibliographies": [
+        "trust-beyond-similarity"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-f",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "the-world-we-make-together"
+      ],
+      "inBibliographies": [
+        "the-world-we-make-together"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "tilly-charles-big-structures-large-processes-huge-comparisons",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "living-in-sediment"
+      ],
+      "inBibliographies": [
+        "living-in-sediment"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "u-s-department-of-defense-dod-std-2167a-defense-system-software-development",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "coupling"
+      ],
+      "inBibliographies": [
+        "coupling"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "u-s-house-of-representatives-impeaching-donald-john-trump-president-of-the-united-states-for-hig",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "when-interpretation-no-longer-matters"
+      ],
+      "inBibliographies": [
+        "when-interpretation-no-longer-matters"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "united-nations-framework-convention-on-climate-change-paris",
+      "category": "bibliography_only",
+      "relatedBooks": [
+        "when-incentives-become-the-moral-language"
+      ],
+      "inBibliographies": [
+        "when-incentives-become-the-moral-language"
+      ],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    },
+    {
+      "slug": "woodward-bob-fear-trump-in-the-white-house",
+      "category": "no_detected_evidence",
+      "relatedBooks": [],
+      "inBibliographies": [],
+      "footnoteHitCount": 0,
+      "editorialExclusion": null,
+      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+    }
+  ]
+}
