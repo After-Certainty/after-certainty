@@ -1,0 +1,77 @@
+# Temporary branch-only validation and report regeneration for Phase 17.
+# Remove this workflow before submitting the final pull request.
+name: Phase 17 full reader citation audit (temporary)
+
+on:
+  push:
+    branches: [feat/reader-passage-phase17-editorial-coverage]
+    paths:
+      - ".github/workflows/phase17-reader-audit-temporary.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+      - uses: jdx/mise-action@9b200bcecbfd6303e69a4a261b2e09e3757440a7 # v5.2.0
+        with:
+          install_args: "python uv"
+      - name: Sync Python dependencies
+        run: |
+          set -euo pipefail
+          uv sync --frozen
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: "22.22.2"
+          cache: npm
+      - name: Install renderer dependencies
+        run: npm ci --no-fund --no-audit
+      - name: Format Phase 17 regression suite
+        run: ruff format tests/test_reader_passage_phase17.py
+      - name: Validate editorial test suite and prior phases
+        run: |
+          set -euo pipefail
+          ruff check tests/test_reader_passage_phase17.py
+          pytest tests/test_reader_passage_phase17.py tests/test_reader_passage_links.py tests/test_reader_passage_phase10.py tests/test_reader_passage_phase11.py tests/test_reader_passage_phase12.py tests/test_reader_passage_phase13.py tests/test_reader_passage_phase14.py tests/test_reader_passage_phase15.py tests/test_reader_passage_phase16.py -q --tb=short
+      - name: Regenerate full source-link audit with rendered HTML fragments
+        run: python3 tools/audit_reader_passage_links.py --repo .
+      - name: Assert verified coverage and no fragment regressions
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          j = json.loads(Path("reports/reader-passage-links/audit.summary.json").read_text())
+          s = j["totals"]["sources"]
+          assert s["total"] == 714, s
+          assert s["verifiedLinkTiedCitation"] == 548, s
+          assert s["validPassageLinks"] == 548, s
+          assert s["missingPathWithFootnote"] == 89, s
+          assert s["invalidPassageLinks"] == 0, s
+          assert s["unverifiedFragmentLinks"] == 0, s
+          assert s["pathNeedsEditorialReview"] == 0, s
+          phase17 = set()
+          for line in Path("tests/test_reader_passage_phase17.py").read_text().splitlines():
+              if line.strip().startswith('("') and '"/explore/books/' in line:
+                  phase17.add(line.split('"')[1])
+          observed = {item["slug"] for item in j["tiedCitationExamples"]}
+          assert len(phase17) == 52, len(phase17)
+          assert phase17 <= observed, sorted(phase17 - observed)
+          print("Verified 52 new A-level source citations; 548/714 total; zero invalid fragments.")
+          PY
+      - name: Commit formatting and renderer-backed reports to branch
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tests/test_reader_passage_phase17.py reports/reader-passage-links/audit.md reports/reader-passage-links/audit.summary.json
+          if ! git diff --cached --quiet; then
+            git commit -m "test(reports): validate Phase 17 reader fragments and refresh full audit"
+            git push origin "HEAD:refs/heads/${GITHUB_REF_NAME}"
+          fi
