@@ -1,19 +1,6 @@
 {
   "rankedOpportunities": [
     {
-      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-bridge#user-content-fnref-p18-manifesto-for-agile-softwar-48083dd",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 2,
-      "notes": [
-        "fragment_tied_but_shared_or_ambiguous",
-        "shared_footnote_with:cockburn-alistair-agile-software-development"
-      ],
-      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-bridge#user-content-fnref-p18-manifesto-for-agile-softwar-48083dd",
-      "recommendedAction": "editorial_confirm_passage_relevance",
-      "slug": "beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr",
-      "status": "path_valid_shared_or_ambiguous_citation"
-    },
-    {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-9",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -24,32 +11,6 @@
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "guha-ramachandra-gandhi-before-india",
       "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-p18-from-a-seat-to-a-knee-how-c-105b3d5",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 2,
-      "notes": [
-        "fragment_tied_but_shared_or_ambiguous",
-        "shared_footnote_with:espn-colin-kaepernick-takes-knee-for-anthem-joined-by-teammate-eric-reid,san-francisco-49ers-colin-kaepernick-opts-out-of-contract-becomes-a-free-agent"
-      ],
-      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-p18-from-a-seat-to-a-knee-how-c-105b3d5",
-      "recommendedAction": "editorial_confirm_passage_relevance",
-      "slug": "nick-wagoner-from-a-seat-to-a-knee-how-colin-kaepernick-and-nate-boyer-are-trying-to-affect-chan",
-      "status": "path_valid_shared_or_ambiguous_citation"
-    },
-    {
-      "candidatePath": "/explore/books/why-collaboration-is-so-hard/chapters/parts-chapter-4-the-ritual-before-the-lift#user-content-fnref-p18-cranes-and-derricks-in-cons-6e66f10",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 3,
-      "notes": [
-        "fragment_tied_but_shared_or_ambiguous",
-        "shared_footnote_with:occupational-safety-and-health-administration-cranes-and-derricks"
-      ],
-      "readerPassagePath": "/explore/books/why-collaboration-is-so-hard/chapters/parts-chapter-4-the-ritual-before-the-lift#user-content-fnref-p18-cranes-and-derricks-in-cons-6e66f10",
-      "recommendedAction": "editorial_confirm_passage_relevance",
-      "slug": "occupational-safety-and-health-administration-cranes-and-derricks-in-construction-final-rule",
-      "status": "path_valid_shared_or_ambiguous_citation"
     },
     {
       "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world",
@@ -175,6 +136,12 @@
       "workPassageLinks": [
         {
           "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-bridge#user-content-fnref-p18-manifesto-for-agile-softwar-48083dd",
+          "sourceSlug": "beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr",
+          "whyThisMatters": "The 2001 Agile Manifesto records an explicit shift toward working software, collaboration, and responsiveness. The bridge cites the signatories' declaration as a primary methodological statement, distinct from Cockburn's later exposition."
+        },
+        {
+          "evidenceLevel": "A",
           "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-bridge#user-content-fnref-p18-agile-software-development-3c26df5",
           "sourceSlug": "cockburn-alistair-agile-software-development",
           "whyThisMatters": "Cockburn examines software development methods as responses to communication, feedback, and project constraints. The bridge cites his treatment separately from the original Agile Manifesto and Royce's earlier engineering argument."
@@ -235,6 +202,17 @@
           "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-amy-c-edmondson",
           "sourceSlug": "edmondson-amy-c-the-fearless-organization-creating-psychological-safety-in-the-workplace-for-lea",
           "whyThisMatters": "In The Fearless Organization, Edmondson argues that organizations learn when people can raise problems, uncertainty, and bad news without prohibitive interpersonal cost. How Serious Systems Learn uses that account for correction lag under asymmetric power: those closest to operational risk often see fragility first but pay the highest price for saying stop. The book\u2019s inference is that systems often misread silence as agreement when what they are observing is cost-avoidance."
+        }
+      ]
+    },
+    {
+      "slug": "andrew-hunt",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-bridge#user-content-fnref-p18-manifesto-for-agile-softwar-48083dd",
+          "sourceSlug": "beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr",
+          "whyThisMatters": "The 2001 Agile Manifesto records an explicit shift toward working software, collaboration, and responsiveness. The bridge cites the signatories' declaration as a primary methodological statement, distinct from Cockburn's later exposition."
         }
       ]
     },
@@ -411,17 +389,6 @@
           "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-rao-caste-politics",
           "sourceSlug": "rao-anupama-the-caste-question-dalits-and-the-politics-of-modern-india",
           "whyThisMatters": "Anupama Rao examines the historical making of Dalit political identity and representation in modern India. The chapter invokes that scholarship to contextualize the stakes of separate electorates and the Poona Pact, distinct from Ambedkar's own later defense of political safeguards."
-        }
-      ]
-    },
-    {
-      "slug": "arie-w-kruglanski",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-3-the-cost-of-leaving-it-open#user-content-fnref-c3-kruglanski-need-closure",
-          "sourceSlug": "kruglanski-arie-w-and-donna-m-webster-motivated-closing-of-the-mind-seizing-and-freezing",
-          "whyThisMatters": "Kruglanski and Webster\u2019s 1996 Psychological Review paper theorizes motivated closing of the mind\u2014urgency to seize and freeze on a definite answer rather than remain in ambiguity. How Meaning Moves extends that pressure into intimate misreading\u2014the relief of correcting \u201cthat is not what I meant\u201d versus the cost of living inside someone else\u2019s unfinished account. The source names a psychological drive for closure; the book asks what meaning can still do when silence postpones repair while consequence accumulates."
         }
       ]
     }
@@ -670,6 +637,11 @@
     {
       "readerPassagePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-proxy",
       "slug": "bebchuk-lucian-a-and-scott-hirst-index-funds-and-the-future-of-corporate-governance-theory-evide",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-bridge#user-content-fnref-p18-manifesto-for-agile-softwar-48083dd",
+      "slug": "beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2598,6 +2570,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-p18-from-a-seat-to-a-knee-how-c-105b3d5",
+      "slug": "nick-wagoner-from-a-seat-to-a-knee-how-colin-kaepernick-and-nate-boyer-are-trying-to-affect-chan",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-7-what-the-calendar-can-afford#user-content-fnref-c7-nickerson-confirmation-bias",
       "slug": "nickerson-raymond-s-confirmation-bias",
       "status": "verified_link_tied_citation"
@@ -2650,6 +2627,11 @@
     {
       "readerPassagePath": "/explore/books/why-collaboration-is-so-hard/chapters/parts-chapter-4-the-ritual-before-the-lift#user-content-fnref-p18-cranes-and-derricks-cc8fbad",
       "slug": "occupational-safety-and-health-administration-cranes-and-derricks",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/why-collaboration-is-so-hard/chapters/parts-chapter-4-the-ritual-before-the-lift#user-content-fnref-p18-cranes-and-derricks-in-cons-6e66f10",
+      "slug": "occupational-safety-and-health-administration-cranes-and-derricks-in-construction-final-rule",
       "status": "verified_link_tied_citation"
     },
     {
@@ -3587,8 +3569,8 @@
     "sources": {
       "bibliographyOnly": 60,
       "byEvidenceLevel": {
-        "A": 631,
-        "B": 4,
+        "A": 634,
+        "B": 1,
         "C": 1,
         "D": 60,
         "E": 18
@@ -3596,26 +3578,26 @@
       "invalidPassageLinks": 0,
       "mechanicalFootnoteCandidates": 1,
       "missingPathWithFootnote": 1,
-      "pathNeedsEditorialReview": 3,
-      "tiedCitationCoveragePct": 88.38,
+      "pathNeedsEditorialReview": 0,
+      "tiedCitationCoveragePct": 88.8,
       "total": 714,
       "unverifiedFragmentLinks": 0,
       "validPassageLinks": 634,
-      "verifiedLinkTiedCitation": 631,
+      "verifiedLinkTiedCitation": 634,
       "whyThisMattersOk": 634,
       "withReaderPassagePath": 634
     },
     "thinkers": {
       "byEvidenceLevel": {
-        "A": 575,
-        "B": 15,
+        "A": 590,
+        "B": 0,
         "C": 0,
         "D": 53,
         "E": 0
       },
       "total": 643,
-      "usefulPathPct": 89.42,
-      "withDerivablePassages": 575
+      "usefulPathPct": 91.76,
+      "withDerivablePassages": 590
     }
   }
 }

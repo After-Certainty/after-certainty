@@ -11,22 +11,22 @@ bibliography-only and keyword overlap never count as verified passages.
 - Total sources scanned: **714**
 - With `readerPassagePath`: **634**
 - Structurally valid + fragment-checked paths: **634**
-- Verified link + mechanically tied citation (level A): **631**
+- Verified link + mechanically tied citation (level A): **634**
 - Mechanical footnote candidates (level B / strong_candidate): **1**
-- Path present but needs editorial review: **3**
+- Path present but needs editorial review: **0**
 - Fragment check skipped (unverified): **0**
 - Invalid passage links: **0**
 - Missing path but footnote-cited: **1**
 - Bibliography only (level D): **60**
-- Tied-citation (level A) coverage: **88.38%**
+- Tied-citation (level A) coverage: **88.8%**
 - `whyThisMatters` present/substantive: **634**
 
 Level A means a public path whose fragment is the matched citation invocation — a *mechanical* condition, not editorial approval of philosophical relevance. All newly proposed connections still need editorial review before YAML enrichment.
 
 Evidence levels:
 
-- A: 631
-- B: 4
+- A: 634
+- B: 1
 - C: 1
 - D: 60
 - E: 18
@@ -34,13 +34,13 @@ Evidence levels:
 ### Thinkers
 
 - Total thinkers scanned: **643**
-- With derivable work passage links: **575**
-- Useful derived path coverage: **89.42%**
+- With derivable work passage links: **590**
+- Useful derived path coverage: **91.76%**
 
 Evidence levels:
 
-- A: 575
-- B: 15
+- A: 590
+- B: 0
 - C: 0
 - D: 53
 - E: 0
@@ -51,10 +51,7 @@ _None._
 
 ## Ranked improvement opportunities
 
-- **B** `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr` — path_valid_shared_or_ambiguous_citation; action `editorial_confirm_passage_relevance`; candidate `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-bridge#user-content-fnref-p18-manifesto-for-agile-softwar-48083dd`
 - **B** `guha-ramachandra-gandhi-before-india` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-9`
-- **B** `nick-wagoner-from-a-seat-to-a-knee-how-colin-kaepernick-and-nate-boyer-are-trying-to-affect-chan` — path_valid_shared_or_ambiguous_citation; action `editorial_confirm_passage_relevance`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-p18-from-a-seat-to-a-knee-how-c-105b3d5`
-- **B** `occupational-safety-and-health-administration-cranes-and-derricks-in-construction-final-rule` — path_valid_shared_or_ambiguous_citation; action `editorial_confirm_passage_relevance`; candidate `/explore/books/why-collaboration-is-so-hard/chapters/parts-chapter-4-the-ritual-before-the-lift#user-content-fnref-p18-cranes-and-derricks-in-cons-6e66f10`
 - **C** `schneider-howard-powell-says-soft-landing-not-baseline-but-it-s-sure-in-the-forecast` — thematic_connection; action `editorial_review_consider_citation`; candidate `/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world`
 
 ## Verified link + mechanically tied citation examples (level A)
@@ -91,10 +88,11 @@ _None._
 - `aldon-d-morris`: `morris-aldon-d-the-origins-of-the-civil-rights-movement-black-communities-organizing-for-change` → `/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-3`
 - `alexander-weisler`: `wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing` → `/explore/books/trust-beyond-similarity/chapters/parts-part-2-the-shock-of-the-partial-chapter-4-different-summaries#user-content-fnref-c4-airbnb-neighborhoods`
 - `alice-h-eagly`: `eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth` → `/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-eagly`
-- `alistair-cockburn`: `cockburn-alistair-agile-software-development` → `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-bridge#user-content-fnref-p18-agile-software-development-3c26df5`, `cockburn-alistair-hexagonal-architecture-ports-and-adapters` → `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression#user-content-fnref-c10-bridge-hex`, `cockburn-alistair-how-to-step-up-stepping-up-promoting-guest` → `/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-attention-and-leadership`, `cockburn-alistair-the-heart-of-agile` → `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-emergence`
+- `alistair-cockburn`: `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr` → `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-bridge#user-content-fnref-p18-manifesto-for-agile-softwar-48083dd`, `cockburn-alistair-agile-software-development` → `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-bridge#user-content-fnref-p18-agile-software-development-3c26df5`, `cockburn-alistair-hexagonal-architecture-ports-and-adapters` → `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression#user-content-fnref-c10-bridge-hex`, `cockburn-alistair-how-to-step-up-stepping-up-promoting-guest` → `/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-attention-and-leadership`, `cockburn-alistair-the-heart-of-agile` → `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-emergence`
 - `allister-sparks`: `sparks-allister-tomorrow-is-another-country-the-inside-story-of-south-africa-s-road-to-change` → `/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter#user-content-fnref-c8-sparks`
 - `american-college-of-emergency-physicians`: `american-college-of-emergency-physicians-boarding` → `/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding`
 - `amy-c-edmondson`: `edmondson-amy-c-psychological-safety-and-learning-behavior-in-work` → `/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-silence-and-accountability`, `edmondson-amy-c-the-fearless-organization-creating-psychological-safety-in-the-workplace-for-lea` → `/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-amy-c-edmondson`
+- `andrew-hunt`: `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr` → `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-bridge#user-content-fnref-p18-manifesto-for-agile-softwar-48083dd`
 - `andrew-jameton`: `jameton-andrew-nursing-practice-the-ethical-issues` → `/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-4-what-judgment-still-knows-chapter-11-the-institution-that-cannot-hear-itself#user-content-fnref-p18-nursing-practice-the-ethica-5c15e23`
 - `andrew-s-grove`: `grove-andrew-s-high-output-management` → `/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-andrew-s-grove`
 - `andrew-walker`: `andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl` → `/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-colts-retirement`
@@ -111,4 +109,3 @@ _None._
 - `anthony-pagden`: `pagden-anthony-the-fall-of-natural-man-the-american-indian-and-the` → `/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-8-renaissance-exploration-and-fracture#user-content-fnref-p18-the-fall-of-natural-man-the-f8174f1`
 - `anthony-sampson`: `sampson-anthony-mandela-the-authorized-biography` → `/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter#user-content-fnref-c8-sampson`
 - `anupama-rao`: `rao-anupama-the-caste-question-dalits-and-the-politics-of-modern-india` → `/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-rao-caste-politics`
-- `arie-w-kruglanski`: `kruglanski-arie-w-and-donna-m-webster-motivated-closing-of-the-mind-seizing-and-freezing` → `/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-3-the-cost-of-leaving-it-open#user-content-fnref-c3-kruglanski-need-closure`
