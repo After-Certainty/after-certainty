@@ -362,4 +362,4 @@ The argument has moved far beyond the field.
 [^c7-iverson-andscape]: Andscape, “For Allen Iverson, It Was Never Just about ‘Practice,’” May 7, 2022, https://andscape.com/features/for-allen-iverson-it-was-never-just-about-practice/.
 
 
-[^p18-from-a-seat-to-a-knee-how-c-105b3d5]: Nick Wagoner. "From a Seat to a Knee: How Colin Kaepernick and Nate Boyer Are Trying to Affect Change." ESPN.com, September 2016, https://www.espn.com/blog/san-francisco-49ers/post/_/id/19253/from-a-seat-to-a-knee-how-colin-kaepernick-and-nate-boyer-are-trying-to-affect-change.
+[^p18-from-a-seat-to-a-knee-how-c-105b3d5]: Nick Wagoner, “From a Seat to a Knee: How Colin Kaepernick and Nate Boyer Are Trying to Affect Change,” ESPN (September 2016).
