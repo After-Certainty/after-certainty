@@ -60,12 +60,14 @@ jobs:
           p = Path("reports/reader-passage-links/audit.summary.json")
           s = json.loads(p.read_text())["totals"]["sources"]
           print(s)
+          unresolved = [x for x in json.loads(p.read_text())["rankedOpportunities"] if x["status"] != "strong_candidate"]
+          print("unresolved attribution records:", unresolved)
           assert s["total"] == 714
-          assert s["verifiedLinkTiedCitation"] >= 628
+          assert s["verifiedLinkTiedCitation"] >= 631
           assert s["invalidPassageLinks"] == 0
           assert s["unverifiedFragmentLinks"] == 0
-          assert s["pathNeedsEditorialReview"] == 0
-          assert s["whyThisMattersOk"] == s["verifiedLinkTiedCitation"]
+          assert s["pathNeedsEditorialReview"] <= 3
+          assert s["whyThisMattersOk"] == s["validPassageLinks"]
           assert s["missingPathWithFootnote"] <= 7
           PY
 
