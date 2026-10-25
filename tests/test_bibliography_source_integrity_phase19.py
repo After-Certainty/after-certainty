@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
-from tools.audit_bibliography_semantic_drift import score_expected_vs_source
+from pathlib import Path
+
+from tools.audit_bibliography_semantic_drift import run_audit, score_expected_vs_source
 
 
 def test_federalist_papers_cannot_match_unrelated_acemoglu_work() -> None:
@@ -43,3 +45,15 @@ def test_titled_less_institutional_material_still_matches_real_creators() -> Non
     }
     score, method = score_expected_vs_source(expected, source)
     assert score >= 50, (score, method)
+
+
+def test_phase19_real_bibliography_never_links_federalist_to_why_nations_fail() -> None:
+    root = Path(__file__).resolve().parents[1]
+    report = run_audit(root)
+    book = next(b for b in report["books"] if b.book_id == "when-the-key-changes-hands")
+    bad = [
+        entry
+        for entry in book.missing_related_books
+        if entry["biblioSlug"].startswith("madison-james-federalist")
+    ]
+    assert bad == [], bad
