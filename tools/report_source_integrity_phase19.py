@@ -177,7 +177,7 @@ def create_report(repo: Path) -> tuple[dict, str]:
     ]
     for row in rows:
         lines.append(
-            f"| \`{row['slug']}\` | {row['category']} | "
+            f"| `{row['slug']}` | {row['category']} | "
             f"{', '.join(row['relatedBooks']) or '—'} |"
         )
     lines += [
@@ -187,7 +187,7 @@ def create_report(repo: Path) -> tuple[dict, str]:
         "Unlinked does not mean broken. Check the bibliography and prose before removing",
         "a reference or adding a manuscript note. Do not convert incidental keyword",
         "matches into source relationships, and preserve prior explicit exclusions.",
-        "Run \`python tools/report_source_integrity_phase19.py --repo .\` after",
+        "Run `python tools/report_source_integrity_phase19.py --repo .` after",
         "regenerating the reader-passage audit when the corpus changes.",
         "",
     ]
