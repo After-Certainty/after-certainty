@@ -1,32 +1,6 @@
 {
   "rankedOpportunities": [
     {
-      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "alexander-christopher-the-timeless-way-of-building",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-refugees",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -157,19 +131,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-9-industrial-scale-and-institutional-certainty#user-content-fnref-c9-railway-time",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "bartky-ian-r-the-adoption-of-standard-time",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/living-in-sediment/chapters/back-matter-epilogue-two-months-off#user-content-fnref-epi-future-layers",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -221,19 +182,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-early-moral-anthropology",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "boehm-christopher-hierarchy-in-the-forest-the-evolution-of",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-2-the-cost-of-explanation#user-content-fnref-c2-analysis-paralysis",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -257,32 +205,6 @@
       "readerPassagePath": null,
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "braudel-fernand-the-structures-of-everyday-life",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-fec",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-open",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-concussion-symptoms",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "centers-for-disease-control-and-prevention-symptoms-of-concussion",
       "status": "strong_candidate"
     },
     {
@@ -376,19 +298,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-aca",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "cohn-jonathan-the-ten-year-war-obamacare-and-the-unmaking-of-american-establishment",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/what-we-cannot-see/chapters/parts-part-3-integration-learning-together-chapter-11-when-failure-teaches-the-system#user-content-fnref-c11-shuttle",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -402,19 +311,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-aca",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-peltz",
       "evidenceLevel": "B",
       "footnoteHitCount": 2,
@@ -424,19 +320,6 @@
       "readerPassagePath": null,
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "de-la-merced-michael-j-pepsico-tells-activist-investor-its-answer-is-still-no",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-lazarus-deutsch-pace-conflict",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "deutsch-morton-the-resolution-of-conflict",
       "status": "strong_candidate"
     },
     {
@@ -466,19 +349,6 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-early-moral-anthropology",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 2,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "douglas-mary-purity-and-danger-an-analysis-of-concepts-of-pollution",
-      "status": "strong_candidate"
-    },
-    {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-slavery",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
@@ -502,19 +372,6 @@
       "readerPassagePath": null,
       "recommendedAction": "editorial_review_then_add_path",
       "slug": "dyson-michael-eric-i-may-not-get-there-with-you-the-true-martin-luther-king-jr",
-      "status": "strong_candidate"
-    },
-    {
-      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-sa-election",
-      "evidenceLevel": "B",
-      "footnoteHitCount": 1,
-      "notes": [
-        "shared_or_ambiguous_footnote",
-        "missing_or_weak_whyThisMatters"
-      ],
-      "readerPassagePath": null,
-      "recommendedAction": "editorial_review_then_add_path",
-      "slug": "electoral-commission-of-south-africa-27-apr-1994-national-election",
       "status": "strong_candidate"
     },
     {
@@ -621,20 +478,19 @@
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-banks-2023",
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-trial",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
       "notes": [
-        "shared_or_ambiguous_footnote",
         "missing_or_weak_whyThisMatters"
       ],
       "readerPassagePath": null,
       "recommendedAction": "editorial_review_then_add_path",
-      "slug": "federal-deposit-insurance-corporation-options-for-deposit-insurance-reform",
+      "slug": "finocchiaro-maurice-a-the-galileo-affair-a-documentary-history",
       "status": "strong_candidate"
     },
     {
-      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-fec",
+      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-7-what-elections-can-reject#user-content-fnref-c7-economic-voting",
       "evidenceLevel": "B",
       "footnoteHitCount": 1,
       "notes": [
@@ -643,7 +499,146 @@
       ],
       "readerPassagePath": null,
       "recommendedAction": "editorial_review_then_add_path",
-      "slug": "federal-election-commission-campaign-finance-disclosure-data-https-www-fec-gov",
+      "slug": "fiorina-morris-p-retrospective-voting-in-american-national-elections",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-9-the-scale#user-content-fnref-c9-follett-power",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "follett-mary-parker-creative-experience",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-05-waterfall-low-temporal-coupling#user-content-fnref-c5-late-integration",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 2,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "fowler-martin-integration-metadata",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-13-when-justification-fades#user-content-fnref-c13-necessary-useful-habitual",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "garud-raghu-and-peter-karn-e-path-dependence-and-creation",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-evaluation",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-15-archaeology-of-the-present#user-content-fnref-c15-generosity-context",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "giddens-anthony-the-constitution-of-society-outline-of-the-theory-of",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/after-certainty/chapters/parts-part-2-what-can-still-be-practiced-chapter-6-speech-that-does-less-harm#user-content-fnref-c6-performative-speech",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 3,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "goffman-erving-the-presentation-of-self-in-everyday-life",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-9",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "guha-ramachandra-gandhi-before-india",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-9",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "guha-ramachandra-gandhi-the-years-that-changed-the-world-1914-1948",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-6-the-score-that-follows-you#user-content-fnref-c6-credit-scoring",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 2,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "hacking-ian-the-taming-of-chance",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-8-renaissance-exploration-and-fracture#user-content-fnref-c8-valladolid-debate",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "hanke-lewis-all-mankind-is-one-a-study-of-the-disputation-between",
+      "status": "strong_candidate"
+    },
+    {
+      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-7-medieval-re-adaptation#user-content-fnref-c7-statute-labourers",
+      "evidenceLevel": "B",
+      "footnoteHitCount": 1,
+      "notes": [
+        "shared_or_ambiguous_footnote",
+        "missing_or_weak_whyThisMatters"
+      ],
+      "readerPassagePath": null,
+      "recommendedAction": "editorial_review_then_add_path",
+      "slug": "hatcher-john-plague-population-and-the-english-economy-1348-1530",
       "status": "strong_candidate"
     }
   ],
@@ -766,6 +761,17 @@
       ]
     },
     {
+      "slug": "allister-sparks",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter#user-content-fnref-c8-sparks",
+          "sourceSlug": "sparks-allister-tomorrow-is-another-country-the-inside-story-of-south-africa-s-road-to-change",
+          "whyThisMatters": "Allister Sparks chronicles negotiations and political conflict during South Africa's early-1990s transition. The chapter cites this account for the fragility of settlement amid threats of violence, distinguishing it from broader judgments about national reconciliation."
+        }
+      ]
+    },
+    {
       "slug": "american-college-of-emergency-physicians",
       "workPassageLinks": [
         {
@@ -801,6 +807,17 @@
           "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-andrew-s-grove",
           "sourceSlug": "grove-andrew-s-high-output-management",
           "whyThisMatters": "Grove\u2019s High Output Management treats managerial leverage as the disciplined conversion of incomplete information into coordinated action. How Serious Systems Learn presses the hinge: confidence must stay provisional enough for correction, or it becomes a substitute for learning."
+        }
+      ]
+    },
+    {
+      "slug": "andrew-ward",
+      "workPassageLinks": [
+        {
+          "evidenceLevel": "A",
+          "readerPassagePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-identity-and-caricature",
+          "sourceSlug": "ross-lee-and-andrew-ward-naive-realism-in-everyday-life",
+          "whyThisMatters": "Ross and Ward describe naive realism: the expectation that one's own perception is objective and contrary views reflect others' deficiencies. The manuscript uses this idea to explain how caricature can replace attention to James's and Rachel's actual concerns."
         }
       ]
     },
@@ -997,28 +1014,6 @@
           "whyThisMatters": "Boehm\u2019s software economics makes late discovery expensive: the same defect changes character when found under deadline rather than in design. Coupling turns that timing into a structural lesson\u2014early finding is correction; late finding becomes a coordination crisis."
         }
       ]
-    },
-    {
-      "slug": "basketball-reference",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-russell-career",
-          "sourceSlug": "basketball-reference-bill-russell",
-          "whyThisMatters": "Basketball-Reference records Bill Russell's playing seasons, championships, MVP awards and career rebounding totals. The Game We Think We Saw cites these numerical career facts before explaining why the official box score cannot capture the full significance of his defense."
-        }
-      ]
-    },
-    {
-      "slug": "ben-kiernan",
-      "workPassageLinks": [
-        {
-          "evidenceLevel": "A",
-          "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-9-what-judgment-can-still-do#user-content-fnref-c9-kiernan-overview",
-          "sourceSlug": "kiernan-ben-the-pol-pot-regime-race-power-and-genocide-in-cambodia-under-the-khmer-rouge-1975-79",
-          "whyThisMatters": "Kiernan\u2019s study of Democratic Kampuchea after April 1975 documents how the Khmer Rouge emptied cities, abolished ordinary economic life, and produced mass death through execution, forced labor, starvation, and disease\u2014estimates he and other historians commonly place on the order of roughly 1.5 to 2 million. When Interpretation No Longer Matters cites that scale to keep the chapter\u2019s colder question historical rather than schematic: recognition of suffering did not restore offices through which recognition becomes repair. The source establishes the regime\u2019s methods and demographic toll; the book asks what judgment can still do when accurate naming has nowhere institutional to go."
-        }
-      ]
     }
   ],
   "tiedCitationExamples": [
@@ -1045,6 +1040,16 @@
     {
       "readerPassagePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-babylonian-exile",
       "slug": "albertz-rainer-israel-in-exile-the-history-and-literature-of-the",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns",
+      "slug": "alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-timeless-way",
+      "slug": "alexander-christopher-the-timeless-way-of-building",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1183,6 +1188,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-9-industrial-scale-and-institutional-certainty#user-content-fnref-c9-railway-time",
+      "slug": "bartky-ian-r-the-adoption-of-standard-time",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-russell-career",
       "slug": "basketball-reference-bill-russell",
       "status": "verified_link_tied_citation"
@@ -1285,6 +1295,11 @@
     {
       "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-10-shift-left-temporal-compression#user-content-fnref-c10-late-detection",
       "slug": "boehm-barry-w-software-engineering-economics",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-hierarchy",
+      "slug": "boehm-christopher-hierarchy-in-the-forest-the-evolution-of",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1423,8 +1438,18 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-opensecrets",
+      "slug": "center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-open",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-cdc-rts",
       "slug": "centers-for-disease-control-and-prevention-returning-to-sports",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-concussion-symptoms",
+      "slug": "centers-for-disease-control-and-prevention-symptoms-of-concussion",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1483,6 +1508,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-aca",
+      "slug": "cohn-jonathan-the-ten-year-war-obamacare-and-the-unmaking-of-american-establishment",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-2-success-creates-momentum#user-content-fnref-c2-cole-toyota",
       "slug": "cole-robert-e-what-really-happened-to-toyota",
       "status": "verified_link_tied_citation"
@@ -1495,6 +1525,11 @@
     {
       "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-fiscal-stabilizers",
       "slug": "congressional-budget-office-effects-of-automatic-stabilizers-on-the-federal-budget-2024-to-2034",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-legislative-record",
+      "slug": "congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1583,6 +1618,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-deutsch-conflict",
+      "slug": "deutsch-morton-the-resolution-of-conflict",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-2-the-first-cracks-chapter-5-participation-stops-updating-beliefs#user-content-fnref-c5-dewey-experience-education",
       "slug": "dewey-john-experience-and-education",
       "status": "verified_link_tied_citation"
@@ -1623,6 +1663,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-early-moral-anthropology",
+      "slug": "douglas-mary-purity-and-danger-an-analysis-of-concepts-of-pollution",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-christina",
       "slug": "drake-stillman-discoveries-and-opinions-of-galileo",
       "status": "verified_link_tied_citation"
@@ -1660,6 +1705,11 @@
     {
       "readerPassagePath": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-8-renaissance-exploration-and-fracture#user-content-fnref-c8-printing-press",
       "slug": "eisenstein-elizabeth-l-the-printing-press-as-an-agent-of-change",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-sa-election",
+      "slug": "electoral-commission-of-south-africa-27-apr-1994-national-election",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1713,13 +1763,33 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-fdic-options",
+      "slug": "federal-deposit-insurance-corporation-options-for-deposit-insurance-reform",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-fec",
+      "slug": "federal-election-commission-campaign-finance-disclosure-data-https-www-fec-gov",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-spf",
       "slug": "federal-reserve-bank-of-philadelphia-survey-of-professional-forecasters",
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-gold-intuition",
+      "slug": "ferguson-niall-the-ascent-of-money-a-financial-history-of-the-world",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-5-the-applause-no-one-wants-to-end#user-content-fnref-c5-figes-whisperers",
       "slug": "figes-orlando-the-whisperers-private-life-in-stalin-s-russia",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-fsb-reforms",
+      "slug": "financial-stability-board-implementation-and-effects-of-the-g20-financial-regulatory-reforms",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1868,6 +1938,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v5",
+      "slug": "government-of-south-africa-truth-and-reconciliation-commission-final-report",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-2-success-creates-momentum#user-content-fnref-c2-grady-boeing",
       "slug": "grady-peter-flying-blind-the-737-max-tragedy-and-the-fall-of-boeing",
       "status": "verified_link_tied_citation"
@@ -1890,6 +1965,11 @@
     {
       "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-1-before-the-leader-becomes-a-story-chapter-1-the-sentence-everyone-heard-differently#user-content-fnref-c1-grice",
       "slug": "grice-h-p-logic-and-conversation",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold#user-content-fnref-c8-rand",
+      "slug": "grissom-jason-a-et-al-teacher-stress-and-health-effects-on-teachers-students-and-schools",
       "status": "verified_link_tied_citation"
     },
     {
@@ -1973,6 +2053,16 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-catalhoyuk",
+      "slug": "hodder-ian-the-leopard-s-tale-revealing-the-mysteries-of",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-entanglement",
+      "slug": "hodder-ian-where-are-we-heading-the-evolution-of-humans-and-things",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-8-when-failure-is-not-an-option#user-content-fnref-c8-source-erik-hollnagel-safety",
       "slug": "hollnagel-erik-safety-i-and-safety-ii-the-past-and-future-of-safety",
       "status": "verified_link_tied_citation"
@@ -2000,6 +2090,11 @@
     {
       "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-knight-record",
       "slug": "indiana-university-athletics-coach-bob-knight-passes-away-at-83",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-money-social",
+      "slug": "ingham-geoffrey-the-nature-of-money",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2040,6 +2135,11 @@
     {
       "readerPassagePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-2-success-creates-momentum#user-content-fnref-c2-isaacson-jobs",
       "slug": "isaacson-walter-steve-jobs",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-jacobs-streets",
+      "slug": "jacobs-jane-the-death-and-life-of-great-american-cities",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2203,6 +2303,16 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-lazarus-deutsch-pace-conflict",
+      "slug": "lazarus-richard-s-emotion-and-adaptation",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold#user-content-fnref-c8-teacher-turnover",
+      "slug": "learning-policy-institute-teacher-shortages-and-turnover-in-the-united-states",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-1-before-the-words#user-content-fnref-c1-ledoux-emotional-brain",
       "slug": "ledoux-joseph-the-emotional-brain",
       "status": "verified_link_tied_citation"
@@ -2293,6 +2403,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter#user-content-fnref-c8-mamdani",
+      "slug": "mamdani-mahmood-amnesty-or-impunity-a-preliminary-critique-of-the-report-of-the-truth-and-reconc",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v4",
       "slug": "mandela-nelson-statement-from-the-dock-rivonia-trial-20-april-1964",
       "status": "verified_link_tied_citation"
@@ -2310,6 +2425,11 @@
     {
       "readerPassagePath": "/explore/books/when-accountability-no-longer-expires/chapters/parts-part-3-learning-without-resolution-chapter-6-adaptation-is-not-renewal#user-content-fnref-c6-march-learning",
       "slug": "march-james-g-exploration-and-exploitation-in-organizational",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-money-institution",
+      "slug": "martin-felix-money-the-unauthorized-biography",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2355,6 +2475,16 @@
     {
       "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-1-the-table#user-content-fnref-t1-5",
       "slug": "meeks-wayne-a-the-first-urban-christians",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b2",
+      "slug": "melas-chloe-taylor-swift-gave-eras-tour-crew-197-million-in-bonuses-exclusive",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b2-truck",
+      "slug": "melas-chloe-taylor-swift-gives-life-changing-100-000-bonuses-to-eras-tour-truck-drivers",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2418,6 +2548,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-reporting-pressure",
+      "slug": "moore-et-al-factors-and-expectations-influencing-concussion-disclosure-within-ncaa-division-i-at",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/why-collaboration-is-so-hard/chapters/parts-chapter-7-faster-than-care-can-move#user-content-fnref-c7-morley",
       "slug": "morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman-emergency-departme",
       "status": "verified_link_tied_citation"
@@ -2445,6 +2580,11 @@
     {
       "readerPassagePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-3-the-collapse-of-corrective-loops#user-content-fnref-c3-source-jerry-z-muller",
       "slug": "muller-jerry-z-the-tyranny-of-metrics",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-architecture-pedagogy",
+      "slug": "mumford-lewis-technics-and-civilization",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2495,6 +2635,11 @@
     {
       "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold#user-content-fnref-c8-acgr",
       "slug": "national-center-for-education-statistics-adjusted-cohort-graduation-rate-acgr",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-coaches-warning",
+      "slug": "national-collegiate-athletic-association-concussion-fact-sheet-for-coaches",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2608,6 +2753,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds#user-content-fnref-c2-north-institutions",
+      "slug": "north-douglass-c-institutions-institutional-change-and-economic-performance",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-7-the-fence#user-content-fnref-c7-interfaces",
       "slug": "northern-ireland-department-of-justice-department-of-justice-interface-programme",
       "status": "verified_link_tied_citation"
@@ -2693,6 +2843,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-pew",
+      "slug": "pew-research-center-a-guide-to-pew-research-center-s-methodology",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/front-matter-introduction-the-chart-and-the-receipt#user-content-fnref-intro-pew",
       "slug": "pew-research-center-americans-views-of-inflation-and-the-economy",
       "status": "verified_link_tied_citation"
@@ -2708,8 +2863,18 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds#user-content-fnref-c2-path-dependence",
+      "slug": "pierson-paul-increasing-returns-path-dependence-and-the-study-of-politics",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-public-sector",
       "slug": "pollitt-christopher-and-geert-bouckaert-public-management-reform-a-comparative-analysis",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b1-pollstar",
+      "slug": "pollstar-year-end-special-features-top-tours",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2823,6 +2988,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-identity-and-caricature",
+      "slug": "ross-lee-and-andrew-ward-naive-realism-in-everyday-life",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-3-releasing-heroes-and-villains#user-content-fnref-c3-motivated-reasoning",
       "slug": "ross-lee-and-richard-nisbett-the-person-and-the-situation",
       "status": "verified_link_tied_citation"
@@ -2830,6 +3000,11 @@
     {
       "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-1-why-leadership-evaluation-fails#user-content-fnref-c1-ross-the-intuitive-psychologist",
       "slug": "ross-lee-the-intuitive-psychologist-and-his-shortcomings",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds#user-content-fnref-c2-rovelli-time",
+      "slug": "rovelli-carlo-the-order-of-time",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2870,6 +3045,11 @@
     {
       "readerPassagePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-3-epistemic-interdependence-chapter-7-listening-without-surrender#user-content-fnref-c7-diplomacy",
       "slug": "schelling-thomas-c-the-strategy-of-conflict",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-9-industrial-scale-and-institutional-certainty#user-content-fnref-c9-railway-experience",
+      "slug": "schivelbusch-wolfgang-the-railway-journey-the-industrialization-of",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2928,6 +3108,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-money-philosophy",
+      "slug": "simmel-georg-the-philosophy-of-money",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-02-responsibility-as-cohesion#user-content-fnref-c2-diffuse-accountability",
       "slug": "simon-herbert-a-administrative-behavior-a-study-of-decision-making-processes-in-administrative-o",
       "status": "verified_link_tied_citation"
@@ -2935,6 +3120,11 @@
     {
       "readerPassagePath": "/explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-1-the-attention-budget#user-content-fnref-c1-gorilla",
       "slug": "simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b1",
+      "slug": "sisario-ben-taylor-swift-s-eras-tour-is-the-first-to-surpass-2-billion",
       "status": "verified_link_tied_citation"
     },
     {
@@ -2963,6 +3153,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-soweto-queue",
+      "slug": "south-african-history-online-denis-farrell",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-sa-votes",
       "slug": "south-african-history-online-election-results-1994",
       "status": "verified_link_tied_citation"
@@ -2970,6 +3165,16 @@
     {
       "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v1",
       "slug": "south-african-history-online-south-africa-s-first-democratic-elections-27-april-1994",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-election-history",
+      "slug": "south-african-history-online-the-south-african-general-elections-1994",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter#user-content-fnref-c8-sparks",
+      "slug": "sparks-allister-tomorrow-is-another-country-the-inside-story-of-south-africa-s-road-to-change",
       "status": "verified_link_tied_citation"
     },
     {
@@ -3015,6 +3220,11 @@
     {
       "readerPassagePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-6-the-story-that-explains-every-objection#user-content-fnref-c6-tabor-gallagher",
       "slug": "tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-social-identity",
+      "slug": "tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior",
       "status": "verified_link_tied_citation"
     },
     {
@@ -3088,6 +3298,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v5-tutu",
+      "slug": "tutu-desmond-no-future-without-forgiveness",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-2-what-stays-and-what-fades#user-content-fnref-c2-availability",
       "slug": "tversky-amos-and-daniel-kahneman-availability-a-heuristic-for-judging-frequency-and-probability",
       "status": "verified_link_tied_citation"
@@ -3100,6 +3315,11 @@
     {
       "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-1-what-the-average-leaves-out#user-content-fnref-c1-bls-jobs",
       "slug": "u-s-bureau-of-labor-statistics-the-employment-situation",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-banks-2023",
+      "slug": "u-s-department-of-the-treasury-board-of-governors-of-the-federal-reserve-system-and-federal-depo",
       "status": "verified_link_tied_citation"
     },
     {
@@ -3168,6 +3388,11 @@
       "status": "verified_link_tied_citation"
     },
     {
+      "readerPassagePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter#user-content-fnref-c8-waldmeir",
+      "slug": "waldmeir-patti-anatomy-of-a-miracle-the-end-of-apartheid-and-the-birth-of-the-new-south-africa",
+      "status": "verified_link_tied_citation"
+    },
+    {
       "readerPassagePath": "/explore/books/after-certainty/chapters/parts-part-2-what-can-still-be-practiced-chapter-6-speech-that-does-less-harm#user-content-fnref-c6-proportionality",
       "slug": "walzer-michael-just-and-unjust-wars-a-moral-argument-with-historical",
       "status": "verified_link_tied_citation"
@@ -3185,6 +3410,11 @@
     {
       "readerPassagePath": "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-2-moral-posture-toward-harm#user-content-fnref-c2-weber-politics-as-a",
       "slug": "weber-max-politics-as-a-vocation",
+      "status": "verified_link_tied_citation"
+    },
+    {
+      "readerPassagePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-underreporting",
+      "slug": "weber-rawlins-et-al-concussion-symptom-underreporting-among-incoming-ncaa-division-i-college-ath",
       "status": "verified_link_tied_citation"
     },
     {
@@ -3272,35 +3502,35 @@
     "sources": {
       "bibliographyOnly": 58,
       "byEvidenceLevel": {
-        "A": 449,
-        "B": 188,
+        "A": 496,
+        "B": 141,
         "C": 1,
         "D": 58,
         "E": 18
       },
       "invalidPassageLinks": 0,
-      "mechanicalFootnoteCandidates": 188,
-      "missingPathWithFootnote": 188,
+      "mechanicalFootnoteCandidates": 141,
+      "missingPathWithFootnote": 141,
       "pathNeedsEditorialReview": 0,
-      "tiedCitationCoveragePct": 62.89,
+      "tiedCitationCoveragePct": 69.47,
       "total": 714,
       "unverifiedFragmentLinks": 0,
-      "validPassageLinks": 449,
-      "verifiedLinkTiedCitation": 449,
-      "whyThisMattersOk": 449,
-      "withReaderPassagePath": 449
+      "validPassageLinks": 496,
+      "verifiedLinkTiedCitation": 496,
+      "whyThisMattersOk": 496,
+      "withReaderPassagePath": 496
     },
     "thinkers": {
       "byEvidenceLevel": {
-        "A": 425,
-        "B": 166,
+        "A": 465,
+        "B": 126,
         "C": 0,
         "D": 52,
         "E": 0
       },
       "total": 643,
-      "usefulPathPct": 66.1,
-      "withDerivablePassages": 425
+      "usefulPathPct": 72.32,
+      "withDerivablePassages": 465
     }
   }
 }

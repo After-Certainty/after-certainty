@@ -38,13 +38,13 @@ This is translation in the domain of legitimacy. The moral aim was representatio
 
 ### The Primary That Teaches the Rule
 
-The housing decision does not occur in a vacuum. In the 2009–2010 debate over the Affordable Care Act, congressional leaders and the White House faced sustained pressure over whether to include a public insurance option. Polling showed substantial public support in abstract surveys; Senate vote counts, procedural constraints, and coalition management told a harder story.[^c7-aca] The provision was softened and ultimately dropped as leaders weighed that support against the votes required for passage, industry opposition, and the political cost of prolonging the fight. The episode showed how quickly a policy argument can become an assessment of what the institution can carry—and how measurable viability can begin displacing the underlying question of what representation requires.
+The housing decision does not occur in a vacuum. In the 2009–2010 debate over the Affordable Care Act, congressional leaders and the White House faced sustained pressure over whether to include a public insurance option. Polling showed substantial public support in abstract surveys; The 111th Congress debated the Affordable Care Act and proposed public-option provisions as legislation moved through the chamber.[^c7-legislative-record] Senate vote counts, procedural constraints, and coalition management told a harder story.[^c7-aca] The provision was softened and ultimately dropped as leaders weighed that support against the votes required for passage, industry opposition, and the political cost of prolonging the fight. The episode showed how quickly a policy argument can become an assessment of what the institution can carry—and how measurable viability can begin displacing the underlying question of what representation requires.
 
 Staff internalize these lessons without writing them down.
 
 ### The Other Numbers in the Room
 
-Polling is only one metric in the room. Fundraising totals function as enthusiasm barometers independent of argument quality.[^c7-fec] A strong quarterly haul can stand in for a defended platform. Donor counts become evidence of moral seriousness even when the underlying policy case is thin. Turnout models, contact rates, ad performance, and volunteer hours are optimized with the same operational rigor applied to consumer products.[^c7-hersh] Momentum is measured, not argued.
+Polling is only one metric in the room. Federal Election Commission filings record campaign contributions and expenditures in public reports.[^c7-fec] OpenSecrets organizes these disclosures into fundraising totals and donor profiles.[^c7-opensecrets] Those totals can function as enthusiasm barometers independent of argument quality. A strong quarterly haul can stand in for a defended platform. Donor counts become evidence of moral seriousness even when the underlying policy case is thin. Turnout models, contact rates, ad performance, and volunteer hours are optimized with the same operational rigor applied to consumer products.[^c7-hersh] Momentum is measured, not argued.
 
 Polling, fundraising, turnout models, and ad performance do not announce that representation has ended. They invite the institution to treat representation as something inferable from measurable signals—and that inference is convenient. It is also incomplete. A campaign can raise money while losing the capacity to persuade anyone who is not already persuaded. It can generate engagement while shrinking the space for deliberation. It can win elections while teaching citizens that leaders follow more than they lead.
 
@@ -82,8 +82,12 @@ Elections continue. Legitimacy thins—not because democracy ended, but because 
 
 Polls began as instruments for listening. They became, for many campaigns, the practical definition of what leaders are allowed to say they believe. The translation solves real problems of uncertainty and scale. It also teaches politics to treat present preference as moral authority. The numbers are on the screen before the argument begins. The argument learns to wait.
 
-[^c7-aca]: Congressional Record, 111th Cong., debate on Affordable Care Act and public-option provisions (2009–2010); Jonathan Cohn, *The Ten Year War: Obamacare and the Unmaking of American Establishment* (New York: St. Martin's Press, 2021), on Senate vote counts, coalition constraints, and the option's removal from final legislation.
-[^c7-pew]: Pew Research Center, *A Guide to Pew Research Center's Methodology*; U.S. election and politics survey documentation.
-[^c7-fec]: Federal Election Commission, campaign finance disclosure data, https://www.fec.gov/; Center for Responsive Politics (OpenSecrets), fundraising totals and donor reporting.
+[^c7-aca]: Jonathan Cohn, *The Ten Year War: Obamacare and the Unmaking of American Establishment* (New York: St. Martin's Press, 2021), on political coalition constraints, Senate votes, and the loss of the proposed public option.
+[^c7-pew]: Pew Research Center, *A Guide to Pew Research Center's Methodology*, on polling methods, question design and the interpretation of survey results. Survey data cannot itself determine which political outcome is morally required.
+[^c7-fec]: Federal Election Commission, publicly available campaign finance disclosure data, https://www.fec.gov/, recording contributions and expenditures; these disclosures do not themselves evaluate the moral quality of campaign arguments.
 [^c7-hersh]: Eitan Hersh, *Politics Is for Power* (New York: Scribner, 2020).
 [^c7-trust]: Pew Research Center, "Public Trust in Government: 1958–2024," April 2024.
+
+[^c7-opensecrets]: Center for Responsive Politics (OpenSecrets), “OpenSecrets fundraising totals and donor reporting,” https://www.opensecrets.org/, on the aggregation and analysis of campaign finance disclosures.
+
+[^c7-legislative-record]: *Congressional Record*, 111th Congress, debates on the Affordable Care Act and the public-option proposals, 2009–2010, for the legislative context and competing provisions discussed by lawmakers.

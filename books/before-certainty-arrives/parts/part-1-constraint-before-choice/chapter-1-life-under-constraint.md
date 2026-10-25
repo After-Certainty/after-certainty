@@ -18,7 +18,7 @@ buried their dead beneath the floors where they slept. Plastered skulls
 rested in corners. Wall paintings showed cattle and hands. A visitor
 walking the settlement's roof-level paths would have seen a dense lattice
 of domestic life with no streets below—only thresholds, ovens, and the
-same plastered surfaces touched daily by many hands.[^c1-catalhoyuk]
+same plastered surfaces touched daily by many hands.[^c1-catalhoyuk] Hodder's later work develops the broader idea that human lives and material things become mutually dependent over time.[^c1-entanglement]
 
 We cannot know what those people believed about the good. The material
 record does not give us sermons or arguments. It gives us repetition:
@@ -56,7 +56,7 @@ Evidence from many anthropological settings suggests that early moral
 formation emphasized role stability, norm enforcement, and coordinated
 behavior more than individual justification or deliberative ethics. Ritual,
 taboo, and authority functioned as social technologies for reducing
-uncertainty when material and existential risk was high.[^c1-early-moral-anthropology]
+uncertainty when material and existential risk was high.[^c1-early-moral-anthropology] Christopher Boehm's comparative account of hierarchy also describes how members of small-scale groups can collectively constrain domination.[^c1-hierarchy]
 
 In those households, the same domestic patterns recurred across
 generations: houses rebuilt in place, burials beneath living floors,
@@ -169,5 +169,9 @@ conduct held steady first; meaning thickened later.
 
 But here—at the beginning—it still felt necessary.
 
-[^c1-catalhoyuk]: See Ian Hodder, *The Leopard's Tale: Revealing the Mysteries of Çatalhöyük* (London: Thames & Hudson, 2006); Ian Hodder, *Where Are We Heading? The Evolution of Humans and Things* (New Haven, CT: Yale University Press, 2018).
-[^c1-early-moral-anthropology]: See Mary Douglas, *Purity and Danger* (London: Routledge, 1966); Christopher Boehm, *Hierarchy in the Forest* (Cambridge, MA: Harvard University Press, 1999).
+[^c1-catalhoyuk]: Ian Hodder, *The Leopard's Tale: Revealing the Mysteries of Çatalhöyük* (London: Thames & Hudson, 2006), on excavations and domestic material practices at the Neolithic settlement.
+[^c1-early-moral-anthropology]: Mary Douglas, *Purity and Danger: An Analysis of Concepts of Pollution and Taboo* (London: Routledge, 1966), on ritual classification and taboo as socially organizing patterns; this is not a claim that all early groups shared a single moral system.
+
+[^c1-hierarchy]: Christopher Boehm, *Hierarchy in the Forest: The Evolution of Egalitarian Behavior* (Cambridge, MA: Harvard University Press, 1999), on collective restraints imposed on would-be dominators in smaller human groups.
+
+[^c1-entanglement]: Ian Hodder, *Where Are We Heading? The Evolution of Humans and Things* (New Haven, CT: Yale University Press, 2018), on historically accumulated dependencies between human societies and the things they make.

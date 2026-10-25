@@ -110,7 +110,7 @@ The distinction matters because moral posture toward harm is not revealed by ref
 
 The harder question is how power is used, what alternatives have been exhausted, which harms are deliberately constrained, and whether the methods chosen preserve any possibility of a different relationship later.
 
-Mandela’s account of sabotage was itself an attempt to draw such a boundary. Infrastructure and symbols of state power could be attacked while loss of life was to be avoided. Whether such distinctions can remain stable once violence begins is another question. Armed movements generate their own escalations, errors, factions, and moral compromises. The ANC’s armed struggle, like the state and other forces in the conflict, became connected to actions that could not be contained inside a purified story of liberation. The Truth and Reconciliation Commission would later investigate abuses committed across the political conflict, not only by the apartheid government.[^v5]
+Mandela’s account of sabotage was itself an attempt to draw such a boundary. Infrastructure and symbols of state power could be attacked while loss of life was to be avoided. Whether such distinctions can remain stable once violence begins is another question. Armed movements generate their own escalations, errors, factions, and moral compromises. The ANC’s armed struggle, like the state and other forces in the conflict, became connected to actions that could not be contained inside a purified story of liberation. The Truth and Reconciliation Commission would later investigate abuses committed across the political conflict, not only by the apartheid government.[^v5] Desmond Tutu later described the difficult effort to pursue truth and reconciliation without pretending those injuries had never occurred.[^v5-tutu]
 
 This does not create an equivalence between apartheid and resistance to apartheid. One was a racial order enforced through the state; the other arose against it.
 
@@ -385,4 +385,6 @@ Leadership appeared in what he chose not to keep there.
 [^v2]: John Carlin, *Playing the Enemy: Nelson Mandela and the Game That Made a Nation* (New York: Penguin, 2008).
 [^v3]: Nelson Mandela, *Long Walk to Freedom* (Boston: Little, Brown and Company, 1994); South African Government and Parliamentary records for 1999 transition.
 [^v4]: Nelson Mandela, statement from the dock at the Rivonia Trial (20 April 1964), https://www.un.org/en/events/mandeladay/court_statement_1964.shtml, on the formation of Umkhonto we Sizwe and his justification for sabotage rather than terrorism or racial war.
-[^v5]: Truth and Reconciliation Commission of South Africa, *Final Report* (1998); Desmond Tutu, *No Future Without Forgiveness* (New York: Doubleday, 1999).
+[^v5]: Truth and Reconciliation Commission of South Africa, *Final Report* (1998), examining human rights violations by actors across the apartheid-era conflict.
+
+[^v5-tutu]: Desmond Tutu, *No Future Without Forgiveness* (New York: Doubleday, 1999), reflecting on the aims, tensions, and limits of the Truth and Reconciliation Commission.

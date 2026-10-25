@@ -56,7 +56,7 @@ supporters of the ANC and the Inkatha Freedom Party tore through
 Natal and the Reef. Third-force activity, township massacres,
 train violence, assassination, and mutual fear made collapse feel
 nearer than constitutional settlement. Negotiations proceeded
-beside funerals. White right-wing threats, security-force
+beside funerals. Patti Waldmeir's account of the transition describes how uncertainty and violence shadowed the prospect of a constitutional settlement.[^c8-waldmeir] White right-wing threats, security-force
 ambiguities, and local spirals of revenge kept the transition
 inside a corridor where one misread signal could reopen
 slaughter.[^c8-sparks]
@@ -323,12 +323,7 @@ Rivonia Trial, 20 April 1964, reproduced in *Nelson Mandela: The
 Struggle Is My Life* and extensively discussed in Sampson,
 *Mandela*.
 
-[^c8-sparks]: Allister Sparks, *Tomorrow Is Another Country: The
-Inside Story of South Africa’s Road to Change* (New York: Hill and
-Wang, 1995); Patti Waldmeir, *Anatomy of a Miracle: The End of
-Apartheid and the Birth of the New South Africa* (New York: W. W.
-Norton, 1997). Both emphasize how close the early 1990s remained
-to large-scale civil conflict.
+[^c8-sparks]: Allister Sparks, *Tomorrow Is Another Country: The Inside Story of South Africa’s Road to Change* (New York: Hill and Wang, 1995), on the negotiations, political threats and fragility of the early-1990s transition.
 
 [^c8-springbok]: On Mandela’s appearance at the 1995 Rugby World
 Cup final and the politics of national symbolism, see Sampson,
@@ -339,14 +334,11 @@ Cup final and the politics of national symbolism, see Sampson,
 victim testimony, and findings concerning state and
 liberation-movement violations.
 
-[^c8-mamdani]: Mahmood Mamdani, “Amnesty or Impunity? A
-Preliminary Critique of the Report of the Truth and Reconciliation
-Commission of South Africa (TRC),” *Diacritics* 32, no. 3/4
-(2002): 33–59; see also Mamdani’s broader arguments on the limits
-of criminalizing political violence without addressing structural
-injustice.
+[^c8-mamdani]: Mahmood Mamdani, “Amnesty or Impunity? A Preliminary Critique of the Report of the Truth and Reconciliation Commission of South Africa (TRC),” *Diacritics* 32, no. 3/4 (2002): 33–59, criticizing a focus on individual offenses that can obscure structural injustices.
 
 [^c8-surplus]: On Mandela’s refusal to convert personal suffering
 into political entitlement, and on a presidency often evaluated
 for stabilization more than structural transformation, see
 Sampson, *Mandela*.
+
+[^c8-waldmeir]: Patti Waldmeir, *Anatomy of a Miracle: The End of Apartheid and the Birth of the New South Africa* (New York: W. W. Norton, 1997), on the uncertainty and escalating violence around the political transition.

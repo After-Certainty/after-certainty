@@ -12,4 +12,10 @@ creatorSlugs:
 - federal-election-commission
 citation: Federal Election Commission. Campaign finance disclosure data. https://www.fec.gov/.
 sourceKind: book
+whyThisMatters: >-
+  FEC campaign finance reports document money received and spent by campaigns. The
+  chapter links the primary public-disclosure system separately from OpenSecrets'
+  subsequent aggregation and asks how reported fundraising can become a proxy for
+  public legitimacy.
+readerPassagePath: /explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-fec
 title: Campaign finance disclosure data

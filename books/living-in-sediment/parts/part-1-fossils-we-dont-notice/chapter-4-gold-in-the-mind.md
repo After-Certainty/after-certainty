@@ -30,11 +30,11 @@ The arrangement shaped more than economies. It shaped imagination.
 
 To say that money was "backed by gold" did more than describe a monetary system. It suggested that value itself ought to rest upon something solid, something difficult to counterfeit, something that existed independently of politics or persuasion.
 
-Gold became more than a metal. It became a metaphor.
+Gold became more than a metal. It became a metaphor.[^c4-money-philosophy]
 
 Like most metaphors that survive for centuries, it eventually escaped the circumstances that created it.
 
-The twentieth century gradually loosened the relationship between currencies and precious metals. Wars demanded flexibility. Economic crises required governments to respond in ways a rigid gold standard often made difficult. One by one, major economies adopted systems in which money derived its value not from convertibility into metal but from institutions, taxation, productive capacity, and collective confidence.[^c4-money-institution]
+The twentieth century gradually loosened the relationship between currencies and precious metals. Wars demanded flexibility. Economic crises required governments to respond in ways a rigid gold standard often made difficult. One by one, major economies adopted systems in which money derived its value not from convertibility into metal but from institutions, taxation, productive capacity, and collective confidence.[^c4-money-institution] Geoffrey Ingham's institutional account treats money as a social relation maintained by monetary authority rather than merely a commodity.[^c4-money-social]
 
 The vaults mattered less. The relationships mattered more.
 
@@ -94,6 +94,10 @@ The gold standard receded into history. The idea that value ought to be backed b
 
 Perhaps every society carries metals in its mind long after they disappear from its pockets.
 
-[^c4-money-institution]: See Felix Martin, *Money: The Unauthorized Biography* (New York: Alfred A. Knopf, 2013); Geoffrey Ingham, *The Nature of Money* (Cambridge: Polity Press, 2004).
+[^c4-money-institution]: Felix Martin, *Money: The Unauthorized Biography* (New York: Alfred A. Knopf, 2013), on monetary systems as historically changing conventions of credit and collective trust.
 
-[^c4-gold-intuition]: See Georg Simmel, *The Philosophy of Money*, trans. Tom Bottomore and David Frisby (London: Routledge, 1978); Niall Ferguson, *The Ascent of Money: A Financial History of the World* (New York: Penguin Press, 2008).
+[^c4-gold-intuition]: Niall Ferguson, *The Ascent of Money: A Financial History of the World* (New York: Penguin Press, 2008), on the history of material stores of value and the development of monetary systems.
+
+[^c4-money-philosophy]: Georg Simmel, *The Philosophy of Money*, trans. Tom Bottomore and David Frisby (London: Routledge, 1978), on how money mediates relationships and turns qualitative valuations into apparently impersonal equivalents.
+
+[^c4-money-social]: Geoffrey Ingham, *The Nature of Money* (Cambridge: Polity Press, 2004), on money as a social and institutional relation rather than only a physical commodity.

@@ -94,22 +94,33 @@
     "source:alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language:/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns": {
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "Phase 8 Outcome C: preserve shared — Pattern Language + Timeless Way jointly support the architectural-sediment claim; no unique path. Shared evidence is correct.",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c8-alexander-patterns to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering",
       "slug": "alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T01:32:23Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:alexander-christopher-the-timeless-way-of-building:/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns": {
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "Phase 8 Outcome C: preserve shared — Timeless Way + Pattern Language jointly support “building solved a real problem”; no distinct claim sentences. Shared evidence is correct.",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-timeless-way. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering",
       "slug": "alexander-christopher-the-timeless-way-of-building",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T01:32:23Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-timeless-way"
+    },
+    "source:alexander-christopher-the-timeless-way-of-building:/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-timeless-way": {
+      "entityKind": "source",
+      "slug": "alexander-christopher-the-timeless-way-of-building",
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-timeless-way",
+      "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c8-timeless-way to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:alexander-robin-die-getriebenen-merkel-und-die-fl-chtlingspolitik:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-refugees": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-refugees",
@@ -533,12 +544,12 @@
     "source:bartky-ian-r-the-adoption-of-standard-time:/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-9-industrial-scale-and-institutional-certainty#user-content-fnref-c9-railway-time": {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-9-industrial-scale-and-institutional-certainty#user-content-fnref-c9-railway-time",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c9-railway-time to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-9-industrial-scale-and-institutional-certainty",
       "slug": "bartky-ian-r-the-adoption-of-standard-time",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:basketball-reference-bill-russell:/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-russell-career": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-russell-career",
@@ -805,11 +816,22 @@
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-early-moral-anthropology",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-hierarchy. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint",
       "slug": "boehm-christopher-hierarchy-in-the-forest-the-evolution-of",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-hierarchy"
+    },
+    "source:boehm-christopher-hierarchy-in-the-forest-the-evolution-of:/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-hierarchy": {
+      "entityKind": "source",
+      "slug": "boehm-christopher-hierarchy-in-the-forest-the-evolution-of",
+      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-hierarchy",
+      "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c1-hierarchy to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:bogle-john-c-the-clash-of-the-cultures-investment-vs-speculation:/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-index": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-index",
@@ -1159,11 +1181,22 @@
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-fec",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-opensecrets. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position",
       "slug": "center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-open",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-opensecrets"
+    },
+    "source:center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-open:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-opensecrets": {
+      "entityKind": "source",
+      "slug": "center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-open",
+      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-opensecrets",
+      "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c7-opensecrets to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:centers-for-disease-control-and-prevention-returning-to-sports:/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-cdc-rts": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-cdc-rts",
@@ -1178,12 +1211,12 @@
     "source:centers-for-disease-control-and-prevention-symptoms-of-concussion:/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-concussion-symptoms": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-concussion-symptoms",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c5-concussion-symptoms to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt",
       "slug": "centers-for-disease-control-and-prevention-symptoms-of-concussion",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:centers-for-medicare-medicaid-services-hospital-readmissions:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-cms-hrrp": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-cms-hrrp",
@@ -1368,12 +1401,12 @@
     "source:cohn-jonathan-the-ten-year-war-obamacare-and-the-unmaking-of-american-establishment:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-aca": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-aca",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c7-aca to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position",
       "slug": "cohn-jonathan-the-ten-year-war-obamacare-and-the-unmaking-of-american-establishment",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:cole-robert-e-what-really-happened-to-toyota:/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-2-success-creates-momentum#user-content-fnref-c2-cole-toyota": {
       "candidatePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-2-success-creates-momentum#user-content-fnref-c2-cole-toyota",
@@ -1419,11 +1452,22 @@
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-aca",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-legislative-record. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position",
       "slug": "congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-legislative-record"
+    },
+    "source:congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-legislative-record": {
+      "entityKind": "source",
+      "slug": "congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions",
+      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-legislative-record",
+      "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c7-legislative-record to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:connolly-kate-angela-merkel-gives-germans-a-hard-lesson-in-covid-numbers:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-covid": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-covid",
@@ -1616,15 +1660,26 @@
       "status": "applied",
       "updatedAt": "2026-10-24T21:30:00Z"
     },
+    "source:deutsch-morton-the-resolution-of-conflict:/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-deutsch-conflict": {
+      "entityKind": "source",
+      "slug": "deutsch-morton-the-resolution-of-conflict",
+      "candidatePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-deutsch-conflict",
+      "routeKey": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c4-deutsch-conflict to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
+    },
     "source:deutsch-morton-the-resolution-of-conflict:/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-lazarus-deutsch-pace-conflict": {
       "candidatePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-lazarus-deutsch-pace-conflict",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-deutsch-conflict. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear",
       "slug": "deutsch-morton-the-resolution-of-conflict",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-deutsch-conflict"
     },
     "source:deutscher-guy-the-unfolding-of-language-an-evolutionary-tour-of-mankind-s:/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-lakoff-metaphor": {
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-lakoff-metaphor",
@@ -1729,12 +1784,12 @@
     "source:douglas-mary-purity-and-danger-an-analysis-of-concepts-of-pollution:/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-early-moral-anthropology": {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-early-moral-anthropology",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c1-early-moral-anthropology to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint",
       "slug": "douglas-mary-purity-and-danger-an-analysis-of-concepts-of-pollution",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:drake-stillman-discoveries-and-opinions-of-galileo:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-christina": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-christina",
@@ -1839,12 +1894,12 @@
     "source:electoral-commission-of-south-africa-27-apr-1994-national-election:/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-sa-election": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-sa-election",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c6-sa-election to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot",
       "slug": "electoral-commission-of-south-africa-27-apr-1994-national-election",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:ellis-joseph-j-his-excellency-george-washington:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-ellis": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-ellis",
@@ -2051,21 +2106,32 @@
       "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-banks-2023",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-fdic-options. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail",
       "slug": "federal-deposit-insurance-corporation-options-for-deposit-insurance-reform",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-fdic-options"
+    },
+    "source:federal-deposit-insurance-corporation-options-for-deposit-insurance-reform:/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-fdic-options": {
+      "entityKind": "source",
+      "slug": "federal-deposit-insurance-corporation-options-for-deposit-insurance-reform",
+      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-fdic-options",
+      "routeKey": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c8-fdic-options to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:federal-election-commission-campaign-finance-disclosure-data-https-www-fec-gov:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-fec": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-fec",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c7-fec to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position",
       "slug": "federal-election-commission-campaign-finance-disclosure-data-https-www-fec-gov",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:federal-reserve-bank-of-philadelphia-survey-of-professional-forecasters:/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-spf": {
       "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-1-the-economy-we-describe-chapter-2-when-a-forecast-becomes-a-promise#user-content-fnref-c2-spf",
@@ -2080,12 +2146,12 @@
     "source:ferguson-niall-the-ascent-of-money-a-financial-history-of-the-world:/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-gold-intuition": {
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-gold-intuition",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c4-gold-intuition to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind",
       "slug": "ferguson-niall-the-ascent-of-money-a-financial-history-of-the-world",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:figes-orlando-the-whisperers-private-life-in-stalin-s-russia:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-5-the-applause-no-one-wants-to-end#user-content-fnref-c5-figes-whisperers": {
       "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-5-the-applause-no-one-wants-to-end#user-content-fnref-c5-figes-whisperers",
@@ -2101,11 +2167,22 @@
       "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-bernanke",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-fsb-reforms. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail",
       "slug": "financial-stability-board-implementation-and-effects-of-the-g20-financial-regulatory-reforms",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-fsb-reforms"
+    },
+    "source:financial-stability-board-implementation-and-effects-of-the-g20-financial-regulatory-reforms:/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-fsb-reforms": {
+      "entityKind": "source",
+      "slug": "financial-stability-board-implementation-and-effects-of-the-g20-financial-regulatory-reforms",
+      "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-fsb-reforms",
+      "routeKey": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c8-fsb-reforms to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:fine-sidney-sit-down-the-general-motors-strike-of-1936-1937:/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-9-the-scale#user-content-fnref-c9-flint": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-9-the-scale#user-content-fnref-c9-flint",
@@ -2470,12 +2547,12 @@
     "source:government-of-south-africa-truth-and-reconciliation-commission-final-report:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v5": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v5",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied v5 to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory",
       "slug": "government-of-south-africa-truth-and-reconciliation-commission-final-report",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:grady-peter-flying-blind-the-737-max-tragedy-and-the-fall-of-boeing:/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-2-success-creates-momentum#user-content-fnref-c2-grady-boeing": {
       "candidatePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-1-why-trust-exists-chapter-2-success-creates-momentum#user-content-fnref-c2-grady-boeing",
@@ -2530,12 +2607,12 @@
     "source:grissom-jason-a-et-al-teacher-stress-and-health-effects-on-teachers-students-and-schools:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold#user-content-fnref-c8-rand": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold#user-content-fnref-c8-rand",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c8-rand to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold",
       "slug": "grissom-jason-a-et-al-teacher-stress-and-health-effects-on-teachers-students-and-schools",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:grove-andrew-s-high-output-management:/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-andrew-s-grove": {
       "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-2-confidence-outruns-correction#user-content-fnref-c2-source-andrew-s-grove",
@@ -2770,22 +2847,33 @@
     "source:hodder-ian-the-leopard-s-tale-revealing-the-mysteries-of:/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-catalhoyuk": {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-catalhoyuk",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c1-catalhoyuk to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint",
       "slug": "hodder-ian-the-leopard-s-tale-revealing-the-mysteries-of",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:hodder-ian-where-are-we-heading-the-evolution-of-humans-and-things:/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-catalhoyuk": {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-catalhoyuk",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-entanglement. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint",
       "slug": "hodder-ian-where-are-we-heading-the-evolution-of-humans-and-things",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-entanglement"
+    },
+    "source:hodder-ian-where-are-we-heading-the-evolution-of-humans-and-things:/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-entanglement": {
+      "entityKind": "source",
+      "slug": "hodder-ian-where-are-we-heading-the-evolution-of-humans-and-things",
+      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-entanglement",
+      "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c1-entanglement to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:hollnagel-erik-safety-i-and-safety-ii-the-past-and-future-of-safety:/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-8-when-failure-is-not-an-option#user-content-fnref-c8-source-erik-hollnagel-safety": {
       "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-8-when-failure-is-not-an-option#user-content-fnref-c8-source-erik-hollnagel-safety",
@@ -2881,11 +2969,22 @@
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-money-institution",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-money-social. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind",
       "slug": "ingham-geoffrey-the-nature-of-money",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-money-social"
+    },
+    "source:ingham-geoffrey-the-nature-of-money:/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-money-social": {
+      "entityKind": "source",
+      "slug": "ingham-geoffrey-the-nature-of-money",
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-money-social",
+      "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c4-money-social to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:institute-of-medicine-hospital-based-emergency-care-at-the-breaking-point:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding",
@@ -3033,11 +3132,22 @@
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-architecture-pedagogy",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-jacobs-streets. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering",
       "slug": "jacobs-jane-the-death-and-life-of-great-american-cities",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-jacobs-streets"
+    },
+    "source:jacobs-jane-the-death-and-life-of-great-american-cities:/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-jacobs-streets": {
+      "entityKind": "source",
+      "slug": "jacobs-jane-the-death-and-life-of-great-american-cities",
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-jacobs-streets",
+      "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c8-jacobs-streets to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:jahn-k-hakes-and-raymond-d-sauer-an-economic-evaluation-of-the-moneyball-hypothesis:/explore/books/the-game-we-think-we-saw/chapters/parts-part-1-what-the-result-shows-chapter-1-what-the-scoreboard-leaves-out#user-content-fnref-c1-hakes-evaluation": {
       "entityKind": "source",
@@ -3504,22 +3614,33 @@
     "source:lazarus-richard-s-emotion-and-adaptation:/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-lazarus-deutsch-pace-conflict": {
       "candidatePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-lazarus-deutsch-pace-conflict",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c4-lazarus-deutsch-pace-conflict to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear",
       "slug": "lazarus-richard-s-emotion-and-adaptation",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:learning-policy-institute-teacher-shortages-and-turnover-in-the-united-states:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold#user-content-fnref-c8-rand": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold#user-content-fnref-c8-rand",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold#user-content-fnref-c8-teacher-turnover. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold",
       "slug": "learning-policy-institute-teacher-shortages-and-turnover-in-the-united-states",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold#user-content-fnref-c8-teacher-turnover"
+    },
+    "source:learning-policy-institute-teacher-shortages-and-turnover-in-the-united-states:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold#user-content-fnref-c8-teacher-turnover": {
+      "entityKind": "source",
+      "slug": "learning-policy-institute-teacher-shortages-and-turnover-in-the-united-states",
+      "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold#user-content-fnref-c8-teacher-turnover",
+      "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-8-the-child-the-score-cannot-hold",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c8-teacher-turnover to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:ledoux-joseph-the-emotional-brain:/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-1-before-the-words#user-content-fnref-c1-ledoux-emotional-brain": {
       "candidatePath": "/explore/books/how-meaning-moves/chapters/parts-part-i-what-arrives-first-chapter-1-before-the-words#user-content-fnref-c1-ledoux-emotional-brain",
@@ -3867,12 +3988,12 @@
     "source:mamdani-mahmood-amnesty-or-impunity-a-preliminary-critique-of-the-report-of-the-truth-and-reconc:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter#user-content-fnref-c8-mamdani": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter#user-content-fnref-c8-mamdani",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=multi:see_also",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c8-mamdani to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter",
       "slug": "mamdani-mahmood-amnesty-or-impunity-a-preliminary-critique-of-the-report-of-the-truth-and-reconc",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:mandela-nelson-long-walk-to-freedom:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v3": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v3",
@@ -3927,12 +4048,12 @@
     "source:martin-felix-money-the-unauthorized-biography:/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-money-institution": {
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-money-institution",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c4-money-institution to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind",
       "slug": "martin-felix-money-the-unauthorized-biography",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:martin-luther-king-jr-research-and-education-institute-stanford-university-i-have-a-dream:/explore/books/the-world-we-make-together/chapters/parts-part-1-who-makes-history-chapter-1-the-photograph#user-content-fnref-c1-jackson-dream": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-1-who-makes-history-chapter-1-the-photograph#user-content-fnref-c1-jackson-dream",
@@ -4067,22 +4188,33 @@
     "source:melas-chloe-taylor-swift-gave-eras-tour-crew-197-million-in-bonuses-exclusive:/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b2": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b2",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied b2 to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet",
       "slug": "melas-chloe-taylor-swift-gave-eras-tour-crew-197-million-in-bonuses-exclusive",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:melas-chloe-taylor-swift-gives-life-changing-100-000-bonuses-to-eras-tour-truck-drivers:/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b2": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b2",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b2-truck. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet",
       "slug": "melas-chloe-taylor-swift-gives-life-changing-100-000-bonuses-to-eras-tour-truck-drivers",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b2-truck"
+    },
+    "source:melas-chloe-taylor-swift-gives-life-changing-100-000-bonuses-to-eras-tour-truck-drivers:/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b2-truck": {
+      "entityKind": "source",
+      "slug": "melas-chloe-taylor-swift-gives-life-changing-100-000-bonuses-to-eras-tour-truck-drivers",
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b2-truck",
+      "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied b2-truck to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:merleau-ponty-maurice-phenomenology-of-perception:/explore/books/after-certainty/chapters/parts-part-3-living-with-limits-chapter-9-when-to-stop-interpreting#user-content-fnref-c9-clarity-without-understanding": {
       "candidatePath": "/explore/books/after-certainty/chapters/parts-part-3-living-with-limits-chapter-9-when-to-stop-interpreting#user-content-fnref-c9-clarity-without-understanding",
@@ -4227,12 +4359,12 @@
     "source:moore-et-al-factors-and-expectations-influencing-concussion-disclosure-within-ncaa-division-i-at:/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-reporting-pressure": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-reporting-pressure",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c5-reporting-pressure to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt",
       "slug": "moore-et-al-factors-and-expectations-influencing-concussion-disclosure-within-ncaa-division-i-at",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman-emergency-departme:/explore/books/why-collaboration-is-so-hard/chapters/parts-chapter-7-faster-than-care-can-move#user-content-fnref-c7-morley": {
       "candidatePath": "/explore/books/why-collaboration-is-so-hard/chapters/parts-chapter-7-faster-than-care-can-move#user-content-fnref-c7-morley",
@@ -4297,12 +4429,12 @@
     "source:mumford-lewis-technics-and-civilization:/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-architecture-pedagogy": {
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-architecture-pedagogy",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c8-architecture-pedagogy to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering",
       "slug": "mumford-lewis-technics-and-civilization",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:munk-nina-fools-rush-in-steve-case-jerry-levin-and-the-unmaking-of-aol-time-warner:/explore/books/trust-beyond-similarity/chapters/parts-part-2-the-shock-of-the-partial-chapter-5-diversity-without-trust#user-content-fnref-c5-aol-timewarner": {
       "candidatePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-2-the-shock-of-the-partial-chapter-5-diversity-without-trust#user-content-fnref-c5-aol-timewarner",
@@ -4404,15 +4536,26 @@
       "status": "applied",
       "updatedAt": "2026-10-17T23:40:35Z"
     },
+    "source:national-collegiate-athletic-association-concussion-fact-sheet-for-coaches:/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-coaches-warning": {
+      "entityKind": "source",
+      "slug": "national-collegiate-athletic-association-concussion-fact-sheet-for-coaches",
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-coaches-warning",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c5-coaches-warning to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
+    },
     "source:national-collegiate-athletic-association-concussion-fact-sheet-for-coaches:/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-concussion-symptoms": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-concussion-symptoms",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-coaches-warning. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt",
       "slug": "national-collegiate-athletic-association-concussion-fact-sheet-for-coaches",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-coaches-warning"
     },
     "source:national-institute-of-standards-and-technology-artificial-intelligence-risk-management-framework:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-11-hexagonal-architecture-boundary-discipline-at-scale#user-content-fnref-c11-bridge-p3": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-11-hexagonal-architecture-boundary-discipline-at-scale#user-content-fnref-c11-bridge-p3",
@@ -4739,15 +4882,26 @@
       "status": "applied",
       "updatedAt": "2026-10-17T23:40:35Z"
     },
+    "source:north-douglass-c-institutions-institutional-change-and-economic-performance:/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds#user-content-fnref-c2-north-institutions": {
+      "entityKind": "source",
+      "slug": "north-douglass-c-institutions-institutional-change-and-economic-performance",
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds#user-content-fnref-c2-north-institutions",
+      "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c2-north-institutions to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
+    },
     "source:north-douglass-c-institutions-institutional-change-and-economic-performance:/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds#user-content-fnref-c2-path-dependence": {
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds#user-content-fnref-c2-path-dependence",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds#user-content-fnref-c2-north-institutions. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds",
       "slug": "north-douglass-c-institutions-institutional-change-and-economic-performance",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds#user-content-fnref-c2-north-institutions"
     },
     "source:northern-ireland-department-of-justice-department-of-justice-interface-programme:/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-7-the-fence#user-content-fnref-c7-interfaces": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-7-the-fence#user-content-fnref-c7-interfaces",
@@ -4992,12 +5146,12 @@
     "source:pew-research-center-a-guide-to-pew-research-center-s-methodology:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-pew": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position#user-content-fnref-c7-pew",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=multi:soft_second_source",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c7-pew to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-3-the-world-the-metric-makes-chapter-7-the-poll-before-the-position",
       "slug": "pew-research-center-a-guide-to-pew-research-center-s-methodology",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:pew-research-center-a-look-back-at-americans-reactions-to-the-jan-6-riot-at-the-u-s-capitol:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-3-the-argument-that-sorts-the-room#user-content-fnref-c3-pew-jan6": {
       "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-3-the-argument-that-sorts-the-room#user-content-fnref-c3-pew-jan6",
@@ -5072,12 +5226,12 @@
     "source:pierson-paul-increasing-returns-path-dependence-and-the-study-of-politics:/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds#user-content-fnref-c2-path-dependence": {
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds#user-content-fnref-c2-path-dependence",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c2-path-dependence to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds",
       "slug": "pierson-paul-increasing-returns-path-dependence-and-the-study-of-politics",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:polanyi-karl-the-great-transformation-the-political-and-economic-origins-of-our:/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-3-the-thirty-year-house#user-content-fnref-c3-mortgage-policy": {
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-3-the-thirty-year-house#user-content-fnref-c3-mortgage-policy",
@@ -5103,11 +5257,22 @@
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b1",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b1-pollstar. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet",
       "slug": "pollstar-year-end-special-features-top-tours",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b1-pollstar"
+    },
+    "source:pollstar-year-end-special-features-top-tours:/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b1-pollstar": {
+      "entityKind": "source",
+      "slug": "pollstar-year-end-special-features-top-tours",
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b1-pollstar",
+      "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied b1-pollstar to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:popper-karl-r-the-logic-of-scientific-discovery:/explore/books/how-serious-systems-learn/chapters/parts-part-4-when-disciplines-fail-chapter-12-when-methods-become-myths#user-content-fnref-c12-source-karl-popper-the": {
       "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-4-when-disciplines-fail-chapter-12-when-methods-become-myths#user-content-fnref-c12-source-karl-popper-the",
@@ -5403,12 +5568,12 @@
     "source:ross-lee-and-andrew-ward-naive-realism-in-everyday-life:/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-identity-and-caricature": {
       "candidatePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-identity-and-caricature",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c4-identity-and-caricature to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear",
       "slug": "ross-lee-and-andrew-ward-naive-realism-in-everyday-life",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:ross-lee-and-richard-nisbett-the-person-and-the-situation:/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-3-releasing-heroes-and-villains#user-content-fnref-c3-motivated-reasoning": {
       "candidatePath": "/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-3-releasing-heroes-and-villains#user-content-fnref-c3-motivated-reasoning",
@@ -5430,15 +5595,26 @@
       "status": "applied",
       "updatedAt": "2026-10-17T23:40:35Z"
     },
+    "source:rovelli-carlo-the-order-of-time:/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds#user-content-fnref-c2-rovelli-time": {
+      "entityKind": "source",
+      "slug": "rovelli-carlo-the-order-of-time",
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds#user-content-fnref-c2-rovelli-time",
+      "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c2-rovelli-time to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
+    },
     "source:rovelli-carlo-the-order-of-time:/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds#user-content-fnref-c2-time-constructed": {
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds#user-content-fnref-c2-time-constructed",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds#user-content-fnref-c2-rovelli-time. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds",
       "slug": "rovelli-carlo-the-order-of-time",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-2-sixty-seconds#user-content-fnref-c2-rovelli-time"
     },
     "source:royce-winston-w-managing-the-development-of-large-software-systems:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-05-waterfall-low-temporal-coupling#user-content-fnref-c5-waterfall-sequencing": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-05-waterfall-low-temporal-coupling#user-content-fnref-c5-waterfall-sequencing",
@@ -5551,15 +5727,26 @@
       "status": "applied",
       "updatedAt": "2026-10-17T23:40:35Z"
     },
+    "source:schivelbusch-wolfgang-the-railway-journey-the-industrialization-of:/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-9-industrial-scale-and-institutional-certainty#user-content-fnref-c9-railway-experience": {
+      "entityKind": "source",
+      "slug": "schivelbusch-wolfgang-the-railway-journey-the-industrialization-of",
+      "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-9-industrial-scale-and-institutional-certainty#user-content-fnref-c9-railway-experience",
+      "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-9-industrial-scale-and-institutional-certainty",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c9-railway-experience to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
+    },
     "source:schivelbusch-wolfgang-the-railway-journey-the-industrialization-of:/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-9-industrial-scale-and-institutional-certainty#user-content-fnref-c9-railway-time": {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-9-industrial-scale-and-institutional-certainty#user-content-fnref-c9-railway-time",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-9-industrial-scale-and-institutional-certainty#user-content-fnref-c9-railway-experience. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-9-industrial-scale-and-institutional-certainty",
       "slug": "schivelbusch-wolfgang-the-railway-journey-the-industrialization-of",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-9-industrial-scale-and-institutional-certainty#user-content-fnref-c9-railway-experience"
     },
     "source:schneider-howard-powell-says-soft-landing-not-baseline-but-it-s-sure-in-the-forecast:/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world": {
       "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world",
@@ -5696,11 +5883,22 @@
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-gold-intuition",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-money-philosophy. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind",
       "slug": "simmel-georg-the-philosophy-of-money",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-money-philosophy"
+    },
+    "source:simmel-georg-the-philosophy-of-money:/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-money-philosophy": {
+      "entityKind": "source",
+      "slug": "simmel-georg-the-philosophy-of-money",
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind#user-content-fnref-c4-money-philosophy",
+      "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-4-gold-in-the-mind",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c4-money-philosophy to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:simon-herbert-a-a-behavioral-model-of-rational-choice:/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-2-the-cost-of-explanation#user-content-fnref-c2-analysis-paralysis": {
       "candidatePath": "/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-2-the-cost-of-explanation#user-content-fnref-c2-analysis-paralysis",
@@ -5735,12 +5933,12 @@
     "source:sisario-ben-taylor-swift-s-eras-tour-is-the-first-to-surpass-2-billion:/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b1": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b1",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied b1 to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet",
       "slug": "sisario-ben-taylor-swift-s-eras-tour-is-the-first-to-surpass-2-billion",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:skelton-matthew-and-manuel-pais-team-topologies-organizing-business-and-technology-teams-for-fas:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-11-hexagonal-architecture-boundary-discipline-at-scale#user-content-fnref-c11-ownership": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-11-hexagonal-architecture-boundary-discipline-at-scale#user-content-fnref-c11-ownership",
@@ -5815,12 +6013,12 @@
     "source:south-african-history-online-denis-farrell:/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-soweto-queue": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-soweto-queue",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c6-soweto-queue to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot",
       "slug": "south-african-history-online-denis-farrell",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:south-african-history-online-election-results-1994:/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-sa-votes": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-sa-votes",
@@ -5842,25 +6040,36 @@
       "status": "applied",
       "updatedAt": "2026-10-17T23:40:35Z"
     },
+    "source:south-african-history-online-the-south-african-general-elections-1994:/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-election-history": {
+      "entityKind": "source",
+      "slug": "south-african-history-online-the-south-african-general-elections-1994",
+      "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-election-history",
+      "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c6-election-history to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
+    },
     "source:south-african-history-online-the-south-african-general-elections-1994:/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-soweto-queue": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-soweto-queue",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-election-history. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot",
       "slug": "south-african-history-online-the-south-african-general-elections-1994",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-6-the-ballot#user-content-fnref-c6-election-history"
     },
     "source:sparks-allister-tomorrow-is-another-country-the-inside-story-of-south-africa-s-road-to-change:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter#user-content-fnref-c8-sparks": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter#user-content-fnref-c8-sparks",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c8-sparks to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter",
       "slug": "sparks-allister-tomorrow-is-another-country-the-inside-story-of-south-africa-s-road-to-change",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:staggenborg-suzanne-social-movements:/explore/books/trust-beyond-similarity/chapters/parts-part-2-the-shock-of-the-partial-chapter-5-diversity-without-trust#user-content-fnref-c5-coalitions": {
       "candidatePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-2-the-shock-of-the-partial-chapter-5-diversity-without-trust#user-content-fnref-c5-coalitions",
@@ -5996,11 +6205,22 @@
       "candidatePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-identity-and-caricature",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-social-identity. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear",
       "slug": "tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-social-identity"
+    },
+    "source:tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior:/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-social-identity": {
+      "entityKind": "source",
+      "slug": "tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior",
+      "candidatePath": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear#user-content-fnref-c4-social-identity",
+      "routeKey": "/explore/books/how-meaning-moves/chapters/parts-part-ii-rooms-that-accelerate-meaning-chapter-4-when-the-pauses-disappear",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c4-social-identity to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:talbot-s-g-and-w-dean-physicians-aren-t-burning-out-they-re:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-talbot-dean": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-talbot-dean",
@@ -6176,11 +6396,22 @@
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v5",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v5-tutu. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory",
       "slug": "tutu-desmond-no-future-without-forgiveness",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v5-tutu"
+    },
+    "source:tutu-desmond-no-future-without-forgiveness:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v5-tutu": {
+      "entityKind": "source",
+      "slug": "tutu-desmond-no-future-without-forgiveness",
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v5-tutu",
+      "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied v5-tutu to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:tversky-amos-and-daniel-kahneman-availability-a-heuristic-for-judging-frequency-and-probability:/explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-2-what-stays-and-what-fades#user-content-fnref-c2-availability": {
       "candidatePath": "/explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-2-what-stays-and-what-fades#user-content-fnref-c2-availability",
@@ -6235,12 +6466,12 @@
     "source:u-s-department-of-the-treasury-board-of-governors-of-the-federal-reserve-system-and-federal-depo:/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-banks-2023": {
       "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-banks-2023",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c8-banks-2023 to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
       "routeKey": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail",
       "slug": "u-s-department-of-the-treasury-board-of-governors-of-the-federal-reserve-system-and-federal-depo",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:u-s-environmental-protection-agency-notice-of-violation-volkswagen-clean-diesel-vehicles:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-vw": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-vw",
@@ -6478,11 +6709,22 @@
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter#user-content-fnref-c8-sparks",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter#user-content-fnref-c8-waldmeir. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter",
       "slug": "waldmeir-patti-anatomy-of-a-miracle-the-end-of-apartheid-and-the-birth-of-the-new-south-africa",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter#user-content-fnref-c8-waldmeir"
+    },
+    "source:waldmeir-patti-anatomy-of-a-miracle-the-end-of-apartheid-and-the-birth-of-the-new-south-africa:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter#user-content-fnref-c8-waldmeir": {
+      "entityKind": "source",
+      "slug": "waldmeir-patti-anatomy-of-a-miracle-the-end-of-apartheid-and-the-birth-of-the-new-south-africa",
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter#user-content-fnref-c8-waldmeir",
+      "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-8-nelson-mandela-the-unsent-letter",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c8-waldmeir to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:walzer-michael-just-and-unjust-wars-a-moral-argument-with-historical:/explore/books/after-certainty/chapters/parts-part-2-what-can-still-be-practiced-chapter-6-speech-that-does-less-harm#user-content-fnref-c6-proportionality": {
       "candidatePath": "/explore/books/after-certainty/chapters/parts-part-2-what-can-still-be-practiced-chapter-6-speech-that-does-less-harm#user-content-fnref-c6-proportionality",
@@ -6538,11 +6780,22 @@
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-reporting-pressure",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 16: superseded by the claim-specific /explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-underreporting. Earlier co-citation was not promoted automatically.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt",
       "slug": "weber-rawlins-et-al-concussion-symptom-underreporting-among-incoming-ncaa-division-i-college-ath",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-24T23:20:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-underreporting"
+    },
+    "source:weber-rawlins-et-al-concussion-symptom-underreporting-among-incoming-ncaa-division-i-college-ath:/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-underreporting": {
+      "entityKind": "source",
+      "slug": "weber-rawlins-et-al-concussion-symptom-underreporting-among-incoming-ncaa-division-i-college-ath",
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-underreporting",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt",
+      "status": "applied",
+      "evidenceLevel": "A",
+      "note": "Phase 16: editorially tied c5-underreporting to this work's distinct historical, empirical, methodological or institutional claim; renderer confirmation required.",
+      "updatedAt": "2026-10-24T23:20:00Z"
     },
     "source:weick-karl-e-and-kathleen-m-sutcliffe-managing-the-unexpected-resilient-performance-in-an-age-of:/explore/books/the-discipline-of-uncertainty/chapters/front-matter-introduction-when-certainty-stops-working#user-content-fnref-intro-high-reliability": {
       "candidatePath": "/explore/books/the-discipline-of-uncertainty/chapters/front-matter-introduction-when-certainty-stops-working#user-content-fnref-intro-high-reliability",
