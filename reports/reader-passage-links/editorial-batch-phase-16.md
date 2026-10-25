@@ -132,4 +132,19 @@ The manuscript's philosophical conclusions remain its own. A mechanically verifi
 
 ## Full-corpus results
 
-Pending the full renderer-backed audit; no coverage figures will be reported as verified until it finishes.
+The complete renderer-backed validation passed, including Ruff, the core reader-passage tests, and Phase 10–16 regressions. All **47 reviewed source slugs** occur in the mechanically tied A examples.
+
+| Metric | Merged Phase 15 | Phase 16 verified |
+|---|---:|---:|
+| Total source profiles | 714 | **714** |
+| Valid reader passage links | 449 | **496** |
+| Mechanically tied source citations (A) | 449 | **496** |
+| Cited sources without passage links | 188 | **141** |
+| Linked citations needing editorial review | 0 | **0** |
+| Thinkers with derivable passage links | 425 | **465** |
+| Invalid links / unverified fragments | 0 / 0 | **0 / 0** |
+| Mechanically tied coverage | 62.89% | **69.47%** |
+
+These are observed full-corpus numbers, not estimates. Mechanical citation validation does not imply the cited authors endorse the manuscript's interpretations.
+
+[Successful Phase 16 full audit](https://github.com/After-Certainty/after-certainty/actions/runs/40144915203). The temporary investigation workflows and staging files are removed before opening the PR.
