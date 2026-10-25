@@ -1,6 +1,7 @@
 name: Phase 18 reader audit (temporary)
 # Reviewed candidate selection uses the current source audit, not historical candidates.
 # Every audit-log timestamp uses datetime.UTC (Python 3.12 lint).
+# Source-specific matches resolve by longest key for nested report names.
 
 on:
   push:
