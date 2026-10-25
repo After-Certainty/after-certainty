@@ -2,7 +2,7 @@
 
 ## The Route That Could Be Approved Today
 
-The regional meal network had a problem worth solving. Deliveries reached some neighborhood programs late, while other vans returned with unused capacity. Coordinators spent mornings on the phone rearranging stops. Families arrived for pickups that had been postponed. Volunteers stayed after their shifts because food that was meant to be distributed at four did not arrive until five-thirty.
+The regional meal network had a problem worth solving. Deliveries reached some neighborhood programs late, while other vans returned with unused capacity. Coordinators spent mornings on the phone rearranging stops. Families arrived for pickups that had been postponed. Volunteers stayed after their shifts because food that was meant to be distributed at 4:00 PM did not arrive until 5:30 PM.
 
 The operations team had built a new routing schedule. It reduced the number of daily decisions each site had to make. Drivers would receive stable assignments. Kitchens could prepare for predictable arrival times. The regional director, Amir, had waited months for a plan that could be explained to funders and used across the network.
 
@@ -10,9 +10,9 @@ On Wednesday afternoon, the proposal was ready for approval. If Amir signed it b
 
 Nina, who managed one of the neighborhood sites, asked for a delay.
 
-Her site served people who worked irregular shifts and used a limited bus route. The proposed schedule would move its last delivery to a time when the kitchen could easily receive it. That was an improvement for volunteers and drivers. But the linked pickup window would also close earlier. Nina had already heard from several households that would struggle to arrive before then.
+Her site served people who worked irregular shifts and used a limited bus route. The proposal paired deliveries with fixed staffing and pickup windows. It would bring the site's final delivery earlier, which suited drivers and volunteers, but it would also move the last public pickup to an earlier hour. Nina had already heard from several households that would struggle to arrive before then.
 
-She did not know how many families would be affected. The records showed when bags were collected, not when someone had wanted to collect one and found the door shut. The network had no field for that absence.
+She did not know how many families would be affected. The records showed completed pickups, not people who arrived after closing or stopped coming because the hours did not fit. The network had no field for that absence.
 
 Amir did not dismiss her concern. He asked whether she had an alternative schedule that would keep the vans within their permitted hours and preserve the earlier deliveries at other sites.
 
@@ -70,7 +70,7 @@ The danger is not a centralized schedule. The network needs one. The danger is t
 
 ## Choosing Where the Delay Belongs
 
-Amir and Nina eventually agreed on a narrower decision. The new schedule would begin at sites whose pickup windows were unaffected, while Nina's site kept its existing route for a short, specified trial period. Dispatch would calculate the actual extra cost rather than assuming it was either trivial or intolerable. Nina would ask households what alternatives they could use—not merely whether they preferred later hours—and bring back a proposal the network could evaluate.
+Amir and Nina eventually agreed on a narrower decision. The new schedule would begin at sites whose pickup windows were unaffected, while Nina's site kept its existing route for a four-week trial. Dispatch would calculate the actual extra cost rather than assuming it was either trivial or intolerable. Nina would ask households what alternatives they could use—not merely whether they preferred later hours—and return with a proposal the network could evaluate within four weeks.
 
 Some people elsewhere would still wait longer than they wanted. Nina's volunteers would still carry uncertainty about their shifts. The compromise did not produce an arrangement that cost nothing.
 
