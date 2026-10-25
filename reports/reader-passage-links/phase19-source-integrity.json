@@ -9,9 +9,9 @@
     "method": "Phase 18 saved rendered-reader audit; not independently re-rendered here"
   },
   "unlinkedCounts": {
-    "footnote_cited_not_linked": 1,
+    "footnote_cited_not_linked": 2,
     "thematic_connection_only": 1,
-    "bibliography_only": 60,
+    "bibliography_only": 59,
     "no_detected_evidence": 18
   },
   "sourceMetadata": {
@@ -19,15 +19,264 @@
     "thinkers": 643,
     "critical": 0,
     "warnings": 160,
-    "info": 229
+    "info": 229,
+    "byIssueType": {
+      "orphan_creator_slug": 150,
+      "missing_name_separator": 10,
+      "work_creator_mismatch": 229
+    }
   },
   "bibliographyDrift": {
     "auditedBooks": 25,
-    "matched": 845,
+    "matched": 871,
     "missingInSemantic": 37,
-    "missingRelatedBooks": 27,
+    "missingRelatedBooks": 1,
     "staleRelatedBooks": 0
   },
+  "bibliographyProblems": [
+    {
+      "book": "when-the-key-changes-hands",
+      "missingInSemantic": [
+        {
+          "biblioSlug": "annas-julia-intelligent-virtue",
+          "biblioTitle": "Intelligent Virtue",
+          "biblioAuthor": "Julia Annas",
+          "summary": "Annas, Julia. Intelligent Virtue. Oxford: Oxford University Press, 2011."
+        },
+        {
+          "biblioSlug": "anscombe-g-e-m-modern-moral-philosophy",
+          "biblioTitle": "Modern Moral Philosophy",
+          "biblioAuthor": "G. E. M Anscombe",
+          "summary": "Anscombe, G. E. M. \"Modern Moral Philosophy.\" Philosophy 33, no. 124 (1958): 1-19."
+        },
+        {
+          "biblioSlug": "aristotle-nicomachean-ethics",
+          "biblioTitle": "Nicomachean Ethics",
+          "biblioAuthor": "Aristotle",
+          "summary": "Aristotle. Nicomachean Ethics."
+        },
+        {
+          "biblioSlug": "bandura-albert-moral-disengagement-in-the-perpetration-of-inhumanities",
+          "biblioTitle": "Moral Disengagement in the Perpetration of Inhumanities",
+          "biblioAuthor": "Albert Bandura",
+          "summary": "Bandura, Albert. \"Moral Disengagement in the Perpetration of Inhumanities.\" Personality and Social Psychology Review 3, no. 3 (1999): 193-209."
+        },
+        {
+          "biblioSlug": "burns-james-macgregor-leadership",
+          "biblioTitle": "Leadership",
+          "biblioAuthor": "James MacGregor Burns",
+          "summary": "Burns, James MacGregor. Leadership. New York: Harper & Row, 1978."
+        },
+        {
+          "biblioSlug": "calhoun-cheshire-standing-for-something",
+          "biblioTitle": "Standing for Something",
+          "biblioAuthor": "Cheshire Calhoun",
+          "summary": "Calhoun, Cheshire. \"Standing for Something.\" Journal of Philosophy 92, no. 5 (1995): 235-260."
+        },
+        {
+          "biblioSlug": "doris-john-m-lack-of-character-personality-and-moral-behavior",
+          "biblioTitle": "Lack of Character: Personality and Moral Behavior",
+          "biblioAuthor": "John M Doris",
+          "summary": "Doris, John M. Lack of Character: Personality and Moral Behavior. Cambridge: Cambridge University Press, 2002."
+        },
+        {
+          "biblioSlug": "duckworth-angela-grit",
+          "biblioTitle": "Grit",
+          "biblioAuthor": "Angela Duckworth",
+          "summary": "Duckworth, Angela. Grit. New York: Scribner, 2016."
+        },
+        {
+          "biblioSlug": "edelman-murray-the-symbolic-uses-of-politics",
+          "biblioTitle": "The Symbolic Uses of Politics",
+          "biblioAuthor": "Murray Edelman",
+          "summary": "Edelman, Murray. The Symbolic Uses of Politics. Urbana: University of Illinois Press, 1964."
+        },
+        {
+          "biblioSlug": "eisenstadt-shmuel-n-ed-max-weber-on-charisma-and-institution-building",
+          "biblioTitle": "Max Weber on Charisma and Institution Building",
+          "biblioAuthor": "Eisenstadt, Shmuel N.",
+          "summary": "Eisenstadt, Shmuel N., ed. Max Weber on Charisma and Institution Building. Chicago: University of Chicago Press, 1968."
+        },
+        {
+          "biblioSlug": "frankfurt-harry-g-the-importance-of-what-we-care-about",
+          "biblioTitle": "The Importance of What We Care About",
+          "biblioAuthor": "Harry G Frankfurt",
+          "summary": "Frankfurt, Harry G. The Importance of What We Care About. Cambridge: Cambridge University Press, 1988."
+        },
+        {
+          "biblioSlug": "frankfurt-harry-g-the-reasons-of-love",
+          "biblioTitle": "The Reasons of Love",
+          "biblioAuthor": "Harry G Frankfurt",
+          "summary": "Frankfurt, Harry G. The Reasons of Love. Princeton: Princeton University Press, 2004."
+        },
+        {
+          "biblioSlug": "gardner-john-w-on-leadership",
+          "biblioTitle": "On Leadership",
+          "biblioAuthor": "John W Gardner",
+          "summary": "Gardner, John W. On Leadership. New York: Free Press, 1990."
+        },
+        {
+          "biblioSlug": "geertz-clifford-centers-kings-and-charisma-reflections-on-the",
+          "biblioTitle": "Centers, Kings, and Charisma: Reflections on the",
+          "biblioAuthor": "Clifford Geertz",
+          "summary": "Geertz, Clifford. \"Centers, Kings, and Charisma: Reflections on the Symbolics of Power.\" In Local Knowledge. New York: Basic Books, 1983."
+        },
+        {
+          "biblioSlug": "griswold-charles-l-forgiveness-a-philosophical-exploration",
+          "biblioTitle": "Forgiveness: A Philosophical Exploration",
+          "biblioAuthor": "Charles L Griswold",
+          "summary": "Griswold, Charles L. Forgiveness: A Philosophical Exploration. Cambridge: Cambridge University Press, 2007."
+        },
+        {
+          "biblioSlug": "grusky-oscar-managerial-succession-and-organizational-effectiveness",
+          "biblioTitle": "Managerial Succession and Organizational Effectiveness",
+          "biblioAuthor": "Oscar Grusky",
+          "summary": "Grusky, Oscar. \"Managerial Succession and Organizational Effectiveness.\" American Journal of Sociology 69, no. 1 (1963): 21-31."
+        },
+        {
+          "biblioSlug": "harman-gilbert-moral-philosophy-meets-social-psychology-virtue-ethics",
+          "biblioTitle": "Moral Philosophy Meets Social Psychology: Virtue Ethics",
+          "biblioAuthor": "Gilbert Harman",
+          "summary": "Harman, Gilbert. \"Moral Philosophy Meets Social Psychology: Virtue Ethics and the Fundamental Attribution Error.\" Proceedings of the Aristotelian Society 99 (1999): 315-331."
+        },
+        {
+          "biblioSlug": "heifetz-ronald-alexander-grashow-and-marty-linsky-the-practice-of",
+          "biblioTitle": "The Practice of",
+          "biblioAuthor": "Heifetz, Ronald, Alexander Grashow, and Marty Linsky",
+          "summary": "Heifetz, Ronald, Alexander Grashow, and Marty Linsky. The Practice of Adaptive Leadership. Boston: Harvard Business Press, 2009."
+        },
+        {
+          "biblioSlug": "held-virginia-the-ethics-of-care-personal-political-and-global",
+          "biblioTitle": "The Ethics of Care: Personal, Political, and Global",
+          "biblioAuthor": "Virginia Held",
+          "summary": "Held, Virginia. The Ethics of Care: Personal, Political, and Global. Oxford: Oxford University Press, 2006."
+        },
+        {
+          "biblioSlug": "herman-judith-truth-and-repair-how-trauma-survivors-envision-justice",
+          "biblioTitle": "Truth and Repair: How Trauma Survivors Envision Justice",
+          "biblioAuthor": "Judith Herman",
+          "summary": "Herman, Judith. Truth and Repair: How Trauma Survivors Envision Justice. New York: Basic Books, 2023."
+        },
+        {
+          "biblioSlug": "hooks-bell-all-about-love-new-visions",
+          "biblioTitle": "All About Love: New Visions",
+          "biblioAuthor": "bell hooks",
+          "summary": "hooks, bell. All About Love: New Visions. New York: William Morrow, 2000."
+        },
+        {
+          "biblioSlug": "james-william-habit",
+          "biblioTitle": "Habit",
+          "biblioAuthor": "William James",
+          "summary": "James, William. \"Habit.\" In The Principles of Psychology. New York: Henry Holt and Company, 1890."
+        },
+        {
+          "biblioSlug": "jones-karen-trust-as-an-affective-attitude",
+          "biblioTitle": "Trust as an Affective Attitude",
+          "biblioAuthor": "Karen Jones",
+          "summary": "Jones, Karen. \"Trust as an Affective Attitude.\" Ethics 107, no. 1 (1996): 4-25."
+        },
+        {
+          "biblioSlug": "kant-immanuel-groundwork-of-the-metaphysics-of-morals",
+          "biblioTitle": "Groundwork of the Metaphysics of Morals",
+          "biblioAuthor": "Immanuel Kant",
+          "summary": "Kant, Immanuel. Groundwork of the Metaphysics of Morals."
+        },
+        {
+          "biblioSlug": "merton-robert-k-the-unanticipated-consequences-of-purposive-social",
+          "biblioTitle": "The Unanticipated Consequences of Purposive Social",
+          "biblioAuthor": "Robert K Merton",
+          "summary": "Merton, Robert K. \"The Unanticipated Consequences of Purposive Social Action.\" American Sociological Review 1, no. 6 (1936): 894-904."
+        },
+        {
+          "biblioSlug": "mischel-walter-personality-and-assessment",
+          "biblioTitle": "Personality and Assessment",
+          "biblioAuthor": "Walter Mischel",
+          "summary": "Mischel, Walter. Personality and Assessment. New York: Wiley, 1968."
+        },
+        {
+          "biblioSlug": "nagel-thomas-moral-luck",
+          "biblioTitle": "Moral Luck",
+          "biblioAuthor": "Thomas Nagel",
+          "summary": "Nagel, Thomas. \"Moral Luck.\" In Mortal Questions. Cambridge: Cambridge University Press, 1979."
+        },
+        {
+          "biblioSlug": "niebuhr-reinhold-the-irony-of-american-history",
+          "biblioTitle": "The Irony of American History",
+          "biblioAuthor": "Reinhold Niebuhr",
+          "summary": "Niebuhr, Reinhold. The Irony of American History. Chicago: University of Chicago Press, 1952."
+        },
+        {
+          "biblioSlug": "o-neill-onora-a-question-of-trust-the-bbc-reith-lectures-2002",
+          "biblioTitle": "A Question of Trust: The BBC Reith Lectures 2002",
+          "biblioAuthor": "Onora O'Neill",
+          "summary": "O'Neill, Onora. A Question of Trust: The BBC Reith Lectures 2002. Cambridge: Cambridge University Press, 2002."
+        },
+        {
+          "biblioSlug": "pettit-philip-republicanism-a-theory-of-freedom-and-government",
+          "biblioTitle": "Republicanism: A Theory of Freedom and Government",
+          "biblioAuthor": "Philip Pettit",
+          "summary": "Pettit, Philip. Republicanism: A Theory of Freedom and Government. Oxford: Oxford University Press, 1997."
+        },
+        {
+          "biblioSlug": "pfeffer-jeffrey-the-ambiguity-of-leadership",
+          "biblioTitle": "The Ambiguity of Leadership",
+          "biblioAuthor": "Jeffrey Pfeffer",
+          "summary": "Pfeffer, Jeffrey. \"The Ambiguity of Leadership.\" Academy of Management Review 2, no. 1 (1977): 104-112."
+        },
+        {
+          "biblioSlug": "polanyi-michael-the-tacit-dimension",
+          "biblioTitle": "The Tacit Dimension",
+          "biblioAuthor": "Michael Polanyi",
+          "summary": "Polanyi, Michael. The Tacit Dimension. Chicago: University of Chicago Press, 1966."
+        },
+        {
+          "biblioSlug": "ricoeur-paul-oneself-as-another",
+          "biblioTitle": "Oneself as Another",
+          "biblioAuthor": "Paul Ricoeur",
+          "summary": "Ricoeur, Paul. Oneself as Another. Translated by Kathleen Blamey. Chicago: University of Chicago Press, 1992."
+        },
+        {
+          "biblioSlug": "walker-margaret-urban-moral-repair-reconstructing-moral-relations-after",
+          "biblioTitle": "Moral Repair: Reconstructing Moral Relations after",
+          "biblioAuthor": "Margaret Urban Walker",
+          "summary": "Walker, Margaret Urban. Moral Repair: Reconstructing Moral Relations after Wrongdoing. Cambridge: Cambridge University Press, 2006."
+        },
+        {
+          "biblioSlug": "williams-bernard-moral-luck",
+          "biblioTitle": "Moral Luck",
+          "biblioAuthor": "Bernard Williams",
+          "summary": "Williams, Bernard. Moral Luck. Cambridge: Cambridge University Press, 1981."
+        },
+        {
+          "biblioSlug": "wolf-susan-moral-saints",
+          "biblioTitle": "Moral Saints",
+          "biblioAuthor": "Susan Wolf",
+          "summary": "Wolf, Susan. \"Moral Saints.\" Journal of Philosophy 79, no. 8 (1982): 419-439."
+        },
+        {
+          "biblioSlug": "wood-wendy-good-habits-bad-habits",
+          "biblioTitle": "Good Habits, Bad Habits",
+          "biblioAuthor": "Wendy Wood",
+          "summary": "Wood, Wendy. Good Habits, Bad Habits. New York: Farrar, Straus and Giroux, 2019."
+        }
+      ],
+      "missingRelatedBooks": [
+        {
+          "biblioSlug": "madison-james-federalist-no-51-in-the-federalist-papers-edited-by",
+          "sourceSlug": "acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power",
+          "score": 58,
+          "method": "summary_overlap",
+          "biblioTitle": "",
+          "biblioAuthor": "Madison, James. Federalist No. 51. In *The Federalist Papers*, edited by",
+          "sourceName": "Daron Acemoglu and James A. Robinson — Why Nations Fail: The Origins of Power, Prosperity, and Poverty",
+          "sourceRelatedBooks": [
+            "living-in-sediment"
+          ]
+        }
+      ],
+      "staleRelatedBooks": []
+    }
+  ],
   "unlinkedSources": [
     {
       "slug": "abbott-andrew-the-system-of-professions-an-essay-on-the-division-of-expert-labor",
@@ -713,14 +962,16 @@
     },
     {
       "slug": "popper-karl-the-open-society-and-its-enemies",
-      "category": "bibliography_only",
-      "relatedBooks": [],
+      "category": "footnote_cited_not_linked",
+      "relatedBooks": [
+        "when-the-key-changes-hands"
+      ],
       "inBibliographies": [
         "when-the-key-changes-hands"
       ],
-      "footnoteHitCount": 0,
+      "footnoteHitCount": 1,
       "editorialExclusion": null,
-      "nextAction": "leave_unlinked_unless_manuscript_cites_work"
+      "nextAction": "review_claim_and_source_before_linking"
     },
     {
       "slug": "postman-neil-amusing-ourselves-to-death",

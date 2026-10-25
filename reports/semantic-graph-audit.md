@@ -4,17 +4,13 @@
 
 - Repository type: **source**
 - Input files: build/semantic-manifest.json
-- Errors: **4**
+- Errors: **0**
 - Warnings: **256**
-- Info: **643**
+- Info: **642**
 - Entities scanned: {'books': 36, 'concepts': 144, 'patterns': 43, 'thinkers': 643, 'sources': 714, 'relationships': 168}
 
 ## Top priority issues
 
-- **[error]** source-metadata / source `berwick-donald-m-era-3-for-medicine-and-health-care` — Publication year appears to have been parsed from a page range. — *Set year to 2016 based on citation.*
-- **[error]** source-metadata / source `cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus` — Publication year appears to have been parsed from a page range. — *Set year to 1990 based on citation.*
-- **[error]** source-metadata / source `simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes` — Publication year appears to have been parsed from a page range. — *Set year to 1999 based on citation.*
-- **[error]** source-metadata / source `wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing` — Publication year appears to have been parsed from a page range. — *Set year to 2018 based on citation.*
 - **[warning]** concept-grounding / source `berwick-donald-m-developing-and-testing-changes-in-delivery-of-care` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'agile'. — *Add 'agile' to source concepts.*
 - **[warning]** concept-grounding / source `senge-peter-m-the-fifth-discipline-the-art-and-practice-of-the` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'contestability'. — *Add 'contestability' to source concepts.*
 - **[warning]** concept-grounding / source `senge-peter-m-the-fifth-discipline-the-art-and-practice-of-the` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'correction'. — *Add 'correction' to source concepts.*
@@ -31,12 +27,16 @@
 - **[warning]** concept-grounding / thinker `michael-lewis` — Linked work supports this concept but thinker.concepts omits it. (via work michael-lewis-moneyball-the-art-of-winning-an-unfair-game) Suggested concept: 'compression'. — *Add 'compression' to thinker concepts.*
 - **[warning]** concept-grounding / thinker `michael-lewis` — Linked work supports this concept but thinker.concepts omits it. (via work michael-lewis-moneyball-the-art-of-winning-an-unfair-game) Suggested concept: 'scoreboard-remainder'. — *Add 'scoreboard-remainder' to thinker concepts.*
 - **[warning]** concept-grounding / thinker `naomi-osaka` — Linked work supports this concept but thinker.concepts omits it. (via work naomi-osaka-it-s-o-k-not-to-be-o-k) Suggested concept: 'agency'. — *Add 'agency' to thinker concepts.*
+- **[warning]** concept-grounding / thinker `naomi-osaka` — Linked work supports this concept but thinker.concepts omits it. (via work naomi-osaka-it-s-o-k-not-to-be-o-k) Suggested concept: 'athletic-refusal'. — *Add 'athletic-refusal' to thinker concepts.*
+- **[warning]** concept-grounding / thinker `nbc-sports-boston` — Linked work supports this concept but thinker.concepts omits it. (via work nbc-sports-boston-who-gets-most-of-the-credit-brady-or-belichick) Suggested concept: 'accountability'. — *Add 'accountability' to thinker concepts.*
+- **[warning]** concept-grounding / thinker `nbc-sports-boston` — Linked work supports this concept but thinker.concepts omits it. (via work nbc-sports-boston-who-gets-most-of-the-credit-brady-or-belichick) Suggested concept: 'star-as-explanation'. — *Add 'star-as-explanation' to thinker concepts.*
+- **[warning]** concept-grounding / thinker `nfl` — Linked work supports this concept but thinker.concepts omits it. (via work nfl-concussion-protocol-return-to-participation-protocol-overview) Suggested concept: 'incentives'. — *Add 'incentives' to thinker concepts.*
 
 ## Issue counts by category
 
 - thinker-metadata: 250
 - pattern-metadata: 233
-- source-metadata: 218
+- source-metadata: 213
 - relationship-quality: 84
 - concept-metadata: 79
 - concept-grounding: 36
@@ -74,12 +74,6 @@
 
 ## Full issue list
 
-### Error
-
-- **source-metadata** — source `berwick-donald-m-era-3-for-medicine-and-health-care` (Era 3 for Medicine and Health Care.): Publication year appears to have been parsed from a page range.
-- **source-metadata** — source `cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus` (A Focus Theory of Normative Conduct): Publication year appears to have been parsed from a page range.
-- **source-metadata** — source `simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes` (Gorillas in Our Midst: Sustained Inattentional Blindness for Dynamic Events.): Publication year appears to have been parsed from a page range.
-- **source-metadata** — source `wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing` (Airbnb and the Rent Gap: Gentrification Through the Sharing Economy.): Publication year appears to have been parsed from a page range.
 ### Warning
 
 - **concept-grounding** — source `berwick-donald-m-developing-and-testing-changes-in-delivery-of-care` (Developing and Testing Changes in Delivery of Care.): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'agile'.
@@ -747,7 +741,6 @@
 - **source-metadata** — source `habermas-j-rgen-the-theory-of-communicative-action` (The Theory of Communicative Action): Source has no concept, pattern, or book links.
 - **source-metadata** — source `mouffe-chantal-the-democratic-paradox` (The Democratic Paradox): Source has no concept, pattern, or book links.
 - **source-metadata** — source `parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth` (Donald Trump and His Assault on Truth.): Source has no concept, pattern, or book links.
-- **source-metadata** — source `popper-karl-the-open-society-and-its-enemies` (The Open Society and Its Enemies): Source has no concept, pattern, or book links.
 - **source-metadata** — source `postman-neil-amusing-ourselves-to-death` (Amusing Ourselves to Death): Source has no concept, pattern, or book links.
 - **source-metadata** — source `schmitt-carl-the-concept-of-the-political` (The Concept of the Political): Source has no concept, pattern, or book links.
 - **source-metadata** — source `shklar-judith-ordinary-vices` (Ordinary Vices): Source has no concept, pattern, or book links.

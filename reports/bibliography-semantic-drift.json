@@ -9478,8 +9478,243 @@
         "other styles also matched: plain_chicago=14"
       ],
       "biblio_count": 64,
-      "linked_count": 0,
-      "matched": [],
+      "linked_count": 26,
+      "matched": [
+        {
+          "biblioSlug": "arendt-hannah-responsibility-and-judgment",
+          "sourceSlug": "arendt-hannah-responsibility-and-judgment",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Responsibility and Judgment",
+          "biblioAuthor": "Hannah Arendt",
+          "sourceName": "Hannah Arendt — Responsibility and Judgment"
+        },
+        {
+          "biblioSlug": "bandura-albert-social-learning-theory",
+          "sourceSlug": "bandura-albert-social-learning-theory",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Social Learning Theory",
+          "biblioAuthor": "Albert Bandura",
+          "sourceName": "Albert Bandura — Social Learning Theory"
+        },
+        {
+          "biblioSlug": "goffman-erving-the-presentation-of-self-in-everyday-life",
+          "sourceSlug": "goffman-erving-the-presentation-of-self-in-everyday-life",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "The Presentation of Self in Everyday Life",
+          "biblioAuthor": "Erving Goffman",
+          "sourceName": "Erving Goffman — The Presentation of Self in Everyday Life"
+        },
+        {
+          "biblioSlug": "hardin-russell-trust-and-trustworthiness",
+          "sourceSlug": "hardin-russell-trust-and-trustworthiness",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Trust and Trustworthiness",
+          "biblioAuthor": "Russell Hardin",
+          "sourceName": "Russell Hardin — Trust and Trustworthiness"
+        },
+        {
+          "biblioSlug": "hayek-friedrich-a-the-use-of-knowledge-in-society",
+          "sourceSlug": "hayek-friedrich-a-the-use-of-knowledge-in-society",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "The Use of Knowledge in Society",
+          "biblioAuthor": "Friedrich A Hayek",
+          "sourceName": "Friedrich A Hayek — The Use of Knowledge in Society."
+        },
+        {
+          "biblioSlug": "heifetz-ronald-a-leadership-without-easy-answers",
+          "sourceSlug": "heifetz-ronald-a-leadership-without-easy-answers",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Leadership Without Easy Answers",
+          "biblioAuthor": "Ronald A Heifetz",
+          "sourceName": "Ronald A Heifetz — Leadership Without Easy Answers"
+        },
+        {
+          "biblioSlug": "murdoch-iris-the-sovereignty-of-good",
+          "sourceSlug": "murdoch-iris-the-sovereignty-of-good",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "The Sovereignty of Good",
+          "biblioAuthor": "Iris Murdoch",
+          "sourceName": "Iris Murdoch — The Sovereignty of Good"
+        },
+        {
+          "biblioSlug": "popper-karl-the-open-society-and-its-enemies",
+          "sourceSlug": "popper-karl-the-open-society-and-its-enemies",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "The Open Society and Its Enemies",
+          "biblioAuthor": "Karl Popper",
+          "sourceName": "Karl Popper — The Open Society and Its Enemies"
+        },
+        {
+          "biblioSlug": "schein-edgar-h-organizational-culture-and-leadership",
+          "sourceSlug": "schein-edgar-h-organizational-culture-and-leadership",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Organizational Culture and Leadership",
+          "biblioAuthor": "Edgar H Schein",
+          "sourceName": "Edgar H Schein — Organizational Culture and Leadership"
+        },
+        {
+          "biblioSlug": "simon-herbert-a-a-behavioral-model-of-rational-choice",
+          "sourceSlug": "simon-herbert-a-a-behavioral-model-of-rational-choice",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "A Behavioral Model of Rational Choice",
+          "biblioAuthor": "Herbert A Simon",
+          "sourceName": "Herbert A Simon — A Behavioral Model of Rational Choice."
+        },
+        {
+          "biblioSlug": "smith-nick-i-was-wrong-the-meanings-of-apologies",
+          "sourceSlug": "smith-nick-i-was-wrong-the-meanings-of-apologies",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "I Was Wrong: The Meanings of Apologies",
+          "biblioAuthor": "Nick Smith",
+          "sourceName": "Nick Smith — I Was Wrong: The Meanings of Apologies"
+        },
+        {
+          "biblioSlug": "baier-annette-trust-and-antitrust",
+          "sourceSlug": "baier-annette-c-trust-and-antitrust",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "Trust and Antitrust",
+          "biblioAuthor": "Annette Baier",
+          "sourceName": "Annette C Baier — Trust and Antitrust."
+        },
+        {
+          "biblioSlug": "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality",
+          "sourceSlug": "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "The Social Construction of Reality",
+          "biblioAuthor": "Berger, Peter L., and Thomas Luckmann",
+          "sourceName": "Peter L. Berger and Thomas Luckmann — The Social Construction of Reality: A Treatise in the Sociology of Knowledge"
+        },
+        {
+          "biblioSlug": "edmondson-amy-c-the-fearless-organization",
+          "sourceSlug": "edmondson-amy-c-the-fearless-organization-creating-psychological-safety-in-the-workplace-for-lea",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "The Fearless Organization",
+          "biblioAuthor": "Amy C Edmondson",
+          "sourceName": "Amy C Edmondson — The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth"
+        },
+        {
+          "biblioSlug": "luhmann-niklas-trust-and-power",
+          "sourceSlug": "luhmann-niklas-trust-and-power-two-works",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "Trust and Power",
+          "biblioAuthor": "Niklas Luhmann",
+          "sourceName": "Niklas Luhmann — Trust and Power: Two Works"
+        },
+        {
+          "biblioSlug": "macintyre-alasdair-after-virtue",
+          "sourceSlug": "macintyre-alasdair-after-virtue-a-study-in-moral-theory",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "After Virtue",
+          "biblioAuthor": "Alasdair MacIntyre",
+          "sourceName": "Alasdair MacIntyre — After Virtue: A Study in Moral Theory"
+        },
+        {
+          "biblioSlug": "march-james-g-and-johan-p-olsen-rediscovering-institutions",
+          "sourceSlug": "march-james-g-and-johan-p-olsen-rediscovering-institutions-the",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "Rediscovering Institutions",
+          "biblioAuthor": "March, James G., and Johan P. Olsen",
+          "sourceName": "James G March and Johan P. Olsen — Rediscovering Institutions: The"
+        },
+        {
+          "biblioSlug": "milgram-stanley-obedience-to-authority",
+          "sourceSlug": "milgram-stanley-obedience-to-authority-an-experimental-view",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "Obedience to Authority",
+          "biblioAuthor": "Stanley Milgram",
+          "sourceName": "Stanley Milgram — Obedience to Authority: An Experimental View"
+        },
+        {
+          "biblioSlug": "ostrom-elinor-governing-the-commons",
+          "sourceSlug": "ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "Governing the Commons",
+          "biblioAuthor": "Elinor Ostrom",
+          "sourceName": "Elinor Ostrom — Governing the Commons: The Evolution of Institutions for Collective Action"
+        },
+        {
+          "biblioSlug": "ross-lee-and-richard-e-nisbett-the-person-and-the-situation",
+          "sourceSlug": "ross-lee-and-richard-nisbett-the-person-and-the-situation",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "The Person and the Situation",
+          "biblioAuthor": "Ross, Lee, and Richard E. Nisbett",
+          "sourceName": "Lee Ross and Richard Nisbett — The Person and the Situation"
+        },
+        {
+          "biblioSlug": "scott-james-c-seeing-like-a-state",
+          "sourceSlug": "scott-james-c-seeing-like-a-state-how-certain-schemes-to-improve-the-human-condition-have-failed",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "Seeing Like a State",
+          "biblioAuthor": "James C Scott",
+          "sourceName": "James C Scott — Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed"
+        },
+        {
+          "biblioSlug": "selznick-philip-leadership-in-administration",
+          "sourceSlug": "selznick-philip-leadership-in-administration-a-sociological-interpretation",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "Leadership in Administration",
+          "biblioAuthor": "Philip Selznick",
+          "sourceName": "Philip Selznick — Leadership in Administration: A Sociological Interpretation"
+        },
+        {
+          "biblioSlug": "tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of",
+          "sourceSlug": "tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of-care",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "Moral Boundaries: A Political Argument for an Ethic of",
+          "biblioAuthor": "Joan C Tronto",
+          "sourceName": "Joan C Tronto — Moral Boundaries: A Political Argument for an Ethic of Care"
+        },
+        {
+          "biblioSlug": "vaughan-diane-the-challenger-launch-decision",
+          "sourceSlug": "vaughan-diane-the-challenger-launch-decision-risky-technology-culture-and-deviance-at-nasa",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "The Challenger Launch Decision",
+          "biblioAuthor": "Diane Vaughan",
+          "sourceName": "Diane Vaughan — The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA"
+        },
+        {
+          "biblioSlug": "weber-max-economy-and-society",
+          "sourceSlug": "weber-max-economy-and-society-an-outline-of-interpretive-sociology",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "Economy and Society",
+          "biblioAuthor": "Max Weber",
+          "sourceName": "Max Weber — Economy and Society: An Outline of Interpretive Sociology"
+        },
+        {
+          "biblioSlug": "zimbardo-philip-the-lucifer-effect",
+          "sourceSlug": "zimbardo-philip-the-lucifer-effect-understanding-how-good-people",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "The Lucifer Effect",
+          "biblioAuthor": "Philip Zimbardo",
+          "sourceName": "Philip Zimbardo — The Lucifer Effect: Understanding How Good People"
+        }
+      ],
       "missing_in_semantic": [
         {
           "biblioSlug": "annas-julia-intelligent-virtue",
@@ -9706,374 +9941,6 @@
       ],
       "missing_related_books": [
         {
-          "biblioSlug": "arendt-hannah-responsibility-and-judgment",
-          "sourceSlug": "arendt-hannah-responsibility-and-judgment",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "Responsibility and Judgment",
-          "biblioAuthor": "Hannah Arendt",
-          "sourceName": "Hannah Arendt — Responsibility and Judgment",
-          "sourceRelatedBooks": [
-            "after-certainty",
-            "before-certainty-arrives",
-            "coupling",
-            "how-meaning-moves",
-            "how-serious-systems-learn",
-            "the-discipline-of-uncertainty",
-            "when-authority-outlives-accountability",
-            "when-moral-seriousness-scales"
-          ]
-        },
-        {
-          "biblioSlug": "bandura-albert-social-learning-theory",
-          "sourceSlug": "bandura-albert-social-learning-theory",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "Social Learning Theory",
-          "biblioAuthor": "Albert Bandura",
-          "sourceName": "Albert Bandura — Social Learning Theory",
-          "sourceRelatedBooks": [
-            "when-others-look-to-you-v1",
-            "when-others-look-to-you-v2"
-          ]
-        },
-        {
-          "biblioSlug": "goffman-erving-the-presentation-of-self-in-everyday-life",
-          "sourceSlug": "goffman-erving-the-presentation-of-self-in-everyday-life",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "The Presentation of Self in Everyday Life",
-          "biblioAuthor": "Erving Goffman",
-          "sourceName": "Erving Goffman — The Presentation of Self in Everyday Life",
-          "sourceRelatedBooks": [
-            "after-certainty",
-            "how-trust-forms"
-          ]
-        },
-        {
-          "biblioSlug": "hardin-russell-trust-and-trustworthiness",
-          "sourceSlug": "hardin-russell-trust-and-trustworthiness",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "Trust and Trustworthiness",
-          "biblioAuthor": "Russell Hardin",
-          "sourceName": "Russell Hardin — Trust and Trustworthiness",
-          "sourceRelatedBooks": [
-            "how-trust-forms"
-          ]
-        },
-        {
-          "biblioSlug": "hayek-friedrich-a-the-use-of-knowledge-in-society",
-          "sourceSlug": "hayek-friedrich-a-the-use-of-knowledge-in-society",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "The Use of Knowledge in Society",
-          "biblioAuthor": "Friedrich A Hayek",
-          "sourceName": "Friedrich A Hayek — The Use of Knowledge in Society.",
-          "sourceRelatedBooks": [
-            "coupling"
-          ]
-        },
-        {
-          "biblioSlug": "heifetz-ronald-a-leadership-without-easy-answers",
-          "sourceSlug": "heifetz-ronald-a-leadership-without-easy-answers",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "Leadership Without Easy Answers",
-          "biblioAuthor": "Ronald A Heifetz",
-          "sourceName": "Ronald A Heifetz — Leadership Without Easy Answers",
-          "sourceRelatedBooks": [
-            "when-authority-outlives-accountability",
-            "when-moral-seriousness-scales"
-          ]
-        },
-        {
-          "biblioSlug": "murdoch-iris-the-sovereignty-of-good",
-          "sourceSlug": "murdoch-iris-the-sovereignty-of-good",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "The Sovereignty of Good",
-          "biblioAuthor": "Iris Murdoch",
-          "sourceName": "Iris Murdoch — The Sovereignty of Good",
-          "sourceRelatedBooks": [
-            "trust-beyond-similarity"
-          ]
-        },
-        {
-          "biblioSlug": "popper-karl-the-open-society-and-its-enemies",
-          "sourceSlug": "popper-karl-the-open-society-and-its-enemies",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "The Open Society and Its Enemies",
-          "biblioAuthor": "Karl Popper",
-          "sourceName": "Karl Popper — The Open Society and Its Enemies",
-          "sourceRelatedBooks": []
-        },
-        {
-          "biblioSlug": "schein-edgar-h-organizational-culture-and-leadership",
-          "sourceSlug": "schein-edgar-h-organizational-culture-and-leadership",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "Organizational Culture and Leadership",
-          "biblioAuthor": "Edgar H Schein",
-          "sourceName": "Edgar H Schein — Organizational Culture and Leadership",
-          "sourceRelatedBooks": [
-            "when-authority-outlives-accountability",
-            "when-moral-seriousness-scales",
-            "when-others-look-to-you-v2"
-          ]
-        },
-        {
-          "biblioSlug": "simon-herbert-a-a-behavioral-model-of-rational-choice",
-          "sourceSlug": "simon-herbert-a-a-behavioral-model-of-rational-choice",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "A Behavioral Model of Rational Choice",
-          "biblioAuthor": "Herbert A Simon",
-          "sourceName": "Herbert A Simon — A Behavioral Model of Rational Choice.",
-          "sourceRelatedBooks": [
-            "after-certainty"
-          ]
-        },
-        {
-          "biblioSlug": "smith-nick-i-was-wrong-the-meanings-of-apologies",
-          "sourceSlug": "smith-nick-i-was-wrong-the-meanings-of-apologies",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "I Was Wrong: The Meanings of Apologies",
-          "biblioAuthor": "Nick Smith",
-          "sourceName": "Nick Smith — I Was Wrong: The Meanings of Apologies",
-          "sourceRelatedBooks": [
-            "when-accountability-no-longer-expires"
-          ]
-        },
-        {
-          "biblioSlug": "baier-annette-trust-and-antitrust",
-          "sourceSlug": "baier-annette-c-trust-and-antitrust",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "Trust and Antitrust",
-          "biblioAuthor": "Annette Baier",
-          "sourceName": "Annette C Baier — Trust and Antitrust.",
-          "sourceRelatedBooks": [
-            "how-trust-forms"
-          ]
-        },
-        {
-          "biblioSlug": "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality",
-          "sourceSlug": "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "The Social Construction of Reality",
-          "biblioAuthor": "Berger, Peter L., and Thomas Luckmann",
-          "sourceName": "Peter L. Berger and Thomas Luckmann — The Social Construction of Reality: A Treatise in the Sociology of Knowledge",
-          "sourceRelatedBooks": [
-            "how-serious-systems-learn",
-            "how-trust-forms",
-            "living-in-sediment",
-            "trust-beyond-similarity"
-          ]
-        },
-        {
-          "biblioSlug": "edmondson-amy-c-the-fearless-organization",
-          "sourceSlug": "edmondson-amy-c-the-fearless-organization-creating-psychological-safety-in-the-workplace-for-lea",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "The Fearless Organization",
-          "biblioAuthor": "Amy C Edmondson",
-          "sourceName": "Amy C Edmondson — The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth",
-          "sourceRelatedBooks": [
-            "how-meaning-moves",
-            "how-serious-systems-learn",
-            "trust-beyond-similarity",
-            "when-authority-outlives-accountability",
-            "when-moral-seriousness-scales",
-            "when-others-look-to-you-v1",
-            "when-others-look-to-you-v2"
-          ]
-        },
-        {
-          "biblioSlug": "luhmann-niklas-trust-and-power",
-          "sourceSlug": "luhmann-niklas-trust-and-power-two-works",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "Trust and Power",
-          "biblioAuthor": "Niklas Luhmann",
-          "sourceName": "Niklas Luhmann — Trust and Power: Two Works",
-          "sourceRelatedBooks": [
-            "how-trust-forms",
-            "when-trust-stops-tracking-reality",
-            "why-collaboration-is-so-hard"
-          ]
-        },
-        {
-          "biblioSlug": "macintyre-alasdair-after-virtue",
-          "sourceSlug": "macintyre-alasdair-after-virtue-a-study-in-moral-theory",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "After Virtue",
-          "biblioAuthor": "Alasdair MacIntyre",
-          "sourceName": "Alasdair MacIntyre — After Virtue: A Study in Moral Theory",
-          "sourceRelatedBooks": [
-            "after-certainty",
-            "how-trust-forms",
-            "learning-to-see"
-          ]
-        },
-        {
-          "biblioSlug": "march-james-g-and-johan-p-olsen-rediscovering-institutions",
-          "sourceSlug": "march-james-g-and-johan-p-olsen-rediscovering-institutions-the",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "Rediscovering Institutions",
-          "biblioAuthor": "March, James G., and Johan P. Olsen",
-          "sourceName": "James G March and Johan P. Olsen — Rediscovering Institutions: The",
-          "sourceRelatedBooks": [
-            "when-authority-outlives-accountability",
-            "when-moral-seriousness-scales"
-          ]
-        },
-        {
-          "biblioSlug": "milgram-stanley-obedience-to-authority",
-          "sourceSlug": "milgram-stanley-obedience-to-authority-an-experimental-view",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "Obedience to Authority",
-          "biblioAuthor": "Stanley Milgram",
-          "sourceName": "Stanley Milgram — Obedience to Authority: An Experimental View",
-          "sourceRelatedBooks": [
-            "when-authority-outlives-accountability"
-          ]
-        },
-        {
-          "biblioSlug": "ostrom-elinor-governing-the-commons",
-          "sourceSlug": "ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "Governing the Commons",
-          "biblioAuthor": "Elinor Ostrom",
-          "sourceName": "Elinor Ostrom — Governing the Commons: The Evolution of Institutions for Collective Action",
-          "sourceRelatedBooks": [
-            "coupling",
-            "how-trust-forms",
-            "living-in-sediment",
-            "trust-beyond-similarity",
-            "when-trust-stops-tracking-reality",
-            "why-collaboration-is-so-hard",
-            "the-world-we-make-together"
-          ]
-        },
-        {
-          "biblioSlug": "ross-lee-and-richard-e-nisbett-the-person-and-the-situation",
-          "sourceSlug": "ross-lee-and-richard-nisbett-the-person-and-the-situation",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "The Person and the Situation",
-          "biblioAuthor": "Ross, Lee, and Richard E. Nisbett",
-          "sourceName": "Lee Ross and Richard Nisbett — The Person and the Situation",
-          "sourceRelatedBooks": [
-            "after-certainty"
-          ]
-        },
-        {
-          "biblioSlug": "scott-james-c-seeing-like-a-state",
-          "sourceSlug": "scott-james-c-seeing-like-a-state-how-certain-schemes-to-improve-the-human-condition-have-failed",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "Seeing Like a State",
-          "biblioAuthor": "James C Scott",
-          "sourceName": "James C Scott — Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed",
-          "sourceRelatedBooks": [
-            "after-certainty",
-            "coupling",
-            "how-serious-systems-learn",
-            "how-trust-forms",
-            "living-in-sediment",
-            "when-incentives-become-the-moral-language",
-            "when-trust-stops-tracking-reality",
-            "why-collaboration-is-so-hard"
-          ]
-        },
-        {
-          "biblioSlug": "selznick-philip-leadership-in-administration",
-          "sourceSlug": "selznick-philip-leadership-in-administration-a-sociological-interpretation",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "Leadership in Administration",
-          "biblioAuthor": "Philip Selznick",
-          "sourceName": "Philip Selznick — Leadership in Administration: A Sociological Interpretation",
-          "sourceRelatedBooks": [
-            "how-serious-systems-learn",
-            "living-in-sediment",
-            "when-authority-outlives-accountability",
-            "when-moral-seriousness-scales"
-          ]
-        },
-        {
-          "biblioSlug": "tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of",
-          "sourceSlug": "tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of-care",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "Moral Boundaries: A Political Argument for an Ethic of",
-          "biblioAuthor": "Joan C Tronto",
-          "sourceName": "Joan C Tronto — Moral Boundaries: A Political Argument for an Ethic of Care",
-          "sourceRelatedBooks": [
-            "after-certainty",
-            "the-world-we-make-together"
-          ]
-        },
-        {
-          "biblioSlug": "vaughan-diane-the-challenger-launch-decision",
-          "sourceSlug": "vaughan-diane-the-challenger-launch-decision-risky-technology-culture-and-deviance-at-nasa",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "The Challenger Launch Decision",
-          "biblioAuthor": "Diane Vaughan",
-          "sourceName": "Diane Vaughan — The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA",
-          "sourceRelatedBooks": [
-            "how-serious-systems-learn",
-            "what-we-cannot-see",
-            "when-accountability-no-longer-expires",
-            "when-others-look-to-you-v1",
-            "when-others-look-to-you-v2",
-            "when-trust-stops-tracking-reality"
-          ]
-        },
-        {
-          "biblioSlug": "weber-max-economy-and-society",
-          "sourceSlug": "weber-max-economy-and-society-an-outline-of-interpretive-sociology",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "Economy and Society",
-          "biblioAuthor": "Max Weber",
-          "sourceName": "Max Weber — Economy and Society: An Outline of Interpretive Sociology",
-          "sourceRelatedBooks": [
-            "after-certainty",
-            "before-certainty-arrives",
-            "how-trust-forms",
-            "living-in-sediment",
-            "when-accountability-no-longer-expires",
-            "when-authority-is-misread",
-            "when-authority-outlives-accountability",
-            "when-moral-seriousness-scales",
-            "when-others-look-to-you-v1",
-            "when-others-look-to-you-v2",
-            "when-trust-stops-tracking-reality"
-          ]
-        },
-        {
-          "biblioSlug": "zimbardo-philip-the-lucifer-effect",
-          "sourceSlug": "zimbardo-philip-the-lucifer-effect-understanding-how-good-people",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "The Lucifer Effect",
-          "biblioAuthor": "Philip Zimbardo",
-          "sourceName": "Philip Zimbardo — The Lucifer Effect: Understanding How Good People",
-          "sourceRelatedBooks": [
-            "when-authority-outlives-accountability"
-          ]
-        },
-        {
           "biblioSlug": "madison-james-federalist-no-51-in-the-federalist-papers-edited-by",
           "sourceSlug": "acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power",
           "score": 58,
@@ -10242,7 +10109,28 @@
           "creatorName": "William James"
         }
       ],
-      "orphan_creator_slugs": [],
+      "orphan_creator_slugs": [
+        {
+          "creatorSlug": "peter-l-berger-and-thomas-luckmann",
+          "sourceSlug": "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog",
+          "sourceName": "Peter L. Berger and Thomas Luckmann — The Social Construction of Reality: A Treatise in the Sociology of Knowledge"
+        },
+        {
+          "creatorSlug": "james-g-march-and-johan-p-olsen",
+          "sourceSlug": "march-james-g-and-johan-p-olsen-rediscovering-institutions-the",
+          "sourceName": "James G March and Johan P. Olsen — Rediscovering Institutions: The"
+        },
+        {
+          "creatorSlug": "karl-popper",
+          "sourceSlug": "popper-karl-the-open-society-and-its-enemies",
+          "sourceName": "Karl Popper — The Open Society and Its Enemies"
+        },
+        {
+          "creatorSlug": "lee-ross-and-richard-nisbett",
+          "sourceSlug": "ross-lee-and-richard-nisbett-the-person-and-the-situation",
+          "sourceName": "Lee Ross and Richard Nisbett — The Person and the Situation"
+        }
+      ],
       "weak_parse": false
     },
     {
@@ -10708,9 +10596,9 @@
     }
   ],
   "totals": {
-    "matched": 845,
+    "matched": 871,
     "missingInSemantic": 37,
-    "missingRelatedBooks": 27,
+    "missingRelatedBooks": 1,
     "staleRelatedBooks": 0
   }
 }

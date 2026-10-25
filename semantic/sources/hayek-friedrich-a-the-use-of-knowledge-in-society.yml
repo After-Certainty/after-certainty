@@ -7,6 +7,7 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+- when-the-key-changes-hands
 whyThisMatters: >-
   Hayek’s 1945 essay argues that much economically relevant knowledge is
   dispersed and local, so coordination cannot rest on a single planner’s

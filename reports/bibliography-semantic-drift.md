@@ -13,9 +13,9 @@ Manuscript bibliographies are the source of truth for which works (and thus crea
 ## Portfolio summary
 
 - Books with bibliography audited: **25**
-- Matched pairs: **845**
+- Matched pairs: **871**
 - Missing in semantic (no work found): **37**
-- Exists but missing `relatedBooks` link: **27**
+- Exists but missing `relatedBooks` link: **1**
 - Stale `relatedBooks` links: **0**
 
 | Book | Style | Biblio | Linked | Matched | Missing | Missing RB | Stale |
@@ -42,7 +42,7 @@ Manuscript bibliographies are the source of truth for which works (and thus crea
 | `when-others-become-leaders` | list | 53 | 53 | 53 | 0 | 0 | 0 |
 | `when-others-look-to-you-v1` | list | 26 | 26 | 26 | 0 | 0 | 0 |
 | `when-others-look-to-you-v2` | list | 17 | 17 | 17 | 0 | 0 | 0 |
-| `when-the-key-changes-hands` | list | 64 | 0 | 0 | 37 | 27 | 0 |
+| `when-the-key-changes-hands` | list | 64 | 26 | 26 | 37 | 1 | 0 |
 | `when-trust-stops-tracking-reality` | list | 23 | 23 | 23 | 0 | 0 | 0 |
 | `why-collaboration-is-so-hard` | pandoc_div | 15 | 15 | 15 | 0 | 0 | 0 |
 
@@ -1933,12 +1933,37 @@ _None._
 
 - Bibliography: `books/when-the-key-changes-hands/back-matter/bibliography.md`
 - Parse style: `list` (64 entries)
-- Semantic linked sources: 0
+- Semantic linked sources: 26
 - Parse warning: other styles also matched: plain_chicago=14
 
-### Matched (0)
+### Matched (26)
 
-_None._
+- `arendt-hannah-responsibility-and-judgment` ← biblio `arendt-hannah-responsibility-and-judgment` (exact_slug, score=100)
+- `bandura-albert-social-learning-theory` ← biblio `bandura-albert-social-learning-theory` (exact_slug, score=100)
+- `goffman-erving-the-presentation-of-self-in-everyday-life` ← biblio `goffman-erving-the-presentation-of-self-in-everyday-life` (exact_slug, score=100)
+- `hardin-russell-trust-and-trustworthiness` ← biblio `hardin-russell-trust-and-trustworthiness` (exact_slug, score=100)
+- `hayek-friedrich-a-the-use-of-knowledge-in-society` ← biblio `hayek-friedrich-a-the-use-of-knowledge-in-society` (exact_slug, score=100)
+- `heifetz-ronald-a-leadership-without-easy-answers` ← biblio `heifetz-ronald-a-leadership-without-easy-answers` (exact_slug, score=100)
+- `murdoch-iris-the-sovereignty-of-good` ← biblio `murdoch-iris-the-sovereignty-of-good` (exact_slug, score=100)
+- `popper-karl-the-open-society-and-its-enemies` ← biblio `popper-karl-the-open-society-and-its-enemies` (exact_slug, score=100)
+- `schein-edgar-h-organizational-culture-and-leadership` ← biblio `schein-edgar-h-organizational-culture-and-leadership` (exact_slug, score=100)
+- `simon-herbert-a-a-behavioral-model-of-rational-choice` ← biblio `simon-herbert-a-a-behavioral-model-of-rational-choice` (exact_slug, score=100)
+- `smith-nick-i-was-wrong-the-meanings-of-apologies` ← biblio `smith-nick-i-was-wrong-the-meanings-of-apologies` (exact_slug, score=100)
+- `baier-annette-c-trust-and-antitrust` ← biblio `baier-annette-trust-and-antitrust` (title_author, score=85)
+- `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog` ← biblio `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality` (title_author, score=85)
+- `edmondson-amy-c-the-fearless-organization-creating-psychological-safety-in-the-workplace-for-lea` ← biblio `edmondson-amy-c-the-fearless-organization` (title_author, score=85)
+- `luhmann-niklas-trust-and-power-two-works` ← biblio `luhmann-niklas-trust-and-power` (title_author, score=85)
+- `macintyre-alasdair-after-virtue-a-study-in-moral-theory` ← biblio `macintyre-alasdair-after-virtue` (title_author, score=85)
+- `march-james-g-and-johan-p-olsen-rediscovering-institutions-the` ← biblio `march-james-g-and-johan-p-olsen-rediscovering-institutions` (title_author, score=85)
+- `milgram-stanley-obedience-to-authority-an-experimental-view` ← biblio `milgram-stanley-obedience-to-authority` (title_author, score=85)
+- `ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action` ← biblio `ostrom-elinor-governing-the-commons` (title_author, score=85)
+- `ross-lee-and-richard-nisbett-the-person-and-the-situation` ← biblio `ross-lee-and-richard-e-nisbett-the-person-and-the-situation` (title_author, score=85)
+- `scott-james-c-seeing-like-a-state-how-certain-schemes-to-improve-the-human-condition-have-failed` ← biblio `scott-james-c-seeing-like-a-state` (title_author, score=85)
+- `selznick-philip-leadership-in-administration-a-sociological-interpretation` ← biblio `selznick-philip-leadership-in-administration` (title_author, score=85)
+- `tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of-care` ← biblio `tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of` (title_author, score=85)
+- `vaughan-diane-the-challenger-launch-decision-risky-technology-culture-and-deviance-at-nasa` ← biblio `vaughan-diane-the-challenger-launch-decision` (title_author, score=85)
+- `weber-max-economy-and-society-an-outline-of-interpretive-sociology` ← biblio `weber-max-economy-and-society` (title_author, score=85)
+- `zimbardo-philip-the-lucifer-effect-understanding-how-good-people` ← biblio `zimbardo-philip-the-lucifer-effect` (title_author, score=85)
 
 ### Missing in semantic (37)
 
@@ -1980,34 +2005,8 @@ _None._
 - Susan Wolf — *Moral Saints* (`wolf-susan-moral-saints`)
 - Wendy Wood — *Good Habits, Bad Habits* (`wood-wendy-good-habits-bad-habits`)
 
-### Exists but missing relatedBooks (27)
+### Exists but missing relatedBooks (1)
 
-- `arendt-hannah-responsibility-and-judgment` matches biblio `arendt-hannah-responsibility-and-judgment` (exact_slug; current books: after-certainty, before-certainty-arrives, coupling, how-meaning-moves, how-serious-systems-learn, the-discipline-of-uncertainty, when-authority-outlives-accountability, when-moral-seriousness-scales)
-- `bandura-albert-social-learning-theory` matches biblio `bandura-albert-social-learning-theory` (exact_slug; current books: when-others-look-to-you-v1, when-others-look-to-you-v2)
-- `goffman-erving-the-presentation-of-self-in-everyday-life` matches biblio `goffman-erving-the-presentation-of-self-in-everyday-life` (exact_slug; current books: after-certainty, how-trust-forms)
-- `hardin-russell-trust-and-trustworthiness` matches biblio `hardin-russell-trust-and-trustworthiness` (exact_slug; current books: how-trust-forms)
-- `hayek-friedrich-a-the-use-of-knowledge-in-society` matches biblio `hayek-friedrich-a-the-use-of-knowledge-in-society` (exact_slug; current books: coupling)
-- `heifetz-ronald-a-leadership-without-easy-answers` matches biblio `heifetz-ronald-a-leadership-without-easy-answers` (exact_slug; current books: when-authority-outlives-accountability, when-moral-seriousness-scales)
-- `murdoch-iris-the-sovereignty-of-good` matches biblio `murdoch-iris-the-sovereignty-of-good` (exact_slug; current books: trust-beyond-similarity)
-- `popper-karl-the-open-society-and-its-enemies` matches biblio `popper-karl-the-open-society-and-its-enemies` (exact_slug; current books: —)
-- `schein-edgar-h-organizational-culture-and-leadership` matches biblio `schein-edgar-h-organizational-culture-and-leadership` (exact_slug; current books: when-authority-outlives-accountability, when-moral-seriousness-scales, when-others-look-to-you-v2)
-- `simon-herbert-a-a-behavioral-model-of-rational-choice` matches biblio `simon-herbert-a-a-behavioral-model-of-rational-choice` (exact_slug; current books: after-certainty)
-- `smith-nick-i-was-wrong-the-meanings-of-apologies` matches biblio `smith-nick-i-was-wrong-the-meanings-of-apologies` (exact_slug; current books: when-accountability-no-longer-expires)
-- `baier-annette-c-trust-and-antitrust` matches biblio `baier-annette-trust-and-antitrust` (title_author; current books: how-trust-forms)
-- `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog` matches biblio `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality` (title_author; current books: how-serious-systems-learn, how-trust-forms, living-in-sediment, trust-beyond-similarity)
-- `edmondson-amy-c-the-fearless-organization-creating-psychological-safety-in-the-workplace-for-lea` matches biblio `edmondson-amy-c-the-fearless-organization` (title_author; current books: how-meaning-moves, how-serious-systems-learn, trust-beyond-similarity, when-authority-outlives-accountability, when-moral-seriousness-scales, when-others-look-to-you-v1, when-others-look-to-you-v2)
-- `luhmann-niklas-trust-and-power-two-works` matches biblio `luhmann-niklas-trust-and-power` (title_author; current books: how-trust-forms, when-trust-stops-tracking-reality, why-collaboration-is-so-hard)
-- `macintyre-alasdair-after-virtue-a-study-in-moral-theory` matches biblio `macintyre-alasdair-after-virtue` (title_author; current books: after-certainty, how-trust-forms, learning-to-see)
-- `march-james-g-and-johan-p-olsen-rediscovering-institutions-the` matches biblio `march-james-g-and-johan-p-olsen-rediscovering-institutions` (title_author; current books: when-authority-outlives-accountability, when-moral-seriousness-scales)
-- `milgram-stanley-obedience-to-authority-an-experimental-view` matches biblio `milgram-stanley-obedience-to-authority` (title_author; current books: when-authority-outlives-accountability)
-- `ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action` matches biblio `ostrom-elinor-governing-the-commons` (title_author; current books: coupling, how-trust-forms, living-in-sediment, trust-beyond-similarity, when-trust-stops-tracking-reality, why-collaboration-is-so-hard, the-world-we-make-together)
-- `ross-lee-and-richard-nisbett-the-person-and-the-situation` matches biblio `ross-lee-and-richard-e-nisbett-the-person-and-the-situation` (title_author; current books: after-certainty)
-- `scott-james-c-seeing-like-a-state-how-certain-schemes-to-improve-the-human-condition-have-failed` matches biblio `scott-james-c-seeing-like-a-state` (title_author; current books: after-certainty, coupling, how-serious-systems-learn, how-trust-forms, living-in-sediment, when-incentives-become-the-moral-language, when-trust-stops-tracking-reality, why-collaboration-is-so-hard)
-- `selznick-philip-leadership-in-administration-a-sociological-interpretation` matches biblio `selznick-philip-leadership-in-administration` (title_author; current books: how-serious-systems-learn, living-in-sediment, when-authority-outlives-accountability, when-moral-seriousness-scales)
-- `tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of-care` matches biblio `tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of` (title_author; current books: after-certainty, the-world-we-make-together)
-- `vaughan-diane-the-challenger-launch-decision-risky-technology-culture-and-deviance-at-nasa` matches biblio `vaughan-diane-the-challenger-launch-decision` (title_author; current books: how-serious-systems-learn, what-we-cannot-see, when-accountability-no-longer-expires, when-others-look-to-you-v1, when-others-look-to-you-v2, when-trust-stops-tracking-reality)
-- `weber-max-economy-and-society-an-outline-of-interpretive-sociology` matches biblio `weber-max-economy-and-society` (title_author; current books: after-certainty, before-certainty-arrives, how-trust-forms, living-in-sediment, when-accountability-no-longer-expires, when-authority-is-misread, when-authority-outlives-accountability, when-moral-seriousness-scales, when-others-look-to-you-v1, when-others-look-to-you-v2, when-trust-stops-tracking-reality)
-- `zimbardo-philip-the-lucifer-effect-understanding-how-good-people` matches biblio `zimbardo-philip-the-lucifer-effect` (title_author; current books: when-authority-outlives-accountability)
 - `acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power` matches biblio `madison-james-federalist-no-51-in-the-federalist-papers-edited-by` (summary_overlap; current books: living-in-sediment)
 
 ### Stale relatedBooks (0)
@@ -2059,9 +2058,12 @@ _None._
 - `wendy-wood` (Wendy Wood)
 - `william-james` (William James)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (4)
 
-_None._
+- `peter-l-berger-and-thomas-luckmann` on `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog`
+- `james-g-march-and-johan-p-olsen` on `march-james-g-and-johan-p-olsen-rediscovering-institutions-the`
+- `karl-popper` on `popper-karl-the-open-society-and-its-enemies`
+- `lee-ross-and-richard-nisbett` on `ross-lee-and-richard-nisbett-the-person-and-the-situation`
 
 ## `when-trust-stops-tracking-reality`
 

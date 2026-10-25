@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T16:57:15.086279+00:00",
+  "generatedAt": "2026-10-25T17:04:04.470928+00:00",
   "repoContext": {
     "detectedRepoType": "source",
     "inputFiles": [
@@ -7,9 +7,9 @@
     ]
   },
   "summary": {
-    "errors": 4,
+    "errors": 0,
     "warnings": 256,
-    "info": 643,
+    "info": 642,
     "entitiesScanned": {
       "books": 36,
       "concepts": 144,
@@ -4344,17 +4344,6 @@
       "suggestedFix": "Link to grounding concepts or books when applicable."
     },
     {
-      "severity": "error",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "berwick-donald-m-era-3-for-medicine-and-health-care",
-      "entityTitle": "Era 3 for Medicine and Health Care.",
-      "field": "year",
-      "currentValue": 1330,
-      "reason": "Publication year appears to have been parsed from a page range.",
-      "suggestedFix": "Set year to 2016 based on citation."
-    },
-    {
       "severity": "warning",
       "category": "source-metadata",
       "entityType": "source",
@@ -4397,17 +4386,6 @@
       "currentValue": "book",
       "reason": "Institutional statistics or report classified like a book.",
       "suggestedFix": "Set sourceKind to report or institutional_document."
-    },
-    {
-      "severity": "error",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus",
-      "entityTitle": "A Focus Theory of Normative Conduct",
-      "field": "year",
-      "currentValue": 1026,
-      "reason": "Publication year appears to have been parsed from a page range.",
-      "suggestedFix": "Set year to 1990 based on citation."
     },
     {
       "severity": "warning",
@@ -4754,17 +4732,6 @@
       "severity": "info",
       "category": "source-metadata",
       "entityType": "source",
-      "entityId": "popper-karl-the-open-society-and-its-enemies",
-      "entityTitle": "The Open Society and Its Enemies",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Source has no concept, pattern, or book links.",
-      "suggestedFix": "Link to grounding concepts or books when applicable."
-    },
-    {
-      "severity": "info",
-      "category": "source-metadata",
-      "entityType": "source",
       "entityId": "postman-neil-amusing-ourselves-to-death",
       "entityTitle": "Amusing Ourselves to Death",
       "field": "concepts",
@@ -4826,17 +4793,6 @@
       "currentValue": [],
       "reason": "Source has no concept, pattern, or book links.",
       "suggestedFix": "Link to grounding concepts or books when applicable."
-    },
-    {
-      "severity": "error",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes",
-      "entityTitle": "Gorillas in Our Midst: Sustained Inattentional Blindness for Dynamic Events.",
-      "field": "year",
-      "currentValue": 1074,
-      "reason": "Publication year appears to have been parsed from a page range.",
-      "suggestedFix": "Set year to 1999 based on citation."
     },
     {
       "severity": "warning",
@@ -4914,17 +4870,6 @@
       "currentValue": "book",
       "reason": "Institutional statistics or report classified like a book.",
       "suggestedFix": "Set sourceKind to report or institutional_document."
-    },
-    {
-      "severity": "error",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing",
-      "entityTitle": "Airbnb and the Rent Gap: Gentrification Through the Sharing Economy.",
-      "field": "year",
-      "currentValue": 1170,
-      "reason": "Publication year appears to have been parsed from a page range.",
-      "suggestedFix": "Set year to 2018 based on citation."
     },
     {
       "severity": "info",
@@ -7155,17 +7100,6 @@
       "entityId": "admiration-becomes-insulation",
       "entityTitle": "Admiration Becomes Insulation",
       "field": "relatedPatterns",
-      "currentValue": "blame-compresses-complexity",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'admiration-becomes-insulation' to relatedPatterns on 'blame-compresses-complexity'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "admiration-becomes-insulation",
-      "entityTitle": "Admiration Becomes Insulation",
-      "field": "relatedPatterns",
       "currentValue": "scrutiny-preserves-trust",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'admiration-becomes-insulation' to relatedPatterns on 'scrutiny-preserves-trust'."
@@ -7174,12 +7108,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "attention-finds-a-focus",
-      "entityTitle": "Attention Finds a Focus",
+      "entityId": "admiration-becomes-insulation",
+      "entityTitle": "Admiration Becomes Insulation",
       "field": "relatedPatterns",
-      "currentValue": "authority-follows-attention",
+      "currentValue": "blame-compresses-complexity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'authority-follows-attention'."
+      "suggestedFix": "Consider adding 'admiration-becomes-insulation' to relatedPatterns on 'blame-compresses-complexity'."
     },
     {
       "severity": "info",
@@ -7207,12 +7141,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "attention-finds-a-signal",
-      "entityTitle": "Attention Finds a Signal",
+      "entityId": "attention-finds-a-focus",
+      "entityTitle": "Attention Finds a Focus",
       "field": "relatedPatterns",
-      "currentValue": "meaning-forms-early",
+      "currentValue": "authority-follows-attention",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-finds-a-signal' to relatedPatterns on 'meaning-forms-early'."
+      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'authority-follows-attention'."
     },
     {
       "severity": "info",
@@ -7232,17 +7166,6 @@
       "entityId": "attention-finds-a-signal",
       "entityTitle": "Attention Finds a Signal",
       "field": "relatedPatterns",
-      "currentValue": "meaning-outruns-the-words",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-finds-a-signal' to relatedPatterns on 'meaning-outruns-the-words'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "attention-finds-a-signal",
-      "entityTitle": "Attention Finds a Signal",
-      "field": "relatedPatterns",
       "currentValue": "authority-follows-attention",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'attention-finds-a-signal' to relatedPatterns on 'authority-follows-attention'."
@@ -7251,12 +7174,23 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "attention-restores-contact",
-      "entityTitle": "Attention Restores Contact",
+      "entityId": "attention-finds-a-signal",
+      "entityTitle": "Attention Finds a Signal",
       "field": "relatedPatterns",
-      "currentValue": "blame-compresses-complexity",
+      "currentValue": "meaning-forms-early",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-restores-contact' to relatedPatterns on 'blame-compresses-complexity'."
+      "suggestedFix": "Consider adding 'attention-finds-a-signal' to relatedPatterns on 'meaning-forms-early'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "attention-finds-a-signal",
+      "entityTitle": "Attention Finds a Signal",
+      "field": "relatedPatterns",
+      "currentValue": "meaning-outruns-the-words",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'attention-finds-a-signal' to relatedPatterns on 'meaning-outruns-the-words'."
     },
     {
       "severity": "info",
@@ -7287,9 +7221,9 @@
       "entityId": "attention-restores-contact",
       "entityTitle": "Attention Restores Contact",
       "field": "relatedPatterns",
-      "currentValue": "responsibility-persists-beyond-control",
+      "currentValue": "blame-compresses-complexity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-restores-contact' to relatedPatterns on 'responsibility-persists-beyond-control'."
+      "suggestedFix": "Consider adding 'attention-restores-contact' to relatedPatterns on 'blame-compresses-complexity'."
     },
     {
       "severity": "info",
@@ -7306,12 +7240,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "authority-follows-attention",
-      "entityTitle": "Authority Follows Attention",
+      "entityId": "attention-restores-contact",
+      "entityTitle": "Attention Restores Contact",
       "field": "relatedPatterns",
-      "currentValue": "correctness-hardens-into-identity",
+      "currentValue": "responsibility-persists-beyond-control",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'authority-follows-attention' to relatedPatterns on 'correctness-hardens-into-identity'."
+      "suggestedFix": "Consider adding 'attention-restores-contact' to relatedPatterns on 'responsibility-persists-beyond-control'."
     },
     {
       "severity": "info",
@@ -7331,9 +7265,9 @@
       "entityId": "authority-follows-attention",
       "entityTitle": "Authority Follows Attention",
       "field": "relatedPatterns",
-      "currentValue": "responsibility-follows-leverage",
+      "currentValue": "participation-creates-legitimacy",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'authority-follows-attention' to relatedPatterns on 'responsibility-follows-leverage'."
+      "suggestedFix": "Consider adding 'authority-follows-attention' to relatedPatterns on 'participation-creates-legitimacy'."
     },
     {
       "severity": "info",
@@ -7342,9 +7276,9 @@
       "entityId": "authority-follows-attention",
       "entityTitle": "Authority Follows Attention",
       "field": "relatedPatterns",
-      "currentValue": "participation-creates-legitimacy",
+      "currentValue": "responsibility-follows-leverage",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'authority-follows-attention' to relatedPatterns on 'participation-creates-legitimacy'."
+      "suggestedFix": "Consider adding 'authority-follows-attention' to relatedPatterns on 'responsibility-follows-leverage'."
     },
     {
       "severity": "info",
@@ -7372,67 +7306,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "bad-news-reaches-power",
-      "entityTitle": "Bad News Reaches Power",
+      "entityId": "authority-follows-attention",
+      "entityTitle": "Authority Follows Attention",
       "field": "relatedPatterns",
-      "currentValue": "blame-compresses-complexity",
+      "currentValue": "correctness-hardens-into-identity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'bad-news-reaches-power' to relatedPatterns on 'blame-compresses-complexity'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "bad-news-reaches-power",
-      "entityTitle": "Bad News Reaches Power",
-      "field": "relatedPatterns",
-      "currentValue": "reality-answers-back",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'bad-news-reaches-power' to relatedPatterns on 'reality-answers-back'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "bad-news-reaches-power",
-      "entityTitle": "Bad News Reaches Power",
-      "field": "relatedPatterns",
-      "currentValue": "disagreement-is-suppressed",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'bad-news-reaches-power' to relatedPatterns on 'disagreement-is-suppressed'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "bad-news-reaches-power",
-      "entityTitle": "Bad News Reaches Power",
-      "field": "relatedPatterns",
-      "currentValue": "participation-creates-legitimacy",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'bad-news-reaches-power' to relatedPatterns on 'participation-creates-legitimacy'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "bad-news-reaches-power",
-      "entityTitle": "Bad News Reaches Power",
-      "field": "relatedPatterns",
-      "currentValue": "dissent-is-welcomed",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'bad-news-reaches-power' to relatedPatterns on 'dissent-is-welcomed'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "bad-news-reaches-power",
-      "entityTitle": "Bad News Reaches Power",
-      "field": "relatedPatterns",
-      "currentValue": "speed-relocates-judgment",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'bad-news-reaches-power' to relatedPatterns on 'speed-relocates-judgment'."
+      "suggestedFix": "Consider adding 'authority-follows-attention' to relatedPatterns on 'correctness-hardens-into-identity'."
     },
     {
       "severity": "info",
@@ -7452,9 +7331,9 @@
       "entityId": "bad-news-reaches-power",
       "entityTitle": "Bad News Reaches Power",
       "field": "relatedPatterns",
-      "currentValue": "distance-conceals-consequence",
+      "currentValue": "reality-answers-back",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'bad-news-reaches-power' to relatedPatterns on 'distance-conceals-consequence'."
+      "suggestedFix": "Consider adding 'bad-news-reaches-power' to relatedPatterns on 'reality-answers-back'."
     },
     {
       "severity": "info",
@@ -7471,12 +7350,67 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "blame-compresses-complexity",
-      "entityTitle": "Blame Compresses Complexity",
+      "entityId": "bad-news-reaches-power",
+      "entityTitle": "Bad News Reaches Power",
       "field": "relatedPatterns",
-      "currentValue": "compression-loses-the-person",
+      "currentValue": "disagreement-is-suppressed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'compression-loses-the-person'."
+      "suggestedFix": "Consider adding 'bad-news-reaches-power' to relatedPatterns on 'disagreement-is-suppressed'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "bad-news-reaches-power",
+      "entityTitle": "Bad News Reaches Power",
+      "field": "relatedPatterns",
+      "currentValue": "dissent-is-welcomed",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'bad-news-reaches-power' to relatedPatterns on 'dissent-is-welcomed'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "bad-news-reaches-power",
+      "entityTitle": "Bad News Reaches Power",
+      "field": "relatedPatterns",
+      "currentValue": "participation-creates-legitimacy",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'bad-news-reaches-power' to relatedPatterns on 'participation-creates-legitimacy'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "bad-news-reaches-power",
+      "entityTitle": "Bad News Reaches Power",
+      "field": "relatedPatterns",
+      "currentValue": "speed-relocates-judgment",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'bad-news-reaches-power' to relatedPatterns on 'speed-relocates-judgment'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "bad-news-reaches-power",
+      "entityTitle": "Bad News Reaches Power",
+      "field": "relatedPatterns",
+      "currentValue": "distance-conceals-consequence",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'bad-news-reaches-power' to relatedPatterns on 'distance-conceals-consequence'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "bad-news-reaches-power",
+      "entityTitle": "Bad News Reaches Power",
+      "field": "relatedPatterns",
+      "currentValue": "blame-compresses-complexity",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'bad-news-reaches-power' to relatedPatterns on 'blame-compresses-complexity'."
     },
     {
       "severity": "info",
@@ -7488,6 +7422,17 @@
       "currentValue": "attention-restores-contact",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'attention-restores-contact'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "blame-compresses-complexity",
+      "entityTitle": "Blame Compresses Complexity",
+      "field": "relatedPatterns",
+      "currentValue": "compression-loses-the-person",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'compression-loses-the-person'."
     },
     {
       "severity": "info",
@@ -7540,9 +7485,9 @@
       "entityId": "care-preserves-particulars",
       "entityTitle": "Care Preserves Particulars",
       "field": "relatedPatterns",
-      "currentValue": "compression-loses-the-person",
+      "currentValue": "reality-answers-back",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'care-preserves-particulars' to relatedPatterns on 'compression-loses-the-person'."
+      "suggestedFix": "Consider adding 'care-preserves-particulars' to relatedPatterns on 'reality-answers-back'."
     },
     {
       "severity": "info",
@@ -7562,9 +7507,9 @@
       "entityId": "care-preserves-particulars",
       "entityTitle": "Care Preserves Particulars",
       "field": "relatedPatterns",
-      "currentValue": "reality-answers-back",
+      "currentValue": "compression-loses-the-person",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'care-preserves-particulars' to relatedPatterns on 'reality-answers-back'."
+      "suggestedFix": "Consider adding 'care-preserves-particulars' to relatedPatterns on 'compression-loses-the-person'."
     },
     {
       "severity": "info",
@@ -7595,9 +7540,9 @@
       "entityId": "commitment-leaves-room",
       "entityTitle": "Commitment Leaves Room",
       "field": "relatedPatterns",
-      "currentValue": "correctness-hardens-into-identity",
+      "currentValue": "structures-outlive-reasons",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'commitment-leaves-room' to relatedPatterns on 'correctness-hardens-into-identity'."
+      "suggestedFix": "Consider adding 'commitment-leaves-room' to relatedPatterns on 'structures-outlive-reasons'."
     },
     {
       "severity": "info",
@@ -7617,9 +7562,9 @@
       "entityId": "commitment-leaves-room",
       "entityTitle": "Commitment Leaves Room",
       "field": "relatedPatterns",
-      "currentValue": "structures-outlive-reasons",
+      "currentValue": "contact-keeps-the-read-open",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'commitment-leaves-room' to relatedPatterns on 'structures-outlive-reasons'."
+      "suggestedFix": "Consider adding 'commitment-leaves-room' to relatedPatterns on 'contact-keeps-the-read-open'."
     },
     {
       "severity": "info",
@@ -7639,9 +7584,9 @@
       "entityId": "commitment-leaves-room",
       "entityTitle": "Commitment Leaves Room",
       "field": "relatedPatterns",
-      "currentValue": "contact-keeps-the-read-open",
+      "currentValue": "correctness-hardens-into-identity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'commitment-leaves-room' to relatedPatterns on 'contact-keeps-the-read-open'."
+      "suggestedFix": "Consider adding 'commitment-leaves-room' to relatedPatterns on 'correctness-hardens-into-identity'."
     },
     {
       "severity": "info",
@@ -7650,9 +7595,31 @@
       "entityId": "compression-loses-the-person",
       "entityTitle": "Compression Loses the Person",
       "field": "relatedPatterns",
-      "currentValue": "blame-compresses-complexity",
+      "currentValue": "understanding-circulates",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'compression-loses-the-person' to relatedPatterns on 'blame-compresses-complexity'."
+      "suggestedFix": "Consider adding 'compression-loses-the-person' to relatedPatterns on 'understanding-circulates'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "compression-loses-the-person",
+      "entityTitle": "Compression Loses the Person",
+      "field": "relatedPatterns",
+      "currentValue": "reality-answers-back",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'compression-loses-the-person' to relatedPatterns on 'reality-answers-back'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "compression-loses-the-person",
+      "entityTitle": "Compression Loses the Person",
+      "field": "relatedPatterns",
+      "currentValue": "contact-keeps-the-read-open",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'compression-loses-the-person' to relatedPatterns on 'contact-keeps-the-read-open'."
     },
     {
       "severity": "info",
@@ -7683,28 +7650,6 @@
       "entityId": "compression-loses-the-person",
       "entityTitle": "Compression Loses the Person",
       "field": "relatedPatterns",
-      "currentValue": "reality-answers-back",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'compression-loses-the-person' to relatedPatterns on 'reality-answers-back'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "compression-loses-the-person",
-      "entityTitle": "Compression Loses the Person",
-      "field": "relatedPatterns",
-      "currentValue": "understanding-circulates",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'compression-loses-the-person' to relatedPatterns on 'understanding-circulates'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "compression-loses-the-person",
-      "entityTitle": "Compression Loses the Person",
-      "field": "relatedPatterns",
       "currentValue": "distance-conceals-consequence",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'compression-loses-the-person' to relatedPatterns on 'distance-conceals-consequence'."
@@ -7716,9 +7661,9 @@
       "entityId": "compression-loses-the-person",
       "entityTitle": "Compression Loses the Person",
       "field": "relatedPatterns",
-      "currentValue": "care-preserves-particulars",
+      "currentValue": "blame-compresses-complexity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'compression-loses-the-person' to relatedPatterns on 'care-preserves-particulars'."
+      "suggestedFix": "Consider adding 'compression-loses-the-person' to relatedPatterns on 'blame-compresses-complexity'."
     },
     {
       "severity": "info",
@@ -7727,31 +7672,9 @@
       "entityId": "compression-loses-the-person",
       "entityTitle": "Compression Loses the Person",
       "field": "relatedPatterns",
-      "currentValue": "contact-keeps-the-read-open",
+      "currentValue": "care-preserves-particulars",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'compression-loses-the-person' to relatedPatterns on 'contact-keeps-the-read-open'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "contact-keeps-the-read-open",
-      "entityTitle": "Contact Keeps the Read Open",
-      "field": "relatedPatterns",
-      "currentValue": "compression-loses-the-person",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'compression-loses-the-person'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "contact-keeps-the-read-open",
-      "entityTitle": "Contact Keeps the Read Open",
-      "field": "relatedPatterns",
-      "currentValue": "meaning-outruns-the-words",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'meaning-outruns-the-words'."
+      "suggestedFix": "Consider adding 'compression-loses-the-person' to relatedPatterns on 'care-preserves-particulars'."
     },
     {
       "severity": "info",
@@ -7771,9 +7694,20 @@
       "entityId": "contact-keeps-the-read-open",
       "entityTitle": "Contact Keeps the Read Open",
       "field": "relatedPatterns",
-      "currentValue": "bad-news-reaches-power",
+      "currentValue": "understanding-circulates",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'bad-news-reaches-power'."
+      "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'understanding-circulates'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "contact-keeps-the-read-open",
+      "entityTitle": "Contact Keeps the Read Open",
+      "field": "relatedPatterns",
+      "currentValue": "compression-loses-the-person",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'compression-loses-the-person'."
     },
     {
       "severity": "info",
@@ -7793,31 +7727,20 @@
       "entityId": "contact-keeps-the-read-open",
       "entityTitle": "Contact Keeps the Read Open",
       "field": "relatedPatterns",
-      "currentValue": "understanding-circulates",
+      "currentValue": "bad-news-reaches-power",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'understanding-circulates'."
+      "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'bad-news-reaches-power'."
     },
     {
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "correctness-hardens-into-identity",
-      "entityTitle": "Correctness Hardens Into Identity",
+      "entityId": "contact-keeps-the-read-open",
+      "entityTitle": "Contact Keeps the Read Open",
       "field": "relatedPatterns",
-      "currentValue": "authority-follows-attention",
+      "currentValue": "meaning-outruns-the-words",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'correctness-hardens-into-identity' to relatedPatterns on 'authority-follows-attention'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "correctness-hardens-into-identity",
-      "entityTitle": "Correctness Hardens Into Identity",
-      "field": "relatedPatterns",
-      "currentValue": "revisability-preserves-judgment",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'correctness-hardens-into-identity' to relatedPatterns on 'revisability-preserves-judgment'."
+      "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'meaning-outruns-the-words'."
     },
     {
       "severity": "info",
@@ -7837,9 +7760,20 @@
       "entityId": "correctness-hardens-into-identity",
       "entityTitle": "Correctness Hardens Into Identity",
       "field": "relatedPatterns",
-      "currentValue": "commitment-leaves-room",
+      "currentValue": "revisability-preserves-judgment",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'correctness-hardens-into-identity' to relatedPatterns on 'commitment-leaves-room'."
+      "suggestedFix": "Consider adding 'correctness-hardens-into-identity' to relatedPatterns on 'revisability-preserves-judgment'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "correctness-hardens-into-identity",
+      "entityTitle": "Correctness Hardens Into Identity",
+      "field": "relatedPatterns",
+      "currentValue": "authority-follows-attention",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'correctness-hardens-into-identity' to relatedPatterns on 'authority-follows-attention'."
     },
     {
       "severity": "info",
@@ -7856,12 +7790,23 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
+      "entityId": "correctness-hardens-into-identity",
+      "entityTitle": "Correctness Hardens Into Identity",
+      "field": "relatedPatterns",
+      "currentValue": "commitment-leaves-room",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'correctness-hardens-into-identity' to relatedPatterns on 'commitment-leaves-room'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
       "entityId": "disagreement-is-suppressed",
       "entityTitle": "Disagreement is Suppressed",
       "field": "relatedPatterns",
-      "currentValue": "bad-news-reaches-power",
+      "currentValue": "learning-collapses",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'disagreement-is-suppressed' to relatedPatterns on 'bad-news-reaches-power'."
+      "suggestedFix": "Consider adding 'disagreement-is-suppressed' to relatedPatterns on 'learning-collapses'."
     },
     {
       "severity": "info",
@@ -7881,9 +7826,9 @@
       "entityId": "disagreement-is-suppressed",
       "entityTitle": "Disagreement is Suppressed",
       "field": "relatedPatterns",
-      "currentValue": "participation-creates-legitimacy",
+      "currentValue": "bad-news-reaches-power",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'disagreement-is-suppressed' to relatedPatterns on 'participation-creates-legitimacy'."
+      "suggestedFix": "Consider adding 'disagreement-is-suppressed' to relatedPatterns on 'bad-news-reaches-power'."
     },
     {
       "severity": "info",
@@ -7892,9 +7837,31 @@
       "entityId": "disagreement-is-suppressed",
       "entityTitle": "Disagreement is Suppressed",
       "field": "relatedPatterns",
+      "currentValue": "participation-creates-legitimacy",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'disagreement-is-suppressed' to relatedPatterns on 'participation-creates-legitimacy'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "dissent-is-welcomed",
+      "entityTitle": "Dissent is Welcomed",
+      "field": "relatedPatterns",
+      "currentValue": "understanding-circulates",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'dissent-is-welcomed' to relatedPatterns on 'understanding-circulates'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "dissent-is-welcomed",
+      "entityTitle": "Dissent is Welcomed",
+      "field": "relatedPatterns",
       "currentValue": "learning-collapses",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'disagreement-is-suppressed' to relatedPatterns on 'learning-collapses'."
+      "suggestedFix": "Consider adding 'dissent-is-welcomed' to relatedPatterns on 'learning-collapses'."
     },
     {
       "severity": "info",
@@ -7933,34 +7900,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "dissent-is-welcomed",
-      "entityTitle": "Dissent is Welcomed",
-      "field": "relatedPatterns",
-      "currentValue": "understanding-circulates",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'dissent-is-welcomed' to relatedPatterns on 'understanding-circulates'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "dissent-is-welcomed",
-      "entityTitle": "Dissent is Welcomed",
-      "field": "relatedPatterns",
-      "currentValue": "learning-collapses",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'dissent-is-welcomed' to relatedPatterns on 'learning-collapses'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "distance-conceals-consequence",
       "entityTitle": "Distance Conceals Consequence",
       "field": "relatedPatterns",
-      "currentValue": "compression-loses-the-person",
+      "currentValue": "reality-answers-back",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'distance-conceals-consequence' to relatedPatterns on 'compression-loses-the-person'."
+      "suggestedFix": "Consider adding 'distance-conceals-consequence' to relatedPatterns on 'reality-answers-back'."
     },
     {
       "severity": "info",
@@ -7980,9 +7925,9 @@
       "entityId": "distance-conceals-consequence",
       "entityTitle": "Distance Conceals Consequence",
       "field": "relatedPatterns",
-      "currentValue": "reality-answers-back",
+      "currentValue": "compression-loses-the-person",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'distance-conceals-consequence' to relatedPatterns on 'reality-answers-back'."
+      "suggestedFix": "Consider adding 'distance-conceals-consequence' to relatedPatterns on 'compression-loses-the-person'."
     },
     {
       "severity": "info",
@@ -7994,17 +7939,6 @@
       "currentValue": "responsibility-follows-leverage",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'distance-conceals-consequence' to relatedPatterns on 'responsibility-follows-leverage'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "distance-conceals-consequence",
-      "entityTitle": "Distance Conceals Consequence",
-      "field": "relatedPatterns",
-      "currentValue": "bad-news-reaches-power",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'distance-conceals-consequence' to relatedPatterns on 'bad-news-reaches-power'."
     },
     {
       "severity": "info",
@@ -8032,12 +7966,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "examples-accumulate",
-      "entityTitle": "Examples Accumulate",
+      "entityId": "distance-conceals-consequence",
+      "entityTitle": "Distance Conceals Consequence",
       "field": "relatedPatterns",
-      "currentValue": "dissent-is-welcomed",
+      "currentValue": "bad-news-reaches-power",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'examples-accumulate' to relatedPatterns on 'dissent-is-welcomed'."
+      "suggestedFix": "Consider adding 'distance-conceals-consequence' to relatedPatterns on 'bad-news-reaches-power'."
     },
     {
       "severity": "info",
@@ -8054,12 +7988,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "exceptions-are-forever",
-      "entityTitle": "Exceptions are Forever",
+      "entityId": "examples-accumulate",
+      "entityTitle": "Examples Accumulate",
       "field": "relatedPatterns",
-      "currentValue": "learning-collapses",
+      "currentValue": "dissent-is-welcomed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'learning-collapses'."
+      "suggestedFix": "Consider adding 'examples-accumulate' to relatedPatterns on 'dissent-is-welcomed'."
     },
     {
       "severity": "info",
@@ -8071,6 +8005,17 @@
       "currentValue": "structures-outlive-reasons",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'structures-outlive-reasons'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "exceptions-are-forever",
+      "entityTitle": "Exceptions are Forever",
+      "field": "relatedPatterns",
+      "currentValue": "learning-collapses",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'learning-collapses'."
     },
     {
       "severity": "info",
@@ -8134,17 +8079,6 @@
       "entityId": "finality-compensates-for-uncertainty",
       "entityTitle": "Finality Compensates for Uncertainty",
       "field": "relatedPatterns",
-      "currentValue": "correctness-hardens-into-identity",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'finality-compensates-for-uncertainty' to relatedPatterns on 'correctness-hardens-into-identity'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "finality-compensates-for-uncertainty",
-      "entityTitle": "Finality Compensates for Uncertainty",
-      "field": "relatedPatterns",
       "currentValue": "speech-escalates-faster-than-meaning",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'finality-compensates-for-uncertainty' to relatedPatterns on 'speech-escalates-faster-than-meaning'."
@@ -8153,12 +8087,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "gaps-invite-completion",
-      "entityTitle": "Gaps Invite Completion",
+      "entityId": "finality-compensates-for-uncertainty",
+      "entityTitle": "Finality Compensates for Uncertainty",
       "field": "relatedPatterns",
-      "currentValue": "meaning-forms-early",
+      "currentValue": "correctness-hardens-into-identity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'gaps-invite-completion' to relatedPatterns on 'meaning-forms-early'."
+      "suggestedFix": "Consider adding 'finality-compensates-for-uncertainty' to relatedPatterns on 'correctness-hardens-into-identity'."
     },
     {
       "severity": "info",
@@ -8175,12 +8109,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "intent-gets-assigned",
-      "entityTitle": "Intent Gets Assigned",
+      "entityId": "gaps-invite-completion",
+      "entityTitle": "Gaps Invite Completion",
       "field": "relatedPatterns",
-      "currentValue": "gaps-invite-completion",
+      "currentValue": "meaning-forms-early",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'intent-gets-assigned' to relatedPatterns on 'gaps-invite-completion'."
+      "suggestedFix": "Consider adding 'gaps-invite-completion' to relatedPatterns on 'meaning-forms-early'."
     },
     {
       "severity": "info",
@@ -8197,12 +8131,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "leaders-feel-the-consequences",
-      "entityTitle": "Leaders Feel the Consequences",
+      "entityId": "intent-gets-assigned",
+      "entityTitle": "Intent Gets Assigned",
       "field": "relatedPatterns",
-      "currentValue": "dissent-is-welcomed",
+      "currentValue": "gaps-invite-completion",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leaders-feel-the-consequences' to relatedPatterns on 'dissent-is-welcomed'."
+      "suggestedFix": "Consider adding 'intent-gets-assigned' to relatedPatterns on 'gaps-invite-completion'."
     },
     {
       "severity": "info",
@@ -8214,6 +8148,17 @@
       "currentValue": "learning-collapses",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'leaders-feel-the-consequences' to relatedPatterns on 'learning-collapses'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "leaders-feel-the-consequences",
+      "entityTitle": "Leaders Feel the Consequences",
+      "field": "relatedPatterns",
+      "currentValue": "dissent-is-welcomed",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'leaders-feel-the-consequences' to relatedPatterns on 'dissent-is-welcomed'."
     },
     {
       "severity": "info",
@@ -8310,17 +8255,6 @@
       "entityId": "meaning-forms-early",
       "entityTitle": "Meaning Forms Early",
       "field": "relatedPatterns",
-      "currentValue": "gaps-invite-completion",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-forms-early' to relatedPatterns on 'gaps-invite-completion'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "meaning-forms-early",
-      "entityTitle": "Meaning Forms Early",
-      "field": "relatedPatterns",
       "currentValue": "intent-gets-assigned",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'meaning-forms-early' to relatedPatterns on 'intent-gets-assigned'."
@@ -8329,12 +8263,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-gets-distorted",
-      "entityTitle": "Meaning Gets Distorted",
+      "entityId": "meaning-forms-early",
+      "entityTitle": "Meaning Forms Early",
       "field": "relatedPatterns",
-      "currentValue": "meaning-reinforces-itself",
+      "currentValue": "gaps-invite-completion",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'meaning-reinforces-itself'."
+      "suggestedFix": "Consider adding 'meaning-forms-early' to relatedPatterns on 'gaps-invite-completion'."
     },
     {
       "severity": "info",
@@ -8346,6 +8280,17 @@
       "currentValue": "intent-gets-assigned",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'intent-gets-assigned'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "meaning-gets-distorted",
+      "entityTitle": "Meaning Gets Distorted",
+      "field": "relatedPatterns",
+      "currentValue": "meaning-reinforces-itself",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'meaning-reinforces-itself'."
     },
     {
       "severity": "info",
@@ -8376,17 +8321,6 @@
       "entityId": "meaning-reinforces-itself",
       "entityTitle": "Meaning Reinforces Itself",
       "field": "relatedPatterns",
-      "currentValue": "meaning-shifts-under-pressure",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-reinforces-itself' to relatedPatterns on 'meaning-shifts-under-pressure'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "meaning-reinforces-itself",
-      "entityTitle": "Meaning Reinforces Itself",
-      "field": "relatedPatterns",
       "currentValue": "meaning-gets-distorted",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'meaning-reinforces-itself' to relatedPatterns on 'meaning-gets-distorted'."
@@ -8395,12 +8329,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-shifts-under-pressure",
-      "entityTitle": "Meaning Shifts Under Pressure",
+      "entityId": "meaning-reinforces-itself",
+      "entityTitle": "Meaning Reinforces Itself",
       "field": "relatedPatterns",
-      "currentValue": "meaning-forms-early",
+      "currentValue": "meaning-shifts-under-pressure",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-shifts-under-pressure' to relatedPatterns on 'meaning-forms-early'."
+      "suggestedFix": "Consider adding 'meaning-reinforces-itself' to relatedPatterns on 'meaning-shifts-under-pressure'."
     },
     {
       "severity": "info",
@@ -8417,12 +8351,23 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
+      "entityId": "meaning-shifts-under-pressure",
+      "entityTitle": "Meaning Shifts Under Pressure",
+      "field": "relatedPatterns",
+      "currentValue": "meaning-forms-early",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'meaning-shifts-under-pressure' to relatedPatterns on 'meaning-forms-early'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
       "entityId": "participation-creates-legitimacy",
       "entityTitle": "Participation Creates Legitimacy",
       "field": "relatedPatterns",
-      "currentValue": "authority-follows-attention",
+      "currentValue": "understanding-circulates",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'participation-creates-legitimacy' to relatedPatterns on 'authority-follows-attention'."
+      "suggestedFix": "Consider adding 'participation-creates-legitimacy' to relatedPatterns on 'understanding-circulates'."
     },
     {
       "severity": "info",
@@ -8464,20 +8409,9 @@
       "entityId": "participation-creates-legitimacy",
       "entityTitle": "Participation Creates Legitimacy",
       "field": "relatedPatterns",
-      "currentValue": "bad-news-reaches-power",
+      "currentValue": "authority-follows-attention",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'participation-creates-legitimacy' to relatedPatterns on 'bad-news-reaches-power'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "participation-creates-legitimacy",
-      "entityTitle": "Participation Creates Legitimacy",
-      "field": "relatedPatterns",
-      "currentValue": "understanding-circulates",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'participation-creates-legitimacy' to relatedPatterns on 'understanding-circulates'."
+      "suggestedFix": "Consider adding 'participation-creates-legitimacy' to relatedPatterns on 'authority-follows-attention'."
     },
     {
       "severity": "info",
@@ -8494,12 +8428,34 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
+      "entityId": "participation-creates-legitimacy",
+      "entityTitle": "Participation Creates Legitimacy",
+      "field": "relatedPatterns",
+      "currentValue": "bad-news-reaches-power",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'participation-creates-legitimacy' to relatedPatterns on 'bad-news-reaches-power'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
       "entityId": "reality-answers-back",
       "entityTitle": "Reality Answers Back",
       "field": "relatedPatterns",
-      "currentValue": "authority-follows-attention",
+      "currentValue": "understanding-circulates",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'reality-answers-back' to relatedPatterns on 'authority-follows-attention'."
+      "suggestedFix": "Consider adding 'reality-answers-back' to relatedPatterns on 'understanding-circulates'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "reality-answers-back",
+      "entityTitle": "Reality Answers Back",
+      "field": "relatedPatterns",
+      "currentValue": "structures-outlive-reasons",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'reality-answers-back' to relatedPatterns on 'structures-outlive-reasons'."
     },
     {
       "severity": "info",
@@ -8511,6 +8467,17 @@
       "currentValue": "compression-loses-the-person",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'reality-answers-back' to relatedPatterns on 'compression-loses-the-person'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "reality-answers-back",
+      "entityTitle": "Reality Answers Back",
+      "field": "relatedPatterns",
+      "currentValue": "authority-follows-attention",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'reality-answers-back' to relatedPatterns on 'authority-follows-attention'."
     },
     {
       "severity": "info",
@@ -8541,64 +8508,9 @@
       "entityId": "reality-answers-back",
       "entityTitle": "Reality Answers Back",
       "field": "relatedPatterns",
-      "currentValue": "responsibility-follows-leverage",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'reality-answers-back' to relatedPatterns on 'responsibility-follows-leverage'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "reality-answers-back",
-      "entityTitle": "Reality Answers Back",
-      "field": "relatedPatterns",
-      "currentValue": "bad-news-reaches-power",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'reality-answers-back' to relatedPatterns on 'bad-news-reaches-power'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "reality-answers-back",
-      "entityTitle": "Reality Answers Back",
-      "field": "relatedPatterns",
-      "currentValue": "structures-outlive-reasons",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'reality-answers-back' to relatedPatterns on 'structures-outlive-reasons'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "reality-answers-back",
-      "entityTitle": "Reality Answers Back",
-      "field": "relatedPatterns",
-      "currentValue": "commitment-leaves-room",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'reality-answers-back' to relatedPatterns on 'commitment-leaves-room'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "reality-answers-back",
-      "entityTitle": "Reality Answers Back",
-      "field": "relatedPatterns",
       "currentValue": "speed-relocates-judgment",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'reality-answers-back' to relatedPatterns on 'speed-relocates-judgment'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "reality-answers-back",
-      "entityTitle": "Reality Answers Back",
-      "field": "relatedPatterns",
-      "currentValue": "understanding-circulates",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'reality-answers-back' to relatedPatterns on 'understanding-circulates'."
     },
     {
       "severity": "info",
@@ -8618,6 +8530,17 @@
       "entityId": "reality-answers-back",
       "entityTitle": "Reality Answers Back",
       "field": "relatedPatterns",
+      "currentValue": "responsibility-follows-leverage",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'reality-answers-back' to relatedPatterns on 'responsibility-follows-leverage'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "reality-answers-back",
+      "entityTitle": "Reality Answers Back",
+      "field": "relatedPatterns",
       "currentValue": "care-preserves-particulars",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'reality-answers-back' to relatedPatterns on 'care-preserves-particulars'."
@@ -8626,23 +8549,23 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "responsibility-follows-leverage",
-      "entityTitle": "Responsibility Follows Leverage",
+      "entityId": "reality-answers-back",
+      "entityTitle": "Reality Answers Back",
       "field": "relatedPatterns",
-      "currentValue": "authority-follows-attention",
+      "currentValue": "commitment-leaves-room",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'responsibility-follows-leverage' to relatedPatterns on 'authority-follows-attention'."
+      "suggestedFix": "Consider adding 'reality-answers-back' to relatedPatterns on 'commitment-leaves-room'."
     },
     {
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "responsibility-follows-leverage",
-      "entityTitle": "Responsibility Follows Leverage",
+      "entityId": "reality-answers-back",
+      "entityTitle": "Reality Answers Back",
       "field": "relatedPatterns",
-      "currentValue": "blame-compresses-complexity",
+      "currentValue": "bad-news-reaches-power",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'responsibility-follows-leverage' to relatedPatterns on 'blame-compresses-complexity'."
+      "suggestedFix": "Consider adding 'reality-answers-back' to relatedPatterns on 'bad-news-reaches-power'."
     },
     {
       "severity": "info",
@@ -8673,9 +8596,31 @@
       "entityId": "responsibility-follows-leverage",
       "entityTitle": "Responsibility Follows Leverage",
       "field": "relatedPatterns",
+      "currentValue": "authority-follows-attention",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'responsibility-follows-leverage' to relatedPatterns on 'authority-follows-attention'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "responsibility-follows-leverage",
+      "entityTitle": "Responsibility Follows Leverage",
+      "field": "relatedPatterns",
       "currentValue": "distance-conceals-consequence",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'responsibility-follows-leverage' to relatedPatterns on 'distance-conceals-consequence'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "responsibility-follows-leverage",
+      "entityTitle": "Responsibility Follows Leverage",
+      "field": "relatedPatterns",
+      "currentValue": "blame-compresses-complexity",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'responsibility-follows-leverage' to relatedPatterns on 'blame-compresses-complexity'."
     },
     {
       "severity": "info",
@@ -8706,20 +8651,9 @@
       "entityId": "results-conceal-the-game",
       "entityTitle": "Results Conceal the Game",
       "field": "relatedPatterns",
-      "currentValue": "blame-compresses-complexity",
+      "currentValue": "understanding-circulates",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'results-conceal-the-game' to relatedPatterns on 'blame-compresses-complexity'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "results-conceal-the-game",
-      "entityTitle": "Results Conceal the Game",
-      "field": "relatedPatterns",
-      "currentValue": "compression-loses-the-person",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'results-conceal-the-game' to relatedPatterns on 'compression-loses-the-person'."
+      "suggestedFix": "Consider adding 'results-conceal-the-game' to relatedPatterns on 'understanding-circulates'."
     },
     {
       "severity": "info",
@@ -8739,9 +8673,9 @@
       "entityId": "results-conceal-the-game",
       "entityTitle": "Results Conceal the Game",
       "field": "relatedPatterns",
-      "currentValue": "understanding-circulates",
+      "currentValue": "compression-loses-the-person",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'results-conceal-the-game' to relatedPatterns on 'understanding-circulates'."
+      "suggestedFix": "Consider adding 'results-conceal-the-game' to relatedPatterns on 'compression-loses-the-person'."
     },
     {
       "severity": "info",
@@ -8758,12 +8692,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "revisability-preserves-judgment",
-      "entityTitle": "Revisability Preserves Judgment",
+      "entityId": "results-conceal-the-game",
+      "entityTitle": "Results Conceal the Game",
       "field": "relatedPatterns",
-      "currentValue": "correctness-hardens-into-identity",
+      "currentValue": "blame-compresses-complexity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'correctness-hardens-into-identity'."
+      "suggestedFix": "Consider adding 'results-conceal-the-game' to relatedPatterns on 'blame-compresses-complexity'."
     },
     {
       "severity": "info",
@@ -8780,12 +8714,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "scrutiny-preserves-trust",
-      "entityTitle": "Scrutiny Preserves Trust",
+      "entityId": "revisability-preserves-judgment",
+      "entityTitle": "Revisability Preserves Judgment",
       "field": "relatedPatterns",
-      "currentValue": "admiration-becomes-insulation",
+      "currentValue": "correctness-hardens-into-identity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'scrutiny-preserves-trust' to relatedPatterns on 'admiration-becomes-insulation'."
+      "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'correctness-hardens-into-identity'."
     },
     {
       "severity": "info",
@@ -8802,12 +8736,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "speech-escalates-faster-than-meaning",
-      "entityTitle": "Speech Escalates Faster Than Meaning",
+      "entityId": "scrutiny-preserves-trust",
+      "entityTitle": "Scrutiny Preserves Trust",
       "field": "relatedPatterns",
-      "currentValue": "explanation-replaces-response",
+      "currentValue": "admiration-becomes-insulation",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'explanation-replaces-response'."
+      "suggestedFix": "Consider adding 'scrutiny-preserves-trust' to relatedPatterns on 'admiration-becomes-insulation'."
     },
     {
       "severity": "info",
@@ -8824,34 +8758,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "speed-relocates-judgment",
-      "entityTitle": "Speed Relocates Judgment",
+      "entityId": "speech-escalates-faster-than-meaning",
+      "entityTitle": "Speech Escalates Faster Than Meaning",
       "field": "relatedPatterns",
-      "currentValue": "reality-answers-back",
+      "currentValue": "explanation-replaces-response",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'speed-relocates-judgment' to relatedPatterns on 'reality-answers-back'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "speed-relocates-judgment",
-      "entityTitle": "Speed Relocates Judgment",
-      "field": "relatedPatterns",
-      "currentValue": "bad-news-reaches-power",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'speed-relocates-judgment' to relatedPatterns on 'bad-news-reaches-power'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "speed-relocates-judgment",
-      "entityTitle": "Speed Relocates Judgment",
-      "field": "relatedPatterns",
-      "currentValue": "commitment-leaves-room",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'speed-relocates-judgment' to relatedPatterns on 'commitment-leaves-room'."
+      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'explanation-replaces-response'."
     },
     {
       "severity": "info",
@@ -8871,9 +8783,42 @@
       "entityId": "speed-relocates-judgment",
       "entityTitle": "Speed Relocates Judgment",
       "field": "relatedPatterns",
+      "currentValue": "reality-answers-back",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'speed-relocates-judgment' to relatedPatterns on 'reality-answers-back'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "speed-relocates-judgment",
+      "entityTitle": "Speed Relocates Judgment",
+      "field": "relatedPatterns",
       "currentValue": "distance-conceals-consequence",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'speed-relocates-judgment' to relatedPatterns on 'distance-conceals-consequence'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "speed-relocates-judgment",
+      "entityTitle": "Speed Relocates Judgment",
+      "field": "relatedPatterns",
+      "currentValue": "commitment-leaves-room",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'speed-relocates-judgment' to relatedPatterns on 'commitment-leaves-room'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "speed-relocates-judgment",
+      "entityTitle": "Speed Relocates Judgment",
+      "field": "relatedPatterns",
+      "currentValue": "bad-news-reaches-power",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'speed-relocates-judgment' to relatedPatterns on 'bad-news-reaches-power'."
     },
     {
       "severity": "info",
@@ -8885,17 +8830,6 @@
       "currentValue": "exceptions-are-forever",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'structures-outlive-reasons' to relatedPatterns on 'exceptions-are-forever'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "structures-outlive-reasons",
-      "entityTitle": "Structures Outlive Reasons",
-      "field": "relatedPatterns",
-      "currentValue": "reality-answers-back",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'structures-outlive-reasons' to relatedPatterns on 'reality-answers-back'."
     },
     {
       "severity": "info",
@@ -8923,23 +8857,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "understanding-circulates",
-      "entityTitle": "Understanding Circulates",
+      "entityId": "structures-outlive-reasons",
+      "entityTitle": "Structures Outlive Reasons",
       "field": "relatedPatterns",
-      "currentValue": "compression-loses-the-person",
+      "currentValue": "reality-answers-back",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'understanding-circulates' to relatedPatterns on 'compression-loses-the-person'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "understanding-circulates",
-      "entityTitle": "Understanding Circulates",
-      "field": "relatedPatterns",
-      "currentValue": "results-conceal-the-game",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'understanding-circulates' to relatedPatterns on 'results-conceal-the-game'."
+      "suggestedFix": "Consider adding 'structures-outlive-reasons' to relatedPatterns on 'reality-answers-back'."
     },
     {
       "severity": "info",
@@ -8959,9 +8882,9 @@
       "entityId": "understanding-circulates",
       "entityTitle": "Understanding Circulates",
       "field": "relatedPatterns",
-      "currentValue": "participation-creates-legitimacy",
+      "currentValue": "contact-keeps-the-read-open",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'understanding-circulates' to relatedPatterns on 'participation-creates-legitimacy'."
+      "suggestedFix": "Consider adding 'understanding-circulates' to relatedPatterns on 'contact-keeps-the-read-open'."
     },
     {
       "severity": "info",
@@ -8981,6 +8904,28 @@
       "entityId": "understanding-circulates",
       "entityTitle": "Understanding Circulates",
       "field": "relatedPatterns",
+      "currentValue": "compression-loses-the-person",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'understanding-circulates' to relatedPatterns on 'compression-loses-the-person'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "understanding-circulates",
+      "entityTitle": "Understanding Circulates",
+      "field": "relatedPatterns",
+      "currentValue": "participation-creates-legitimacy",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'understanding-circulates' to relatedPatterns on 'participation-creates-legitimacy'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "understanding-circulates",
+      "entityTitle": "Understanding Circulates",
+      "field": "relatedPatterns",
       "currentValue": "attention-finds-a-signal",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'understanding-circulates' to relatedPatterns on 'attention-finds-a-signal'."
@@ -8992,9 +8937,9 @@
       "entityId": "understanding-circulates",
       "entityTitle": "Understanding Circulates",
       "field": "relatedPatterns",
-      "currentValue": "speed-relocates-judgment",
+      "currentValue": "results-conceal-the-game",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'understanding-circulates' to relatedPatterns on 'speed-relocates-judgment'."
+      "suggestedFix": "Consider adding 'understanding-circulates' to relatedPatterns on 'results-conceal-the-game'."
     },
     {
       "severity": "info",
@@ -9003,9 +8948,9 @@
       "entityId": "understanding-circulates",
       "entityTitle": "Understanding Circulates",
       "field": "relatedPatterns",
-      "currentValue": "contact-keeps-the-read-open",
+      "currentValue": "speed-relocates-judgment",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'understanding-circulates' to relatedPatterns on 'contact-keeps-the-read-open'."
+      "suggestedFix": "Consider adding 'understanding-circulates' to relatedPatterns on 'speed-relocates-judgment'."
     },
     {
       "severity": "info",

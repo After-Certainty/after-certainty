@@ -39,7 +39,11 @@ def append_book_link(source_text: str, book_id: str) -> str:
 
     lines = source_text.splitlines(keepends=True)
     start = next(
-        (i for i, line in enumerate(lines) if re.fullmatch(r"relatedBooks:\s*(?:\[\])?\s*", line.strip())),
+        (
+            i
+            for i, line in enumerate(lines)
+            if re.fullmatch(r"relatedBooks:\s*(?:\[\])?\s*", line.strip())
+        ),
         None,
     )
     if start is None:
