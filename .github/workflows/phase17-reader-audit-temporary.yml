@@ -41,6 +41,22 @@ jobs:
           set -euo pipefail
           ruff check tests/test_reader_passage_phase17.py
           pytest tests/test_reader_passage_phase17.py tests/test_reader_passage_links.py tests/test_reader_passage_phase10.py tests/test_reader_passage_phase11.py tests/test_reader_passage_phase12.py tests/test_reader_passage_phase13.py tests/test_reader_passage_phase14.py tests/test_reader_passage_phase15.py tests/test_reader_passage_phase16.py -q --tb=short
+      - name: Diagnose work-specific citation links before full audit
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import runpy
+          from tools.reader_passage_links import run_audit
+          cases = runpy.run_path("tests/test_reader_passage_phase17.py")["CASES"]
+          slugs = {slug for slug, _ in cases}
+          result = run_audit(Path("."), source_slugs=slugs, thinker_slugs=set(), check_fragments=True)
+          bad = [a for a in result.sources if a.evidence_level != "A"]
+          for record in bad:
+              print("NEEDS REVIEW:", record.slug, record.status, record.notes, record.reader_passage_path)
+          print("Verified phase17 source paths:", len(result.sources) - len(bad), "/", len(slugs))
+          if bad:
+              raise SystemExit(1)
+          PY
       - name: Regenerate full source-link audit with rendered HTML fragments
         run: python3 tools/audit_reader_passage_links.py --repo .
       - name: Assert verified coverage and no fragment regressions
