@@ -36,7 +36,7 @@ The economic collapse that became the Great Depression broke not only businesses
 
 A financial structure, perfectly ordinary in one environment, became brittle in another.
 
-Governments responded as governments often do during crises: not by inventing permanence, but by searching for stability.[^c3-mortgage-policy]
+Governments responded as governments often do during crises: not by inventing permanence, but by searching for stability.[^c3-mortgage-policy][^p18-the-great-transformation-th-4fb3855]
 
 The long-term, fixed-rate mortgage emerged from that search. Federal institutions encouraged loans that spread repayment across decades rather than demanding large final payments. Risk was redistributed through time. The monthly payment became predictable. Homeownership became more attainable for millions of families.
 
@@ -79,3 +79,6 @@ Perhaps that is true of every place we call home. It is never only the house we 
 [^c3-mortgage-policy]: See Douglass C. North, *Institutions, Institutional Change and Economic Performance* (Cambridge: Cambridge University Press, 1990); Karl Polanyi, *The Great Transformation: The Political and Economic Origins of Our Time* (Boston: Beacon Press, 2001).
 
 [^c3-redlining]: See James C. Scott, *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed* (New Haven, CT: Yale University Press, 1998).
+
+
+[^p18-the-great-transformation-th-4fb3855]: Polanyi, Karl. The Great Transformation: The Political and Economic Origins of Our Time. 1944. Reprint, Boston: Beacon Press, 2001.

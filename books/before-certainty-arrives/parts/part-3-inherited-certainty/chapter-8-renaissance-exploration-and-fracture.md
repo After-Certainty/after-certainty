@@ -30,7 +30,7 @@ jurists over whether Spanish conquest in the Americas could be justified,
 whether Indigenous peoples could be ruled as natural slaves under inherited
 Aristotelian categories, what duties Christian natural law imposed on
 conquerors, and how conversion, sovereignty, and imperial authority should
-be understood across an ocean Sepúlveda had never crossed.[^c8-valladolid-debate]
+be understood across an ocean Sepúlveda had never crossed.[^c8-valladolid-debate][^p18-the-fall-of-natural-man-the-f8174f1][^p18-all-mankind-is-one-a-study-a302a30]
 
 The debate did not end violence. It did not produce a clean triumph of
 conscience over empire. It made visible something more unsettling:
@@ -127,3 +127,9 @@ govern.
 
 [^c8-valladolid-debate]: See Lewis Hanke, *All Mankind Is One: A Study of the Disputation between Bartolomé de las Casas and Juan Ginés de Sepúlveda in 1550 on the Intellectual and Religious Capacity of the American Indians* (DeKalb: Northern Illinois University Press, 1974); Anthony Pagden, *The Fall of Natural Man: The American Indian and the Origins of Comparative Ethnology* (Cambridge: Cambridge University Press, 1982).
 [^c8-printing-press]: See Elizabeth L. Eisenstein, *The Printing Press as an Agent of Change* (Cambridge: Cambridge University Press, 1979).
+
+
+[^p18-all-mankind-is-one-a-study-a302a30]: Hanke, Lewis. All Mankind Is One: A Study of the Disputation between Bartolomé de las Casas and Juan Ginés de Sepúlveda in 1550 on the Intellectual and Religious Capacity of the American Indians. De
+
+
+[^p18-the-fall-of-natural-man-the-f8174f1]: Pagden, Anthony. The Fall of Natural Man: The American Indian and the Origins of Comparative Ethnology. Cambridge: Cambridge University Press, 1982.

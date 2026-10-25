@@ -19,3 +19,5 @@ citation: 'Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman 
   Hanna Wallach, Hal Daumé III, and Kate Crawford. "Datasheets for Datasets." Communications
   of the ACM 64, no. 12 (2021): 86-92.'
 sourceKind: dataset
+readerPassagePath: /explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-p18-datasheets-for-datasets-03897e0
+whyThisMatters: "Gebru and coauthors' datasheets proposal addresses documentation of dataset provenance, composition, and use. The chapter cites that governance intervention for evaluating AI inputs rather than assuming model evaluation alone is sufficient."

@@ -14,7 +14,7 @@ Institutions exist partly because individual objectivity is impossible.
 
 No citizen can track every vote. No doctor can hold every protocol update. No engineer can carry the full history of every failure mode. Institutions **distribute** cognition across time: archives, law, training, handoffs, the checklist written after the last disaster. A constitutional court remembers arguments longer than any one judge’s tenure. A safety board remembers near misses after the pilots who filed them have retired. An open-source project remembers patches long after the bug felt personal to one maintainer.
 
-People inherit institutions. Institutions inherit **memories**. Those are not the same thing. No engineer today remembers *Challenger* firsthand—but NASA does, in procedures, stories, and the institutional scar tissue of reform. No physician alive treated patients with Semmelweis—but medicine remembers hand-washing, however unevenly. No software engineer witnessed Therac-25—but safety engineering remembers what happens when partial review fails at the moment it mattered.[^c12-cases] Institutions are one way civilizations remember what no individual can live long enough to remember—memory that survives mortality the way writing extended speech.
+People inherit institutions. Institutions inherit **memories**. Those are not the same thing. No engineer today remembers *Challenger* firsthand—but NASA does, in procedures, stories, and the institutional scar tissue of reform. No physician alive treated patients with Semmelweis—but medicine remembers hand-washing, however unevenly. No software engineer witnessed Therac-25—but safety engineering remembers what happens when partial review fails at the moment it mattered.[^c12-cases][^p18-the-doctors-plague-germs-ch-acf39a3][^p18-an-investigation-of-the-the-b850011] Institutions are one way civilizations remember what no individual can live long enough to remember—memory that survives mortality the way writing extended speech.
 
 Democratic design is one long attempt to integrate partial perspectives **under disagreement** without pretending disagreement will end. Separation of powers does not assume wise rulers. It assumes partial rulers—each branch seeing something the others miss, each able to slow the others down. Appeal exists because the first judgment was always a partial one. Opposition exists because consensus can be groupthink wearing a flag. Periodic elections exist because no mandate should be treated as permanent sight.
 
@@ -55,3 +55,9 @@ Which opens a question the book could not have asked responsibly at the start—
 That is where the inquiry goes next.
 
 [^c12-cases]: Nuland, Sherwin B., *The Doctors' Plague: Germs, Childbed Fever, and the Strange Story of Ignác Semmelweis* (New York: W. W. Norton, 2003); Leveson, Nancy G., and Clark S. Turner, "An Investigation of the Therac-25 Accidents," *Computer* 26, no. 7 (1993): 18–41.
+
+
+[^p18-an-investigation-of-the-the-b850011]: Leveson, Nancy G., and Clark S. Turner. "An Investigation of the Therac-25 Accidents." Computer 26, no. 7 (1993): 18–41.
+
+
+[^p18-the-doctors-plague-germs-ch-acf39a3]: Nuland, Sherwin B. The Doctors' Plague: Germs, Childbed Fever, and the Strange Story of Ignác Semmelweis. New York: W. W. Norton, 2003.

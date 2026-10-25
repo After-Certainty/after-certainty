@@ -36,7 +36,7 @@ History continued. The compromise did too.
 
 Today, citizens do not enter the Senate chamber carrying the anxieties of eighteenth-century delegates. They arrive carrying twenty-first-century concerns about healthcare, taxation, immigration, national security, energy, and education. Yet the institutional architecture through which those debates unfold still bears the imprint of a negotiation conducted for a very different country.
 
-The structure has outlived the circumstances that produced it.[^c5-path-dependence]
+The structure has outlived the circumstances that produced it.[^c5-path-dependence][^p18-the-fractured-republic-rene-01135fe]
 
 That observation is neither an endorsement nor a criticism. It is simply history.
 
@@ -79,3 +79,6 @@ The map, after all, never tells the whole story. It shows where the states are. 
 [^c5-federalist]: See Alexander Hamilton, James Madison, and John Jay, *The Federalist Papers*, ed. Clinton Rossiter (New York: New American Library, 1961).
 
 [^c5-path-dependence]: See Paul Pierson, "Increasing Returns, Path Dependence, and the Study of Politics," *American Political Science Review* 94, no. 2 (2000): 251–267; Yuval Levin, *The Fractured Republic: Renewing America's Social Contract in the Age of Individualism* (New York: Basic Books, 2016).
+
+
+[^p18-the-fractured-republic-rene-01135fe]: Levin, Yuval. The Fractured Republic: Renewing America's Social Contract in the Age of Individualism. New York: Basic Books, 2016.

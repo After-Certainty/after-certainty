@@ -27,7 +27,7 @@ expectation into procedure.
 During the First World War, staff officers moved divisions across maps
 far from the trenches. Decisions optimized logistics while consequences
 arrived in bodies the planners would never see. The person who signed
-the order rarely stood where the consequence landed.[^c9-factory-time]
+the order rarely stood where the consequence landed.[^c9-factory-time][^p18-the-first-world-war-8c53ebb]
 
 Workers arrived tired and left tired. The bell gave exhaustion a
 schedule that families at home learned to depend on.
@@ -154,3 +154,6 @@ schedule and file rather than by presence or sacred awe.
 [^c9-factory-time]: See Hew Strachan, *The First World War* (New York: Viking, 2004); Karl Polanyi, *The Great Transformation* (Boston: Beacon Press, 2001).
 
 [^c9-railway-experience]: Wolfgang Schivelbusch, *The Railway Journey: The Industrialization of Time and Space in the Nineteenth Century* (Berkeley: University of California Press, 1986), on how railway transport changed lived experiences of time and space.
+
+
+[^p18-the-first-world-war-8c53ebb]: Strachan, Hew. The First World War. New York: Viking, 2004.

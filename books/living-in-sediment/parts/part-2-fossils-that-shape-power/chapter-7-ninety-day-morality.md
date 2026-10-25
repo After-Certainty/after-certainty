@@ -54,7 +54,7 @@ Timekeeping is never neutral.
 
 It always privileges certain rhythms over others. The Babylonians left us sixty-second minutes because they proved useful for describing the heavens. Modern corporations inherited ninety-day quarters because they proved useful for describing financial performance.
 
-Neither division exists in nature.[^c7-timekeeping-neutral]
+Neither division exists in nature.[^c7-timekeeping-neutral][^p18-keeping-together-in-time-da-7505caa]
 
 Both shape how we experience it.
 
@@ -93,3 +93,6 @@ The quarter has become one of ours. It counts ninety days with remarkable precis
 [^c7-metrics-morality]: See Jerry Z. Muller, *The Tyranny of Metrics* (Princeton, NJ: Princeton University Press, 2018).
 
 [^c7-timekeeping-neutral]: See Eviatar Zerubavel, *Hidden Rhythms: Schedules and Calendars in Social Life* (Chicago: University of Chicago Press, 1981); William H. McNeill, *Keeping Together in Time: Dance and Drill in Human History* (Cambridge, MA: Harvard University Press, 1995).
+
+
+[^p18-keeping-together-in-time-da-7505caa]: McNeill, William H. Keeping Together in Time: Dance and Drill in Human History. Cambridge, MA: Harvard University Press, 1995.

@@ -39,7 +39,7 @@ treated as political crimes reappeared as practical necessity. Grain output rose
 Rural incomes improved unevenly but dramatically compared with the late
 collectivist floor. The Party retained ultimate political control while
 loosening the economic cage that had made control synonymous with
-scarcity.[^c7-rural]
+scarcity.[^c7-rural][^p18-how-the-farmers-changed-chi-185edbb][^p18-the-household-responsibilit-c4c3daa]
 Reform here was not a single decree from a lonely genius. It was
 permission spreading toward practices that already worked where cadres
 risked allowing them—then nationalized as policy once success made
@@ -301,3 +301,9 @@ description is done.
 [^c7-tiananmen-memory]: Louisa Lim, *The People’s Republic of Amnesia: Tiananmen Revisited* (New York: Oxford University Press, 2014), on the official suppression and later reshaping of public memory of June 1989.
 
 [^c7-vogel-legacy]: Vogel, *Deng Xiaoping*, on contested legacy frames—modernization narrative versus repression—and Deng’s preference for comparative baselines over moral theater.
+
+
+[^p18-the-household-responsibilit-c4c3daa]: Lin, Justin Yifu. "The Household Responsibility System in China's Agricultural Reform." Economic Development and Cultural Change 36, no. 3 (1988): S199-S224.
+
+
+[^p18-how-the-farmers-changed-chi-185edbb]: Zhou, Kate Xiao. How the Farmers Changed China: Power of the People. Boulder, CO: Westview Press, 1996.

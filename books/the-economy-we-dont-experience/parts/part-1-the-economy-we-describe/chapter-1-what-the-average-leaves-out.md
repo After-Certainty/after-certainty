@@ -42,7 +42,7 @@ Suppose rents remain nearly flat in one large metropolitan center while rising s
 
 A household with unusual medical needs, a rural contractor dependent on diesel, a family paying for specialized childcare, or a new homeowner buying insurance in a high-risk area may experience an economic pattern very different from the national one. Their expenses are not random objections to the data. They are coordinates the summary was not designed to foreground.
 
-This is especially visible in housing. Shelter measures are built to track broad changes over time, not to predict the exact renewal letter received by a particular tenant. Local inventory, taxes, insurance, ownership patterns, construction, and migration can cause housing costs to move differently across regions and even across neighborhoods.[^c1-shelter] A national measure can therefore cool while a household’s rent jumps sharply. The statistic remains sound, and the experience remains painful.
+This is especially visible in housing. Shelter measures are built to track broad changes over time, not to predict the exact renewal letter received by a particular tenant. Local inventory, taxes, insurance, ownership patterns, construction, and migration can cause housing costs to move differently across regions and even across neighborhoods.[^c1-shelter][^p18-housing-statistics-and-amer-89c7a5b] A national measure can therefore cool while a household’s rent jumps sharply. The statistic remains sound, and the experience remains painful.
 
 Yet public debate often treats this mismatch as though one side must be mistaken. Officials point to moderation in the index. Households point to what they owe next month. Each side suspects the other of refusing reality. The deeper problem is that they are using the word *reality* for two different scales.
 
@@ -109,3 +109,6 @@ A summary becomes deceptive not when it is false, but when it asks to be mistake
 [^c1-shelter]: U.S. Bureau of Labor Statistics, Consumer Price Index shelter components and regional indexes, 2020–2024; U.S. Census Bureau, housing-cost and rental-market materials, including the American Community Survey.
 
 [^c1-shiller]: Robert J. Shiller, *Narrative Economics: How Stories Go Viral and Drive Major Economic Events* (Princeton: Princeton University Press, 2019).
+
+
+[^p18-housing-statistics-and-amer-89c7a5b]: U.S. Census Bureau. Housing statistics and American Community Survey materials on regional cost pressures, 2020–2024. https://www.census.gov

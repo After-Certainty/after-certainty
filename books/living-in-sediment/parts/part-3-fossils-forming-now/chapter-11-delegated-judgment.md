@@ -64,7 +64,7 @@ Quite the opposite.
 
 People remain deeply involved. Someone chooses what data to collect. Someone defines success. Someone decides which outcomes deserve optimization. Someone determines what errors are acceptable and which are intolerable.
 
-Human judgment moves upstream.[^c11-judgment-upstream]
+Human judgment moves upstream.[^c11-judgment-upstream][^p18-do-artifacts-have-politics-1cde110][^p18-the-alignment-problem-machi-9ac45a7]
 
 Instead of deciding individual cases, it increasingly designs the systems through which those cases will later be evaluated. The person making today's decision may never meet the people affected by it tomorrow.
 
@@ -95,3 +95,9 @@ Not because it demands obedience. Because, little by little, it becomes the plac
 [^c11-optimization-authority]: Donella H. Meadows, *Thinking in Systems: A Primer*, ed. Diana Wright (White River Junction, VT: Chelsea Green, 2008), on the influence of system structure and feedback on which choices become intelligible.
 
 [^c11-crawford-power]: Kate Crawford, *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence* (New Haven, CT: Yale University Press, 2021), on the institutional, labor, and material relations through which AI systems distribute decision-making power. The manuscript’s account of responsibility dispersing across roles is its own interpretation.
+
+
+[^p18-the-alignment-problem-machi-9ac45a7]: Christian, Brian. The Alignment Problem: Machine Learning and Human Values. New York: W. W. Norton, 2020.
+
+
+[^p18-do-artifacts-have-politics-1cde110]: Winner, Langdon. "Do Artifacts Have Politics?" Daedalus 109, no. 1 (1980): 121–136.

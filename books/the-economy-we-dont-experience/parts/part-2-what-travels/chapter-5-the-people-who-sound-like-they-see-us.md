@@ -42,7 +42,7 @@ The same is true in a union hall. A company announces that safety performance im
 
 A chamber of commerce presents rising investment and employment. A shop owner points to three vacant storefronts on the next block. The chamber sees the region. The owner sees the street. The owner's sentence travels because it contains the listener's coordinate.[^c5-shiller]
 
-Communication research has long shown that source credibility affects persuasion, and democratic life often requires citizens to rely on trusted intermediaries when they cannot reproduce every method themselves.[^c5-hovland] Platforms compress that older problem into quick judgments: this person understands; this person does not; this person is one of us; this person is defending them.
+Communication research has long shown that source credibility affects persuasion, and democratic life often requires citizens to rely on trusted intermediaries when they cannot reproduce every method themselves.[^c5-hovland][^p18-the-democratic-dilemma-can-050d50f][^p18-the-influence-of-source-cre-2b2cd7c] Platforms compress that older problem into quick judgments: this person understands; this person does not; this person is one of us; this person is defending them.
 
 The speaker's biography, tone, setting, and enemies become part of the argument. People decide whether the explanation is trustworthy partly by deciding whether the messenger seems likely to betray them. Under these conditions, choosing a messenger can feel more rational than evaluating a model.
 
@@ -133,3 +133,9 @@ Recognition opens the door. Explanation still has to walk through it.
 [^c5-hovland]: Carl I. Hovland and Walter Weiss, "The Influence of Source Credibility on Communication Effectiveness," *Public Opinion Quarterly* 15, no. 4 (1951): 635-650; Arthur Lupia and Mathew D. McCubbins, *The Democratic Dilemma: Can Citizens Learn What They Need to Know?* (Cambridge: Cambridge University Press, 1998).
 
 [^c5-pew]: Pew Research Center, reports and surveys on public views of inflation and economic conditions, trust in government, news consumption, political polarization, and confidence in information sources, 2022-2024.
+
+
+[^p18-the-influence-of-source-cre-2b2cd7c]: Hovland, Carl I., and Walter Weiss. "The Influence of Source Credibility on Communication Effectiveness." Public Opinion Quarterly 15, no. 4 (1951): 635-650.
+
+
+[^p18-the-democratic-dilemma-can-050d50f]: Lupia, Arthur, and Mathew D. McCubbins. The Democratic Dilemma: Can Citizens Learn What They Need to Know? Cambridge: Cambridge University Press, 1998.

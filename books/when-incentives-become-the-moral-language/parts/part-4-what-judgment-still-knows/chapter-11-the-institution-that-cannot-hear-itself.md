@@ -6,7 +6,7 @@ The slide deck is ready before the meeting begins. Slide four shows patient sati
 
 The chief nursing officer has a different kind of knowledge. For months she has been hearing the same sentence in different hallways: *I did what the chart required, and it still didn't feel like care.* Nurses describe patients discharged before families are ready. They describe families sent home with instructions no one had time to explain. They describe the feeling of succeeding on the measures while failing the person in the bed. She has tried to bring this knowledge into rooms like this one before. It does not travel easily.
 
-She says moral distress is rising. The phrase is accurate and immediately awkward. Moral distress names a condition in which people know what the situation requires and cannot provide it without violating institutional constraints. It is not burnout in the ordinary sense, though burnout may follow. It is the experience of being morally accountable inside a design that does not make the right action available. Research on nursing ethics has described this condition for decades: competent people caught between obligation and structure.[^c11-jameton]
+She says moral distress is rising. The phrase is accurate and immediately awkward. Moral distress names a condition in which people know what the situation requires and cannot provide it without violating institutional constraints. It is not burnout in the ordinary sense, though burnout may follow. It is the experience of being morally accountable inside a design that does not make the right action available. Research on nursing ethics has described this condition for decades: competent people caught between obligation and structure.[^c11-jameton][^p18-moral-distress-and-moral-re-df3df23][^p18-nursing-practice-the-ethica-5c15e23]
 
 The chief executive officer listens. He does not dispute her. He asks what the data show.
 
@@ -87,3 +87,9 @@ Seeing that deafness does not repair it. The question that remains is how to liv
 When moral knowledge cannot enter an institution in its own form, it returns as the metrics the institution already knows how to count. The translation allows action. It also trains the institution to hear distress as engagement, distrust as retention risk, alienation as polling movement, poor formation as test performance, quality failures as readmission data, and loss of meaning as productivity decline. The dashboard may improve. The deafness may deepen. Both can be true at once.
 
 [^c11-jameton]: Andrew Jameton, "Nursing Practice: The Ethical Issues," in *Clinical Medical Ethics*, edited by H. Tristram Engelhardt Jr. (Englewood Cliffs, NJ: Prentice-Hall, 1982); see also Cynda Hylton Rushton, "Moral Distress and Moral Resilience," *American Journal of Nursing* 116, no. 7 (2016): 34–39.
+
+
+[^p18-nursing-practice-the-ethica-5c15e23]: Jameton, Andrew. "Nursing Practice: The Ethical Issues." In Clinical Medical Ethics, edited by H. Tristram Engelhardt Jr. Englewood Cliffs, NJ: Prentice-Hall, 1982.
+
+
+[^p18-moral-distress-and-moral-re-df3df23]: Rushton, Cynda Hylton. "Moral Distress and Moral Resilience." American Journal of Nursing 116, no. 7 (2016): 34-39.

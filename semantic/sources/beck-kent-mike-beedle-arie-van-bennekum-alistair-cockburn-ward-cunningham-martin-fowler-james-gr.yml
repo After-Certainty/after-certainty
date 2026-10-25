@@ -25,3 +25,5 @@ citation: Beck, Kent, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cu
   Brian Marick, Robert C. Martin, Steve Mellor, Ken Schwaber, Jeff Sutherland, and
   Dave Thomas. "Manifesto for Agile Software Development." 2001. https://agilemanifesto.org/.
 sourceKind: article
+readerPassagePath: /explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-bridge#user-content-fnref-p18-manifesto-for-agile-softwar-48083dd
+whyThisMatters: "The 2001 Agile Manifesto records an explicit shift toward working software, collaboration, and responsiveness. The bridge cites the signatories' declaration as a primary methodological statement, distinct from Cockburn's later exposition."
