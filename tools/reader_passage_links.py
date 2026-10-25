@@ -604,7 +604,7 @@ def index_chapter_engagement(
             # Only visible citation prose may establish a second named creator;
             # otherwise a single precisely titled article becomes a false shared
             # footnote just because its publisher's URL mentions another entity.
-            visible_citation = re.sub(r"https?://\\S+", "", body)
+            visible_citation = re.sub(r"https?://\S+", "", body)
             def_norm = normalize_match_text(visible_citation)
             directly_named: list[str] = []
             for hit_slug, hit_score, _ in scored:
