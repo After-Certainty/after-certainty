@@ -34,14 +34,14 @@ jobs:
 
       - name: Lint and test integrity inventory
         run: |
-          ruff check --fix tools/report_source_integrity_phase19.py tools/reconcile_phase19_existing_sources.py tests/test_source_integrity_phase19.py tests/test_source_reconciliation_phase19.py
-          ruff format tools/report_source_integrity_phase19.py tools/reconcile_phase19_existing_sources.py tests/test_source_integrity_phase19.py tests/test_source_reconciliation_phase19.py
-          ruff check tools/report_source_integrity_phase19.py tools/reconcile_phase19_existing_sources.py tests/test_source_integrity_phase19.py tests/test_source_reconciliation_phase19.py
-          ruff format --check tools/report_source_integrity_phase19.py tools/reconcile_phase19_existing_sources.py tests/test_source_integrity_phase19.py tests/test_source_reconciliation_phase19.py
-          python -m pytest tests/test_source_integrity_phase19.py tests/test_source_reconciliation_phase19.py -q
+          ruff check --fix tools/report_source_integrity_phase19.py tools/reconcile_phase19_existing_sources.py tools/audit_bibliography_semantic_drift.py tests/test_source_integrity_phase19.py tests/test_source_reconciliation_phase19.py tests/test_bibliography_source_integrity_phase19.py
+          ruff format tools/report_source_integrity_phase19.py tools/reconcile_phase19_existing_sources.py tools/audit_bibliography_semantic_drift.py tests/test_source_integrity_phase19.py tests/test_source_reconciliation_phase19.py tests/test_bibliography_source_integrity_phase19.py
+          ruff check tools/report_source_integrity_phase19.py tools/reconcile_phase19_existing_sources.py tools/audit_bibliography_semantic_drift.py tests/test_source_integrity_phase19.py tests/test_source_reconciliation_phase19.py tests/test_bibliography_source_integrity_phase19.py
+          ruff format --check tools/report_source_integrity_phase19.py tools/reconcile_phase19_existing_sources.py tools/audit_bibliography_semantic_drift.py tests/test_source_integrity_phase19.py tests/test_source_reconciliation_phase19.py tests/test_bibliography_source_integrity_phase19.py
+          python -m pytest tests/test_source_integrity_phase19.py tests/test_source_reconciliation_phase19.py tests/test_bibliography_source_integrity_phase19.py -q
 
-      - name: Reconcile independently matched existing bibliography sources
-        run: python tools/reconcile_phase19_existing_sources.py --repo .
+      # The 26 independently matched links were applied and committed in the
+      # previous audit run; do not reapply or duplicate them.
 
       - name: Generate current semantic manifest
         env:
@@ -77,8 +77,8 @@ jobs:
           # while preserving the previously correct no-stale-book-links invariant.
           assert drift["auditedBooks"] >= 25
           assert drift["staleRelatedBooks"] == 0, drift
-          assert drift["missingRelatedBooks"] == 1, drift
-          assert drift["missingInSemantic"] == 37, drift
+          assert drift["missingRelatedBooks"] == 0, drift
+          assert drift["missingInSemantic"] == 38, drift
           graph = json.loads(Path("reports/semantic-graph-audit.json").read_text())
           assert graph["summary"]["errors"] == 0, graph["summary"]
           print("Newly detected bibliography gaps:", drift)
@@ -89,7 +89,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add semantic/sources tools/report_source_integrity_phase19.py tools/reconcile_phase19_existing_sources.py tests/test_source_integrity_phase19.py tests/test_source_reconciliation_phase19.py reports/semantic-metadata-quality-audit.md reports/bibliography-semantic-drift.md reports/bibliography-semantic-drift.json reports/semantic-graph-audit.md reports/semantic-graph-audit.json reports/reader-passage-links/phase19-source-integrity.md reports/reader-passage-links/phase19-source-integrity.json
+          git add semantic/sources tools/audit_bibliography_semantic_drift.py tools/report_source_integrity_phase19.py tools/reconcile_phase19_existing_sources.py tests/test_source_integrity_phase19.py tests/test_source_reconciliation_phase19.py tests/test_bibliography_source_integrity_phase19.py reports/semantic-metadata-quality-audit.md reports/bibliography-semantic-drift.md reports/bibliography-semantic-drift.json reports/semantic-graph-audit.md reports/semantic-graph-audit.json reports/reader-passage-links/phase19-source-integrity.md reports/reader-passage-links/phase19-source-integrity.json
           if git diff --cached --quiet; then
             echo "All reports already current"
             exit 0
