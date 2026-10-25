@@ -1,4 +1,5 @@
 # Temporary branch-only validation and report regeneration for Phase 17.
+# Re-run after updating legacy assertions for split Andrew Luck citations.
 # Remove this workflow before submitting the final pull request.
 name: Phase 17 full reader citation audit (temporary)
 
