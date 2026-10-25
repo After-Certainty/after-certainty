@@ -34,6 +34,8 @@ jobs:
 
       - name: Lint and test integrity inventory
         run: |
+          ruff check --fix tools/report_source_integrity_phase19.py tests/test_source_integrity_phase19.py
+          ruff format tools/report_source_integrity_phase19.py tests/test_source_integrity_phase19.py
           ruff check tools/report_source_integrity_phase19.py tests/test_source_integrity_phase19.py
           ruff format --check tools/report_source_integrity_phase19.py tests/test_source_integrity_phase19.py
           python -m pytest tests/test_source_integrity_phase19.py -q
@@ -78,7 +80,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/semantic-metadata-quality-audit.md reports/bibliography-semantic-drift.md reports/bibliography-semantic-drift.json reports/semantic-graph-audit.md reports/semantic-graph-audit.json reports/reader-passage-links/phase19-source-integrity.md reports/reader-passage-links/phase19-source-integrity.json
+          git add tools/report_source_integrity_phase19.py tests/test_source_integrity_phase19.py reports/semantic-metadata-quality-audit.md reports/bibliography-semantic-drift.md reports/bibliography-semantic-drift.json reports/semantic-graph-audit.md reports/semantic-graph-audit.json reports/reader-passage-links/phase19-source-integrity.md reports/reader-passage-links/phase19-source-integrity.json
           if git diff --cached --quiet; then
             echo "All reports already current"
             exit 0
