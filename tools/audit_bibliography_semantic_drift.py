@@ -262,7 +262,17 @@ def score_expected_vs_source(expected: dict[str, Any], src: dict[str, Any]) -> t
             author_match = (
                 _author_tokens(exp_author) - stop
             ) & (_author_tokens(creator_text) - stop)
-            if len(author_match) >= 2:
+            # For a title-less entry, also require the named publishing body
+            # or creator to begin the recorded bibliography author field.
+            # Token overlap alone can still match a common given name.
+            source_head = normalize_match_text(
+                split_display_name(str(src.get("name", "")))[0]
+            )
+            if (
+                len(author_match) >= 2
+                and len(source_head) >= 8
+                and exp_author_norm.startswith(source_head)
+            ):
                 return 58, "summary_overlap"
 
     # Fuzzy token Jaccard on title (+ light author boost)
