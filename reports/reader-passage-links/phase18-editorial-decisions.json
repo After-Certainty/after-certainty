@@ -95,5 +95,11 @@
     "arthur-w-brian-competing": "The candidate's QWERTY note was intentionally narrowed to David. Arthur's 1989 increasing-returns paper has no independent supported claim in that passage.",
     "guha-ramachandra-gandhi-before": "Gandhi Before India covers his early career, not the late-life celibacy practices described by the shared note. Do not present it as evidence for those practices.",
     "levine-amy-jill": "Short Stories by Jesus discusses parables, whereas the cited Zacchaeus passage concerns Luke 19. Do not attach this title to the unsupported citation."
-  }
+  },
+  "citationNotes": {
+    "beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr": "Kent Beck and fellow signatories, “Manifesto for Agile Software Development” (2001), https://agilemanifesto.org/.",
+    "nick-wagoner-from-a-seat-to-a-knee-how-colin-kaepernick-and-nate-boyer-are-trying-to-affect-chan": "Nick Wagoner, “From a Seat to a Knee: How Colin Kaepernick and Nate Boyer Are Trying to Affect Change,” ESPN (September 2016).",
+    "occupational-safety-and-health-administration-cranes-and-derricks-in-construction-final-rule": "Occupational Safety and Health Administration, 2010 final rule for construction sites concerning cranes, hoists, and derricks, 29 C.F.R. Part 1926, Subpart CC (U.S. Department of Labor, 2010)."
+  },
+  "citationNotesPurpose": "Three intentionally shortened or described-but-fully-identifiable works avoid automated misattribution to other works sharing authors, URL tokens, or a shorter title. Source YAML retains each full bibliographic citation."
 }
