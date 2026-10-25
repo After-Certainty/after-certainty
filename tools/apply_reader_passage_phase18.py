@@ -94,7 +94,7 @@ def main() -> None:
         footnote = path.rsplit("#user-content-fnref-", 1)[1]
         marker = f"[^{footnote}]"
         if marker not in manuscript or not re.search(
-            r"^\\[\\^" + re.escape(footnote) + r"\\]:", manuscript, re.MULTILINE
+            r"^\[\^" + re.escape(footnote) + r"\]:", manuscript, re.MULTILINE
         ):
             raise RuntimeError(f"Missing manuscript invocation or definition for {slug} ({marker})")
 
@@ -108,12 +108,12 @@ def main() -> None:
 
         # JSON string quoting is valid YAML and preserves every existing field and line.
         appended = (
-            source_yaml.rstrip("\\n")
-            + "\\nreaderPassagePath: "
+            source_yaml.rstrip("\n")
+            + "\nreaderPassagePath: "
             + path
-            + "\\nwhyThisMatters: "
+            + "\nwhyThisMatters: "
             + json.dumps(explanation, ensure_ascii=False)
-            + "\\n"
+            + "\n"
         )
         source_path.write_text(appended)
         applied.append((slug, path, explanation))
@@ -133,7 +133,7 @@ def main() -> None:
     if len(applied) < 80:
         raise RuntimeError(f"Too few safe editorial connections: {len(applied)}")
 
-    ledger_path.write_text(json.dumps(ledger, ensure_ascii=False, indent=2) + "\\n")
+    ledger_path.write_text(json.dumps(ledger, ensure_ascii=False, indent=2) + "\n")
     report = [
         "# Reader passage editorial coverage — Phase 18",
         "",
@@ -149,22 +149,22 @@ def main() -> None:
         "|---|---|---|",
     ]
     for slug, path, why in sorted(applied):
-        report.append(f"| \`{slug}\` | \`{path}\` | {why.replace('|', '/')} |")
+        report.append(f"| `{slug}` | `{path}` | {why.replace('|', '/')} |")
     report.extend(["", "## Intentionally deferred (unsupported linkage)", ""])
     for slug, why in sorted(deferred):
-        report.append(f"- **\`{slug}\`** — {why}")
+        report.append(f"- **`{slug}`** — {why}")
     report.extend(
         [
             "",
             "## Validation",
             "",
             "See the committed rendered-HTML citation audit for final verified totals.",
-            "Run \`python tools/audit_reader_passage_links.py --repo .\` with Node",
+            "Run `python tools/audit_reader_passage_links.py --repo .` with Node",
             "and installed site dependencies before relying on the reported count.",
             "",
         ]
     )
-    (report_dir / "editorial-batch-phase-18.md").write_text("\\n".join(report))
+    (report_dir / "editorial-batch-phase-18.md").write_text("\n".join(report))
     print(
         f"Phase 18: applied={len(applied)}, deferred={len(deferred)}, "
         f"previously-linked candidates={len(previously_linked)}"
