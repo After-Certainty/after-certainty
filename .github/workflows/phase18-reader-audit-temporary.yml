@@ -7,6 +7,9 @@ on:
     paths:
       - ".github/workflows/phase18-reader-audit-temporary.yml"
 
+env:
+  PYTHONPATH: src
+
 permissions:
   contents: write
 
