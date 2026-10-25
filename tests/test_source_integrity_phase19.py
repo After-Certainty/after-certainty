@@ -5,7 +5,6 @@ from __future__ import annotations
 from types import SimpleNamespace
 
 import pytest
-
 from tools.report_source_integrity_phase19 import (
     _editorial_exclusion,
     categorize_unlinked,

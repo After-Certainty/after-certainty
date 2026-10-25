@@ -2,22 +2,403 @@
 
 ## Summary
 
-- Sources: 648
-- Thinkers: 635
+- Sources: 714
+- Thinkers: 643
 - Critical issues: 0
-- Warnings: 11
-- Info: 0
+- Warnings: 160
+- Info: 229
 
-## Warning (11)
+## Warning (160)
 
-- **source** `arrington-leonard-j-great-basin-kingdom` — creator_name_mismatch: creatorNames[0] 'Leonard J Arrington' != author portion of name 'Leonard J. Arrington'
-- **source** `brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an` — creator_name_mismatch: creatorNames[0] 'Kelly D. Brownell' != author portion of name 'Brownell, Kelly D., and Kenneth E. Warner'
-- **source** `ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193` — creator_name_mismatch: creatorNames[0] 'Larry Ceplair' != author portion of name 'Ceplair, Larry, and Steven Englund'
-- **source** `desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire` — creator_name_mismatch: creatorNames[0] 'Ashwin Desai' != author portion of name 'Desai, Ashwin, and Goolam Vahed'
-- **source** `government-of-south-africa-truth-and-reconciliation-commission-final-report` — creator_name_mismatch: creatorNames[0] 'Truth and Reconciliation Commission (South Africa)' != author portion of name 'Government of South Africa. Truth and Reconciliation Commission'
-- **source** `hovland-carl-i-and-walter-weiss-the-influence-of-source-credibility-on-communication-effectivene` — creator_name_mismatch: creatorNames[0] 'Carl I. Hovland' != author portion of name 'Hovland, Carl I., and Walter Weiss'
-- **source** `lupia-arthur-and-mathew-d-mccubbins-the-democratic-dilemma-can-citizens-learn-what-they-need-to` — creator_name_mismatch: creatorNames[0] 'Arthur Lupia' != author portion of name 'Lupia, Arthur, and Mathew D. McCubbins'
-- **source** `mason-patrick-q-and-j-david-pulsipher-proclaim-peace` — creator_name_mismatch: creatorNames[0] 'Patrick Q Mason' != author portion of name 'Patrick Q. Mason and J. David Pulsipher'
-- **source** `merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to` — creator_name_mismatch: creatorNames[0] 'Anna C. Merritt' != author portion of name 'Merritt, Anna C., Daniel A. Effron, and Benoît Monin'
-- **source** `nissen-hans-j-peter-damerow-and-robert-k-englund-archaic` — creator_name_mismatch: creatorNames[0] 'Hans J. Nissen' != author portion of name 'Nissen, Hans J., Peter Damerow, and Robert K. Englund'
-- **source** `san-francisco-declaration-on-research-assessment-dora-2012-https-sfdora-org` — creator_name_mismatch: creatorNames[0] 'DORA (San Francisco Declaration on Research Assessment)' != author portion of name 'DORA'
+- **source** `abate-tom-nummi-workers-say-their-final-good-byes` — orphan_creator_slug: creatorSlug 'tom-abate' has no matching thinker
+- **source** `acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power` — orphan_creator_slug: creatorSlug 'daron-acemoglu-and-james-a-robinson' has no matching thinker
+- **source** `alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language` — orphan_creator_slug: creatorSlug 'alexander-christopher-sara-ishikawa-murray-silverstein-et-al' has no matching thinker
+- **source** `allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr` — orphan_creator_slug: creatorSlug 'john-allspaw-and-paul-hammond' has no matching thinker
+- **source** `andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr` — orphan_creator_slug: creatorSlug 'lant-pritchett-matthew-andrews-and-michael-woolcock' has no matching thinker
+- **source** `argyris-chris-and-donald-a-schon-organizational-learning-ii` — orphan_creator_slug: creatorSlug 'chris-argyris-and-donald-a-sch-n' has no matching thinker
+- **source** `associated-press-taylor-swift-donates-to-food-banks-on-eras-tour-providing-thousands-of-meals` — orphan_creator_slug: creatorSlug 'stephanie-beasley' has no matching thinker
+- **source** `barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams` — orphan_creator_slug: creatorSlug 'helena-barke-and-lutz-prechelt' has no matching thinker
+- **source** `baron-jonathan-and-john-c-hershey-outcome-bias-in-decision` — orphan_creator_slug: creatorSlug 'john-c-hershey-and-jonathan-baron' has no matching thinker
+- **source** `bebchuk-lucian-a-and-scott-hirst-index-funds-and-the-future-of-corporate-governance-theory-evide` — orphan_creator_slug: creatorSlug 'lucian-a-bebchuk-and-scott-hirst' has no matching thinker
+- **source** `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr` — orphan_creator_slug: creatorSlug 'alistair-cockburn-andrew-hunt-arie-van-bennekum-brian-marick-dave-thomas-james-grenning-jeff-sutherland-jim-highsmith-jon-kern-ken-schwaber-kent-beck-martin-fowler-mike-beedle-robert-c-martin-ron-jeffries-steve-mellor-and-ward-cunningham' has no matching thinker
+- **source** `belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-apr` — missing_name_separator: name lacks Author — Title separator and title is missing or equals name: 'Belfast Agreement (Good Friday Agreement). Multi-Party Agreement and British-Irish Agreement, 10 April 1998. London: UK Government. https://www.gov.uk/government/publications/the-belfast-agreement'
+- **source** `belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-apr` — orphan_creator_slug: creatorSlug 'belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-april-1998-london-uk-government-https-www-gov-uk-government-publications-the-belfast-agreement' has no matching thinker
+- **source** `bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of` — orphan_creator_slug: creatorSlug 'angelina-mcmillan-major-emily-m-bender-shmargaret-shmitchell-and-timnit-gebru' has no matching thinker
+- **source** `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog` — orphan_creator_slug: creatorSlug 'peter-l-berger-and-thomas-luckmann' has no matching thinker
+- **source** `berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-property` — orphan_creator_slug: creatorSlug 'adolf-a-berle-jr-and-gardiner-c-means' has no matching thinker
+- **source** `beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin` — orphan_creator_slug: creatorSlug 'betsy-beyer-chris-jones-jennifer-petoff-and-niall-richard-murphy' has no matching thinker
+- **source** `blackpast-black-panther-party-s-free-breakfast-program-1969-1980` — orphan_creator_slug: creatorSlug 'blackpast' has no matching thinker
+- **source** `bowker-geoffrey-c-and-susan-leigh-star-sorting-things-out-classification-and` — orphan_creator_slug: creatorSlug 'geoffrey-c-bowker-and-susan-leigh-star' has no matching thinker
+- **source** `brooks-frederick-p-jr-the-mythical-man-month-essays-on-software-engineering` — orphan_creator_slug: creatorSlug 'frederick-p-brooks-jr' has no matching thinker
+- **source** `brown-bren-dare-to-lead-brave-work-tough-conversations-whole` — orphan_creator_slug: creatorSlug 'bren-brown' has no matching thinker
+- **source** `brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio` — orphan_creator_slug: creatorSlug 'eliot-brown-and-maureen-farrell' has no matching thinker
+- **source** `brown-v-board-of-education-347-u-s-483-1954` — missing_name_separator: name lacks Author — Title separator and title is missing or equals name: '347 U.S. 483 (1954) Brown v. Board of Education'
+- **source** `brown-v-board-of-education-347-u-s-483-1954` — orphan_creator_slug: creatorSlug '347-u-s-483-1954-brown-v-board-of-education' has no matching thinker
+- **source** `brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an` — orphan_creator_slug: creatorSlug 'brownell-kelly-d-and-kenneth-e-warner' has no matching thinker
+- **source** `bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california` — orphan_creator_slug: creatorSlug 'nick-bunkley' has no matching thinker
+- **source** `california-african-american-museum-free-breakfast-for-school-children-program` — orphan_creator_slug: creatorSlug 'california-african-american-museum' has no matching thinker
+- **source** `cappelli-peter-and-anna-tavis-the-performance-management-revolution` — orphan_creator_slug: creatorSlug 'cappelli-peter-and-anna-tavis' has no matching thinker
+- **source** `ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193` — orphan_creator_slug: creatorSlug 'ceplair-larry-and-steven-englund' has no matching thinker
+- **source** `church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp` — orphan_creator_slug: creatorSlug 'church-committee' has no matching thinker
+- **source** `cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus` — orphan_creator_slug: creatorSlug 'carl-a-kallgren-raymond-r-reno-and-robert-b-cialdini' has no matching thinker
+- **source** `constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution` — missing_name_separator: name lacks Author — Title separator and title is missing or equals name: 'Constitution of the Republic of South Africa Act 200 of 1993 (Interim Constitution)'
+- **source** `constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution` — orphan_creator_slug: creatorSlug 'constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution' has no matching thinker
+- **source** `corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy` — orphan_creator_slug: creatorSlug 'javier-corrales-and-michael-penfold' has no matching thinker
+- **source** `d-rner-dietrich-the-logic-of-failure-recognizing-and-avoiding-error` — orphan_creator_slug: creatorSlug 'dietrich-d-rner' has no matching thinker
+- **source** `dekker-sidney-w-a-just-culture-restoring-trust-and-accountability` — orphan_creator_slug: creatorSlug 'sidney-w-a-dekker' has no matching thinker
+- **source** `demarco-tom-and-timothy-lister-slack-getting-past-burnout-busywork-and-the` — orphan_creator_slug: creatorSlug 'timothy-lister-and-tom-demarco' has no matching thinker
+- **source** `demarco-tom-and-timothy-r-lister-peopleware-productive-projects` — orphan_creator_slug: creatorSlug 'timothy-r-lister-and-tom-demarco' has no matching thinker
+- **source** `desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire` — orphan_creator_slug: creatorSlug 'desai-ashwin-and-goolam-vahed' has no matching thinker
+- **source** `dik-tter-frank-the-cultural-revolution-a-people-s-history-1962-1976` — orphan_creator_slug: creatorSlug 'frank-dik-tter' has no matching thinker
+- **source** `dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca` — orphan_creator_slug: creatorSlug 'casper-lassenius-karina-dikert-and-maria-paasivaara' has no matching thinker
+- **source** `eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth` — orphan_creator_slug: creatorSlug 'alice-h-eagly-and-linda-l-carli' has no matching thinker
+- **source** `eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction` — missing_name_separator: name lacks Author — Title separator and title is missing or equals name: 'Eisenhower, Dwight D. Executive Order 10730, "Providing Assistance for the Removal of an Obstruction of Justice within the State of Arkansas." 24 September 1957. National Archives. https://www.archives.gov/milestone-documents/executive-order-10730'
+- **source** `eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction` — orphan_creator_slug: creatorSlug 'eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction-of-justice-within-the-state-of-arkansas-24-september-1957-national-archives-https-www-archives-gov-milestone-documents-executive-order-10730' has no matching thinker
+- **source** `electoral-commission-of-south-africa-27-apr-1994-national-election` — orphan_creator_slug: creatorSlug 'electoral-commission-of-south-africa' has no matching thinker
+- **source** `encyclopedia-of-arkansas-lost-year` — orphan_creator_slug: creatorSlug 'encyclopedia-of-arkansas' has no matching thinker
+- **source** `escud-carlos-argentine-political-culture` — orphan_creator_slug: creatorSlug 'carlos-escud' has no matching thinker
+- **source** `fahey-liam-and-robert-m-randall-eds-learning-from-the-future` — orphan_creator_slug: creatorSlug 'liam-fahey-and-robert-m-randall' has no matching thinker
+- **source** `federal-aviation-administration-and-nasa-aviation-safety-reporting-system-asrs` — orphan_creator_slug: creatorSlug 'federal-aviation-administration' has no matching thinker
+- **source** `federal-aviation-administration-mcdonnell-douglas-dc-8-61` — orphan_creator_slug: creatorSlug 'federal-aviation-administration' has no matching thinker
+- **source** `festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails` — orphan_creator_slug: creatorSlug 'henry-w-riecken-leon-festinger-and-stanley-schachter' has no matching thinker
+- **source** `fisher-roger-william-ury-and-bruce-patton-getting-to-yes-negotiating-agreement-without-giving-in` — orphan_creator_slug: creatorSlug 'bruce-patton-roger-fisher-and-william-ury' has no matching thinker
+- **source** `ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c` — orphan_creator_slug: creatorSlug 'neal-ford-patrick-kua-and-rebecca-parsons' has no matching thinker
+- **source** `forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build` — orphan_creator_slug: creatorSlug 'gene-kim-jez-humble-and-nicole-forsgren' has no matching thinker
+- **source** `founders-online-national-archives-from-george-washington-to-officers-of-the-army-15-march-1783` — orphan_creator_slug: creatorSlug 'national-archives-founders-online' has no matching thinker
+- **source** `french-john-r-p-and-bertram-raven-the-bases-of-social-power` — orphan_creator_slug: creatorSlug 'bertram-raven-and-john-r-p-french' has no matching thinker
+- **source** `garud-raghu-and-peter-karn-e-path-dependence-and-creation` — orphan_creator_slug: creatorSlug 'peter-karn-e-and-raghu-garud' has no matching thinker
+- **source** `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum` — orphan_creator_slug: creatorSlug 'briana-vecchione-hal-daum-iii-hanna-wallach-jamie-morgenstern-jennifer-wortman-vaughan-kate-crawford-and-timnit-gebru' has no matching thinker
+- **source** `goldratt-eliyahu-m-and-jeff-cox-the-goal-a-process-of-ongoing` — orphan_creator_slug: creatorSlug 'eliyahu-m-goldratt-and-jeff-cox' has no matching thinker
+- **source** `government-of-south-africa-truth-and-reconciliation-commission-final-report` — orphan_creator_slug: creatorSlug 'government-of-south-africa-truth-and-reconciliation-commission' has no matching thinker
+- **source** `habermas-j-rgen-the-theory-of-communicative-action` — orphan_creator_slug: creatorSlug 'j-rgen-habermas' has no matching thinker
+- **source** `harvard-university-pluralism-project-langar-the-communal-meal` — orphan_creator_slug: creatorSlug 'harvard-university-pluralism-project' has no matching thinker
+- **source** `havel-vaclav-the-power-of-the-powerless` — orphan_creator_slug: creatorSlug 'v-clav-havel' has no matching thinker
+- **source** `hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less` — orphan_creator_slug: creatorSlug 'christopher-hood-and-ruth-dixon' has no matching thinker
+- **source** `horwitz-jeff-and-deepa-seetharaman-facebook-executives-shut-down-efforts-to-make-the-site-less-d` — orphan_creator_slug: creatorSlug 'horwitz-jeff-and-deepa-seetharaman' has no matching thinker
+- **source** `hovland-carl-i-and-walter-weiss-the-influence-of-source-credibility-on-communication-effectivene` — orphan_creator_slug: creatorSlug 'hovland-carl-i-and-walter-weiss' has no matching thinker
+- **source** `humble-jez-and-david-farley-continuous-delivery-reliable-software-releases-through-build-test-an` — orphan_creator_slug: creatorSlug 'david-farley-and-jez-humble' has no matching thinker
+- **source** `jensen-michael-c-and-william-h-meckling-theory-of-the-firm-managerial-behavior-agency-costs-and` — orphan_creator_slug: creatorSlug 'michael-c-jensen-and-william-h-meckling' has no matching thinker
+- **source** `jones-jeffrey-m-last-trump-job-approval-34-average-is-record-low-41` — orphan_creator_slug: creatorSlug 'jeffrey-m-jones' has no matching thinker
+- **source** `jones-jeffrey-m-trump-approval-more-stable-than-approval-for-prior-presidents` — orphan_creator_slug: creatorSlug 'jeffrey-m-jones' has no matching thinker
+- **source** `jones-jeffrey-m-trump-job-approval-sets-new-record-for-polarization` — orphan_creator_slug: creatorSlug 'jeffrey-m-jones' has no matching thinker
+- **source** `kahneman-daniel-and-amos-tversky-prospect-theory-an-analysis-of-decision-under-risk` — orphan_creator_slug: creatorSlug 'kahneman-daniel-and-amos-tversky' has no matching thinker
+- **source** `kahneman-daniel-and-gary-klein-conditions-for-intuitive-expertise-a-failure-to-disagree` — orphan_creator_slug: creatorSlug 'kahneman-daniel-and-gary-klein' has no matching thinker
+- **source** `keep-william-w-and-peter-j-vander-nat-multilevel-marketing-and-pyramid-schemes-in-the-united-sta` — orphan_creator_slug: creatorSlug 'peter-j-vander-nat-and-william-w-keep' has no matching thinker
+- **source** `kessler-glenn-salvador-rizzo-and-meg-kelly-president-trump-has-made-more-than-20-000-false-or-mi` — orphan_creator_slug: creatorSlug 'kessler-glenn-salvador-rizzo-and-meg-kelly' has no matching thinker
+- **source** `kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class` — orphan_creator_slug: creatorSlug 'gene-kim-jez-humble-john-willis-and-patrick-debois' has no matching thinker
+- **source** `kim-gene-kevin-behr-and-george-spafford-the-phoenix-project-a-novel-about-it-devops-and-helping` — orphan_creator_slug: creatorSlug 'gene-kim-george-spafford-and-kevin-behr' has no matching thinker
+- **source** `king-martin-luther-jr-letter-from-birmingham-jail` — orphan_creator_slug: creatorSlug 'martin-luther-king-jr' has no matching thinker
+- **source** `krier-l-on-the-architecture-of-community` — orphan_creator_slug: creatorSlug 'l-on-krier' has no matching thinker
+- **source** `kwan-janice-l-lisha-lo-margaret-sampson-and-kaveh-g-shojania-medication-reconciliation-during-tr` — orphan_creator_slug: creatorSlug 'kwan-janice-l-lisha-lo-margaret-sampson-and-kaveh-g-shojania' has no matching thinker
+- **source** `lakoff-george-and-mark-johnson-metaphors-we-live-by` — orphan_creator_slug: creatorSlug 'george-lakoff-and-mark-johnson' has no matching thinker
+- **source** `leveson-nancy-g-and-clark-s-turner-an-investigation-of-the-therac-25-accidents` — orphan_creator_slug: creatorSlug 'leveson-nancy-g-and-clark-s-turner' has no matching thinker
+- **source** `lewis-catherine-c-rebecca-r-perry-and-akihiko-murata-how-should-research-contribute-to-instructi` — orphan_creator_slug: creatorSlug 'akihiko-murata-catherine-c-lewis-and-rebecca-r-perry' has no matching thinker
+- **source** `liebowitz-s-j-and-stephen-e-margolis-path-dependence-lock-in-and-history` — orphan_creator_slug: creatorSlug 's-j-liebowitz-and-stephen-e-margolis' has no matching thinker
+- **source** `lord-charles-g-lee-ross-and-mark-r-lepper-biased-assimilation-and-attitude-polarization-the-effe` — orphan_creator_slug: creatorSlug 'charles-g-lord-lee-ross-and-mark-r-lepper' has no matching thinker
+- **source** `lovell-jim-and-jeffrey-kluger-lost-moon-the-perilous-voyage-of-apollo-13` — orphan_creator_slug: creatorSlug 'jeffrey-kluger-and-jim-lovell' has no matching thinker
+- **source** `lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark` — orphan_creator_slug: creatorSlug 'lowcountry-digital-history-initiative' has no matching thinker
+- **source** `lowcountry-digital-history-initiative-the-progressive-club-johns-island` — orphan_creator_slug: creatorSlug 'lowcountry-digital-history-initiative' has no matching thinker
+- **source** `lupia-arthur-and-mathew-d-mccubbins-the-democratic-dilemma-can-citizens-learn-what-they-need-to` — orphan_creator_slug: creatorSlug 'lupia-arthur-and-mathew-d-mccubbins' has no matching thinker
+- **source** `macfarquhar-roderick-and-michael-schoenhals-mao-s-last-revolution` — orphan_creator_slug: creatorSlug 'michael-schoenhals-and-roderick-macfarquhar' has no matching thinker
+- **source** `march-james-g-and-herbert-a-simon-organizations` — orphan_creator_slug: creatorSlug 'march-james-g-and-herbert-a-simon' has no matching thinker
+- **source** `march-james-g-and-johan-p-olsen-rediscovering-institutions-the` — orphan_creator_slug: creatorSlug 'james-g-march-and-johan-p-olsen' has no matching thinker
+- **source** `martin-luther-king-jr-research-and-education-institute-stanford-university-i-have-a-dream` — orphan_creator_slug: creatorSlug 'martin-luther-king-jr-research-and-education-institute-stanford-university' has no matching thinker
+- **source** `maslach-christina-and-michael-p-leiter-the-truth-about-burnout` — orphan_creator_slug: creatorSlug 'christina-maslach-and-michael-p-leiter' has no matching thinker
+- **source** `mason-patrick-q-and-j-david-pulsipher-proclaim-peace` — orphan_creator_slug: creatorSlug 'patrick-q-mason-and-j-david-pulsipher' has no matching thinker
+- **source** `mccombs-maxwell-e-and-donald-l-shaw-the-agenda-setting-function-of-mass-media` — orphan_creator_slug: creatorSlug 'donald-l-shaw-and-maxwell-e-mccombs' has no matching thinker
+- **source** `mcpherson-miller-lynn-smith-lovin-and-james-m-cook-birds-of-a-feather-homophily-in-social-networ` — orphan_creator_slug: creatorSlug 'james-m-cook-lynn-smith-lovin-and-miller-mcpherson' has no matching thinker
+- **source** `merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to` — orphan_creator_slug: creatorSlug 'merritt-anna-c-daniel-a-effron-and-beno-t-monin' has no matching thinker
+- **source** `mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp` — orphan_creator_slug: creatorSlug 'andrew-zaldivar-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-lucy-vasserman-margaret-mitchell-parker-barnes-simone-wu-and-timnit-gebru' has no matching thinker
+- **source** `morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman-emergency-departme` — orphan_creator_slug: creatorSlug 'morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman' has no matching thinker
+- **source** `mount-vernon-newburgh-address` — orphan_creator_slug: creatorSlug 'mount-vernon' has no matching thinker
+- **source** `mount-vernon-newburgh-conspiracy` — orphan_creator_slug: creatorSlug 'mount-vernon' has no matching thinker
+- **source** `national-aeronautics-and-space-administration-apollo-11-mission-report` — orphan_creator_slug: creatorSlug 'national-aeronautics-and-space-administration' has no matching thinker
+- **source** `national-aeronautics-and-space-administration-aviation-safety-reporting-system-asrs-program-mate` — orphan_creator_slug: creatorSlug 'national-aeronautics-and-space-administration' has no matching thinker
+- **source** `national-aeronautics-and-space-administration-managing-nasa-in-the-apollo-era` — orphan_creator_slug: creatorSlug 'national-aeronautics-and-space-administration' has no matching thinker
+- **source** `national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p` — missing_name_separator: name lacks Author — Title separator and title is missing or equals name: 'National Museum of African American History and Culture. Black Panther Party community survival programs. Washington, DC: Smithsonian Institution. https://nmaahc.si.edu/'
+- **source** `national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p` — orphan_creator_slug: creatorSlug 'national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-programs-washington-dc-smithsonian-institution-https-nmaahc-si-edu' has no matching thinker
+- **source** `national-museum-of-american-history-i-have-a-dream` — orphan_creator_slug: creatorSlug 'national-museum-of-american-history' has no matching thinker
+- **source** `national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-c` — missing_name_separator: name lacks Author — Title separator and title is missing or equals name: 'National Park Service. Little Rock Central High School National Historic Site. https://www.nps.gov/chsc/'
+- **source** `national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-c` — orphan_creator_slug: creatorSlug 'national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-chsc' has no matching thinker
+- **source** `national-park-service-march-history` — orphan_creator_slug: creatorSlug 'national-park-service' has no matching thinker
+- **source** `national-park-service-march-on-washington-for-jobs-and-freedom` — orphan_creator_slug: creatorSlug 'national-park-service' has no matching thinker
+- **source** `national-park-service-pullman-national-historical-park-https-www-nps-gov-pull` — missing_name_separator: name lacks Author — Title separator and title is missing or equals name: 'National Park Service. Pullman National Historical Park. https://www.nps.gov/pull/'
+- **source** `national-park-service-pullman-national-historical-park-https-www-nps-gov-pull` — orphan_creator_slug: creatorSlug 'national-park-service-pullman-national-historical-park-https-www-nps-gov-pull' has no matching thinker
+- **source** `national-transportation-safety-board-aircraft-accident-report-united-airlines-inc-mcdonnell-doug` — orphan_creator_slug: creatorSlug 'national-transportation-safety-board' has no matching thinker
+- **source** `nissen-hans-j-peter-damerow-and-robert-k-englund-archaic` — orphan_creator_slug: creatorSlug 'nissen-hans-j-peter-damerow-and-robert-k-englund' has no matching thinker
+- **source** `northern-ireland-department-of-justice-department-of-justice-interface-programme` — orphan_creator_slug: creatorSlug 'northern-ireland-department-of-justice' has no matching thinker
+- **source** `northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referen` — missing_name_separator: name lacks Author — Title separator and title is missing or equals name: 'Northern Ireland Office / Electoral Office for Northern Ireland. Results of the 22 May 1998 referendum on the Belfast Agreement'
+- **source** `northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referen` — orphan_creator_slug: creatorSlug 'northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referendum-on-the-belfast-agreement' has no matching thinker
+- **source** `occupational-safety-and-health-administration-cranes-and-derricks` — orphan_creator_slug: creatorSlug 'occupational-safety-and-health-administration' has no matching thinker
+- **source** `occupational-safety-and-health-administration-cranes-and-derricks-in-construction-final-rule` — orphan_creator_slug: creatorSlug 'occupational-safety-and-health-administration' has no matching thinker
+- **source** `odea-thomas-f-the-mormons` — orphan_creator_slug: creatorSlug 'thomas-f-o-dea' has no matching thinker
+- **source** `parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth` — orphan_creator_slug: creatorSlug 'ashley-parker-and-michael-scherer' has no matching thinker
+- **source** `perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai` — orphan_creator_slug: creatorSlug 'dan-boneh-deepak-kumar-megha-srivastava-and-neil-perry' has no matching thinker
+- **source** `pettigrew-thomas-f-and-linda-r-tropp-a-meta-analytic-test-of-intergroup-contact-theory` — orphan_creator_slug: creatorSlug 'pettigrew-thomas-f-and-linda-r-tropp' has no matching thinker
+- **source** `pollitt-christopher-and-geert-bouckaert-public-management-reform-a-comparative-analysis` — orphan_creator_slug: creatorSlug 'christopher-pollitt-and-geert-bouckaert' has no matching thinker
+- **source** `popper-karl-the-open-society-and-its-enemies` — orphan_creator_slug: creatorSlug 'karl-popper' has no matching thinker
+- **source** `presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission-report-of-the` — orphan_creator_slug: creatorSlug 'presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission' has no matching thinker
+- **source** `reinhart-carmen-m-and-kenneth-s-rogoff-this-time-is-different-eight-centuries-of-financial-folly` — orphan_creator_slug: creatorSlug 'carmen-m-reinhart-and-kenneth-s-rogoff' has no matching thinker
+- **source** `reynolds-v-sims-377-u-s-533-1964` — missing_name_separator: name lacks Author — Title separator and title is missing or equals name: '377 U.S. 533 (1964) Reynolds v. Sims'
+- **source** `reynolds-v-sims-377-u-s-533-1964` — orphan_creator_slug: creatorSlug '377-u-s-533-1964-reynolds-v-sims' has no matching thinker
+- **source** `ross-lee-and-andrew-ward-naive-realism-in-everyday-life` — orphan_creator_slug: creatorSlug 'lee-ross-and-andrew-ward' has no matching thinker
+- **source** `ross-lee-and-richard-nisbett-the-person-and-the-situation` — orphan_creator_slug: creatorSlug 'lee-ross-and-richard-nisbett' has no matching thinker
+- **source** `ross-lee-the-intuitive-psychologist-and-his-shortcomings` — orphan_creator_slug: creatorSlug 'lee-ross-and-richard-nisbett' has no matching thinker
+- **source** `san-francisco-declaration-on-research-assessment-dora-2012-https-sfdora-org` — orphan_creator_slug: creatorSlug 'dora' has no matching thinker
+- **source** `sch-n-donald-a-the-reflective-practitioner-how-professionals-think` — orphan_creator_slug: creatorSlug 'donald-a-sch-n' has no matching thinker
+- **source** `shklar-judith-n-putting-cruelty-first` — orphan_creator_slug: creatorSlug 'judith-n-shklar' has no matching thinker
+- **source** `simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes` — orphan_creator_slug: creatorSlug 'christopher-f-chabris-and-daniel-j-simons' has no matching thinker
+- **source** `skelton-matthew-and-manuel-pais-team-topologies-organizing-business-and-technology-teams-for-fas` — orphan_creator_slug: creatorSlug 'manuel-pais-and-matthew-skelton' has no matching thinker
+- **source** `sncc-digital-gateway-birth-of-sncc` — orphan_creator_slug: creatorSlug 'sncc-digital-gateway' has no matching thinker
+- **source** `solzhenitsyn-aleksandr-i-the-gulag-archipelago-1918-1956-an-experiment-in-literary-investigation` — orphan_creator_slug: creatorSlug 'aleksandr-i-solzhenitsyn' has no matching thinker
+- **source** `star-susan-leigh-and-anselm-strauss-layers-of-silence-arenas-of-voice-the-ecology-of-visible-and` — orphan_creator_slug: creatorSlug 'anselm-strauss-and-susan-leigh-star' has no matching thinker
+- **source** `star-susan-leigh-and-james-r-griesemer-institutional-ecology-translations-and-boundary-objects` — orphan_creator_slug: creatorSlug 'james-r-griesemer-and-susan-leigh-star' has no matching thinker
+- **source** `suedfeld-peter-philip-e-tetlock-and-sally-streufert-conceptual-integrative-complexity` — orphan_creator_slug: creatorSlug 'peter-suedfeld-philip-e-tetlock-and-sally-streufert' has no matching thinker
+- **source** `sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-f` — missing_name_separator: name lacks Author — Title separator and title is missing or equals name: 'especially the commons"). https://www.nobelprize.org/prizes/economic-sciences/2009/summary/ Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2009. Prize announcement for Elinor Ostrom ("for her analysis of economic governance'
+- **source** `sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-f` — orphan_creator_slug: creatorSlug 'especially-the-commons-https-www-nobelprize-org-prizes-economic-sciences-2009-summary-sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-for-elinor-ostrom-for-her-analysis-of-economic-governance' has no matching thinker
+- **source** `tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer` — orphan_creator_slug: creatorSlug 'eugene-v-gallagher-and-james-d-tabor' has no matching thinker
+- **source** `tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior` — orphan_creator_slug: creatorSlug 'henri-tajfel-and-john-c-turner' has no matching thinker
+- **source** `talbot-s-g-and-w-dean-physicians-aren-t-burning-out-they-re` — orphan_creator_slug: creatorSlug 's-g-talbot-and-w-dean' has no matching thinker
+- **source** `tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me` — orphan_creator_slug: creatorSlug 'carol-tavris-and-elliot-aronson' has no matching thinker
+- **source** `tetlock-philip-e-and-dan-gardner-superforecasting-the-art-and-science-of-prediction` — orphan_creator_slug: creatorSlug 'tetlock-philip-e-and-dan-gardner' has no matching thinker
+- **source** `tversky-amos-and-daniel-kahneman-availability-a-heuristic-for-judging-frequency-and-probability` — orphan_creator_slug: creatorSlug 'tversky-amos-and-daniel-kahneman' has no matching thinker
+- **source** `u-s-department-of-agriculture-food-and-nutrition-service-school-breakfast-program-faqs` — orphan_creator_slug: creatorSlug 'u-s-department-of-agriculture-food-and-nutrition-service' has no matching thinker
+- **source** `u-s-government-accountability-office-year-2000-computing-challenge-lessons-learned-can-be-applie` — orphan_creator_slug: creatorSlug 'u-s-government-accountability-office' has no matching thinker
+- **source** `uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b` — orphan_creator_slug: creatorSlug 'gerard-b-carsten-kelly-lowe-michael-uhl-bien-and-ronald-e-riggio' has no matching thinker
+- **source** `ung-loung-first-they-killed-my-father-a-daughter-of-cambodia-remembers` — orphan_creator_slug: creatorSlug 'loung-ung' has no matching thinker
+- **source** `united-states-strike-commission-report-on-the-chicago-strike-of-june-july-1894` — orphan_creator_slug: creatorSlug 'united-states-strike-commission' has no matching thinker
+- **source** `wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing` — orphan_creator_slug: creatorSlug 'alexander-weisler-and-david-wachsmuth' has no matching thinker
+- **source** `weick-karl-e-and-kathleen-m-sutcliffe-managing-the-unexpected-resilient-performance-in-an-age-of` — orphan_creator_slug: creatorSlug 'weick-karl-e-and-kathleen-m-sutcliffe' has no matching thinker
+- **source** `weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing` — orphan_creator_slug: creatorSlug 'weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld' has no matching thinker
+
+## Info (229)
+
+- **thinker** `adolf-a-berle` — work_creator_mismatch: work 'berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-property' does not list this thinker in creatorSlugs
+- **thinker** `akihiko-murata` — work_creator_mismatch: work 'lewis-catherine-c-rebecca-r-perry-and-akihiko-murata-how-should-research-contribute-to-instructi' does not list this thinker in creatorSlugs
+- **thinker** `alexander-weisler` — work_creator_mismatch: work 'wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing' does not list this thinker in creatorSlugs
+- **thinker** `alice-h-eagly` — work_creator_mismatch: work 'eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth' does not list this thinker in creatorSlugs
+- **thinker** `alistair-cockburn` — work_creator_mismatch: work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker** `andrew-hunt` — work_creator_mismatch: work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker** `andrew-ward` — work_creator_mismatch: work 'ross-lee-and-andrew-ward-naive-realism-in-everyday-life' does not list this thinker in creatorSlugs
+- **thinker** `andrew-zaldivar` — work_creator_mismatch: work 'mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp' does not list this thinker in creatorSlugs
+- **thinker** `angelina-mcmillan-major` — work_creator_mismatch: work 'bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of' does not list this thinker in creatorSlugs
+- **thinker** `anna-c-merritt` — work_creator_mismatch: work 'merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to' does not list this thinker in creatorSlugs
+- **thinker** `anna-tavis` — work_creator_mismatch: work 'cappelli-peter-and-anna-tavis-the-performance-management-revolution' does not list this thinker in creatorSlugs
+- **thinker** `anselm-strauss` — work_creator_mismatch: work 'star-susan-leigh-and-anselm-strauss-layers-of-silence-arenas-of-voice-the-ecology-of-visible-and' does not list this thinker in creatorSlugs
+- **thinker** `arie-van-bennekum` — work_creator_mismatch: work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker** `arthur-lupia` — work_creator_mismatch: work 'lupia-arthur-and-mathew-d-mccubbins-the-democratic-dilemma-can-citizens-learn-what-they-need-to' does not list this thinker in creatorSlugs
+- **thinker** `ashley-parker` — work_creator_mismatch: work 'parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth' does not list this thinker in creatorSlugs
+- **thinker** `ashwin-desai` — work_creator_mismatch: work 'desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire' does not list this thinker in creatorSlugs
+- **thinker** `associated-press` — work_creator_mismatch: work 'associated-press-taylor-swift-donates-to-food-banks-on-eras-tour-providing-thousands-of-meals' does not list this thinker in creatorSlugs
+- **thinker** `ben-hutchinson` — work_creator_mismatch: work 'mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp' does not list this thinker in creatorSlugs
+- **thinker** `beno-t-monin` — work_creator_mismatch: work 'merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to' does not list this thinker in creatorSlugs
+- **thinker** `bertram-raven` — work_creator_mismatch: work 'french-john-r-p-and-bertram-raven-the-bases-of-social-power' does not list this thinker in creatorSlugs
+- **thinker** `betsy-beyer` — work_creator_mismatch: work 'beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin' does not list this thinker in creatorSlugs
+- **thinker** `brene-brown` — work_creator_mismatch: work 'brown-bren-dare-to-lead-brave-work-tough-conversations-whole' does not list this thinker in creatorSlugs
+- **thinker** `brian-marick` — work_creator_mismatch: work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker** `briana-vecchione` — work_creator_mismatch: work 'gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum' does not list this thinker in creatorSlugs
+- **thinker** `brooks-frederick-p-jr` — work_creator_mismatch: work 'brooks-frederick-p-jr-the-mythical-man-month-essays-on-software-engineering' does not list this thinker in creatorSlugs
+- **thinker** `bruce-patton` — work_creator_mismatch: work 'fisher-roger-william-ury-and-bruce-patton-getting-to-yes-negotiating-agreement-without-giving-in' does not list this thinker in creatorSlugs
+- **thinker** `carl-a-kallgren` — work_creator_mismatch: work 'cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus' does not list this thinker in creatorSlugs
+- **thinker** `carl-i-hovland` — work_creator_mismatch: work 'hovland-carl-i-and-walter-weiss-the-influence-of-source-credibility-on-communication-effectivene' does not list this thinker in creatorSlugs
+- **thinker** `carlos-escude` — work_creator_mismatch: work 'escud-carlos-argentine-political-culture' does not list this thinker in creatorSlugs
+- **thinker** `carmen-m-reinhart` — work_creator_mismatch: work 'reinhart-carmen-m-and-kenneth-s-rogoff-this-time-is-different-eight-centuries-of-financial-folly' does not list this thinker in creatorSlugs
+- **thinker** `carol-tavris` — work_creator_mismatch: work 'tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me' does not list this thinker in creatorSlugs
+- **thinker** `casper-lassenius` — work_creator_mismatch: work 'dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca' does not list this thinker in creatorSlugs
+- **thinker** `catherine-c-lewis` — work_creator_mismatch: work 'lewis-catherine-c-rebecca-r-perry-and-akihiko-murata-how-should-research-contribute-to-instructi' does not list this thinker in creatorSlugs
+- **thinker** `charles-g-lord` — work_creator_mismatch: work 'lord-charles-g-lee-ross-and-mark-r-lepper-biased-assimilation-and-attitude-polarization-the-effe' does not list this thinker in creatorSlugs
+- **thinker** `chris-argyris` — work_creator_mismatch: work 'argyris-chris-and-donald-a-schon-organizational-learning-ii' does not list this thinker in creatorSlugs
+- **thinker** `chris-jones` — work_creator_mismatch: work 'beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin' does not list this thinker in creatorSlugs
+- **thinker** `christina-maslach` — work_creator_mismatch: work 'maslach-christina-and-michael-p-leiter-the-truth-about-burnout' does not list this thinker in creatorSlugs
+- **thinker** `christopher-alexander` — work_creator_mismatch: work 'alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language' does not list this thinker in creatorSlugs
+- **thinker** `christopher-f-chabris` — work_creator_mismatch: work 'simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes' does not list this thinker in creatorSlugs
+- **thinker** `christopher-hood` — work_creator_mismatch: work 'hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less' does not list this thinker in creatorSlugs
+- **thinker** `christopher-pollitt` — work_creator_mismatch: work 'pollitt-christopher-and-geert-bouckaert-public-management-reform-a-comparative-analysis' does not list this thinker in creatorSlugs
+- **thinker** `dan-boneh` — work_creator_mismatch: work 'perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai' does not list this thinker in creatorSlugs
+- **thinker** `daniel-a-effron` — work_creator_mismatch: work 'merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to' does not list this thinker in creatorSlugs
+- **thinker** `daniel-j-simons` — work_creator_mismatch: work 'simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes' does not list this thinker in creatorSlugs
+- **thinker** `daniel-kahneman` — work_creator_mismatch: work 'kahneman-daniel-and-amos-tversky-prospect-theory-an-analysis-of-decision-under-risk' does not list this thinker in creatorSlugs
+- **thinker** `daniel-kahneman` — work_creator_mismatch: work 'kahneman-daniel-and-gary-klein-conditions-for-intuitive-expertise-a-failure-to-disagree' does not list this thinker in creatorSlugs
+- **thinker** `daniel-kahneman` — work_creator_mismatch: work 'tversky-amos-and-daniel-kahneman-availability-a-heuristic-for-judging-frequency-and-probability' does not list this thinker in creatorSlugs
+- **thinker** `daron-acemoglu` — work_creator_mismatch: work 'acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power' does not list this thinker in creatorSlugs
+- **thinker** `dave-thomas` — work_creator_mismatch: work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker** `david-farley` — work_creator_mismatch: work 'humble-jez-and-david-farley-continuous-delivery-reliable-software-releases-through-build-test-an' does not list this thinker in creatorSlugs
+- **thinker** `david-wachsmuth` — work_creator_mismatch: work 'wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing' does not list this thinker in creatorSlugs
+- **thinker** `declaration-on-research-assessment` — work_creator_mismatch: work 'san-francisco-declaration-on-research-assessment-dora-2012-https-sfdora-org' does not list this thinker in creatorSlugs
+- **thinker** `deepa-seetharaman` — work_creator_mismatch: work 'horwitz-jeff-and-deepa-seetharaman-facebook-executives-shut-down-efforts-to-make-the-site-less-d' does not list this thinker in creatorSlugs
+- **thinker** `deepak-kumar` — work_creator_mismatch: work 'perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai' does not list this thinker in creatorSlugs
+- **thinker** `dietrich-dorner` — work_creator_mismatch: work 'd-rner-dietrich-the-logic-of-failure-recognizing-and-avoiding-error' does not list this thinker in creatorSlugs
+- **thinker** `donald-a-schon` — work_creator_mismatch: work 'argyris-chris-and-donald-a-schon-organizational-learning-ii' does not list this thinker in creatorSlugs
+- **thinker** `donald-a-schon` — work_creator_mismatch: work 'sch-n-donald-a-the-reflective-practitioner-how-professionals-think' does not list this thinker in creatorSlugs
+- **thinker** `donald-l-shaw` — work_creator_mismatch: work 'mccombs-maxwell-e-and-donald-l-shaw-the-agenda-setting-function-of-mass-media' does not list this thinker in creatorSlugs
+- **thinker** `elena-spitzer` — work_creator_mismatch: work 'mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp' does not list this thinker in creatorSlugs
+- **thinker** `eliot-brown` — work_creator_mismatch: work 'brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio' does not list this thinker in creatorSlugs
+- **thinker** `eliyahu-m-goldratt` — work_creator_mismatch: work 'goldratt-eliyahu-m-and-jeff-cox-the-goal-a-process-of-ongoing' does not list this thinker in creatorSlugs
+- **thinker** `elliot-aronson` — work_creator_mismatch: work 'tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me' does not list this thinker in creatorSlugs
+- **thinker** `emily-m-bender` — work_creator_mismatch: work 'bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of' does not list this thinker in creatorSlugs
+- **thinker** `eugene-v-gallagher` — work_creator_mismatch: work 'tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer' does not list this thinker in creatorSlugs
+- **thinker** `federal-aviation-administration-and-nasa` — work_creator_mismatch: work 'federal-aviation-administration-and-nasa-aviation-safety-reporting-system-asrs' does not list this thinker in creatorSlugs
+- **thinker** `federal-aviation-administration-and-nasa` — work_creator_mismatch: work 'national-aeronautics-and-space-administration-aviation-safety-reporting-system-asrs-program-mate' does not list this thinker in creatorSlugs
+- **thinker** `frank-dikotter` — work_creator_mismatch: work 'dik-tter-frank-the-cultural-revolution-a-people-s-history-1962-1976' does not list this thinker in creatorSlugs
+- **thinker** `gardiner-c-means` — work_creator_mismatch: work 'berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-property' does not list this thinker in creatorSlugs
+- **thinker** `gary-klein` — work_creator_mismatch: work 'kahneman-daniel-and-gary-klein-conditions-for-intuitive-expertise-a-failure-to-disagree' does not list this thinker in creatorSlugs
+- **thinker** `geert-bouckaert` — work_creator_mismatch: work 'pollitt-christopher-and-geert-bouckaert-public-management-reform-a-comparative-analysis' does not list this thinker in creatorSlugs
+- **thinker** `gene-kim` — work_creator_mismatch: work 'forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build' does not list this thinker in creatorSlugs
+- **thinker** `gene-kim` — work_creator_mismatch: work 'kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class' does not list this thinker in creatorSlugs
+- **thinker** `gene-kim` — work_creator_mismatch: work 'kim-gene-kevin-behr-and-george-spafford-the-phoenix-project-a-novel-about-it-devops-and-helping' does not list this thinker in creatorSlugs
+- **thinker** `geoffrey-c-bowker` — work_creator_mismatch: work 'bowker-geoffrey-c-and-susan-leigh-star-sorting-things-out-classification-and' does not list this thinker in creatorSlugs
+- **thinker** `george-lakoff` — work_creator_mismatch: work 'lakoff-george-and-mark-johnson-metaphors-we-live-by' does not list this thinker in creatorSlugs
+- **thinker** `george-spafford` — work_creator_mismatch: work 'kim-gene-kevin-behr-and-george-spafford-the-phoenix-project-a-novel-about-it-devops-and-helping' does not list this thinker in creatorSlugs
+- **thinker** `gerard-b-carsten` — work_creator_mismatch: work 'uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b' does not list this thinker in creatorSlugs
+- **thinker** `goolam-vahed` — work_creator_mismatch: work 'desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire' does not list this thinker in creatorSlugs
+- **thinker** `hal-daume-iii` — work_creator_mismatch: work 'gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum' does not list this thinker in creatorSlugs
+- **thinker** `hanna-wallach` — work_creator_mismatch: work 'gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum' does not list this thinker in creatorSlugs
+- **thinker** `hans-j-nissen` — work_creator_mismatch: work 'nissen-hans-j-peter-damerow-and-robert-k-englund-archaic' does not list this thinker in creatorSlugs
+- **thinker** `helena-barke` — work_creator_mismatch: work 'barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams' does not list this thinker in creatorSlugs
+- **thinker** `henri-tajfel` — work_creator_mismatch: work 'tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior' does not list this thinker in creatorSlugs
+- **thinker** `henry-w-riecken` — work_creator_mismatch: work 'festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails' does not list this thinker in creatorSlugs
+- **thinker** `herbert-a-simon` — work_creator_mismatch: work 'march-james-g-and-herbert-a-simon-organizations' does not list this thinker in creatorSlugs
+- **thinker** `inioluwa-deborah-raji` — work_creator_mismatch: work 'mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp' does not list this thinker in creatorSlugs
+- **thinker** `j-david-pulsipher` — work_creator_mismatch: work 'mason-patrick-q-and-j-david-pulsipher-proclaim-peace' does not list this thinker in creatorSlugs
+- **thinker** `james-a-robinson` — work_creator_mismatch: work 'acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power' does not list this thinker in creatorSlugs
+- **thinker** `james-d-tabor` — work_creator_mismatch: work 'tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer' does not list this thinker in creatorSlugs
+- **thinker** `james-g-march` — work_creator_mismatch: work 'march-james-g-and-herbert-a-simon-organizations' does not list this thinker in creatorSlugs
+- **thinker** `james-g-march` — work_creator_mismatch: work 'march-james-g-and-johan-p-olsen-rediscovering-institutions-the' does not list this thinker in creatorSlugs
+- **thinker** `james-grenning` — work_creator_mismatch: work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker** `james-m-cook` — work_creator_mismatch: work 'mcpherson-miller-lynn-smith-lovin-and-james-m-cook-birds-of-a-feather-homophily-in-social-networ' does not list this thinker in creatorSlugs
+- **thinker** `james-r-griesemer` — work_creator_mismatch: work 'star-susan-leigh-and-james-r-griesemer-institutional-ecology-translations-and-boundary-objects' does not list this thinker in creatorSlugs
+- **thinker** `jamie-morgenstern` — work_creator_mismatch: work 'gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum' does not list this thinker in creatorSlugs
+- **thinker** `javier-corrales` — work_creator_mismatch: work 'corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy' does not list this thinker in creatorSlugs
+- **thinker** `jeff-cox` — work_creator_mismatch: work 'goldratt-eliyahu-m-and-jeff-cox-the-goal-a-process-of-ongoing' does not list this thinker in creatorSlugs
+- **thinker** `jeff-horwitz` — work_creator_mismatch: work 'horwitz-jeff-and-deepa-seetharaman-facebook-executives-shut-down-efforts-to-make-the-site-less-d' does not list this thinker in creatorSlugs
+- **thinker** `jeff-sutherland` — work_creator_mismatch: work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker** `jeffrey-kluger` — work_creator_mismatch: work 'lovell-jim-and-jeffrey-kluger-lost-moon-the-perilous-voyage-of-apollo-13' does not list this thinker in creatorSlugs
+- **thinker** `jennifer-petoff` — work_creator_mismatch: work 'beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin' does not list this thinker in creatorSlugs
+- **thinker** `jennifer-wortman-vaughan` — work_creator_mismatch: work 'gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum' does not list this thinker in creatorSlugs
+- **thinker** `jez-humble` — work_creator_mismatch: work 'forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build' does not list this thinker in creatorSlugs
+- **thinker** `jez-humble` — work_creator_mismatch: work 'humble-jez-and-david-farley-continuous-delivery-reliable-software-releases-through-build-test-an' does not list this thinker in creatorSlugs
+- **thinker** `jez-humble` — work_creator_mismatch: work 'kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class' does not list this thinker in creatorSlugs
+- **thinker** `jim-highsmith` — work_creator_mismatch: work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker** `jim-lovell` — work_creator_mismatch: work 'lovell-jim-and-jeffrey-kluger-lost-moon-the-perilous-voyage-of-apollo-13' does not list this thinker in creatorSlugs
+- **thinker** `johan-p-olsen` — work_creator_mismatch: work 'march-james-g-and-johan-p-olsen-rediscovering-institutions-the' does not list this thinker in creatorSlugs
+- **thinker** `john-allspaw` — work_creator_mismatch: work 'allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr' does not list this thinker in creatorSlugs
+- **thinker** `john-c-hershey` — work_creator_mismatch: work 'baron-jonathan-and-john-c-hershey-outcome-bias-in-decision' does not list this thinker in creatorSlugs
+- **thinker** `john-c-turner` — work_creator_mismatch: work 'tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior' does not list this thinker in creatorSlugs
+- **thinker** `john-r-p-french` — work_creator_mismatch: work 'french-john-r-p-and-bertram-raven-the-bases-of-social-power' does not list this thinker in creatorSlugs
+- **thinker** `john-willis` — work_creator_mismatch: work 'kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class' does not list this thinker in creatorSlugs
+- **thinker** `jon-kern` — work_creator_mismatch: work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker** `jonathan-baron` — work_creator_mismatch: work 'baron-jonathan-and-john-c-hershey-outcome-bias-in-decision' does not list this thinker in creatorSlugs
+- **thinker** `judith-shklar` — work_creator_mismatch: work 'shklar-judith-n-putting-cruelty-first' does not list this thinker in creatorSlugs
+- **thinker** `jurgen-habermas` — work_creator_mismatch: work 'habermas-j-rgen-the-theory-of-communicative-action' does not list this thinker in creatorSlugs
+- **thinker** `karina-dikert` — work_creator_mismatch: work 'dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca' does not list this thinker in creatorSlugs
+- **thinker** `karl-e-weick` — work_creator_mismatch: work 'weick-karl-e-and-kathleen-m-sutcliffe-managing-the-unexpected-resilient-performance-in-an-age-of' does not list this thinker in creatorSlugs
+- **thinker** `karl-e-weick` — work_creator_mismatch: work 'weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing' does not list this thinker in creatorSlugs
+- **thinker** `karl-r-popper` — work_creator_mismatch: work 'popper-karl-the-open-society-and-its-enemies' does not list this thinker in creatorSlugs
+- **thinker** `kate-crawford` — work_creator_mismatch: work 'gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum' does not list this thinker in creatorSlugs
+- **thinker** `kelly-d-brownell` — work_creator_mismatch: work 'brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an' does not list this thinker in creatorSlugs
+- **thinker** `kelly-lowe` — work_creator_mismatch: work 'uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b' does not list this thinker in creatorSlugs
+- **thinker** `ken-schwaber` — work_creator_mismatch: work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker** `kenneth-e-warner` — work_creator_mismatch: work 'brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an' does not list this thinker in creatorSlugs
+- **thinker** `kenneth-s-rogoff` — work_creator_mismatch: work 'reinhart-carmen-m-and-kenneth-s-rogoff-this-time-is-different-eight-centuries-of-financial-folly' does not list this thinker in creatorSlugs
+- **thinker** `kent-beck` — work_creator_mismatch: work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker** `kevin-behr` — work_creator_mismatch: work 'kim-gene-kevin-behr-and-george-spafford-the-phoenix-project-a-novel-about-it-devops-and-helping' does not list this thinker in creatorSlugs
+- **thinker** `king-martin-luther-jr` — work_creator_mismatch: work 'king-martin-luther-jr-letter-from-birmingham-jail' does not list this thinker in creatorSlugs
+- **thinker** `lant-pritchett` — work_creator_mismatch: work 'andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr' does not list this thinker in creatorSlugs
+- **thinker** `larry-ceplair` — work_creator_mismatch: work 'ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193' does not list this thinker in creatorSlugs
+- **thinker** `lee-ross` — work_creator_mismatch: work 'lord-charles-g-lee-ross-and-mark-r-lepper-biased-assimilation-and-attitude-polarization-the-effe' does not list this thinker in creatorSlugs
+- **thinker** `lee-ross` — work_creator_mismatch: work 'ross-lee-and-andrew-ward-naive-realism-in-everyday-life' does not list this thinker in creatorSlugs
+- **thinker** `lee-ross` — work_creator_mismatch: work 'ross-lee-and-richard-nisbett-the-person-and-the-situation' does not list this thinker in creatorSlugs
+- **thinker** `lee-ross` — work_creator_mismatch: work 'ross-lee-the-intuitive-psychologist-and-his-shortcomings' does not list this thinker in creatorSlugs
+- **thinker** `leon-festinger` — work_creator_mismatch: work 'festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails' does not list this thinker in creatorSlugs
+- **thinker** `leon-krier` — work_creator_mismatch: work 'krier-l-on-the-architecture-of-community' does not list this thinker in creatorSlugs
+- **thinker** `liam-fahey` — work_creator_mismatch: work 'fahey-liam-and-robert-m-randall-eds-learning-from-the-future' does not list this thinker in creatorSlugs
+- **thinker** `linda-l-carli` — work_creator_mismatch: work 'eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth' does not list this thinker in creatorSlugs
+- **thinker** `lucian-a-bebchuk` — work_creator_mismatch: work 'bebchuk-lucian-a-and-scott-hirst-index-funds-and-the-future-of-corporate-governance-theory-evide' does not list this thinker in creatorSlugs
+- **thinker** `lucy-vasserman` — work_creator_mismatch: work 'mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp' does not list this thinker in creatorSlugs
+- **thinker** `lutz-prechelt` — work_creator_mismatch: work 'barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams' does not list this thinker in creatorSlugs
+- **thinker** `lynn-smith-lovin` — work_creator_mismatch: work 'mcpherson-miller-lynn-smith-lovin-and-james-m-cook-birds-of-a-feather-homophily-in-social-networ' does not list this thinker in creatorSlugs
+- **thinker** `manuel-pais` — work_creator_mismatch: work 'skelton-matthew-and-manuel-pais-team-topologies-organizing-business-and-technology-teams-for-fas' does not list this thinker in creatorSlugs
+- **thinker** `margaret-mitchell` — work_creator_mismatch: work 'mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp' does not list this thinker in creatorSlugs
+- **thinker** `maria-paasivaara` — work_creator_mismatch: work 'dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca' does not list this thinker in creatorSlugs
+- **thinker** `mark-johnson` — work_creator_mismatch: work 'lakoff-george-and-mark-johnson-metaphors-we-live-by' does not list this thinker in creatorSlugs
+- **thinker** `mark-r-lepper` — work_creator_mismatch: work 'lord-charles-g-lee-ross-and-mark-r-lepper-biased-assimilation-and-attitude-polarization-the-effe' does not list this thinker in creatorSlugs
+- **thinker** `martin-fowler` — work_creator_mismatch: work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker** `mathew-d-mccubbins` — work_creator_mismatch: work 'lupia-arthur-and-mathew-d-mccubbins-the-democratic-dilemma-can-citizens-learn-what-they-need-to' does not list this thinker in creatorSlugs
+- **thinker** `matthew-andrews` — work_creator_mismatch: work 'andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr' does not list this thinker in creatorSlugs
+- **thinker** `matthew-skelton` — work_creator_mismatch: work 'skelton-matthew-and-manuel-pais-team-topologies-organizing-business-and-technology-teams-for-fas' does not list this thinker in creatorSlugs
+- **thinker** `maureen-farrell` — work_creator_mismatch: work 'brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio' does not list this thinker in creatorSlugs
+- **thinker** `maxwell-e-mccombs` — work_creator_mismatch: work 'mccombs-maxwell-e-and-donald-l-shaw-the-agenda-setting-function-of-mass-media' does not list this thinker in creatorSlugs
+- **thinker** `megha-srivastava` — work_creator_mismatch: work 'perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai' does not list this thinker in creatorSlugs
+- **thinker** `michael-c-jensen` — work_creator_mismatch: work 'jensen-michael-c-and-william-h-meckling-theory-of-the-firm-managerial-behavior-agency-costs-and' does not list this thinker in creatorSlugs
+- **thinker** `michael-p-leiter` — work_creator_mismatch: work 'maslach-christina-and-michael-p-leiter-the-truth-about-burnout' does not list this thinker in creatorSlugs
+- **thinker** `michael-penfold` — work_creator_mismatch: work 'corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy' does not list this thinker in creatorSlugs
+- **thinker** `michael-scherer` — work_creator_mismatch: work 'parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth' does not list this thinker in creatorSlugs
+- **thinker** `michael-schoenhals` — work_creator_mismatch: work 'macfarquhar-roderick-and-michael-schoenhals-mao-s-last-revolution' does not list this thinker in creatorSlugs
+- **thinker** `michael-uhl-bien` — work_creator_mismatch: work 'uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b' does not list this thinker in creatorSlugs
+- **thinker** `michael-woolcock` — work_creator_mismatch: work 'andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr' does not list this thinker in creatorSlugs
+- **thinker** `mike-beedle` — work_creator_mismatch: work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker** `miller-mcpherson` — work_creator_mismatch: work 'mcpherson-miller-lynn-smith-lovin-and-james-m-cook-birds-of-a-feather-homophily-in-social-networ' does not list this thinker in creatorSlugs
+- **thinker** `nancy-g-leveson` — work_creator_mismatch: work 'leveson-nancy-g-and-clark-s-turner-an-investigation-of-the-therac-25-accidents' does not list this thinker in creatorSlugs
+- **thinker** `neal-ford` — work_creator_mismatch: work 'ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c' does not list this thinker in creatorSlugs
+- **thinker** `neil-perry` — work_creator_mismatch: work 'perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai' does not list this thinker in creatorSlugs
+- **thinker** `niall-richard-murphy` — work_creator_mismatch: work 'beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin' does not list this thinker in creatorSlugs
+- **thinker** `nicole-forsgren` — work_creator_mismatch: work 'forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build' does not list this thinker in creatorSlugs
+- **thinker** `parker-barnes` — work_creator_mismatch: work 'mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp' does not list this thinker in creatorSlugs
+- **thinker** `patrick-debois` — work_creator_mismatch: work 'kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class' does not list this thinker in creatorSlugs
+- **thinker** `patrick-kua` — work_creator_mismatch: work 'ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c' does not list this thinker in creatorSlugs
+- **thinker** `patrick-q-mason` — work_creator_mismatch: work 'mason-patrick-q-and-j-david-pulsipher-proclaim-peace' does not list this thinker in creatorSlugs
+- **thinker** `paul-hammond` — work_creator_mismatch: work 'allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr' does not list this thinker in creatorSlugs
+- **thinker** `peter-cappelli` — work_creator_mismatch: work 'cappelli-peter-and-anna-tavis-the-performance-management-revolution' does not list this thinker in creatorSlugs
+- **thinker** `peter-damerow` — work_creator_mismatch: work 'nissen-hans-j-peter-damerow-and-robert-k-englund-archaic' does not list this thinker in creatorSlugs
+- **thinker** `peter-j-vander-nat` — work_creator_mismatch: work 'keep-william-w-and-peter-j-vander-nat-multilevel-marketing-and-pyramid-schemes-in-the-united-sta' does not list this thinker in creatorSlugs
+- **thinker** `peter-karn-e` — work_creator_mismatch: work 'garud-raghu-and-peter-karn-e-path-dependence-and-creation' does not list this thinker in creatorSlugs
+- **thinker** `peter-l-berger` — work_creator_mismatch: work 'berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog' does not list this thinker in creatorSlugs
+- **thinker** `peter-suedfeld` — work_creator_mismatch: work 'suedfeld-peter-philip-e-tetlock-and-sally-streufert-conceptual-integrative-complexity' does not list this thinker in creatorSlugs
+- **thinker** `philip-e-tetlock` — work_creator_mismatch: work 'suedfeld-peter-philip-e-tetlock-and-sally-streufert-conceptual-integrative-complexity' does not list this thinker in creatorSlugs
+- **thinker** `philip-e-tetlock` — work_creator_mismatch: work 'tetlock-philip-e-and-dan-gardner-superforecasting-the-art-and-science-of-prediction' does not list this thinker in creatorSlugs
+- **thinker** `raghu-garud` — work_creator_mismatch: work 'garud-raghu-and-peter-karn-e-path-dependence-and-creation' does not list this thinker in creatorSlugs
+- **thinker** `raymond-r-reno` — work_creator_mismatch: work 'cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus' does not list this thinker in creatorSlugs
+- **thinker** `rebecca-parsons` — work_creator_mismatch: work 'ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c' does not list this thinker in creatorSlugs
+- **thinker** `rebecca-r-perry` — work_creator_mismatch: work 'lewis-catherine-c-rebecca-r-perry-and-akihiko-murata-how-should-research-contribute-to-instructi' does not list this thinker in creatorSlugs
+- **thinker** `richard-nisbett` — work_creator_mismatch: work 'ross-lee-and-richard-nisbett-the-person-and-the-situation' does not list this thinker in creatorSlugs
+- **thinker** `richard-nisbett` — work_creator_mismatch: work 'ross-lee-the-intuitive-psychologist-and-his-shortcomings' does not list this thinker in creatorSlugs
+- **thinker** `robert-b-cialdini` — work_creator_mismatch: work 'cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus' does not list this thinker in creatorSlugs
+- **thinker** `robert-c-martin` — work_creator_mismatch: work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker** `robert-k-englund` — work_creator_mismatch: work 'nissen-hans-j-peter-damerow-and-robert-k-englund-archaic' does not list this thinker in creatorSlugs
+- **thinker** `robert-m-randall` — work_creator_mismatch: work 'fahey-liam-and-robert-m-randall-eds-learning-from-the-future' does not list this thinker in creatorSlugs
+- **thinker** `roderick-macfarquhar` — work_creator_mismatch: work 'macfarquhar-roderick-and-michael-schoenhals-mao-s-last-revolution' does not list this thinker in creatorSlugs
+- **thinker** `roger-fisher` — work_creator_mismatch: work 'fisher-roger-william-ury-and-bruce-patton-getting-to-yes-negotiating-agreement-without-giving-in' does not list this thinker in creatorSlugs
+- **thinker** `ron-jeffries` — work_creator_mismatch: work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker** `ronald-e-riggio` — work_creator_mismatch: work 'uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b' does not list this thinker in creatorSlugs
+- **thinker** `ruth-dixon` — work_creator_mismatch: work 'hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less' does not list this thinker in creatorSlugs
+- **thinker** `s-g-talbot` — work_creator_mismatch: work 'talbot-s-g-and-w-dean-physicians-aren-t-burning-out-they-re' does not list this thinker in creatorSlugs
+- **thinker** `s-j-liebowitz` — work_creator_mismatch: work 'liebowitz-s-j-and-stephen-e-margolis-path-dependence-lock-in-and-history' does not list this thinker in creatorSlugs
+- **thinker** `sally-streufert` — work_creator_mismatch: work 'suedfeld-peter-philip-e-tetlock-and-sally-streufert-conceptual-integrative-complexity' does not list this thinker in creatorSlugs
+- **thinker** `scott-hirst` — work_creator_mismatch: work 'bebchuk-lucian-a-and-scott-hirst-index-funds-and-the-future-of-corporate-governance-theory-evide' does not list this thinker in creatorSlugs
+- **thinker** `shmargaret-shmitchell` — work_creator_mismatch: work 'bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of' does not list this thinker in creatorSlugs
+- **thinker** `sidney-dekker` — work_creator_mismatch: work 'dekker-sidney-w-a-just-culture-restoring-trust-and-accountability' does not list this thinker in creatorSlugs
+- **thinker** `simone-wu` — work_creator_mismatch: work 'mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp' does not list this thinker in creatorSlugs
+- **thinker** `stanley-schachter` — work_creator_mismatch: work 'festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails' does not list this thinker in creatorSlugs
+- **thinker** `stephen-e-margolis` — work_creator_mismatch: work 'liebowitz-s-j-and-stephen-e-margolis-path-dependence-lock-in-and-history' does not list this thinker in creatorSlugs
+- **thinker** `steve-mellor` — work_creator_mismatch: work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker** `steven-englund` — work_creator_mismatch: work 'ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193' does not list this thinker in creatorSlugs
+- **thinker** `susan-leigh-star` — work_creator_mismatch: work 'bowker-geoffrey-c-and-susan-leigh-star-sorting-things-out-classification-and' does not list this thinker in creatorSlugs
+- **thinker** `susan-leigh-star` — work_creator_mismatch: work 'star-susan-leigh-and-anselm-strauss-layers-of-silence-arenas-of-voice-the-ecology-of-visible-and' does not list this thinker in creatorSlugs
+- **thinker** `susan-leigh-star` — work_creator_mismatch: work 'star-susan-leigh-and-james-r-griesemer-institutional-ecology-translations-and-boundary-objects' does not list this thinker in creatorSlugs
+- **thinker** `thomas-f-odea` — work_creator_mismatch: work 'odea-thomas-f-the-mormons' does not list this thinker in creatorSlugs
+- **thinker** `thomas-luckmann` — work_creator_mismatch: work 'berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog' does not list this thinker in creatorSlugs
+- **thinker** `timnit-gebru` — work_creator_mismatch: work 'bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of' does not list this thinker in creatorSlugs
+- **thinker** `timnit-gebru` — work_creator_mismatch: work 'gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum' does not list this thinker in creatorSlugs
+- **thinker** `timnit-gebru` — work_creator_mismatch: work 'mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp' does not list this thinker in creatorSlugs
+- **thinker** `timothy-lister` — work_creator_mismatch: work 'demarco-tom-and-timothy-lister-slack-getting-past-burnout-busywork-and-the' does not list this thinker in creatorSlugs
+- **thinker** `timothy-r-lister` — work_creator_mismatch: work 'demarco-tom-and-timothy-r-lister-peopleware-productive-projects' does not list this thinker in creatorSlugs
+- **thinker** `tom-demarco` — work_creator_mismatch: work 'demarco-tom-and-timothy-lister-slack-getting-past-burnout-busywork-and-the' does not list this thinker in creatorSlugs
+- **thinker** `tom-demarco` — work_creator_mismatch: work 'demarco-tom-and-timothy-r-lister-peopleware-productive-projects' does not list this thinker in creatorSlugs
+- **thinker** `truth-and-reconciliation-commission` — work_creator_mismatch: work 'government-of-south-africa-truth-and-reconciliation-commission-final-report' does not list this thinker in creatorSlugs
+- **thinker** `vaclav-havel` — work_creator_mismatch: work 'havel-vaclav-the-power-of-the-powerless' does not list this thinker in creatorSlugs
+- **thinker** `w-dean` — work_creator_mismatch: work 'talbot-s-g-and-w-dean-physicians-aren-t-burning-out-they-re' does not list this thinker in creatorSlugs
+- **thinker** `walter-weiss` — work_creator_mismatch: work 'hovland-carl-i-and-walter-weiss-the-influence-of-source-credibility-on-communication-effectivene' does not list this thinker in creatorSlugs
+- **thinker** `ward-cunningham` — work_creator_mismatch: work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker** `william-h-meckling` — work_creator_mismatch: work 'jensen-michael-c-and-william-h-meckling-theory-of-the-firm-managerial-behavior-agency-costs-and' does not list this thinker in creatorSlugs
+- **thinker** `william-ury` — work_creator_mismatch: work 'fisher-roger-william-ury-and-bruce-patton-getting-to-yes-negotiating-agreement-without-giving-in' does not list this thinker in creatorSlugs
+- **thinker** `william-w-keep` — work_creator_mismatch: work 'keep-william-w-and-peter-j-vander-nat-multilevel-marketing-and-pyramid-schemes-in-the-united-sta' does not list this thinker in creatorSlugs

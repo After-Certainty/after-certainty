@@ -50,9 +50,7 @@ def _editorial_exclusion(slug: str, exceptions: dict[str, str]) -> str | None:
 
 def create_report(repo: Path) -> tuple[dict, str]:
     audit = json.loads(
-        (repo / "reports/reader-passage-links/audit.summary.json").read_text(
-            encoding="utf-8"
-        )
+        (repo / "reports/reader-passage-links/audit.summary.json").read_text(encoding="utf-8")
     )
     verified = audit["totals"]["sources"]
     if verified["invalidPassageLinks"] or verified["unverifiedFragmentLinks"]:
@@ -177,8 +175,7 @@ def create_report(repo: Path) -> tuple[dict, str]:
     ]
     for row in rows:
         lines.append(
-            f"| `{row['slug']}` | {row['category']} | "
-            f"{', '.join(row['relatedBooks']) or '—'} |"
+            f"| `{row['slug']}` | {row['category']} | {', '.join(row['relatedBooks']) or '—'} |"
         )
     lines += [
         "",

@@ -4,13 +4,23 @@
 
 - Repository type: **source**
 - Input files: build/semantic-manifest.json
-- Errors: **0**
-- Warnings: **74**
-- Info: **261**
-- Entities scanned: {'books': 34, 'concepts': 144, 'patterns': 30, 'thinkers': 635, 'sources': 648, 'relationships': 109}
+- Errors: **4**
+- Warnings: **256**
+- Info: **643**
+- Entities scanned: {'books': 36, 'concepts': 144, 'patterns': 43, 'thinkers': 643, 'sources': 714, 'relationships': 168}
 
 ## Top priority issues
 
+- **[error]** source-metadata / source `berwick-donald-m-era-3-for-medicine-and-health-care` — Publication year appears to have been parsed from a page range. — *Set year to 2016 based on citation.*
+- **[error]** source-metadata / source `cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus` — Publication year appears to have been parsed from a page range. — *Set year to 1990 based on citation.*
+- **[error]** source-metadata / source `simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes` — Publication year appears to have been parsed from a page range. — *Set year to 1999 based on citation.*
+- **[error]** source-metadata / source `wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing` — Publication year appears to have been parsed from a page range. — *Set year to 2018 based on citation.*
+- **[warning]** concept-grounding / source `berwick-donald-m-developing-and-testing-changes-in-delivery-of-care` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'agile'. — *Add 'agile' to source concepts.*
+- **[warning]** concept-grounding / source `senge-peter-m-the-fifth-discipline-the-art-and-practice-of-the` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'contestability'. — *Add 'contestability' to source concepts.*
+- **[warning]** concept-grounding / source `senge-peter-m-the-fifth-discipline-the-art-and-practice-of-the` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'correction'. — *Add 'correction' to source concepts.*
+- **[warning]** concept-grounding / source `senge-peter-m-the-fifth-discipline-the-art-and-practice-of-the` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'feedback'. — *Add 'feedback' to source concepts.*
+- **[warning]** concept-grounding / source `weick-karl-e-the-social-psychology-of-organizing` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'interpretation'. — *Add 'interpretation' to source concepts.*
+- **[warning]** concept-grounding / thinker `donald-m-berwick` — Linked work supports this concept but thinker.concepts omits it. (via work berwick-donald-m-developing-and-testing-changes-in-delivery-of-care) Suggested concept: 'agile'. — *Add 'agile' to thinker concepts.*
 - **[warning]** concept-grounding / thinker `international-football-association-board` — Linked work supports this concept but thinker.concepts omits it. (via work international-football-association-board-video-assistant-referee-var-protocol) Suggested concept: 'interpretation'. — *Add 'interpretation' to thinker concepts.*
 - **[warning]** concept-grounding / thinker `international-football-association-board` — Linked work supports this concept but thinker.concepts omits it. (via work international-football-association-board-video-assistant-referee-var-protocol) Suggested concept: 'judgment'. — *Add 'judgment' to thinker concepts.*
 - **[warning]** concept-grounding / thinker `international-football-association-board` — Linked work supports this concept but thinker.concepts omits it. (via work international-football-association-board-video-assistant-referee-var-protocol) Suggested concept: 'operational-finality'. — *Add 'operational-finality' to thinker concepts.*
@@ -21,48 +31,38 @@
 - **[warning]** concept-grounding / thinker `michael-lewis` — Linked work supports this concept but thinker.concepts omits it. (via work michael-lewis-moneyball-the-art-of-winning-an-unfair-game) Suggested concept: 'compression'. — *Add 'compression' to thinker concepts.*
 - **[warning]** concept-grounding / thinker `michael-lewis` — Linked work supports this concept but thinker.concepts omits it. (via work michael-lewis-moneyball-the-art-of-winning-an-unfair-game) Suggested concept: 'scoreboard-remainder'. — *Add 'scoreboard-remainder' to thinker concepts.*
 - **[warning]** concept-grounding / thinker `naomi-osaka` — Linked work supports this concept but thinker.concepts omits it. (via work naomi-osaka-it-s-o-k-not-to-be-o-k) Suggested concept: 'agency'. — *Add 'agency' to thinker concepts.*
-- **[warning]** concept-grounding / thinker `naomi-osaka` — Linked work supports this concept but thinker.concepts omits it. (via work naomi-osaka-it-s-o-k-not-to-be-o-k) Suggested concept: 'athletic-refusal'. — *Add 'athletic-refusal' to thinker concepts.*
-- **[warning]** concept-grounding / thinker `nbc-sports-boston` — Linked work supports this concept but thinker.concepts omits it. (via work nbc-sports-boston-who-gets-most-of-the-credit-brady-or-belichick) Suggested concept: 'accountability'. — *Add 'accountability' to thinker concepts.*
-- **[warning]** concept-grounding / thinker `nbc-sports-boston` — Linked work supports this concept but thinker.concepts omits it. (via work nbc-sports-boston-who-gets-most-of-the-credit-brady-or-belichick) Suggested concept: 'star-as-explanation'. — *Add 'star-as-explanation' to thinker concepts.*
-- **[warning]** concept-grounding / thinker `nfl` — Linked work supports this concept but thinker.concepts omits it. (via work nfl-concussion-protocol-return-to-participation-protocol-overview) Suggested concept: 'incentives'. — *Add 'incentives' to thinker concepts.*
-- **[warning]** concept-grounding / thinker `nfl` — Linked work supports this concept but thinker.concepts omits it. (via work nfl-concussion-protocol-return-to-participation-protocol-overview) Suggested concept: 'playing-hurt-moral-language'. — *Add 'playing-hurt-moral-language' to thinker concepts.*
-- **[warning]** concept-grounding / thinker `nfl-com` — Linked work supports this concept but thinker.concepts omits it. (via work nfl-com-referee-dez-bryant-catch-incomplete-once-ball-hit-ground) Suggested concept: 'authority'. — *Add 'authority' to thinker concepts.*
-- **[warning]** concept-grounding / thinker `nfl-com` — Linked work supports this concept but thinker.concepts omits it. (via work nfl-com-referee-dez-bryant-catch-incomplete-once-ball-hit-ground) Suggested concept: 'interpretation'. — *Add 'interpretation' to thinker concepts.*
-- **[warning]** concept-grounding / thinker `nfl-com` — Linked work supports this concept but thinker.concepts omits it. (via work nfl-com-referee-dez-bryant-catch-incomplete-once-ball-hit-ground) Suggested concept: 'operational-finality'. — *Add 'operational-finality' to thinker concepts.*
-- **[warning]** concept-grounding / thinker `steve-wyche` — Linked work supports this concept but thinker.concepts omits it. (via work steve-wyche-colin-kaepernick-explains-why-he-sat-during-national-anthem) Suggested concept: 'athletic-refusal'. — *Add 'athletic-refusal' to thinker concepts.*
-- **[warning]** concept-grounding / thinker `steve-wyche` — Linked work supports this concept but thinker.concepts omits it. (via work steve-wyche-colin-kaepernick-explains-why-he-sat-during-national-anthem) Suggested concept: 'gesture-afterlife'. — *Add 'gesture-afterlife' to thinker concepts.*
 
 ## Issue counts by category
 
-- pattern-metadata: 100
-- concept-metadata: 82
-- relationship-quality: 79
-- concept-grounding: 27
-- source-metadata: 24
-- thinker-metadata: 21
-- slug-quality: 2
+- thinker-metadata: 250
+- pattern-metadata: 233
+- source-metadata: 218
+- relationship-quality: 84
+- concept-metadata: 79
+- concept-grounding: 36
+- slug-quality: 3
 
 ## Relationship vocabulary (top labels)
 
 - `contrasts` (concept → concept): 80 — e.g. [{'source': 'repair', 'target': 'witness'}, {'source': 'correction', 'target': 'repair'}]
 - `preserves` (concept → concept): 28 — e.g. [{'source': 'friction', 'target': 'corrigibility'}, {'source': 'uncertainty', 'target': 'correction'}]
+- `expresses` (pattern → pattern): 24 — e.g. [{'source': 'compression-loses-the-person', 'target': 'reality-answers-back'}, {'source': 'results-conceal-the-game', 'target': 'reality-answers-back'}]
+- `organizes` (force → pattern): 24 — e.g. [{'source': 'perception', 'target': 'compression-loses-the-person'}, {'source': 'perception', 'target': 'understanding-circulates'}]
 - `structural_tension` (concept → concept): 20 — e.g. [{'source': 'circulation', 'target': 'correction'}, {'source': 'authority', 'target': 'legitimacy'}]
+- `weakens` (pattern → pattern): 20 — e.g. [{'source': 'compression-loses-the-person', 'target': 'understanding-circulates'}, {'source': 'disagreement-is-suppressed', 'target': 'participation-creates-legitimacy'}]
 - `requires` (concept → concept): 18 — e.g. [{'source': 'correction', 'target': 'revisability'}, {'source': 'cohesion', 'target': 'boundary'}]
 - `thins` (concept → concept): 18 — e.g. [{'source': 'scale', 'target': 'correction'}, {'source': 'scale', 'target': 'feedback'}]
+- `enables` (pattern → pattern): 12 — e.g. [{'source': 'understanding-circulates', 'target': 'results-conceal-the-game'}, {'source': 'understanding-circulates', 'target': 'participation-creates-legitimacy'}]
+- `intensifies` (pattern → pattern): 10 — e.g. [{'source': 'results-conceal-the-game', 'target': 'compression-loses-the-person'}, {'source': 'compression-loses-the-person', 'target': 'distance-conceals-consequence'}]
 - `enables` (concept → concept): 8 — e.g. [{'source': 'coupling', 'target': 'correction'}, {'source': 'feedback', 'target': 'correction'}]
+- `grounds` (pattern → force): 8 — e.g. [{'source': 'reality-answers-back', 'target': 'perception'}, {'source': 'reality-answers-back', 'target': 'power'}]
 - `shapes` (concept → concept): 8 — e.g. [{'source': 'boundary', 'target': 'coupling'}, {'source': 'boundary', 'target': 'accountability'}]
 - `precedes` (concept → concept): 6 — e.g. [{'source': 'public-interpretation', 'target': 'interpretive-collapse'}, {'source': 'drift', 'target': 'normalization'}]
 - `grounds` (concept → concept): 4 — e.g. [{'source': 'finite-perspective', 'target': 'bias'}, {'source': 'finite-perspective', 'target': 'trust'}]
-- `renews` (concept → concept): 4 — e.g. [{'source': 'correction', 'target': 'legitimacy'}, {'source': 'coupling', 'target': 'legitimacy'}]
-- `reproduces` (concept → concept): 4 — e.g. [{'source': 'circulation', 'target': 'authority'}, {'source': 'alignment', 'target': 'alignment-at-scale'}]
-- `stabilizes` (concept → concept): 4 — e.g. [{'source': 'certainty', 'target': 'coordination'}, {'source': 'circulation', 'target': 'meaning'}]
-- `calibrates` (concept → concept): 2 — e.g. [{'source': 'feedback', 'target': 'trust'}, {'source': 'feedback', 'target': 'trust'}]
-- `complements` (concept → concept): 2 — e.g. [{'source': 'cohesion', 'target': 'coupling'}, {'source': 'cohesion', 'target': 'coupling'}]
-- `constrains` (concept → concept): 2 — e.g. [{'source': 'certainty', 'target': 'corrigibility'}, {'source': 'certainty', 'target': 'corrigibility'}]
 
 ## Suspected duplicates
 
-- source `madison-james-alexander-hamilton-and-john-jay-the-federalist-papers`: Institution field duplicates a creator name (person misfiled as org).
+- source `fred-rogers-productions-episode-archives-television-hall-of-fame-materials-jeff-erlanger-appeara`: Institution field duplicates a creator name (person misfiled as org).
 
 ## Recommended next fixes
 
@@ -74,8 +74,20 @@
 
 ## Full issue list
 
+### Error
+
+- **source-metadata** — source `berwick-donald-m-era-3-for-medicine-and-health-care` (Era 3 for Medicine and Health Care.): Publication year appears to have been parsed from a page range.
+- **source-metadata** — source `cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus` (A Focus Theory of Normative Conduct): Publication year appears to have been parsed from a page range.
+- **source-metadata** — source `simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes` (Gorillas in Our Midst: Sustained Inattentional Blindness for Dynamic Events.): Publication year appears to have been parsed from a page range.
+- **source-metadata** — source `wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing` (Airbnb and the Rent Gap: Gentrification Through the Sharing Economy.): Publication year appears to have been parsed from a page range.
 ### Warning
 
+- **concept-grounding** — source `berwick-donald-m-developing-and-testing-changes-in-delivery-of-care` (Developing and Testing Changes in Delivery of Care.): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'agile'.
+- **concept-grounding** — source `senge-peter-m-the-fifth-discipline-the-art-and-practice-of-the` (The Fifth Discipline: The Art and Practice of the): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'contestability'.
+- **concept-grounding** — source `senge-peter-m-the-fifth-discipline-the-art-and-practice-of-the` (The Fifth Discipline: The Art and Practice of the): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'correction'.
+- **concept-grounding** — source `senge-peter-m-the-fifth-discipline-the-art-and-practice-of-the` (The Fifth Discipline: The Art and Practice of the): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'feedback'.
+- **concept-grounding** — source `weick-karl-e-the-social-psychology-of-organizing` (The Social Psychology of Organizing): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'interpretation'.
+- **concept-grounding** — thinker `donald-m-berwick` (Donald M Berwick): Linked work supports this concept but thinker.concepts omits it. (via work berwick-donald-m-developing-and-testing-changes-in-delivery-of-care) Suggested concept: 'agile'.
 - **concept-grounding** — thinker `international-football-association-board` (International Football Association Board): Linked work supports this concept but thinker.concepts omits it. (via work international-football-association-board-video-assistant-referee-var-protocol) Suggested concept: 'interpretation'.
 - **concept-grounding** — thinker `international-football-association-board` (International Football Association Board): Linked work supports this concept but thinker.concepts omits it. (via work international-football-association-board-video-assistant-referee-var-protocol) Suggested concept: 'judgment'.
 - **concept-grounding** — thinker `international-football-association-board` (International Football Association Board): Linked work supports this concept but thinker.concepts omits it. (via work international-football-association-board-video-assistant-referee-var-protocol) Suggested concept: 'operational-finality'.
@@ -94,6 +106,9 @@
 - **concept-grounding** — thinker `nfl-com` (NFL.com): Linked work supports this concept but thinker.concepts omits it. (via work nfl-com-referee-dez-bryant-catch-incomplete-once-ball-hit-ground) Suggested concept: 'authority'.
 - **concept-grounding** — thinker `nfl-com` (NFL.com): Linked work supports this concept but thinker.concepts omits it. (via work nfl-com-referee-dez-bryant-catch-incomplete-once-ball-hit-ground) Suggested concept: 'interpretation'.
 - **concept-grounding** — thinker `nfl-com` (NFL.com): Linked work supports this concept but thinker.concepts omits it. (via work nfl-com-referee-dez-bryant-catch-incomplete-once-ball-hit-ground) Suggested concept: 'operational-finality'.
+- **concept-grounding** — thinker `peter-m-senge` (Peter M Senge): Linked work supports this concept but thinker.concepts omits it. (via work senge-peter-m-the-fifth-discipline-the-art-and-practice-of-the) Suggested concept: 'contestability'.
+- **concept-grounding** — thinker `peter-m-senge` (Peter M Senge): Linked work supports this concept but thinker.concepts omits it. (via work senge-peter-m-the-fifth-discipline-the-art-and-practice-of-the) Suggested concept: 'correction'.
+- **concept-grounding** — thinker `peter-m-senge` (Peter M Senge): Linked work supports this concept but thinker.concepts omits it. (via work senge-peter-m-the-fifth-discipline-the-art-and-practice-of-the) Suggested concept: 'feedback'.
 - **concept-grounding** — thinker `steve-wyche` (Steve Wyche): Linked work supports this concept but thinker.concepts omits it. (via work steve-wyche-colin-kaepernick-explains-why-he-sat-during-national-anthem) Suggested concept: 'athletic-refusal'.
 - **concept-grounding** — thinker `steve-wyche` (Steve Wyche): Linked work supports this concept but thinker.concepts omits it. (via work steve-wyche-colin-kaepernick-explains-why-he-sat-during-national-anthem) Suggested concept: 'gesture-afterlife'.
 - **concept-grounding** — thinker `steve-wyche` (Steve Wyche): Linked work supports this concept but thinker.concepts omits it. (via work steve-wyche-colin-kaepernick-explains-why-he-sat-during-national-anthem) Suggested concept: 'meaning'.
@@ -103,32 +118,205 @@
 - **concept-grounding** — thinker `will-graves` (Will Graves): Linked work supports this concept but thinker.concepts omits it. (via work will-graves-biles-withdraws-from-gymnastics-final-to-protect-team-self) Suggested concept: 'agency'.
 - **concept-grounding** — thinker `will-graves` (Will Graves): Linked work supports this concept but thinker.concepts omits it. (via work will-graves-biles-withdraws-from-gymnastics-final-to-protect-team-self) Suggested concept: 'athletic-refusal'.
 - **concept-grounding** — thinker `will-graves` (Will Graves): Linked work supports this concept but thinker.concepts omits it. (via work will-graves-biles-withdraws-from-gymnastics-final-to-protect-team-self) Suggested concept: 'playing-hurt-moral-language'.
+- **slug-quality** — source `clemmons-fran-ois-with-tim-madigan-officer-clemmons` (Clemmons, François, with Tim Madigan — Officer Clemmons): Slug may be stale after title change (diacritic damage).
 - **slug-quality** — thinker `beno-t-monin` (Benoît Monin): Slug appears damaged by diacritic stripping.
 - **slug-quality** — thinker `beno-t-monin` (Benoît Monin): Slug may be stale after title change (diacritic damage).
-- **source-metadata** — source `arrington-leonard-j-great-basin-kingdom` (arrington-leonard-j-great-basin-kingdom): creatorNames[0] 'Leonard J Arrington' != author portion of name 'Leonard J. Arrington'
-- **source-metadata** — source `brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an` (brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an): creatorNames[0] 'Kelly D. Brownell' != author portion of name 'Brownell, Kelly D., and Kenneth E. Warner'
+- **source-metadata** — source `abate-tom-nummi-workers-say-their-final-good-byes` (abate-tom-nummi-workers-say-their-final-good-byes): creatorSlug 'tom-abate' has no matching thinker
+- **source-metadata** — source `acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power` (acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power): creatorSlug 'daron-acemoglu-and-james-a-robinson' has no matching thinker
+- **source-metadata** — source `alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language` (alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language): creatorSlug 'alexander-christopher-sara-ishikawa-murray-silverstein-et-al' has no matching thinker
+- **source-metadata** — source `allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr` (allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr): creatorSlug 'john-allspaw-and-paul-hammond' has no matching thinker
+- **source-metadata** — source `andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr` (andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr): creatorSlug 'lant-pritchett-matthew-andrews-and-michael-woolcock' has no matching thinker
+- **source-metadata** — source `argyris-chris-and-donald-a-schon-organizational-learning-ii` (argyris-chris-and-donald-a-schon-organizational-learning-ii): creatorSlug 'chris-argyris-and-donald-a-sch-n' has no matching thinker
+- **source-metadata** — source `associated-press-taylor-swift-donates-to-food-banks-on-eras-tour-providing-thousands-of-meals` (associated-press-taylor-swift-donates-to-food-banks-on-eras-tour-providing-thousands-of-meals): creatorSlug 'stephanie-beasley' has no matching thinker
+- **source-metadata** — source `barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams` (barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams): creatorSlug 'helena-barke-and-lutz-prechelt' has no matching thinker
+- **source-metadata** — source `baron-jonathan-and-john-c-hershey-outcome-bias-in-decision` (baron-jonathan-and-john-c-hershey-outcome-bias-in-decision): creatorSlug 'john-c-hershey-and-jonathan-baron' has no matching thinker
+- **source-metadata** — source `bebchuk-lucian-a-and-scott-hirst-index-funds-and-the-future-of-corporate-governance-theory-evide` (bebchuk-lucian-a-and-scott-hirst-index-funds-and-the-future-of-corporate-governance-theory-evide): creatorSlug 'lucian-a-bebchuk-and-scott-hirst' has no matching thinker
+- **source-metadata** — source `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr` (beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr): creatorSlug 'alistair-cockburn-andrew-hunt-arie-van-bennekum-brian-marick-dave-thomas-james-grenning-jeff-sutherland-jim-highsmith-jon-kern-ken-schwaber-kent-beck-martin-fowler-mike-beedle-robert-c-martin-ron-jeffries-steve-mellor-and-ward-cunningham' has no matching thinker
+- **source-metadata** — source `belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-apr` (belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-apr): name lacks Author — Title separator and title is missing or equals name: 'Belfast Agreement (Good Friday Agreement). Multi-Party Agreement and British-Irish Agreement, 10 April 1998. London: UK Government. https://www.gov.uk/government/publications/the-belfast-agreement'
+- **source-metadata** — source `belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-apr` (belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-apr): creatorSlug 'belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-april-1998-london-uk-government-https-www-gov-uk-government-publications-the-belfast-agreement' has no matching thinker
+- **source-metadata** — source `belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-apr` (Belfast Agreement (Good Friday Agreement). Multi-Party Agreement and British-Irish Agreement, 10 April 1998. London: UK Government. https://www.gov.uk/government/publications/the-belfast-agreement): Field appears to contain citation or URL fragments.
+- **source-metadata** — source `belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-apr` (Belfast Agreement (Good Friday Agreement). Multi-Party Agreement and British-Irish Agreement, 10 April 1998. London: UK Government. https://www.gov.uk/government/publications/the-belfast-agreement): Creator name appears to be a full citation string.
+- **source-metadata** — source `bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of` (bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of): creatorSlug 'angelina-mcmillan-major-emily-m-bender-shmargaret-shmitchell-and-timnit-gebru' has no matching thinker
+- **source-metadata** — source `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog` (berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog): creatorSlug 'peter-l-berger-and-thomas-luckmann' has no matching thinker
+- **source-metadata** — source `berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-property` (berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-property): creatorSlug 'adolf-a-berle-jr-and-gardiner-c-means' has no matching thinker
+- **source-metadata** — source `beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin` (beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin): creatorSlug 'betsy-beyer-chris-jones-jennifer-petoff-and-niall-richard-murphy' has no matching thinker
+- **source-metadata** — source `blackpast-black-panther-party-s-free-breakfast-program-1969-1980` (blackpast-black-panther-party-s-free-breakfast-program-1969-1980): creatorSlug 'blackpast' has no matching thinker
+- **source-metadata** — source `bowker-geoffrey-c-and-susan-leigh-star-sorting-things-out-classification-and` (bowker-geoffrey-c-and-susan-leigh-star-sorting-things-out-classification-and): creatorSlug 'geoffrey-c-bowker-and-susan-leigh-star' has no matching thinker
+- **source-metadata** — source `brooks-frederick-p-jr-the-mythical-man-month-essays-on-software-engineering` (brooks-frederick-p-jr-the-mythical-man-month-essays-on-software-engineering): creatorSlug 'frederick-p-brooks-jr' has no matching thinker
+- **source-metadata** — source `brown-bren-dare-to-lead-brave-work-tough-conversations-whole` (brown-bren-dare-to-lead-brave-work-tough-conversations-whole): creatorSlug 'bren-brown' has no matching thinker
+- **source-metadata** — source `brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio` (brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio): creatorSlug 'eliot-brown-and-maureen-farrell' has no matching thinker
+- **source-metadata** — source `brown-v-board-of-education-347-u-s-483-1954` (brown-v-board-of-education-347-u-s-483-1954): name lacks Author — Title separator and title is missing or equals name: '347 U.S. 483 (1954) Brown v. Board of Education'
+- **source-metadata** — source `brown-v-board-of-education-347-u-s-483-1954` (brown-v-board-of-education-347-u-s-483-1954): creatorSlug '347-u-s-483-1954-brown-v-board-of-education' has no matching thinker
+- **source-metadata** — source `brown-v-board-of-education-347-u-s-483-1954` (347 U.S. 483 (1954) Brown v. Board of Education): Institutional statistics or report classified like a book.
+- **source-metadata** — source `brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an` (brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an): creatorSlug 'brownell-kelly-d-and-kenneth-e-warner' has no matching thinker
+- **source-metadata** — source `bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california` (bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california): creatorSlug 'nick-bunkley' has no matching thinker
+- **source-metadata** — source `california-african-american-museum-free-breakfast-for-school-children-program` (california-african-american-museum-free-breakfast-for-school-children-program): creatorSlug 'california-african-american-museum' has no matching thinker
+- **source-metadata** — source `cappelli-peter-and-anna-tavis-the-performance-management-revolution` (cappelli-peter-and-anna-tavis-the-performance-management-revolution): creatorSlug 'cappelli-peter-and-anna-tavis' has no matching thinker
 - **source-metadata** — source `center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-open` (OpenSecrets fundraising totals and donor reporting): Institutional statistics or report classified like a book.
-- **source-metadata** — source `ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193` (ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193): creatorNames[0] 'Larry Ceplair' != author portion of name 'Ceplair, Larry, and Steven Englund'
-- **source-metadata** — source `desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire` (desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire): creatorNames[0] 'Ashwin Desai' != author portion of name 'Desai, Ashwin, and Goolam Vahed'
+- **source-metadata** — source `ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193` (ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193): creatorSlug 'ceplair-larry-and-steven-englund' has no matching thinker
+- **source-metadata** — source `church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp` (church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp): creatorSlug 'church-committee' has no matching thinker
+- **source-metadata** — source `church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp` (Final Report of the Select Committee to Study Governmental Operations with Respect to Intelligence Activities): Institutional statistics or report classified like a book.
+- **source-metadata** — source `cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus` (cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus): creatorSlug 'carl-a-kallgren-raymond-r-reno-and-robert-b-cialdini' has no matching thinker
+- **source-metadata** — source `columbia-accident-investigation-board-report-of-the-columbia-accident-investigation-board` (Report of the Columbia Accident Investigation Board): Institutional statistics or report classified like a book.
+- **source-metadata** — source `constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution` (constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution): name lacks Author — Title separator and title is missing or equals name: 'Constitution of the Republic of South Africa Act 200 of 1993 (Interim Constitution)'
+- **source-metadata** — source `constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution` (constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution): creatorSlug 'constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution' has no matching thinker
+- **source-metadata** — source `corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy` (corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy): creatorSlug 'javier-corrales-and-michael-penfold' has no matching thinker
+- **source-metadata** — source `d-rner-dietrich-the-logic-of-failure-recognizing-and-avoiding-error` (d-rner-dietrich-the-logic-of-failure-recognizing-and-avoiding-error): creatorSlug 'dietrich-d-rner' has no matching thinker
+- **source-metadata** — source `dekker-sidney-w-a-just-culture-restoring-trust-and-accountability` (dekker-sidney-w-a-just-culture-restoring-trust-and-accountability): creatorSlug 'sidney-w-a-dekker' has no matching thinker
+- **source-metadata** — source `demarco-tom-and-timothy-lister-slack-getting-past-burnout-busywork-and-the` (demarco-tom-and-timothy-lister-slack-getting-past-burnout-busywork-and-the): creatorSlug 'timothy-lister-and-tom-demarco' has no matching thinker
+- **source-metadata** — source `demarco-tom-and-timothy-r-lister-peopleware-productive-projects` (demarco-tom-and-timothy-r-lister-peopleware-productive-projects): creatorSlug 'timothy-r-lister-and-tom-demarco' has no matching thinker
+- **source-metadata** — source `desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire` (desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire): creatorSlug 'desai-ashwin-and-goolam-vahed' has no matching thinker
+- **source-metadata** — source `dik-tter-frank-the-cultural-revolution-a-people-s-history-1962-1976` (dik-tter-frank-the-cultural-revolution-a-people-s-history-1962-1976): creatorSlug 'frank-dik-tter' has no matching thinker
+- **source-metadata** — source `dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca` (dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca): creatorSlug 'casper-lassenius-karina-dikert-and-maria-paasivaara' has no matching thinker
+- **source-metadata** — source `eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth` (eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth): creatorSlug 'alice-h-eagly-and-linda-l-carli' has no matching thinker
+- **source-metadata** — source `eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction` (eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction): name lacks Author — Title separator and title is missing or equals name: 'Eisenhower, Dwight D. Executive Order 10730, "Providing Assistance for the Removal of an Obstruction of Justice within the State of Arkansas." 24 September 1957. National Archives. https://www.archives.gov/milestone-documents/executive-order-10730'
+- **source-metadata** — source `eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction` (eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction): creatorSlug 'eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction-of-justice-within-the-state-of-arkansas-24-september-1957-national-archives-https-www-archives-gov-milestone-documents-executive-order-10730' has no matching thinker
+- **source-metadata** — source `eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction` (Eisenhower, Dwight D. Executive Order 10730, "Providing Assistance for the Removal of an Obstruction of Justice within the State of Arkansas." 24 September 1957. National Archives. https://www.archives.gov/milestone-documents/executive-order-10730): Field appears to contain citation or URL fragments.
+- **source-metadata** — source `eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction` (Eisenhower, Dwight D. Executive Order 10730, "Providing Assistance for the Removal of an Obstruction of Justice within the State of Arkansas." 24 September 1957. National Archives. https://www.archives.gov/milestone-documents/executive-order-10730): Creator name appears to be a full citation string.
+- **source-metadata** — source `electoral-commission-of-south-africa-27-apr-1994-national-election` (electoral-commission-of-south-africa-27-apr-1994-national-election): creatorSlug 'electoral-commission-of-south-africa' has no matching thinker
+- **source-metadata** — source `encyclopedia-of-arkansas-lost-year` (encyclopedia-of-arkansas-lost-year): creatorSlug 'encyclopedia-of-arkansas' has no matching thinker
+- **source-metadata** — source `escud-carlos-argentine-political-culture` (escud-carlos-argentine-political-culture): creatorSlug 'carlos-escud' has no matching thinker
 - **source-metadata** — source `every-student-succeeds-act-of-2015-pub-l-no-114-95-1111-1112` (Every Student Succeeds Act of 2015): Publication year is earlier than 1500.
+- **source-metadata** — source `fahey-liam-and-robert-m-randall-eds-learning-from-the-future` (fahey-liam-and-robert-m-randall-eds-learning-from-the-future): creatorSlug 'liam-fahey-and-robert-m-randall' has no matching thinker
+- **source-metadata** — source `federal-aviation-administration-and-nasa-aviation-safety-reporting-system-asrs` (federal-aviation-administration-and-nasa-aviation-safety-reporting-system-asrs): creatorSlug 'federal-aviation-administration' has no matching thinker
+- **source-metadata** — source `federal-aviation-administration-mcdonnell-douglas-dc-8-61` (federal-aviation-administration-mcdonnell-douglas-dc-8-61): creatorSlug 'federal-aviation-administration' has no matching thinker
 - **source-metadata** — source `federal-election-commission-campaign-finance-disclosure-data-https-www-fec-gov` (Campaign finance disclosure data): Institutional statistics or report classified like a book.
 - **source-metadata** — source `federal-reserve-bank-of-philadelphia-survey-of-professional-forecasters` (Survey of Professional Forecasters): Institutional statistics or report classified like a book.
+- **source-metadata** — source `festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails` (festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails): creatorSlug 'henry-w-riecken-leon-festinger-and-stanley-schachter' has no matching thinker
 - **source-metadata** — source `financial-stability-board-implementation-and-effects-of-the-g20-financial-regulatory-reforms` (Implementation and Effects of the G20 Financial Regulatory Reforms): Institutional statistics or report classified like a book.
-- **source-metadata** — source `government-of-south-africa-truth-and-reconciliation-commission-final-report` (government-of-south-africa-truth-and-reconciliation-commission-final-report): creatorNames[0] 'Truth and Reconciliation Commission (South Africa)' != author portion of name 'Government of South Africa. Truth and Reconciliation Commission'
+- **source-metadata** — source `fisher-roger-william-ury-and-bruce-patton-getting-to-yes-negotiating-agreement-without-giving-in` (fisher-roger-william-ury-and-bruce-patton-getting-to-yes-negotiating-agreement-without-giving-in): creatorSlug 'bruce-patton-roger-fisher-and-william-ury' has no matching thinker
+- **source-metadata** — source `ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c` (ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c): creatorSlug 'neal-ford-patrick-kua-and-rebecca-parsons' has no matching thinker
+- **source-metadata** — source `forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build` (forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build): creatorSlug 'gene-kim-jez-humble-and-nicole-forsgren' has no matching thinker
+- **source-metadata** — source `founders-online-national-archives-from-george-washington-to-officers-of-the-army-15-march-1783` (founders-online-national-archives-from-george-washington-to-officers-of-the-army-15-march-1783): creatorSlug 'national-archives-founders-online' has no matching thinker
+- **source-metadata** — source `fred-rogers-productions-episode-archives-television-hall-of-fame-materials-jeff-erlanger-appeara` (Episode archives; Television Hall of Fame materials (Jeff Erlanger appearances)): Institution field duplicates a creator name (person misfiled as org).
+- **source-metadata** — source `freeh-sporkin-sullivan-llc-report-of-the-special-investigative-counsel-regarding-the-actions-of` (Report of the Special Investigative Counsel Regarding the Actions of the Pennsylvania State University Related to the Child Sexual Abuse Committed by Gerald A. Sandusky): Institutional statistics or report classified like a book.
+- **source-metadata** — source `french-john-r-p-and-bertram-raven-the-bases-of-social-power` (french-john-r-p-and-bertram-raven-the-bases-of-social-power): creatorSlug 'bertram-raven-and-john-r-p-french' has no matching thinker
+- **source-metadata** — source `garud-raghu-and-peter-karn-e-path-dependence-and-creation` (garud-raghu-and-peter-karn-e-path-dependence-and-creation): creatorSlug 'peter-karn-e-and-raghu-garud' has no matching thinker
+- **source-metadata** — source `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum` (gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum): creatorSlug 'briana-vecchione-hal-daum-iii-hanna-wallach-jamie-morgenstern-jennifer-wortman-vaughan-kate-crawford-and-timnit-gebru' has no matching thinker
+- **source-metadata** — source `goldratt-eliyahu-m-and-jeff-cox-the-goal-a-process-of-ongoing` (goldratt-eliyahu-m-and-jeff-cox-the-goal-a-process-of-ongoing): creatorSlug 'eliyahu-m-goldratt-and-jeff-cox' has no matching thinker
+- **source-metadata** — source `government-of-south-africa-truth-and-reconciliation-commission-final-report` (government-of-south-africa-truth-and-reconciliation-commission-final-report): creatorSlug 'government-of-south-africa-truth-and-reconciliation-commission' has no matching thinker
 - **source-metadata** — source `government-of-south-africa-truth-and-reconciliation-commission-final-report` (Final Report): Institutional statistics or report classified like a book.
-- **source-metadata** — source `hovland-carl-i-and-walter-weiss-the-influence-of-source-credibility-on-communication-effectivene` (hovland-carl-i-and-walter-weiss-the-influence-of-source-credibility-on-communication-effectivene): creatorNames[0] 'Carl I. Hovland' != author portion of name 'Hovland, Carl I., and Walter Weiss'
+- **source-metadata** — source `habermas-j-rgen-the-theory-of-communicative-action` (habermas-j-rgen-the-theory-of-communicative-action): creatorSlug 'j-rgen-habermas' has no matching thinker
+- **source-metadata** — source `harvard-university-pluralism-project-langar-the-communal-meal` (harvard-university-pluralism-project-langar-the-communal-meal): creatorSlug 'harvard-university-pluralism-project' has no matching thinker
+- **source-metadata** — source `havel-vaclav-the-power-of-the-powerless` (havel-vaclav-the-power-of-the-powerless): creatorSlug 'v-clav-havel' has no matching thinker
+- **source-metadata** — source `hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less` (hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less): creatorSlug 'christopher-hood-and-ruth-dixon' has no matching thinker
+- **source-metadata** — source `horwitz-jeff-and-deepa-seetharaman-facebook-executives-shut-down-efforts-to-make-the-site-less-d` (horwitz-jeff-and-deepa-seetharaman-facebook-executives-shut-down-efforts-to-make-the-site-less-d): creatorSlug 'horwitz-jeff-and-deepa-seetharaman' has no matching thinker
+- **source-metadata** — source `hovland-carl-i-and-walter-weiss-the-influence-of-source-credibility-on-communication-effectivene` (hovland-carl-i-and-walter-weiss-the-influence-of-source-credibility-on-communication-effectivene): creatorSlug 'hovland-carl-i-and-walter-weiss' has no matching thinker
+- **source-metadata** — source `humble-jez-and-david-farley-continuous-delivery-reliable-software-releases-through-build-test-an` (humble-jez-and-david-farley-continuous-delivery-reliable-software-releases-through-build-test-an): creatorSlug 'david-farley-and-jez-humble' has no matching thinker
+- **source-metadata** — source `international-sustainability-standards-board-issb-ifrs-s1-general-requirements-for-disclosure-of` (IFRS S1 and S2 sustainability and climate-related disclosures): Institutional statistics or report classified like a book.
+- **source-metadata** — source `jensen-michael-c-and-william-h-meckling-theory-of-the-firm-managerial-behavior-agency-costs-and` (jensen-michael-c-and-william-h-meckling-theory-of-the-firm-managerial-behavior-agency-costs-and): creatorSlug 'michael-c-jensen-and-william-h-meckling' has no matching thinker
+- **source-metadata** — source `jones-jeffrey-m-last-trump-job-approval-34-average-is-record-low-41` (jones-jeffrey-m-last-trump-job-approval-34-average-is-record-low-41): creatorSlug 'jeffrey-m-jones' has no matching thinker
+- **source-metadata** — source `jones-jeffrey-m-trump-approval-more-stable-than-approval-for-prior-presidents` (jones-jeffrey-m-trump-approval-more-stable-than-approval-for-prior-presidents): creatorSlug 'jeffrey-m-jones' has no matching thinker
+- **source-metadata** — source `jones-jeffrey-m-trump-job-approval-sets-new-record-for-polarization` (jones-jeffrey-m-trump-job-approval-sets-new-record-for-polarization): creatorSlug 'jeffrey-m-jones' has no matching thinker
+- **source-metadata** — source `kahneman-daniel-and-amos-tversky-prospect-theory-an-analysis-of-decision-under-risk` (kahneman-daniel-and-amos-tversky-prospect-theory-an-analysis-of-decision-under-risk): creatorSlug 'kahneman-daniel-and-amos-tversky' has no matching thinker
+- **source-metadata** — source `kahneman-daniel-and-gary-klein-conditions-for-intuitive-expertise-a-failure-to-disagree` (kahneman-daniel-and-gary-klein-conditions-for-intuitive-expertise-a-failure-to-disagree): creatorSlug 'kahneman-daniel-and-gary-klein' has no matching thinker
+- **source-metadata** — source `keep-william-w-and-peter-j-vander-nat-multilevel-marketing-and-pyramid-schemes-in-the-united-sta` (keep-william-w-and-peter-j-vander-nat-multilevel-marketing-and-pyramid-schemes-in-the-united-sta): creatorSlug 'peter-j-vander-nat-and-william-w-keep' has no matching thinker
+- **source-metadata** — source `kessler-glenn-salvador-rizzo-and-meg-kelly-president-trump-has-made-more-than-20-000-false-or-mi` (kessler-glenn-salvador-rizzo-and-meg-kelly-president-trump-has-made-more-than-20-000-false-or-mi): creatorSlug 'kessler-glenn-salvador-rizzo-and-meg-kelly' has no matching thinker
+- **source-metadata** — source `kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class` (kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class): creatorSlug 'gene-kim-jez-humble-john-willis-and-patrick-debois' has no matching thinker
+- **source-metadata** — source `kim-gene-kevin-behr-and-george-spafford-the-phoenix-project-a-novel-about-it-devops-and-helping` (kim-gene-kevin-behr-and-george-spafford-the-phoenix-project-a-novel-about-it-devops-and-helping): creatorSlug 'gene-kim-george-spafford-and-kevin-behr' has no matching thinker
+- **source-metadata** — source `king-martin-luther-jr-letter-from-birmingham-jail` (king-martin-luther-jr-letter-from-birmingham-jail): creatorSlug 'martin-luther-king-jr' has no matching thinker
 - **source-metadata** — source `knight-foundation-and-gallup-american-views-trust-media-and-democracy` (American Views: Trust, Media and Democracy): Institutional statistics or report classified like a book.
+- **source-metadata** — source `krier-l-on-the-architecture-of-community` (krier-l-on-the-architecture-of-community): creatorSlug 'l-on-krier' has no matching thinker
+- **source-metadata** — source `kwan-janice-l-lisha-lo-margaret-sampson-and-kaveh-g-shojania-medication-reconciliation-during-tr` (kwan-janice-l-lisha-lo-margaret-sampson-and-kaveh-g-shojania-medication-reconciliation-during-tr): creatorSlug 'kwan-janice-l-lisha-lo-margaret-sampson-and-kaveh-g-shojania' has no matching thinker
+- **source-metadata** — source `lakoff-george-and-mark-johnson-metaphors-we-live-by` (lakoff-george-and-mark-johnson-metaphors-we-live-by): creatorSlug 'george-lakoff-and-mark-johnson' has no matching thinker
 - **source-metadata** — source `learning-policy-institute-teacher-shortages-and-turnover-in-the-united-states` (Teacher Shortages and Turnover in the United States): Institutional statistics or report classified like a book.
-- **source-metadata** — source `lupia-arthur-and-mathew-d-mccubbins-the-democratic-dilemma-can-citizens-learn-what-they-need-to` (lupia-arthur-and-mathew-d-mccubbins-the-democratic-dilemma-can-citizens-learn-what-they-need-to): creatorNames[0] 'Arthur Lupia' != author portion of name 'Lupia, Arthur, and Mathew D. McCubbins'
-- **source-metadata** — source `madison-james-alexander-hamilton-and-john-jay-the-federalist-papers` (The Federalist Papers): Institution field duplicates a creator name (person misfiled as org).
-- **source-metadata** — source `mason-patrick-q-and-j-david-pulsipher-proclaim-peace` (mason-patrick-q-and-j-david-pulsipher-proclaim-peace): creatorNames[0] 'Patrick Q Mason' != author portion of name 'Patrick Q. Mason and J. David Pulsipher'
-- **source-metadata** — source `merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to` (merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to): creatorNames[0] 'Anna C. Merritt' != author portion of name 'Merritt, Anna C., Daniel A. Effron, and Benoît Monin'
-- **source-metadata** — source `nissen-hans-j-peter-damerow-and-robert-k-englund-archaic` (nissen-hans-j-peter-damerow-and-robert-k-englund-archaic): creatorNames[0] 'Hans J. Nissen' != author portion of name 'Nissen, Hans J., Peter Damerow, and Robert K. Englund'
+- **source-metadata** — source `leveson-nancy-g-and-clark-s-turner-an-investigation-of-the-therac-25-accidents` (leveson-nancy-g-and-clark-s-turner-an-investigation-of-the-therac-25-accidents): creatorSlug 'leveson-nancy-g-and-clark-s-turner' has no matching thinker
+- **source-metadata** — source `lewis-catherine-c-rebecca-r-perry-and-akihiko-murata-how-should-research-contribute-to-instructi` (lewis-catherine-c-rebecca-r-perry-and-akihiko-murata-how-should-research-contribute-to-instructi): creatorSlug 'akihiko-murata-catherine-c-lewis-and-rebecca-r-perry' has no matching thinker
+- **source-metadata** — source `liebowitz-s-j-and-stephen-e-margolis-path-dependence-lock-in-and-history` (liebowitz-s-j-and-stephen-e-margolis-path-dependence-lock-in-and-history): creatorSlug 's-j-liebowitz-and-stephen-e-margolis' has no matching thinker
+- **source-metadata** — source `lord-charles-g-lee-ross-and-mark-r-lepper-biased-assimilation-and-attitude-polarization-the-effe` (lord-charles-g-lee-ross-and-mark-r-lepper-biased-assimilation-and-attitude-polarization-the-effe): creatorSlug 'charles-g-lord-lee-ross-and-mark-r-lepper' has no matching thinker
+- **source-metadata** — source `lovell-jim-and-jeffrey-kluger-lost-moon-the-perilous-voyage-of-apollo-13` (lovell-jim-and-jeffrey-kluger-lost-moon-the-perilous-voyage-of-apollo-13): creatorSlug 'jeffrey-kluger-and-jim-lovell' has no matching thinker
+- **source-metadata** — source `lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark` (lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark): creatorSlug 'lowcountry-digital-history-initiative' has no matching thinker
+- **source-metadata** — source `lowcountry-digital-history-initiative-the-progressive-club-johns-island` (lowcountry-digital-history-initiative-the-progressive-club-johns-island): creatorSlug 'lowcountry-digital-history-initiative' has no matching thinker
+- **source-metadata** — source `lupia-arthur-and-mathew-d-mccubbins-the-democratic-dilemma-can-citizens-learn-what-they-need-to` (lupia-arthur-and-mathew-d-mccubbins-the-democratic-dilemma-can-citizens-learn-what-they-need-to): creatorSlug 'lupia-arthur-and-mathew-d-mccubbins' has no matching thinker
+- **source-metadata** — source `macfarquhar-roderick-and-michael-schoenhals-mao-s-last-revolution` (macfarquhar-roderick-and-michael-schoenhals-mao-s-last-revolution): creatorSlug 'michael-schoenhals-and-roderick-macfarquhar' has no matching thinker
+- **source-metadata** — source `march-james-g-and-herbert-a-simon-organizations` (march-james-g-and-herbert-a-simon-organizations): creatorSlug 'march-james-g-and-herbert-a-simon' has no matching thinker
+- **source-metadata** — source `march-james-g-and-johan-p-olsen-rediscovering-institutions-the` (march-james-g-and-johan-p-olsen-rediscovering-institutions-the): creatorSlug 'james-g-march-and-johan-p-olsen' has no matching thinker
+- **source-metadata** — source `martin-luther-king-jr-research-and-education-institute-stanford-university-i-have-a-dream` (martin-luther-king-jr-research-and-education-institute-stanford-university-i-have-a-dream): creatorSlug 'martin-luther-king-jr-research-and-education-institute-stanford-university' has no matching thinker
+- **source-metadata** — source `maslach-christina-and-michael-p-leiter-the-truth-about-burnout` (maslach-christina-and-michael-p-leiter-the-truth-about-burnout): creatorSlug 'christina-maslach-and-michael-p-leiter' has no matching thinker
+- **source-metadata** — source `mason-patrick-q-and-j-david-pulsipher-proclaim-peace` (mason-patrick-q-and-j-david-pulsipher-proclaim-peace): creatorSlug 'patrick-q-mason-and-j-david-pulsipher' has no matching thinker
+- **source-metadata** — source `mccombs-maxwell-e-and-donald-l-shaw-the-agenda-setting-function-of-mass-media` (mccombs-maxwell-e-and-donald-l-shaw-the-agenda-setting-function-of-mass-media): creatorSlug 'donald-l-shaw-and-maxwell-e-mccombs' has no matching thinker
+- **source-metadata** — source `mcpherson-miller-lynn-smith-lovin-and-james-m-cook-birds-of-a-feather-homophily-in-social-networ` (mcpherson-miller-lynn-smith-lovin-and-james-m-cook-birds-of-a-feather-homophily-in-social-networ): creatorSlug 'james-m-cook-lynn-smith-lovin-and-miller-mcpherson' has no matching thinker
+- **source-metadata** — source `merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to` (merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to): creatorSlug 'merritt-anna-c-daniel-a-effron-and-beno-t-monin' has no matching thinker
+- **source-metadata** — source `mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp` (mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp): creatorSlug 'andrew-zaldivar-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-lucy-vasserman-margaret-mitchell-parker-barnes-simone-wu-and-timnit-gebru' has no matching thinker
+- **source-metadata** — source `morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman-emergency-departme` (morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman-emergency-departme): creatorSlug 'morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman' has no matching thinker
+- **source-metadata** — source `mount-vernon-newburgh-address` (mount-vernon-newburgh-address): creatorSlug 'mount-vernon' has no matching thinker
+- **source-metadata** — source `mount-vernon-newburgh-conspiracy` (mount-vernon-newburgh-conspiracy): creatorSlug 'mount-vernon' has no matching thinker
+- **source-metadata** — source `national-aeronautics-and-space-administration-apollo-11-mission-report` (national-aeronautics-and-space-administration-apollo-11-mission-report): creatorSlug 'national-aeronautics-and-space-administration' has no matching thinker
+- **source-metadata** — source `national-aeronautics-and-space-administration-aviation-safety-reporting-system-asrs-program-mate` (national-aeronautics-and-space-administration-aviation-safety-reporting-system-asrs-program-mate): creatorSlug 'national-aeronautics-and-space-administration' has no matching thinker
+- **source-metadata** — source `national-aeronautics-and-space-administration-managing-nasa-in-the-apollo-era` (national-aeronautics-and-space-administration-managing-nasa-in-the-apollo-era): creatorSlug 'national-aeronautics-and-space-administration' has no matching thinker
+- **source-metadata** — source `national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p` (national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p): name lacks Author — Title separator and title is missing or equals name: 'National Museum of African American History and Culture. Black Panther Party community survival programs. Washington, DC: Smithsonian Institution. https://nmaahc.si.edu/'
+- **source-metadata** — source `national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p` (national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p): creatorSlug 'national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-programs-washington-dc-smithsonian-institution-https-nmaahc-si-edu' has no matching thinker
+- **source-metadata** — source `national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p` (National Museum of African American History and Culture. Black Panther Party community survival programs. Washington, DC: Smithsonian Institution. https://nmaahc.si.edu/): Field appears to contain citation or URL fragments.
+- **source-metadata** — source `national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p` (National Museum of African American History and Culture. Black Panther Party community survival programs. Washington, DC: Smithsonian Institution. https://nmaahc.si.edu/): Creator name appears to be a full citation string.
+- **source-metadata** — source `national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p` (National Museum of African American History and Culture. Black Panther Party community survival programs. Washington, DC: Smithsonian Institution. https://nmaahc.si.edu/): Institutional statistics or report classified like a book.
+- **source-metadata** — source `national-museum-of-american-history-i-have-a-dream` (national-museum-of-american-history-i-have-a-dream): creatorSlug 'national-museum-of-american-history' has no matching thinker
+- **source-metadata** — source `national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-c` (national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-c): name lacks Author — Title separator and title is missing or equals name: 'National Park Service. Little Rock Central High School National Historic Site. https://www.nps.gov/chsc/'
+- **source-metadata** — source `national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-c` (national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-c): creatorSlug 'national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-chsc' has no matching thinker
+- **source-metadata** — source `national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-c` (National Park Service. Little Rock Central High School National Historic Site. https://www.nps.gov/chsc/): Field appears to contain citation or URL fragments.
+- **source-metadata** — source `national-park-service-march-history` (national-park-service-march-history): creatorSlug 'national-park-service' has no matching thinker
+- **source-metadata** — source `national-park-service-march-on-washington-for-jobs-and-freedom` (national-park-service-march-on-washington-for-jobs-and-freedom): creatorSlug 'national-park-service' has no matching thinker
+- **source-metadata** — source `national-park-service-pullman-national-historical-park-https-www-nps-gov-pull` (national-park-service-pullman-national-historical-park-https-www-nps-gov-pull): name lacks Author — Title separator and title is missing or equals name: 'National Park Service. Pullman National Historical Park. https://www.nps.gov/pull/'
+- **source-metadata** — source `national-park-service-pullman-national-historical-park-https-www-nps-gov-pull` (national-park-service-pullman-national-historical-park-https-www-nps-gov-pull): creatorSlug 'national-park-service-pullman-national-historical-park-https-www-nps-gov-pull' has no matching thinker
+- **source-metadata** — source `national-park-service-pullman-national-historical-park-https-www-nps-gov-pull` (National Park Service. Pullman National Historical Park. https://www.nps.gov/pull/): Field appears to contain citation or URL fragments.
+- **source-metadata** — source `national-transportation-safety-board-aircraft-accident-report-united-airlines-inc-mcdonnell-doug` (national-transportation-safety-board-aircraft-accident-report-united-airlines-inc-mcdonnell-doug): creatorSlug 'national-transportation-safety-board' has no matching thinker
+- **source-metadata** — source `national-transportation-safety-board-aircraft-accident-report-united-airlines-inc-mcdonnell-doug` (Aircraft Accident Report: United Airlines, Inc., McDonnell-Douglas DC-8-61, N8082U, Portland, Oregon, December 28, 1978): Institutional statistics or report classified like a book.
+- **source-metadata** — source `nissen-hans-j-peter-damerow-and-robert-k-englund-archaic` (nissen-hans-j-peter-damerow-and-robert-k-englund-archaic): creatorSlug 'nissen-hans-j-peter-damerow-and-robert-k-englund' has no matching thinker
+- **source-metadata** — source `northern-ireland-department-of-justice-department-of-justice-interface-programme` (northern-ireland-department-of-justice-department-of-justice-interface-programme): creatorSlug 'northern-ireland-department-of-justice' has no matching thinker
+- **source-metadata** — source `northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referen` (northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referen): name lacks Author — Title separator and title is missing or equals name: 'Northern Ireland Office / Electoral Office for Northern Ireland. Results of the 22 May 1998 referendum on the Belfast Agreement'
+- **source-metadata** — source `northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referen` (northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referen): creatorSlug 'northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referendum-on-the-belfast-agreement' has no matching thinker
+- **source-metadata** — source `northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referen` (Northern Ireland Office / Electoral Office for Northern Ireland. Results of the 22 May 1998 referendum on the Belfast Agreement): Creator name appears to be a full citation string.
+- **source-metadata** — source `occupational-safety-and-health-administration-cranes-and-derricks` (occupational-safety-and-health-administration-cranes-and-derricks): creatorSlug 'occupational-safety-and-health-administration' has no matching thinker
+- **source-metadata** — source `occupational-safety-and-health-administration-cranes-and-derricks-in-construction-final-rule` (occupational-safety-and-health-administration-cranes-and-derricks-in-construction-final-rule): creatorSlug 'occupational-safety-and-health-administration' has no matching thinker
+- **source-metadata** — source `odea-thomas-f-the-mormons` (odea-thomas-f-the-mormons): creatorSlug 'thomas-f-o-dea' has no matching thinker
 - **source-metadata** — source `organisation-for-economic-co-operation-and-development-pisa-2022-results` (PISA 2022 Results): Institutional statistics or report classified like a book.
+- **source-metadata** — source `owasp-foundation-owasp-top-10-for-large-language-model-applications` (OWASP Top 10 for Large Language Model Applications): Institutional statistics or report classified like a book.
+- **source-metadata** — source `parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth` (parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth): creatorSlug 'ashley-parker-and-michael-scherer' has no matching thinker
+- **source-metadata** — source `perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai` (perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai): creatorSlug 'dan-boneh-deepak-kumar-megha-srivastava-and-neil-perry' has no matching thinker
+- **source-metadata** — source `pettigrew-thomas-f-and-linda-r-tropp-a-meta-analytic-test-of-intergroup-contact-theory` (pettigrew-thomas-f-and-linda-r-tropp-a-meta-analytic-test-of-intergroup-contact-theory): creatorSlug 'pettigrew-thomas-f-and-linda-r-tropp' has no matching thinker
 - **source-metadata** — source `pew-research-center-a-guide-to-pew-research-center-s-methodology` (A Guide to Pew Research Center's Methodology): Institutional statistics or report classified like a book.
+- **source-metadata** — source `pollitt-christopher-and-geert-bouckaert-public-management-reform-a-comparative-analysis` (pollitt-christopher-and-geert-bouckaert-public-management-reform-a-comparative-analysis): creatorSlug 'christopher-pollitt-and-geert-bouckaert' has no matching thinker
+- **source-metadata** — source `popper-karl-the-open-society-and-its-enemies` (popper-karl-the-open-society-and-its-enemies): creatorSlug 'karl-popper' has no matching thinker
+- **source-metadata** — source `president-s-commission-on-the-space-shuttle-challenger-accident-report-of-the-presidential-commi` (Report of the Presidential Commission on the Space Shuttle Challenger Accident): Institutional statistics or report classified like a book.
+- **source-metadata** — source `presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission-report-of-the` (presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission-report-of-the): creatorSlug 'presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission' has no matching thinker
+- **source-metadata** — source `presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission-report-of-the` (Report of the Presidential Commission on the Space Shuttle Challenger Accident): Institutional statistics or report classified like a book.
+- **source-metadata** — source `reinhart-carmen-m-and-kenneth-s-rogoff-this-time-is-different-eight-centuries-of-financial-folly` (reinhart-carmen-m-and-kenneth-s-rogoff-this-time-is-different-eight-centuries-of-financial-folly): creatorSlug 'carmen-m-reinhart-and-kenneth-s-rogoff' has no matching thinker
 - **source-metadata** — source `reuters-institute-for-the-study-of-journalism-digital-news-report-2024` (Digital News Report 2024): Institutional statistics or report classified like a book.
-- **source-metadata** — source `san-francisco-declaration-on-research-assessment-dora-2012-https-sfdora-org` (san-francisco-declaration-on-research-assessment-dora-2012-https-sfdora-org): creatorNames[0] 'DORA (San Francisco Declaration on Research Assessment)' != author portion of name 'DORA'
+- **source-metadata** — source `reynolds-v-sims-377-u-s-533-1964` (reynolds-v-sims-377-u-s-533-1964): name lacks Author — Title separator and title is missing or equals name: '377 U.S. 533 (1964) Reynolds v. Sims'
+- **source-metadata** — source `reynolds-v-sims-377-u-s-533-1964` (reynolds-v-sims-377-u-s-533-1964): creatorSlug '377-u-s-533-1964-reynolds-v-sims' has no matching thinker
+- **source-metadata** — source `ross-lee-and-andrew-ward-naive-realism-in-everyday-life` (ross-lee-and-andrew-ward-naive-realism-in-everyday-life): creatorSlug 'lee-ross-and-andrew-ward' has no matching thinker
+- **source-metadata** — source `ross-lee-and-richard-nisbett-the-person-and-the-situation` (ross-lee-and-richard-nisbett-the-person-and-the-situation): creatorSlug 'lee-ross-and-richard-nisbett' has no matching thinker
+- **source-metadata** — source `ross-lee-the-intuitive-psychologist-and-his-shortcomings` (ross-lee-the-intuitive-psychologist-and-his-shortcomings): creatorSlug 'lee-ross-and-richard-nisbett' has no matching thinker
+- **source-metadata** — source `san-francisco-declaration-on-research-assessment-dora-2012-https-sfdora-org` (san-francisco-declaration-on-research-assessment-dora-2012-https-sfdora-org): creatorSlug 'dora' has no matching thinker
+- **source-metadata** — source `sch-n-donald-a-the-reflective-practitioner-how-professionals-think` (sch-n-donald-a-the-reflective-practitioner-how-professionals-think): creatorSlug 'donald-a-sch-n' has no matching thinker
+- **source-metadata** — source `shklar-judith-n-putting-cruelty-first` (shklar-judith-n-putting-cruelty-first): creatorSlug 'judith-n-shklar' has no matching thinker
+- **source-metadata** — source `simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes` (simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes): creatorSlug 'christopher-f-chabris-and-daniel-j-simons' has no matching thinker
+- **source-metadata** — source `skelton-matthew-and-manuel-pais-team-topologies-organizing-business-and-technology-teams-for-fas` (skelton-matthew-and-manuel-pais-team-topologies-organizing-business-and-technology-teams-for-fas): creatorSlug 'manuel-pais-and-matthew-skelton' has no matching thinker
+- **source-metadata** — source `sncc-digital-gateway-birth-of-sncc` (sncc-digital-gateway-birth-of-sncc): creatorSlug 'sncc-digital-gateway' has no matching thinker
+- **source-metadata** — source `solzhenitsyn-aleksandr-i-the-gulag-archipelago-1918-1956-an-experiment-in-literary-investigation` (solzhenitsyn-aleksandr-i-the-gulag-archipelago-1918-1956-an-experiment-in-literary-investigation): creatorSlug 'aleksandr-i-solzhenitsyn' has no matching thinker
+- **source-metadata** — source `star-susan-leigh-and-anselm-strauss-layers-of-silence-arenas-of-voice-the-ecology-of-visible-and` (star-susan-leigh-and-anselm-strauss-layers-of-silence-arenas-of-voice-the-ecology-of-visible-and): creatorSlug 'anselm-strauss-and-susan-leigh-star' has no matching thinker
+- **source-metadata** — source `star-susan-leigh-and-james-r-griesemer-institutional-ecology-translations-and-boundary-objects` (star-susan-leigh-and-james-r-griesemer-institutional-ecology-translations-and-boundary-objects): creatorSlug 'james-r-griesemer-and-susan-leigh-star' has no matching thinker
 - **source-metadata** — source `statutes-of-the-realm-vol-1-london-record-commission-1810` (Statutes of the Realm, Vol. 1): Institutional statistics or report classified like a book.
+- **source-metadata** — source `suedfeld-peter-philip-e-tetlock-and-sally-streufert-conceptual-integrative-complexity` (suedfeld-peter-philip-e-tetlock-and-sally-streufert-conceptual-integrative-complexity): creatorSlug 'peter-suedfeld-philip-e-tetlock-and-sally-streufert' has no matching thinker
+- **source-metadata** — source `sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-f` (sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-f): name lacks Author — Title separator and title is missing or equals name: 'especially the commons"). https://www.nobelprize.org/prizes/economic-sciences/2009/summary/ Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2009. Prize announcement for Elinor Ostrom ("for her analysis of economic governance'
+- **source-metadata** — source `sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-f` (sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-f): creatorSlug 'especially-the-commons-https-www-nobelprize-org-prizes-economic-sciences-2009-summary-sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-for-elinor-ostrom-for-her-analysis-of-economic-governance' has no matching thinker
+- **source-metadata** — source `sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-f` (especially the commons"). https://www.nobelprize.org/prizes/economic-sciences/2009/summary/ Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2009. Prize announcement for Elinor Ostrom ("for her analysis of economic governance): Field appears to contain citation or URL fragments.
+- **source-metadata** — source `sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-f` (especially the commons"). https://www.nobelprize.org/prizes/economic-sciences/2009/summary/ Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2009. Prize announcement for Elinor Ostrom ("for her analysis of economic governance): Creator name appears to be a full citation string.
+- **source-metadata** — source `tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer` (tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer): creatorSlug 'eugene-v-gallagher-and-james-d-tabor' has no matching thinker
+- **source-metadata** — source `tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior` (tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior): creatorSlug 'henri-tajfel-and-john-c-turner' has no matching thinker
+- **source-metadata** — source `talbot-s-g-and-w-dean-physicians-aren-t-burning-out-they-re` (talbot-s-g-and-w-dean-physicians-aren-t-burning-out-they-re): creatorSlug 's-g-talbot-and-w-dean' has no matching thinker
+- **source-metadata** — source `tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me` (tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me): creatorSlug 'carol-tavris-and-elliot-aronson' has no matching thinker
+- **source-metadata** — source `tetlock-philip-e-and-dan-gardner-superforecasting-the-art-and-science-of-prediction` (tetlock-philip-e-and-dan-gardner-superforecasting-the-art-and-science-of-prediction): creatorSlug 'tetlock-philip-e-and-dan-gardner' has no matching thinker
+- **source-metadata** — source `the-church-of-jesus-christ-of-latter-day-saints-pearl-of-great-price` (Pearl of Great Price): Institutional statistics or report classified like a book.
+- **source-metadata** — source `tversky-amos-and-daniel-kahneman-availability-a-heuristic-for-judging-frequency-and-probability` (tversky-amos-and-daniel-kahneman-availability-a-heuristic-for-judging-frequency-and-probability): creatorSlug 'tversky-amos-and-daniel-kahneman' has no matching thinker
+- **source-metadata** — source `u-s-department-of-agriculture-food-and-nutrition-service-school-breakfast-program-faqs` (u-s-department-of-agriculture-food-and-nutrition-service-school-breakfast-program-faqs): creatorSlug 'u-s-department-of-agriculture-food-and-nutrition-service' has no matching thinker
+- **source-metadata** — source `u-s-government-accountability-office-year-2000-computing-challenge-lessons-learned-can-be-applie` (u-s-government-accountability-office-year-2000-computing-challenge-lessons-learned-can-be-applie): creatorSlug 'u-s-government-accountability-office' has no matching thinker
+- **source-metadata** — source `uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b` (uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b): creatorSlug 'gerard-b-carsten-kelly-lowe-michael-uhl-bien-and-ronald-e-riggio' has no matching thinker
+- **source-metadata** — source `ung-loung-first-they-killed-my-father-a-daughter-of-cambodia-remembers` (ung-loung-first-they-killed-my-father-a-daughter-of-cambodia-remembers): creatorSlug 'loung-ung' has no matching thinker
+- **source-metadata** — source `united-states-strike-commission-report-on-the-chicago-strike-of-june-july-1894` (united-states-strike-commission-report-on-the-chicago-strike-of-june-july-1894): creatorSlug 'united-states-strike-commission' has no matching thinker
+- **source-metadata** — source `united-states-strike-commission-report-on-the-chicago-strike-of-june-july-1894` (Report on the Chicago Strike of June-July, 1894): Institutional statistics or report classified like a book.
+- **source-metadata** — source `wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing` (wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing): creatorSlug 'alexander-weisler-and-david-wachsmuth' has no matching thinker
+- **source-metadata** — source `weick-karl-e-and-kathleen-m-sutcliffe-managing-the-unexpected-resilient-performance-in-an-age-of` (weick-karl-e-and-kathleen-m-sutcliffe-managing-the-unexpected-resilient-performance-in-an-age-of): creatorSlug 'weick-karl-e-and-kathleen-m-sutcliffe' has no matching thinker
+- **source-metadata** — source `weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing` (weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing): creatorSlug 'weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld' has no matching thinker
 - **thinker-metadata** — thinker `cnn-politics` (CNN Politics): Person-like name classified as organization.
 - **thinker-metadata** — thinker `congressional-budget-office` (Congressional Budget Office): Person-like name classified as organization.
 - **thinker-metadata** — thinker `congressional-record` (Congressional Record): Person-like name classified as organization.
@@ -177,12 +365,10 @@
 - **concept-metadata** — concept `diffuse-ownership` (Diffuse ownership): Concept has no related concepts.
 - **concept-metadata** — concept `distance` (Distance): Concept has no related concepts.
 - **concept-metadata** — concept `dora` (DORA): Concept has no related concepts.
-- **concept-metadata** — concept `engagement` (Engagement): Concept has no related concepts.
 - **concept-metadata** — concept `erosion` (Erosion): Concept has no related concepts.
 - **concept-metadata** — concept `exit` (Exit): Concept has no related concepts.
 - **concept-metadata** — concept `experiential-cross-checking` (Experiential Cross-Checking): Concept has no related concepts.
 - **concept-metadata** — concept `exposure` (Exposure): Concept has no related concepts.
-- **concept-metadata** — concept `fairness` (Fairness): Concept has no related concepts.
 - **concept-metadata** — concept `formation` (Formation): Concept has no related concepts.
 - **concept-metadata** — concept `governance-coupling` (Governance Coupling): Concept has no related concepts.
 - **concept-metadata** — concept `harm` (Harm): Concept has no related concepts.
@@ -225,7 +411,6 @@
 - **concept-metadata** — concept `structural-fragility` (Structural fragility): Concept has no related concepts.
 - **concept-metadata** — concept `structure` (Structure): Concept has no related concepts.
 - **concept-metadata** — concept `system` (System): Concept has no related concepts.
-- **concept-metadata** — concept `targets` (Targets): Concept has no related concepts.
 - **concept-metadata** — concept `temporal-coupling` (Temporal Coupling): Concept has no related concepts.
 - **concept-metadata** — concept `thinking` (Thinking): Concept has no related concepts.
 - **concept-metadata** — concept `throughput` (Throughput): Concept has no related concepts.
@@ -242,34 +427,109 @@
 - **pattern-metadata** — pattern `attention-finds-a-focus` (Attention Finds a Focus): Pattern has no related thinkers.
 - **pattern-metadata** — pattern `attention-finds-a-focus` (Attention Finds a Focus): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `attention-finds-a-focus` (Attention Finds a Focus): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `attention-finds-a-focus` (Attention Finds a Focus): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `attention-finds-a-signal` (Attention Finds a Signal): Pattern has no related sources.
 - **pattern-metadata** — pattern `attention-finds-a-signal` (Attention Finds a Signal): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `attention-finds-a-signal` (Attention Finds a Signal): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `attention-finds-a-signal` (Attention Finds a Signal): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `attention-finds-a-signal` (Attention Finds a Signal): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `attention-finds-a-signal` (Attention Finds a Signal): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `attention-restores-contact` (Attention Restores Contact): Pattern has no related sources.
 - **pattern-metadata** — pattern `attention-restores-contact` (Attention Restores Contact): Pattern has no related thinkers.
 - **pattern-metadata** — pattern `attention-restores-contact` (Attention Restores Contact): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `attention-restores-contact` (Attention Restores Contact): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `attention-restores-contact` (Attention Restores Contact): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `attention-restores-contact` (Attention Restores Contact): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `attention-restores-contact` (Attention Restores Contact): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `authority-follows-attention` (Authority Follows Attention): Pattern has no related sources.
+- **pattern-metadata** — pattern `authority-follows-attention` (Authority Follows Attention): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `authority-follows-attention` (Authority Follows Attention): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `authority-follows-attention` (Authority Follows Attention): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `authority-follows-attention` (Authority Follows Attention): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `authority-follows-attention` (Authority Follows Attention): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `authority-follows-attention` (Authority Follows Attention): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `authority-follows-attention` (Authority Follows Attention): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `bad-news-reaches-power` (Bad News Reaches Power): Pattern has no related sources.
+- **pattern-metadata** — pattern `bad-news-reaches-power` (Bad News Reaches Power): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `bad-news-reaches-power` (Bad News Reaches Power): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `bad-news-reaches-power` (Bad News Reaches Power): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `bad-news-reaches-power` (Bad News Reaches Power): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `bad-news-reaches-power` (Bad News Reaches Power): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `bad-news-reaches-power` (Bad News Reaches Power): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `bad-news-reaches-power` (Bad News Reaches Power): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `bad-news-reaches-power` (Bad News Reaches Power): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `bad-news-reaches-power` (Bad News Reaches Power): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `bad-news-reaches-power` (Bad News Reaches Power): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `blame-compresses-complexity` (Blame Compresses Complexity): Pattern has no related sources.
 - **pattern-metadata** — pattern `blame-compresses-complexity` (Blame Compresses Complexity): Pattern has no related thinkers.
 - **pattern-metadata** — pattern `blame-compresses-complexity` (Blame Compresses Complexity): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `blame-compresses-complexity` (Blame Compresses Complexity): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `blame-compresses-complexity` (Blame Compresses Complexity): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `blame-compresses-complexity` (Blame Compresses Complexity): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `blame-compresses-complexity` (Blame Compresses Complexity): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `blame-compresses-complexity` (Blame Compresses Complexity): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `care-preserves-particulars` (Care Preserves Particulars): Pattern has no related sources.
+- **pattern-metadata** — pattern `care-preserves-particulars` (Care Preserves Particulars): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `care-preserves-particulars` (Care Preserves Particulars): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `care-preserves-particulars` (Care Preserves Particulars): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `care-preserves-particulars` (Care Preserves Particulars): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `care-preserves-particulars` (Care Preserves Particulars): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `care-preserves-particulars` (Care Preserves Particulars): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `commitment-leaves-room` (Commitment Leaves Room): Pattern has no related sources.
+- **pattern-metadata** — pattern `commitment-leaves-room` (Commitment Leaves Room): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `commitment-leaves-room` (Commitment Leaves Room): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `commitment-leaves-room` (Commitment Leaves Room): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `commitment-leaves-room` (Commitment Leaves Room): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `commitment-leaves-room` (Commitment Leaves Room): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `commitment-leaves-room` (Commitment Leaves Room): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `compression-loses-the-person` (Compression Loses the Person): Pattern has no related sources.
+- **pattern-metadata** — pattern `compression-loses-the-person` (Compression Loses the Person): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `compression-loses-the-person` (Compression Loses the Person): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `compression-loses-the-person` (Compression Loses the Person): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `compression-loses-the-person` (Compression Loses the Person): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `compression-loses-the-person` (Compression Loses the Person): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `compression-loses-the-person` (Compression Loses the Person): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `compression-loses-the-person` (Compression Loses the Person): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `compression-loses-the-person` (Compression Loses the Person): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `compression-loses-the-person` (Compression Loses the Person): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `contact-keeps-the-read-open` (Contact Keeps the Read Open): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `contact-keeps-the-read-open` (Contact Keeps the Read Open): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `contact-keeps-the-read-open` (Contact Keeps the Read Open): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `contact-keeps-the-read-open` (Contact Keeps the Read Open): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `contact-keeps-the-read-open` (Contact Keeps the Read Open): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `contact-keeps-the-read-open` (Contact Keeps the Read Open): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `correctness-hardens-into-identity` (Correctness Hardens Into Identity): Pattern has no related sources.
 - **pattern-metadata** — pattern `correctness-hardens-into-identity` (Correctness Hardens Into Identity): Pattern has no related thinkers.
 - **pattern-metadata** — pattern `correctness-hardens-into-identity` (Correctness Hardens Into Identity): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `correctness-hardens-into-identity` (Correctness Hardens Into Identity): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `correctness-hardens-into-identity` (Correctness Hardens Into Identity): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `correctness-hardens-into-identity` (Correctness Hardens Into Identity): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `correctness-hardens-into-identity` (Correctness Hardens Into Identity): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `disagreement-is-suppressed` (Disagreement is Suppressed): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `disagreement-is-suppressed` (Disagreement is Suppressed): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `disagreement-is-suppressed` (Disagreement is Suppressed): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `disagreement-is-suppressed` (Disagreement is Suppressed): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `dissent-is-welcomed` (Dissent is Welcomed): Pattern has no related sources.
 - **pattern-metadata** — pattern `dissent-is-welcomed` (Dissent is Welcomed): Pattern has no related thinkers.
 - **pattern-metadata** — pattern `dissent-is-welcomed` (Dissent is Welcomed): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `dissent-is-welcomed` (Dissent is Welcomed): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `dissent-is-welcomed` (Dissent is Welcomed): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `dissent-is-welcomed` (Dissent is Welcomed): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `dissent-is-welcomed` (Dissent is Welcomed): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `distance-conceals-consequence` (Distance Conceals Consequence): Pattern has no related sources.
+- **pattern-metadata** — pattern `distance-conceals-consequence` (Distance Conceals Consequence): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `distance-conceals-consequence` (Distance Conceals Consequence): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `distance-conceals-consequence` (Distance Conceals Consequence): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `distance-conceals-consequence` (Distance Conceals Consequence): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `distance-conceals-consequence` (Distance Conceals Consequence): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `distance-conceals-consequence` (Distance Conceals Consequence): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `distance-conceals-consequence` (Distance Conceals Consequence): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `distance-conceals-consequence` (Distance Conceals Consequence): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `examples-accumulate` (Examples Accumulate): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `examples-accumulate` (Examples Accumulate): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `exceptions-are-forever` (Exceptions are Forever): Pattern has no related sources.
 - **pattern-metadata** — pattern `exceptions-are-forever` (Exceptions are Forever): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `exceptions-are-forever` (Exceptions are Forever): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `exceptions-are-forever` (Exceptions are Forever): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `exceptions-are-forever` (Exceptions are Forever): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `explanation-replaces-response` (Explanation Replaces Response): Pattern has no related sources.
@@ -293,7 +553,6 @@
 - **pattern-metadata** — pattern `leaders-feel-the-consequences` (Leaders Feel the Consequences): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `leaders-feel-the-consequences` (Leaders Feel the Consequences): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `leadership-coalesces` (Leadership Coalesces): Pattern has no related sources.
-- **pattern-metadata** — pattern `leadership-coalesces` (Leadership Coalesces): Pattern has no related thinkers.
 - **pattern-metadata** — pattern `leadership-coalesces` (Leadership Coalesces): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `leadership-coalesces` (Leadership Coalesces): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `leadership-reproduces-itself` (Leadership Reproduces Itself): Pattern has no related sources.
@@ -318,10 +577,46 @@
 - **pattern-metadata** — pattern `meaning-reinforces-itself` (Meaning Reinforces Itself): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `meaning-shifts-under-pressure` (Meaning Shifts Under Pressure): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `meaning-shifts-under-pressure` (Meaning Shifts Under Pressure): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `participation-creates-legitimacy` (Participation Creates Legitimacy): Pattern has no related sources.
+- **pattern-metadata** — pattern `participation-creates-legitimacy` (Participation Creates Legitimacy): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `participation-creates-legitimacy` (Participation Creates Legitimacy): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `participation-creates-legitimacy` (Participation Creates Legitimacy): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `participation-creates-legitimacy` (Participation Creates Legitimacy): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `participation-creates-legitimacy` (Participation Creates Legitimacy): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `participation-creates-legitimacy` (Participation Creates Legitimacy): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `participation-creates-legitimacy` (Participation Creates Legitimacy): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `participation-creates-legitimacy` (Participation Creates Legitimacy): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `reality-answers-back` (Reality Answers Back): Pattern has no related sources.
+- **pattern-metadata** — pattern `reality-answers-back` (Reality Answers Back): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `reality-answers-back` (Reality Answers Back): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `reality-answers-back` (Reality Answers Back): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `reality-answers-back` (Reality Answers Back): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `reality-answers-back` (Reality Answers Back): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `reality-answers-back` (Reality Answers Back): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `reality-answers-back` (Reality Answers Back): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `reality-answers-back` (Reality Answers Back): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `reality-answers-back` (Reality Answers Back): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `reality-answers-back` (Reality Answers Back): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `reality-answers-back` (Reality Answers Back): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `reality-answers-back` (Reality Answers Back): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `reality-answers-back` (Reality Answers Back): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `responsibility-follows-leverage` (Responsibility Follows Leverage): Pattern has no related sources.
+- **pattern-metadata** — pattern `responsibility-follows-leverage` (Responsibility Follows Leverage): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `responsibility-follows-leverage` (Responsibility Follows Leverage): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `responsibility-follows-leverage` (Responsibility Follows Leverage): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `responsibility-follows-leverage` (Responsibility Follows Leverage): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `responsibility-follows-leverage` (Responsibility Follows Leverage): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `responsibility-follows-leverage` (Responsibility Follows Leverage): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `responsibility-persists-beyond-control` (Responsibility Persists Beyond Control): Pattern has no related sources.
-- **pattern-metadata** — pattern `responsibility-persists-beyond-control` (Responsibility Persists Beyond Control): Pattern has no related thinkers.
 - **pattern-metadata** — pattern `responsibility-persists-beyond-control` (Responsibility Persists Beyond Control): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `responsibility-persists-beyond-control` (Responsibility Persists Beyond Control): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `results-conceal-the-game` (Results Conceal the Game): Pattern has no related sources.
+- **pattern-metadata** — pattern `results-conceal-the-game` (Results Conceal the Game): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `results-conceal-the-game` (Results Conceal the Game): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `results-conceal-the-game` (Results Conceal the Game): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `results-conceal-the-game` (Results Conceal the Game): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `results-conceal-the-game` (Results Conceal the Game): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `results-conceal-the-game` (Results Conceal the Game): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `revisability-preserves-judgment` (Revisability Preserves Judgment): Pattern has no related sources.
 - **pattern-metadata** — pattern `revisability-preserves-judgment` (Revisability Preserves Judgment): Pattern has no related thinkers.
 - **pattern-metadata** — pattern `revisability-preserves-judgment` (Revisability Preserves Judgment): Pattern relationship appears one-way; inverse may be expected.
@@ -334,7 +629,35 @@
 - **pattern-metadata** — pattern `speech-escalates-faster-than-meaning` (Speech Escalates Faster Than Meaning): Pattern has no related thinkers.
 - **pattern-metadata** — pattern `speech-escalates-faster-than-meaning` (Speech Escalates Faster Than Meaning): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `speech-escalates-faster-than-meaning` (Speech Escalates Faster Than Meaning): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `speed-relocates-judgment` (Speed Relocates Judgment): Pattern has no related sources.
+- **pattern-metadata** — pattern `speed-relocates-judgment` (Speed Relocates Judgment): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `speed-relocates-judgment` (Speed Relocates Judgment): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `speed-relocates-judgment` (Speed Relocates Judgment): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `speed-relocates-judgment` (Speed Relocates Judgment): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `speed-relocates-judgment` (Speed Relocates Judgment): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `speed-relocates-judgment` (Speed Relocates Judgment): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `structures-outlive-reasons` (Structures Outlive Reasons): Pattern has no related sources.
+- **pattern-metadata** — pattern `structures-outlive-reasons` (Structures Outlive Reasons): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `structures-outlive-reasons` (Structures Outlive Reasons): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `structures-outlive-reasons` (Structures Outlive Reasons): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `structures-outlive-reasons` (Structures Outlive Reasons): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `structures-outlive-reasons` (Structures Outlive Reasons): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `understanding-circulates` (Understanding Circulates): Pattern has no related sources.
+- **pattern-metadata** — pattern `understanding-circulates` (Understanding Circulates): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `understanding-circulates` (Understanding Circulates): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `understanding-circulates` (Understanding Circulates): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `understanding-circulates` (Understanding Circulates): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `understanding-circulates` (Understanding Circulates): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `understanding-circulates` (Understanding Circulates): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `understanding-circulates` (Understanding Circulates): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `understanding-circulates` (Understanding Circulates): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `understanding-circulates` (Understanding Circulates): Pattern relationship appears one-way; inverse may be expected.
 - **relationship-quality** — concept `correction` (correction): Entity has extremely high relationship density compared to peers.
+- **relationship-quality** — force `contact` (contact): Entity has extremely high relationship density compared to peers.
+- **relationship-quality** — force `perception` (perception): Entity has extremely high relationship density compared to peers.
+- **relationship-quality** — force `power` (power): Entity has extremely high relationship density compared to peers.
+- **relationship-quality** — force `time` (time): Entity has extremely high relationship density compared to peers.
+- **relationship-quality** — pattern `reality-answers-back` (reality-answers-back): Entity has extremely high relationship density compared to peers.
 - **relationship-quality** — relationship `acceleration->friction` (structural_tension): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `acceleration->friction` (structural_tension): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `adaptation->authorization` (structural_tension): Symmetric relationship label used in only one direction.
@@ -413,3 +736,250 @@
 - **relationship-quality** — relationship `witness->accountability` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `witness->correction` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `witness->correction` (contrasts): Symmetric relationship label used in only one direction.
+- **source-metadata** — source `barker-eileen-the-making-of-a-moonie-choice-or-brainwashing` (The Making of a Moonie: Choice or Brainwashing?): Source has no concept, pattern, or book links.
+- **source-metadata** — source `berlin-isaiah-the-hedgehog-and-the-fox` (The Hedgehog and the Fox.): Source has no concept, pattern, or book links.
+- **source-metadata** — source `chryssides-george-d-the-advent-of-sun-myung-moon-the-origins-beliefs-and-practices-of-the-unific` (The Advent of Sun Myung Moon: The Origins, Beliefs, and Practices of the Unification Church): Source has no concept, pattern, or book links.
+- **source-metadata** — source `ellul-jacques-propaganda-the-formation-of-men-s-attitudes` (Propaganda: The Formation of Men’s Attitudes): Source has no concept, pattern, or book links.
+- **source-metadata** — source `festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails` (When Prophecy Fails): Source has no concept, pattern, or book links.
+- **source-metadata** — source `foucault-michel-power-knowledge-selected-interviews-and-other-writings-1972-1977` (Power/Knowledge: Selected Interviews and Other Writings, 1972–1977): Source has no concept, pattern, or book links.
+- **source-metadata** — source `foucault-michel-society-must-be-defended-lectures-at-the-coll-ge-de-france-1975-76` ("Society Must Be Defended": Lectures at the Collège de France, 1975–76): Source has no concept, pattern, or book links.
+- **source-metadata** — source `gott-richard-hugo-ch-vez-and-the-bolivarian-revolution` (Hugo Chávez and the Bolivarian Revolution): Source has no concept, pattern, or book links.
+- **source-metadata** — source `habermas-j-rgen-the-theory-of-communicative-action` (The Theory of Communicative Action): Source has no concept, pattern, or book links.
+- **source-metadata** — source `mouffe-chantal-the-democratic-paradox` (The Democratic Paradox): Source has no concept, pattern, or book links.
+- **source-metadata** — source `parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth` (Donald Trump and His Assault on Truth.): Source has no concept, pattern, or book links.
+- **source-metadata** — source `popper-karl-the-open-society-and-its-enemies` (The Open Society and Its Enemies): Source has no concept, pattern, or book links.
+- **source-metadata** — source `postman-neil-amusing-ourselves-to-death` (Amusing Ourselves to Death): Source has no concept, pattern, or book links.
+- **source-metadata** — source `schmitt-carl-the-concept-of-the-political` (The Concept of the Political): Source has no concept, pattern, or book links.
+- **source-metadata** — source `shklar-judith-ordinary-vices` (Ordinary Vices): Source has no concept, pattern, or book links.
+- **source-metadata** — source `steffensen-kevin-when-authority-is-misread` (When Authority Is Misread): Source has no concept, pattern, or book links.
+- **source-metadata** — source `steffensen-kevin-when-authority-outlives-accountability-a-lens-for` (When Authority Outlives Accountability: A Lens for): Source has no concept, pattern, or book links.
+- **source-metadata** — source `woodward-bob-fear-trump-in-the-white-house` (Fear: Trump in the White House): Source has no concept, pattern, or book links.
+- **thinker-metadata** — thinker `adolf-a-berle` (adolf-a-berle): work 'berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-property' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `akihiko-murata` (akihiko-murata): work 'lewis-catherine-c-rebecca-r-perry-and-akihiko-murata-how-should-research-contribute-to-instructi' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `alexander-weisler` (alexander-weisler): work 'wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `alice-h-eagly` (alice-h-eagly): work 'eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `alistair-cockburn` (alistair-cockburn): work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `andrew-hunt` (andrew-hunt): work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `andrew-ward` (andrew-ward): work 'ross-lee-and-andrew-ward-naive-realism-in-everyday-life' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `andrew-zaldivar` (andrew-zaldivar): work 'mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `angelina-mcmillan-major` (angelina-mcmillan-major): work 'bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `anna-c-merritt` (anna-c-merritt): work 'merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `anna-tavis` (anna-tavis): work 'cappelli-peter-and-anna-tavis-the-performance-management-revolution' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `anselm-strauss` (anselm-strauss): work 'star-susan-leigh-and-anselm-strauss-layers-of-silence-arenas-of-voice-the-ecology-of-visible-and' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `arie-van-bennekum` (arie-van-bennekum): work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `arthur-lupia` (arthur-lupia): work 'lupia-arthur-and-mathew-d-mccubbins-the-democratic-dilemma-can-citizens-learn-what-they-need-to' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `ashley-parker` (ashley-parker): work 'parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `ashwin-desai` (ashwin-desai): work 'desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `associated-press` (associated-press): work 'associated-press-taylor-swift-donates-to-food-banks-on-eras-tour-providing-thousands-of-meals' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `ben-hutchinson` (ben-hutchinson): work 'mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `beno-t-monin` (beno-t-monin): work 'merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `bertram-raven` (bertram-raven): work 'french-john-r-p-and-bertram-raven-the-bases-of-social-power' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `betsy-beyer` (betsy-beyer): work 'beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `brene-brown` (brene-brown): work 'brown-bren-dare-to-lead-brave-work-tough-conversations-whole' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `brian-marick` (brian-marick): work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `briana-vecchione` (briana-vecchione): work 'gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `brooks-frederick-p-jr` (brooks-frederick-p-jr): work 'brooks-frederick-p-jr-the-mythical-man-month-essays-on-software-engineering' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `bruce-patton` (bruce-patton): work 'fisher-roger-william-ury-and-bruce-patton-getting-to-yes-negotiating-agreement-without-giving-in' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `carl-a-kallgren` (carl-a-kallgren): work 'cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `carl-i-hovland` (carl-i-hovland): work 'hovland-carl-i-and-walter-weiss-the-influence-of-source-credibility-on-communication-effectivene' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `carlos-escude` (carlos-escude): work 'escud-carlos-argentine-political-culture' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `carmen-m-reinhart` (carmen-m-reinhart): work 'reinhart-carmen-m-and-kenneth-s-rogoff-this-time-is-different-eight-centuries-of-financial-folly' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `carol-tavris` (carol-tavris): work 'tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `casper-lassenius` (casper-lassenius): work 'dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `catherine-c-lewis` (catherine-c-lewis): work 'lewis-catherine-c-rebecca-r-perry-and-akihiko-murata-how-should-research-contribute-to-instructi' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `charles-g-lord` (charles-g-lord): work 'lord-charles-g-lee-ross-and-mark-r-lepper-biased-assimilation-and-attitude-polarization-the-effe' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `chris-argyris` (chris-argyris): work 'argyris-chris-and-donald-a-schon-organizational-learning-ii' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `chris-jones` (chris-jones): work 'beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `christina-maslach` (christina-maslach): work 'maslach-christina-and-michael-p-leiter-the-truth-about-burnout' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `christopher-alexander` (christopher-alexander): work 'alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `christopher-f-chabris` (christopher-f-chabris): work 'simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `christopher-hood` (christopher-hood): work 'hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `christopher-pollitt` (christopher-pollitt): work 'pollitt-christopher-and-geert-bouckaert-public-management-reform-a-comparative-analysis' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `dan-boneh` (dan-boneh): work 'perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `daniel-a-effron` (daniel-a-effron): work 'merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `daniel-j-simons` (daniel-j-simons): work 'simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `daniel-kahneman` (daniel-kahneman): work 'kahneman-daniel-and-amos-tversky-prospect-theory-an-analysis-of-decision-under-risk' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `daniel-kahneman` (daniel-kahneman): work 'kahneman-daniel-and-gary-klein-conditions-for-intuitive-expertise-a-failure-to-disagree' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `daniel-kahneman` (daniel-kahneman): work 'tversky-amos-and-daniel-kahneman-availability-a-heuristic-for-judging-frequency-and-probability' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `daron-acemoglu` (daron-acemoglu): work 'acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `dave-thomas` (dave-thomas): work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `david-farley` (david-farley): work 'humble-jez-and-david-farley-continuous-delivery-reliable-software-releases-through-build-test-an' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `david-wachsmuth` (david-wachsmuth): work 'wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `declaration-on-research-assessment` (declaration-on-research-assessment): work 'san-francisco-declaration-on-research-assessment-dora-2012-https-sfdora-org' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `deepa-seetharaman` (deepa-seetharaman): work 'horwitz-jeff-and-deepa-seetharaman-facebook-executives-shut-down-efforts-to-make-the-site-less-d' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `deepak-kumar` (deepak-kumar): work 'perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `dietrich-dorner` (dietrich-dorner): work 'd-rner-dietrich-the-logic-of-failure-recognizing-and-avoiding-error' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `donald-a-schon` (donald-a-schon): work 'argyris-chris-and-donald-a-schon-organizational-learning-ii' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `donald-a-schon` (donald-a-schon): work 'sch-n-donald-a-the-reflective-practitioner-how-professionals-think' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `donald-l-shaw` (donald-l-shaw): work 'mccombs-maxwell-e-and-donald-l-shaw-the-agenda-setting-function-of-mass-media' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `elena-spitzer` (elena-spitzer): work 'mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `eliot-brown` (eliot-brown): work 'brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `eliyahu-m-goldratt` (eliyahu-m-goldratt): work 'goldratt-eliyahu-m-and-jeff-cox-the-goal-a-process-of-ongoing' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `elliot-aronson` (elliot-aronson): work 'tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `emily-m-bender` (emily-m-bender): work 'bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `eugene-v-gallagher` (eugene-v-gallagher): work 'tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `federal-aviation-administration-and-nasa` (federal-aviation-administration-and-nasa): work 'federal-aviation-administration-and-nasa-aviation-safety-reporting-system-asrs' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `federal-aviation-administration-and-nasa` (federal-aviation-administration-and-nasa): work 'national-aeronautics-and-space-administration-aviation-safety-reporting-system-asrs-program-mate' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `frank-dikotter` (frank-dikotter): work 'dik-tter-frank-the-cultural-revolution-a-people-s-history-1962-1976' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `gardiner-c-means` (gardiner-c-means): work 'berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-property' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `gary-klein` (gary-klein): work 'kahneman-daniel-and-gary-klein-conditions-for-intuitive-expertise-a-failure-to-disagree' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `geert-bouckaert` (geert-bouckaert): work 'pollitt-christopher-and-geert-bouckaert-public-management-reform-a-comparative-analysis' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `gene-kim` (gene-kim): work 'forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `gene-kim` (gene-kim): work 'kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `gene-kim` (gene-kim): work 'kim-gene-kevin-behr-and-george-spafford-the-phoenix-project-a-novel-about-it-devops-and-helping' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `geoffrey-c-bowker` (geoffrey-c-bowker): work 'bowker-geoffrey-c-and-susan-leigh-star-sorting-things-out-classification-and' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `george-lakoff` (george-lakoff): work 'lakoff-george-and-mark-johnson-metaphors-we-live-by' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `george-spafford` (george-spafford): work 'kim-gene-kevin-behr-and-george-spafford-the-phoenix-project-a-novel-about-it-devops-and-helping' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `gerard-b-carsten` (gerard-b-carsten): work 'uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `goolam-vahed` (goolam-vahed): work 'desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `hal-daume-iii` (hal-daume-iii): work 'gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `hanna-wallach` (hanna-wallach): work 'gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `hans-j-nissen` (hans-j-nissen): work 'nissen-hans-j-peter-damerow-and-robert-k-englund-archaic' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `helena-barke` (helena-barke): work 'barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `henri-tajfel` (henri-tajfel): work 'tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `henry-w-riecken` (henry-w-riecken): work 'festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `herbert-a-simon` (herbert-a-simon): work 'march-james-g-and-herbert-a-simon-organizations' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `inioluwa-deborah-raji` (inioluwa-deborah-raji): work 'mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `j-david-pulsipher` (j-david-pulsipher): work 'mason-patrick-q-and-j-david-pulsipher-proclaim-peace' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `james-a-robinson` (james-a-robinson): work 'acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `james-d-tabor` (james-d-tabor): work 'tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `james-g-march` (james-g-march): work 'march-james-g-and-herbert-a-simon-organizations' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `james-g-march` (james-g-march): work 'march-james-g-and-johan-p-olsen-rediscovering-institutions-the' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `james-grenning` (james-grenning): work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `james-m-cook` (james-m-cook): work 'mcpherson-miller-lynn-smith-lovin-and-james-m-cook-birds-of-a-feather-homophily-in-social-networ' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `james-r-griesemer` (james-r-griesemer): work 'star-susan-leigh-and-james-r-griesemer-institutional-ecology-translations-and-boundary-objects' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `jamie-morgenstern` (jamie-morgenstern): work 'gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `javier-corrales` (javier-corrales): work 'corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `jeff-cox` (jeff-cox): work 'goldratt-eliyahu-m-and-jeff-cox-the-goal-a-process-of-ongoing' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `jeff-horwitz` (jeff-horwitz): work 'horwitz-jeff-and-deepa-seetharaman-facebook-executives-shut-down-efforts-to-make-the-site-less-d' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `jeff-sutherland` (jeff-sutherland): work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `jeffrey-kluger` (jeffrey-kluger): work 'lovell-jim-and-jeffrey-kluger-lost-moon-the-perilous-voyage-of-apollo-13' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `jennifer-petoff` (jennifer-petoff): work 'beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `jennifer-wortman-vaughan` (jennifer-wortman-vaughan): work 'gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `jez-humble` (jez-humble): work 'forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `jez-humble` (jez-humble): work 'humble-jez-and-david-farley-continuous-delivery-reliable-software-releases-through-build-test-an' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `jez-humble` (jez-humble): work 'kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `jim-highsmith` (jim-highsmith): work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `jim-lovell` (jim-lovell): work 'lovell-jim-and-jeffrey-kluger-lost-moon-the-perilous-voyage-of-apollo-13' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `johan-p-olsen` (johan-p-olsen): work 'march-james-g-and-johan-p-olsen-rediscovering-institutions-the' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `john-allspaw` (john-allspaw): work 'allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `john-c-hershey` (john-c-hershey): work 'baron-jonathan-and-john-c-hershey-outcome-bias-in-decision' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `john-c-turner` (john-c-turner): work 'tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `john-r-p-french` (john-r-p-french): work 'french-john-r-p-and-bertram-raven-the-bases-of-social-power' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `john-willis` (john-willis): work 'kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `jon-kern` (jon-kern): work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `jonathan-baron` (jonathan-baron): work 'baron-jonathan-and-john-c-hershey-outcome-bias-in-decision' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `judith-shklar` (judith-shklar): work 'shklar-judith-n-putting-cruelty-first' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `jurgen-habermas` (jurgen-habermas): work 'habermas-j-rgen-the-theory-of-communicative-action' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `karina-dikert` (karina-dikert): work 'dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `karl-e-weick` (karl-e-weick): work 'weick-karl-e-and-kathleen-m-sutcliffe-managing-the-unexpected-resilient-performance-in-an-age-of' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `karl-e-weick` (karl-e-weick): work 'weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `karl-r-popper` (karl-r-popper): work 'popper-karl-the-open-society-and-its-enemies' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `kate-crawford` (kate-crawford): work 'gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `kelly-d-brownell` (kelly-d-brownell): work 'brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `kelly-lowe` (kelly-lowe): work 'uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `ken-schwaber` (ken-schwaber): work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `kenneth-e-warner` (kenneth-e-warner): work 'brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `kenneth-s-rogoff` (kenneth-s-rogoff): work 'reinhart-carmen-m-and-kenneth-s-rogoff-this-time-is-different-eight-centuries-of-financial-folly' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `kent-beck` (kent-beck): work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `kevin-behr` (kevin-behr): work 'kim-gene-kevin-behr-and-george-spafford-the-phoenix-project-a-novel-about-it-devops-and-helping' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `king-martin-luther-jr` (king-martin-luther-jr): work 'king-martin-luther-jr-letter-from-birmingham-jail' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `lant-pritchett` (lant-pritchett): work 'andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `larry-ceplair` (larry-ceplair): work 'ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `lee-ross` (lee-ross): work 'lord-charles-g-lee-ross-and-mark-r-lepper-biased-assimilation-and-attitude-polarization-the-effe' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `lee-ross` (lee-ross): work 'ross-lee-and-andrew-ward-naive-realism-in-everyday-life' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `lee-ross` (lee-ross): work 'ross-lee-and-richard-nisbett-the-person-and-the-situation' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `lee-ross` (lee-ross): work 'ross-lee-the-intuitive-psychologist-and-his-shortcomings' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `leon-festinger` (leon-festinger): work 'festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `leon-krier` (leon-krier): work 'krier-l-on-the-architecture-of-community' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `liam-fahey` (liam-fahey): work 'fahey-liam-and-robert-m-randall-eds-learning-from-the-future' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `linda-l-carli` (linda-l-carli): work 'eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `lucian-a-bebchuk` (lucian-a-bebchuk): work 'bebchuk-lucian-a-and-scott-hirst-index-funds-and-the-future-of-corporate-governance-theory-evide' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `lucy-vasserman` (lucy-vasserman): work 'mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `lutz-prechelt` (lutz-prechelt): work 'barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `lynn-smith-lovin` (lynn-smith-lovin): work 'mcpherson-miller-lynn-smith-lovin-and-james-m-cook-birds-of-a-feather-homophily-in-social-networ' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `manuel-pais` (manuel-pais): work 'skelton-matthew-and-manuel-pais-team-topologies-organizing-business-and-technology-teams-for-fas' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `margaret-mitchell` (margaret-mitchell): work 'mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `maria-paasivaara` (maria-paasivaara): work 'dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `mark-johnson` (mark-johnson): work 'lakoff-george-and-mark-johnson-metaphors-we-live-by' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `mark-r-lepper` (mark-r-lepper): work 'lord-charles-g-lee-ross-and-mark-r-lepper-biased-assimilation-and-attitude-polarization-the-effe' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `martin-fowler` (martin-fowler): work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `mathew-d-mccubbins` (mathew-d-mccubbins): work 'lupia-arthur-and-mathew-d-mccubbins-the-democratic-dilemma-can-citizens-learn-what-they-need-to' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `matthew-andrews` (matthew-andrews): work 'andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `matthew-skelton` (matthew-skelton): work 'skelton-matthew-and-manuel-pais-team-topologies-organizing-business-and-technology-teams-for-fas' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `maureen-farrell` (maureen-farrell): work 'brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `maxwell-e-mccombs` (maxwell-e-mccombs): work 'mccombs-maxwell-e-and-donald-l-shaw-the-agenda-setting-function-of-mass-media' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `megha-srivastava` (megha-srivastava): work 'perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `michael-c-jensen` (michael-c-jensen): work 'jensen-michael-c-and-william-h-meckling-theory-of-the-firm-managerial-behavior-agency-costs-and' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `michael-p-leiter` (michael-p-leiter): work 'maslach-christina-and-michael-p-leiter-the-truth-about-burnout' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `michael-penfold` (michael-penfold): work 'corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `michael-scherer` (michael-scherer): work 'parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `michael-schoenhals` (michael-schoenhals): work 'macfarquhar-roderick-and-michael-schoenhals-mao-s-last-revolution' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `michael-uhl-bien` (michael-uhl-bien): work 'uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `michael-woolcock` (michael-woolcock): work 'andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `mike-beedle` (mike-beedle): work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `miller-mcpherson` (miller-mcpherson): work 'mcpherson-miller-lynn-smith-lovin-and-james-m-cook-birds-of-a-feather-homophily-in-social-networ' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `nancy-g-leveson` (nancy-g-leveson): work 'leveson-nancy-g-and-clark-s-turner-an-investigation-of-the-therac-25-accidents' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `neal-ford` (neal-ford): work 'ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `neil-perry` (neil-perry): work 'perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `niall-richard-murphy` (niall-richard-murphy): work 'beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `nicole-forsgren` (nicole-forsgren): work 'forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `parker-barnes` (parker-barnes): work 'mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `patrick-debois` (patrick-debois): work 'kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `patrick-kua` (patrick-kua): work 'ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `patrick-q-mason` (patrick-q-mason): work 'mason-patrick-q-and-j-david-pulsipher-proclaim-peace' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `paul-hammond` (paul-hammond): work 'allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `peter-cappelli` (peter-cappelli): work 'cappelli-peter-and-anna-tavis-the-performance-management-revolution' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `peter-damerow` (peter-damerow): work 'nissen-hans-j-peter-damerow-and-robert-k-englund-archaic' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `peter-j-vander-nat` (peter-j-vander-nat): work 'keep-william-w-and-peter-j-vander-nat-multilevel-marketing-and-pyramid-schemes-in-the-united-sta' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `peter-karn-e` (peter-karn-e): work 'garud-raghu-and-peter-karn-e-path-dependence-and-creation' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `peter-l-berger` (peter-l-berger): work 'berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `peter-suedfeld` (peter-suedfeld): work 'suedfeld-peter-philip-e-tetlock-and-sally-streufert-conceptual-integrative-complexity' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `philip-e-tetlock` (philip-e-tetlock): work 'suedfeld-peter-philip-e-tetlock-and-sally-streufert-conceptual-integrative-complexity' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `philip-e-tetlock` (philip-e-tetlock): work 'tetlock-philip-e-and-dan-gardner-superforecasting-the-art-and-science-of-prediction' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `raghu-garud` (raghu-garud): work 'garud-raghu-and-peter-karn-e-path-dependence-and-creation' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `raymond-r-reno` (raymond-r-reno): work 'cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `rebecca-parsons` (rebecca-parsons): work 'ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `rebecca-r-perry` (rebecca-r-perry): work 'lewis-catherine-c-rebecca-r-perry-and-akihiko-murata-how-should-research-contribute-to-instructi' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `richard-nisbett` (richard-nisbett): work 'ross-lee-and-richard-nisbett-the-person-and-the-situation' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `richard-nisbett` (richard-nisbett): work 'ross-lee-the-intuitive-psychologist-and-his-shortcomings' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `robert-b-cialdini` (robert-b-cialdini): work 'cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `robert-c-martin` (robert-c-martin): work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `robert-k-englund` (robert-k-englund): work 'nissen-hans-j-peter-damerow-and-robert-k-englund-archaic' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `robert-m-randall` (robert-m-randall): work 'fahey-liam-and-robert-m-randall-eds-learning-from-the-future' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `roderick-macfarquhar` (roderick-macfarquhar): work 'macfarquhar-roderick-and-michael-schoenhals-mao-s-last-revolution' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `roger-fisher` (roger-fisher): work 'fisher-roger-william-ury-and-bruce-patton-getting-to-yes-negotiating-agreement-without-giving-in' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `ron-jeffries` (ron-jeffries): work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `ronald-e-riggio` (ronald-e-riggio): work 'uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `ruth-dixon` (ruth-dixon): work 'hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `s-g-talbot` (s-g-talbot): work 'talbot-s-g-and-w-dean-physicians-aren-t-burning-out-they-re' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `s-j-liebowitz` (s-j-liebowitz): work 'liebowitz-s-j-and-stephen-e-margolis-path-dependence-lock-in-and-history' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `sally-streufert` (sally-streufert): work 'suedfeld-peter-philip-e-tetlock-and-sally-streufert-conceptual-integrative-complexity' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `scott-hirst` (scott-hirst): work 'bebchuk-lucian-a-and-scott-hirst-index-funds-and-the-future-of-corporate-governance-theory-evide' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `shmargaret-shmitchell` (shmargaret-shmitchell): work 'bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `sidney-dekker` (sidney-dekker): work 'dekker-sidney-w-a-just-culture-restoring-trust-and-accountability' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `simone-wu` (simone-wu): work 'mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `stanley-schachter` (stanley-schachter): work 'festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `stephen-e-margolis` (stephen-e-margolis): work 'liebowitz-s-j-and-stephen-e-margolis-path-dependence-lock-in-and-history' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `steve-mellor` (steve-mellor): work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `steven-englund` (steven-englund): work 'ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `susan-leigh-star` (susan-leigh-star): work 'bowker-geoffrey-c-and-susan-leigh-star-sorting-things-out-classification-and' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `susan-leigh-star` (susan-leigh-star): work 'star-susan-leigh-and-anselm-strauss-layers-of-silence-arenas-of-voice-the-ecology-of-visible-and' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `susan-leigh-star` (susan-leigh-star): work 'star-susan-leigh-and-james-r-griesemer-institutional-ecology-translations-and-boundary-objects' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `thomas-f-odea` (thomas-f-odea): work 'odea-thomas-f-the-mormons' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `thomas-luckmann` (thomas-luckmann): work 'berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `timnit-gebru` (timnit-gebru): work 'bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `timnit-gebru` (timnit-gebru): work 'gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `timnit-gebru` (timnit-gebru): work 'mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `timothy-lister` (timothy-lister): work 'demarco-tom-and-timothy-lister-slack-getting-past-burnout-busywork-and-the' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `timothy-r-lister` (timothy-r-lister): work 'demarco-tom-and-timothy-r-lister-peopleware-productive-projects' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `tom-demarco` (tom-demarco): work 'demarco-tom-and-timothy-lister-slack-getting-past-burnout-busywork-and-the' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `tom-demarco` (tom-demarco): work 'demarco-tom-and-timothy-r-lister-peopleware-productive-projects' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `truth-and-reconciliation-commission` (truth-and-reconciliation-commission): work 'government-of-south-africa-truth-and-reconciliation-commission-final-report' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `vaclav-havel` (vaclav-havel): work 'havel-vaclav-the-power-of-the-powerless' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `w-dean` (w-dean): work 'talbot-s-g-and-w-dean-physicians-aren-t-burning-out-they-re' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `walter-weiss` (walter-weiss): work 'hovland-carl-i-and-walter-weiss-the-influence-of-source-credibility-on-communication-effectivene' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `ward-cunningham` (ward-cunningham): work 'beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `william-h-meckling` (william-h-meckling): work 'jensen-michael-c-and-william-h-meckling-theory-of-the-firm-managerial-behavior-agency-costs-and' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `william-ury` (william-ury): work 'fisher-roger-william-ury-and-bruce-patton-getting-to-yes-negotiating-agreement-without-giving-in' does not list this thinker in creatorSlugs
+- **thinker-metadata** — thinker `william-w-keep` (william-w-keep): work 'keep-william-w-and-peter-j-vander-nat-multilevel-marketing-and-pyramid-schemes-in-the-united-sta' does not list this thinker in creatorSlugs
