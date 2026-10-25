@@ -2,7 +2,7 @@
 
 Phase 17 follows merged PR #731. It adds **52 individually selected source-to-reader references** across the manuscripts. This is an editorial evidence matrix, not a claim that citation linkage validates the manuscript's interpretations. Changes distinguish first-party records from retrospectives, reportage from memoir, institutional rules from philosophical readings, and fictional illustrations from empirical research.
 
-**Baseline:** Phase 16 had 496 of 714 linked sources and 141 mechanically located but unlinked source citations. With all 52 new links verified, expected coverage would be **548 / 714 (76.75%)**, with **89** footnote-cited sources still requiring review. These are *targets pending the new renderer-backed audit*, not measured final results.
+**Baseline:** Phase 16 had 496 of 714 linked sources and 141 mechanically located but unlinked source citations. With all 52 new links verified, expected coverage would be **548 / 714 (76.75%)**, with **87** footnote-cited sources still requiring review. The 87 remaining footnote-cited sources were measured in the first Phase 17 full audit (which found four attribution warnings); full A-level coverage and a clean re-audit remain pending.
 
 ## Reviewed source-to-footnote decisions
 
