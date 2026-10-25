@@ -128,7 +128,10 @@
       "evidenceLevel": "B",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance",
       "slug": "alexander-robin-die-getriebenen-merkel-und-die-fl-chtlingspolitik",
-      "status": "proposed"
+      "status": "skipped",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-alexander-merkel.",
+      "supersededBy": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-alexander-merkel",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-devops-emergence": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-devops-emergence",
@@ -182,11 +185,12 @@
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-luck",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "Phase 8 Outcome C: preserve shared — Colts.com Walker and AP Marot corroborate one retirement event; shared evidence is correct.",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-colts-retirement.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no",
       "slug": "andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T01:32:23Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-colts-retirement"
     },
     "source:andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-public-service": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-public-service",
@@ -202,11 +206,12 @@
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-iverson",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-iverson-andscape.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message",
       "slug": "andscape-for-allen-iverson-it-was-never-just-about-practice",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-iverson-andscape"
     },
     "source:arendt-hannah-between-past-and-future:/explore/books/when-accountability-no-longer-expires/chapters/front-matter-preface-why-this-book-exists#user-content-fnref-preface-arendt-clarity": {
       "candidatePath": "/explore/books/when-accountability-no-longer-expires/chapters/front-matter-preface-why-this-book-exists#user-content-fnref-preface-arendt-clarity",
@@ -394,11 +399,12 @@
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-knight-method",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-knight-method-ap.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse",
       "slug": "associated-press-bob-knight-indiana-s-combustible-coaching-giant-dies-at-age-83",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-knight-method-ap"
     },
     "source:associated-press-bob-knight-s-chair-college-basketball-s-classic-furniture:/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-chair",
@@ -424,22 +430,22 @@
     "source:associated-press-kaepernick-eric-reid-settle-collusion-grievances-with-nfl:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-grievance-settled": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-grievance-settled",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message",
       "slug": "associated-press-kaepernick-eric-reid-settle-collusion-grievances-with-nfl",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Associated Press reporting establishes that Kaepernick and Eric Reid resolved their NFL collusion grievances through a confidential February 2019 settlement. The chapter distinguishes the event of settlement from competing interpretations of what the undisclosed terms imply.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:associated-press-kaepernick-files-grievance-against-nfl-alleging-collusion:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-grievance-filed": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-grievance-filed",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "Phase 8 Outcome C: preserve shared — AP and ESPN report the same Oct 2017 grievance filing; shared evidence is correct.",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message",
       "slug": "associated-press-kaepernick-files-grievance-against-nfl-alleging-collusion",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T01:32:23Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: The Associated Press reported Kaepernick's October 2017 grievance alleging collusion among NFL owners. The manuscript cites the filing as a documented allegation; it does not treat filing a grievance as an adjudicated finding that collusion occurred.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:associated-press-nike-unveils-kaepernick-ad-to-air-during-nfl-season-opener:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-nike": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-nike",
@@ -455,11 +461,12 @@
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-return",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-return-ap.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse",
       "slug": "associated-press-return-of-the-hoosier-knight-back-at-indiana-after-20-years",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-return-ap"
     },
     "source:associated-press-taylor-swift-donates-to-food-banks-on-eras-tour-providing-thousands-of-meals:/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b3": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-9-the-bracelet#user-content-fnref-b3",
@@ -475,11 +482,12 @@
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-trump-weekend",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-trump-ap.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message",
       "slug": "associated-press-trump-says-nfl-should-fire-players-who-kneel-during-anthem",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-trump-ap"
     },
     "source:baier-annette-c-trust-and-antitrust:/explore/books/how-trust-forms/chapters/front-matter-introduction-how-trust-forms#user-content-fnref-intro-baier-vulnerability": {
       "candidatePath": "/explore/books/how-trust-forms/chapters/front-matter-introduction-how-trust-forms#user-content-fnref-intro-baier-vulnerability",
@@ -575,11 +583,12 @@
       "candidatePath": "/explore/books/living-in-sediment/chapters/back-matter-epilogue-two-months-off#user-content-fnref-epi-future-layers",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/living-in-sediment/chapters/back-matter-epilogue-two-months-off#user-content-fnref-epi-beard-rome.",
       "routeKey": "/explore/books/living-in-sediment/chapters/back-matter-epilogue-two-months-off",
       "slug": "beard-mary-spqr-a-history-of-ancient-rome",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/living-in-sediment/chapters/back-matter-epilogue-two-months-off#user-content-fnref-epi-beard-rome"
     },
     "source:bebchuk-lucian-a-and-scott-hirst-index-funds-and-the-future-of-corporate-governance-theory-evide:/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-proxy": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-proxy",
@@ -675,11 +684,12 @@
       "candidatePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-clinical",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-berwick-era3.",
       "routeKey": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture",
       "slug": "berwick-donald-m-era-3-for-medicine-and-health-care",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-berwick-era3"
     },
     "source:berwick-donald-m-measuring-surgical-outcomes-for-improvement-was-codman-wrong:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-healthcare": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-09-dora-measuring-coupling#user-content-fnref-c9-healthcare",
@@ -1241,12 +1251,12 @@
     "source:ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193:/explore/books/when-authority-is-misread/chapters/parts-part-3-looking-twice-chapter-10-the-conversation-that-is-no-longer-a-conversation#user-content-fnref-c10-ceplair": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-3-looking-twice-chapter-10-the-conversation-that-is-no-longer-a-conversation#user-content-fnref-c10-ceplair",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-3-looking-twice-chapter-10-the-conversation-that-is-no-longer-a-conversation",
       "slug": "ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Ceplair and Englund document political pressure, blacklist practices, and the institutional consequences of suspicion within Hollywood. This historical study supports the chapter's account of how membership in a legitimate conversation can be narrowed; it does not make the chapter's broader ethical judgment for it.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:chandler-david-p-voices-from-s-21-terror-and-history-in-pol-pot-s-secret-prison:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-9-what-judgment-can-still-do#user-content-fnref-c9-chandler-overview": {
       "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-9-what-judgment-can-still-do#user-content-fnref-c9-chandler-overview",
@@ -1271,12 +1281,12 @@
     "source:chernow-ron-washington-a-life:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-chernow": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-chernow",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair",
       "slug": "chernow-ron-washington-a-life",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Chernow's Washington biography places the first president's authority within military difficulty, public argument, and later national mythmaking. The manuscript cites the biographical account to complicate the idea of effortless legitimacy rather than treating retrospectively accumulated prestige as proof.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:christian-brian-the-alignment-problem-machine-learning-and-human-values:/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment#user-content-fnref-c11-judgment-upstream": {
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-11-delegated-judgment#user-content-fnref-c11-judgment-upstream",
@@ -1332,21 +1342,22 @@
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-firing",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-may-sanctions.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse",
       "slug": "cnn-indiana-university-keeps-coach-knight-with-sanctions",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-may-sanctions"
     },
     "source:cnn-politics-trump-nfl-owners-should-fire-players-who-protest-the-national-anthem:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-trump-weekend": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-trump-weekend",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message",
       "slug": "cnn-politics-trump-nfl-owners-should-fire-players-who-protest-the-national-anthem",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: CNN's September 22, 2017 report documents the president's public demand that NFL owners fire players protesting during the anthem. The chapter uses this initial speech event to establish the escalation of political attention, not to infer any athlete's private motive.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:cockburn-alistair-agile-software-development:/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-bridge#user-content-fnref-p2b-method-history": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-bridge#user-content-fnref-p2b-method-history",
@@ -1594,11 +1605,12 @@
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-peltz",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=multi:semicolon_author_quoted",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-dealbook-pepsico.",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin",
       "slug": "de-la-merced-michael-j-pepsico-tells-activist-investor-its-answer-is-still-no",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-dealbook-pepsico"
     },
     "source:dekker-sidney-drift-into-failure-from-hunting-broken-components-to-understanding-complex-systems:/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-3-the-collapse-of-corrective-loops#user-content-fnref-c3-source-sidney-dekker-drift": {
       "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-3-the-collapse-of-corrective-loops#user-content-fnref-c3-source-sidney-dekker-drift",
@@ -1685,11 +1697,12 @@
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-lakoff-metaphor",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-deutscher-language.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week",
       "slug": "deutscher-guy-the-unfolding-of-language-an-evolutionary-tour-of-mankind-s",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-deutscher-language"
     },
     "source:dewey-john-experience-and-education:/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-2-the-first-cracks-chapter-5-participation-stops-updating-beliefs#user-content-fnref-c5-dewey-experience-education": {
       "candidatePath": "/explore/books/when-trust-stops-tracking-reality/chapters/parts-part-2-the-first-cracks-chapter-5-participation-stops-updating-beliefs#user-content-fnref-c5-dewey-experience-education",
@@ -1775,11 +1788,12 @@
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-13-when-justification-fades#user-content-fnref-c13-life-cycle",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-13-when-justification-fades#user-content-fnref-c13-douglas-habit.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-13-when-justification-fades",
       "slug": "douglas-mary-how-institutions-think",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-13-when-justification-fades#user-content-fnref-c13-douglas-habit"
     },
     "source:douglas-mary-purity-and-danger-an-analysis-of-concepts-of-pollution:/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-early-moral-anthropology": {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-1-constraint-before-choice-chapter-1-life-under-constraint#user-content-fnref-c1-early-moral-anthropology",
@@ -1815,21 +1829,22 @@
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-slavery",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-ona-judge.",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair",
       "slug": "dunbar-erica-armstrong-never-caught-the-washingtons-relentless-pursuit-of-their-runaway-slave-on",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-ona-judge"
     },
     "source:dyson-michael-eric-i-may-not-get-there-with-you-the-true-martin-luther-king-jr:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-sanitization": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet#user-content-fnref-c4-sanitization",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-4-martin-luther-king-jr-the-door-marked-not-yet",
       "slug": "dyson-michael-eric-i-may-not-get-there-with-you-the-true-martin-luther-king-jr",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Michael Eric Dyson examines the selective memorialization of Martin Luther King Jr., including how critiques of war and economic power can be softened in public memory. The manuscript invokes this argument to illuminate posthumous simplification, not to replace King's own work.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-eagly": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-eagly",
@@ -1904,12 +1919,12 @@
     "source:ellis-joseph-j-his-excellency-george-washington:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-ellis": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-ellis",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=multi:multi_italic:2",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair",
       "slug": "ellis-joseph-j-his-excellency-george-washington",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Joseph Ellis examines the fragile Continental Army, military officers' discontent, and the risks perceived by Washington's contemporaries. The chapter invokes Ellis's historical interpretation for these constraints separately from Chernow's broader presidential biography.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:encyclopedia-of-arkansas-lost-year:/explore/books/the-world-we-make-together/chapters/parts-part-1-who-makes-history-chapter-2-the-door#user-content-fnref-c2-school-closing": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-1-who-makes-history-chapter-2-the-door#user-content-fnref-c2-school-closing",
@@ -1945,21 +1960,23 @@
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-kneel",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-espn-kneel.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message",
       "slug": "espn-colin-kaepernick-takes-knee-for-anthem-joined-by-teammate-eric-reid",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-espn-kneel"
     },
     "source:espn-emotional-bob-knight-ends-20-year-split-with-indiana:/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-return": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-return",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-return-espn.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse",
       "slug": "espn-emotional-bob-knight-ends-20-year-split-with-indiana",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-return-espn"
     },
     "source:espn-new-policy-requires-on-field-players-personnel-to-stand-for-anthem:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-policy": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-policy",
@@ -1975,11 +1992,12 @@
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-goodell",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-espn-goodell-june.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message",
       "slug": "espn-nfl-commissioner-roger-goodell-says-nfl-was-wrong-not-to-listen-to-its-players-about-racism",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-espn-goodell-june"
     },
     "source:espn-qb-colin-kaepernick-files-grievance-for-collusion-against-nfl-owners:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-grievance-filed": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-grievance-filed",
@@ -1995,31 +2013,34 @@
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-goodell",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-goodell-august.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message",
       "slug": "espn-roger-goodell-wish-we-had-listened-earlier-to-what-colin-kaepernick-was-protesting",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-goodell-august"
     },
     "source:espn-transcript-of-brand-s-statement:/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-firing": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-firing",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-brand-statement.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse",
       "slug": "espn-transcript-of-brand-s-statement",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-brand-statement"
     },
     "source:espn-video-supports-reed-s-allegation-against-knight:/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-reed": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-reed",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-reed-video.",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse",
       "slug": "espn-video-supports-reed-s-allegation-against-knight",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-reed-video"
     },
     "source:european-financial-reporting-advisory-group-efrag-european-sustainability-reporting-standards-es:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-4-the-target-on-the-wall#user-content-fnref-c4-esrs": {
       "entityKind": "source",
@@ -2197,12 +2218,12 @@
     "source:finocchiaro-maurice-a-the-galileo-affair-a-documentary-history:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-trial": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see#user-content-fnref-c6-trial",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=multi:multi_italic:2",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-6-galileo-galilei-the-permission-to-see",
       "slug": "finocchiaro-maurice-a-the-galileo-affair-a-documentary-history",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Finocchiaro's documentary history assembles materials concerning the 1616 restrictions and Galileo's 1633 trial. The manuscript cites that record for the procedural conflict over public teaching and abjuration, distinguishing it from present-day judgments about scientific freedom.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:fiorina-morris-p-retrospective-voting-in-american-national-elections:/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-7-what-elections-can-reject#user-content-fnref-c7-economic-voting": {
       "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-7-what-elections-can-reject#user-content-fnref-c7-economic-voting",
@@ -2247,12 +2268,12 @@
     "source:follett-mary-parker-creative-experience:/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-9-the-scale#user-content-fnref-c9-follett-power": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-9-the-scale#user-content-fnref-c9-follett-power",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-9-the-scale",
       "slug": "follett-mary-parker-creative-experience",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Mary Parker Follett's Creative Experience develops a relational account of jointly created authority and conflict integration. The chapter invokes Follett to contrast power developed with others against domination, while treating its own scene and normative conclusions as interpretation.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:follett-mary-parker-dynamic-administration-the-collected-papers-of-mary-parker-follett:/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-9-the-scale#user-content-fnref-c9-law-situation": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-4-from-power-over-to-power-with-chapter-9-the-scale#user-content-fnref-c9-law-situation",
@@ -2458,11 +2479,12 @@
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-13-when-justification-fades#user-content-fnref-c13-necessary-useful-habitual",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-13-when-justification-fades#user-content-fnref-c13-garud-path-creation.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-13-when-justification-fades",
       "slug": "garud-raghu-and-peter-karn-e-path-dependence-and-creation",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-13-when-justification-fades#user-content-fnref-c13-garud-path-creation"
     },
     "source:gawande-atul-the-checklist-manifesto-how-to-get-things-right:/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-4-constraint-as-discipline#user-content-fnref-c4-source-atul-gawande-the": {
       "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-4-constraint-as-discipline#user-content-fnref-c4-source-atul-gawande-the",
@@ -2488,11 +2510,12 @@
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-15-archaeology-of-the-present#user-content-fnref-c15-generosity-context",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-15-archaeology-of-the-present#user-content-fnref-c15-giddens-structuration.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-15-archaeology-of-the-present",
       "slug": "giddens-anthony-the-constitution-of-society-outline-of-the-theory-of",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-15-archaeology-of-the-present#user-content-fnref-c15-giddens-structuration"
     },
     "source:givens-terryl-l-by-the-hand-of-mormon:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-1-where-interpretation-ends-chapter-1-the-door-that-opens-only-inward#user-content-fnref-c1-givens": {
       "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-1-where-interpretation-ends-chapter-1-the-door-that-opens-only-inward#user-content-fnref-c1-givens",
@@ -2527,12 +2550,12 @@
     "source:goffman-erving-the-presentation-of-self-in-everyday-life:/explore/books/after-certainty/chapters/parts-part-2-what-can-still-be-practiced-chapter-6-speech-that-does-less-harm#user-content-fnref-c6-performative-speech": {
       "candidatePath": "/explore/books/after-certainty/chapters/parts-part-2-what-can-still-be-practiced-chapter-6-speech-that-does-less-harm#user-content-fnref-c6-performative-speech",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=multi:multi_italic:2",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/after-certainty/chapters/parts-part-2-what-can-still-be-practiced-chapter-6-speech-that-does-less-harm",
       "slug": "goffman-erving-the-presentation-of-self-in-everyday-life",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Goffman's analysis of self-presentation shows how conduct and identity are shaped by an imagined or present audience. The chapter draws on that mechanism to consider when moral speech becomes a performance for approval rather than an accountable response to another person.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:goldratt-eliyahu-m-and-jeff-cox-the-goal-a-process-of-ongoing:/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-1-when-knowing-is-no-longer-enough#user-content-fnref-c1-source-eliyahu-m-goldratt": {
       "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-1-why-knowing-no-longer-governs-outcomes-chapter-1-when-knowing-is-no-longer-enough#user-content-fnref-c1-source-eliyahu-m-goldratt",
@@ -3364,12 +3387,12 @@
     "source:kessler-glenn-salvador-rizzo-and-meg-kelly-president-trump-has-made-more-than-20-000-false-or-mi:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-3-the-argument-that-sorts-the-room#user-content-fnref-c3-factcheck-ecosystem": {
       "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-3-the-argument-that-sorts-the-room#user-content-fnref-c3-factcheck-ecosystem",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=multi:related_writings",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-3-the-argument-that-sorts-the-room",
       "slug": "kessler-glenn-salvador-rizzo-and-meg-kelly-president-trump-has-made-more-than-20-000-false-or-mi",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Kessler, Rizzo, and Kelly report the Washington Post Fact Checker's tally of disputed Trump claims as of July 2020. The chapter cites the published counting project as one feature of a contested information environment, not as a self-sufficient measure of political trust or public opinion.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:key-v-o-jr-the-responsible-electorate-rationality-in-presidential-voting-1936-1960:/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-7-what-elections-can-reject#user-content-fnref-c7-economic-voting": {
       "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-7-what-elections-can-reject#user-content-fnref-c7-economic-voting",
@@ -3425,11 +3448,12 @@
       "candidatePath": "/explore/books/coupling/chapters/parts-part-5-oscillation-and-design-21-the-oscillation#user-content-fnref-c21-opening",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=multi:multi_italic:2",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/coupling/chapters/parts-part-5-oscillation-and-design-21-the-oscillation#user-content-fnref-c21-phoenix-novel.",
       "routeKey": "/explore/books/coupling/chapters/parts-part-5-oscillation-and-design-21-the-oscillation",
       "slug": "kim-gene-kevin-behr-and-george-spafford-the-phoenix-project-a-novel-about-it-devops-and-helping",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/coupling/chapters/parts-part-5-oscillation-and-design-21-the-oscillation#user-content-fnref-c21-phoenix-novel"
     },
     "source:king-martin-luther-jr-beyond-vietnam-a-time-to-break-silence:/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-11": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-11",
@@ -3727,11 +3751,12 @@
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-14",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=multi:soft_second_source",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-lewis-selma.",
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march",
       "slug": "lewis-john-with-michael-d-orso-walking-with-the-wind-a-memoir-of-the-movement",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-lewis-selma"
     },
     "source:lewis-mark-edward-sanctioned-violence-in-early-china:/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-warring-states": {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-warring-states",
@@ -3888,12 +3913,12 @@
     "source:luhmann-niklas-social-systems:/explore/books/after-certainty/chapters/front-matter-introduction#user-content-fnref-intro-misunderstanding-scale": {
       "candidatePath": "/explore/books/after-certainty/chapters/front-matter-introduction#user-content-fnref-intro-misunderstanding-scale",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/after-certainty/chapters/front-matter-introduction",
       "slug": "luhmann-niklas-social-systems",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Luhmann's theory describes how social systems sustain differentiated patterns of communication and interpretation. The introduction invokes this account to consider the difficulty of stable alignment at institutional scale, separate from Perrow's analysis of technical-system accidents.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:luhmann-niklas-trust-and-power-two-works:/explore/books/how-trust-forms/chapters/front-matter-introduction-how-trust-forms#user-content-fnref-intro-luhmann-cooperation": {
       "candidatePath": "/explore/books/how-trust-forms/chapters/front-matter-introduction-how-trust-forms#user-content-fnref-intro-luhmann-cooperation",
@@ -3918,12 +3943,12 @@
     "source:maathai-wangari-unbowed-a-memoir:/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-5-the-tree#user-content-fnref-t1": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-5-the-tree#user-content-fnref-t1",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=multi:soft_second_source",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-5-the-tree",
       "slug": "maathai-wangari-unbowed-a-memoir",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Wangari Maathai's memoir relates the concerns Kenyan women raised about firewood, water, environmental decline, and daily labor. The chapter cites this participant account for the lived origins of environmental organizing, rather than treating later institutional movement history as identical evidence.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:macfarquhar-roderick-and-michael-schoenhals-mao-s-last-revolution:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-8-the-criticism-that-cannot-correct#user-content-fnref-c8-macfarquhar-end": {
       "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-3-when-correction-cannot-reach-chapter-8-the-criticism-that-cannot-correct#user-content-fnref-c8-macfarquhar-end",
@@ -3968,12 +3993,12 @@
     "source:major-league-baseball-mlb-announces-abs-challenge-system-coming-to-the-major-leagues-beginning-i:/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-3-the-authority-of-the-whistle#user-content-fnref-c3-mlb-abs": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-3-the-authority-of-the-whistle#user-content-fnref-c3-mlb-abs",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-3-the-authority-of-the-whistle",
       "slug": "major-league-baseball-mlb-announces-abs-challenge-system-coming-to-the-major-leagues-beginning-i",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Major League Baseball's September 2025 announcement describes the ABS challenge format scheduled for the 2026 season, including who may challenge ball-and-strike calls. The chapter uses the announcement for the design of officiating review, while keeping its interpretation of authority distinct from the rule itself.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:major-league-baseball-pitch-smart-pitching-guidelines:/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-pitch-smart": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-5-the-moral-language-of-playing-hurt#user-content-fnref-c5-pitch-smart",
@@ -3998,12 +4023,12 @@
     "source:mandela-nelson-long-walk-to-freedom:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v3": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v3",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory",
       "slug": "mandela-nelson-long-walk-to-freedom",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Mandela's autobiography is a first-person account of his political commitments and understanding of leadership as South Africa entered democratic rule. The chapter cites that personal account for his approach to authority, separating his perspective from later government records confirming the transfer of office.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:mandela-nelson-statement-from-the-dock-rivonia-trial-20-april-1964:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v4": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-3-victory#user-content-fnref-v4",
@@ -4866,11 +4891,12 @@
       "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-9-what-the-algorithm-sees#user-content-fnref-c9-ranking",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-9-what-the-algorithm-sees#user-content-fnref-c9-noble-ranking.",
       "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-9-what-the-algorithm-sees",
       "slug": "noble-safiya-umoja-algorithms-of-oppression-how-search-engines-reinforce-racism",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-9-what-the-algorithm-sees#user-content-fnref-c9-noble-ranking"
     },
     "source:nooyi-indra-my-life-in-full-work-family-and-our-future:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-memoir": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-memoir",
@@ -5047,11 +5073,12 @@
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-shorthand",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=force_defer",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-packer-portrait.",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance",
       "slug": "packer-george-the-quiet-german",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-packer-portrait"
     },
     "source:pagden-anthony-the-fall-of-natural-man-the-american-indian-and-the:/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-8-renaissance-exploration-and-fracture#user-content-fnref-c8-valladolid-debate": {
       "candidatePath": "/explore/books/before-certainty-arrives/chapters/parts-part-3-inherited-certainty-chapter-8-renaissance-exploration-and-fracture#user-content-fnref-c8-valladolid-debate",
@@ -5429,11 +5456,12 @@
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-7",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-rao-caste-politics.",
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt",
       "slug": "rao-anupama-the-caste-question-dalits-and-the-politics-of-modern-india",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-rao-caste-politics"
     },
     "source:raymond-eric-s-the-cathedral-and-the-bazaar-musings-on-linux-and-open-source-by-an-accidental-re:/explore/books/trust-beyond-similarity/chapters/parts-part-2-the-shock-of-the-partial-chapter-6-collaboration-across-difference#user-content-fnref-c6-open-source": {
       "candidatePath": "/explore/books/trust-beyond-similarity/chapters/parts-part-2-the-shock-of-the-partial-chapter-6-collaboration-across-difference#user-content-fnref-c6-open-source",
@@ -5539,11 +5567,12 @@
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-1",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-robinson-wpc.",
       "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march",
       "slug": "robinson-jo-ann-gibson-the-montgomery-bus-boycott-and-the-women-who-started-it",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-robinson-wpc"
     },
     "source:rosa-hartmut-social-acceleration-a-new-theory-of-modernity:/explore/books/when-moral-seriousness-scales/chapters/back-matter-conclusion#user-content-fnref-conclusion-rosa-social-acceleration": {
       "candidatePath": "/explore/books/when-moral-seriousness-scales/chapters/back-matter-conclusion#user-content-fnref-conclusion-rosa-social-acceleration",
@@ -5953,12 +5982,12 @@
     "source:slaughter-thomas-p-the-whiskey-rebellion-frontier-epilogue-to-the-american-revolution:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-whiskey": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-whiskey",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=multi:multi_italic:2",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair",
       "slug": "slaughter-thomas-p-the-whiskey-rebellion-frontier-epilogue-to-the-american-revolution",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Thomas Slaughter's study analyzes the Whiskey Rebellion and the early federal government's response to resistance against excise enforcement. The chapter cites the historical episode as evidence of coercive capacity during Washington's presidency, not as a blanket moral verdict.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:smith-dennis-e-from-symposium-to-eucharist-the-banquet-in-the-early-christian-world:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-1-the-table#user-content-fnref-t1-3": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-1-the-table#user-content-fnref-t1-3",
@@ -6184,12 +6213,12 @@
     "source:sunstein-cass-r-republic-divided-democracy-in-the-age-of-social-media:/explore/books/the-discipline-of-uncertainty/chapters/parts-part-4-institutions-authority-and-drift-chapter-8-individuals-structures-and-the-collapse-into-absolutes#user-content-fnref-c8-viral": {
       "candidatePath": "/explore/books/the-discipline-of-uncertainty/chapters/parts-part-4-institutions-authority-and-drift-chapter-8-individuals-structures-and-the-collapse-into-absolutes#user-content-fnref-c8-viral",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=multi:see_also",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/the-discipline-of-uncertainty/chapters/parts-part-4-institutions-authority-and-drift-chapter-8-individuals-structures-and-the-collapse-into-absolutes",
       "slug": "sunstein-cass-r-republic-divided-democracy-in-the-age-of-social-media",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Sunstein analyzes how social-media filtering and like-minded networks can reinforce polarization and confidence. The chapter cites that argument to distinguish platform-shaped amplification from careful evaluation of representative evidence; its broader criticism of certainty remains the author's.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer:/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-6-the-story-that-explains-every-objection#user-content-fnref-c6-tabor-gallagher": {
       "candidatePath": "/explore/books/when-interpretation-no-longer-matters/chapters/parts-part-2-what-replaces-interpretation-chapter-6-the-story-that-explains-every-objection#user-content-fnref-c6-tabor-gallagher",
@@ -6255,12 +6284,12 @@
     "source:taylor-charles-sources-of-the-self-the-making-of-the-modern-identity:/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-2-the-cost-of-explanation#user-content-fnref-c2-explanation-moral-work": {
       "candidatePath": "/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-2-the-cost-of-explanation#user-content-fnref-c2-explanation-moral-work",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-2-the-cost-of-explanation",
       "slug": "taylor-charles-sources-of-the-self-the-making-of-the-modern-identity",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Charles Taylor examines how identity is formed through moral frameworks and conceptions of the good. The chapter cites that account where explanation risks displacing moral responsibility, distinct from Bauman's historical analysis of bureaucracy and harm.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:tetlock-philip-e-and-dan-gardner-superforecasting-the-art-and-science-of-prediction:/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-5-learning-faster-than-prediction#user-content-fnref-c5-source-philip-e-tetlock": {
       "candidatePath": "/explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-5-learning-faster-than-prediction#user-content-fnref-c5-source-philip-e-tetlock",
@@ -6375,12 +6404,12 @@
     "source:tuchman-barbara-w-the-march-of-folly-from-troy-to-vietnam:/explore/books/the-discipline-of-uncertainty/chapters/parts-part-5-leadership-without-prophecy-chapter-9-why-leaders-are-pressured-into-certainty#user-content-fnref-c9-confidence": {
       "candidatePath": "/explore/books/the-discipline-of-uncertainty/chapters/parts-part-5-leadership-without-prophecy-chapter-9-why-leaders-are-pressured-into-certainty#user-content-fnref-c9-confidence",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/the-discipline-of-uncertainty/chapters/parts-part-5-leadership-without-prophecy-chapter-9-why-leaders-are-pressured-into-certainty",
       "slug": "tuchman-barbara-w-the-march-of-folly-from-troy-to-vietnam",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Barbara Tuchman's histories of institutional folly examine leaders continuing harmful courses despite warnings. The chapter cites these historical patterns of overconfidence in leadership separately from Kahneman's psychological account of confidence and narrative coherence.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:tufekci-zeynep-twitter-and-tear-gas-the-power-and-fragility-of-networked-protest:/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-19-media-and-algorithmic-coupling#user-content-fnref-c19-networked": {
       "candidatePath": "/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-19-media-and-algorithmic-coupling#user-content-fnref-c19-networked",
@@ -6456,12 +6485,12 @@
     "source:u-s-department-of-agriculture-food-and-nutrition-service-school-breakfast-program-faqs:/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-usda": {
       "candidatePath": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl#user-content-fnref-c8-usda",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/the-world-we-make-together/chapters/parts-part-3-what-shared-power-requires-chapter-8-the-bowl",
       "slug": "u-s-department-of-agriculture-food-and-nutrition-service-school-breakfast-program-faqs",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: The USDA Food and Nutrition Service chronology establishes the federal School Breakfast Program's 1966 pilot origins and its later permanent authorization. The chapter separates this documented federal timeline from arguments about the Black Panther breakfast program's cultural and political influence.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:u-s-department-of-the-treasury-board-of-governors-of-the-federal-reserve-system-and-federal-depo:/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-banks-2023": {
       "candidatePath": "/explore/books/the-economy-we-dont-experience/chapters/parts-part-4-what-holds-chapter-8-the-guardrails-we-notice-only-when-they-fail#user-content-fnref-c8-banks-2023",
@@ -6516,12 +6545,12 @@
     "source:u-s-securities-and-exchange-commission-office-of-the-whistleblower-annual-reports-to-congress-ht:/explore/books/the-discipline-of-uncertainty/chapters/parts-part-4-institutions-authority-and-drift-chapter-7-warning-systems-that-incriminate-their-own-success#user-content-fnref-c7-wb": {
       "candidatePath": "/explore/books/the-discipline-of-uncertainty/chapters/parts-part-4-institutions-authority-and-drift-chapter-7-warning-systems-that-incriminate-their-own-success#user-content-fnref-c7-wb",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=multi:see_also",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/the-discipline-of-uncertainty/chapters/parts-part-4-institutions-authority-and-drift-chapter-7-warning-systems-that-incriminate-their-own-success",
       "slug": "u-s-securities-and-exchange-commission-office-of-the-whistleblower-annual-reports-to-congress-ht",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: SEC Office of the Whistleblower annual reports document the federal program, reported activity, and award outcomes. The chapter invokes these formal records for the existence of an institutional warning process, while distinguishing them from research and commentary about retaliation in workplaces.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:u-s-senate-subcommittee-on-communications-hearings-on-the-public-broadcasting-act-may-1969:/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-8-the-neighborhood#user-content-fnref-n1": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-8-the-neighborhood#user-content-fnref-n1",
@@ -6669,11 +6698,12 @@
       "candidatePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-15-architectural-cohesion#user-content-fnref-c15-bounded-contexts",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-15-architectural-cohesion#user-content-fnref-c15-vernon-context-mapping.",
       "routeKey": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-15-architectural-cohesion",
       "slug": "vernon-vaughn-implementing-domain-driven-design",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-15-architectural-cohesion#user-content-fnref-c15-vernon-context-mapping"
     },
     "source:vogel-ezra-f-deng-xiaoping-and-the-transformation-of-china:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-vogel": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-vogel",
@@ -6739,12 +6769,12 @@
     "source:washington-george-farewell-address-19-september-1796:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-farewell": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-farewell",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair",
       "slug": "washington-george-farewell-address-19-september-1796",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Washington's 1796 Farewell Address is a primary record of his public warning against sectional and party animosities as he prepared to leave office. The chapter uses this address as contemporaneous evidence of his stated concerns rather than proof of any private motive.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:webb-miller-dispatches-from-dharasana-salt-works-raid-may-1930:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-6": {
       "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-6",
@@ -6890,12 +6920,12 @@
     "source:worker-adjustment-and-retraining-notification-act-29-u-s-c-2101-2109:/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-5-the-matrix-with-no-author#user-content-fnref-c5-warn": {
       "candidatePath": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-5-the-matrix-with-no-author#user-content-fnref-c5-warn",
       "entityKind": "source",
-      "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=multi:see_also",
+      "evidenceLevel": "A",
       "routeKey": "/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-2-when-the-translation-takes-over-chapter-5-the-matrix-with-no-author",
       "slug": "worker-adjustment-and-retraining-notification-act-29-u-s-c-2101-2109",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: The WARN Act establishes advance-notice obligations for qualifying plant closings and mass layoffs, subject to its statutory conditions and exceptions. The chapter cites this legal framework while examining how large-scale personnel decisions become formalized; it does not imply the statute dictates layoff ranking.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     },
     "source:world-athletics-iconic-mexico-city-olympic-podium-protest-turns-50:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-smith-carlos": {
       "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-smith-carlos",
@@ -6971,11 +7001,12 @@
       "candidatePath": "/explore/books/living-in-sediment/chapters/front-matter-prologue-september-is-not-seven#user-content-fnref-pro-calendar-reform",
       "entityKind": "source",
       "evidenceLevel": "B",
-      "note": "PR7 remainder: deferred — shared footnote / multi-work citation (needs disambiguation, not bulk link). reason=shared",
+      "note": "Phase 17: previous shared or insufficiently specific candidate superseded by the reviewed source-specific citation /explore/books/living-in-sediment/chapters/front-matter-prologue-september-is-not-seven#user-content-fnref-pro-zerubavel-calendar.",
       "routeKey": "/explore/books/living-in-sediment/chapters/front-matter-prologue-september-is-not-seven",
       "slug": "zerubavel-eviatar-hidden-rhythms-schedules-and-calendars-in-social-life",
-      "status": "deferred",
-      "updatedAt": "2026-10-18T00:21:13Z"
+      "status": "skipped",
+      "updatedAt": "2026-10-25T00:55:00Z",
+      "supersededBy": "/explore/books/living-in-sediment/chapters/front-matter-prologue-september-is-not-seven#user-content-fnref-pro-zerubavel-calendar"
     },
     "source:zhou-kate-xiao-how-the-farmers-changed-china-power-of-the-people:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-rural": {
       "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-7-deng-xiaoping-the-machine-that-started-working#user-content-fnref-c7-rural",
@@ -7016,6 +7047,296 @@
       "slug": "zuckerberg-mark-testimony-before-the-u-s-senate-judiciary-and-commerce-committees-april-10-2018",
       "status": "applied",
       "updatedAt": "2026-10-17T23:52:16Z"
+    },
+    "source:alexander-robin-die-getriebenen-merkel-und-die-fl-chtlingspolitik:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-alexander-merkel": {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-alexander-merkel",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance",
+      "slug": "alexander-robin-die-getriebenen-merkel-und-die-fl-chtlingspolitik",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Robin Alexander's study of Merkel's 2015 refugee-policy decisions examines political pressures and the government's choices amid the crisis. The chapter cites that political account for the contested decision, without assigning undocumented private motives.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl:/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-colts-retirement": {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-colts-retirement",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no",
+      "slug": "andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: The Colts' official August 2019 account records Andrew Luck's retirement announcement and his own explanations for leaving football after recurrent injuries. The chapter uses this first-party institutional report for the press-conference explanation, distinct from Associated Press coverage of fan reaction.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:andscape-for-allen-iverson-it-was-never-just-about-practice:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-iverson-andscape": {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-iverson-andscape",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message",
+      "slug": "andscape-for-allen-iverson-it-was-never-just-about-practice",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Andscape's retrospective revisits Allen Iverson's 2002 practice remarks in the context of grief, conflict with his coach, and pressure after a difficult season. The chapter cites that interpretation to complicate an isolated viral sound bite, not to claim a definitive account of Iverson's inner life.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:associated-press-bob-knight-indiana-s-combustible-coaching-giant-dies-at-age-83:/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-knight-method-ap": {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-knight-method-ap",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse",
+      "slug": "associated-press-bob-knight-indiana-s-combustible-coaching-giant-dies-at-age-83",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: The Associated Press retrospective distinguishes Knight's championship legacy from the volatile coaching behavior that became part of his public reputation. The chapter invokes that historical profile where it describes the competing records, without treating athletic success as a defense of misconduct.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:associated-press-return-of-the-hoosier-knight-back-at-indiana-after-20-years:/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-return-ap": {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-return-ap",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse",
+      "slug": "associated-press-return-of-the-hoosier-knight-back-at-indiana-after-20-years",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Associated Press reporting documents Bob Knight's February 2020 return to Indiana's Assembly Hall following a roughly twenty-year break. The chapter cites the event itself separately from ESPN's account of the emotional crowd response; neither account erases the earlier record.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:associated-press-trump-says-nfl-should-fire-players-who-kneel-during-anthem:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-trump-ap": {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-trump-ap",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message",
+      "slug": "associated-press-trump-says-nfl-should-fire-players-who-kneel-during-anthem",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: The Associated Press's September 23 coverage documents the continuing public dispute after the president's comments about anthem protest. The chapter cites it for the weekend response separately from CNN's account of the original remarks.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:beard-mary-spqr-a-history-of-ancient-rome:/explore/books/living-in-sediment/chapters/back-matter-epilogue-two-months-off#user-content-fnref-epi-beard-rome": {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/back-matter-epilogue-two-months-off#user-content-fnref-epi-beard-rome",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/living-in-sediment/chapters/back-matter-epilogue-two-months-off",
+      "slug": "beard-mary-spqr-a-history-of-ancient-rome",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Mary Beard's history of ancient Rome examines a society whose institutions and self-understandings can be reconstructed only from surviving traces. The epilogue invokes Rome as a historical comparison for how future people might interrogate today's seemingly natural arrangements.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:berwick-donald-m-era-3-for-medicine-and-health-care:/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-berwick-era3": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-berwick-era3",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture",
+      "slug": "berwick-donald-m-era-3-for-medicine-and-health-care",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Berwick's Era 3 argument urges medical systems to move beyond punitive metrics and fragmented professional accountability toward learning and improvement. The chapter uses this proposal as an institutional example of safeguards designed to support judgment rather than replace it.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:cnn-indiana-university-keeps-coach-knight-with-sanctions:/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-may-sanctions": {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-may-sanctions",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse",
+      "slug": "cnn-indiana-university-keeps-coach-knight-with-sanctions",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: CNN's May 2000 coverage documents Indiana University's decision to retain Bob Knight under sanctions and a zero-tolerance policy. The chapter distinguishes this initial institutional response from the later firing decision and Myles Brand's September statement.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:de-la-merced-michael-j-pepsico-tells-activist-investor-its-answer-is-still-no:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-dealbook-pepsico": {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin#user-content-fnref-c5-dealbook-pepsico",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-5-indra-nooyi-what-gets-written-in-the-margin",
+      "slug": "de-la-merced-michael-j-pepsico-tells-activist-investor-its-answer-is-still-no",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Michael J. de la Merced's February 2014 DealBook report covers PepsiCo's response to Nelson Peltz and a proposed breakup. The manuscript cites this reporting separately from the activist's own recommendations and the corporate board's formal filing.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:deutscher-guy-the-unfolding-of-language-an-evolutionary-tour-of-mankind-s:/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-deutscher-language": {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-deutscher-language",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week",
+      "slug": "deutscher-guy-the-unfolding-of-language-an-evolutionary-tour-of-mankind-s",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Guy Deutscher describes the historical development of linguistic patterns that subsequent speakers inherit without knowing their origins. The chapter uses this history to show how language preserves convention, separately from Lakoff and Johnson's account of conceptual metaphor.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:douglas-mary-how-institutions-think:/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-13-when-justification-fades#user-content-fnref-c13-douglas-habit": {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-13-when-justification-fades#user-content-fnref-c13-douglas-habit",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-13-when-justification-fades",
+      "slug": "douglas-mary-how-institutions-think",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Mary Douglas examines how institutions stabilize shared categories of thought and make established arrangements appear natural. The chapter draws on that account for the transition from practical institution to inherited habit, distinct from Selznick's account of organizational leadership.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:dunbar-erica-armstrong-never-caught-the-washingtons-relentless-pursuit-of-their-runaway-slave-on:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-ona-judge": {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair#user-content-fnref-c9-ona-judge",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-9-george-washington-the-empty-chair",
+      "slug": "dunbar-erica-armstrong-never-caught-the-washingtons-relentless-pursuit-of-their-runaway-slave-on",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Erica Armstrong Dunbar's history centers Ona Judge's escape from enslavement and the Washington household's efforts to recover her. The manuscript cites this specific story to make the contradiction between Washington's public reputation and private exercise of power historically concrete.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:espn-colin-kaepernick-takes-knee-for-anthem-joined-by-teammate-eric-reid:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-espn-kneel": {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-espn-kneel",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message",
+      "slug": "espn-colin-kaepernick-takes-knee-for-anthem-joined-by-teammate-eric-reid",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: ESPN's September 1, 2016 account reports Kaepernick kneeling during the anthem alongside Eric Reid. The chapter uses this dated report to establish the changed gesture and Reid's participation; it distinguishes the recorded action from the later explanations of Nate Boyer's role.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:espn-emotional-bob-knight-ends-20-year-split-with-indiana:/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-return-espn": {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-return-espn",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse",
+      "slug": "espn-emotional-bob-knight-ends-20-year-split-with-indiana",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: ESPN's February 2020 account describes Knight's emotional return and the crowd response at Indiana. The manuscript cites this reporting for how the reunion was received, not as evidence that the preceding disciplinary record or allegations were resolved.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:espn-nfl-commissioner-roger-goodell-says-nfl-was-wrong-not-to-listen-to-its-players-about-racism:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-espn-goodell-june": {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-espn-goodell-june",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message",
+      "slug": "espn-nfl-commissioner-roger-goodell-says-nfl-was-wrong-not-to-listen-to-its-players-about-racism",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: ESPN's June 2020 reporting records Goodell's statement that the league had been wrong not to listen to protesting players, amid renewed public demonstrations. The chapter cites that institutional response separately from his later comments specifically about Kaepernick.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:espn-roger-goodell-wish-we-had-listened-earlier-to-what-colin-kaepernick-was-protesting:/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-goodell-august": {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-goodell-august",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message",
+      "slug": "espn-roger-goodell-wish-we-had-listened-earlier-to-what-colin-kaepernick-was-protesting",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: ESPN's August 2020 reporting records Goodell's later explicit regret about not listening sooner to Kaepernick's message. The manuscript uses this subsequent qualification to distinguish generic support for protest from later acknowledgment of the original protester.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:espn-transcript-of-brand-s-statement:/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-brand-statement": {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-brand-statement",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse",
+      "slug": "espn-transcript-of-brand-s-statement",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: ESPN preserved the September 2000 statement in which Indiana president Myles Brand explained the university's decision to dismiss Bob Knight. The manuscript uses that primary institutional explanation for the termination rather than conflating it with the sanctions imposed months earlier.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:espn-video-supports-reed-s-allegation-against-knight:/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-reed-video": {
+      "candidatePath": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse#user-content-fnref-c4-reed-video",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/the-game-we-think-we-saw/chapters/parts-part-2-why-the-result-counts-chapter-4-what-winning-is-allowed-to-excuse",
+      "slug": "espn-video-supports-reed-s-allegation-against-knight",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: ESPN's April 2000 reporting described the practice footage supporting Neil Reed's accusation of physical contact by Knight. The chapter cites the video reporting for the change in available evidence, separately from earlier reporting of Reed's allegation and Knight's denial.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:garud-raghu-and-peter-karn-e-path-dependence-and-creation:/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-13-when-justification-fades#user-content-fnref-c13-garud-path-creation": {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-13-when-justification-fades#user-content-fnref-c13-garud-path-creation",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-13-when-justification-fades",
+      "slug": "garud-raghu-and-peter-karn-e-path-dependence-and-creation",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Garud and Karnøe analyze how paths emerge, persist, and can be actively created rather than merely inherited. The chapter cites their institutional account where a useful structure becomes an ordinary practice, keeping it separate from Illich's normative critique of tools.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:giddens-anthony-the-constitution-of-society-outline-of-the-theory-of:/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-15-archaeology-of-the-present#user-content-fnref-c15-giddens-structuration": {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-15-archaeology-of-the-present#user-content-fnref-c15-giddens-structuration",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-4-living-among-sediment-chapter-15-archaeology-of-the-present",
+      "slug": "giddens-anthony-the-constitution-of-society-outline-of-the-theory-of",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Giddens's structuration theory treats social practices as both shaped by and reproducing institutional arrangements. The chapter cites this mechanism when considering how people inherit and remake their environments, separately from Arendt's historical and political reflections.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:kim-gene-kevin-behr-and-george-spafford-the-phoenix-project-a-novel-about-it-devops-and-helping:/explore/books/coupling/chapters/parts-part-5-oscillation-and-design-21-the-oscillation#user-content-fnref-c21-phoenix-novel": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-5-oscillation-and-design-21-the-oscillation#user-content-fnref-c21-phoenix-novel",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-5-oscillation-and-design-21-the-oscillation",
+      "slug": "kim-gene-kevin-behr-and-george-spafford-the-phoenix-project-a-novel-about-it-devops-and-helping",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: The Phoenix Project portrays operational instability and the tension between delivery and reliability through a fictional IT organization. The chapter invokes the novel as a recognizable illustration of this pattern, not as empirical evidence for how frequently those failures occur.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:lewis-john-with-michael-d-orso-walking-with-the-wind-a-memoir-of-the-movement:/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-lewis-selma": {
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-lewis-selma",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march",
+      "slug": "lewis-john-with-michael-d-orso-walking-with-the-wind-a-memoir-of-the-movement",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: John Lewis's memoir describes his participation in the civil-rights movement, including the Selma marches and Bloody Sunday. The manuscript uses this participant's perspective for Lewis's role at the bridge, while distinguishing it from organizational accounts of the wider movement.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:noble-safiya-umoja-algorithms-of-oppression-how-search-engines-reinforce-racism:/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-9-what-the-algorithm-sees#user-content-fnref-c9-noble-ranking": {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-9-what-the-algorithm-sees#user-content-fnref-c9-noble-ranking",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/living-in-sediment/chapters/parts-part-3-fossils-forming-now-chapter-9-what-the-algorithm-sees",
+      "slug": "noble-safiya-umoja-algorithms-of-oppression-how-search-engines-reinforce-racism",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Safiya Umoja Noble documents how search engines can reinforce racialized stereotypes and unequal visibility through their ranking and classification practices. The chapter cites that specific critique while acknowledging the utility of search, not as a claim that all ranking is deliberately discriminatory.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:packer-george-the-quiet-german:/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-packer-portrait": {
+      "candidatePath": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance#user-content-fnref-c3-packer-portrait",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/when-authority-is-misread/chapters/parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance",
+      "slug": "packer-george-the-quiet-german",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: George Packer's portrait of Angela Merkel analyzes the restrained and sometimes opaque qualities of her political presentation. The chapter treats the piece as one contemporary interpretive witness rather than a complete explanation of her governing decisions.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:rao-anupama-the-caste-question-dalits-and-the-politics-of-modern-india:/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-rao-caste-politics": {
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-rao-caste-politics",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt",
+      "slug": "rao-anupama-the-caste-question-dalits-and-the-politics-of-modern-india",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Anupama Rao examines the historical making of Dalit political identity and representation in modern India. The chapter invokes that scholarship to contextualize the stakes of separate electorates and the Poona Pact, distinct from Ambedkar's own later defense of political safeguards.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:robinson-jo-ann-gibson-the-montgomery-bus-boycott-and-the-women-who-started-it:/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-robinson-wpc": {
+      "candidatePath": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march#user-content-fnref-m4-robinson-wpc",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/when-others-become-leaders/chapters/parts-part-2-how-influence-moves-chapter-4-the-march",
+      "slug": "robinson-jo-ann-gibson-the-montgomery-bus-boycott-and-the-women-who-started-it",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Jo Ann Gibson Robinson's account foregrounds the Women's Political Council and its organizational work before and during the Montgomery bus boycott. The chapter cites her first-person movement history for the preparation and leaflet campaign, separately from Taylor Branch's broader chronology.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:vernon-vaughn-implementing-domain-driven-design:/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-15-architectural-cohesion#user-content-fnref-c15-vernon-context-mapping": {
+      "candidatePath": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-15-architectural-cohesion#user-content-fnref-c15-vernon-context-mapping",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-15-architectural-cohesion",
+      "slug": "vernon-vaughn-implementing-domain-driven-design",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Vernon's Implementing Domain-Driven Design develops operational practices for bounded contexts, integration, and context maps. The chapter cites those practices for coordination across service boundaries, distinct from Evans's earlier formulation of the underlying domain language concept.",
+      "updatedAt": "2026-10-25T00:55:00Z"
+    },
+    "source:zerubavel-eviatar-hidden-rhythms-schedules-and-calendars-in-social-life:/explore/books/living-in-sediment/chapters/front-matter-prologue-september-is-not-seven#user-content-fnref-pro-zerubavel-calendar": {
+      "candidatePath": "/explore/books/living-in-sediment/chapters/front-matter-prologue-september-is-not-seven#user-content-fnref-pro-zerubavel-calendar",
+      "entityKind": "source",
+      "evidenceLevel": "A",
+      "routeKey": "/explore/books/living-in-sediment/chapters/front-matter-prologue-september-is-not-seven",
+      "slug": "zerubavel-eviatar-hidden-rhythms-schedules-and-calendars-in-social-life",
+      "status": "applied",
+      "note": "Phase 17 editorially reviewed and applied: Zerubavel studies how schedules and calendars organize collective time through conventions that become familiar and difficult to see. The prologue invokes his social analysis of temporal coordination separately from Landes's history of clockmaking technologies.",
+      "updatedAt": "2026-10-25T00:55:00Z"
     }
   }
 }
