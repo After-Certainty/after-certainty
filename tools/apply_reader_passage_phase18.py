@@ -16,6 +16,8 @@ from pathlib import Path
 
 import yaml
 
+from reader_passage_links import run_audit
+
 
 def selected_note(slug: str, decisions: dict[str, str]) -> str | None:
     matches = [value for prefix, value in decisions.items() if slug.startswith(prefix)]
@@ -40,7 +42,17 @@ def main() -> None:
     deferred: list[tuple[str, str]] = []
     previously_linked: list[str] = []
 
-    source_candidates = [c for c in candidates if c["entity_kind"] == "source"]
+    preflight = run_audit(repo, check_fragments=False, thinker_slugs=set())
+    eligible = {
+        src.slug
+        for src in preflight.sources
+        if src.evidence_level == "B"
+        and src.status == "strong_candidate"
+        and not src.reader_passage_path
+    }
+    source_candidates = [
+        c for c in candidates if c["entity_kind"] == "source" and c["slug"] in eligible
+    ]
     unlinked = []
     for candidate in source_candidates:
         slug = candidate["slug"]
@@ -51,9 +63,10 @@ def main() -> None:
             continue
         unlinked.append(candidate)
 
-    if len(unlinked) != 87:
+    if len(eligible) != 87 or len(unlinked) != 87:
         raise RuntimeError(
-            f"Expected the Phase 17 baseline of 87 cited but unlinked sources, got {len(unlinked)}. "
+            f"Expected the Phase 17 baseline of 87 cited but unlinked sources, got "
+            f"eligible={len(eligible)}, candidates={len(unlinked)}. "
             "Reconcile against the latest audit before applying this editorial batch."
         )
 
