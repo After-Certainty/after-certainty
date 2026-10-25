@@ -89,9 +89,15 @@ def test_phase17_reader_footnotes_are_invoked_and_source_specific() -> None:
         assert len(data["whyThisMatters"]) >= 120, slug
         route, note = path.split("#user-content-fnref-", 1)
         manuscript = _manuscript_for_route(route).read_text(encoding="utf-8")
-        definitions = re.findall(rf"(?m)^\\[\\^{re.escape(note)}\\]:[^\\n]*", manuscript)
+        definitions = [
+            line for line in manuscript.splitlines() if line.startswith(f"[^{note}]:")
+        ]
         assert len(definitions) == 1, (slug, note)
-        body = re.sub(r"(?m)^\\[\\^[^]]+\\]:[^\\n]*", "", manuscript)
+        body = "\n".join(
+            line
+            for line in manuscript.splitlines()
+            if not (line.startswith("[^") and "]:" in line)
+        )
         assert f"[^{note}]" in body, (slug, note)
         record = log[f"source:{slug}:{path}"]
         assert record["status"] == "applied", slug
