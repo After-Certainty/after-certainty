@@ -70,7 +70,7 @@ jobs:
           assert s["total"] == 714, s
           assert s["verifiedLinkTiedCitation"] == 548, s
           assert s["validPassageLinks"] == 548, s
-          assert s["missingPathWithFootnote"] == 89, s
+          assert s["missingPathWithFootnote"] == 87, s
           assert s["invalidPassageLinks"] == 0, s
           assert s["unverifiedFragmentLinks"] == 0, s
           assert s["pathNeedsEditorialReview"] == 0, s
