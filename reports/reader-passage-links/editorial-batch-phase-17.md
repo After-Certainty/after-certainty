@@ -2,7 +2,7 @@
 
 Phase 17 follows merged PR #731. It adds **52 individually selected source-to-reader references** across the manuscripts. This is an editorial evidence matrix, not a claim that citation linkage validates the manuscript's interpretations. Changes distinguish first-party records from retrospectives, reportage from memoir, institutional rules from philosophical readings, and fictional illustrations from empirical research.
 
-**Baseline:** Phase 16 had 496 of 714 linked sources and 141 mechanically located but unlinked source citations. With all 52 new links verified, expected coverage would be **548 / 714 (76.75%)**, with **87** footnote-cited sources still requiring review. The 87 remaining footnote-cited sources were measured in the first Phase 17 full audit (which found four attribution warnings); full A-level coverage and a clean re-audit remain pending.
+**Verified outcome:** Phase 16 closed at 496 / 714 tied citations (69.47%). The full Phase 17 rendered-HTML audit verifies all 52 new links, bringing the corpus to **548 / 714 (76.75%)**. **87** footnote-cited sources remain without reader-passage links; **zero** links have an invalid path, unverified fragment, or outstanding attribution-warning status. The corpus also contains 60 bibliography-only, 1 thematic, and 18 no-evidence sources, which must not be counted as footnote-link backlog.
 
 ## Reviewed source-to-footnote decisions
 
@@ -113,9 +113,9 @@ Phase 17 follows merged PR #731. It adds **52 individually selected source-to-re
 - **Do not conflate sources:** distinct forms of evidence may appear in the same narrative paragraph, but each new profile has a particular citation anchor and an authored relevance explanation. Companion sources retained in manuscript notes are not implicitly approved for linkage.
 - **No invented primary testimony:** biographies, memoirs, records, press stories, scholarship and fictional illustrations are identified by their actual roles. Adding a link does not turn a philosophical conclusion into a source author's finding.
 - **Backlog continues:** mechanically suggested but unresolved co-citations remain unlinked. Earlier review-log candidates displaced by a stronger citation are preserved as superseded decisions.
-- **Audit gate:** run the full rendered-HTML fragment audit, check that all 52 new sources become verified level A and that existing paths have zero attribution warnings before calling this PR merge-ready.
+- **Audit gate passed:** the complete renderer-backed audit confirmed 548 level-A source links, no invalid or unverified fragments, no remaining source paths needing editorial review, and no regressions to existing links.
 
 ## Checks
 
 - `tests/test_reader_passage_phase17.py` verifies route-to-markdown anchors, footnote invocation and definition, substantive `whyThisMatters`, review-log status, and uniqueness.
-- Re-run the existing reader-passage regression suites for Phases 10–16 and the current full renderer audit. Do not silently lower the matcher threshold or broaden source attribution.
+- The Phase 10–17 suites passed, alongside the actual HTML-fragment audit. The adjacent disambiguation fix excludes URL slugs from claims that a second named author is cited; a regression test preserves genuine multi-work footnotes. Matching thresholds were **not** lowered.
