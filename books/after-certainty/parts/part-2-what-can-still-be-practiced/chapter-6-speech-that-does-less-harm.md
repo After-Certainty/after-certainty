@@ -64,7 +64,7 @@ Language creates evidence of participation long before it creates evidence of re
 
 A sentence can demonstrate awareness. It cannot guarantee understanding. A statement can demonstrate concern. It cannot guarantee care. An apology can begin repair. It cannot complete it. Words matter. They simply matter differently than we often imagine.
 
-When speech becomes more accountable to audience recognition than to effects on actual people, it starts becoming extractive instead of responsive.[^c6-performative-speech] The fourth draft had made care visible before it had made the relationship more answerable.
+When speech becomes more accountable to audience recognition than to effects on actual people, it starts becoming extractive instead of responsive.[^c6-performative-speech][^c6-sunstein-audiences] The fourth draft had made care visible before it had made the relationship more answerable.
 
 ### **Choosing Proportion Over Persuasion**
 
@@ -104,5 +104,7 @@ He had spent twenty minutes on the fourth draft. By evening the message had beco
 
 The question becomes simpler and harder at the same time: will these words make the harm more answerable—or only more discussable?
 
-[^c6-performative-speech]: See Erving Goffman, *The Presentation of Self in Everyday Life* (Garden City, NY: Doubleday, 1959); Cass R. Sunstein, *#Republic* (Princeton, NJ: Princeton University Press, 2017).
+[^c6-performative-speech]: See Erving Goffman, *The Presentation of Self in Everyday Life* (Garden City, NY: Doubleday, 1959).
 [^c6-proportionality]: See Michael Walzer, *Just and Unjust Wars*, 5th ed. (New York: Basic Books, 2015).
+
+[^c6-sunstein-audiences]: Cass R. Sunstein, *#Republic: Divided Democracy in the Age of Social Media* (Princeton, NJ: Princeton University Press, 2017), on audience feedback and communication in polarized online settings.

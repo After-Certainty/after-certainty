@@ -28,7 +28,7 @@ Parents at a school board meeting are not being irrational when they boo conditi
 
 In public arenas, **probabilistic truth sounds weak** because audiences hear weakness as exposure: if you are not sure, why should I follow you? The hearing is not irrational. Followers pay costs for leader uncertainty—financial, physical, reputational.
 
-Psychology matters here: people map leader confidence onto group safety.[^c9-confidence] When a leader wavers, followers feel the floor move. Systems matter too: metrics reward crisp narratives; quarterly culture punishes revision; social media rewards destiny speech that travels. Discipline must address both—training audiences, redesigning incentives—not only exhorting leaders to be brave.
+Psychology matters here: people map leader confidence onto group safety.[^c9-confidence][^c9-kahneman-certainty] When a leader wavers, followers feel the floor move. Systems matter too: metrics reward crisp narratives; quarterly culture punishes revision; social media rewards destiny speech that travels. Discipline must address both—training audiences, redesigning incentives—not only exhorting leaders to be brave.
 
 Probabilistic seriousness can sound like relativism when poorly spoken. "Maybe" without stakes is evasion. "Maybe" with named harms, named actions, and named triggers is leadership. The difference is not tone. It is whether speech **allocates responsibility** while preserving the right to learn.
 
@@ -164,4 +164,6 @@ Leaders who did not build those channels still choose how to respond when a warn
 
 The next chapter describes leadership practice when restraint is chosen anyway: naming risk without declaring destiny, warning without condemning, acting decisively without false inevitability.
 
-[^c9-confidence]: Barbara W. Tuchman, *The March of Folly: From Troy to Vietnam* (New York: Knopf, 1984), on recurring patterns of institutional overconfidence; see also Daniel Kahneman, *Thinking, Fast and Slow* (New York: Farrar, Straus and Giroux, 2011), on confidence and narrative coherence.
+[^c9-confidence]: Barbara W. Tuchman, *The March of Folly: From Troy to Vietnam* (New York: Knopf, 1984), on recurring patterns of institutional overconfidence.
+
+[^c9-kahneman-certainty]: Daniel Kahneman, *Thinking, Fast and Slow* (New York: Farrar, Straus and Giroux, 2011), on confidence and narrative coherence.

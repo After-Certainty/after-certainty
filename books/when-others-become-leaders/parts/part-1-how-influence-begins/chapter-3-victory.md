@@ -218,7 +218,7 @@ The reasons for staying are rarely described as vanity. The work is unfinished. 
 
 Each explanation may be true, yet together they can produce a system unable to survive the person credited with saving it.
 
-Mandela announced early that he would not seek another presidential term.[^v3] He stepped down in 1999 and was succeeded by Thabo Mbeki, having already relinquished the ANC presidency in 1997. The constitution would have allowed him to remain longer; he chose not to.
+Mandela announced early that he would not seek another presidential term.[^v3] He stepped down in 1999 and was succeeded by Thabo Mbeki, having already relinquished the ANC presidency in 1997.[^v3-transition-record] The constitution would have allowed him to remain longer; he chose not to.
 
 Age and circumstance mattered. Mandela was no young ruler walking away from decades of possible office. His role in day-to-day government had already shifted toward Mbeki and others. Leaving after one term did not mean withdrawing from public life or abandoning influence.
 
@@ -383,8 +383,10 @@ Leadership appeared in what he chose not to keep there.
 
 [^v1]: South African History Online, “South Africa’s first democratic elections, 27 April 1994,” and Nelson Mandela Foundation chronology pages.
 [^v2]: John Carlin, *Playing the Enemy: Nelson Mandela and the Game That Made a Nation* (New York: Penguin, 2008).
-[^v3]: Nelson Mandela, *Long Walk to Freedom* (Boston: Little, Brown and Company, 1994); South African Government and Parliamentary records for 1999 transition.
+[^v3]: Nelson Mandela, *Long Walk to Freedom* (Boston: Little, Brown and Company, 1994)
 [^v4]: Nelson Mandela, statement from the dock at the Rivonia Trial (20 April 1964), https://www.un.org/en/events/mandeladay/court_statement_1964.shtml, on the formation of Umkhonto we Sizwe and his justification for sabotage rather than terrorism or racial war.
 [^v5]: Truth and Reconciliation Commission of South Africa, *Final Report* (1998), examining human rights violations by actors across the apartheid-era conflict.
 
 [^v5-tutu]: Desmond Tutu, *No Future Without Forgiveness* (New York: Doubleday, 1999), reflecting on the aims, tensions, and limits of the Truth and Reconciliation Commission.
+
+[^v3-transition-record]: South African Government and Parliamentary records on the 1999 presidential transition and transfer of office.

@@ -18,7 +18,7 @@ Again and again, the same discovery appeared. The ordinary was older than it loo
 
 Perhaps that is all archaeology has ever offered—not certainty about the past, but humility toward the present.
 
-Once you begin recognizing that the world around you was built by people responding to circumstances they could not entirely foresee, certainty becomes more difficult to maintain.[^c15-generosity-context] You become slower to assume that today's arrangements are inevitable, but also slower to dismiss them as foolish. Every layer reflects someone trying to solve a problem from where they stood.
+Once you begin recognizing that the world around you was built by people responding to circumstances they could not entirely foresee, certainty becomes more difficult to maintain.[^c15-generosity-context][^c15-giddens-structuration] You become slower to assume that today's arrangements are inevitable, but also slower to dismiss them as foolish. Every layer reflects someone trying to solve a problem from where they stood.
 
 Understanding begins with generosity.
 
@@ -86,4 +86,6 @@ Once you know that, you never quite stand in the same place again.
 
 [^c15-what-happened]: See E. H. Carr, *What Is History?* (New York: Vintage Books, 1961); Neil MacGregor, *A History of the World in 100 Objects* (New York: Viking, 2011).
 
-[^c15-generosity-context]: See Hannah Arendt, *Between Past and Future* (New York: Viking, 1961); Anthony Giddens, *The Constitution of Society: Outline of the Theory of Structuration* (Berkeley: University of California Press, 1984).
+[^c15-generosity-context]: See Hannah Arendt, *Between Past and Future* (New York: Viking, 1961).
+
+[^c15-giddens-structuration]: Anthony Giddens, *The Constitution of Society: Outline of the Theory of Structuration* (Berkeley: University of California Press, 1984).

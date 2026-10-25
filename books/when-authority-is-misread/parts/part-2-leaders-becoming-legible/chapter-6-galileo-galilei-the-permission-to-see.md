@@ -262,7 +262,7 @@ decide what counts as knowledge.
 
 [^c6-dialogue]: Galileo Galilei, *Dialogo sopra i due massimi sistemi del mondo* (Florence, 1632); English translation, *Dialogue Concerning the Two Chief World Systems*, trans. Stillman Drake (Berkeley: University of California Press, 1967).
 
-[^c6-trial]: On the 1616 injunction and the 1633 trial, abjuration, and sentencing, see Fantoli, *Galileo*; Maurice A. Finocchiaro, *The Galileo Affair: A Documentary History* (Berkeley: University of California Press, 1989).
+[^c6-trial]: On the 1616 injunction and the 1633 trial, abjuration, and sentencing, see Maurice A. Finocchiaro, *The Galileo Affair: A Documentary History* (Berkeley: University of California Press, 1989).
 
 [^c6-heilbron-suppress]: Heilbron, *Galileo*, and Fantoli, *Galileo*, both stress that many contemporaries grasped Galileo’s claims while contesting their public doctrinal implications—understanding without institutional permission.
 

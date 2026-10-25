@@ -50,7 +50,7 @@ When the answer is no, leaders are not practicing discipline. They are practicin
 
 Self-incrimination is not self-hatred. It is the institutional form of mature cognition: the willingness to learn from disconfirming evidence even when the evidence embarrasses the learner.
 
-Whistleblower protections illustrate the paradox in human scale. Policies promise anonymity and non-retaliation. Practice often punishes the reporter through lateral exile, performance plans, and "not a team player" narratives.[^c7-wb] The institution keeps the legal warning system while teaching members that the real warning is career risk. Probabilistic seriousness does not ask whether the policy exists. It asks whether reporting **changes the distribution of outcomes** for reporters and for harm.
+Whistleblower protections illustrate the paradox in human scale. Policies promise anonymity and non-retaliation. Practice often punishes the reporter through lateral exile, performance plans, and "not a team player" narratives.[^c7-workplace-retaliation][^c7-wb] The institution keeps the legal warning system while teaching members that the real warning is career risk. Probabilistic seriousness does not ask whether the policy exists. It asks whether reporting **changes the distribution of outcomes** for reporters and for harm.
 
 Scientific replication norms are a quieter form of self-incrimination: the community's willingness to let favored results fail. When replication is weak, warnings inside science become domesticated into prestige games. Institutions that depend on science—medicine, climate policy, product safety—inherit that weakness as prophecy culture upstream: "the science is settled" used to end inquiry rather than to summarize current weight of evidence.
 
@@ -138,4 +138,6 @@ The next chapter examines how individuals and structures interact when isolated 
 
 [^c7-taleb]: Nassim Nicholas Taleb, *Antifragile: Things That Gain from Disorder* (New York: Random House, 2012), on asymmetry of visible harm and hidden prevention.
 
-[^c7-wb]: U.S. Securities and Exchange Commission, Office of the Whistleblower, annual reports to Congress document trends in retaliation claims and award outcomes; see also Dylan Walsh, "Why Whistleblowers Still Hesitate," *Harvard Business Review*, 2021 (organizational retaliation patterns).
+[^c7-wb]: U.S. Securities and Exchange Commission, Office of the Whistleblower, annual reports to Congress document trends in retaliation claims and award outcomes.
+
+[^c7-workplace-retaliation]: Dylan Walsh, “Why Whistleblowers Still Hesitate,” *Harvard Business Review*, 2021, on organizational pressures affecting reporting.

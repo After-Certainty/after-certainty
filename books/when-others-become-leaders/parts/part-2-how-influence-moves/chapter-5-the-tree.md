@@ -225,6 +225,6 @@ Someone returns with water. Then another person does. Years later, there is shad
 
 ## Notes
 
-[^t1]: Wangari Maathai, *Unbowed: A Memoir* (New York: Alfred A. Knopf, 2006); Green Belt Movement institutional history.
+[^t1]: Wangari Maathai, *Unbowed: A Memoir* (New York: Alfred A. Knopf, 2006)
 [^t2]: Nobel Prize, “The Nobel Peace Prize 2004 – Wangari Maathai,” NobelPrize.org.
 [^t3]: Wangari Maathai, *Unbowed*; Green Belt Movement and contemporary reporting on Uhuru Park and Karura Forest campaigns.

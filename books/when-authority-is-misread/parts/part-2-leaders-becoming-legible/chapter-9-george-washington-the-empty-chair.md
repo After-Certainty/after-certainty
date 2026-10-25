@@ -149,7 +149,7 @@ the recovery of people who fled enslavement. His will provided for
 the freeing of those he personally enslaved after Martha
 Washington’s death—a delayed manumission that registered both a
 troubled conscience and a refusal to disrupt the household economy
-while it still served him.[^c9-slavery] Historians of slavery and
+while it still served him.[^c9-slavery] The Washington household’s pursuit of Ona Judge after her escape offers a specific example of how that private power was exercised.[^c9-ona-judge] Historians of slavery and
 the early republic have insisted, correctly, that self-restraining
 authority at the summit of the state is not separable from the
 unrestrained authority exercised over enslaved people within
@@ -311,13 +311,12 @@ is the only way the empty chair remains a warning rather than a
 lullaby.
 
 [^c9-chernow]: Ron Chernow, *Washington: A Life* (New York:
-Penguin Press, 2010); Joseph J. Ellis, *His Excellency: George
-Washington* (New York: Alfred A. Knopf, 2004). Both treat
-Washington’s authority as contested in his lifetime and
-mythologized afterward.
+Penguin Press, 2010), on Washington’s contested authority and
+later national mythmaking.
 
-[^c9-ellis]: Ellis, *His Excellency*; Chernow, *Washington*, on
-Continental Army fragility, officer discontent, and
+[^c9-ellis]: Joseph J. Ellis, *His Excellency: George Washington*
+(New York: Alfred A. Knopf, 2004), on Continental Army fragility,
+officer discontent, and
 contemporaneous monarchy anxieties.
 
 [^c9-newburgh]: On the Newburgh Conspiracy and Washington’s
@@ -327,7 +326,7 @@ address to officers, March 1783, see Chernow, *Washington*; Ellis,
 [^c9-whiskey]: On the Whiskey Rebellion and federal enforcement,
 see Thomas P. Slaughter, *The Whiskey Rebellion: Frontier Epilogue
 to the American Revolution* (New York: Oxford University Press,
-1986), and Chernow, *Washington*.
+1986).
 
 [^c9-farewell]: George Washington, Farewell Address, 19 September
 1796; text and context in Ellis, *His Excellency*, and Chernow,
@@ -336,9 +335,8 @@ to the American Revolution* (New York: Oxford University Press,
 [^c9-slavery]: On Washington and slavery, see Mary V. Thompson,
 *“The Only Unavoidable Subject of Regret”: George Washington,
 Slavery, and the Enslaved Community at Mount Vernon*
-(Charlottesville: University of Virginia Press, 2019); Erica
-Armstrong Dunbar, *Never Caught: The Washingtons’ Relentless
-Pursuit of Their Runaway Slave, Ona Judge* (New York: 37
-Ink/Atria, 2017); and Fritz Hirschfeld, *George Washington and
+(Charlottesville: University of Virginia Press, 2019); and Fritz Hirschfeld, *George Washington and
 Slavery: A Documentary Portrayal* (Columbia: University of
 Missouri Press, 1997).
+
+[^c9-ona-judge]: Erica Armstrong Dunbar, *Never Caught: The Washingtons’ Relentless Pursuit of Their Runaway Slave, Ona Judge* (New York: 37 Ink/Atria, 2017).

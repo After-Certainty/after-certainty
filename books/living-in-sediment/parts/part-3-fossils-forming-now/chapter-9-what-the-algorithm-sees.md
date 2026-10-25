@@ -38,7 +38,7 @@ A ranking system never asks, "What is true?" It asks questions that are, by nece
 
 These are practical questions. They are also design choices.
 
-Different systems answer them differently because different organizations optimize for different outcomes.
+Different systems answer them differently because different organizations optimize for different outcomes. Safiya Umoja Noble has documented a sharper consequence: search results can reproduce racialized assumptions and unequal visibility even when they present themselves as neutral ordering.[^c9-noble-ranking]
 
 The interesting transformation happens slowly. At first, the ranking helps us navigate. Eventually, it begins helping us decide.
 
@@ -76,8 +76,10 @@ The most enduring structures rarely command us. They orient us. They make some d
 
 Perhaps that is the deepest sediment algorithms are laying down. Not the answers they provide. The paths they make feel natural.
 
-[^c9-ranking]: See Cathy O'Neil, *Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy* (New York: Crown, 2016); Safiya Umoja Noble, *Algorithms of Oppression: How Search Engines Reinforce Racism* (New York: New York University Press, 2018).
+[^c9-ranking]: See Cathy O'Neil, *Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy* (New York: Crown, 2016).
 
 [^c9-visibility-power]: See Tim Wu, *The Attention Merchants: The Epic Scramble to Get Inside Our Heads* (New York: Alfred A. Knopf, 2016).
 
 [^c9-lists-reality]: See Geoffrey C. Bowker and Susan Leigh Star, *Sorting Things Out: Classification and Its Consequences* (Cambridge, MA: MIT Press, 1999).
+
+[^c9-noble-ranking]: Safiya Umoja Noble, *Algorithms of Oppression: How Search Engines Reinforce Racism* (New York: New York University Press, 2018).

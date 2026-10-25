@@ -600,7 +600,12 @@ def index_chapter_engagement(
             # own citation. Keep all weaker co-matches as candidates needing
             # review; do not silently promote them to source-specific A.
             # Two explicitly named works must remain a genuinely shared note.
-            def_norm = normalize_match_text(body)
+            # URL paths often contain other authors, teams, or headline fragments.
+            # Only visible citation prose may establish a second named creator;
+            # otherwise a single precisely titled article becomes a false shared
+            # footnote just because its publisher's URL mentions another entity.
+            visible_citation = re.sub(r"https?://\S+", "", body)
+            def_norm = normalize_match_text(visible_citation)
             directly_named: list[str] = []
             for hit_slug, hit_score, _ in scored:
                 source = sources[hit_slug]

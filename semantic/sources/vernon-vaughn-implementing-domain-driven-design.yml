@@ -16,3 +16,5 @@ citation: 'Vernon, Vaughn. Implementing Domain-Driven Design. Upper Saddle River
   NJ: Addison-Wesley, 2013.'
 sourceKind: book
 year: 2013
+readerPassagePath: /explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-15-architectural-cohesion#user-content-fnref-c15-vernon-context-mapping
+whyThisMatters: "Vernon's Implementing Domain-Driven Design develops operational practices for bounded contexts, integration, and context maps. The chapter cites those practices for coordination across service boundaries, distinct from Evans's earlier formulation of the underlying domain language concept."

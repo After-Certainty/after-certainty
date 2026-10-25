@@ -116,15 +116,16 @@ def test_review_log_applied_paths_match_canonical_sources() -> None:
         assert review[key]["status"] == "applied", slug
         assert review[key]["candidatePath"] == target, slug
 
-    # The Luck retirement co-citation remains shared. Alexander's two
-    # independently cited works were separated in the reviewed Phase 16 batch,
-    # so the old shared-note decision must remain as a skipped replacement.
+    # The Colts' first-party Luck retirement account now has a separate
+    # source-specific citation in Phase 17. Preserve the superseded shared-note
+    # decision; Phase 16 likewise separated Alexander's two works.
     luck = [
         value
         for key, value in review.items()
         if key.startswith("source:andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl:")
     ]
-    assert luck and any(entry["status"] == "deferred" for entry in luck)
+    assert any(entry["status"] == "applied" for entry in luck)
+    assert any(entry["status"] == "skipped" and entry.get("supersededBy") for entry in luck)
 
     alexander = [
         value
