@@ -1,4 +1,5 @@
 name: Phase 18 reader audit (temporary)
+# Final attribution pass: unique source citations for Manifesto, Wagoner and OSHA.
 # Includes manuscript-level source-specific citations for shared notes.
 # Reviewed candidate selection uses the current source audit, not historical candidates.
 # Every audit-log timestamp uses datetime.UTC (Python 3.12 lint).
@@ -46,8 +47,10 @@ jobs:
           python -m ruff format tools/apply_reader_passage_phase18.py
           python -m ruff check tools/apply_reader_passage_phase18.py
 
-      - name: Apply individually reviewed Phase 18 evidence
-        run: python tools/apply_reader_passage_phase18.py --repo .
+      - name: Verify already-committed Phase 18 enrichment
+        run: |
+          test -f reports/reader-passage-links/editorial-batch-phase-18.md
+          test -f reports/reader-passage-links/phase18-editorial-decisions.json
 
       - name: Audit source linkage against rendered reader
         run: python tools/audit_reader_passage_links.py --repo .
@@ -63,10 +66,10 @@ jobs:
           unresolved = [x for x in json.loads(p.read_text())["rankedOpportunities"] if x["status"] != "strong_candidate"]
           print("unresolved attribution records:", unresolved)
           assert s["total"] == 714
-          assert s["verifiedLinkTiedCitation"] >= 631
+          assert s["verifiedLinkTiedCitation"] == 634
           assert s["invalidPassageLinks"] == 0
           assert s["unverifiedFragmentLinks"] == 0
-          assert s["pathNeedsEditorialReview"] <= 3
+          assert s["pathNeedsEditorialReview"] == 0
           assert s["whyThisMattersOk"] == s["validPassageLinks"]
           assert s["missingPathWithFootnote"] <= 7
           PY
