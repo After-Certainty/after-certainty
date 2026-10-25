@@ -62,7 +62,7 @@ A gesture can activate meanings the speaker did not intend without making intent
 
 The criticism began before the gesture reached its most familiar form.
 
-Sitting during the anthem was interpreted by many observers as dismissive or disrespectful. Nate Boyer, a former Green Beret who had briefly played in the NFL, entered the conversation and met with Kaepernick and safety Eric Reid. After their discussion, Kaepernick changed the protest from sitting to kneeling; Reid joined him before the 49ers’ final preseason game in San Diego on September 1. Reid later explained that kneeling was chosen as a more respectful gesture while preserving the protest, and described the decision as the product of extended discussion and consultation with Boyer.[^c7-kneel]
+Sitting during the anthem was interpreted by many observers as dismissive or disrespectful. Nate Boyer, a former Green Beret who had briefly played in the NFL, entered the conversation and met with Kaepernick and safety Eric Reid. After their discussion, Kaepernick changed the protest from sitting to kneeling; Reid joined him before the 49ers’ final preseason game in San Diego on September 1.[^c7-espn-kneel] Reid later explained that kneeling was chosen as a more respectful gesture while preserving the protest, and described the decision as the product of extended discussion and consultation with Boyer.[^c7-kneel]
 
 The change is important because it complicates two simple stories.
 
@@ -160,7 +160,7 @@ The institution could not remain merely the surface on which meaning moved. Its 
 
 By the following season, Kaepernick was no longer on an NFL roster, but the protest had become larger than the player who began it.
 
-In September 2017, President Donald Trump publicly urged NFL owners to remove players who refused to stand. During the games that followed, players across the league knelt, raised fists, linked arms, or remained away from the field during the anthem. Some of those actions continued the original protest against racial injustice. Others also responded to the president’s characterization of protesting players.[^c7-trump-weekend]
+In September 2017, President Donald Trump publicly urged NFL owners to remove players who refused to stand. During the games that followed, players across the league knelt, raised fists, linked arms, or remained away from the field during the anthem.[^c7-trump-ap] Some of those actions continued the original protest against racial injustice. Others also responded to the president’s characterization of protesting players.[^c7-trump-weekend]
 
 The gesture had gained another meaning.
 
@@ -235,7 +235,7 @@ In February 2019, Kaepernick and Eric Reid reached a confidential settlement wit
 
 ### The Message the League Later Heard
 
-In June 2020, after the killing of George Floyd and amid widespread protests, NFL commissioner Roger Goodell said the league had been wrong not to listen to players earlier. He condemned racism and systemic oppression, affirmed that Black lives matter, and encouraged peaceful protest. The initial statement did not name Kaepernick, though Goodell later said he wished the league had listened earlier to what Kaepernick was trying to communicate.[^c7-goodell]
+In June 2020, after the killing of George Floyd and amid widespread protests, NFL commissioner Roger Goodell said the league had been wrong not to listen to players earlier. He condemned racism and systemic oppression, affirmed that Black lives matter, and encouraged peaceful protest.[^c7-espn-goodell-june] The initial statement did not name Kaepernick, though Goodell later said he wished the league had listened earlier to what Kaepernick was trying to communicate.[^c7-goodell-august][^c7-goodell]
 
 The league’s language had moved closer to the message first attached to the kneeling gesture. But the movement in meaning was uneven. The institution could now say that the players’ concern deserved to be heard. It could invest in racial-justice initiatives and place social messages within the presentation of games. The league also remained an institution in which Kaepernick had not played since 2016.
 
@@ -251,7 +251,7 @@ Not every sporting message becomes politically historic. Sometimes compression o
 
 After the Philadelphia 76ers’ 2002 season ended, Allen Iverson appeared at a press conference and repeatedly used the word practice while responding to questions about his relationship with coach Larry Brown and his approach to team preparation. Detached from the surrounding exchange, the repetition became one of the most familiar clips in sports media—a shorthand for selfishness, indifference, or the belief that talent made preparation unnecessary.
 
-The larger press conference was more complicated. Iverson was discussing the pain of losing, conflict with his coach, and the recent death of a close friend. His repeated disbelief was directed partly at the contrast between those losses and the question being asked.[^c7-iverson]
+The larger press conference was more complicated. Iverson was discussing the pain of losing, conflict with his coach, and the recent death of a close friend. His repeated disbelief was directed partly at the contrast between those losses and the question being asked.[^c7-iverson-andscape][^c7-iverson]
 
 The shorter version traveled because it was better shaped for travel. It had rhythm. It could be imitated. It required no knowledge of the season or the person speaking. The clip was not fabricated—Iverson said the word repeatedly—but repetition was converted into a complete explanation of why he said it.
 
@@ -328,11 +328,11 @@ The argument has moved far beyond the field.
 
 [^c7-explained]: Wyche, “Colin Kaepernick Explains Why He Sat during National Anthem.”
 
-[^c7-kneel]: ESPN, “Colin Kaepernick Takes Knee for Anthem; Joined by Teammate Eric Reid,” September 1, 2016, https://www.espn.com/nfl/story/_/id/17444691/colin-kaepernick-san-francisco-49ers-sits-again-national-anthem; Nick Wagoner, “From a Seat to a Knee: How Colin Kaepernick and Nate Boyer Are Trying to Affect Change,” ESPN.com, September 2016, https://www.espn.com/blog/san-francisco-49ers/post/_/id/19253/from-a-seat-to-a-knee-how-colin-kaepernick-and-nate-boyer-are-trying-to-affect-change.
+[^c7-kneel]: Nick Wagoner, “From a Seat to a Knee: How Colin Kaepernick and Nate Boyer Are Trying to Affect Change,” ESPN.com, September 2016, https://www.espn.com/blog/san-francisco-49ers/post/_/id/19253/from-a-seat-to-a-knee-how-colin-kaepernick-and-nate-boyer-are-trying-to-affect-change.
 
 [^c7-initial-response]: Wyche, “Colin Kaepernick Explains Why He Sat during National Anthem.” The 49ers statement recognized an individual’s right to participate or not; the NFL said players were “encouraged but not required to stand during the playing of the National Anthem.”
 
-[^c7-trump-weekend]: CNN Politics, “Trump: NFL Owners Should Fire Players Who Protest the National Anthem,” September 22, 2017, https://www.cnn.com/2017/09/22/politics/donald-trump-alabama-nfl; Associated Press, “Trump Says NFL Should Fire Players Who Kneel during Anthem,” September 23, 2017, https://apnews.com/article/7e3fcc1d5c2446098652affae9e6322a.
+[^c7-trump-weekend]: CNN Politics, “Trump: NFL Owners Should Fire Players Who Protest the National Anthem,” September 22, 2017, https://www.cnn.com/2017/09/22/politics/donald-trump-alabama-nfl
 
 [^c7-policy-approved]: NFL.com, “NFL Owners Approve National Anthem Policy for 2018,” May 23, 2018, https://www.nfl.com/news/nfl-owners-approve-national-anthem-policy-for-2018-0ap3000000933971. The policy allowed staying off the field, required those on the sideline to stand, and provided for team fines. ESPN's same-day account corroborates the adoption but is not a separate event or claim here.
 
@@ -340,17 +340,23 @@ The argument has moved far beyond the field.
 
 [^c7-unsigned]: San Francisco 49ers, “Colin Kaepernick Opts Out of Contract, Becomes a Free Agent,” March 3, 2017, https://www.49ers.com/news/colin-kaepernick-opts-out-of-contract-becomes-a-free-agent-18611631.
 
-[^c7-grievance-filed]: Associated Press, “Kaepernick Files Grievance against NFL, Alleging Collusion,” October 15, 2017, https://apnews.com/article/9b26065018a042738ac8a9702f74e929; ESPN, “QB Colin Kaepernick Files Grievance for Collusion against NFL Owners,” October 15, 2017, https://www.espn.com/nfl/story/_/id/21035352/colin-kaepernick-files-grievance-nfl-owners-collusion.
+[^c7-grievance-filed]: Associated Press, “Kaepernick Files Grievance against NFL, Alleging Collusion,” October 15, 2017, https://apnews.com/article/9b26065018a042738ac8a9702f74e929
 
-[^c7-grievance-settled]: Associated Press, “Kaepernick, Eric Reid Settle Collusion Grievances with NFL,” February 15, 2019, https://apnews.com/article/29731483b46647c596fc9a6de0e3ef48; Reuters, “U.S. Quarterback Kaepernick Settles Grievance Case with NFL,” February 16, 2019, https://www.reuters.com/article/sports/us-quarterback-kaepernick-settles-grievance-case-with-nfl-idUSKCN1Q42HM/.
+[^c7-grievance-settled]: Associated Press, “Kaepernick, Eric Reid Settle Collusion Grievances with NFL,” February 15, 2019, https://apnews.com/article/29731483b46647c596fc9a6de0e3ef48
 
 [^c7-nike]: Associated Press, “Nike Unveils Kaepernick Ad to Air during NFL Season Opener,” September 5, 2018, https://apnews.com/article/61430b9383044896a9038ae09cf34d7e.
 
-[^c7-goodell]: NFL.com, “Roger Goodell: NFL ‘Wrong’ for Not Listening to Protesting Players Earlier,” June 5, 2020, https://www.nfl.com/news/roger-goodell-nfl-wrong-for-not-listening-to-protesting-players-earlier; ESPN, “NFL Commissioner Roger Goodell Says NFL Was ‘Wrong’ Not to Listen to Its Players about Racism,” June 5, 2020, https://www.espn.com/nfl/story/_/id/29272780/nfl-commissioner-roger-goodell-says-nfl-was-wrong-not-listen-players-racism; ESPN, “Roger Goodell: ‘Wish We Had Listened Earlier’ to What Colin Kaepernick Was Protesting,” August 23, 2020, https://www.espn.com/nfl/story/_/id/29727180/wished-listened-earlier-colin-kaepernick-was-protesting.
+[^c7-goodell]: NFL.com, “Roger Goodell: NFL ‘Wrong’ for Not Listening to Protesting Players Earlier,” June 5, 2020, https://www.nfl.com/news/roger-goodell-nfl-wrong-for-not-listening-to-protesting-players-earlier
 
-[^c7-iverson]: Jackie MacMullan, “The Little-Known Story behind Allen Iverson’s ‘Practice’ Rant,” ESPN, May 7, 2016, https://www.espn.com/nba/story/_/id/29143112/the-little-known-story-allen-iverson-practice-rant; Andscape, “For Allen Iverson, It Was Never Just about ‘Practice,’” May 7, 2022, https://andscape.com/features/for-allen-iverson-it-was-never-just-about-practice/.
+[^c7-iverson]: Jackie MacMullan, “The Little-Known Story behind Allen Iverson’s ‘Practice’ Rant,” ESPN, May 7, 2016, https://www.espn.com/nba/story/_/id/29143112/the-little-known-story-allen-iverson-practice-rant
 
 [^c7-ali]: *Clay v. United States*, 403 U.S. 698 (1971), https://www.oyez.org/cases/1970/783.
 
 [^c7-smith-carlos]: Associated Press, “AP Was There: Smith and Carlos Protest during 1968 Olympics,” https://apnews.com/television-general-news-e1bbc830d7424e0392066cf16c25be72.
 [^c7-smith-carlos-honor]: World Athletics, “Iconic Mexico City Olympic Podium Protest Turns 50,” October 16, 2018, https://worldathletics.org/heritage/news/mexico-city-1968-olympic-games-protest-50th-a.
+
+[^c7-espn-kneel]: ESPN, “Colin Kaepernick Takes Knee for Anthem; Joined by Teammate Eric Reid,” September 1, 2016, https://www.espn.com/nfl/story/_/id/17444691/colin-kaepernick-san-francisco-49ers-sits-again-national-anthem.
+[^c7-trump-ap]: Associated Press, “Trump Says NFL Should Fire Players Who Kneel during Anthem,” September 23, 2017, https://apnews.com/article/7e3fcc1d5c2446098652affae9e6322a.
+[^c7-espn-goodell-june]: ESPN, “NFL Commissioner Roger Goodell Says NFL Was ‘Wrong’ Not to Listen to Its Players about Racism,” June 5, 2020, https://www.espn.com/nfl/story/_/id/29272780/nfl-commissioner-roger-goodell-says-nfl-was-wrong-not-listen-players-racism.
+[^c7-goodell-august]: ESPN, “Roger Goodell: ‘Wish We Had Listened Earlier’ to What Colin Kaepernick Was Protesting,” August 23, 2020, https://www.espn.com/nfl/story/_/id/29727180/wished-listened-earlier-colin-kaepernick-was-protesting.
+[^c7-iverson-andscape]: Andscape, “For Allen Iverson, It Was Never Just about ‘Practice,’” May 7, 2022, https://andscape.com/features/for-allen-iverson-it-was-never-just-about-practice/.
