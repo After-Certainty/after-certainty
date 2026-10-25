@@ -324,6 +324,6 @@ The ruling has done enough for the game to continue. A season of such rulings wi
 
 [^c3-ifab-slowmo]: International Football Association Board, “Video Assistant Referee (VAR) Protocol.” Slow motion is generally reserved for factual matters such as position or point of contact; normal speed is more appropriate for judging intensity or deliberateness.
 
-[^c3-mlb-abs]: Major League Baseball, “MLB Announces ABS Challenge System Coming to the Major Leagues Beginning in the 2026 Season,” September 23, 2025, https://www.mlb.com/press-release/press-release-mlb-announces-abs-challenge-system-coming-to-the-major-leagues-beginning-in-the-2026-season; MLB.com, “MLB to Use ABS Challenge System Starting in 2026,” https://www.mlb.com/news/abs-challenge-system-mlb-2026.
+[^c3-mlb-abs]: Major League Baseball, “MLB Announces ABS Challenge System Coming to the Major Leagues Beginning in the 2026 Season,” September 23, 2025, https://www.mlb.com/press-release/press-release-mlb-announces-abs-challenge-system-coming-to-the-major-leagues-beginning-in-the-2026-season.
 
 [^c3-mlb-abs-design]: MLB.com, “MLB to Use ABS Challenge System Starting in 2026.” The ABS zone is a two-dimensional rectangle at the middle of home plate rather than the full three-dimensional rulebook volume.
