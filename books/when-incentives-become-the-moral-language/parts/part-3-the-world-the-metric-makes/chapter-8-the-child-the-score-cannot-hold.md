@@ -36,7 +36,7 @@ Accountability exams, graduation metrics, and ranking regimes do not announce th
 
 Metrics can reveal inequity, stagnation, and failure to teach basic skills. They can show that some students are being left behind in ways no individual teacher could prove alone. Measurement can enlarge moral vision. The same abstraction that erases part of a child's story can reveal a pattern no single story could establish.
 
-The difficulty begins when the measure becomes the boundary of what the institution is capable of knowing. When measurement becomes default moral language, test preparation crowds out discussion. Counseling loads grow while pastoral care is treated as extracurricular. Teachers are asked to form persons while being evaluated as technicians of scores.[^c8-rand] The system records proficiency bands. It does not record the student who learned to delay gratification, the class that practiced disagreement without contempt, or the teacher who spent a year on habits no rubric names.
+The difficulty begins when the measure becomes the boundary of what the institution is capable of knowing. When measurement becomes default moral language, test preparation crowds out discussion. Counseling loads grow while pastoral care is treated as extracurricular. Teachers are asked to form persons while being evaluated as technicians of scores.[^c8-rand] National evidence on teacher shortages and turnover captures another dimension of this problem: staffing instability can limit the continuity on which sustained educational relationships depend.[^c8-teacher-turnover] The system records proficiency bands. It does not record the student who learned to delay gratification, the class that practiced disagreement without contempt, or the teacher who spent a year on habits no rubric names.
 
 ### The Parent Conference
 
@@ -95,4 +95,6 @@ Measurement began as a way to make educational obligation visible across schools
 [^c8-esea]: Every Student Succeeds Act of 2015, Pub. L. No. 114-95, §§ 1111–1112 (accountability and state report cards).
 [^c8-acgr]: National Center for Education Statistics, "Adjusted Cohort Graduation Rate (ACGR)," documentation and data tables.
 [^c8-pisa]: Organisation for Economic Co-operation and Development, *PISA 2022 Results* (Volume I): *The State of Learning and Equity in Education* (Paris: OECD, 2023).
-[^c8-rand]: Jason A. Grissom et al., "Teacher Stress and Health: Effects on Teachers, Students, and Schools," RAND Corporation, 2021; Learning Policy Institute, *Teacher Shortages and Turnover in the United States* (2024).
+[^c8-rand]: Jason A. Grissom et al., “Teacher Stress and Health: Effects on Teachers, Students, and Schools,” RAND Corporation, 2021, on how stress and institutional demands can affect teachers and school experiences. This is a cited study, not empirical proof of the chapter's entire account of standardized scoring.
+
+[^c8-teacher-turnover]: Learning Policy Institute, *Teacher Shortages and Turnover in the United States* (2024), on teacher supply, staffing gaps and departures. The manuscript interprets these institutional pressures rather than attributing every departure to testing.

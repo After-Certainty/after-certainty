@@ -116,11 +116,20 @@ def test_review_log_applied_paths_match_canonical_sources() -> None:
         assert review[key]["status"] == "applied", slug
         assert review[key]["candidatePath"] == target, slug
 
-    # These shared-footnote decisions must not be converted to fabricated
-    # sole-work links by the editorial batch.
-    for slug in (
-        "alexander-christopher-the-timeless-way-of-building",
-        "andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl",
-    ):
-        records = [value for key, value in review.items() if key.startswith(f"source:{slug}:")]
-        assert records and any(x["status"] == "deferred" for x in records)
+    # The Luck retirement co-citation remains shared. Alexander's two
+    # independently cited works were separated in the reviewed Phase 16 batch,
+    # so the old shared-note decision must remain as a skipped replacement.
+    luck = [
+        value
+        for key, value in review.items()
+        if key.startswith("source:andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl:")
+    ]
+    assert luck and any(entry["status"] == "deferred" for entry in luck)
+
+    alexander = [
+        value
+        for key, value in review.items()
+        if key.startswith("source:alexander-christopher-the-timeless-way-of-building:")
+    ]
+    assert any(entry["status"] == "applied" for entry in alexander)
+    assert any(entry["status"] == "skipped" and entry.get("supersededBy") for entry in alexander)

@@ -90,13 +90,13 @@ A broken bone can resist interpretation. The image appears on a screen. The frac
 
 A concussion is different.
 
-Its symptoms may include headache, dizziness, balance problems, sensitivity to light or noise, difficulty concentrating, memory problems, slowed thinking, irritability, and the vague sense of not feeling right. Many of these conditions are experienced internally before they become obvious to anyone watching.[^c5-concussion-symptoms]
+Its symptoms may include headache, dizziness, balance problems, sensitivity to light or noise, difficulty concentrating, memory problems, slowed thinking, irritability, and the vague sense of not feeling right. Many of these conditions are experienced internally before they become obvious to anyone watching.[^c5-concussion-symptoms] Coaching guidance also warns that suspected concussions may go unreported when athletes fear being removed from play.[^c5-coaches-warning]
 
 The athlete may therefore become one of the most important sources of evidence.
 
 But the athlete is also the person with the strongest immediate reason to minimize that evidence.
 
-Research involving collegiate athletes has found that pressure to avoid disclosing a concussion can come from coaches, teammates, parents, and fans, while NCAA educational material has explicitly warned that athletes may hide symptoms because they fear losing playing time.[^c5-reporting-pressure]
+Research involving collegiate athletes has found that pressure to avoid disclosing a concussion can come from coaches, teammates, parents, and fans.[^c5-reporting-pressure] A separate study of incoming Division I college athletes examined the underreporting of concussion symptoms before athletes entered their programs.[^c5-underreporting]
 
 The culture does not have to deny that concussions exist.
 
@@ -415,9 +415,9 @@ Everyone wants the same answer.
 
 The more revealing moment comes when the athlete gives another one.
 
-[^c5-concussion-symptoms]: Centers for Disease Control and Prevention, “Symptoms of Concussion,” https://www.cdc.gov/heads-up/signs-symptoms/; National Collegiate Athletic Association, “Concussion Fact Sheet for Coaches,” http://fs.ncaa.org/Docs/health_safety/ConFactSheetcoaches.pdf.
+[^c5-concussion-symptoms]: Centers for Disease Control and Prevention, “Symptoms of Concussion,” https://www.cdc.gov/heads-up/signs-symptoms/, identifying symptoms that may not be visible to teammates and coaches.
 
-[^c5-reporting-pressure]: Moore et al., “Factors and Expectations Influencing Concussion Disclosure within NCAA Division I Athletes,” *Journal of Athletic Training* (2023), https://pmc.ncbi.nlm.nih.gov/articles/PMC10199141/; National Collegiate Athletic Association, “Concussion Fact Sheet for Coaches”; Weber Rawlins et al., “Concussion Symptom Underreporting among Incoming NCAA Division I College Athletes,” *Clinical Journal of Sport Medicine* (2019), https://pmc.ncbi.nlm.nih.gov/articles/PMC6488438/.
+[^c5-reporting-pressure]: Moore et al., “Factors and Expectations Influencing Concussion Disclosure within NCAA Division I Athletes,” *Journal of Athletic Training* (2023), https://pmc.ncbi.nlm.nih.gov/articles/PMC10199141/, on social and competitive pressures affecting symptom disclosure.
 
 [^c5-nfl-protocol]: NFL, “Concussion Protocol & Return-to-Participation Protocol: Overview,” https://www.nfl.com/playerhealthandsafety/resources/fact-sheets/concussion-protocol-return-to-participation-protocol.
 
@@ -428,3 +428,7 @@ The more revealing moment comes when the athlete gives another one.
 [^c5-nba-ppp]: NBA Communications, “NBA Board of Governors Approves New Player Participation Policy,” https://pr.nba.com/nba-board-of-governors-approves-player-participation-policy/.
 
 [^c5-nba-load-study]: NBA.com, “NBA Sends Teams the Results Found in Load Management Study,” https://www.nba.com/news/nba-sends-data-load-management-study.
+
+[^c5-coaches-warning]: National Collegiate Athletic Association, “Concussion Fact Sheet for Coaches,” http://fs.ncaa.org/Docs/health_safety/ConFactSheetcoaches.pdf, warning coaches to take possible concussions seriously because athletes may hide symptoms out of concern about playing time.
+
+[^c5-underreporting]: Weber Rawlins et al., “Concussion Symptom Underreporting among Incoming NCAA Division I College Athletes,” *Clinical Journal of Sport Medicine* (2019), https://pmc.ncbi.nlm.nih.gov/articles/PMC6488438/, reporting underdisclosure in this population.

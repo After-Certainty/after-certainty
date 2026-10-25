@@ -68,11 +68,11 @@ James felt accused of not caring about families he had never met. Rachel felt fo
 
 James explained that the proposal was reversible. Rachel explained that temporary arrangements often became permanent once money and volunteer schedules formed around them. James said they could collect more feedback after the first two weeks. Rachel said decisions shape whose feedback remains possible. Each sentence contained a real concern. Each arrived faster than the one before it.
 
-Conflict often appears to be a disagreement about values when it is partly a disagreement about pace. One person experiences speed as responsibility; another experiences the same speed as closure before the problem has been understood.[^c4-lazarus-deutsch-pace-conflict] Under pressure, tempo begins to look like character.
+Conflict often appears to be a disagreement about values when it is partly a disagreement about pace. One person experiences speed as responsibility; another experiences the same speed as closure before the problem has been understood.[^c4-lazarus-deutsch-pace-conflict] Morton Deutsch's analysis of conflict helps explain how perceived competition can make a disagreement reinforce itself.[^c4-deutsch-conflict] Under pressure, tempo begins to look like character.
 
 James was no longer merely someone who wanted to act quickly. To Rachel, he was becoming the kind of person who preferred decisiveness to inclusion.
 
-Rachel was no longer merely someone asking for more information. To James, she was becoming the kind of person who preferred procedural care to protecting children. Neither description was fair. Both were becoming useful.
+Rachel was no longer merely someone asking for more information. To James, she was becoming the kind of person who preferred procedural care to protecting children. Neither description was fair. Both were becoming useful. The room was beginning to assign James and Rachel identities that could substitute for continued attention to their actual concerns.[^c4-social-identity]
 
 Caricature lowers the cost of action. It is easier to move past someone once their concern has been reduced to a familiar flaw. The reckless person does not need to be understood; they need to be restrained. The obstructive person does not need to be heard; they need to be overcome.[^c4-identity-and-caricature] Facts have difficulty entering once that reduction has begun.
 
@@ -174,6 +174,10 @@ Pressure shortens the distance between what people notice and what they treat as
 
 The distinction worth preserving is between **urgency about what must be done** and **urgency to decide what another person's hesitation means**.
 
-[^c4-lazarus-deutsch-pace-conflict]: Lazarus, Richard S. *Emotion and Adaptation*. New York: Oxford University Press, 1991; Deutsch, Morton. *The Resolution of Conflict*. New Haven, CT: Yale University Press, 1973.
+[^c4-lazarus-deutsch-pace-conflict]: Richard S. Lazarus, *Emotion and Adaptation* (New York: Oxford University Press, 1991), on appraisal processes by which the same situation can be experienced as opportunity or threat.
 [^c4-kahan-motivated-reasoning]: Kahan, Dan M. "Motivated Reasoning." *Behavioral and Brain Sciences* 40 (2017): e22.
-[^c4-identity-and-caricature]: Ross, Lee, and Andrew Ward. "Naive Realism in Everyday Life: Implications for Social Conflict and Misunderstanding." In *Values and Knowledge*, edited by Edward S. Reed, Elliot Turiel, and Terrance Brown, 103–135. Hillsdale, NJ: Lawrence Erlbaum Associates, 1996; Tajfel, Henri, and John C. Turner. "The Social Identity Theory of Intergroup Behavior." In *Psychology of Intergroup Relations*, edited by Stephen Worchel and William G. Austin, 7–24. Chicago: Nelson-Hall, 1979.
+[^c4-identity-and-caricature]: Lee Ross and Andrew Ward, “Naive Realism in Everyday Life: Implications for Social Conflict and Misunderstanding,” in *Values and Knowledge* (1996), 103–135, on the tendency to treat one's own construal as objective and another's disagreement as a defect.
+
+[^c4-deutsch-conflict]: Morton Deutsch, *The Resolution of Conflict* (New Haven, CT: Yale University Press, 1973), on how competitive and cooperative processes shape the escalation or resolution of disputes.
+
+[^c4-social-identity]: Henri Tajfel and John C. Turner, “The Social Identity Theory of Intergroup Behavior,” in *Psychology of Intergroup Relations* (Chicago: Nelson-Hall, 1979), on group categorization and identity-based interpretations of others.
