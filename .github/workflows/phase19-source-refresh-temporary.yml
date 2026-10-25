@@ -1,4 +1,5 @@
 name: Phase 19 source integrity refresh (temporary)
+# Final pass: enforce exact institutional creator prefixes and regression test.
 
 on:
   push:
