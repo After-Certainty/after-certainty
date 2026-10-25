@@ -21,10 +21,14 @@ from reader_passage_links import build_candidates, run_audit
 
 
 def selected_note(slug: str, decisions: dict[str, str]) -> str | None:
-    matches = [value for prefix, value in decisions.items() if slug.startswith(prefix)]
-    if len(matches) > 1:
+    matches = sorted(
+        ((prefix, value) for prefix, value in decisions.items() if slug.startswith(prefix)),
+        key=lambda entry: len(entry[0]),
+        reverse=True,
+    )
+    if len(matches) > 1 and len(matches[0][0]) == len(matches[1][0]):
         raise ValueError(f"Overlapping editorial decisions for {slug}")
-    return matches[0] if matches else None
+    return matches[0][1] if matches else None
 
 
 def main() -> None:
