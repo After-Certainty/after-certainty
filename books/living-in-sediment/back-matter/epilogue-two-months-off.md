@@ -58,7 +58,7 @@ People are already designing systems that children not yet born will one day mis
 
 They, too, will live among sediment.
 
-Perhaps one day they will wonder why we organized work the way we did, or why we trusted certain metrics, or why we divided our days according to rhythms that seemed obvious to us. They will excavate our assumptions just as we have excavated those of Rome, Babylon, and the generations that followed them.[^epi-future-layers]
+Perhaps one day they will wonder why we organized work the way we did, or why we trusted certain metrics, or why we divided our days according to rhythms that seemed obvious to us. They will excavate our assumptions just as we have excavated those of Rome, Babylon, and the generations that followed them.[^epi-future-layers][^epi-beard-rome]
 
 I hope they are generous with us. We were trying to solve the problems we could see. Like every generation before us, we could not fully imagine the ones that would come next.
 
@@ -84,4 +84,6 @@ And ordinary things—months, buildings, measurements, words—begin quietly tel
 
 [^epi-inheritance-freedom]: See Hannah Arendt, *The Human Condition* (Chicago: University of Chicago Press, 1958); Peter L. Berger and Thomas Luckmann, *The Social Construction of Reality* (Garden City, NY: Doubleday, 1966).
 
-[^epi-future-layers]: See David Edgerton, *The Shock of the Old: Technology and Global History Since 1900* (New York: Oxford University Press, 2006); Mary Beard, *SPQR: A History of Ancient Rome* (New York: Liveright, 2015).
+[^epi-future-layers]: See David Edgerton, *The Shock of the Old: Technology and Global History Since 1900* (New York: Oxford University Press, 2006).
+
+[^epi-beard-rome]: Mary Beard, *SPQR: A History of Ancient Rome* (New York: Liveright, 2015).

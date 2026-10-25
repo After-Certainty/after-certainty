@@ -32,7 +32,7 @@ We still "hang up" a phone that has no hook. We "rewind" a video that contains n
 
 This is one of language's quiet gifts. It allows people to inherit solutions without inheriting every explanation.
 
-A child does not need to understand Norse mythology in order to know that Thursday comes after Wednesday. A programmer does not need to study typewriter mechanics before learning to type. Language and convention compress history into habits that can be passed effortlessly from one generation to the next.[^c1-lakoff-metaphor]
+A child does not need to understand Norse mythology in order to know that Thursday comes after Wednesday. A programmer does not need to study typewriter mechanics before learning to type. Language and convention compress history into habits that can be passed effortlessly from one generation to the next.[^c1-lakoff-metaphor][^c1-deutscher-language]
 
 That compression makes civilization possible. It also makes history surprisingly difficult to see.
 
@@ -76,8 +76,10 @@ The world around us is older than it appears. The most ordinary Tuesday morning 
 
 History has not disappeared. It has simply learned to sound like everyday conversation.
 
-[^c1-lakoff-metaphor]: See George Lakoff and Mark Johnson, *Metaphors We Live By* (Chicago: University of Chicago Press, 1980); Guy Deutscher, *The Unfolding of Language* (New York: Metropolitan Books, 2005).
+[^c1-lakoff-metaphor]: See George Lakoff and Mark Johnson, *Metaphors We Live By* (Chicago: University of Chicago Press, 1980).
 
 [^c1-david-qwerty]: See Paul A. David, "Clio and the Economics of QWERTY," *American Economic Review* 75, no. 2 (1985): 332–337.
 
 [^c1-arthur-lock-in]: See W. Brian Arthur, *Increasing Returns and Path Dependence in the Economy* (Ann Arbor: University of Michigan Press, 1994).
+
+[^c1-deutscher-language]: Guy Deutscher, *The Unfolding of Language: An Evolutionary Tour of Mankind's Greatest Invention* (New York: Metropolitan Books, 2005).
