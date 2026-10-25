@@ -114,3 +114,35 @@ def test_phase17_superseded_candidates_remain_traceable() -> None:
         for item in matched:
             if item["status"] == "skipped" and item.get("supersededBy"):
                 assert item["supersededBy"] == path, slug
+
+def test_phase17_url_paths_do_not_invent_companion_citations() -> None:
+    """A source URL's headline tokens are not another cited work."""
+    from tools.reader_passage_links import (
+        index_chapter_engagement,
+        load_published_chapters,
+        load_sources,
+    )
+
+    sources = load_sources(ROOT)
+    chapters = load_published_chapters(ROOT)
+    footnotes, _ = index_chapter_engagement(ROOT, chapters, sources)
+
+    exact_headlines = {
+        "espn-colin-kaepernick-takes-knee-for-anthem-joined-by-teammate-eric-reid": "c7-espn-kneel",
+        "espn-nfl-commissioner-roger-goodell-says-nfl-was-wrong-not-to-listen-to-its-players-about-racism": "c7-espn-goodell-june",
+        "espn-roger-goodell-wish-we-had-listened-earlier-to-what-colin-kaepernick-was-protesting": "c7-goodell-august",
+    }
+    for slug, note in exact_headlines.items():
+        matches = [hit for hit in footnotes[slug] if hit.footnote_id == note]
+        assert len(matches) == 1, (slug, note)
+        assert not matches[0].shared_with, (slug, matches[0].shared_with)
+        assert not matches[0].ambiguous, (slug, note)
+
+    # Do not erase a genuinely multi-work citation in the process.
+    shared = [
+        hit
+        for hit in footnotes["indiana-university-athletics-coach-bob-knight-passes-away-at-83"]
+        if hit.footnote_id == "c4-knight-method"
+    ]
+    assert len(shared) == 1
+    assert shared[0].shared_with
