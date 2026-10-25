@@ -93,7 +93,7 @@ In 2015, as hundreds of thousands of asylum seekers entered Europe,
 Merkel’s government opened a temporary suspension of Dublin Regulation
 returns from Hungary and allowed large numbers to enter Germany. Supporters
 heard her phrase *Wir schaffen das*—“we can manage this”—as moral
-resolve; critics heard it as reckless invitation.[^c3-refugees] The
+resolve; critics heard it as reckless invitation.[^c3-refugees][^c3-alexander-merkel] The
 decision had genuine moral urgency: people were dying along routes into
 Europe, and the European asylum system was already failing by its own
 rules. It also imposed political and social costs that Germany and its
@@ -127,7 +127,7 @@ distributed by the policies she did enact.
 Around these choices a shorthand hardened, especially outside Germany.
 Merkel as the scientist. Merkel as the bureaucrat. Merkel as manager
 rather than leader—cautious, bloodless, overly technical, even
-boring.[^c3-shorthand] The reading was not invented from nothing. Her
+boring.[^c3-shorthand][^c3-packer-portrait] The reading was not invented from nothing. Her
 signals really were restrained. What the reading erased was how much
 work restraint was doing, and at what cost.
 
@@ -262,14 +262,17 @@ as a decision.
 
 [^c3-eurozone]: On conditionality, austerity politics, and contested narratives of necessity during the Eurozone crisis, see Mark Blyth, *Austerity: The History of a Dangerous Idea* (Oxford: Oxford University Press, 2013).
 
-[^c3-refugees]: On the 2015 decision and the phrase *Wir schaffen das*, see Robin Alexander, *Die Getriebenen* (Munich: Siedler, 2017), and Marton, *The Chancellor*.
+[^c3-refugees]: On the 2015 decision and the phrase *Wir schaffen das*, see Marton, *The Chancellor*, on Merkel's public phrasing and political response.
 
 [^c3-covid]: Angela Merkel, televised address to the nation, 18 March 2020; and her subsequent public explanations of exponential growth, including remarks reported in Kate Connolly, “Angela Merkel Gives Germans a Hard Lesson in COVID Numbers,” *The Guardian*, 16 April 2020.
 
-[^c3-shorthand]: Late-tenure shorthand—“cautious,” “technocratic,” “uninspiring”—appears in “The Merkel Method,” *The Economist*, 26 September 2015, and in Packer, “The Quiet German.”
+[^c3-shorthand]: Late-tenure shorthand—“cautious,” “technocratic,” “uninspiring”—appears in “The Merkel Method,” *The Economist*, 26 September 2015, .
 
 [^c3-eagly]: Alice H. Eagly and Linda L. Carli, *Through the Labyrinth: The Truth About How Women Become Leaders* (Boston: Harvard Business School Press, 2007).
 
 [^c3-polling]: Marton, *The Chancellor*; Pew Research Center, *Europeans Face the World Divided* (13 June 2016), including items on confidence in German leadership and Merkel.
 
 [^c3-legacy]: For contested reassessment of energy policy, Russia exposure, and Nord Stream after February 2022, see Kate Connolly, “Germany Agonises over Merkel’s Legacy: Did She Hand Too Much Power to Putin?,” *The Guardian*, 5 March 2022.
+
+[^c3-alexander-merkel]: Robin Alexander, *Die Getriebenen: Merkel und die Flüchtlingspolitik* (Munich: Siedler, 2017).
+[^c3-packer-portrait]: George Packer, “The Quiet German,” *The New Yorker*, December 1, 2014.

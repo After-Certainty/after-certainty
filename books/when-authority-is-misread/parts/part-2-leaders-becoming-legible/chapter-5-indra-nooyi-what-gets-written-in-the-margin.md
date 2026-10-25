@@ -98,7 +98,7 @@ allegedly muddied. By February 2014 the pressure had a
 document on the table: Trian’s thirty-seven-page letter of 19 February
 2014 urging the board to create “two leaner and more entrepreneurial
 companies” by spinning snacks free of drinks.[^c5-peltz] PepsiCo’s board
-answered on 27 February 2014 in the register activism expects—
+answered on 27 February 2014[^c5-dealbook-pepsico] in the register activism expects—
 presiding director Ian Cook writing that the board and management were
 “comfortable and in complete alignment” in rejecting the proposal, and
 dismissing the split as financial engineering that would erode rather
@@ -287,10 +287,12 @@ those clean columns post their wins.
 
 [^c5-pwp]: “Performance with Purpose” is documented throughout Nooyi’s speeches, PepsiCo annual reports from her tenure, and *My Life in Full*.
 
-[^c5-peltz]: Trian Fund Management, letter and white paper to the PepsiCo board, 19 February 2014 (“The Case for Separating Global Snacks & Beverages”); PepsiCo board response via Ian Cook, Presiding Director, to Nelson Peltz / Trian, 27 February 2014, furnished in PepsiCo Form 8-K (27 February 2014). Secondary reporting: Michael J. de la Merced, “PepsiCo Tells Activist Investor Its Answer Is Still No,” DealBook / *New York Times*, 27 February 2014; Siddharth Cavale, “Nelson Peltz Revives Campaign to Split Up PepsiCo,” Reuters, 20 February 2014. January 2015 truce adding a Trian-affiliated independent director reported in DealBook.
+[^c5-peltz]: Trian Fund Management, letter and white paper to the PepsiCo board, 19 February 2014 (“The Case for Separating Global Snacks & Beverages”); PepsiCo board response via Ian Cook, Presiding Director, to Nelson Peltz / Trian, 27 February 2014, furnished in PepsiCo Form 8-K (27 February 2014). Secondary reporting: Siddharth Cavale, “Nelson Peltz Revives Campaign to Split Up PepsiCo,” Reuters, 20 February 2014. January 2015 truce adding a Trian-affiliated independent director reported in DealBook.
 
 [^c5-returns]: PepsiCo Form 10-K annual reports covering the 2006–2018 tenure; interpretive framing in de la Merced, “PepsiCo Tells Activist Investor Its Answer Is Still No,” and in Nooyi, *My Life in Full*. Assessments vary by window and comparator; this chapter does not invent total-shareholder-return figures.
 
 [^c5-eagly]: Alice H. Eagly and Linda L. Carli, *Through the Labyrinth: The Truth About How Women Become Leaders* (Boston: Harvard Business School Press, 2007).
 
 [^c5-after]: Post-tenure framing of Performance with Purpose as contested stakeholder precedent is developed in Nooyi, *My Life in Full*.
+
+[^c5-dealbook-pepsico]: Michael J. de la Merced, “PepsiCo Tells Activist Investor Its Answer Is Still No,” DealBook / *New York Times*, February 27, 2014.
