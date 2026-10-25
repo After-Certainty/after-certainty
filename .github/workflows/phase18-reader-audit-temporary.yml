@@ -1,4 +1,5 @@
 name: Phase 18 reader audit (temporary)
+# Reviewed candidate selection uses the current source audit, not historical candidates.
 
 on:
   push:
