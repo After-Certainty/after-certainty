@@ -1,5 +1,6 @@
 name: Phase 18 reader audit (temporary)
 # Final attribution pass: unique source citations for Manifesto, Wagoner and OSHA.
+# Rerun after eliminating ESPN co-attribution in Wagoner's otherwise distinct article.
 # Includes manuscript-level source-specific citations for shared notes.
 # Reviewed candidate selection uses the current source audit, not historical candidates.
 # Every audit-log timestamp uses datetime.UTC (Python 3.12 lint).
