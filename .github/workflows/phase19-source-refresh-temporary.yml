@@ -1,0 +1,88 @@
+name: Phase 19 source integrity refresh (temporary)
+
+on:
+  push:
+    branches: [chore/sources-phase19-integrity-audit]
+    paths:
+      - ".github/workflows/phase19-source-refresh-temporary.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    env:
+      PYTHONPATH: src
+    steps:
+      - name: Checkout Phase 19
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: jdx/mise-action@9b200bcecbfd6303e69a4a261b2e09e3757440a7 # v5.2.0
+        with:
+          install_args: "python uv"
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: "22"
+
+      - name: Install pinned Python dependencies
+        run: |
+          uv sync --frozen
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
+
+      - name: Lint and test integrity inventory
+        run: |
+          ruff check tools/report_source_integrity_phase19.py tests/test_source_integrity_phase19.py
+          ruff format --check tools/report_source_integrity_phase19.py tests/test_source_integrity_phase19.py
+          python -m pytest tests/test_source_integrity_phase19.py -q
+
+      - name: Generate current semantic manifest
+        env:
+          ALLOW_MISSING_WEB_COVERS: "1"
+        run: npm run corpus:build-manifest
+
+      - name: Regenerate current source-health audits
+        run: |
+          python tools/audit_semantic_metadata_quality.py --repo .
+          python tools/audit_bibliography_semantic_drift.py --repo .
+          python tools/audit_semantic_graph.py --repo .
+          python tools/report_source_integrity_phase19.py --repo .
+
+      - name: Verify report baselines and bibliography consistency
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(
+              Path("reports/reader-passage-links/phase19-source-integrity.json").read_text()
+          )
+          sources = report["citationAudit"]
+          counts = report["unlinkedCounts"]
+          drift = report["bibliographyDrift"]
+          assert sources["totalSources"] == 714
+          assert sources["verifiedCount"] == 634
+          assert sources["invalidPassageLinks"] == 0
+          assert sources["unverifiedFragmentLinks"] == 0
+          assert len(report["unlinkedSources"]) == 80
+          assert sum(counts.values()) == 80
+          assert counts["footnote_cited_not_linked"] == 1
+          assert not any((drift[k] != 0 for k in (
+              "missingInSemantic", "missingRelatedBooks", "staleRelatedBooks"
+          ))), drift
+          print("Phase 19 report integrity and bibliography assertions passed.")
+          PY
+
+      - name: Commit up-to-date provenance reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/semantic-metadata-quality-audit.md reports/bibliography-semantic-drift.md reports/bibliography-semantic-drift.json reports/semantic-graph-audit.md reports/semantic-graph-audit.json reports/reader-passage-links/phase19-source-integrity.md reports/reader-passage-links/phase19-source-integrity.json
+          if git diff --cached --quiet; then
+            echo "All reports already current"
+            exit 0
+          fi
+          git diff --cached --stat
+          git commit -m "docs(sources): refresh Phase 19 metadata, graph, and bibliography audits"
+          git push
