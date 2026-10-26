@@ -40,11 +40,14 @@ def test_unknown_tools_and_actual_export_dependencies_still_rebuild_all() -> Non
 
 def test_report_only_changes_have_zero_export_jobs(tmp_path: Path) -> None:
     books = [tmp_path / "books" / name for name in ("alpha", "beta")]
-    assert affected_books(
-        tmp_path,
-        ["reports/citation-audit.md", "tools/report_source_integrity_phase19.py"],
-        books,
-    ) == []
+    assert (
+        affected_books(
+            tmp_path,
+            ["reports/citation-audit.md", "tools/report_source_integrity_phase19.py"],
+            books,
+        )
+        == []
+    )
 
 
 def test_reporting_change_plus_one_book_change_builds_only_that_book(tmp_path: Path) -> None:
@@ -54,6 +57,9 @@ def test_reporting_change_plus_one_book_change_builds_only_that_book(tmp_path: P
         ["books/alpha/chapters/01.md", "tools/audit_bibliography_semantic_drift.py"],
         books,
     ) == [books[0]]
-    assert affected_books(
-        tmp_path, ["books/alpha/chapters/01.md", "tools/ci_affected_books.py"], books
-    ) == books
+    assert (
+        affected_books(
+            tmp_path, ["books/alpha/chapters/01.md", "tools/ci_affected_books.py"], books
+        )
+        == books
+    )
