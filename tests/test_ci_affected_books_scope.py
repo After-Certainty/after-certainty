@@ -2,6 +2,7 @@
 
 This test intentionally does not invoke Pandoc, Typst, Vercel, or releases.
 """
+
 import importlib
 import sys
 from pathlib import Path
