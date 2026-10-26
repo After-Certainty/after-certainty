@@ -2,12 +2,14 @@
 
 This test intentionally does not invoke Pandoc, Typst, Vercel, or releases.
 """
-from pathlib import Path
+import importlib
 import sys
+from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
-
-from ci_affected_books import affected_books, triggers_full_rebuild
+affected_books_module = importlib.import_module("ci_affected_books")
+affected_books = affected_books_module.affected_books
+triggers_full_rebuild = affected_books_module.triggers_full_rebuild
 
 
 def test_reporting_tools_and_other_workflows_do_not_force_a_full_book_matrix() -> None:
