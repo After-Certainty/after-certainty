@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Install released PADE v0.4.0 for Cloud Agent sessions (idempotent, non-interactive).
+# Install released PADE v0.4.1 for Cloud Agent sessions (idempotent, non-interactive).
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 TOOLS="$ROOT/.tools/pade"
-VERSION=v0.4.0
+VERSION=v0.4.1
 
 case "$(uname -s)-$(uname -m)" in
   Linux-x86_64) ARCH=linux-amd64 ;;
@@ -12,12 +12,23 @@ case "$(uname -s)-$(uname -m)" in
   Darwin-arm64) ARCH=darwin-arm64 ;;
   *)
     echo "error: unsupported platform $(uname -s)-$(uname -m)" >&2
-    echo "hint: PADE v0.4.0 release supports linux-amd64, linux-arm64, darwin-arm64" >&2
+    echo "hint: PADE ${VERSION} release supports linux-amd64, linux-arm64, darwin-arm64" >&2
     exit 1
     ;;
 esac
 
 mkdir -p "$TOOLS"
+
+# Idempotent fast path: keep an already-correct binary.
+if [[ -x "$TOOLS/pade" ]]; then
+  current="$("$TOOLS/pade" --version 2>/dev/null || true)"
+  if [[ "$current" == *"${VERSION}"* ]]; then
+    export PATH="$TOOLS:$PATH"
+    echo "$current"
+    exit 0
+  fi
+fi
+
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 

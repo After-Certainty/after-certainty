@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Run the reader-analytics weekly report pack via PADE broker and print the markdown brief.
 #
-# Requires: pade v0.4.0 on PATH, pade.yaml, .pade/agent-bindings.yaml, Cloud Agent identity.
+# Requires: pade v0.4.1 on PATH, pade.yaml, .pade/agent-bindings.yaml, Cloud Agent identity.
 # Prefers capability vercel.analytics.read; falls back to vercel.diagnostics (same VERCEL_TOKEN Material)
 # until the broker grants the dedicated analytics capability.
 #
