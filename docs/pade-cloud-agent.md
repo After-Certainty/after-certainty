@@ -1,14 +1,14 @@
 # PADE + Cloud Agent (After Certainty)
 
-After Certainty Cloud Agents use [PADE](https://github.com/After-Certainty/pade) **v0.4.0** with a **private broker** for scoped capabilities. The agent VM carries **no** Google Analytics service-account JSON, GitHub App keys, Vercel tokens, or `KSM_CONFIG`.
+After Certainty Cloud Agents use [PADE](https://github.com/After-Certainty/pade) **v0.4.1** with a **private broker** for scoped capabilities. The agent VM carries **no** Google Analytics service-account JSON, GitHub App keys, Vercel tokens, or `KSM_CONFIG`.
 
-PADE v0.4.0 preserves optional credential expiration from a v0.4.0 broker and rejects known-expired material before injection. Upgrade the broker separately for end-to-end expiration metadata; older brokers remain compatible but omit it. Credentials are not renewed automatically, and a running child may outlive them.
+PADE v0.4.1 includes Go 1.26.10 (security fix for GO-2026-6809). Since v0.4.0, PADE preserves optional credential expiration from a supporting broker and rejects known-expired material before injection. Upgrade the broker separately for end-to-end expiration metadata; older brokers remain compatible but omit it. Credentials are not renewed automatically, and a running child may outlive them.
 
 ## What lives in this repo
 
 | File | Purpose |
 |------|---------|
-| [`.cursor/environment.json`](../.cursor/environment.json) | Installs released `pade` v0.4.0 and pinned Vercel CLI on Cloud Agent bootstrap |
+| [`.cursor/environment.json`](../.cursor/environment.json) | Installs released `pade` v0.4.1 and pinned Vercel CLI on Cloud Agent bootstrap |
 | [`.cursor/install-pade.sh`](../.cursor/install-pade.sh) | Downloads released `pade` into `.tools/pade` and puts it on `PATH` |
 | [`.cursor/install-vercel.sh`](../.cursor/install-vercel.sh) | Installs the locked Vercel CLI from [`tools/vercel-cli`](../tools/vercel-cli/) (`npm ci --prefix`; binary only; no token) |
 | [`pade.yaml`](../pade.yaml) | Portable DevelopmentSession (secret-free Intent) |
@@ -70,17 +70,25 @@ pade exec -f pade.yaml --bindings .pade/agent-bindings.yaml \
 From repo root on a Cloud Agent VM (identity socket required):
 
 ```bash
+bash .cursor/install-pade.sh
+export PATH="$PWD/.tools/pade:$PATH"
+export PADE_BINDINGS="$PWD/.pade/agent-bindings.yaml"
+pade --version
 make pade-smoke
 # or: bash scripts/pade-smoke.sh
 ```
 
 Expect:
 
-- `pade --version` → `v0.4.0`
+- `pade --version` → `v0.4.1` (smoke fails clearly otherwise)
 - `vercel --version` → matches [`tools/vercel-cli/package.json`](../tools/vercel-cli/package.json)
-- `pade capabilities` → `github.repo.read`, `google-analytics.read`, `vercel.diagnostics`, and `vercel.analytics.read` all `provider: broker`, configured (`vercel.analytics.read` may remain runtime-denied until broker policy catches up)
+- `pade capabilities` → `github.repo.read`, `google-analytics.read`, `vercel.diagnostics`, and `vercel.analytics.read` all `provider: broker`, configured
+- Cursor workload identity for the broker audience succeeds (safe claims only; no raw JWTs)
 - Property meta + minimal GA report succeed
 - `pade exec … vercel whoami` succeeds (never prints `$VERCEL_TOKEN`)
+- Optional: minimal `vercel.analytics.read` probe via `vercel-web-analytics-query.sh`
+- Concise pass/fail summary by capability; nonzero exit on any required failure
+- No silent fallback to parent-shell `VERCEL_TOKEN` / `GA_ACCESS_TOKEN` (smoke unsets them)
 
 ### Full ga-trends report pack
 

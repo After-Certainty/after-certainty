@@ -61,6 +61,8 @@ override-dependencies = [
   "urllib3>=2.8.0",
   "virtualenv>=21.14.11",
   "filelock>=4.2.4",
+  # Transitive via cachecontrol (pip-audit); CVE-2026-114613 fixed in 1.2.3+.
+  "msgpack>=1.2.3",
 ]
 
 [tool.hatch.build.targets.wheel]
