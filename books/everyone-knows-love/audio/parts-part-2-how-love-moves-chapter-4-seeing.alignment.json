@@ -1,0 +1,952 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-2-how-love-moves-chapter-4-seeing",
+  "generationHash": "sha256:8ba6256a250795b5a1253a93cd6c088b8211f5d50252d2f01f7c73b643704bd0",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Seeing",
+      "startMs": 0.0,
+      "endMs": 325.0,
+      "charStart": 0,
+      "charEnd": 6
+    },
+    {
+      "id": "s0002",
+      "text": "A woman sat across from a friend at a diner.",
+      "startMs": 383.0,
+      "endMs": 2647.0,
+      "charStart": 8,
+      "charEnd": 52
+    },
+    {
+      "id": "s0003",
+      "text": "The friend said, \"You're not mad about the meeting.\"",
+      "startMs": 3030.0,
+      "endMs": 5805.0,
+      "charStart": 54,
+      "charEnd": 106
+    },
+    {
+      "id": "s0004",
+      "text": "She had been insisting she was fine.",
+      "startMs": 6247.0,
+      "endMs": 8174.0,
+      "charStart": 108,
+      "charEnd": 144
+    },
+    {
+      "id": "s0005",
+      "text": "She had the whole story ready—the unfair comment, the tone, the reasonable response she would send later.",
+      "startMs": 8383.0,
+      "endMs": 14501.0,
+      "charStart": 145,
+      "charEnd": 250
+    },
+    {
+      "id": "s0006",
+      "text": "She sounded calm.",
+      "startMs": 14675.0,
+      "endMs": 15848.0,
+      "charStart": 251,
+      "charEnd": 268
+    },
+    {
+      "id": "s0007",
+      "text": "She sounded, she thought, like an adult.",
+      "startMs": 16022.0,
+      "endMs": 18205.0,
+      "charStart": 269,
+      "charEnd": 309
+    },
+    {
+      "id": "s0008",
+      "text": "Her friend stirred her coffee and waited.",
+      "startMs": 18483.0,
+      "endMs": 20933.0,
+      "charStart": 311,
+      "charEnd": 352
+    },
+    {
+      "id": "s0009",
+      "text": "\"You're embarrassed,\" she said.",
+      "startMs": 21258.0,
+      "endMs": 23243.0,
+      "charStart": 354,
+      "charEnd": 385
+    },
+    {
+      "id": "s0010",
+      "text": "\"You feel stupid for caring that much.\"",
+      "startMs": 23360.0,
+      "endMs": 25716.0,
+      "charStart": 386,
+      "charEnd": 425
+    },
+    {
+      "id": "s0011",
+      "text": "The booth got quiet in the way booths get quiet when someone has named the true thing.",
+      "startMs": 26529.0,
+      "endMs": 31103.0,
+      "charStart": 427,
+      "charEnd": 513
+    },
+    {
+      "id": "s0012",
+      "text": "She wanted to argue.",
+      "startMs": 31545.0,
+      "endMs": 32868.0,
+      "charStart": 515,
+      "charEnd": 535
+    },
+    {
+      "id": "s0013",
+      "text": "Then she didn't.",
+      "startMs": 33147.0,
+      "endMs": 34110.0,
+      "charStart": 536,
+      "charEnd": 552
+    },
+    {
+      "id": "s0014",
+      "text": "Something in her chest loosened—not because the problem was solved, but because she had been seen.",
+      "startMs": 34714.0,
+      "endMs": 41564.0,
+      "charStart": 553,
+      "charEnd": 651
+    },
+    {
+      "id": "s0015",
+      "text": "That is one face of love, or something close enough to love that most of us recognize it immediately: someone seeing what you are actually experiencing, not only what you are saying.",
+      "startMs": 42075.0,
+      "endMs": 52896.0,
+      "charStart": 653,
+      "charEnd": 835
+    },
+    {
+      "id": "s0016",
+      "text": "They had known each other since college.",
+      "startMs": 54010.0,
+      "endMs": 55891.0,
+      "charStart": 837,
+      "charEnd": 877
+    },
+    {
+      "id": "s0017",
+      "text": "Her friend had been naming the true thing beneath the polite version for twenty years—not always correctly, not always kindly, but often enough that embarrassment, when it came, did not have to travel alone.",
+      "startMs": 56704.0,
+      "endMs": 68732.0,
+      "charStart": 878,
+      "charEnd": 1085
+    },
+    {
+      "id": "s0018",
+      "text": "What it looks like when someone sees you",
+      "startMs": 69173.0,
+      "endMs": 71089.0,
+      "charStart": 1087,
+      "charEnd": 1127
+    },
+    {
+      "id": "s0019",
+      "text": "To see another person, in love, is not mainly an opinion.",
+      "startMs": 71170.0,
+      "endMs": 75686.0,
+      "charStart": 1129,
+      "charEnd": 1186
+    },
+    {
+      "id": "s0020",
+      "text": "It is not \"I agree with you.\" It is not \"I would have done the same.\" It is closer to this: I grasp what this is like for you.",
+      "startMs": 76290.0,
+      "endMs": 85055.0,
+      "charStart": 1188,
+      "charEnd": 1314
+    },
+    {
+      "id": "s0021",
+      "text": "Sometimes that grasp is almost wordless.",
+      "startMs": 85659.0,
+      "endMs": 88248.0,
+      "charStart": 1316,
+      "charEnd": 1356
+    },
+    {
+      "id": "s0022",
+      "text": "A parent hears a child's tone and knows the day went wrong before the story arrives.",
+      "startMs": 88852.0,
+      "endMs": 94088.0,
+      "charStart": 1357,
+      "charEnd": 1441
+    },
+    {
+      "id": "s0023",
+      "text": "A partner sees you staring at the dishes and asks whether you are tired or angry, because those are different weathers.",
+      "startMs": 94599.0,
+      "endMs": 100636.0,
+      "charStart": 1442,
+      "charEnd": 1561
+    },
+    {
+      "id": "s0024",
+      "text": "A friend hears your laugh and says, \"That wasn't funny to you,\" and is right.",
+      "startMs": 101240.0,
+      "endMs": 106069.0,
+      "charStart": 1562,
+      "charEnd": 1639
+    },
+    {
+      "id": "s0025",
+      "text": "You feel the difference immediately.",
+      "startMs": 106766.0,
+      "endMs": 109030.0,
+      "charStart": 1641,
+      "charEnd": 1677
+    },
+    {
+      "id": "s0026",
+      "text": "Being seen does not always fix anything.",
+      "startMs": 109413.0,
+      "endMs": 112060.0,
+      "charStart": 1679,
+      "charEnd": 1719
+    },
+    {
+      "id": "s0027",
+      "text": "It changes the room.",
+      "startMs": 112304.0,
+      "endMs": 113662.0,
+      "charStart": 1720,
+      "charEnd": 1740
+    },
+    {
+      "id": "s0028",
+      "text": "You are no longer carrying the whole translation alone.",
+      "startMs": 114173.0,
+      "endMs": 117343.0,
+      "charStart": 1741,
+      "charEnd": 1796
+    },
+    {
+      "id": "s0029",
+      "text": "You may know the relief of not having to explain yourself from zero—of sitting down with someone who already has the context, or who listens until the context becomes visible, or who asks one question that proves they were paying attention to the right detail.",
+      "startMs": 117726.0,
+      "endMs": 133179.0,
+      "charStart": 1798,
+      "charEnd": 2058
+    },
+    {
+      "id": "s0030",
+      "text": "That relief is one reason being seen feels loving.",
+      "startMs": 133876.0,
+      "endMs": 137289.0,
+      "charStart": 2060,
+      "charEnd": 2110
+    },
+    {
+      "id": "s0031",
+      "text": "It says, without slogan: your inner life is real to me.",
+      "startMs": 137672.0,
+      "endMs": 143117.0,
+      "charStart": 2112,
+      "charEnd": 2167
+    },
+    {
+      "id": "s0032",
+      "text": "Listening is not waiting to speak",
+      "startMs": 143814.0,
+      "endMs": 146206.0,
+      "charStart": 2169,
+      "charEnd": 2202
+    },
+    {
+      "id": "s0033",
+      "text": "We confuse seeing with agreement, and we confuse it with performance.",
+      "startMs": 147506.0,
+      "endMs": 151802.0,
+      "charStart": 2204,
+      "charEnd": 2273
+    },
+    {
+      "id": "s0034",
+      "text": "How many conversations have you been in where the other person was clearly waiting for their turn?",
+      "startMs": 152614.0,
+      "endMs": 157676.0,
+      "charStart": 2275,
+      "charEnd": 2373
+    },
+    {
+      "id": "s0035",
+      "text": "Where advice arrived before the feeling was finished?",
+      "startMs": 158117.0,
+      "endMs": 161008.0,
+      "charStart": 2374,
+      "charEnd": 2427
+    },
+    {
+      "id": "s0036",
+      "text": "Where someone said \"I understand\" and you knew they were trying to move the conversation to a more comfortable exit?",
+      "startMs": 161612.0,
+      "endMs": 167811.0,
+      "charStart": 2428,
+      "charEnd": 2544
+    },
+    {
+      "id": "s0037",
+      "text": "That is not seeing.",
+      "startMs": 168055.0,
+      "endMs": 169414.0,
+      "charStart": 2546,
+      "charEnd": 2565
+    },
+    {
+      "id": "s0038",
+      "text": "That is management.",
+      "startMs": 169588.0,
+      "endMs": 170923.0,
+      "charStart": 2566,
+      "charEnd": 2585
+    },
+    {
+      "id": "s0039",
+      "text": "Real attention has a different tempo.",
+      "startMs": 171364.0,
+      "endMs": 173373.0,
+      "charStart": 2587,
+      "charEnd": 2624
+    },
+    {
+      "id": "s0040",
+      "text": "It slows down.",
+      "startMs": 173465.0,
+      "endMs": 174638.0,
+      "charStart": 2625,
+      "charEnd": 2639
+    },
+    {
+      "id": "s0041",
+      "text": "It leaves room.",
+      "startMs": 174812.0,
+      "endMs": 175892.0,
+      "charStart": 2640,
+      "charEnd": 2655
+    },
+    {
+      "id": "s0042",
+      "text": "It risks hearing something inconvenient—not because the listener is passive, but because the listener is willing to be changed a little by what they hear.",
+      "startMs": 176136.0,
+      "endMs": 184599.0,
+      "charStart": 2656,
+      "charEnd": 2810
+    },
+    {
+      "id": "s0043",
+      "text": "Think of a woman on the phone with her sister, making the small sounds people make when they are not interrupting: yes, mm, I'm here.",
+      "startMs": 184924.0,
+      "endMs": 193052.0,
+      "charStart": 2812,
+      "charEnd": 2945
+    },
+    {
+      "id": "s0044",
+      "text": "No solutions yet.",
+      "startMs": 193226.0,
+      "endMs": 194422.0,
+      "charStart": 2946,
+      "charEnd": 2963
+    },
+    {
+      "id": "s0045",
+      "text": "No verdict.",
+      "startMs": 194573.0,
+      "endMs": 195490.0,
+      "charStart": 2964,
+      "charEnd": 2975
+    },
+    {
+      "id": "s0046",
+      "text": "Just presence thick enough to hold what is being said.",
+      "startMs": 195734.0,
+      "endMs": 198636.0,
+      "charStart": 2976,
+      "charEnd": 3030
+    },
+    {
+      "id": "s0047",
+      "text": "We also recognize its absence.",
+      "startMs": 198961.0,
+      "endMs": 200993.0,
+      "charStart": 3032,
+      "charEnd": 3062
+    },
+    {
+      "id": "s0048",
+      "text": "You tell someone the true thing and watch their face rearrange the moment into something they know how to respond to.",
+      "startMs": 201376.0,
+      "endMs": 207866.0,
+      "charStart": 3063,
+      "charEnd": 3180
+    },
+    {
+      "id": "s0049",
+      "text": "You walk away feeling lonelier than before you spoke.",
+      "startMs": 208191.0,
+      "endMs": 210931.0,
+      "charStart": 3181,
+      "charEnd": 3234
+    },
+    {
+      "id": "s0050",
+      "text": "Being unseen is not always a tragedy.",
+      "startMs": 211106.0,
+      "endMs": 213428.0,
+      "charStart": 3236,
+      "charEnd": 3273
+    },
+    {
+      "id": "s0051",
+      "text": "Sometimes it is ordinary.",
+      "startMs": 213509.0,
+      "endMs": 214983.0,
+      "charStart": 3274,
+      "charEnd": 3299
+    },
+    {
+      "id": "s0052",
+      "text": "But when it happens between people who are supposed to know each other, it has a particular weight—as if your inner life were no longer what the room was about.",
+      "startMs": 215111.0,
+      "endMs": 223632.0,
+      "charStart": 3300,
+      "charEnd": 3460
+    },
+    {
+      "id": "s0053",
+      "text": "Seeing is what lets another person's inner life become visible to us.",
+      "startMs": 224074.0,
+      "endMs": 228416.0,
+      "charStart": 3462,
+      "charEnd": 3531
+    },
+    {
+      "id": "s0054",
+      "text": "When seeing feels loving—and when it doesn't",
+      "startMs": 228926.0,
+      "endMs": 231829.0,
+      "charStart": 3533,
+      "charEnd": 3577
+    },
+    {
+      "id": "s0055",
+      "text": "Why does seeing feel like love?",
+      "startMs": 233129.0,
+      "endMs": 235115.0,
+      "charStart": 3579,
+      "charEnd": 3610
+    },
+    {
+      "id": "s0056",
+      "text": "Love, at least in part, is the movement from someone merely being present to their inner life becoming real to us—not only their role.",
+      "startMs": 235718.0,
+      "endMs": 244623.0,
+      "charStart": 3612,
+      "charEnd": 3746
+    },
+    {
+      "id": "s0057",
+      "text": "The barista matters as the person handing you coffee.",
+      "startMs": 244797.0,
+      "endMs": 248152.0,
+      "charStart": 3748,
+      "charEnd": 3801
+    },
+    {
+      "id": "s0058",
+      "text": "The child matters as the person having the hard week, not only as the child who needs to get in the car.",
+      "startMs": 248477.0,
+      "endMs": 254967.0,
+      "charStart": 3802,
+      "charEnd": 3906
+    },
+    {
+      "id": "s0059",
+      "text": "The partner matters as the person with their own fear, not only as the person who forgot to do the thing.",
+      "startMs": 255211.0,
+      "endMs": 261515.0,
+      "charStart": 3907,
+      "charEnd": 4012
+    },
+    {
+      "id": "s0060",
+      "text": "Seeing is one of the clearest ways that movement becomes visible.",
+      "startMs": 261759.0,
+      "endMs": 265602.0,
+      "charStart": 4014,
+      "charEnd": 4079
+    },
+    {
+      "id": "s0061",
+      "text": "But the same face can appear in places where love is not what is happening.",
+      "startMs": 265927.0,
+      "endMs": 270769.0,
+      "charStart": 4081,
+      "charEnd": 4156
+    },
+    {
+      "id": "s0062",
+      "text": "A good therapist can see you beautifully.",
+      "startMs": 271152.0,
+      "endMs": 273857.0,
+      "charStart": 4158,
+      "charEnd": 4199
+    },
+    {
+      "id": "s0063",
+      "text": "Many people have felt, in a competent therapist's office, something like being loved—seen, held in attention, not judged for the first time in months.",
+      "startMs": 274368.0,
+      "endMs": 283935.0,
+      "charStart": 4200,
+      "charEnd": 4350
+    },
+    {
+      "id": "s0064",
+      "text": "That feeling is real.",
+      "startMs": 284445.0,
+      "endMs": 286326.0,
+      "charStart": 4351,
+      "charEnd": 4372
+    },
+    {
+      "id": "s0065",
+      "text": "It is also bounded by a professional relationship.",
+      "startMs": 286837.0,
+      "endMs": 290401.0,
+      "charStart": 4373,
+      "charEnd": 4423
+    },
+    {
+      "id": "s0066",
+      "text": "The seeing is genuine.",
+      "startMs": 290726.0,
+      "endMs": 292247.0,
+      "charStart": 4424,
+      "charEnd": 4446
+    },
+    {
+      "id": "s0067",
+      "text": "The love may not be what the room is for.",
+      "startMs": 292630.0,
+      "endMs": 295254.0,
+      "charStart": 4447,
+      "charEnd": 4488
+    },
+    {
+      "id": "s0068",
+      "text": "A skilled negotiator can see you too.",
+      "startMs": 295695.0,
+      "endMs": 298470.0,
+      "charStart": 4490,
+      "charEnd": 4527
+    },
+    {
+      "id": "s0069",
+      "text": "So can a manipulator.",
+      "startMs": 298911.0,
+      "endMs": 300606.0,
+      "charStart": 4528,
+      "charEnd": 4549
+    },
+    {
+      "id": "s0070",
+      "text": "Some people learn early how to mirror, how to name your feelings back to you, how to make you feel uniquely known—and then use that knowledge to steer you.",
+      "startMs": 300931.0,
+      "endMs": 311369.0,
+      "charStart": 4551,
+      "charEnd": 4706
+    },
+    {
+      "id": "s0071",
+      "text": "The seeing was accurate.",
+      "startMs": 312182.0,
+      "endMs": 313726.0,
+      "charStart": 4707,
+      "charEnd": 4731
+    },
+    {
+      "id": "s0072",
+      "text": "The aim was not your flourishing.",
+      "startMs": 314236.0,
+      "endMs": 316373.0,
+      "charStart": 4732,
+      "charEnd": 4765
+    },
+    {
+      "id": "s0073",
+      "text": "It was leverage.",
+      "startMs": 316698.0,
+      "endMs": 317940.0,
+      "charStart": 4766,
+      "charEnd": 4782
+    },
+    {
+      "id": "s0074",
+      "text": "That is why \"they really get me\" is not always good news.",
+      "startMs": 318265.0,
+      "endMs": 322363.0,
+      "charStart": 4784,
+      "charEnd": 4841
+    },
+    {
+      "id": "s0075",
+      "text": "Being seen can feel like love because it is one of love's most recognizable expressions.",
+      "startMs": 322874.0,
+      "endMs": 329341.0,
+      "charStart": 4843,
+      "charEnd": 4931
+    },
+    {
+      "id": "s0076",
+      "text": "It is not identical with love.",
+      "startMs": 329852.0,
+      "endMs": 331779.0,
+      "charStart": 4932,
+      "charEnd": 4962
+    },
+    {
+      "id": "s0077",
+      "text": "The same act can serve devotion, commerce, control, or habit.",
+      "startMs": 332220.0,
+      "endMs": 336551.0,
+      "charStart": 4963,
+      "charEnd": 5024
+    },
+    {
+      "id": "s0078",
+      "text": "The face is familiar.",
+      "startMs": 337061.0,
+      "endMs": 338385.0,
+      "charStart": 5025,
+      "charEnd": 5046
+    },
+    {
+      "id": "s0079",
+      "text": "The motive underneath changes everything.",
+      "startMs": 338768.0,
+      "endMs": 341276.0,
+      "charStart": 5047,
+      "charEnd": 5088
+    },
+    {
+      "id": "s0080",
+      "text": "Getting someone",
+      "startMs": 342576.0,
+      "endMs": 343679.0,
+      "charStart": 5090,
+      "charEnd": 5105
+    },
+    {
+      "id": "s0081",
+      "text": "We have a phrase for this when it lands: They get me.",
+      "startMs": 344492.0,
+      "endMs": 348289.0,
+      "charStart": 5107,
+      "charEnd": 5160
+    },
+    {
+      "id": "s0082",
+      "text": "Not they approve of me.",
+      "startMs": 348799.0,
+      "endMs": 350158.0,
+      "charStart": 5162,
+      "charEnd": 5185
+    },
+    {
+      "id": "s0083",
+      "text": "Not they need me.",
+      "startMs": 350599.0,
+      "endMs": 351783.0,
+      "charStart": 5186,
+      "charEnd": 5203
+    },
+    {
+      "id": "s0084",
+      "text": "They get me.",
+      "startMs": 352387.0,
+      "endMs": 353362.0,
+      "charStart": 5204,
+      "charEnd": 5216
+    },
+    {
+      "id": "s0085",
+      "text": "The friend at the diner understood what was really happening.",
+      "startMs": 354477.0,
+      "endMs": 357518.0,
+      "charStart": 5218,
+      "charEnd": 5279
+    },
+    {
+      "id": "s0086",
+      "text": "She did not fix the meeting.",
+      "startMs": 357960.0,
+      "endMs": 359643.0,
+      "charStart": 5280,
+      "charEnd": 5308
+    },
+    {
+      "id": "s0087",
+      "text": "She did not tell her friend to rise above it.",
+      "startMs": 359968.0,
+      "endMs": 362267.0,
+      "charStart": 5309,
+      "charEnd": 5354
+    },
+    {
+      "id": "s0088",
+      "text": "She simply named what was actually happening, and in doing so returned her to herself.",
+      "startMs": 362546.0,
+      "endMs": 367851.0,
+      "charStart": 5355,
+      "charEnd": 5441
+    },
+    {
+      "id": "s0089",
+      "text": "That phrase—they get me—shows up in friendships, in romance, in families, in the relief of finding a person who does not make you choose between honesty and belonging.",
+      "startMs": 368966.0,
+      "endMs": 379322.0,
+      "charStart": 5443,
+      "charEnd": 5610
+    },
+    {
+      "id": "s0090",
+      "text": "It is one of the ordinary miracles people talk about when they talk about love without knowing how to define it.",
+      "startMs": 379763.0,
+      "endMs": 386218.0,
+      "charStart": 5611,
+      "charEnd": 5723
+    },
+    {
+      "id": "s0091",
+      "text": "And its opposite is just as ordinary.",
+      "startMs": 386659.0,
+      "endMs": 388900.0,
+      "charStart": 5725,
+      "charEnd": 5762
+    },
+    {
+      "id": "s0092",
+      "text": "You don't get me.",
+      "startMs": 389712.0,
+      "endMs": 390641.0,
+      "charStart": 5764,
+      "charEnd": 5781
+    },
+    {
+      "id": "s0093",
+      "text": "Sometimes that sentence ends a relationship.",
+      "startMs": 391338.0,
+      "endMs": 394194.0,
+      "charStart": 5783,
+      "charEnd": 5827
+    },
+    {
+      "id": "s0094",
+      "text": "Sometimes it is cried in adolescence and forgotten by Thursday.",
+      "startMs": 394577.0,
+      "endMs": 398907.0,
+      "charStart": 5828,
+      "charEnd": 5891
+    },
+    {
+      "id": "s0095",
+      "text": "Sometimes it is the truest thing in the room, and the tragedy is that the people involved are trying, sincerely, and still missing each other by an inch that feels like a mile.",
+      "startMs": 399511.0,
+      "endMs": 410041.0,
+      "charStart": 5892,
+      "charEnd": 6068
+    },
+    {
+      "id": "s0096",
+      "text": "Missing someone is not always cruelty.",
+      "startMs": 410645.0,
+      "endMs": 413327.0,
+      "charStart": 6070,
+      "charEnd": 6108
+    },
+    {
+      "id": "s0097",
+      "text": "Sometimes it is fatigue.",
+      "startMs": 413838.0,
+      "endMs": 415869.0,
+      "charStart": 6109,
+      "charEnd": 6133
+    },
+    {
+      "id": "s0098",
+      "text": "Sometimes it is difference.",
+      "startMs": 416473.0,
+      "endMs": 418308.0,
+      "charStart": 6134,
+      "charEnd": 6161
+    },
+    {
+      "id": "s0099",
+      "text": "Sometimes it is the limit of what one person can hold of another at one time.",
+      "startMs": 418691.0,
+      "endMs": 423509.0,
+      "charStart": 6162,
+      "charEnd": 6239
+    },
+    {
+      "id": "s0100",
+      "text": "But we know the difference, often, between a person trying to see us and a person looking through us.",
+      "startMs": 423950.0,
+      "endMs": 430138.0,
+      "charStart": 6241,
+      "charEnd": 6342
+    },
+    {
+      "id": "s0101",
+      "text": "Trying has a texture.",
+      "startMs": 430742.0,
+      "endMs": 432890.0,
+      "charStart": 6344,
+      "charEnd": 6365
+    },
+    {
+      "id": "s0102",
+      "text": "One face, not the whole",
+      "startMs": 433702.0,
+      "endMs": 436070.0,
+      "charStart": 6367,
+      "charEnd": 6390
+    },
+    {
+      "id": "s0103",
+      "text": "If seeing were love itself, the world would be simpler.",
+      "startMs": 436349.0,
+      "endMs": 439809.0,
+      "charStart": 6392,
+      "charEnd": 6447
+    },
+    {
+      "id": "s0104",
+      "text": "We would only need better listeners.",
+      "startMs": 440134.0,
+      "endMs": 442003.0,
+      "charStart": 6449,
+      "charEnd": 6485
+    },
+    {
+      "id": "s0105",
+      "text": "Better therapists.",
+      "startMs": 442177.0,
+      "endMs": 443396.0,
+      "charStart": 6486,
+      "charEnd": 6504
+    },
+    {
+      "id": "s0106",
+      "text": "Better questions at breakfast tables.",
+      "startMs": 443547.0,
+      "endMs": 445648.0,
+      "charStart": 6505,
+      "charEnd": 6542
+    },
+    {
+      "id": "s0107",
+      "text": "Better friends at diners noticing the embarrassment beneath the anger.",
+      "startMs": 445857.0,
+      "endMs": 449712.0,
+      "charStart": 6543,
+      "charEnd": 6613
+    },
+    {
+      "id": "s0108",
+      "text": "Better listening helps.",
+      "startMs": 450037.0,
+      "endMs": 451662.0,
+      "charStart": 6615,
+      "charEnd": 6638
+    },
+    {
+      "id": "s0109",
+      "text": "It still does not exhaust what love is.",
+      "startMs": 452046.0,
+      "endMs": 454193.0,
+      "charStart": 6639,
+      "charEnd": 6678
+    },
+    {
+      "id": "s0110",
+      "text": "Because love is not one expression.",
+      "startMs": 454518.0,
+      "endMs": 456585.0,
+      "charStart": 6680,
+      "charEnd": 6715
+    },
+    {
+      "id": "s0111",
+      "text": "It is a family of expressions—and seeing is one face in that family, not the whole body.",
+      "startMs": 456864.0,
+      "endMs": 462901.0,
+      "charStart": 6716,
+      "charEnd": 6804
+    },
+    {
+      "id": "s0112",
+      "text": "You can see someone and still fail them; you can see someone clearly and choose yourself every time; you can see someone and use what you see to keep them close in ways that are not good for them, or for you.",
+      "startMs": 463342.0,
+      "endMs": 476647.0,
+      "charStart": 6806,
+      "charEnd": 7014
+    },
+    {
+      "id": "s0113",
+      "text": "You can also see someone imperfectly and still love them well—stumbling, correcting, listening again, learning the shape of their experience over years.",
+      "startMs": 477031.0,
+      "endMs": 487665.0,
+      "charStart": 7015,
+      "charEnd": 7167
+    },
+    {
+      "id": "s0114",
+      "text": "Seeing is not a test you pass once.",
+      "startMs": 488106.0,
+      "endMs": 490660.0,
+      "charStart": 7169,
+      "charEnd": 7204
+    },
+    {
+      "id": "s0115",
+      "text": "It is an attention you return to.",
+      "startMs": 490986.0,
+      "endMs": 492924.0,
+      "charStart": 7205,
+      "charEnd": 7238
+    },
+    {
+      "id": "s0116",
+      "text": "Someone asks how you really are.",
+      "startMs": 493249.0,
+      "endMs": 495374.0,
+      "charStart": 7240,
+      "charEnd": 7272
+    },
+    {
+      "id": "s0117",
+      "text": "You start to answer.",
+      "startMs": 495757.0,
+      "endMs": 497116.0,
+      "charStart": 7273,
+      "charEnd": 7293
+    },
+    {
+      "id": "s0118",
+      "text": "For once, the room stays quiet long enough to hold it.",
+      "startMs": 497499.0,
+      "endMs": 501365.0,
+      "charStart": 7294,
+      "charEnd": 7348
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-3-how-love-deepens-bridge",
+  "generationHash": "sha256:8496b72350f14725a724d8935f3d8e3f90f051e40ff2d7a1f6aacfa5d514dbf9",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Part III — How Love Deepens",
+      "startMs": 0.0,
+      "endMs": 3297.0,
+      "charStart": 0,
+      "charEnd": 27
+    },
+    {
+      "id": "s0002",
+      "text": "We have watched love move—seeing, giving, staying, repairing.",
+      "startMs": 4598.0,
+      "endMs": 9544.0,
+      "charStart": 29,
+      "charEnd": 90
+    },
+    {
+      "id": "s0003",
+      "text": "We have felt how one life can enter another without knowing quite why.",
+      "startMs": 10147.0,
+      "endMs": 13967.0,
+      "charStart": 91,
+      "charEnd": 161
+    },
+    {
+      "id": "s0004",
+      "text": "Those movements do not leave people unchanged; something begins to grow between them—not a theory waiting to replace what we have seen, but a relationship becoming deeper over time.",
+      "startMs": 14292.0,
+      "endMs": 25287.0,
+      "charStart": 162,
+      "charEnd": 343
+    },
+    {
+      "id": "s0005",
+      "text": "What helps those bonds endure is worth noticing—not to solve the deepest mystery, but to see what grows when a life that already matters becomes more fully real.",
+      "startMs": 25612.0,
+      "endMs": 36038.0,
+      "charStart": 344,
+      "charEnd": 505
+    }
+  ]
+}
