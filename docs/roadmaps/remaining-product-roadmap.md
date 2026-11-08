@@ -37,7 +37,7 @@ Discovery, catalog orientation, native chapter reading, monorepo same-checkout b
 | IngramSpark packaging | Shipped | `tools/ingramspark/`; pilots production-approved; operating procedure |
 | Site analytics (discovery/search/reader/game) | Present; migration planned | `apps/site/lib/analytics/`; GA4 + Vercel Analytics; `tools/ga_trends_brief.py`; see [`vercel-reader-analytics-migration.md`](vercel-reader-analytics-migration.md) |
 | Reader funnel events | Shipped | `chapter_open` / `next_chapter` / `file_download` (`location=reader`); consent-gated; GA4 Admin key-event marking remains Kevin until migration Gate 3 |
-| Chapter Listen (TTS platform) | Platform complete | [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md) Phases 0–6; OP + WOLTY v1 + CBC + WMSS + WOLTY Companion available; How Trust Forms + When Trust Stops Tracking Reality audio-enabled (pending generate) |
+| Chapter Listen (TTS platform) | Platform complete | [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md) Phases 0–6; OP + WOLTY v1 + CBC + WMSS + WOLTY Companion + trust pair available; Everyone Knows Love audio-enabled (pending generate) |
 | Pattern Recognition Challenge | Through GAME-001e complete | [`pattern-recognition-challenge.md`](pattern-recognition-challenge.md); enjoyability Observe gate before further game investment |
 | Root CONTRIBUTING + issue templates | CONTRIBUTING done; templates open | [`CONTRIBUTING.md`](../../CONTRIBUTING.md); OPS-001b for issue templates |
 | Think Together | Marketing only | Quotes on site; no product surface |
@@ -208,7 +208,7 @@ Do not reopen these as active product phases. Specialized plans keep implementat
 | PROVENANCE-001 concept definition helper | `apps/site/lib/graph/conceptFormatting.ts` |
 | ANALYTICS-001 reader funnel events | Shipped; Admin key-event marking remains Now (ops) |
 | OPS-002 public roadmap pointer from README | Root README → this document |
-| AUDIO-001 platform Phases 0–6 + CBC/WMSS/Companion available; trust-pair enablement | [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md); How Trust Forms + When Trust Stops Tracking Reality generate + further narration = Ongoing ops |
+| AUDIO-001 platform Phases 0–6 + CBC/WMSS/Companion + trust pair available; EKL enablement | [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md); Everyone Knows Love generate + further narration = Ongoing ops |
 | GAME-001a–001e Pattern Recognition Challenge through Session Completion Delight | [`pattern-recognition-challenge.md`](pattern-recognition-challenge.md); further game work = Observe then Triggered only |
 | Explore / patterns / books-reader mobile redesigns | Completed specialized site plans under `apps/site/docs/roadmaps/` |
 
