@@ -1,0 +1,720 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-2-how-love-moves-chapter-6-staying",
+  "generationHash": "sha256:c27607471e41f10ea9c0d14240d0d56b0e547f8105ef5fb05417e71143bdff6b",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Staying",
+      "startMs": 0.0,
+      "endMs": 557.0,
+      "charStart": 0,
+      "charEnd": 7
+    },
+    {
+      "id": "s0002",
+      "text": "A father sat in the waiting room for four hours while they ran tests on his wife.",
+      "startMs": 673.0,
+      "endMs": 5619.0,
+      "charStart": 9,
+      "charEnd": 90
+    },
+    {
+      "id": "s0003",
+      "text": "He did not make a scene.",
+      "startMs": 5944.0,
+      "endMs": 7256.0,
+      "charStart": 92,
+      "charEnd": 116
+    },
+    {
+      "id": "s0004",
+      "text": "He did not ask for updates more often than the desk could give them.",
+      "startMs": 7500.0,
+      "endMs": 10878.0,
+      "charStart": 117,
+      "charEnd": 185
+    },
+    {
+      "id": "s0005",
+      "text": "He read the same magazine twice, bought bad coffee, and stayed.",
+      "startMs": 11052.0,
+      "endMs": 14942.0,
+      "charStart": 186,
+      "charEnd": 249
+    },
+    {
+      "id": "s0006",
+      "text": "When she finally came out—tired, embarrassed, trying to make light of it—he stood up and said only, \"Okay.",
+      "startMs": 15267.0,
+      "endMs": 22222.0,
+      "charStart": 251,
+      "charEnd": 357
+    },
+    {
+      "id": "s0007",
+      "text": "Let's go home.\"",
+      "startMs": 22349.0,
+      "endMs": 23197.0,
+      "charStart": 358,
+      "charEnd": 373
+    },
+    {
+      "id": "s0008",
+      "text": "That was the whole speech.",
+      "startMs": 24497.0,
+      "endMs": 26053.0,
+      "charStart": 375,
+      "charEnd": 401
+    },
+    {
+      "id": "s0009",
+      "text": "You might remember an afternoon like that—not because it was dramatic.",
+      "startMs": 26494.0,
+      "endMs": 30117.0,
+      "charStart": 403,
+      "charEnd": 473
+    },
+    {
+      "id": "s0010",
+      "text": "Because it was the opposite of dramatic.",
+      "startMs": 30360.0,
+      "endMs": 32636.0,
+      "charStart": 474,
+      "charEnd": 514
+    },
+    {
+      "id": "s0011",
+      "text": "Someone remained.",
+      "startMs": 33147.0,
+      "endMs": 34180.0,
+      "charStart": 515,
+      "charEnd": 532
+    },
+    {
+      "id": "s0012",
+      "text": "The world continued.",
+      "startMs": 34505.0,
+      "endMs": 35817.0,
+      "charStart": 533,
+      "charEnd": 553
+    },
+    {
+      "id": "s0013",
+      "text": "The marriage continued.",
+      "startMs": 36258.0,
+      "endMs": 37698.0,
+      "charStart": 554,
+      "charEnd": 577
+    },
+    {
+      "id": "s0014",
+      "text": "Love, if that is the word, looked like a person in an uncomfortable chair who had decided not to leave.",
+      "startMs": 38302.0,
+      "endMs": 45001.0,
+      "charStart": 578,
+      "charEnd": 681
+    },
+    {
+      "id": "s0015",
+      "text": "What staying looks like",
+      "startMs": 45511.0,
+      "endMs": 46974.0,
+      "charStart": 683,
+      "charEnd": 706
+    },
+    {
+      "id": "s0016",
+      "text": "Staying is love made visible across time.",
+      "startMs": 47671.0,
+      "endMs": 50562.0,
+      "charStart": 708,
+      "charEnd": 749
+    },
+    {
+      "id": "s0017",
+      "text": "You can see a gift.",
+      "startMs": 50887.0,
+      "endMs": 52199.0,
+      "charStart": 751,
+      "charEnd": 770
+    },
+    {
+      "id": "s0018",
+      "text": "You can hear a kind word.",
+      "startMs": 52350.0,
+      "endMs": 54022.0,
+      "charStart": 771,
+      "charEnd": 796
+    },
+    {
+      "id": "s0019",
+      "text": "Staying is harder to photograph.",
+      "startMs": 54347.0,
+      "endMs": 56274.0,
+      "charStart": 797,
+      "charEnd": 829
+    },
+    {
+      "id": "s0020",
+      "text": "It is the shift that does not come, the return, the second year, the ordinary Tuesday when leaving would be easier and no one would blame you.",
+      "startMs": 56599.0,
+      "endMs": 65527.0,
+      "charStart": 830,
+      "charEnd": 972
+    },
+    {
+      "id": "s0021",
+      "text": "A grown child cuts food at the table for a parent who once prepared every meal—irritated by the slowness, tender without meaning to be.",
+      "startMs": 66224.0,
+      "endMs": 76232.0,
+      "charStart": 974,
+      "charEnd": 1109
+    },
+    {
+      "id": "s0022",
+      "text": "A friend keeps calling back after the conversation went badly.",
+      "startMs": 77184.0,
+      "endMs": 80748.0,
+      "charStart": 1111,
+      "charEnd": 1173
+    },
+    {
+      "id": "s0023",
+      "text": "A partner stays in the kitchen while you cry about something too small to justify tears.",
+      "startMs": 81444.0,
+      "endMs": 86819.0,
+      "charStart": 1175,
+      "charEnd": 1263
+    },
+    {
+      "id": "s0024",
+      "text": "A grown child drives the same route every other Sunday because the visit matters even when the visit is awkward.",
+      "startMs": 87771.0,
+      "endMs": 94296.0,
+      "charStart": 1265,
+      "charEnd": 1377
+    },
+    {
+      "id": "s0025",
+      "text": "A neighbor checks in long after the casserole has been eaten.",
+      "startMs": 94505.0,
+      "endMs": 97593.0,
+      "charStart": 1379,
+      "charEnd": 1440
+    },
+    {
+      "id": "s0026",
+      "text": "We say they stayed when we mean something more than physical presence.",
+      "startMs": 97919.0,
+      "endMs": 101553.0,
+      "charStart": 1442,
+      "charEnd": 1512
+    },
+    {
+      "id": "s0027",
+      "text": "We mean reliability.",
+      "startMs": 101878.0,
+      "endMs": 103492.0,
+      "charStart": 1513,
+      "charEnd": 1533
+    },
+    {
+      "id": "s0028",
+      "text": "We mean I will still be here tomorrow.",
+      "startMs": 103701.0,
+      "endMs": 106069.0,
+      "charStart": 1534,
+      "charEnd": 1572
+    },
+    {
+      "id": "s0029",
+      "text": "We mean the relationship did not disappear when it became inconvenient, boring, expensive, or hard.",
+      "startMs": 106348.0,
+      "endMs": 112675.0,
+      "charStart": 1573,
+      "charEnd": 1672
+    },
+    {
+      "id": "s0030",
+      "text": "Staying includes loyalty, patience, fidelity, showing up again.",
+      "startMs": 113186.0,
+      "endMs": 118527.0,
+      "charStart": 1674,
+      "charEnd": 1737
+    },
+    {
+      "id": "s0031",
+      "text": "It is not only romantic.",
+      "startMs": 119131.0,
+      "endMs": 121000.0,
+      "charStart": 1738,
+      "charEnd": 1762
+    },
+    {
+      "id": "s0032",
+      "text": "It is not only virtuous.",
+      "startMs": 121174.0,
+      "endMs": 122927.0,
+      "charStart": 1763,
+      "charEnd": 1787
+    },
+    {
+      "id": "s0033",
+      "text": "It is one of the clearest ways humans say, without slogan: I am not leaving yet.",
+      "startMs": 123310.0,
+      "endMs": 129545.0,
+      "charStart": 1788,
+      "charEnd": 1868
+    },
+    {
+      "id": "s0034",
+      "text": "Why staying feels loving",
+      "startMs": 130659.0,
+      "endMs": 132204.0,
+      "charStart": 1870,
+      "charEnd": 1894
+    },
+    {
+      "id": "s0035",
+      "text": "Why does staying feel like love?",
+      "startMs": 133156.0,
+      "endMs": 135582.0,
+      "charStart": 1896,
+      "charEnd": 1928
+    },
+    {
+      "id": "s0036",
+      "text": "Staying answers a question fear keeps asking in secret: Will you remain when remaining is costly?",
+      "startMs": 136534.0,
+      "endMs": 143627.0,
+      "charStart": 1930,
+      "charEnd": 2027
+    },
+    {
+      "id": "s0037",
+      "text": "Seeing can happen in a moment.",
+      "startMs": 144579.0,
+      "endMs": 146518.0,
+      "charStart": 2029,
+      "charEnd": 2059
+    },
+    {
+      "id": "s0038",
+      "text": "Giving can happen in a burst.",
+      "startMs": 146901.0,
+      "endMs": 149165.0,
+      "charStart": 2060,
+      "charEnd": 2089
+    },
+    {
+      "id": "s0039",
+      "text": "Staying asks something of time.",
+      "startMs": 149676.0,
+      "endMs": 151963.0,
+      "charStart": 2090,
+      "charEnd": 2121
+    },
+    {
+      "id": "s0040",
+      "text": "It says your life is not a single scene to me.",
+      "startMs": 152242.0,
+      "endMs": 155005.0,
+      "charStart": 2122,
+      "charEnd": 2168
+    },
+    {
+      "id": "s0041",
+      "text": "I am willing to remain through more than the good parts.",
+      "startMs": 155330.0,
+      "endMs": 158511.0,
+      "charStart": 2169,
+      "charEnd": 2225
+    },
+    {
+      "id": "s0042",
+      "text": "In the last chapters we watched someone see another person, then spend something on their behalf.",
+      "startMs": 159812.0,
+      "endMs": 165431.0,
+      "charStart": 2227,
+      "charEnd": 2324
+    },
+    {
+      "id": "s0043",
+      "text": "Staying is what those movements look like when they are stretched across weeks and years.",
+      "startMs": 166128.0,
+      "endMs": 171027.0,
+      "charStart": 2325,
+      "charEnd": 2414
+    },
+    {
+      "id": "s0044",
+      "text": "You keep noticing.",
+      "startMs": 171538.0,
+      "endMs": 172710.0,
+      "charStart": 2415,
+      "charEnd": 2433
+    },
+    {
+      "id": "s0045",
+      "text": "You keep offering.",
+      "startMs": 172884.0,
+      "endMs": 174045.0,
+      "charStart": 2434,
+      "charEnd": 2452
+    },
+    {
+      "id": "s0046",
+      "text": "You keep choosing the same person, the same family, the same friendship, the same difficult room.",
+      "startMs": 174138.0,
+      "endMs": 180361.0,
+      "charStart": 2453,
+      "charEnd": 2550
+    },
+    {
+      "id": "s0047",
+      "text": "That is why trust often grows here.",
+      "startMs": 180744.0,
+      "endMs": 183426.0,
+      "charStart": 2552,
+      "charEnd": 2587
+    },
+    {
+      "id": "s0048",
+      "text": "Not because trust is the same as love, but because staying makes a promise the body can believe: this is not only for today.",
+      "startMs": 183751.0,
+      "endMs": 191646.0,
+      "charStart": 2588,
+      "charEnd": 2712
+    },
+    {
+      "id": "s0049",
+      "text": "That relief is one reason staying feels loving.",
+      "startMs": 192087.0,
+      "endMs": 195361.0,
+      "charStart": 2714,
+      "charEnd": 2761
+    },
+    {
+      "id": "s0050",
+      "text": "It says: I am not measuring you by your best day.",
+      "startMs": 195686.0,
+      "endMs": 199286.0,
+      "charStart": 2763,
+      "charEnd": 2812
+    },
+    {
+      "id": "s0051",
+      "text": "When staying is not love",
+      "startMs": 199727.0,
+      "endMs": 201468.0,
+      "charStart": 2814,
+      "charEnd": 2838
+    },
+    {
+      "id": "s0052",
+      "text": "But staying can look like love and still not be.",
+      "startMs": 201793.0,
+      "endMs": 204974.0,
+      "charStart": 2840,
+      "charEnd": 2888
+    },
+    {
+      "id": "s0053",
+      "text": "A person can stay from fear—because leaving feels impossible, because they have nowhere else, because the cost of going seems worse than the cost of remaining; from habit—because this is how it has always been, because change would require a kind of courage they do not have yet; from guilt, obligation, reputation, children, money, terror of being alone; or because they have confused endurance with devotion.",
+      "startMs": 205671.0,
+      "endMs": 233291.0,
+      "charStart": 2890,
+      "charEnd": 3300
+    },
+    {
+      "id": "s0054",
+      "text": "All of these can look loyal from the outside.",
+      "startMs": 233895.0,
+      "endMs": 236704.0,
+      "charStart": 3301,
+      "charEnd": 3346
+    },
+    {
+      "id": "s0055",
+      "text": "Sometimes they are necessary; sometimes they are survivable; sometimes they keep people alive through a season that would have broken them if they had left too soon.",
+      "startMs": 237215.0,
+      "endMs": 246538.0,
+      "charStart": 3347,
+      "charEnd": 3512
+    },
+    {
+      "id": "s0056",
+      "text": "They are not always love.",
+      "startMs": 246979.0,
+      "endMs": 248349.0,
+      "charStart": 3513,
+      "charEnd": 3538
+    },
+    {
+      "id": "s0057",
+      "text": "Gang loyalty is staying.",
+      "startMs": 248674.0,
+      "endMs": 250915.0,
+      "charStart": 3540,
+      "charEnd": 3564
+    },
+    {
+      "id": "s0058",
+      "text": "So is the bond that keeps someone in a harmful relationship because leaving has been made to feel like betrayal—or because harm has been mistaken for intensity.",
+      "startMs": 251356.0,
+      "endMs": 260528.0,
+      "charStart": 3565,
+      "charEnd": 3725
+    },
+    {
+      "id": "s0059",
+      "text": "So is the resignation that says, this is just how things are, until the soul goes quiet.",
+      "startMs": 261039.0,
+      "endMs": 266693.0,
+      "charStart": 3726,
+      "charEnd": 3814
+    },
+    {
+      "id": "s0060",
+      "text": "The same waiting room can hold a spouse who stays because the marriage still matters, or one who stays because fear has made leaving unimaginable.",
+      "startMs": 267390.0,
+      "endMs": 275923.0,
+      "charStart": 3816,
+      "charEnd": 3962
+    },
+    {
+      "id": "s0061",
+      "text": "The chair looks identical.",
+      "startMs": 276202.0,
+      "endMs": 277862.0,
+      "charStart": 3963,
+      "charEnd": 3989
+    },
+    {
+      "id": "s0062",
+      "text": "The story underneath may not.",
+      "startMs": 278036.0,
+      "endMs": 279847.0,
+      "charStart": 3990,
+      "charEnd": 4019
+    },
+    {
+      "id": "s0063",
+      "text": "Motive still matters.",
+      "startMs": 280230.0,
+      "endMs": 281902.0,
+      "charStart": 4021,
+      "charEnd": 4042
+    },
+    {
+      "id": "s0064",
+      "text": "Staying that protects another person's flourishing is one thing.",
+      "startMs": 282181.0,
+      "endMs": 285873.0,
+      "charStart": 4043,
+      "charEnd": 4107
+    },
+    {
+      "id": "s0065",
+      "text": "Staying that slowly erases it is another.",
+      "startMs": 286117.0,
+      "endMs": 288984.0,
+      "charStart": 4108,
+      "charEnd": 4149
+    },
+    {
+      "id": "s0066",
+      "text": "Staying without the other faces",
+      "startMs": 289309.0,
+      "endMs": 290958.0,
+      "charStart": 4151,
+      "charEnd": 4182
+    },
+    {
+      "id": "s0067",
+      "text": "This is where the expressions begin to interact.",
+      "startMs": 291562.0,
+      "endMs": 294406.0,
+      "charStart": 4184,
+      "charEnd": 4232
+    },
+    {
+      "id": "s0068",
+      "text": "You can stay and fail to see the person beside you—remain in the house but not in the relationship; fail to give—occupy a role without spending anything real; fail to repair—let wounds accumulate because leaving has been ruled out and mending has never been learned.",
+      "startMs": 294685.0,
+      "endMs": 312727.0,
+      "charStart": 4234,
+      "charEnd": 4500
+    },
+    {
+      "id": "s0069",
+      "text": "You can also leave and still love, which confuses people who treat staying as the whole proof.",
+      "startMs": 312970.0,
+      "endMs": 318868.0,
+      "charStart": 4502,
+      "charEnd": 4596
+    },
+    {
+      "id": "s0070",
+      "text": "Sometimes love requires distance.",
+      "startMs": 319472.0,
+      "endMs": 321840.0,
+      "charStart": 4597,
+      "charEnd": 4630
+    },
+    {
+      "id": "s0071",
+      "text": "Sometimes the loving act is not remaining—a former partner exchanging logistics about the children without reopening what cannot be repaired, still hoping, from a careful distance, that the other person becomes well.",
+      "startMs": 322119.0,
+      "endMs": 335598.0,
+      "charStart": 4631,
+      "charEnd": 4847
+    },
+    {
+      "id": "s0072",
+      "text": "That is a harder truth, and we will not pretend it is not.",
+      "startMs": 336039.0,
+      "endMs": 339906.0,
+      "charStart": 4848,
+      "charEnd": 4906
+    },
+    {
+      "id": "s0073",
+      "text": "But when someone remains and also sees, also gives, also tries to mend what breaks—when staying is chosen rather than merely endured—the face of love becomes easier to recognize.",
+      "startMs": 340603.0,
+      "endMs": 353699.0,
+      "charStart": 4908,
+      "charEnd": 5086
+    },
+    {
+      "id": "s0074",
+      "text": "Not love by itself",
+      "startMs": 354024.0,
+      "endMs": 355312.0,
+      "charStart": 5088,
+      "charEnd": 5106
+    },
+    {
+      "id": "s0075",
+      "text": "If staying were love itself, the world would be simpler.",
+      "startMs": 356009.0,
+      "endMs": 359422.0,
+      "charStart": 5108,
+      "charEnd": 5164
+    },
+    {
+      "id": "s0076",
+      "text": "We would only need more commitment.",
+      "startMs": 359701.0,
+      "endMs": 362115.0,
+      "charStart": 5166,
+      "charEnd": 5201
+    },
+    {
+      "id": "s0077",
+      "text": "More patience.",
+      "startMs": 362359.0,
+      "endMs": 363485.0,
+      "charStart": 5202,
+      "charEnd": 5216
+    },
+    {
+      "id": "s0078",
+      "text": "More people in waiting rooms reading the same magazine twice.",
+      "startMs": 363660.0,
+      "endMs": 367247.0,
+      "charStart": 5217,
+      "charEnd": 5278
+    },
+    {
+      "id": "s0079",
+      "text": "More patience helps.",
+      "startMs": 367526.0,
+      "endMs": 369093.0,
+      "charStart": 5280,
+      "charEnd": 5300
+    },
+    {
+      "id": "s0080",
+      "text": "It still does not exhaust love.",
+      "startMs": 369476.0,
+      "endMs": 371322.0,
+      "charStart": 5301,
+      "charEnd": 5332
+    },
+    {
+      "id": "s0081",
+      "text": "Because love is not one expression.",
+      "startMs": 371647.0,
+      "endMs": 373749.0,
+      "charStart": 5334,
+      "charEnd": 5369
+    },
+    {
+      "id": "s0082",
+      "text": "Seeing is one face.",
+      "startMs": 374027.0,
+      "endMs": 375595.0,
+      "charStart": 5370,
+      "charEnd": 5389
+    },
+    {
+      "id": "s0083",
+      "text": "Giving is another.",
+      "startMs": 375804.0,
+      "endMs": 377139.0,
+      "charStart": 5390,
+      "charEnd": 5408
+    },
+    {
+      "id": "s0084",
+      "text": "Staying is another—and staying, too, can be performed without love, or mistaken for love when it has become fear, or offered beautifully and still leave something essential unaddressed.",
+      "startMs": 377418.0,
+      "endMs": 389225.0,
+      "charStart": 5409,
+      "charEnd": 5594
+    },
+    {
+      "id": "s0085",
+      "text": "You can stay without repairing.",
+      "startMs": 389550.0,
+      "endMs": 391605.0,
+      "charStart": 5596,
+      "charEnd": 5627
+    },
+    {
+      "id": "s0086",
+      "text": "You can repair without having stayed.",
+      "startMs": 391884.0,
+      "endMs": 394322.0,
+      "charStart": 5629,
+      "charEnd": 5666
+    },
+    {
+      "id": "s0087",
+      "text": "Someone is in the chair by the bed again.",
+      "startMs": 394926.0,
+      "endMs": 396876.0,
+      "charStart": 5668,
+      "charEnd": 5709
+    },
+    {
+      "id": "s0088",
+      "text": "The light goes off.",
+      "startMs": 397050.0,
+      "endMs": 398130.0,
+      "charStart": 5710,
+      "charEnd": 5729
+    },
+    {
+      "id": "s0089",
+      "text": "Tuesday arrives, and they are still there.",
+      "startMs": 398258.0,
+      "endMs": 400638.0,
+      "charStart": 5730,
+      "charEnd": 5772
+    }
+  ]
+}

@@ -8,6 +8,10 @@
 # `units` / `edition` inputs narrow the set. Merging the review PR makes those
 # units available to the site Listen control.
 #
+# Partial success: if some units generate and later ones fail, the workflow still
+# validates/uploads/commits the successful artifacts, then fails the job so the
+# failed units stay visible. Prefer `edition=` when you only want one book.
+#
 # Toolchain: Python + uv from mise.toml / mise.lock via jdx/mise-action.
 # Task steps stay direct (python3 / make) — not `mise run`.
 
@@ -146,13 +150,15 @@ jobs:
         run: echo "No enabled units need generation (already current or none enabled)."
 
       - name: Real generate (ElevenLabs secret on this step only)
+        id: generate
         if: ${{ !inputs.dry_run && steps.units.outputs.count != '0' }}
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           GH_TOKEN: ""
           GITHUB_TOKEN: ""
         run: |
-          set -euo pipefail
+          # Continue past per-unit failures so successful artifacts can still publish.
+          set -uo pipefail
           if [ -z "${ELEVENLABS_API_KEY:-}" ]; then
             echo "ELEVENLABS_API_KEY secret is not set" >&2
             exit 1
@@ -161,16 +167,46 @@ jobs:
           if [ "${{ inputs.force }}" = "true" ]; then
             force_flag=(--force)
           fi
+          : > /tmp/chapter-audio-ok-units.txt
+          : > /tmp/chapter-audio-fail-units.txt
+          ok_count=0
+          fail_count=0
           while IFS= read -r unit; do
             [ -n "$unit" ] || continue
             echo "::group::generate $unit"
-            python3 tools/generate_chapter_audio.py --repo . --unit "$unit" --real \
-              "${force_flag[@]}" --format text
+            if python3 tools/generate_chapter_audio.py --repo . --unit "$unit" --real \
+              "${force_flag[@]}" --format text; then
+              printf '%s\n' "$unit" >> /tmp/chapter-audio-ok-units.txt
+              ok_count=$((ok_count + 1))
+            else
+              status=$?
+              printf '%s\n' "$unit" >> /tmp/chapter-audio-fail-units.txt
+              fail_count=$((fail_count + 1))
+              echo "::error::generate failed for ${unit} (exit ${status})"
+            fi
             echo "::endgroup::"
           done <<< "${{ steps.units.outputs.list }}"
+          {
+            echo "ok_count=${ok_count}"
+            echo "fail_count=${fail_count}"
+            echo "ok_list<<EOF"
+            cat /tmp/chapter-audio-ok-units.txt
+            echo "EOF"
+            echo "fail_list<<EOF"
+            cat /tmp/chapter-audio-fail-units.txt
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          echo "generate summary: ok=${ok_count} fail=${fail_count}"
+          if [ "${ok_count}" -eq 0 ]; then
+            echo "All units failed; nothing to publish." >&2
+            exit 1
+          fi
+          if [ "${fail_count}" -gt 0 ]; then
+            echo "::warning::${fail_count} unit(s) failed after ${ok_count} succeeded; publishing successes, then failing the job."
+          fi
 
       - name: Validate artifacts (secret-free)
-        if: ${{ !inputs.dry_run && steps.units.outputs.count != '0' }}
+        if: ${{ !inputs.dry_run && steps.generate.outcome == 'success' }}
         env:
           GH_TOKEN: ""
           GITHUB_TOKEN: ""
@@ -181,7 +217,7 @@ jobs:
           make verify-chapter-audio
 
       - name: Upload generated audio artifacts
-        if: ${{ !inputs.dry_run && steps.units.outputs.count != '0' }}
+        if: ${{ !inputs.dry_run && steps.generate.outcome == 'success' }}
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: chapter-audio-${{ github.run_id }}
@@ -189,7 +225,7 @@ jobs:
           if-no-files-found: warn
 
       - name: Commit LFS audio and open review PR
-        if: ${{ !inputs.dry_run && inputs.open_pr && steps.units.outputs.count != '0' }}
+        if: ${{ !inputs.dry_run && inputs.open_pr && steps.generate.outcome == 'success' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -198,7 +234,22 @@ jobs:
           while IFS= read -r unit; do
             [ -n "$unit" ] || continue
             unit_args+=(--unit "$unit")
-          done <<< "${{ steps.units.outputs.list }}"
+          done < /tmp/chapter-audio-ok-units.txt
+          failed_args=()
+          while IFS= read -r unit; do
+            [ -n "$unit" ] || continue
+            failed_args+=(--failed-unit "$unit")
+          done < /tmp/chapter-audio-fail-units.txt
           python3 tools/run_chapter_audio_ci.py --repo . \
             --base-branch "${{ github.event.repository.default_branch }}" \
-            "${unit_args[@]}"
+            "${unit_args[@]}" \
+            "${failed_args[@]}"
+
+      - name: Fail job when any unit failed
+        if: ${{ !inputs.dry_run && steps.generate.outcome == 'success' && steps.generate.outputs.fail_count != '0' }}
+        run: |
+          set -euo pipefail
+          echo "The following unit(s) failed during generate:" >&2
+          cat /tmp/chapter-audio-fail-units.txt >&2
+          echo "Successful artifacts were still uploaded/committed when configured." >&2
+          exit 1

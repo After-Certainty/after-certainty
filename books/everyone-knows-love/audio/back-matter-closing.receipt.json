@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-back-matter-closing",
+  "editionSlug": "everyone-knows-love",
+  "chapterSlug": "back-matter-closing",
+  "sourcePath": "back-matter/closing.md",
+  "sourceHash": "sha256:ea2a7bd33e209f937e56baad8a3eefc547c66c49134deb244d342c794682ee41",
+  "spokenTextHash": "sha256:64cf403091511d0a7fce72658604ac51238672ddabe702dc54e57d9e9012f6c0",
+  "generationHash": "sha256:31d9b04a412a0ab2037422b8359bb1df36e391ff20de3fff7c8eae5403652a29",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 166,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 41.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 41.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/everyone-knows-love/audio/back-matter-closing.alignment.json"
+  },
+  "audioPath": "books/everyone-knows-love/audio/back-matter-closing.mp3",
+  "audioSha256": "sha256:7b36341d0a5c9a9ca848a0ae4590ef007ec1a2cc3aa116afb2dce5311010a6cf",
+  "generatedAt": "2026-11-08T15:31:46Z"
+}

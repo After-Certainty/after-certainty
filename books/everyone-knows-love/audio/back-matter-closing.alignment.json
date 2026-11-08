@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-back-matter-closing",
+  "generationHash": "sha256:31d9b04a412a0ab2037422b8359bb1df36e391ff20de3fff7c8eae5403652a29",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Love shows up as small acts of voluntary inconvenience.",
+      "startMs": 0.0,
+      "endMs": 3100.0,
+      "charStart": 0,
+      "charEnd": 55
+    },
+    {
+      "id": "s0002",
+      "text": "It stops being love when you're not free to say no.",
+      "startMs": 3344.0,
+      "endMs": 6188.0,
+      "charStart": 57,
+      "charEnd": 108
+    },
+    {
+      "id": "s0003",
+      "text": "Learning to love—without losing yourself—is how we grow.",
+      "startMs": 7001.0,
+      "endMs": 10263.0,
+      "charStart": 110,
+      "charEnd": 166
+    }
+  ]
+}

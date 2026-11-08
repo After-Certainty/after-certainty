@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-5-the-mystery-remains-bridge",
+  "editionSlug": "everyone-knows-love",
+  "chapterSlug": "parts-part-5-the-mystery-remains-bridge",
+  "sourcePath": "parts/part-5-the-mystery-remains/bridge.md",
+  "sourceHash": "sha256:5b76ccf3bc6dac661fa833284071629b07a7c5f62da2b983094f079d95782d18",
+  "spokenTextHash": "sha256:090cd2968e68cee77f4943e84878ac407d76d1fdc1be5dfd6c5d6052e213391f",
+  "generationHash": "sha256:8ebdb2613698d0b0abc18c9bb3809da9d67d8b62725844e6b04156d06096d35c",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 437,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 109.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 109.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/everyone-knows-love/audio/parts-part-5-the-mystery-remains-bridge.alignment.json"
+  },
+  "audioPath": "books/everyone-knows-love/audio/parts-part-5-the-mystery-remains-bridge.mp3",
+  "audioSha256": "sha256:506b496ec828ec19ce982f68a9c12097954f56382c20b24210c71bdd3ccd2d92",
+  "generatedAt": "2026-11-08T15:31:33Z"
+}

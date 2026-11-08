@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-1-everyone-knows-love-chapter-3-recognizing-before-explaining",
+  "editionSlug": "everyone-knows-love",
+  "chapterSlug": "parts-part-1-everyone-knows-love-chapter-3-recognizing-before-explaining",
+  "sourcePath": "parts/part-1-everyone-knows-love/chapter-3-recognizing-before-explaining.md",
+  "sourceHash": "sha256:9d30e58a477f7f1a67f3b9968d87973226ca28884194838dac7a40e62a16e43e",
+  "spokenTextHash": "sha256:f54526f972e489c4013e5ce705229998ee8ae3a21586f2a9db4bd8f4e516fbea",
+  "generationHash": "sha256:45dafcd109d6473769742fade86e3a7b34f50356b97ff45f54edbc1dbb4c39ec",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 8371,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 2092.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 2092.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/everyone-knows-love/audio/parts-part-1-everyone-knows-love-chapter-3-recognizing-before-explaining.alignment.json"
+  },
+  "audioPath": "books/everyone-knows-love/audio/parts-part-1-everyone-knows-love-chapter-3-recognizing-before-explaining.mp3",
+  "audioSha256": "sha256:49023e7f7f54f201b7a7476c68d4ea690f4a360157399d24e685cac005fc4a01",
+  "generatedAt": "2026-11-08T15:29:44Z"
+}
