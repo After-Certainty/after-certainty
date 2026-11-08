@@ -53,6 +53,9 @@ Chapter audio Git LFS ops (Phase 4):
 - The generate workflow checks out with `lfs: true` and pushes LFS objects on the
   review PR branch. Confirm the repo has Git LFS enabled and that CI fetch
   LFS objects before install (install refuses pointer stubs).
+- Partial batches: if some units succeed and later ones fail, the workflow still
+  uploads artifacts and pushes/commits the successes, then fails the job so the
+  failures stay visible. Prefer `edition=` when generating a single book.
 - Site CI / `vercel build` runs `scripts/ensure_git_lfs_audio.sh` from
   `vercel_build.sh` to `git lfs pull` chapter MP3s before
   `install_local_manifest_for_site` (otherwise Listen installs 0 units from

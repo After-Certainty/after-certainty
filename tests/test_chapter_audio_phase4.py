@@ -170,6 +170,36 @@ def test_pr_create_blocked_detects_actions_permission_denial() -> None:
     assert not _pr_create_blocked("API rate limit exceeded")
 
 
+def test_build_pr_copy_full_success() -> None:
+    from run_chapter_audio_ci import build_pr_copy
+
+    title, body = build_pr_copy(
+        unit_ids=["chapter-a", "chapter-b"],
+        failed_unit_ids=[],
+        run_id="123",
+    )
+    assert title == "chapter-audio: generate 2 unit(s)"
+    assert "`chapter-a`" in body and "`chapter-b`" in body
+    assert "Failed" not in body
+    assert "run `123`" in body
+
+
+def test_build_pr_copy_partial_success_lists_failures() -> None:
+    from run_chapter_audio_ci import build_pr_copy
+
+    title, body = build_pr_copy(
+        unit_ids=["chapter-ok"],
+        failed_unit_ids=["chapter-fail"],
+        run_id="456",
+    )
+    assert title == "chapter-audio: generate 1 unit(s) (1 failed)"
+    assert "### Succeeded" in body
+    assert "`chapter-ok`" in body
+    assert "### Failed (not in this PR)" in body
+    assert "`chapter-fail`" in body
+    assert "continued after per-unit failures" in body
+
+
 def test_changed_audio_paths_finds_untracked_audio_tree(tmp_path: Path) -> None:
     """Regression: literal books/*/audio pathspec misses untracked audio files."""
     subprocess.run(["git", "init"], cwd=tmp_path, check=True, capture_output=True)
