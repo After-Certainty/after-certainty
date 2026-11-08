@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-3-how-love-deepens-chapter-10-connection",
+  "generationHash": "sha256:27f0ea47c1529d46682cbb50376c9a9a354df10003d6510d6b264618884348e5",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Connection",
+      "startMs": 0.0,
+      "endMs": 639.0,
+      "charStart": 0,
+      "charEnd": 10
+    },
+    {
+      "id": "s0002",
+      "text": "You can stand in a crowded room and feel alone.",
+      "startMs": 964.0,
+      "endMs": 3611.0,
+      "charStart": 12,
+      "charEnd": 59
+    },
+    {
+      "id": "s0003",
+      "text": "Not dramatically alone.",
+      "startMs": 3936.0,
+      "endMs": 5376.0,
+      "charStart": 61,
+      "charEnd": 84
+    },
+    {
+      "id": "s0004",
+      "text": "The ordinary kind—holding a plastic cup, nodding at the right moments, laughing when everyone laughs, and knowing you could leave without anyone's evening changing much.",
+      "startMs": 5701.0,
+      "endMs": 15999.0,
+      "charStart": 85,
+      "charEnd": 254
+    },
+    {
+      "id": "s0005",
+      "text": "You can also be alone in a car with one person and feel entirely accompanied.",
+      "startMs": 16695.0,
+      "endMs": 21688.0,
+      "charStart": 256,
+      "charEnd": 333
+    },
+    {
+      "id": "s0006",
+      "text": "The difference is not noise level.",
+      "startMs": 22199.0,
+      "endMs": 24103.0,
+      "charStart": 335,
+      "charEnd": 369
+    },
+    {
+      "id": "s0007",
+      "text": "It is not whether you are liked.",
+      "startMs": 24219.0,
+      "endMs": 26077.0,
+      "charStart": 370,
+      "charEnd": 402
+    },
+    {
+      "id": "s0008",
+      "text": "It is whether another person's inner life has become real to you—and whether yours has become real to them.",
+      "startMs": 26170.0,
+      "endMs": 32184.0,
+      "charStart": 403,
+      "charEnd": 510
+    },
+    {
+      "id": "s0009",
+      "text": "That is connection, or something close enough that most of us recognize it immediately: not merely being in the same room, but being in the same life, a little.",
+      "startMs": 32880.0,
+      "endMs": 43178.0,
+      "charStart": 512,
+      "charEnd": 672
+    },
+    {
+      "id": "s0010",
+      "text": "When someone becomes real",
+      "startMs": 43875.0,
+      "endMs": 45465.0,
+      "charStart": 674,
+      "charEnd": 699
+    },
+    {
+      "id": "s0011",
+      "text": "Connection often begins when a person stops being a category and becomes a particular someone—the coworker who is afraid of losing her mother, the teacher who notices a student is not lazy but afraid, the neighbor whose marriage is quieter than it used to be, the child who is brave in public and frightened in the dark.",
+      "startMs": 46069.0,
+      "endMs": 66630.0,
+      "charStart": 701,
+      "charEnd": 1021
+    },
+    {
+      "id": "s0012",
+      "text": "You do not always notice the moment it happens.",
+      "startMs": 67443.0,
+      "endMs": 70020.0,
+      "charStart": 1023,
+      "charEnd": 1070
+    },
+    {
+      "id": "s0013",
+      "text": "Sometimes it arrives slowly—through years of small answers and repeated Tuesdays until you know the baseline by heart.",
+      "startMs": 70264.0,
+      "endMs": 77659.0,
+      "charStart": 1071,
+      "charEnd": 1189
+    },
+    {
+      "id": "s0014",
+      "text": "Sometimes it arrives suddenly, in one conversation that changes the furniture of a relationship.",
+      "startMs": 78101.0,
+      "endMs": 84300.0,
+      "charStart": 1190,
+      "charEnd": 1286
+    },
+    {
+      "id": "s0015",
+      "text": "Either way, something shifts.",
+      "startMs": 84904.0,
+      "endMs": 87040.0,
+      "charStart": 1288,
+      "charEnd": 1317
+    },
+    {
+      "id": "s0016",
+      "text": "The person is no longer only present to you.",
+      "startMs": 87365.0,
+      "endMs": 90129.0,
+      "charStart": 1319,
+      "charEnd": 1363
+    },
+    {
+      "id": "s0017",
+      "text": "Their inner life has entered yours.",
+      "startMs": 90512.0,
+      "endMs": 92834.0,
+      "charStart": 1364,
+      "charEnd": 1399
+    },
+    {
+      "id": "s0018",
+      "text": "We spent a chapter on seeing—what it looks like when someone grasps what you are actually experiencing.",
+      "startMs": 93437.0,
+      "endMs": 99869.0,
+      "charStart": 1401,
+      "charEnd": 1504
+    },
+    {
+      "id": "s0019",
+      "text": "Connection is related, but it is not the same thing.",
+      "startMs": 100148.0,
+      "endMs": 103619.0,
+      "charStart": 1505,
+      "charEnd": 1557
+    },
+    {
+      "id": "s0020",
+      "text": "You can be seen once without becoming connected.",
+      "startMs": 103944.0,
+      "endMs": 106742.0,
+      "charStart": 1558,
+      "charEnd": 1606
+    },
+    {
+      "id": "s0021",
+      "text": "You can know someone's story without their inner life taking root inside yours in a way that lasts.",
+      "startMs": 106986.0,
+      "endMs": 113290.0,
+      "charStart": 1607,
+      "charEnd": 1706
+    },
+    {
+      "id": "s0022",
+      "text": "Looking is not the same as living alongside.",
+      "startMs": 114405.0,
+      "endMs": 117063.0,
+      "charStart": 1708,
+      "charEnd": 1752
+    },
+    {
+      "id": "s0023",
+      "text": "You can look at a person the way you look at a headline—briefly, sympathetically, and then move on.",
+      "startMs": 117214.0,
+      "endMs": 123124.0,
+      "charStart": 1754,
+      "charEnd": 1853
+    },
+    {
+      "id": "s0024",
+      "text": "Connection is what happens when the headline becomes a life you return to.",
+      "startMs": 123565.0,
+      "endMs": 127675.0,
+      "charStart": 1854,
+      "charEnd": 1928
+    },
+    {
+      "id": "s0025",
+      "text": "What connection feels like",
+      "startMs": 128279.0,
+      "endMs": 130102.0,
+      "charStart": 1930,
+      "charEnd": 1956
+    },
+    {
+      "id": "s0026",
+      "text": "Connection has a particular relief in it.",
+      "startMs": 131402.0,
+      "endMs": 133898.0,
+      "charStart": 1958,
+      "charEnd": 1999
+    },
+    {
+      "id": "s0027",
+      "text": "You are less alone inside your own experience.",
+      "startMs": 134339.0,
+      "endMs": 136963.0,
+      "charStart": 2001,
+      "charEnd": 2047
+    },
+    {
+      "id": "s0028",
+      "text": "Not because the other person has fixed anything.",
+      "startMs": 137242.0,
+      "endMs": 139715.0,
+      "charStart": 2048,
+      "charEnd": 2096
+    },
+    {
+      "id": "s0029",
+      "text": "Because they have entered the room of your life and stayed long enough to matter there.",
+      "startMs": 140040.0,
+      "endMs": 144567.0,
+      "charStart": 2097,
+      "charEnd": 2184
+    },
+    {
+      "id": "s0030",
+      "text": "There is a difference between a pleasant acquaintance and a person whose name on your phone changes your posture.",
+      "startMs": 145264.0,
+      "endMs": 150987.0,
+      "charStart": 2186,
+      "charEnd": 2299
+    },
+    {
+      "id": "s0031",
+      "text": "Between someone who asks how you are and someone who waits for the true answer.",
+      "startMs": 151591.0,
+      "endMs": 156015.0,
+      "charStart": 2300,
+      "charEnd": 2379
+    },
+    {
+      "id": "s0032",
+      "text": "Between being included and being known.",
+      "startMs": 156525.0,
+      "endMs": 159102.0,
+      "charStart": 2380,
+      "charEnd": 2419
+    },
+    {
+      "id": "s0033",
+      "text": "Loneliness is not always solitude.",
+      "startMs": 160217.0,
+      "endMs": 162864.0,
+      "charStart": 2421,
+      "charEnd": 2455
+    },
+    {
+      "id": "s0034",
+      "text": "Often it is the ache of being surrounded by people who do not quite have access to your inner life—and of sensing that you do not quite have access to theirs.",
+      "startMs": 163468.0,
+      "endMs": 173023.0,
+      "charStart": 2456,
+      "charEnd": 2614
+    },
+    {
+      "id": "s0035",
+      "text": "Connection can exist long before reciprocity is equal.",
+      "startMs": 173975.0,
+      "endMs": 177876.0,
+      "charStart": 2616,
+      "charEnd": 2670
+    },
+    {
+      "id": "s0036",
+      "text": "A parent and an infant.",
+      "startMs": 178480.0,
+      "endMs": 180581.0,
+      "charStart": 2671,
+      "charEnd": 2694
+    },
+    {
+      "id": "s0037",
+      "text": "A partner caring for someone whose dementia has altered what return is possible—who may not recognize them today and still receives the mug set out every morning, the same mug, the same place, a ritual love keeps performing when memory cannot answer back.",
+      "startMs": 181092.0,
+      "endMs": 196998.0,
+      "charStart": 2695,
+      "charEnd": 2950
+    },
+    {
+      "id": "s0038",
+      "text": "A friendship that is not fully returned and is nonetheless real on one side.",
+      "startMs": 197602.0,
+      "endMs": 202164.0,
+      "charStart": 2951,
+      "charEnd": 3027
+    },
+    {
+      "id": "s0039",
+      "text": "Often, connection deepens as access becomes mutual—but it does not always begin there.",
+      "startMs": 202675.0,
+      "endMs": 208550.0,
+      "charStart": 3028,
+      "charEnd": 3114
+    },
+    {
+      "id": "s0040",
+      "text": "When someone's joy improves your day; when someone's trouble sits down at your table; when you begin carrying one another without noticing you have started; when silence between you is not empty; when you do not have to begin from zero every time.",
+      "startMs": 209153.0,
+      "endMs": 224815.0,
+      "charStart": 3116,
+      "charEnd": 3363
+    },
+    {
+      "id": "s0041",
+      "text": "When connection is not enough",
+      "startMs": 225256.0,
+      "endMs": 226986.0,
+      "charStart": 3365,
+      "charEnd": 3394
+    },
+    {
+      "id": "s0042",
+      "text": "You can feel connected to someone and still fail them—still choose yourself every time it costs you something, mistake intensity for depth, leave essential things unspoken or unrepaired.",
+      "startMs": 227497.0,
+      "endMs": 240024.0,
+      "charStart": 3396,
+      "charEnd": 3582
+    },
+    {
+      "id": "s0043",
+      "text": "Connection is not a guarantee, and it is not, by itself, love.",
+      "startMs": 240837.0,
+      "endMs": 245794.0,
+      "charStart": 3583,
+      "charEnd": 3645
+    },
+    {
+      "id": "s0044",
+      "text": "Connection is what allows those answers to become more than isolated acts.",
+      "startMs": 246398.0,
+      "endMs": 251054.0,
+      "charStart": 3647,
+      "charEnd": 3721
+    },
+    {
+      "id": "s0045",
+      "text": "You can be deeply connected and still need trust—the kind of bond that can survive truth, absence, repair, and time without constantly starting over.",
+      "startMs": 251495.0,
+      "endMs": 262013.0,
+      "charStart": 3722,
+      "charEnd": 3871
+    },
+    {
+      "id": "s0046",
+      "text": "Your phone lights up with their name.",
+      "startMs": 262524.0,
+      "endMs": 264532.0,
+      "charStart": 3873,
+      "charEnd": 3910
+    },
+    {
+      "id": "s0047",
+      "text": "You do not have to perform fine.",
+      "startMs": 264916.0,
+      "endMs": 266796.0,
+      "charStart": 3911,
+      "charEnd": 3943
+    },
+    {
+      "id": "s0048",
+      "text": "That is already something.",
+      "startMs": 266924.0,
+      "endMs": 268561.0,
+      "charStart": 3944,
+      "charEnd": 3970
+    }
+  ]
+}

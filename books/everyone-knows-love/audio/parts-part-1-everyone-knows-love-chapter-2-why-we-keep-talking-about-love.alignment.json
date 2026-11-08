@@ -1,0 +1,952 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-1-everyone-knows-love-chapter-2-why-we-keep-talking-about-love",
+  "generationHash": "sha256:4aca4f75dfb85f6a1795f5c49a08b8f81219a4210b52d681a109aa3175b26507",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Why We Keep Talking About Love",
+      "startMs": 0.0,
+      "endMs": 1799.0,
+      "charStart": 0,
+      "charEnd": 30
+    },
+    {
+      "id": "s0002",
+      "text": "If you want to know what humans think matters, look at what we keep making room for.",
+      "startMs": 2914.0,
+      "endMs": 7488.0,
+      "charStart": 32,
+      "charEnd": 116
+    },
+    {
+      "id": "s0003",
+      "text": "We make room for love everywhere.",
+      "startMs": 7929.0,
+      "endMs": 10065.0,
+      "charStart": 118,
+      "charEnd": 151
+    },
+    {
+      "id": "s0004",
+      "text": "Not in one era or one language, but across centuries and neighborhoods and streaming platforms and lullabies.",
+      "startMs": 10309.0,
+      "endMs": 16637.0,
+      "charStart": 153,
+      "charEnd": 262
+    },
+    {
+      "id": "s0005",
+      "text": "We write it into songs we sing badly in cars.",
+      "startMs": 16962.0,
+      "endMs": 20050.0,
+      "charStart": 263,
+      "charEnd": 308
+    },
+    {
+      "id": "s0006",
+      "text": "We put it into poems we memorize at seventeen and understand at forty.",
+      "startMs": 20294.0,
+      "endMs": 24763.0,
+      "charStart": 309,
+      "charEnd": 379
+    },
+    {
+      "id": "s0007",
+      "text": "We build novels around it, not because writers are sentimental, but because every life eventually collides with the question of what we owe each other when someone matters to us.",
+      "startMs": 25089.0,
+      "endMs": 35154.0,
+      "charStart": 380,
+      "charEnd": 558
+    },
+    {
+      "id": "s0008",
+      "text": "Children's stories are full of it even when they do not use the word.",
+      "startMs": 35479.0,
+      "endMs": 39497.0,
+      "charStart": 560,
+      "charEnd": 629
+    },
+    {
+      "id": "s0009",
+      "text": "The rabbit runs away and is followed.",
+      "startMs": 39706.0,
+      "endMs": 42202.0,
+      "charStart": 630,
+      "charEnd": 667
+    },
+    {
+      "id": "s0010",
+      "text": "The toy rabbit longs to become real through love.",
+      "startMs": 42643.0,
+      "endMs": 46149.0,
+      "charStart": 668,
+      "charEnd": 717
+    },
+    {
+      "id": "s0011",
+      "text": "Wilbur is saved because a spider refuses to give up on him.",
+      "startMs": 46846.0,
+      "endMs": 50596.0,
+      "charStart": 718,
+      "charEnd": 777
+    },
+    {
+      "id": "s0012",
+      "text": "Love appears as devotion, patience, trouble, loyalty, and the quiet insistence that no one should be left alone in the hard part.",
+      "startMs": 51107.0,
+      "endMs": 60313.0,
+      "charStart": 778,
+      "charEnd": 907
+    },
+    {
+      "id": "s0013",
+      "text": "Religious traditions keep returning to it too.",
+      "startMs": 60824.0,
+      "endMs": 63692.0,
+      "charStart": 909,
+      "charEnd": 955
+    },
+    {
+      "id": "s0014",
+      "text": "In some places love is command.",
+      "startMs": 64017.0,
+      "endMs": 66722.0,
+      "charStart": 956,
+      "charEnd": 987
+    },
+    {
+      "id": "s0015",
+      "text": "In some it is gift.",
+      "startMs": 66931.0,
+      "endMs": 68522.0,
+      "charStart": 988,
+      "charEnd": 1007
+    },
+    {
+      "id": "s0016",
+      "text": "In others it is the shape of a life turned toward what is larger than itself.",
+      "startMs": 68766.0,
+      "endMs": 73235.0,
+      "charStart": 1008,
+      "charEnd": 1085
+    },
+    {
+      "id": "s0017",
+      "text": "Different language, same pressure point: human beings trying to name why another person's life should matter inside our own.",
+      "startMs": 73514.0,
+      "endMs": 81211.0,
+      "charStart": 1086,
+      "charEnd": 1210
+    },
+    {
+      "id": "s0018",
+      "text": "Popular culture does not stop either.",
+      "startMs": 81652.0,
+      "endMs": 83939.0,
+      "charStart": 1212,
+      "charEnd": 1249
+    },
+    {
+      "id": "s0019",
+      "text": "The sprint through the airport because some stories insist love arrives before the gate closes.",
+      "startMs": 84183.0,
+      "endMs": 89327.0,
+      "charStart": 1250,
+      "charEnd": 1345
+    },
+    {
+      "id": "s0020",
+      "text": "The speech made in the rain because pride has finally run out of excuses.",
+      "startMs": 89710.0,
+      "endMs": 93878.0,
+      "charStart": 1346,
+      "charEnd": 1419
+    },
+    {
+      "id": "s0021",
+      "text": "The hand through the taxi window when the story could still turn toward yes.",
+      "startMs": 94203.0,
+      "endMs": 98719.0,
+      "charStart": 1420,
+      "charEnd": 1496
+    },
+    {
+      "id": "s0022",
+      "text": "The last perfect sentence spoken just as the music swells and the credits begin.",
+      "startMs": 99044.0,
+      "endMs": 104129.0,
+      "charStart": 1497,
+      "charEnd": 1577
+    },
+    {
+      "id": "s0023",
+      "text": "We roll our eyes.",
+      "startMs": 104408.0,
+      "endMs": 105673.0,
+      "charStart": 1578,
+      "charEnd": 1595
+    },
+    {
+      "id": "s0024",
+      "text": "We quote the lines anyway.",
+      "startMs": 105848.0,
+      "endMs": 107392.0,
+      "charStart": 1596,
+      "charEnd": 1622
+    },
+    {
+      "id": "s0025",
+      "text": "Sometimes we laugh at how unrealistic it is.",
+      "startMs": 107601.0,
+      "endMs": 110236.0,
+      "charStart": 1623,
+      "charEnd": 1667
+    },
+    {
+      "id": "s0026",
+      "text": "Sometimes, against our will, we cry.",
+      "startMs": 110410.0,
+      "endMs": 113672.0,
+      "charStart": 1668,
+      "charEnd": 1704
+    },
+    {
+      "id": "s0027",
+      "text": "That is part of the evidence.",
+      "startMs": 114183.0,
+      "endMs": 115855.0,
+      "charStart": 1706,
+      "charEnd": 1735
+    },
+    {
+      "id": "s0028",
+      "text": "If love were a niche feeling, we would not keep rebuilding it in every medium we have.",
+      "startMs": 116180.0,
+      "endMs": 121091.0,
+      "charStart": 1737,
+      "charEnd": 1823
+    },
+    {
+      "id": "s0029",
+      "text": "The archive is crowded for a reason",
+      "startMs": 121602.0,
+      "endMs": 124063.0,
+      "charStart": 1825,
+      "charEnd": 1860
+    },
+    {
+      "id": "s0030",
+      "text": "Our cultural archive for love is massive.",
+      "startMs": 124876.0,
+      "endMs": 127500.0,
+      "charStart": 1862,
+      "charEnd": 1903
+    },
+    {
+      "id": "s0031",
+      "text": "Songs, stories, scriptures, films, proverbs, weddings, funerals, advice from people who have been married sixty years, advice from people who never wanted to marry at all, notes left on kitchen counters, texts sent at 2:13 a.m., letters found in old boxes, voice mails kept long after the person who left them is gone.",
+      "startMs": 127825.0,
+      "endMs": 149976.0,
+      "charStart": 1904,
+      "charEnd": 2222
+    },
+    {
+      "id": "s0032",
+      "text": "No central committee planned this archive.",
+      "startMs": 150418.0,
+      "endMs": 152786.0,
+      "charStart": 2224,
+      "charEnd": 2266
+    },
+    {
+      "id": "s0033",
+      "text": "No one agreed on definitions first.",
+      "startMs": 153030.0,
+      "endMs": 155166.0,
+      "charStart": 2267,
+      "charEnd": 2302
+    },
+    {
+      "id": "s0034",
+      "text": "Humanity just kept recording.",
+      "startMs": 155340.0,
+      "endMs": 157372.0,
+      "charStart": 2303,
+      "charEnd": 2332
+    },
+    {
+      "id": "s0035",
+      "text": "And we did not only record triumph.",
+      "startMs": 157883.0,
+      "endMs": 160042.0,
+      "charStart": 2334,
+      "charEnd": 2369
+    },
+    {
+      "id": "s0036",
+      "text": "We recorded confusion, betrayal, obsession, reconciliation, longing, tenderness, jealousy, steadiness, silence, relief.",
+      "startMs": 160216.0,
+      "endMs": 170747.0,
+      "charStart": 2370,
+      "charEnd": 2489
+    },
+    {
+      "id": "s0037",
+      "text": "We preserved beginnings and endings and those long middle stretches where nothing cinematic happens and the question becomes whether anyone will still show up on Tuesday.",
+      "startMs": 171351.0,
+      "endMs": 181335.0,
+      "charStart": 2490,
+      "charEnd": 2660
+    },
+    {
+      "id": "s0038",
+      "text": "That Tuesday question might be the most revealing one.",
+      "startMs": 182148.0,
+      "endMs": 185642.0,
+      "charStart": 2662,
+      "charEnd": 2716
+    },
+    {
+      "id": "s0039",
+      "text": "In movies, love resolves at the climax.",
+      "startMs": 186246.0,
+      "endMs": 189358.0,
+      "charStart": 2718,
+      "charEnd": 2757
+    },
+    {
+      "id": "s0040",
+      "text": "In life, love is mostly maintenance: rides, reminders, waiting rooms, apologies, groceries, renegotiating chores, listening when you are already tired, saying \"I know\" when someone tells you the same fear again because it is still true.",
+      "startMs": 189567.0,
+      "endMs": 205216.0,
+      "charStart": 2758,
+      "charEnd": 2994
+    },
+    {
+      "id": "s0041",
+      "text": "You cannot build an entire entertainment industry around folding laundry, but real relationships cannot survive without it.",
+      "startMs": 205542.0,
+      "endMs": 212647.0,
+      "charStart": 2996,
+      "charEnd": 3119
+    },
+    {
+      "id": "s0042",
+      "text": "So art exaggerates, compresses, and stylizes.",
+      "startMs": 212926.0,
+      "endMs": 217198.0,
+      "charStart": 3121,
+      "charEnd": 3166
+    },
+    {
+      "id": "s0043",
+      "text": "It has to.",
+      "startMs": 217372.0,
+      "endMs": 218196.0,
+      "charStart": 3167,
+      "charEnd": 3177
+    },
+    {
+      "id": "s0044",
+      "text": "But even exaggeration reveals desire.",
+      "startMs": 218637.0,
+      "endMs": 221296.0,
+      "charStart": 3178,
+      "charEnd": 3215
+    },
+    {
+      "id": "s0045",
+      "text": "Our stories are dramatic because we are trying to get at something that feels large and hard to hold still.",
+      "startMs": 221737.0,
+      "endMs": 227403.0,
+      "charStart": 3216,
+      "charEnd": 3323
+    },
+    {
+      "id": "s0046",
+      "text": "Why we repeat ourselves",
+      "startMs": 227914.0,
+      "endMs": 229423.0,
+      "charStart": 3325,
+      "charEnd": 3348
+    },
+    {
+      "id": "s0047",
+      "text": "There is another reason we keep returning to love: every generation inherits old language and finds it insufficient.",
+      "startMs": 229934.0,
+      "endMs": 237144.0,
+      "charStart": 3350,
+      "charEnd": 3466
+    },
+    {
+      "id": "s0048",
+      "text": "The words survive.",
+      "startMs": 237353.0,
+      "endMs": 238572.0,
+      "charStart": 3468,
+      "charEnd": 3486
+    },
+    {
+      "id": "s0049",
+      "text": "The social world changes.",
+      "startMs": 238746.0,
+      "endMs": 240371.0,
+      "charStart": 3487,
+      "charEnd": 3512
+    },
+    {
+      "id": "s0050",
+      "text": "People live longer than they used to.",
+      "startMs": 240522.0,
+      "endMs": 242449.0,
+      "charStart": 3514,
+      "charEnd": 3551
+    },
+    {
+      "id": "s0051",
+      "text": "Families form differently.",
+      "startMs": 242658.0,
+      "endMs": 244191.0,
+      "charStart": 3552,
+      "charEnd": 3578
+    },
+    {
+      "id": "s0052",
+      "text": "Gender roles shift.",
+      "startMs": 244365.0,
+      "endMs": 245770.0,
+      "charStart": 3579,
+      "charEnd": 3598
+    },
+    {
+      "id": "s0053",
+      "text": "Migration scatters kin.",
+      "startMs": 245944.0,
+      "endMs": 247546.0,
+      "charStart": 3599,
+      "charEnd": 3622
+    },
+    {
+      "id": "s0054",
+      "text": "Work reorganizes time.",
+      "startMs": 247720.0,
+      "endMs": 249601.0,
+      "charStart": 3623,
+      "charEnd": 3645
+    },
+    {
+      "id": "s0055",
+      "text": "Technology lets us stay in contact and disappear at the same moment.",
+      "startMs": 249775.0,
+      "endMs": 253897.0,
+      "charStart": 3646,
+      "charEnd": 3714
+    },
+    {
+      "id": "s0056",
+      "text": "The same old sentence—\"I love you\"—has to do new work in each era.",
+      "startMs": 254280.0,
+      "endMs": 258971.0,
+      "charStart": 3715,
+      "charEnd": 3781
+    },
+    {
+      "id": "s0057",
+      "text": "So we write new songs with old chords.",
+      "startMs": 259296.0,
+      "endMs": 261896.0,
+      "charStart": 3783,
+      "charEnd": 3821
+    },
+    {
+      "id": "s0058",
+      "text": "We publish fresh advice that sounds suspiciously like your grandmother with better formatting.",
+      "startMs": 262140.0,
+      "endMs": 266993.0,
+      "charStart": 3822,
+      "charEnd": 3916
+    },
+    {
+      "id": "s0059",
+      "text": "We stage new dramas around familiar dilemmas: stay or leave, forgive or protect yourself, tell the truth or keep the peace, hold on or let go.",
+      "startMs": 267318.0,
+      "endMs": 276362.0,
+      "charStart": 3917,
+      "charEnd": 4059
+    },
+    {
+      "id": "s0060",
+      "text": "Repetition is not failure.",
+      "startMs": 277663.0,
+      "endMs": 279578.0,
+      "charStart": 4061,
+      "charEnd": 4087
+    },
+    {
+      "id": "s0061",
+      "text": "Repetition is what people do when a question keeps mattering.",
+      "startMs": 279903.0,
+      "endMs": 283212.0,
+      "charStart": 4088,
+      "charEnd": 4149
+    },
+    {
+      "id": "s0062",
+      "text": "We do the same thing with grief, justice, God, freedom, home.",
+      "startMs": 283537.0,
+      "endMs": 288646.0,
+      "charStart": 4151,
+      "charEnd": 4212
+    },
+    {
+      "id": "s0063",
+      "text": "We return because we have not exhausted the subject and because the subject has not exhausted us.",
+      "startMs": 289157.0,
+      "endMs": 294358.0,
+      "charStart": 4213,
+      "charEnd": 4310
+    },
+    {
+      "id": "s0064",
+      "text": "New vessels, same question",
+      "startMs": 294799.0,
+      "endMs": 297005.0,
+      "charStart": 4312,
+      "charEnd": 4338
+    },
+    {
+      "id": "s0065",
+      "text": "But we do not only repeat ourselves.",
+      "startMs": 297702.0,
+      "endMs": 299699.0,
+      "charStart": 4340,
+      "charEnd": 4376
+    },
+    {
+      "id": "s0066",
+      "text": "We keep inventing new ways to talk about love.",
+      "startMs": 300082.0,
+      "endMs": 303031.0,
+      "charStart": 4377,
+      "charEnd": 4423
+    },
+    {
+      "id": "s0067",
+      "text": "Songs.",
+      "startMs": 303356.0,
+      "endMs": 304134.0,
+      "charStart": 4425,
+      "charEnd": 4431
+    },
+    {
+      "id": "s0068",
+      "text": "Epic poems.",
+      "startMs": 304413.0,
+      "endMs": 305620.0,
+      "charStart": 4432,
+      "charEnd": 4443
+    },
+    {
+      "id": "s0069",
+      "text": "Letters.",
+      "startMs": 305794.0,
+      "endMs": 306549.0,
+      "charStart": 4444,
+      "charEnd": 4452
+    },
+    {
+      "id": "s0070",
+      "text": "Novels.",
+      "startMs": 306758.0,
+      "endMs": 307513.0,
+      "charStart": 4453,
+      "charEnd": 4460
+    },
+    {
+      "id": "s0071",
+      "text": "Film.",
+      "startMs": 307722.0,
+      "endMs": 308349.0,
+      "charStart": 4461,
+      "charEnd": 4466
+    },
+    {
+      "id": "s0072",
+      "text": "Television.",
+      "startMs": 308557.0,
+      "endMs": 309324.0,
+      "charStart": 4467,
+      "charEnd": 4478
+    },
+    {
+      "id": "s0073",
+      "text": "Text messages.",
+      "startMs": 309533.0,
+      "endMs": 310659.0,
+      "charStart": 4479,
+      "charEnd": 4493
+    },
+    {
+      "id": "s0074",
+      "text": "Memes.",
+      "startMs": 310868.0,
+      "endMs": 311634.0,
+      "charStart": 4494,
+      "charEnd": 4500
+    },
+    {
+      "id": "s0075",
+      "text": "Short videos passed between strangers who will never meet.",
+      "startMs": 311878.0,
+      "endMs": 315245.0,
+      "charStart": 4501,
+      "charEnd": 4559
+    },
+    {
+      "id": "s0076",
+      "text": "Every new form of communication becomes another vessel for the same question.",
+      "startMs": 315849.0,
+      "endMs": 320609.0,
+      "charStart": 4561,
+      "charEnd": 4638
+    },
+    {
+      "id": "s0077",
+      "text": "Humans do not merely preserve love in what we already have.",
+      "startMs": 321119.0,
+      "endMs": 324904.0,
+      "charStart": 4639,
+      "charEnd": 4698
+    },
+    {
+      "id": "s0078",
+      "text": "We reinvent the language for it, generation after generation, as if the old containers were never quite large enough.",
+      "startMs": 325346.0,
+      "endMs": 332509.0,
+      "charStart": 4699,
+      "charEnd": 4816
+    },
+    {
+      "id": "s0079",
+      "text": "That is astonishing if you stop to notice it.",
+      "startMs": 333113.0,
+      "endMs": 335713.0,
+      "charStart": 4818,
+      "charEnd": 4863
+    },
+    {
+      "id": "s0080",
+      "text": "A technology arrives—print, radio, the screen in your pocket—and within a few years someone is using it to ask, again, what it means to matter to another person and to be mattered to in return.",
+      "startMs": 336224.0,
+      "endMs": 349634.0,
+      "charStart": 4864,
+      "charEnd": 5057
+    },
+    {
+      "id": "s0081",
+      "text": "Not agreement.",
+      "startMs": 349913.0,
+      "endMs": 351410.0,
+      "charStart": 5059,
+      "charEnd": 5073
+    },
+    {
+      "id": "s0082",
+      "text": "Persistence.",
+      "startMs": 351735.0,
+      "endMs": 352862.0,
+      "charStart": 5074,
+      "charEnd": 5086
+    },
+    {
+      "id": "s0083",
+      "text": "If all this attention had produced one final explanation, we would have moved on by now.",
+      "startMs": 353465.0,
+      "endMs": 359247.0,
+      "charStart": 5088,
+      "charEnd": 5176
+    },
+    {
+      "id": "s0084",
+      "text": "We have not moved on—and that should tell us something.",
+      "startMs": 359688.0,
+      "endMs": 363368.0,
+      "charStart": 5177,
+      "charEnd": 5232
+    },
+    {
+      "id": "s0085",
+      "text": "The abundance of language around love is not proof that we solved it.",
+      "startMs": 363693.0,
+      "endMs": 367560.0,
+      "charStart": 5234,
+      "charEnd": 5303
+    },
+    {
+      "id": "s0086",
+      "text": "It is proof that we cannot stop paying attention.",
+      "startMs": 368001.0,
+      "endMs": 371031.0,
+      "charStart": 5304,
+      "charEnd": 5353
+    },
+    {
+      "id": "s0087",
+      "text": "Songs catch immediacy.",
+      "startMs": 371414.0,
+      "endMs": 373492.0,
+      "charStart": 5354,
+      "charEnd": 5376
+    },
+    {
+      "id": "s0088",
+      "text": "Novels catch interior life.",
+      "startMs": 373817.0,
+      "endMs": 376186.0,
+      "charStart": 5377,
+      "charEnd": 5404
+    },
+    {
+      "id": "s0089",
+      "text": "Films catch gesture and timing.",
+      "startMs": 376430.0,
+      "endMs": 378879.0,
+      "charStart": 5405,
+      "charEnd": 5436
+    },
+    {
+      "id": "s0090",
+      "text": "Religion catches obligation and transcendence.",
+      "startMs": 379054.0,
+      "endMs": 382397.0,
+      "charStart": 5437,
+      "charEnd": 5483
+    },
+    {
+      "id": "s0091",
+      "text": "Each tradition notices a different angle.",
+      "startMs": 382606.0,
+      "endMs": 385033.0,
+      "charStart": 5484,
+      "charEnd": 5525
+    },
+    {
+      "id": "s0092",
+      "text": "None of them gives us the whole.",
+      "startMs": 385207.0,
+      "endMs": 387064.0,
+      "charStart": 5526,
+      "charEnd": 5558
+    },
+    {
+      "id": "s0093",
+      "text": "Together they show the scale of the thing.",
+      "startMs": 387215.0,
+      "endMs": 389781.0,
+      "charStart": 5559,
+      "charEnd": 5601
+    },
+    {
+      "id": "s0094",
+      "text": "And still, we can talk all night about love and wake up unsure whether we said anything that would help a teenager at breakfast.",
+      "startMs": 389955.0,
+      "endMs": 397304.0,
+      "charStart": 5603,
+      "charEnd": 5731
+    },
+    {
+      "id": "s0095",
+      "text": "That is not a contradiction—it is the condition.",
+      "startMs": 397630.0,
+      "endMs": 400590.0,
+      "charStart": 5732,
+      "charEnd": 5780
+    },
+    {
+      "id": "s0096",
+      "text": "We keep returning because we recognize something real, and because reality this large does not fit in one frame.",
+      "startMs": 401031.0,
+      "endMs": 408183.0,
+      "charStart": 5781,
+      "charEnd": 5893
+    },
+    {
+      "id": "s0097",
+      "text": "What everyone has been looking at",
+      "startMs": 408357.0,
+      "endMs": 410052.0,
+      "charStart": 5895,
+      "charEnd": 5928
+    },
+    {
+      "id": "s0098",
+      "text": "We do not need to decide whether a poem understands love better than a laboratory, or whether a grandmother sees more clearly than a philosopher.",
+      "startMs": 411004.0,
+      "endMs": 418852.0,
+      "charStart": 5930,
+      "charEnd": 6075
+    },
+    {
+      "id": "s0099",
+      "text": "We only need to notice that they have all been looking.",
+      "startMs": 419177.0,
+      "endMs": 422242.0,
+      "charStart": 6077,
+      "charEnd": 6132
+    },
+    {
+      "id": "s0100",
+      "text": "For thousands of years, people have been paying attention to love in remarkably different ways—no one organized the effort, no one agreed on the rules.",
+      "startMs": 422625.0,
+      "endMs": 431217.0,
+      "charStart": 6134,
+      "charEnd": 6285
+    },
+    {
+      "id": "s0101",
+      "text": "Songs carry observations.",
+      "startMs": 431368.0,
+      "endMs": 433666.0,
+      "charStart": 6286,
+      "charEnd": 6311
+    },
+    {
+      "id": "s0102",
+      "text": "Stories carry observations.",
+      "startMs": 433841.0,
+      "endMs": 435907.0,
+      "charStart": 6312,
+      "charEnd": 6339
+    },
+    {
+      "id": "s0103",
+      "text": "Rituals carry observations.",
+      "startMs": 436116.0,
+      "endMs": 438264.0,
+      "charStart": 6340,
+      "charEnd": 6367
+    },
+    {
+      "id": "s0104",
+      "text": "Even arguments carry observations.",
+      "startMs": 438438.0,
+      "endMs": 441166.0,
+      "charStart": 6368,
+      "charEnd": 6402
+    },
+    {
+      "id": "s0105",
+      "text": "Imperfect ones—but observations nonetheless.",
+      "startMs": 441549.0,
+      "endMs": 445079.0,
+      "charStart": 6403,
+      "charEnd": 6447
+    },
+    {
+      "id": "s0106",
+      "text": "A parent who stayed up with a sick child has data.",
+      "startMs": 445682.0,
+      "endMs": 448689.0,
+      "charStart": 6449,
+      "charEnd": 6499
+    },
+    {
+      "id": "s0107",
+      "text": "So does the divorce lawyer who has watched love unravel for thirty years.",
+      "startMs": 449073.0,
+      "endMs": 453426.0,
+      "charStart": 6500,
+      "charEnd": 6573
+    },
+    {
+      "id": "s0108",
+      "text": "The hospice nurse has seen something different; the kindergarten teacher has too.",
+      "startMs": 453867.0,
+      "endMs": 458488.0,
+      "charStart": 6574,
+      "charEnd": 6655
+    },
+    {
+      "id": "s0109",
+      "text": "The teenager writing terrible poetry at midnight is paying attention in a language adults sometimes forget.",
+      "startMs": 458813.0,
+      "endMs": 464676.0,
+      "charStart": 6656,
+      "charEnd": 6763
+    },
+    {
+      "id": "s0110",
+      "text": "The widow eating alone for the first time knows something the rest of us hope to postpone.",
+      "startMs": 465001.0,
+      "endMs": 469552.0,
+      "charStart": 6764,
+      "charEnd": 6854
+    },
+    {
+      "id": "s0111",
+      "text": "A widower watering the same plant every Tuesday because his wife loved it is remembering in slow motion.",
+      "startMs": 469877.0,
+      "endMs": 476054.0,
+      "charStart": 6855,
+      "charEnd": 6959
+    },
+    {
+      "id": "s0112",
+      "text": "What humanity has preserved is not clean.",
+      "startMs": 476298.0,
+      "endMs": 478805.0,
+      "charStart": 6961,
+      "charEnd": 7002
+    },
+    {
+      "id": "s0113",
+      "text": "It includes manipulation, sentimentality, and clichés.",
+      "startMs": 478980.0,
+      "endMs": 482962.0,
+      "charStart": 7003,
+      "charEnd": 7057
+    },
+    {
+      "id": "s0114",
+      "text": "It also includes moments of piercing accuracy that make you put the book down for a minute because someone you never met has just described your life.",
+      "startMs": 483171.0,
+      "endMs": 491646.0,
+      "charStart": 7058,
+      "charEnd": 7208
+    },
+    {
+      "id": "s0115",
+      "text": "Read and listen with gratitude and caution at the same time—gratitude because this many people paid attention, caution because no single voice gets the final word.",
+      "startMs": 491971.0,
+      "endMs": 503244.0,
+      "charStart": 7210,
+      "charEnd": 7373
+    },
+    {
+      "id": "s0116",
+      "text": "Somewhere a teenager is still writing terrible poetry at midnight.",
+      "startMs": 503628.0,
+      "endMs": 507691.0,
+      "charStart": 7375,
+      "charEnd": 7441
+    },
+    {
+      "id": "s0117",
+      "text": "A widower is still watering the plant.",
+      "startMs": 508016.0,
+      "endMs": 510234.0,
+      "charStart": 7442,
+      "charEnd": 7480
+    },
+    {
+      "id": "s0118",
+      "text": "The conversation has not finished.",
+      "startMs": 510617.0,
+      "endMs": 512556.0,
+      "charStart": 7481,
+      "charEnd": 7515
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-2-how-love-moves-bridge",
+  "generationHash": "sha256:dd4f000c9927f8660f706d1e488ae114b6ef321678180a225f575528105c2f3f",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Part II — How Love Moves",
+      "startMs": 0.0,
+      "endMs": 2624.0,
+      "charStart": 0,
+      "charEnd": 24
+    },
+    {
+      "id": "s0002",
+      "text": "Love does not sit still in a life—it moves through attention, through generosity, through remaining, through return.",
+      "startMs": 3576.0,
+      "endMs": 10554.0,
+      "charStart": 26,
+      "charEnd": 142
+    },
+    {
+      "id": "s0003",
+      "text": "The first movement may be simply this: someone seeing another person.",
+      "startMs": 11250.0,
+      "endMs": 15140.0,
+      "charStart": 143,
+      "charEnd": 212
+    }
+  ]
+}
