@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-2-how-love-moves-chapter-5-giving",
+  "editionSlug": "everyone-knows-love",
+  "chapterSlug": "parts-part-2-how-love-moves-chapter-5-giving",
+  "sourcePath": "parts/part-2-how-love-moves/chapter-5-giving.md",
+  "sourceHash": "sha256:e906f5355b4e915e90b6401258a70b8b9fba48af5e6f2439c9ad56ac1945e07c",
+  "spokenTextHash": "sha256:938f4ed9c16282984107c072772a80e830c0ebfe620714074fa67d10e04268b0",
+  "generationHash": "sha256:33e061f986cd4c0add51fcab068c11c5592c8efce96bb91b6ef9846e6c7f851b",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 6026,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 1506.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 1506.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/everyone-knows-love/audio/parts-part-2-how-love-moves-chapter-5-giving.alignment.json"
+  },
+  "audioPath": "books/everyone-knows-love/audio/parts-part-2-how-love-moves-chapter-5-giving.mp3",
+  "audioSha256": "sha256:d41ea5e7898d635ea34e76ac7464e3da6a8ed45c95b011bf784236324898d5d0",
+  "generatedAt": "2026-11-08T15:30:11Z"
+}

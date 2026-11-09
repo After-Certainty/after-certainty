@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-1-everyone-knows-love-bridge",
+  "generationHash": "sha256:bbcdc5e0b6a6cbf3b88e6328190cdd2ddf9d5b8e358fe36203ac4672488608b4",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Part I — Everyone Knows Love",
+      "startMs": 0.0,
+      "endMs": 2821.0,
+      "charStart": 0,
+      "charEnd": 28
+    },
+    {
+      "id": "s0002",
+      "text": "The question arrives without warning.",
+      "startMs": 3936.0,
+      "endMs": 5747.0,
+      "charStart": 30,
+      "charEnd": 67
+    },
+    {
+      "id": "s0003",
+      "text": "A child at breakfast.",
+      "startMs": 6072.0,
+      "endMs": 7373.0,
+      "charStart": 69,
+      "charEnd": 90
+    },
+    {
+      "id": "s0004",
+      "text": "A friend before a wedding.",
+      "startMs": 7489.0,
+      "endMs": 8928.0,
+      "charStart": 91,
+      "charEnd": 117
+    },
+    {
+      "id": "s0005",
+      "text": "Someone you love in a hospital hallway.",
+      "startMs": 9172.0,
+      "endMs": 11192.0,
+      "charStart": 118,
+      "charEnd": 157
+    },
+    {
+      "id": "s0006",
+      "text": "The moment is ordinary until it isn't.",
+      "startMs": 11471.0,
+      "endMs": 14048.0,
+      "charStart": 158,
+      "charEnd": 196
+    },
+    {
+      "id": "s0007",
+      "text": "You reach for an answer and discover that the words you have borrowed from songs, stories, and old conversations no longer seem quite large enough.",
+      "startMs": 14431.0,
+      "endMs": 22976.0,
+      "charStart": 197,
+      "charEnd": 344
+    },
+    {
+      "id": "s0008",
+      "text": "You may have been there.",
+      "startMs": 23360.0,
+      "endMs": 24578.0,
+      "charStart": 346,
+      "charEnd": 370
+    },
+    {
+      "id": "s0009",
+      "text": "That gap is where we begin—not with a definition or a theory, but with something almost everyone recognizes and almost nobody can explain.",
+      "startMs": 25275.0,
+      "endMs": 34656.0,
+      "charStart": 372,
+      "charEnd": 510
+    },
+    {
+      "id": "s0010",
+      "text": "Before we try to explain, we will learn to look.",
+      "startMs": 35166.0,
+      "endMs": 38173.0,
+      "charStart": 511,
+      "charEnd": 559
+    }
+  ]
+}
