@@ -2,175 +2,60 @@
 
 ## **Authority Without an Expiration Date**
 
-The room is quiet.
+A person stands, raises a hand, and takes an oath. Before the ceremony, the person could offer an opinion about a dispute. Afterward, a decision made from the bench may carry the force of law.
 
-A person stands, raises their right hand, and recites a short oath. When
-they finish, something has changed. They have not proven judgment,
-wisdom, or restraint. They have not yet decided a case or earned public
-trust.
+Nothing in the few minutes between those moments has demonstrated wisdom or restraint. The new judge has not yet heard a case. The people whose lives will be affected may never have met them. Authority arrives first; the test of how it will be used comes later.
 
-And yet, they now possess authority.
+This is not necessarily a defect. A court cannot require everyone appearing before it to decide afresh whether the judge is qualified to hear the case. The office must be recognizable before the proceedings can begin. The oath represents an institutional arrangement on which strangers can rely, including strangers who disagree with the eventual ruling.
 
-From that moment forward, their decisions carry legal force. Their words
-bind others. Their role commands deference, even from people who know
-nothing about them.
+Now imagine a dispute brought into that courtroom. One party believes a deadline was applied unfairly; another has organized their affairs around the decision already made. The judge must decide under rules neither party invented. The losing party may have avenues to challenge the ruling. Even then, the question of whether *this decision* was correct differs from whether *this office* is entitled to keep deciding.
 
-This is not a failure of the system.\
-It is how authority works.
+The distance between those questions is where this book begins.
 
 ### **Authority that precedes evaluation**
 
-Some forms of authority are **earned**.\
-They grow over time through demonstrated competence, trust, or care.
+Some authority develops through trust. A colleague becomes the person others consult because years of shared work have given them reason to listen. Other authority is conferred through appointment, election, inheritance, or a recognized office.
 
-Others are **conferred**.
+Conferred authority solves a coordination problem. A community needs someone authorized to decide before it knows whether every decision will prove wise. In Weber's account, the grounds on which people recognize authority vary; an office can command obedience without the officeholder first earning personal loyalty.[^c1-weber-authority]
 
-In conferred authority, legitimacy does not follow performance. It comes
-first. Evaluation comes later—if it comes at all.
+But *authorized* and *justified in every exercise* are different claims. The first describes a position within a system. The second requires judgment about what the system and its officeholders actually do.
 
-Courts, churches, corporations, and states all rely on this structure to
-function. If every decision required re-earning legitimacy from scratch,
-collective action would be impossible. Authority must precede proof or
-systems stall.
+A functioning institution needs the first. It cannot simply assume the second.
 
-The question is not whether this arrangement is necessary.
+### **When correction leaves the office untouched**
 
-The question is what happens when **authority never returns to
-evaluation**.
+Return to the courtroom. A ruling might be reversed because it was legally mistaken. A judge might be disciplined for misconduct. In some jurisdictions, judges have fixed terms or face retention elections; in others, independence is protected through long tenure. These are not interchangeable arrangements, and some provide meaningful ways to limit or remove authority.
 
-### **The difference between authority and legitimacy**
+The distinction is not between institutions that have review procedures and institutions that have none. It concerns what those procedures can put at risk.
 
-It helps to distinguish two related but different ideas.
+An appeal can correct an outcome while leaving the court's underlying power to make similar decisions intact. A misconduct review can examine an officeholder without asking whether those affected have any effective way to challenge the institution's wider terms of authority. And sometimes that narrower scope is appropriate: judicial independence would be difficult to sustain if every unpopular ruling threatened the existence of the court.
 
-**Authority** is the capacity to decide, direct, or command.\
-**Legitimacy** is the reason others accept that authority as rightful.
+Yet review can become so narrow that a persistent pattern is treated as a sequence of isolated errors. Each complaint is processed. Each individual decision receives an answer. The deeper question—whether the institution's claim to continued authority has been adequately justified—never reaches an authorized forum.
 
-A judge has authority because the law grants it.\
-That authority is legitimate because the system recognizes the role as
-binding.
+That is not the same as having no accountability. It is accountability whose boundaries may be fixed by the very authority being questioned.
 
-At first, legitimacy is often conditional. It depends—at least in
-theory—on:
+### **Legitimacy and its duration**
 
-- Lawful appointment
+**Authority** is the recognized capacity to make decisions that bind others. **Legitimacy** is the claim that this authority deserves recognition. They are connected, but they need not rise and fall together. People may follow a lawful order while doubting its justice. They may also trust a person who has no formal right to command them.
 
-- Ongoing competence
+In ordinary speech, we sometimes treat legitimacy as something acquired once, at appointment or at the founding of an institution. But there is a difference between recognizing an office long enough for it to function and regarding its entitlement to continue as settled beyond further examination.
 
-- Ethical restraint
+Elections, appeals, reviews, and removal procedures can make that entitlement conditional. They can also become rituals that reaffirm continuity regardless of what they uncover. The name of a safeguard tells us less than the kind of interruption it can actually produce.
 
-- Continued consent
+Arendt's writing on authority helps keep the question of political legitimacy distinct from mere force or the persuasive skill of an individual leader.[^c1-arendt-authority] An institution can secure obedience without resolving whether the grounds on which it asks to be obeyed remain defensible.
 
-But over time, legitimacy can shift from being **provisional** to being
-**assumed**.
+### **Why permanence can feel responsible**
 
-Once that shift occurs, authority no longer needs to justify itself
-through ongoing evaluation.
+People have good reasons to resist making authority fragile. Courts must decide unpopular cases. Hospitals must continue treating patients through controversy. Schools cannot close every time their leadership makes an error. Institutional memory and predictable procedures protect people, including those who have the least power to manage uncertainty.
 
-### **When legitimacy stops expiring**
+So the question is not whether legitimacy should vanish at the first mistake. It is whether the institution retains any meaningful circumstance in which its right to continue *as presently constituted* must be reconsidered.
 
-In many systems, legitimacy is supposed to decay.
+When that circumstance becomes unthinkable, correction can continue without ever becoming a test of legitimacy. Harm is acknowledged and managed; the office, the governing structure, or the institution's claim to decide survives as a given.
 
-Elections end terms.\
-Reviews correct errors.\
-Failures lead to removal.
+No villain is required. Indeed, people may defend continuity precisely because they have seen what happens when an institution collapses and leaves those who depend on it without support.
 
-Expiration is not a flaw.\
-It is a safeguard.
-
-But some forms of legitimacy become unusually durable.
-
-They are treated as:
-
-- Inherited rather than re-earned
-
-- Owed rather than conditional
-
-- Dangerous to question rather than necessary to test
-
-At that point, legitimacy no longer functions like trust.\
-It functions like property.
-
-Once possessed, it is assumed to remain unless something extraordinary
-intervenes.
-
-### **Why permanence feels stabilizing**
-
-This durability often feels like responsibility rather than risk.
-
-From the inside, permanent legitimacy:
-
-- Protects continuity
-
-- Prevents chaos
-
-- Preserves institutional memory
-
-- Shields decision-making from volatility
-
-A judge who is constantly under threat cannot decide impartially.\
-A leader who must rejustify authority every day cannot lead.
-
-These concerns are real.
-
-The danger is not that authority becomes permanent.\
-The danger is that **no mechanism remains that requires it to stop**.
-
-### **The condition this creates**
-
-When authority acquires an unusually long lifespan, several things
-follow:
-
-- Mistakes become survivable
-
-- Harm becomes manageable
-
-- Correction becomes procedural
-
-- Accountability becomes delayed
-
-None of this requires denial.\
-None of it requires cruelty.
-
-It requires only that legitimacy continue.
-
-This book calls that condition **authority without an expiration date**.
-
-### **Authority without villains**
-
-At this stage, it is important to be clear about what is *not* being
-argued.
-
-This chapter is not about corrupt officials or unworthy leaders.\
-It is not an accusation of bad faith.
-
-In many cases, authority becomes durable because the people exercising
-it:
-
-- Believe in its importance
-
-- Understand their role as protective
-
-- Experience restraint as moral seriousness
-
-The system works as designed.
-
-That is precisely the problem.
-
-### **Where this leads**
-
-This chapter establishes a baseline:\
-authority that precedes evaluation and legitimacy that no longer decays.
-
-The next chapter examines how this legitimacy becomes **sacralized**—how
-origin stories, founding moments, and inherited roles begin to do moral
-work long after they should have been reexamined.
-
-Before we can understand harm, reform, or learning, we must first
-understand how authority learns to endure.[^c1-weber-authority][^c1-arendt-authority]
-
-
+The danger appears when those reasons for continuity become sufficient to answer every objection in advance. The next chapter asks how an institution's founding story can help make that answer feel not merely practical, but morally owed.
 
 [^c1-weber-authority]: Max Weber, *Economy and Society*, vol. 1 (Berkeley: University of California Press, 1978).
-[^c1-arendt-authority]: Hannah Arendt, "What Is Authority?" in *Between Past and Future* (New York: Penguin, 2006).
 
-## **Chapter 2 — Sacralization and Inheritance**
+[^c1-arendt-authority]: Hannah Arendt, "What Is Authority?" in *Between Past and Future* (New York: Penguin, 2006).
