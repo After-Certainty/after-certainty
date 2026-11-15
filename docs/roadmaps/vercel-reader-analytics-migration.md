@@ -1,8 +1,8 @@
 # Vercel reader analytics migration
 
-**Status:** Specialized plan — **PR 3 final evaluation** (recommend retire GA4; owner approval pending); PR 0–2 merged  
+**Status:** Specialized plan — **PR 3 review follow-up** (recommend `corrective_pr_required`; owner approval pending); PR 0–2 merged  
 **Created:** 2026-10-17  
-**Revised:** 2026-11-14 (Gate 3 final evaluation after observation window; recommend `retire_ga4` — PR 4 still blocked until explicit approval)  
+**Revised:** 2026-11-14 (Gate 3 evaluation + review reconcile; path-start/search blockers — PR 4 still blocked)  
 **Location:** `docs/roadmaps/vercel-reader-analytics-migration.md`  
 **Authority:** Specialized cross-layer plan. Does **not** replace [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Unfinished follow-ups after each PR merge belong on the master roadmap Observe / Now sections, not as a second backlog.
 
@@ -513,11 +513,12 @@ Only after Gate 3 approval. Remove GA runtime completely; update privacy, CSP, e
 
 ## 15. Immediate next step
 
-After **PR 3** final evaluation (2026-11-14) with recommendation **retire_ga4**:
+After **PR 3** evaluation + review follow-up (2026-11-14) with recommendation **corrective_pr_required**:
 
-1. Observation window **2026-10-17 → 2026-11-13** (Denver completed days) is complete; evidence under `reports/vercel-reader-analytics-parity/manual/nov2026-evaluation/`.  
-2. Owner must complete the approval row on [`docs/analytics/vercel-reader-analytics-parity-decision.md`](../analytics/vercel-reader-analytics-parity-decision.md) before any GA4 removal.  
-3. Do **not** start PR 4 (`chore/retire-ga4`) without that explicit human approval.
+1. Observation window **2026-10-17 → 2026-11-13** is complete; packs re-validated with exclusive-end ISO bounds.  
+2. Land a corrective PR for `reading_path_started` production gap + minimal on-site search Vercel event (GSC ≠ in-site search).  
+3. Owner must complete the approval row on [`docs/analytics/vercel-reader-analytics-parity-decision.md`](../analytics/vercel-reader-analytics-parity-decision.md) before any GA4 removal.  
+4. Do **not** start PR 4 (`chore/retire-ga4`) without that explicit human approval.
 
 ---
 
@@ -530,4 +531,5 @@ After **PR 3** final evaluation (2026-11-14) with recommendation **retire_ga4**:
 | 2026-10-17 | PR 1 merged (instrumentation + privacy copy + attribution `to_id`); PR 2 reporting stack started |
 | 2026-10-17 | PR 2: `reader-analytics` skill, Web Analytics query client, weekly brief + Make entry, PADE `vercel.analytics.read` |
 | 2026-10-17 | PR 2 merged; PR 3 Gate 3 baseline + owner dual-write smoke; recommendation keep_parallel_longer |
-| 2026-11-14 | PR 3 final evaluation after observation window; recommend retire_ga4; PR 4 still requires explicit owner approval |
+| 2026-11-14 | PR 3 final evaluation after observation window; initial retire_ga4 draft |
+| 2026-11-14 | Review follow-up: exclusive-end pack reconcile; recommend corrective_pr_required (path-start + on-site search); PR 4 still blocked |

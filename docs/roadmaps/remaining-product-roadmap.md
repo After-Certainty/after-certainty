@@ -107,7 +107,7 @@ Signals that may create future work. No arbitrary KPI targets. Use existing GA4 
 
 ### Vercel reader analytics migration
 
-Specialized plan: [`vercel-reader-analytics-migration.md`](vercel-reader-analytics-migration.md). Goal: make Vercel Web Analytics the primary readership measurement system, keep Google Search Console for search discovery, and retire GA4 only after parallel measurement and an explicit approval gate. **PR 0–2 merged; Gate 3 final evaluation recommends retire GA4** ([decision report](../analytics/vercel-reader-analytics-parity-decision.md)). **Do not start destructive GA4 removal from this Observe note alone — owner approval required.**
+Specialized plan: [`vercel-reader-analytics-migration.md`](vercel-reader-analytics-migration.md). Goal: make Vercel Web Analytics the primary readership measurement system, keep Google Search Console for search discovery, and retire GA4 only after parallel measurement and an explicit approval gate. **PR 0–2 merged; Gate 3 recommends corrective_pr_required** ([decision report](../analytics/vercel-reader-analytics-parity-decision.md)). **Do not start destructive GA4 removal from this Observe note alone — owner approval required.**
 
 | Signal area | What to watch | Notes |
 |-------------|---------------|--------|
