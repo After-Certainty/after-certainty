@@ -35,9 +35,7 @@ that dominance is necessary. It asks a narrower question: Under what
 structural conditions does moral seriousness retain force, and under
 what conditions does it encounter pressure?
 
-At small scale, proximity and reciprocity do much of the work. Harm is
-visible. Authority remains contestable. Feedback arrives quickly enough
-to correct excess before it hardens. At larger scale, distance
+At small scale, proximity and reciprocity can do some of the work. Harm may be more visible, and authority may be easier to question. But close relationships can also conceal unequal dependence, make dissent costly, and leave familiar arrangements unchallenged. At larger scale, distance
 intervenes. Consequence becomes abstract. Reciprocity thins. Incentives
 shift. None of this eliminates judgment. It changes the environment in
 which judgment operates.
@@ -52,9 +50,7 @@ This book grows out of that dissatisfaction.
 
 It is not written to resolve debates about power. It is written to
 deepen my understanding of why human-scale solutions do not always
-translate cleanly into larger environments. It is written in defense of
-judgment—not as a technique or formula, but as a practice that becomes
-more costly, and perhaps more necessary, as systems grow.
+translate cleanly into larger environments. It is written in defense of judgment—not as a technique or formula, but as a practice whose costs are distributed unevenly and whose conditions change as systems grow.
 
 Structural pressure is real. Asymmetry is real. Acceleration is real.
 But inevitability is a different claim, and one I do not accept. Human
@@ -62,4 +58,4 @@ systems remain contingent on the judgments of the people within them.
 The question is not whether scale determines our actions, but whether we
 understand the conditions under which we act.
 
-This book is my attempt to think more clearly within those conditions.
+The two invented meal-program settings that recur in the chapters are a way of examining those conditions without pretending that competing obligations have tidy solutions. This book is my attempt to think more clearly within them.

@@ -1,84 +1,54 @@
 # Chapter 5: Asymmetry
-## Asymmetry
 
-Distance stretches consequence. Asymmetry distributes it unevenly.
+The regional office and the neighborhood site may be looking at the same schedule. Both can understand why predictable deliveries matter. Both may care about households that depend on the program. Yet one group can sign off on the plan and move to the next decision while the other stays after closing to answer questions from people who cannot use the new hours.
 
-When exposure to harm is no longer shared, reciprocal constraint
-weakens. Some actors absorb cost directly. Others experience it only
-indirectly—or not at all. Constraint becomes selective.
+**Asymmetry** is the difference between who can act and who must absorb the consequences of that action. It is not necessarily a difference in character or intention. It is an uneven distribution of exposure.
 
-When constraint becomes uneven, reciprocity thins. Some actors absorb
-cost; others externalize it. Moral seriousness becomes voluntary rather
-than reciprocal. The system does not forbid restraint. It stops
-requiring it.
+Distance makes that unevenness easier to sustain, but it does not create every instance of it. Families, small teams, and intimate communities can have profound asymmetries too. The difference at scale is that such arrangements can persist across many decisions without anyone having to confront the full pattern.
 
-## Uneven Exposure to Consequence
+## Whose Work Counts as a Cost?
 
-In dense systems, consequence is widely felt. Overreach produces
-friction for all participants. Under scale, however, insulation becomes
-possible.
+A new delivery plan might reduce driving time and late arrivals across the network. Those improvements matter. A site manager might nevertheless spend extra hours arranging pickups for households whose work shifts do not fit the new timetable.
 
-Leaders may be buffered by hierarchy. Institutions may be shielded by
-procedure. Decisions that impose cost on distant parties may not return
-proportionate friction to those who made them.
+From the regional office, the plan is producing savings. From the site, it is transferring work. Both observations can be accurate.
 
-Uneven exposure alters behavior. When harm does not reliably return to
-its source, restraint loses one of its structural reinforcements.[^c5-merton-bureaucratic-structure-and]
+An organization that counts only vehicle hours may see the first result and miss the second. Even when it counts staff hours, it may overlook recipients' unpaid time, the difficulty of finding another ride, or the missed wages caused by leaving work early. These are not costs that disappear because the organization has no budget line for them.
 
-This does not require malice. It requires insulation.
+The burden is unequal in another way. Regional staff can describe the rollout's overall benefits. People at the local site must explain why those benefits do not settle the impact on them. The institution's preferred measure becomes the starting point, and the people outside it bear the work of proving that something important is missing.
 
-## Selective Constraint
+Merton's work on bureaucracy helps illuminate how fidelity to an organizational procedure can become detached from the reasons the procedure was created.[^c5-merton-bureaucratic-structure-and] A well-functioning process may be doing the task it was given. The question is whether that task captures all of what the institution owes the people it serves.
 
-Asymmetry emerges when some actors remain highly constrained while
-others experience reduced friction.
+## Authority Without Comparable Exposure
 
-Frontline participants may face immediate consequence. Decision-makers
-may encounter delayed or diluted feedback. Certain groups may bear the
-weight of error. Others may distribute it.
+An executive may face substantial pressure: budgets, deadlines, other sites waiting for improvement, and accountability to funders. It would be inaccurate to say they are unconstrained. The relevant distinction is *which* consequences they are exposed to and how quickly those consequences return.
 
-Constraint becomes unevenly applied. Where symmetry once reinforced
-restraint, insulation now introduces choice.
+If a rollout is delayed, its costs may appear immediately in the executive's schedule and reports. If a household loses access after the rollout, that cost may be mediated through a site report that arrives later. The decision-maker is not free of pressure. They are pressured by a different, more visible set of costs.
 
-Under selective constraint, restraint must be chosen rather than
-structurally reinforced.[^c5-hirschman-exit-voice-and]
+At the local site, the manager may know the damage but lack permission to alter the rule. The person with the strongest information has limited authority, while the person with authority receives the information secondhand.
 
-## Friction and Movement
+This is why selective constraint changes the practice of moral seriousness. A person who absorbs a difficult consequence may be praised for flexibility and care, but their willingness to absorb it can also prevent the institution from noticing that its policy imposes that burden repeatedly.
 
-In reciprocal environments, friction slows escalation. Under asymmetry,
-some actors move more freely than others.
+## Voice Is Not Evenly Available
 
-Those with less exposure to consequence can act more quickly. Those with
-higher exposure must deliberate carefully. The speed differential begins
-to matter.
+An asymmetry of decision rights is often accompanied by an asymmetry of voice. The regional director can ask for a summary and reasonably expect one. A site manager must decide how to make a concern legible in the terms the director is using. A recipient may not know whom to ask, or may hesitate to challenge a service on which they depend.
 
-Friction does not disappear. It redistributes.
+Hirschman's account of exit, voice, and loyalty makes clear that dissatisfaction does not reliably produce a visible complaint.[^c5-hirschman-exit-voice-and] People who cannot afford to leave may endure what is happening. Those who can leave may do so without explaining why. A report that counts objections may therefore register not the distribution of harm but the distribution of people's capacity to object.
 
-This redistribution alters strategic behavior. Actors who tolerate
-displacement may accumulate advantage relative to those who absorb cost.
+This is not a reason to distrust every formal consultation. It is a reason not to treat silence as consent or a low complaint count as proof that a new rule has no cost.
 
-The shift is gradual. It often appears pragmatic rather than
-aggressive.[^c5-olson-the-logic-of]
+The strongest challenge may come from someone who can describe the system's blind spot but cannot yet propose a workable alternative. If the institution requires a complete replacement plan before treating the objection as serious, it has converted a difference in power into a difference in credibility.
 
-## The Weakening of Reciprocity
+## Friction Is Displaced, Not Removed
 
-Reciprocity depends on roughly shared vulnerability. When vulnerability
-becomes uneven, mutual discipline thins.
+Organizations often describe a simpler approval process as the removal of friction. Sometimes it is. Repeated signatures and needless duplication can make a worthwhile change impossible. But in other cases the friction has merely moved.
 
-Those who continue to practice restraint may find it less reciprocated.
-Those who decline restraint may not immediately bear proportionate cost.
-Over time, this imbalance alters expectations.
+The regional office finishes its decision faster; local staff now coordinate exceptions by telephone. Drivers receive predictable routes; recipients reorganize their days around those routes. The new arrangement can be an improvement overall while still shifting the burden of adaptation to people least able to carry it.
 
-Moral seriousness remains possible under asymmetry. It becomes less
-equilibrium and more commitment.
+Problems of collective action have no automatic resolution merely because everyone benefits from the organization's continued work.[^c5-olson-the-logic-of] The difficult question is who gets to set the terms under which benefits and burdens are shared.
 
-The system does not prohibit restraint. It ceases to reinforce it.
+The claim is not that asymmetry always favors careless actors or that every transfer of cost is unjustified. Some decisions must distribute burdens unevenly. A defensible institution can explain why and leave room to revise its choices when the distribution is worse than it expected.
 
-Asymmetry, then, marks the second thinning of moral density. Proximity
-has stretched. Now exposure has become uneven. Responsibility disperses
-not only through distance, but through insulation.
-
-The question that follows is what happens when uneven constraint begins
-to alter incentives.
+Moral seriousness becomes harder when the people who set those terms can finish their part of the work before encountering its costs. The next chapter examines what happens when this difference in exposure becomes a difference in speed—and when moving quickly begins to create its own advantage.
 
 [^c5-merton-bureaucratic-structure-and]: Merton, Robert K. "Bureaucratic Structure and Personality." *Social Forces* 18, no. 4 (1940): 560–568.
 

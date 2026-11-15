@@ -2,59 +2,24 @@
 
 ## The Scaling Question
 
-Moral seriousness does not disappear when systems grow. But the
-conditions that support it change.
+Some decisions are difficult because people disagree about what matters. Others are difficult because people agree about what matters and still cannot make everyone's needs fit together.
 
-At small scale, restraint tends to be visible and reciprocated. Harm
-lands somewhere specific. Authority can be challenged without
-threatening the survival of the system itself. Decisions and
-consequences remain close enough to one another that feedback corrects
-excess before it hardens. Under these conditions, moral seriousness
-functions with relative stability.
+A neighborhood meal program needs volunteers who can go home at a reasonable hour. It also serves people whose work schedules make an early closing time difficult. A regional network needs dependable routes and shared rules. Those rules can make life harder for recipients whose circumstances do not appear in its reports.
 
-Scale alters those conditions.
+There is no simple division here between compassionate people and efficient people. The same decision can relieve one group and burden another. A person making it may be conscientious, informed, and still wrong about whose costs have been counted.
 
-As systems expand, proximity diminishes. Leaders make decisions that
-affect people they will never meet. Consequences travel through layers
-of process before returning as data rather than experience. Reciprocity
-becomes uneven. Some actors remain exposed to consequence; others become
-insulated from it. What once felt relational becomes administrative.
+This book asks what happens to **moral seriousness** as the reach of such decisions grows.
 
-Distance does not eliminate responsibility. It alters incentives.
+The question first took shape for me in small, recurring relationships, where authority and consequence were close enough to meet. A person could question a decision and expect to see the person who made it again. Sometimes that proximity encouraged restraint. Sometimes it did not. Familiarity can expose harm, but it can also make dissent expensive.
 
-When consequence becomes abstract, it can be displaced more easily. When
-reciprocity weakens, restraint becomes less self-reinforcing. Actions
-that tolerate externalized cost often move faster than those that absorb
-it. Under these conditions, moral seriousness may continue to guide
-individuals, but it no longer operates within the same structural
-equilibrium.
+At larger scale, the problem changes. Decisions must travel farther. People responsible for them cannot meet everyone affected. Data and procedure become indispensable, even as they make some consequences difficult to see. Responsibilities divide across offices and teams. The people who know what is happening may not have the power to change it.
 
-This book asks how moral seriousness functions under those altered
-conditions.
+None of that means that institutions become less moral simply by growing. It means that the conditions supporting judgment no longer arrange themselves in the same way.
 
-It does not assume that scale corrupts. It does not argue that
-escalation is inevitable. It does not suggest that restraint is futile.
-It examines how proximity, reciprocity, and visible consequence create
-moral density—and how that density thins as systems grow.
+The chapters that follow examine those conditions rather than assuming their outcome. Part I considers what proximity, mutual dependence, and the ability to challenge authority can make possible—and what even small communities fail to guarantee. Part II follows distance and unequal exposure into a regional decision where some actions can be completed before others have a chance to register their costs. Part III asks what happens when the effort to remain careful begins to feel like a disadvantage. Part IV considers whether institutions can preserve room for correction without pretending to eliminate conflict.
 
-At small scale, authority remains contestable because dissent does not
-threaten systemic collapse. At larger scale, contestation can feel
-destabilizing. Pressure to consolidate, accelerate, or harden authority
-increases. These pressures are not proof of moral failure. They are
-structural responses to complexity and distance.
+Two invented meal-program settings recur through the book. They are not evidence that events unfolded in a particular organization. They give us a way to keep the different responsibilities in view while examining how decisions change as they move from one room into a larger system.
 
-The question, then, is not whether moral seriousness is valid. It is how
-it operates when proximity fades, asymmetry increases, and incentives
-shift.
+The argument is deliberately limited. It does not promise that restraint always wins, that consultation solves every conflict, or that slow decisions are more responsible than fast ones. It asks something harder to settle: **when the costs of a decision become easier to move away from the people making it, what keeps those costs within reach of judgment?**
 
-Judgment does not become obsolete under scale. It becomes more costly.
-
-It becomes more difficult to absorb harm when harm can be hidden. It
-becomes more difficult to preserve contestability when dissent threatens
-stability. It becomes more difficult to move slowly when others move
-quickly under reduced constraint.
-
-These pressures do not determine outcomes. But they shape the terrain on
-which decisions are made.
-
-Understanding that terrain is the purpose of this book.
+That is the scaling question.
