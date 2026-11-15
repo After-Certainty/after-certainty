@@ -52,7 +52,7 @@ export async function SiteFooter() {
     { label: "Explore songs", href: "/explore/songs" },
     { label: "Listen", href: "/listen" },
     { label: "Explore books", href: "/explore/books" },
-    { label: "Privacy & cookies", href: "/privacy" },
+    { label: "Privacy & analytics", href: "/privacy" },
   ];
 
   const mobilePrimaryLinks = [

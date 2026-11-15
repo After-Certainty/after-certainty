@@ -1,6 +1,6 @@
 # Search visibility & analytics — post-deploy verification
 
-Manual checklist for After Certainty (`apps/site`) after shipping SEO / GA / CSP changes.
+Manual checklist for After Certainty (`apps/site`) after shipping SEO / analytics / CSP changes.
 Do not request indexing for favicon query URLs or observatory UI-state URLs.
 
 ## Redirects & host
@@ -39,72 +39,49 @@ For boundary-conditions, interpretation, shift-left, Brehm source:
 
 Thin source stubs (citation + links) may remain “Crawled – currently not indexed” — that is acceptable.
 
-## Analytics & CSP (clean profile / cleared site data)
+## Analytics & CSP (Gate 4 — Vercel only)
 
 Network filters: `gtag`, `collect`, `google-analytics`, `googletagmanager`, `/_vercel/insights`.
 
-| State | Expected |
+| Check | Expected |
 | --- | --- |
-| First visit before choice | gtag may load on production; `analytics_storage` denied; no GA analytics cookies; **no custom GA events**; Consent Mode may still allow limited cookieless pings; Vercel scripts may load |
-| Reject | Consent update denied; no GA analytics cookies; **GA custom events absent**; cookieless Consent Mode pings may still occur while the tag is mounted; Vercel custom reader events **still fire** |
-| Accept | Consent granted; GA collect succeeds; **no CSP errors**; one GA `page_view`; dual-write reader events reach both GA and Vercel |
-| Client-side nav after Accept | Additional GA page_view via Enhanced Measurement history (or explicit tracker); not duplicated on hard refresh |
-| Clear `ac_cookie_consent` | Future GA hits denied; banner returns; Vercel aggregate collection continues |
-| Vercel **preview** | No production GA unless `NEXT_PUBLIC_GA_ENABLE_PREVIEW=1`; filter Vercel analytics by `environment=preview` |
-| `next dev` | No gtag |
-| Privacy / cookie copy | Banner and `/privacy` state that the cookie choice controls **GA4**; Vercel Web Analytics & Speed Insights are separate always-on aggregate tools |
+| Production hard load | **No** `googletagmanager` / `google-analytics` / `g/collect` requests |
+| Cookie banner | **Absent** (GA consent banner removed) |
+| Vercel scripts | `/_vercel/insights/script.js` (and Speed Insights) may load |
+| Custom reader events | POSTs to `/_vercel/insights/event` for primary vocabulary |
+| CSP | No GA hosts; allows `va.vercel-scripts.com` + `vitals.vercel-insights.com` |
+| `/privacy` | Documents Vercel Web Analytics & Speed Insights; states GA is retired |
+| Preview | Filter Vercel analytics by `environment=preview` |
+| `next dev` | No GA; Vercel analytics may be mode-dependent |
 
-### Reader dual-write smoke (production or preview with GA opt-in)
+### Reader event smoke (production)
 
-After Accept (or with consent denied, for Vercel-only rows):
+| Action | Vercel event |
+| --- | --- |
+| Open a chapter | `chapter_open` (`book_id`, `chapter_id`) |
+| Click Next chapter | `chapter_advance` (`from_chapter_id`, `to_chapter_id`) |
+| Download from reader | `book_download` (`book_id`, `format`) |
+| Start chapter audio | `reader_audio_started` (`book_id`, `chapter_id`) |
+| Source/thinker → chapter link | `corpus_navigation` with `to_id` |
+| Start a question/trail path | `reading_path_started` (`path_kind`, `path_id`) |
+| Run on-site search (full/quick/in-book) | `site_search` (buckets only — never raw query text) |
 
-| Action | Vercel event | GA event (consent required) |
-| --- | --- | --- |
-| Open a chapter | `chapter_open` (`book_id`, `chapter_id`) | `chapter_open` |
-| Click Next chapter | `chapter_advance` (`from_chapter_id`, `to_chapter_id`) | `next_chapter` |
-| Download from reader | `book_download` (`book_id`, `format`) | `file_download` |
-| Start chapter audio | `reader_audio_started` (`book_id`, `chapter_id`) | (none) |
-| Source/thinker → chapter link | `corpus_navigation` with `to_id` | (none) |
-| Start a question/trail path | `reading_path_started` | `question_path_start` / `trail_path_start` |
-| Run on-site search (full/quick/in-book) | `site_search` (buckets only) | `search_query` |
+Confirm each intended action fires **once**. See also [`reader-analytics-attribution-spike.md`](reader-analytics-attribution-spike.md).
 
-Confirm each intended action fires **once** (no duplicate `corpus_navigation` / audio events). See also [`reader-analytics-attribution-spike.md`](reader-analytics-attribution-spike.md).
+**Note:** Headless Playwright with `navigator.webdriver` may leave `window.va` as the queue stub (insights collector not replacing it). Organic browsers and stealth init flush `/_vercel/insights/event` normally.
 
-### Owner PADE smoke — path-start + site search (corrective PR)
+Book overview: both **primary** and **secondary** download buttons must emit `book_download` once with normalized `format`.
 
-No agent browser required. On production after deploy:
-
-1. **Accept** cookies (enables GA dual-write checks).
-2. Hard-load `/questions/<slug>` and `/trails/<slug>` (first paint — exercises the mount-time queue stub).
-3. Run one query on `/search` (and optionally quick search).
-4. Query Vercel (exclusive until = next UTC day) for `reading_path_started` and `site_search`; query GA4 for `question_path_start` / `trail_path_start` / `search_query`.
-5. Append JSON under `reports/vercel-reader-analytics-parity/manual/` (do not overwrite October smoke).
-
-Expected: Vercel shows `reading_path_started` even on hard loads; `site_search` appears without raw query text.
-
-Book overview: both **primary** and **secondary** download buttons must emit `book_download` once with normalized `format` (and GA `book_overview_primary_action` still fires for primary).
-
-Source/thinker attribution: links to the same chapter from a CTA and Related chapters must share one semantic `to_id` (joinable to `chapter_open.chapter_id`). After production deploy, verify `requestPath` + `eventData/to_id` aggregates; keep type-level claims until then.
+Source/thinker attribution: links to the same chapter from a CTA and Related chapters must share one semantic `to_id` (joinable to `chapter_open.chapter_id`).
 
 Property budget: default Plus (≤8 props). If base Pro only, set `NEXT_PUBLIC_VERCEL_ANALYTICS_PROPERTY_LIMIT=2` and confirm `corpus_navigation` uses `{edge,to_id|relation}`.
 
-Also confirm GA4 Admin:
+### Rollback (if GA must return)
 
-- Consent Mode enabled on the web stream
-- Enhanced measurement: page views + “Page changes based on browser history events”
-- DebugView / Realtime used for the Accept path
+Restore from git prior to the Gate 4 retire PR: `GoogleAnalyticsLoader`, Consent Mode defaults, cookie banner, CSP GA hosts, `NEXT_PUBLIC_GA_*`, and dual-write `sendGAEvent` paths.
 
 ## Search Console
 
 1. Confirm sitemap last-read advances after deploy/resubmit
 2. “Page with redirect” rows for legacy `/books/*` are expected
-3. Do **not** request indexing for observatory query URLs or favicon variants
-4. Re-inspect priority entity URLs after content/canonical fixes
-
-## Optional tooling
-
-```bash
-# Weak inbound link report (local manifest required)
-cd apps/site
-SEMANTIC_MANIFEST_USE_LOCAL=1 SEMANTIC_MANIFEST_OFFLINE=1 npx tsx scripts/report-weakly-linked-entities.ts
-```
+3. GSC covers **external** Google queries/rankings only — not on-site `/search` behavior (`site_search` covers that)

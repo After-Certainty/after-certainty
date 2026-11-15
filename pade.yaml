@@ -6,6 +6,8 @@ spec:
   capabilities:
     github.repo.read:
       access: use
+    # DEPRECATED (Gate 4): GA4 site runtime retired. Keep for legacy ga-trends / historical
+    # parity scripts until those tools are archived; prefer vercel.analytics.read.
     google-analytics.read:
       access: read
     vercel.diagnostics:

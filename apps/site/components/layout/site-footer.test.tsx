@@ -131,7 +131,7 @@ describe("SiteFooter", () => {
       "href",
       "/explore/patterns",
     );
-    expect(within(exploreNav).getByRole("link", { name: /Privacy & cookies/i })).toHaveAttribute(
+    expect(within(exploreNav).getByRole("link", { name: /Privacy & analytics/i })).toHaveAttribute(
       "href",
       "/privacy",
     );
