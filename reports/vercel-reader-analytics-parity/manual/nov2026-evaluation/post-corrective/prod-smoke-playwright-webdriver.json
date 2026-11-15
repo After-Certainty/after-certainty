@@ -1,0 +1,219 @@
+{
+  "started_at": "2026-11-15T03:30:08.589Z",
+  "steps": [
+    {
+      "step": "home_loaded",
+      "at": "2026-11-15T03:30:08.904Z",
+      "url": "https://www.after-certainty.com/"
+    },
+    {
+      "step": "cookie_accepted",
+      "at": "2026-11-15T03:30:09.103Z"
+    },
+    {
+      "step": "diag_after_accept",
+      "at": "2026-11-15T03:30:09.909Z",
+      "href": "https://www.after-certainty.com/",
+      "vaType": "function",
+      "vaqLen": 1,
+      "consentCookie": null,
+      "localStorageKeys": [],
+      "hasAcceptBtn": true
+    },
+    {
+      "step": "question_loaded",
+      "at": "2026-11-15T03:30:11.426Z",
+      "url": "https://www.after-certainty.com/questions/love-hard-to-explain"
+    },
+    {
+      "step": "diag_after_question",
+      "at": "2026-11-15T03:30:13.435Z",
+      "href": "https://www.after-certainty.com/questions/love-hard-to-explain",
+      "vaType": "function",
+      "vaqLen": 2,
+      "consentCookie": null,
+      "localStorageKeys": [],
+      "hasAcceptBtn": true
+    },
+    {
+      "step": "trail_loaded",
+      "at": "2026-11-15T03:30:14.973Z",
+      "url": "https://www.after-certainty.com/trails/accountability-and-enduring-authority"
+    },
+    {
+      "step": "diag_after_trail",
+      "at": "2026-11-15T03:30:16.979Z",
+      "href": "https://www.after-certainty.com/trails/accountability-and-enduring-authority",
+      "vaType": "function",
+      "vaqLen": 2,
+      "consentCookie": null,
+      "localStorageKeys": [],
+      "hasAcceptBtn": true
+    },
+    {
+      "step": "search_loaded",
+      "at": "2026-11-15T03:30:18.548Z",
+      "url": "https://www.after-certainty.com/search?q=certainty"
+    },
+    {
+      "step": "diag_after_search",
+      "at": "2026-11-15T03:30:21.054Z",
+      "href": "https://www.after-certainty.com/search?q=certainty",
+      "vaType": "function",
+      "vaqLen": 2,
+      "consentCookie": null,
+      "localStorageKeys": [],
+      "hasAcceptBtn": true
+    },
+    {
+      "step": "search_typed",
+      "at": "2026-11-15T03:30:25.140Z",
+      "url": "https://www.after-certainty.com/search?q=judgment"
+    },
+    {
+      "step": "diag_after_search_typed",
+      "at": "2026-11-15T03:30:25.142Z",
+      "href": "https://www.after-certainty.com/search?q=judgment",
+      "vaType": "function",
+      "vaqLen": 3,
+      "consentCookie": null,
+      "localStorageKeys": [],
+      "hasAcceptBtn": true
+    }
+  ],
+  "analytics_requests": [
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-H7FSEF4WLW",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.after-certainty.com/_vercel/insights/script.js",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.after-certainty.com/_vercel/speed-insights/script.js",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-H7FSEF4WLW&gtm=45je6bb1v9253354671za208zd9253354671xf1&_p=1794713408988&gcs=G101&gcd=13q3r3q3q5l1&npa=1&dma_cps=-&dma=0&ecid=1909307950&_eu=AAAAAGA&cid=1330223161.1794713409&ec_mode=a&frm",
+      "method": "POST"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-H7FSEF4WLW&gtm=45je6bb1v9253354671za200zd9253354671xf1&_p=1794713408988&gcs=G101&gcd=13q3r3q3q5l1&npa=1&dma_cps=-&dma=0&ecid=1909307950&_eu=AAAAAGQ&cid=1330223161.1794713409&ec_mode=a&frm",
+      "method": "POST"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-H7FSEF4WLW",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-H7FSEF4WLW&gtm=45je6bb1v9253354671za208zd9253354671xf1&_p=1794713410355&gcs=G101&gcd=13q3r3q3q5l1&npa=1&dma_cps=-&dma=0&ecid=1909307950&_eu=AAAAAGQ&cid=1330223161.1794713409&ec_mode=a&frm",
+      "method": "POST"
+    },
+    {
+      "url": "https://www.after-certainty.com/_vercel/insights/script.js",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.after-certainty.com/_vercel/speed-insights/script.js",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-H7FSEF4WLW",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-H7FSEF4WLW&gtm=45je6bb1v9253354671za208zd9253354671xf1&_p=1794713413883&gcs=G101&gcd=13q3r3q3q5l1&npa=1&dma_cps=-&dma=0&ecid=1909307950&_eu=AAAAAGQ&cid=1330223161.1794713409&ec_mode=a&frm",
+      "method": "POST"
+    },
+    {
+      "url": "https://www.after-certainty.com/_vercel/insights/script.js",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.after-certainty.com/_vercel/speed-insights/script.js",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-H7FSEF4WLW",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-H7FSEF4WLW&gtm=45je6bb1v9253354671za200zd9253354671xf1&_p=1794713417479&gcs=G101&gcd=13q3r3q3q5l1&npa=1&dma_cps=-&dma=0&ecid=1909307950&_eu=AEAEAGQ&ae=a&cid=1330223161.1794713409&frm=0&ps",
+      "method": "POST"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-H7FSEF4WLW&gtm=45je6bb1v9253354671za208zd9253354671xf1&_p=1794713417479&gcs=G101&gcd=13q3r3q3q5l1&npa=1&dma_cps=-&dma=0&ecid=1909307950&_eu=AAAAAGQ&cid=1330223161.1794713409&ec_mode=a&frm",
+      "method": "POST"
+    },
+    {
+      "url": "https://www.after-certainty.com/_vercel/insights/script.js",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.after-certainty.com/_vercel/speed-insights/script.js",
+      "method": "GET"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-H7FSEF4WLW&gtm=45je6bb1v9253354671za200zd9253354671xf1&_p=1794713417479&gcs=G101&gcd=13q3r3q3q5l1&npa=1&dma_cps=-&dma=0&ecid=1909307950&_eu=AAAAAGQ&cid=1330223161.1794713409&frm=0&pscdl=d",
+      "method": "POST",
+      "post": "en=search_query&_ee=1&ep.surface=full&ep.has_results=true&ep.result_count_bucket=25%2B&ep.query_length_bucket=1-10&_et=242\r\nen=search_query&_ee=1&ep.surface=full&ep.has_results=true&ep.result_count_bucket=25%2B&ep.query_length_bucket=1-10&_et=4114&dl=https%3A%2F%2Fwww.after-certainty.com%2Fsearch%3Fq%3Djudgment&dt="
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-H7FSEF4WLW&gtm=45je6bb1v9253354671za200zd9253354671xf1&_p=1794713417479&gcs=G101&gcd=13q3r3q3q5l1&npa=1&dma_cps=-&dma=0&ecid=1909307950&_eu=AEEAAGQ&ae=a&cid=1330223161.1794713409&frm=0&ps",
+      "method": "POST"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-H7FSEF4WLW&gtm=45je6bb1v9253354671za200zd9253354671xf1&_p=1794713417479&gcs=G101&gcd=13q3r3q3q5l1&npa=1&dma_cps=-&dma=0&ecid=1909307950&_eu=AEAAAGQ&ae=a&cid=1330223161.1794713409&ec_mode=",
+      "method": "POST"
+    }
+  ],
+  "page_diagnostics": [
+    {
+      "label": "after_accept",
+      "href": "https://www.after-certainty.com/",
+      "vaType": "function",
+      "vaqLen": 1,
+      "consentCookie": null,
+      "localStorageKeys": [],
+      "hasAcceptBtn": true
+    },
+    {
+      "label": "after_question",
+      "href": "https://www.after-certainty.com/questions/love-hard-to-explain",
+      "vaType": "function",
+      "vaqLen": 2,
+      "consentCookie": null,
+      "localStorageKeys": [],
+      "hasAcceptBtn": true
+    },
+    {
+      "label": "after_trail",
+      "href": "https://www.after-certainty.com/trails/accountability-and-enduring-authority",
+      "vaType": "function",
+      "vaqLen": 2,
+      "consentCookie": null,
+      "localStorageKeys": [],
+      "hasAcceptBtn": true
+    },
+    {
+      "label": "after_search",
+      "href": "https://www.after-certainty.com/search?q=certainty",
+      "vaType": "function",
+      "vaqLen": 2,
+      "consentCookie": null,
+      "localStorageKeys": [],
+      "hasAcceptBtn": true
+    },
+    {
+      "label": "after_search_typed",
+      "href": "https://www.after-certainty.com/search?q=judgment",
+      "vaType": "function",
+      "vaqLen": 3,
+      "consentCookie": null,
+      "localStorageKeys": [],
+      "hasAcceptBtn": true
+    }
+  ],
+  "finished_at": "2026-11-15T03:30:25.142Z"
+}

@@ -1,0 +1,1 @@
+{"version":1,"query":{"since":"2026-11-14T00:00:00.000Z","until":"2026-11-16T01:00:00.000Z","groupBy":["eventData/result_count_bucket","eventData/surface"],"filter":"environment eq 'production' and eventName eq 'site_search'","limit":20},"data":[{"eventData/result_count_bucket":"25+","eventData/surface":"full","visitors":2,"count":3}]}

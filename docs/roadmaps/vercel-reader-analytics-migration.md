@@ -1,6 +1,6 @@
 # Vercel reader analytics migration
 
-**Status:** Specialized plan — **corrective PR** (path-start queue stub + `site_search`); Gate 3 `corrective_pr_required`; PR 0–2 merged  
+**Status:** Specialized plan — corrective PR **#770 verified**; Gate 3 `retire_ga4` (owner approval pending); PR 0–2 merged  
 **Created:** 2026-10-17  
 **Revised:** 2026-11-14 (corrective instrumentation for mount-time Vercel queue + on-site search — PR 4 still blocked)  
 **Location:** `docs/roadmaps/vercel-reader-analytics-migration.md`  
@@ -513,10 +513,10 @@ Only after Gate 3 approval. Remove GA runtime completely; update privacy, CSP, e
 
 ## 15. Immediate next step
 
-After **PR 3** evaluation + review follow-up (2026-11-14) with recommendation **corrective_pr_required**:
+After **PR 3** evaluation + corrective **#770** production verification (2026-11-14 America/Denver) with recommendation **retire_ga4**:
 
 1. Observation window **2026-10-17 → 2026-11-13** is complete; packs re-validated with exclusive-end ISO bounds.  
-2. Land a corrective PR for `reading_path_started` production gap + minimal on-site search Vercel event (GSC ≠ in-site search).  
+2. Corrective PR #770 landed and PADE-verified (`reading_path_started` + bucketed `site_search`).  
 3. Owner must complete the approval row on [`docs/analytics/vercel-reader-analytics-parity-decision.md`](../analytics/vercel-reader-analytics-parity-decision.md) before any GA4 removal.  
 4. Do **not** start PR 4 (`chore/retire-ga4`) without that explicit human approval.
 
@@ -533,3 +533,4 @@ After **PR 3** evaluation + review follow-up (2026-11-14) with recommendation **
 | 2026-10-17 | PR 2 merged; PR 3 Gate 3 baseline + owner dual-write smoke; recommendation keep_parallel_longer |
 | 2026-11-14 | PR 3 final evaluation after observation window; initial retire_ga4 draft |
 | 2026-11-14 | Review follow-up: exclusive-end pack reconcile; recommend corrective_pr_required (path-start + on-site search); PR 4 still blocked |
+| 2026-11-14 | Corrective #770 verified in production; Gate 3 restores retire_ga4; PR 4 still blocked on owner approval |

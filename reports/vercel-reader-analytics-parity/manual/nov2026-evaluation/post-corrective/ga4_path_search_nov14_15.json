@@ -1,0 +1,9 @@
+{
+  "note": "GA4 runReport for eventName in [question_path_start, search_query, chapter_open, site_search] over 2026-11-14..2026-11-15 America/Denver returned no data rows (headers/metadata only). Same-day processing and/or low consented volume. Corrective verification gated on ungated Vercel events.",
+  "date_range": {
+    "startDate": "2026-11-14",
+    "endDate": "2026-11-15",
+    "timeZone": "America/Denver"
+  },
+  "raw_response_excerpt": "{\n  \"dimensionHeaders\": [\n    {\n      \"name\": \"eventName\"\n    },\n    {\n      \"name\": \"date\"\n    }\n  ],\n  \"metricHeaders\": [\n    {\n      \"name\": \"eventCount\",\n      \"type\": \"TYPE_INTEGER\"\n    }\n  ],\n  \"metadata\": {\n    \"currencyCode\": \"USD\",\n    \"timeZone\": \"America/Denver\"\n  },\n  \"kind\": \"analyticsData#runReport\"\n}"
+}
