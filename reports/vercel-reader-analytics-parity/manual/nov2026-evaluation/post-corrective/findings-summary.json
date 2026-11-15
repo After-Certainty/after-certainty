@@ -1,0 +1,86 @@
+{
+  "collected_at_utc": "2026-11-15T03:34:51Z",
+  "collected_at_america_denver": "2026-11-14 8:34 PM America/Denver",
+  "corrective_pr": 770,
+  "deploy": "PR #770 merged to main; production Ready after Site CI",
+  "vercel_window": {
+    "since": "2026-11-14T00:00:00.000Z",
+    "until_exclusive_request": "2026-11-16T00:00:00.000Z",
+    "filter": "environment eq 'production'"
+  },
+  "vercel_events_by_name": [
+    {
+      "eventName": "chapter_open",
+      "visitors": 2,
+      "count": 2
+    },
+    {
+      "eventName": "reading_path_started",
+      "visitors": 2,
+      "count": 3
+    },
+    {
+      "eventName": "site_search",
+      "visitors": 1,
+      "count": 2
+    }
+  ],
+  "reading_path_started": [
+    {
+      "eventName": "reading_path_started",
+      "visitors": 2,
+      "count": 3
+    }
+  ],
+  "reading_path_dims": [
+    {
+      "eventData/path_kind": "question",
+      "eventData/path_id": "love-hard-to-explain",
+      "visitors": 1,
+      "count": 1
+    },
+    {
+      "eventData/path_kind": "trail",
+      "eventData/path_id": "accountability-and-enduring-authority",
+      "visitors": 1,
+      "count": 1
+    },
+    {
+      "eventData/path_kind": "trail",
+      "eventData/path_id": "judgment-before-certainty",
+      "visitors": 1,
+      "count": 1
+    }
+  ],
+  "site_search": [
+    {
+      "eventName": "site_search",
+      "visitors": 1,
+      "count": 2
+    }
+  ],
+  "site_search_dims": [
+    {
+      "eventData/result_count_bucket": "25+",
+      "eventData/surface": "full",
+      "visitors": 2,
+      "count": 3
+    }
+  ],
+  "ga4_same_window": {
+    "note": "GA4 runReport for 2026-11-14..15 returned no rows yet (same-day processing / low consented volume). Vercel ungated verification is the corrective-PR gate.",
+    "artifact": "ga4_path_search_nov14_15.json"
+  },
+  "client_evidence": {
+    "stealth_playwright_artifacts": [
+      "stealth-path-search-client.json",
+      "stealth-site-search-probe.json"
+    ],
+    "insights_event_posts_observed": [
+      "reading_path_started {path_kind, path_id}",
+      "site_search {surface, has_results, result_count_bucket, query_length_bucket}"
+    ],
+    "bot_filter_note": "Plain Playwright webdriver kept window.va as queue stub; stealth init allowed collector to replace va and POST /_vercel/insights/event."
+  },
+  "conclusion": "Corrective PR verified in production. Gate 3 recommendation returns to retire_ga4; owner approval still required before PR 4."
+}

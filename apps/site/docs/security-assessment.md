@@ -19,7 +19,7 @@ flowchart LR
   VercelApp -->|local file load| LocalManifest[Installed semantic manifest]
   VercelApp -->|ISR fetch| PodcastRSS[Podcast RSS]
   GHActions[GitHub Actions content repo] -->|Bearer CACHE_REVALIDATE_SECRET| Revalidate["POST /api/cache/revalidate"]
-  Browser -->|public scripts| GA[GA4 and Vercel Analytics]
+  Browser -->|public scripts| VA[Vercel Analytics and Speed Insights]
 ```
 
 There is no end-user authentication and no newsletter/Beehiiv integration. Sensitive trust boundaries are:
@@ -53,7 +53,7 @@ No Pages Router API routes. No `"use server"` Server Actions.
 | --------------------------------------------------------------------------------------- | ----------------------------------- | ------------------------------ |
 | `NEXT_PUBLIC_SITE_URL`                                                                  | Yes                                 | Canonical origin               |
 | `NEXT_PUBLIC_SOCIAL_*` / `NEXT_PUBLIC_PODCAST_*` / `NEXT_PUBLIC_GITHUB_DISCUSSIONS_URL` | Yes                                 | Public link overrides          |
-| `NEXT_PUBLIC_GA_MEASUREMENT_ID`                                                         | Yes                                 | GA4 (default `G-H7FSEF4WLW`)   |
+| `NEXT_PUBLIC_VERCEL_ANALYTICS_PROPERTY_LIMIT`                                           | Yes                                 | Optional 2 vs 8 prop budget    |
 | `CACHE_REVALIDATE_SECRET`                                                               | No                                  | Revalidate Bearer              |
 | `PODCAST_RSS_URL`                                                                       | Value may appear in HTML / redirect | RSS fetch + `/feed.xml` target |
 | `SEMANTIC_MANIFEST_USE_LOCAL` / `SEMANTIC_MANIFEST_OFFLINE`                             | No                                  | Local/offline manifest loading |

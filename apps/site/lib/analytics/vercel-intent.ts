@@ -1,6 +1,5 @@
-import { track } from "@vercel/analytics";
-
 import { trackReaderEvent } from "@/lib/analytics/reader";
+import { trackVercelEvent } from "@/lib/analytics/vercel-track";
 
 export type CorpusType =
   | "source"
@@ -82,9 +81,5 @@ export function trackVercelIntent(event: IntentEvent): void {
     trackReaderEvent({ name: "corpus_navigation", properties: event.properties });
     return;
   }
-  try {
-    track(event.name, event.properties);
-  } catch {
-    // Best effort: measurement must not block navigation, selection, or playback.
-  }
+  trackVercelEvent(event.name, event.properties);
 }

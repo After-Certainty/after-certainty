@@ -381,6 +381,90 @@ def assert_gate_decision_untouched(art_dir: Path, before: dict[str, Any] | None)
         raise SystemExit("error: regenerating comparison-summary mutated gate-decision.json")
 
 
+def load_vercel_payloads_from_dir(pack_dir: Path) -> dict[str, Any]:
+    """Load every ``*.json`` Vercel-shaped payload under ``pack_dir`` (non-recursive)."""
+    payloads: dict[str, Any] = {}
+    if not pack_dir.is_dir():
+        raise SystemExit(f"error: pack directory missing: {pack_dir}")
+    for path in sorted(pack_dir.glob("*.json")):
+        payload = load_json(path)
+        if not isinstance(payload, dict):
+            continue
+        if payload.get("status") == "unavailable":
+            continue
+        if "query" not in payload or "data" not in payload:
+            continue
+        assert_vercel_payload_shape(payload, path=path)
+        payloads[path.name] = payload
+    if not payloads:
+        raise SystemExit(f"error: no Vercel query payloads found in {pack_dir}")
+    return payloads
+
+
+def _is_day_series_payload(payload: dict[str, Any]) -> bool:
+    """True when the report is a daily timeseries (``by=day``), not a dimension table."""
+    query = payload.get("query") or {}
+    group_by = query.get("groupBy") or query.get("by") or []
+    if isinstance(group_by, str):
+        group_by = [group_by]
+    if any(str(g).lower() in {"day", "date"} for g in group_by):
+        return True
+    data = payload.get("data")
+    if isinstance(data, list) and data and isinstance(data[0], dict):
+        keys = {str(k).lower() for k in data[0]}
+        if "timestamp" in keys or keys >= {"day"}:
+            return True
+    return False
+
+
+def validate_evidence_pack_dir(
+    pack_dir: Path,
+    *,
+    since: str,
+    until_inclusive: str,
+) -> list[str]:
+    """Validate a manual/evaluation pack uses one exclusive-end calendar day.
+
+    Callers must request Vercel ``until`` as the day **after** ``until_inclusive``
+    (ISO ``…T00:00:00.000Z`` via :func:`vercel_iso_request_bounds`). Passing the
+    inclusive end date alone can resolve ``*/aggregate`` to that day's ``T01:00``
+    while ``visits/count`` advances a full day — mixed exclusive-end days.
+
+    ``by=day`` timeseries often resolve ``until`` one UTC calendar day later at
+    ``T00:00`` and may include an extra trailing day bucket; those files are
+    checked separately so they do not weaken the visits/events exclusive-end rule.
+    """
+    until_param = expected_vercel_until_utc(until_inclusive)
+    payloads = load_vercel_payloads_from_dir(pack_dir)
+    core = {name: p for name, p in payloads.items() if not _is_day_series_payload(p)}
+    day_series = {name: p for name, p in payloads.items() if _is_day_series_payload(p)}
+    if not core:
+        raise SystemExit(f"error: no non-day Vercel payloads to validate in {pack_dir}")
+    notes = validate_vercel_query_bounds(
+        core,
+        since=since,
+        until_inclusive=until_inclusive,
+        until_param=until_param,
+    )
+    expected_until_day = _until_utc_date(expected_vercel_until_utc(until_inclusive))
+    next_day = (date.fromisoformat(expected_until_day) + timedelta(days=1)).isoformat()
+    for name, payload in day_series.items():
+        ru = str((payload.get("query") or {}).get("until") or "")
+        ru_day = _until_utc_date(ru) if ru else ""
+        if ru_day not in {expected_until_day, next_day}:
+            raise SystemExit(
+                f"error: day-series {name} until day {ru_day!r} not in "
+                f"{{{expected_until_day}, {next_day}}} (resolved until={ru!r})"
+            )
+        if ru_day == next_day:
+            notes.append(
+                f"{name}: by=day resolved until to {ru} (exclusive-end day + 1 at T00) — "
+                "platform quirk; trailing UTC day buckets may be incomplete and should not "
+                "drive headline visitor totals (use visits/count)."
+            )
+    return notes
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -401,6 +485,14 @@ def main(argv: list[str] | None = None) -> int:
     )
     p_check.add_argument("--art-dir", type=Path, required=True)
     p_check.add_argument("--before", type=Path, required=True)
+
+    p_pack = sub.add_parser(
+        "validate-evidence-pack",
+        help="Validate a directory of Vercel JSON queries share one exclusive-end day",
+    )
+    p_pack.add_argument("--pack-dir", type=Path, required=True)
+    p_pack.add_argument("--since", required=True, help="Inclusive since YYYY-MM-DD")
+    p_pack.add_argument("--until", required=True, help="Inclusive until YYYY-MM-DD")
 
     args = parser.parse_args(argv)
 
@@ -423,6 +515,17 @@ def main(argv: list[str] | None = None) -> int:
         before = load_json(args.before)
         assert_gate_decision_untouched(args.art_dir, before)
         print("gate-decision.json unchanged")
+        return 0
+
+    if args.cmd == "validate-evidence-pack":
+        notes = validate_evidence_pack_dir(
+            args.pack_dir,
+            since=args.since,
+            until_inclusive=args.until,
+        )
+        for note in notes:
+            print(note)
+        print(f"evidence pack OK: {args.pack_dir}")
         return 0
 
     return 1

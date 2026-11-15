@@ -7,6 +7,10 @@ description: >-
   reports, weekly metrics, or a regular analytics check.
 ---
 
+> **LEGACY (Gate 4):** Google Analytics was retired from the site runtime. Prefer the
+> [`reader-analytics`](../reader-analytics/SKILL.md) skill and PADE `vercel.analytics.read`.
+> This skill remains for historical GA4 property reads only until archived.
+
 # GA4 trends (After Certainty)
 
 ## Auth paths

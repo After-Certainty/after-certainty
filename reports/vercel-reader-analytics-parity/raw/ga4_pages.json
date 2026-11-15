@@ -18,57 +18,12 @@
     {
       "dimensionValues": [
         {
-          "value": "/listen"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "16"
-        },
-        {
-          "value": "1"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/"
+          "value": "/explore/books/everyone-knows-love/chapters/parts-part-1-everyone-knows-love-chapter-1-everyone-knows-love"
         }
       ],
       "metricValues": [
         {
           "value": "7"
-        },
-        {
-          "value": "2"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/explore/books/everyone-knows-love/chapters/back-matter-other-observers"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "2"
-        },
-        {
-          "value": "1"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/explore/books/when-others-look-to-you-v1"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "2"
         },
         {
           "value": "1"
@@ -83,7 +38,22 @@
       ],
       "metricValues": [
         {
-          "value": "1"
+          "value": "4"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
         },
         {
           "value": "1"
@@ -93,7 +63,37 @@
     {
       "dimensionValues": [
         {
-          "value": "/explore/books/when-authority-outlives-accountability"
+          "value": "/explore/sources/goodhart-charles-a-e-problems-of-monetary-management-the-u-k"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/listen"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/explore/books/everyone-knows-love"
         }
       ],
       "metricValues": [
@@ -108,7 +108,7 @@
     {
       "dimensionValues": [
         {
-          "value": "/explore/books/when-authority-outlives-accountability/chapters/front-matter-preface"
+          "value": "/explore/books/everyone-knows-love/chapters/front-matter-preface"
         }
       ],
       "metricValues": [
@@ -123,22 +123,7 @@
     {
       "dimensionValues": [
         {
-          "value": "/explore/songs/again-differently"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "1"
-        },
-        {
-          "value": "1"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/start"
+          "value": "/explore/books/everyone-knows-love/chapters/parts-part-1-everyone-knows-love-bridge"
         }
       ],
       "metricValues": [
@@ -151,7 +136,7 @@
       ]
     }
   ],
-  "rowCount": 9,
+  "rowCount": 8,
   "metadata": {
     "currencyCode": "USD",
     "timeZone": "America/Denver"
