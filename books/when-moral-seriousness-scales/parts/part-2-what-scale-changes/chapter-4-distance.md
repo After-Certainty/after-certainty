@@ -6,7 +6,7 @@ Now imagine the view from a regional office responsible for dozens of programs. 
 
 The reports it receives may be careful and accurate. They can still leave out something morally important.
 
-## What a useful number cannot tell us
+## What a Useful Number Cannot Tell Us
 
 A regional dashboard might show completed pickups by location. At a site where a new schedule has made pickup difficult, the number may fall. That decline could mean fewer people need assistance, that recipients have found alternatives, or that they cannot reach the door before it closes. The same number can support very different accounts of what happened.
 
@@ -18,7 +18,7 @@ It is tempting to say that harm becomes statistical at scale. More precisely, *s
 
 Arendt's discussion of administrative and moral judgment helps frame the danger of proceeding through authorized categories without examining their consequences.[^c4-arendt-eichmann-in-jerusalem] It does not establish that data is itself suspect. A better question is what a measure allows an organization to notice—and what it permits the organization not to ask.
 
-## The distance created by translation
+## The Distance Created by Translation
 
 When a problem moves through an institution, it changes form. A recipient reports a missed pickup to a volunteer. The volunteer records it in a site log. A manager categorizes the incident. A regional analyst compares totals across sites. By the time a scheduling committee sees the report, it may have become a trend line or an exception count.
 
@@ -28,7 +28,7 @@ They can also make particular questions harder to carry forward. If the reportin
 
 Responsibility does not disappear in this process, but it becomes difficult to locate. Each person can say, accurately, that they performed the part of the job they were given. Whether their combined work answers for the result is a different question.
 
-## When the answer arrives late
+## When the Answer Arrives Late
 
 Distance also changes timing. In a neighborhood program, a complaint can interrupt a conversation before the following week's schedule is set. In a network, collecting enough information to recognize a pattern can take weeks. By then drivers may have been trained, budgets assigned, and other sites organized around the new hours.
 
@@ -38,7 +38,7 @@ But commitments create their own momentum. The longer an organization waits to d
 
 Imagine a site manager asking the regional office to revisit a pickup time. The office may genuinely want to help, yet need another data cycle, an operations review, and an approval from a team responsible for every other site. The person waiting for food does not experience those steps as separate good intentions. They experience a door that keeps closing at the same time.
 
-## Reconstructing what proximity once supplied
+## Reconstructing What Proximity Once Supplied
 
 A larger institution cannot simply restore face-to-face knowledge everywhere. The work of coordination would overwhelm its ability to act. Nor should it treat the loudest or most vivid story as a substitute for evidence; an encounter can reveal a neglected problem without telling us how widespread it is.
 

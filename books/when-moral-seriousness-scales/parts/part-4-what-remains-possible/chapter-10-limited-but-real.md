@@ -6,7 +6,7 @@ They can, under some conditions, prevent a particular consequence from being tre
 
 This is an unspectacular claim. It may also be the most that the argument of this book can responsibly sustain.
 
-## What would count as progress?
+## What Would Count as Progress?
 
 It would be easy to measure moral seriousness by the moments in which a leader gives up power, a harmful rule disappears, or an institution announces a change of direction. Such events matter. They are also only part of the story.
 
@@ -22,7 +22,7 @@ The difference may be incomplete and difficult to quantify. It is still real.
 
 Leadership research often emphasizes the work of keeping difficult problems open long enough for people to confront their actual constraints rather than accept an attractive easy answer.[^c10-heifetz-leadership-without-easy] That work matters only insofar as it makes some response possible. An endless invitation to discuss can become another way of withholding one.
 
-## When constraint survives without victory
+## When Constraint Survives Without Victory
 
 A person may keep a decision contestable and still lose the argument. A leader may accept a limit and still find themselves disadvantaged by others who do not. A carefully designed review may prevent one kind of harm while allowing another to remain.
 
@@ -34,7 +34,7 @@ Arendt's work on judgment and authority reminds us that action occurs without co
 
 At scale, that revision cannot rely entirely on one perceptive manager. It needs institutional forms that survive changes in personnel and moments of goodwill. Yet even good forms can harden into ritual. There is no final structure that makes the continuing work unnecessary.
 
-## The price of keeping a question open
+## The Price of Keeping a Question Open
 
 In the neighborhood program, Mara might return after the trial and explain that the reserved bags still do not work for her. A serious response would not automatically reopen the kitchen for another half hour. It might involve finding a pickup partner, revising staffing, or admitting that the program lacks resources to offer the access it wants to offer.
 
@@ -48,7 +48,7 @@ There are limits. A community can ask too much of those willing to listen. A lea
 
 Moral seriousness includes acknowledging those limits, not simply demanding more sacrifice from the people already trying to act carefully.
 
-## A smaller claim worth preserving
+## A Smaller Claim Worth Preserving
 
 At the beginning of this book, the human-scale model made moral seriousness feel intelligible: encounter the consequences, accept reciprocal limits, and preserve room for challenge. Scale complicated each condition. Distance changed what could be seen; asymmetry changed who absorbed costs; speed made some choices easier to complete than others.
 

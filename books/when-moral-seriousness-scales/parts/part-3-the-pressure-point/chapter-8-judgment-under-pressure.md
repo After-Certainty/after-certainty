@@ -6,7 +6,7 @@ But speed is not the only possible form of avoidance. Endless consultation can a
 
 Judgment matters because neither haste nor delay can settle the question of what should be done.
 
-## Thinking while the decision is still unfinished
+## Thinking While the Decision Is Still Unfinished
 
 Return to Amir's decision about the regional routes. He had reasons to approve the new schedule quickly. Nina had reasons to ask for time. It would have been easy to sort them into familiar roles: the efficient director and the caring local manager, or the responsible director and the obstructive local manager.
 
@@ -20,7 +20,7 @@ Under pressure, organizations often answer those questions implicitly. The appro
 
 Arendt's reflections on responsibility and judgment are useful because they resist reducing thought to conformity with the categories an institution supplies.[^c8-arendt-responsibility-and-judgment] A person remains answerable for how those categories are used, even when the surrounding conditions are difficult.
 
-## Not all pauses are acts of restraint
+## Not All Pauses Are Acts of Restraint
 
 It is tempting to identify moral seriousness with moving more slowly. But delay has beneficiaries and victims too.
 
@@ -32,7 +32,7 @@ What matters is not speed in isolation but whether the reasons for choosing it a
 
 Rosa's work on social acceleration gives us a way to understand why institutions can come to treat quick response as a standing demand.[^c8-rosa-social-acceleration] The danger is not the existence of deadlines. It is the assumption that because something can be completed today, the questions that remain open have somehow become less important.
 
-## The difference between thought and ritual
+## The Difference Between Thought and Ritual
 
 Organizations can build elaborate procedures that appear to require judgment without giving anyone the ability to alter an outcome.
 
@@ -44,7 +44,7 @@ Kahneman's account of how people use different modes of thinking offers useful c
 
 This requires both permission and responsibility. Permission to question the timetable without being dismissed as unserious. Responsibility to answer when the timetable is genuinely necessary.
 
-## Where the burden should land
+## Where the Burden Should Land
 
 The most meaningful feature of Amir and Nina's compromise was not that it delayed one route. It was that the regional office agreed to carry part of the work created by the uncertainty. Dispatch would calculate the cost of a temporary exception. The local site would gather information on workable pickups. The decision would be revisited at a defined point.
 
@@ -58,7 +58,7 @@ That kind of judgment can be hard to reward. The best evidence of its value may 
 
 Still, the uncertainty does not make the work imaginary.
 
-## Refusing the comfort of inevitability
+## Refusing the Comfort of Inevitability
 
 A structure can make some actions more likely without making them unavoidable. That distinction is not a comforting promise that courage will always be enough. An individual may have little power to alter the rules, and may pay a high price for refusing to follow their momentum.
 

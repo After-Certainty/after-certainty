@@ -6,7 +6,7 @@ This distinction is easy to miss in small groups. A leader can be kind, responsi
 
 **Contestability** is the capacity to question a decision, have the challenge reach someone who can reconsider it, and remain a legitimate participant afterward. It does not require the challenger to prevail. It requires a credible possibility that authority can be corrected.
 
-## From hearing a concern to revisiting a decision
+## From Hearing a Concern to Revisiting a Decision
 
 Suppose the reserved-bag trial works for families who can send a neighbor but not for those who cannot. Mara returns to Elena and explains the gap. The question is no longer simply whether anyone has listened to Mara. It is whether the terms of the trial can change because of what she has learned.
 
@@ -18,7 +18,7 @@ The second answer can be legitimate. The point is not to convert every complaint
 
 Political accounts of authority and tradition can help distinguish durable institutions from authority that cannot be questioned on its own terms.[^c3-arendt-between-past-and] The practical question is whether a person can challenge a particular exercise of power without being required to renounce the whole community.
 
-## Dissent has a social price
+## Dissent Has a Social Price
 
 The original human-scale model risks an attractive mistake: assuming that because people know one another, disagreement is survivable.
 
@@ -30,7 +30,7 @@ Hirschman's distinction between **voice**, **exit**, and **loyalty** is useful h
 
 That is why contestability is more demanding than an open-door policy. A door can be open while the social cost of walking through it is intolerable.
 
-## Authority that can survive being wrong
+## Authority That Can Survive Being Wrong
 
 There is a temptation, especially for conscientious leaders, to interpret a challenge as a verdict on their integrity. Elena might hear a criticism of the hours as a suggestion that she has failed the people who depend on her. She might respond by explaining, again, how difficult the volunteers' situation had become.
 
@@ -44,7 +44,7 @@ In practice, the program might decide after a month that reserved bags help some
 
 No process can promise a satisfactory remedy to everyone. What it can promise, within limits, is that a decision does not escape scrutiny by becoming routine.
 
-## What grows more difficult
+## What Grows More Difficult
 
 So far we have examined three conditions at human scale: proximity can expose consequences; reciprocal constraint can make others' limits consequential; and contestability can give disagreement a path toward revision.
 

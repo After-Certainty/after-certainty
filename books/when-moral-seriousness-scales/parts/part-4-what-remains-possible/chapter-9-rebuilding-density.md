@@ -6,7 +6,7 @@ The point of their compromise was not to erase that distance. It was to create a
 
 That is the limited sense in which a large institution might **rebuild moral density**. It can make consequences more visible, give objections a usable route toward authority, and distribute some of the costs of correction more fairly. None of this reproduces a small community. It creates conditions in which judgment has a chance to reach across scale.
 
-## A complaint needs somewhere to arrive
+## A Complaint Needs Somewhere to Arrive
 
 Consider a regional network that can count deliveries but does not know how many people miss a pickup because of a schedule change. It might begin recording unsuccessful arrivals as well as completed transactions. That would be an improvement, but only a partial one. Some people will stop trying and never appear in either count.
 
@@ -16,7 +16,7 @@ The harder design question is who receives the information. A committee that fil
 
 Research on institutions and organizational cultures helps explain why formally similar rules can produce different habits of attention and response.[^c9-olsen-rediscovering-institutions][^c9-schein-organizational-culture-and] That does not mean culture is a substitute for authority. A willingness to listen matters most when somebody also has the power, and the obligation, to act on what is heard.
 
-## Keep some decisions close, but not all of them
+## Keep Some Decisions Close, but Not All of Them
 
 One response to distance is to give local teams more discretion. Nina may know more about which pickup arrangement works for her community than the regional scheduling office. Letting her make a limited exception could prevent the loss of access that a uniform policy creates.
 
@@ -28,7 +28,7 @@ The question is therefore not *centralize or decentralize?* It is *which decisio
 
 Selznick's account of institutional leadership suggests that an organization's stated purposes depend on how authority and responsibility are actually arranged.[^c9-selznick-leadership-in-administration] Giving a local team a voice without resources can be another way of assigning it the burden of a regional decision.
 
-## Friction that earns its cost
+## Friction That Earns Its Cost
 
 A review step can prevent a harmful rollout. It can also delay an obvious repair. A requirement for local consultation may uncover an excluded group, or it may become a checkbox that people learn to complete without listening. Every safeguard asks someone to spend time and attention that could have been used elsewhere.
 
@@ -40,7 +40,7 @@ Political and institutional accounts of participation and authority give us ways
 
 The same holds for expiration and renewal. A recurring approval can provide a real opportunity to revise authority, or it can merely reaffirm what everyone already considers settled. The date on a calendar is not the source of accountability. The possibility of genuine reconsideration is.
 
-## Whose time pays for accountability?
+## Whose Time Pays for Accountability?
 
 The strongest test of a proposed safeguard may be who must perform the work it requires.
 
@@ -52,7 +52,7 @@ Nor should an organization be allowed to claim success simply because it has cre
 
 These outcomes deserve the same scrutiny as the original failure.
 
-## A conditional possibility
+## A Conditional Possibility
 
 There is no universal institutional design that restores the conditions of a kitchen conversation across a regional network. Larger systems need aggregation, predictable rules, and decisions that are not remade from scratch each day. Smaller units need boundaries too. Neither scale offers innocence.
 

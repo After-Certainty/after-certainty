@@ -6,7 +6,7 @@ The regional office and the neighborhood site may be looking at the same schedul
 
 Distance makes that unevenness easier to sustain, but it does not create every instance of it. Families, small teams, and intimate communities can have profound asymmetries too. The difference at scale is that such arrangements can persist across many decisions without anyone having to confront the full pattern.
 
-## Whose work counts as a cost?
+## Whose Work Counts as a Cost?
 
 A new delivery plan might reduce driving time and late arrivals across the network. Those improvements matter. A site manager might nevertheless spend extra hours arranging pickups for households whose work shifts do not fit the new timetable.
 
@@ -18,7 +18,7 @@ The burden is unequal in another way. Regional staff can describe the rollout's 
 
 Merton's work on bureaucracy helps illuminate how fidelity to an organizational procedure can become detached from the reasons the procedure was created.[^c5-merton-bureaucratic-structure-and] A well-functioning process may be doing the task it was given. The question is whether that task captures all of what the institution owes the people it serves.
 
-## Authority without comparable exposure
+## Authority Without Comparable Exposure
 
 An executive may face substantial pressure: budgets, deadlines, other sites waiting for improvement, and accountability to funders. It would be inaccurate to say they are unconstrained. The relevant distinction is *which* consequences they are exposed to and how quickly those consequences return.
 
@@ -28,7 +28,7 @@ At the local site, the manager may know the damage but lack permission to alter 
 
 This is why selective constraint changes the practice of moral seriousness. A person who absorbs a difficult consequence may be praised for flexibility and care, but their willingness to absorb it can also prevent the institution from noticing that its policy imposes that burden repeatedly.
 
-## Voice is not evenly available
+## Voice Is Not Evenly Available
 
 An asymmetry of decision rights is often accompanied by an asymmetry of voice. The regional director can ask for a summary and reasonably expect one. A site manager must decide how to make a concern legible in the terms the director is using. A recipient may not know whom to ask, or may hesitate to challenge a service on which they depend.
 
@@ -38,7 +38,7 @@ This is not a reason to distrust every formal consultation. It is a reason not t
 
 The strongest challenge may come from someone who can describe the system's blind spot but cannot yet propose a workable alternative. If the institution requires a complete replacement plan before treating the objection as serious, it has converted a difference in power into a difference in credibility.
 
-## Friction is displaced, not removed
+## Friction Is Displaced, Not Removed
 
 Organizations often describe a simpler approval process as the removal of friction. Sometimes it is. Repeated signatures and needless duplication can make a worthwhile change impossible. But in other cases the friction has merely moved.
 

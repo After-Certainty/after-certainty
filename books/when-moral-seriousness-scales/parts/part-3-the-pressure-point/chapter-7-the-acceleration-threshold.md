@@ -10,7 +10,7 @@ Nothing in that moment requires the manager to abandon her concern. But the cost
 
 This is where the incentive gradient can become a pressure point.
 
-## When restraint starts to look one-sided
+## When Restraint Starts to Look One-sided
 
 The **acceleration threshold** is not a measurable speed or a particular moment on a calendar. It is the point at which a person begins to experience continued restraint as a disadvantage that others need not share.
 
@@ -24,7 +24,7 @@ The threshold becomes dangerous when the question changes from *Is this limit ju
 
 The second question can contain a real grievance. It also invites an answer that depends on other people's behavior rather than the merits of the decision at hand.
 
-## Defensive imitation
+## Defensive Imitation
 
 Suppose a regional office begins requiring more evidence before it grants local exceptions. The change might be defensible: the office has discovered that different sites are submitting inconsistent requests, and the inconsistency complicates routing.
 
@@ -36,7 +36,7 @@ Jervis's analysis of perception and misperception in competitive settings is rel
 
 Over time, participants may stop asking whether the original limits were useful and start asking only how to avoid carrying more of their cost than anyone else.
 
-## What hardening looks like from the inside
+## What Hardening Looks Like From the Inside
 
 The change seldom arrives with a declaration that care is being abandoned. It arrives as a request for clearer standards, shorter approvals, stronger verification, and fewer exceptions.
 
@@ -48,7 +48,7 @@ The most consequential shift may happen before a rule is formally changed. A man
 
 These are small acts of adaptation. Their cumulative effect can be a system in which fewer people believe that judgment belongs to them.
 
-## A threshold is not a point of no return
+## A Threshold Is Not a Point of No Return
 
 It would be a mistake to imagine a final moment when everyone must choose either perfect restraint or inevitable escalation. People often recognize the pressure after they have already accommodated it. They can still change course.
 

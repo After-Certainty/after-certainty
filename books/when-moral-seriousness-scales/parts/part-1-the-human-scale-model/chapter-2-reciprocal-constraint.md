@@ -6,7 +6,7 @@ That imbalance matters. In Chapter 1, proximity allowed a missed pickup to becom
 
 The question here is what makes listening consequential.
 
-## What reciprocity actually requires
+## What Reciprocity Actually Requires
 
 **Reciprocal constraint** describes an arrangement in which people who exercise power remain answerable to others whose cooperation, judgment, and continued participation matter. It does not require everyone to have the same role, risk, or resources. It requires that the limits experienced by one person can genuinely alter what another is permitted or prepared to do.
 
@@ -18,7 +18,7 @@ In a family or a team, people often develop an intuitive understanding of this k
 
 But mutual dependence can be coercive as well as corrective. A child may have no practical option to leave a household. An employee may need a paycheck more than a manager needs that particular employee. A community member may stay silent because the cost of losing belonging is too high. We should not mistake endurance for consent.
 
-## The burden of the next conversation
+## The Burden of the Next Conversation
 
 Imagine the volunteer meeting after the pickup hours changed. One person is worried about exhaustion. Another wants to protect access for people whose employers control their shifts. Elena is responsible for choosing what can be promised.
 
@@ -30,7 +30,7 @@ Those actions make the decision responsive to information that could otherwise b
 
 A speaking-up culture has practical value because problems do not correct themselves when people are afraid to name them.[^c2-edmondson-the-fearless-organization] An invitation to speak is only a beginning, however. If every objection must be translated into a solution the objector can implement alone, the person with less authority is still carrying most of the cost of correction.
 
-## Shared vulnerability is not equal vulnerability
+## Shared Vulnerability Is Not Equal Vulnerability
 
 It is tempting to describe reciprocal systems as symmetrical. This is too clean. People almost never arrive with equal freedom to refuse, leave, or negotiate.
 
@@ -44,7 +44,7 @@ Consider what happens when Elena is absent. If the ability to revisit the hours 
 
 That distinction will matter even more when the organization grows.
 
-## The limits of good intentions
+## The Limits of Good Intentions
 
 Reciprocal constraint helps explain why restraint can become an ordinary part of shared work. Decisions remain open to feedback; the people whose cooperation makes the work possible can resist unreasonable demands; tomorrow's relationships discourage treating today's losses as disposable.
 
