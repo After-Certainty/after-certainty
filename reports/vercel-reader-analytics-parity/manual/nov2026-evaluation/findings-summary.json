@@ -20,7 +20,7 @@
       "until": "2026-11-06"
     }
   },
-  "recommendation": "corrective_pr_required",
+  "recommendation": "retire_ga4",
   "vercel_full": {
     "visitors": 1860,
     "pageviews": 3069,
@@ -94,13 +94,31 @@
     "ga4_note": "All 5 events fall on/after PR1 merge day \u2014 not pre-instrumentation",
     "vercel_reading_path_started_full_window": [],
     "code": "QuestionPathAnalytics and TrailPathAnalytics call trackReaderEvent(reading_path_started) which dual-writes Vercel then GA",
-    "conclusion": "Production gap persists with corrected windows; classify corrective_pr_required before retire_ga4",
+    "conclusion": "Corrective PR #770 closed the production gap; verified via PADE + Playwright",
     "owner_smoke_without_agent_browser": [
       "On production, Accept cookies",
       "Open /questions/<slug> and /trails/<slug>",
       "Query Vercel events for reading_path_started with since=today until=tomorrow ISO exclusive",
       "Query GA4 realtime/report for question_path_start / trail_path_start",
       "Record both results under manual/ before approving retirement"
-    ]
+    ],
+    "post_corrective_vercel": {
+      "count": 3,
+      "visitors": 2
+    }
+  },
+  "post_corrective": {
+    "corrective_pr": 770,
+    "verified_at_utc": "2026-11-15T03:34:51Z",
+    "artifacts_dir": "manual/nov2026-evaluation/post-corrective/",
+    "reading_path_started": {
+      "count": 3,
+      "visitors": 2
+    },
+    "site_search": {
+      "count": 2,
+      "visitors": 1
+    },
+    "conclusion": "Corrective gaps closed; Gate 3 restores retire_ga4; approval still pending"
   }
 }

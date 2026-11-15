@@ -1,18 +1,20 @@
 {
   "schema": "gate3-decision/v1",
-  "recommendation": "corrective_pr_required",
+  "recommendation": "retire_ga4",
   "pr1_merged_at_utc": "2026-10-17T21:15:09Z",
   "pr2_merged_at_utc": "2026-10-17T22:14:33Z",
   "earliest_revisit_date": "2026-10-31",
   "preferred_decision_date": "2026-11-14",
   "final_evaluation_date": "2026-11-14",
   "decision_report": "docs/analytics/vercel-reader-analytics-parity-decision.md",
-  "observation_window_note": "Gate 3 required 2–4 weeks after PR 1. Full completed Denver observation 2026-10-17 → 2026-11-13; packs re-collected with exclusive-end ISO bounds after review.",
+  "observation_window_note": "Gate 3 required 2–4 weeks after PR 1. Full completed Denver observation 2026-10-17 → 2026-11-13; packs re-collected with exclusive-end ISO bounds after review. Corrective PR #770 verified in production 2026-11-14 (America/Denver).",
   "november_evaluation": {
-    "status": "completed_with_review_followup",
+    "status": "completed_post_corrective_verified",
     "collected_at_utc": "2026-11-15T02:29:45Z",
     "reconciled_at_utc": "2026-11-15T03:10:00Z",
+    "post_corrective_verified_at_utc": "2026-11-15T03:34:51Z",
     "artifacts_dir": "manual/nov2026-evaluation/",
+    "post_corrective_dir": "manual/nov2026-evaluation/post-corrective/",
     "findings_summary": "manual/nov2026-evaluation/findings-summary.json",
     "windows": {
       "full_denver_inclusive": { "since": "2026-10-17", "until": "2026-11-13" },
@@ -56,19 +58,44 @@
       "method": "code_inspection_and_pade_api_only",
       "computer_use": false,
       "ga4_question_path_start_dates": { "20261017": 1, "20261023": 3, "20261024": 1 },
-      "vercel_reading_path_started": "empty",
-      "conclusion": "Production gap remains after window fix; requires corrective PR before retire_ga4"
+      "vercel_reading_path_started_pre_corrective": "empty",
+      "root_cause": "track() does not init window.va; mount-time effects could run before Analytics inject and drop events",
+      "corrective_pr": 770,
+      "conclusion": "Corrective PR landed and production-verified"
     },
     "onsite_search": {
       "ga4_search_query": 35,
       "gsc_covers_onsite_search": false,
-      "proposal": "Add minimal privacy-safe Vercel site_search with result_count buckets in corrective PR"
+      "vercel_event": "site_search",
+      "privacy": "bucket props only (surface, has_results, result_count_bucket, query_length_bucket); no raw query text",
+      "corrective_pr": 770
+    },
+    "post_corrective_verification": {
+      "corrective_pr": 770,
+      "method": "shell_playwright_stealth_plus_pade",
+      "computer_use": false,
+      "artifacts_dir": "manual/nov2026-evaluation/post-corrective/",
+      "vercel_since": "2026-11-14T00:00:00.000Z",
+      "vercel_until_exclusive": "2026-11-16T00:00:00.000Z",
+      "reading_path_started": { "count": 3, "visitors": 2 },
+      "reading_path_dims": [
+        { "path_kind": "question", "path_id": "love-hard-to-explain", "count": 1 },
+        { "path_kind": "trail", "path_id": "accountability-and-enduring-authority", "count": 1 },
+        { "path_kind": "trail", "path_id": "judgment-before-certainty", "count": 1 }
+      ],
+      "site_search": { "count": 2, "visitors": 1 },
+      "site_search_dims": [
+        { "result_count_bucket": "25+", "surface": "full", "count": 3, "visitors": 2 }
+      ],
+      "client_insights_event_posts_observed": true,
+      "conclusion": "Both corrective gaps closed in production Vercel aggregates"
     },
     "residual_risks": [
-      "reading_path_started absent on Vercel while GA4 recorded question_path_start=5 after PR1",
-      "On-site search not dual-written; GSC is not a substitute"
+      "Consent / privacy review still required before GA runtime removal",
+      "Headline Vercel visitors remain SG/empty-referrer inflated — prefer custom reader events",
+      "Exact per-action dual-write parity was never claimed"
     ],
-    "recommendation_rationale": "Primary chapter/corpus/audio events work, but path-start dual-write fails in production aggregates and on-site search would be lost without a Vercel replacement. Corrective PR required before retirement."
+    "recommendation_rationale": "Primary reader vocabulary works; path-start and bucketed site_search verified on Vercel after PR #770. Ready for owner approval of retire_ga4; do not open PR 4 without approval."
   },
   "owner_smoke": {
     "status": "both_providers_observed_reader_events",
@@ -117,9 +144,9 @@
     }
   },
   "prior_recommendation": {
-    "recommendation": "retire_ga4",
+    "recommendation": "corrective_pr_required",
     "as_of": "2026-11-14",
-    "note": "Initial November draft before review follow-up; superseded by corrective_pr_required after window reconcile + path-start/search findings."
+    "note": "Review follow-up after window reconcile + path-start/search gaps; superseded by retire_ga4 after PR #770 production verification."
   },
   "baseline_recommendation": {
     "recommendation": "keep_parallel_longer",

@@ -1,0 +1,1 @@
+{"version":1,"query":{"since":"2026-11-14T00:00:00.000Z","until":"2026-11-16T01:00:00.000Z","groupBy":["eventName"],"filter":"environment eq 'production' and eventName eq 'reading_path_started'","limit":10},"data":[{"eventName":"reading_path_started","visitors":2,"count":3}]}
