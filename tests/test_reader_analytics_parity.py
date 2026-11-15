@@ -184,14 +184,16 @@ def test_validate_evidence_pack_dir_rejects_mixed_exclusive_end_days(tmp_path: P
     """Manual packs that pass inclusive until= as a bare date can skew aggregates a day early."""
     pack = tmp_path / "current"
     pack.mkdir()
+    since = "2026-11-07T00:00:00.000Z"
     (pack / "visits_count.json").write_text(
-        json.dumps(_vercel({"visitors": 150}, until="2026-11-14T00:00:00.000Z")),
+        json.dumps(_vercel({"visitors": 150}, since=since, until="2026-11-14T00:00:00.000Z")),
         encoding="utf-8",
     )
     (pack / "events_by_name.json").write_text(
         json.dumps(
             _vercel(
                 [{"eventName": "chapter_open", "count": 5}],
+                since=since,
                 until="2026-11-13T01:00:00.000Z",
             )
         ),
@@ -204,14 +206,16 @@ def test_validate_evidence_pack_dir_rejects_mixed_exclusive_end_days(tmp_path: P
 def test_validate_evidence_pack_dir_accepts_aligned_t00_t01(tmp_path: Path) -> None:
     pack = tmp_path / "current"
     pack.mkdir()
+    since = "2026-11-07T00:00:00.000Z"
     (pack / "visits_count.json").write_text(
-        json.dumps(_vercel({"visitors": 150}, until="2026-11-14T00:00:00.000Z")),
+        json.dumps(_vercel({"visitors": 150}, since=since, until="2026-11-14T00:00:00.000Z")),
         encoding="utf-8",
     )
     (pack / "events_by_name.json").write_text(
         json.dumps(
             _vercel(
                 [{"eventName": "chapter_open", "count": 6}],
+                since=since,
                 until="2026-11-14T01:00:00.000Z",
             )
         ),
@@ -219,6 +223,38 @@ def test_validate_evidence_pack_dir_accepts_aligned_t00_t01(tmp_path: Path) -> N
     )
     notes = validate_evidence_pack_dir(pack, since="2026-11-07", until_inclusive="2026-11-13")
     assert any("2026-11-14" in n for n in notes)
+
+
+def test_validate_evidence_pack_dir_allows_by_day_plus_one_until(tmp_path: Path) -> None:
+    pack = tmp_path / "current"
+    pack.mkdir()
+    since = "2026-11-07T00:00:00.000Z"
+    (pack / "visits_count.json").write_text(
+        json.dumps(_vercel({"visitors": 150}, since=since, until="2026-11-14T00:00:00.000Z")),
+        encoding="utf-8",
+    )
+    (pack / "events_by_name.json").write_text(
+        json.dumps(
+            _vercel(
+                [{"eventName": "chapter_open", "count": 6}],
+                since=since,
+                until="2026-11-14T01:00:00.000Z",
+            )
+        ),
+        encoding="utf-8",
+    )
+    (pack / "visits_by_day.json").write_text(
+        json.dumps(
+            _vercel(
+                [{"timestamp": "2026-11-07T00:00:00.000Z", "visitors": 1}],
+                since=since,
+                until="2026-11-15T00:00:00.000Z",
+            )
+        ),
+        encoding="utf-8",
+    )
+    notes = validate_evidence_pack_dir(pack, since="2026-11-07", until_inclusive="2026-11-13")
+    assert any("by=day" in n for n in notes)
 
 
 def test_build_summary_and_preserves_gate_decision(tmp_path: Path) -> None:

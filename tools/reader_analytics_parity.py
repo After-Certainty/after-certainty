@@ -401,6 +401,22 @@ def load_vercel_payloads_from_dir(pack_dir: Path) -> dict[str, Any]:
     return payloads
 
 
+def _is_day_series_payload(payload: dict[str, Any]) -> bool:
+    """True when the report is a daily timeseries (``by=day``), not a dimension table."""
+    query = payload.get("query") or {}
+    group_by = query.get("groupBy") or query.get("by") or []
+    if isinstance(group_by, str):
+        group_by = [group_by]
+    if any(str(g).lower() in {"day", "date"} for g in group_by):
+        return True
+    data = payload.get("data")
+    if isinstance(data, list) and data and isinstance(data[0], dict):
+        keys = {str(k).lower() for k in data[0]}
+        if "timestamp" in keys or keys >= {"day"}:
+            return True
+    return False
+
+
 def validate_evidence_pack_dir(
     pack_dir: Path,
     *,
@@ -413,15 +429,40 @@ def validate_evidence_pack_dir(
     (ISO ``…T00:00:00.000Z`` via :func:`vercel_iso_request_bounds`). Passing the
     inclusive end date alone can resolve ``*/aggregate`` to that day's ``T01:00``
     while ``visits/count`` advances a full day — mixed exclusive-end days.
+
+    ``by=day`` timeseries often resolve ``until`` one UTC calendar day later at
+    ``T00:00`` and may include an extra trailing day bucket; those files are
+    checked separately so they do not weaken the visits/events exclusive-end rule.
     """
     until_param = expected_vercel_until_utc(until_inclusive)
     payloads = load_vercel_payloads_from_dir(pack_dir)
-    return validate_vercel_query_bounds(
-        payloads,
+    core = {name: p for name, p in payloads.items() if not _is_day_series_payload(p)}
+    day_series = {name: p for name, p in payloads.items() if _is_day_series_payload(p)}
+    if not core:
+        raise SystemExit(f"error: no non-day Vercel payloads to validate in {pack_dir}")
+    notes = validate_vercel_query_bounds(
+        core,
         since=since,
         until_inclusive=until_inclusive,
         until_param=until_param,
     )
+    expected_until_day = _until_utc_date(expected_vercel_until_utc(until_inclusive))
+    next_day = (date.fromisoformat(expected_until_day) + timedelta(days=1)).isoformat()
+    for name, payload in day_series.items():
+        ru = str((payload.get("query") or {}).get("until") or "")
+        ru_day = _until_utc_date(ru) if ru else ""
+        if ru_day not in {expected_until_day, next_day}:
+            raise SystemExit(
+                f"error: day-series {name} until day {ru_day!r} not in "
+                f"{{{expected_until_day}, {next_day}}} (resolved until={ru!r})"
+            )
+        if ru_day == next_day:
+            notes.append(
+                f"{name}: by=day resolved until to {ru} (exclusive-end day + 1 at T00) — "
+                "platform quirk; trailing UTC day buckets may be incomplete and should not "
+                "drive headline visitor totals (use visits/count)."
+            )
+    return notes
 
 
 def main(argv: list[str] | None = None) -> int:
