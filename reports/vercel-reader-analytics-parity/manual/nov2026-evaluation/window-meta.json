@@ -1,20 +1,28 @@
 {
   "evaluation": "nov2026-gate3-final",
-  "collected_at_utc": "2026-11-15T02:28:15Z",
   "timezone_labels": "America/Denver",
+  "vercel_request_rule": "exclusive_until_iso_via_vercel_iso_request_bounds",
+  "validation": "python3 tools/reader_analytics_parity.py validate-evidence-pack",
   "full_window": {
     "denver_inclusive_since": "2026-10-17",
     "denver_inclusive_until": "2026-11-13",
-    "note": "Completed days from PR1 merge calendar day through yesterday; incomplete today excluded",
     "vercel_request_since": "2026-10-17T00:00:00.000Z",
     "vercel_request_until_exclusive": "2026-11-14T00:00:00.000Z"
   },
   "current_7": {
     "since": "2026-11-07",
-    "until": "2026-11-13"
+    "until": "2026-11-13",
+    "vercel_request_since": "2026-11-07T00:00:00.000Z",
+    "vercel_request_until_exclusive": "2026-11-14T00:00:00.000Z"
   },
   "prior_7": {
     "since": "2026-10-31",
-    "until": "2026-11-06"
-  }
+    "until": "2026-11-06",
+    "vercel_request_since": "2026-10-31T00:00:00.000Z",
+    "vercel_request_until_exclusive": "2026-11-07T00:00:00.000Z"
+  },
+  "notes": [
+    "Do not pass inclusive until=YYYY-MM-DD alone to Vercel aggregates — use day-after ISO T00.",
+    "by=day may resolve until to exclusive-end+1 at T00; headline totals must use visits/count."
+  ]
 }

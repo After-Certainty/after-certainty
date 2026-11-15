@@ -1,6 +1,6 @@
 # Reader analytics — After Certainty
 
-Generated: **2026-11-15 02:27 UTC**  
+Generated: **2026-11-15 03:01 UTC**  
 Timezone for week labels: **America/Denver** (last 7 **completed** days ending yesterday)  
 Current window (Denver calendar): **2026-11-07 → 2026-11-13** (inclusive completed days)  
 API query bounds (as resolved by Vercel): **2026-11-07T00:00:00.000Z** → **2026-11-14T00:00:00.000Z**  
@@ -35,20 +35,21 @@ Source: Vercel Web Analytics aggregate API (project `after-certainty`)
 | 2026-11-11 | 9 | 13 |
 | 2026-11-12 | 10 | 13 |
 | 2026-11-13 | 31 | 31 |
+| 2026-11-14 | 29 | 29 |
 
 ## 2. Discovery channels and referrers
 
 | Channel class | Visitors | Pageviews |
 | --- | --- | --- |
-| no_recorded_referrer | 113 | 134 |
-| organic_search | 9 | 9 |
+| no_recorded_referrer | 142 | 163 |
+| organic_search | 10 | 10 |
 
 Top referrer hostnames:
 
 | Hostname | Visitors | Pageviews |
 | --- | --- | --- |
-| (empty) | 113 | 134 |
-| google.com | 5 | 5 |
+| (empty) | 142 | 163 |
+| google.com | 6 | 6 |
 | bing.com | 2 | 2 |
 | cn.bing.com | 1 | 1 |
 | duckduckgo.com | 1 | 1 |
@@ -61,33 +62,32 @@ Partial family pageview rollup (from the truncated top paths):
 
 | Family | Pageviews (partial) |
 | --- | --- |
-| other | 64 |
-| discovery_home | 24 |
-| chapter | 20 |
-| source | 5 |
+| other | 72 |
+| discovery_home | 27 |
+| chapter | 18 |
+| source | 11 |
 | listen | 4 |
 | thinker | 3 |
-| book | 2 |
 
 Top overall paths:
 
 | Path | Visitors | Pageviews |
 | --- | --- | --- |
-| Others | 56 | 64 |
-| /explore | 13 | 14 |
-| / | 5 | 7 |
+| Others | 66 | 72 |
+| /explore | 15 | 16 |
+| / | 6 | 8 |
 | /explore/books/everyone-knows-love/chapters/parts-part-1-everyone-knows-love-chapter-1-everyone-knows-love | 2 | 7 |
 | /explore/sources/goodhart-charles-a-e-problems-of-monetary-management-the-u-k | 4 | 5 |
 | /listen | 4 | 4 |
 | /explore/books/no-time-to-think/chapters/parts-part-2-where-the-constraint-went-chapter-7-the-launch-schedule | 3 | 3 |
+| /explore/sources/bauman-zygmunt-modernity-and-the-holocaust | 3 | 3 |
+| /explore/sources/kahneman-daniel-and-gary-klein-conditions-for-intuitive-expertise-a-failure-to-disagree | 3 | 3 |
 | /explore/thinkers/donald-t-campbell | 3 | 3 |
 | /start | 3 | 3 |
+| /explore/books/coupling/chapters/parts-part-4-institutions-under-drift-20-bureaucracy-as-scar-tissue | 2 | 2 |
 | /explore/books/how-serious-systems-learn/chapters/parts-part-2-disciplines-that-survived-reality-chapter-8-when-failure-is-not-an-option | 2 | 2 |
 | /explore/books/no-time-to-think/chapters/parts-part-2-where-the-constraint-went-chapter-4-the-stopwatch | 2 | 2 |
 | /explore/books/no-time-to-think/chapters/parts-part-3-responsible-speed-chapter-9-what-history-preserved | 2 | 2 |
-| /explore/books/the-discipline-of-uncertainty/chapters/parts-part-3-probabilistic-truth-and-moral-seriousness-chapter-5-why-the-world-refuses-absolutes | 2 | 2 |
-| /explore/books/when-accountability-no-longer-expires/chapters/parts-part-1-permanence-of-legitimacy-chapter-2-sacralization-and-inheritance | 2 | 2 |
-| /explore/books/when-others-look-to-you-v1 | 2 | 2 |
 
 ## 4. Source/thinker → book/chapter navigation
 
@@ -137,11 +137,11 @@ _Shown only as context; prefer the joint tables above._
 
 | Event | Count | Visitors |
 | --- | --- | --- |
-| chapter_open | 5 | 5 |
+| chapter_open | 6 | 6 |
 | chapter_advance | 2 | 1 |
 | book_download | 0 | 0 |
 
-Continuation ratio: 0.40 events per open (2/5) — aggregate ratio, not a session conversion rate
+Continuation ratio: 0.33 events per open (2/6) — aggregate ratio, not a session conversion rate
 
 ## 6. Audio and exploration activity
 
@@ -157,12 +157,12 @@ Geography (top):
 
 | Country | Visitors | Pageviews |
 | --- | --- | --- |
-| SG | 72 | 75 |
-| US | 25 | 41 |
-| CN | 10 | 11 |
+| SG | 93 | 96 |
+| US | 32 | 48 |
+| CN | 11 | 12 |
 | TR | 2 | 4 |
+| CA | 3 | 3 |
 | DE | 3 | 3 |
-| CA | 2 | 2 |
 | CH | 1 | 1 |
 | EC | 1 | 1 |
 
@@ -170,13 +170,13 @@ Devices:
 
 | Device | Visitors | Pageviews |
 | --- | --- | --- |
-| desktop | 110 | 121 |
-| mobile | 10 | 21 |
-|  | 1 | 1 |
+| desktop | 138 | 149 |
+| mobile | 11 | 22 |
+|  | 2 | 2 |
 
-- Heuristic: country **SG** is ~48% of overall visitors (72 / 150; 75 pageviews in country row). Treat as anomaly signal, not bot identity.
-- Heuristic: desktop-heavy traffic (110 visitors in device breakdown vs 150 overall visitors in period).
-- Heuristic: research/thinker/source paths show ~22 visitors in top path rows; empty-referrer visitors ~113. Combine with country/device above — not confirmed automation.
+- Heuristic: country **SG** is ~62% of overall visitors (93 / 150; 96 pageviews in country row). Treat as anomaly signal, not bot identity.
+- Heuristic: desktop-heavy traffic (138 visitors in device breakdown vs 150 overall visitors in period).
+- Heuristic: research/thinker/source paths show ~33 visitors in top path rows; empty-referrer visitors ~142. Combine with country/device above — not confirmed automation.
 
 ## 8. Changes from previous comparable period
 
@@ -186,6 +186,6 @@ Prior window: **2026-10-31 → 2026-11-06** (America/Denver completed calendar d
 | --- | --- | --- | --- |
 | Visitors | 150 | 325 | -175 |
 | Pageviews | 172 | 361 | -189 |
-| chapter_open count | 5 | 10 | -5 |
+| chapter_open count | 6 | 10 | -4 |
 
 Deltas are raw aggregate differences, not significance tests.

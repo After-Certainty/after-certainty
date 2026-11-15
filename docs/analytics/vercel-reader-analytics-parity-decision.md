@@ -1,9 +1,10 @@
 # Gate 3 decision report — Vercel reader analytics parity
 
-**Status:** November 2026 final evaluation — **recommend retire GA4** (owner approval still required before PR 4)  
+**Status:** November 2026 evaluation **revised after review** — **recommend `corrective_pr_required`** (owner approval still required before PR 4)  
 **Roadmap:** [`docs/roadmaps/vercel-reader-analytics-migration.md`](../roadmaps/vercel-reader-analytics-migration.md) §10 Gate 3  
 **Artifacts:** [`reports/vercel-reader-analytics-parity/`](../../reports/vercel-reader-analytics-parity/)  
-**Re-run (regenerable week snapshot only):** `make reader-analytics-parity`
+**Re-run (regenerable week snapshot only):** `make reader-analytics-parity`  
+**Reconcile packs:** `bash scripts/collect-nov2026-evaluation-pack.sh` then `python3 tools/reader_analytics_parity.py validate-evidence-pack …`
 
 ---
 
@@ -21,13 +22,18 @@ Do not put recommendation or smoke conclusions into `comparison-summary.json` �
 
 ## 1. Executive summary
 
-After ~four weeks of dual-write production observation (PR 1 merged **2026-10-17**), Vercel Web Analytics reliably collects the primary reader vocabulary After Certainty needs to answer:
+After ~four weeks of dual-write production observation (PR 1 merged **2026-10-17**), Vercel Web Analytics collects the **primary chapter/download/audio/corpus** vocabulary needed for the guiding readership question. Source→chapter `to_id` attribution works in aggregate. Discovery remains covered by Vercel referrers/paths plus retained Google Search Console for **external** search.
 
-> Are people discovering After Certainty’s ideas, finding their way into the books, and choosing to explore further?
+**Recommendation: `corrective_pr_required` (revised 2026-11-14 review follow-up).** Do **not** retire GA4 yet.
 
-**Recommendation: `retire_ga4`.** Discovery is covered by Vercel referrers/paths plus retained Google Search Console. Source→chapter attribution with `to_id` works in aggregate. Chapter open/advance, downloads, and audio appear on Vercel. Remaining GA4-only surfaces (site search taxonomy, books-catalog clicks, game events, session journeys) are either low-value for current editorial decisions, accepted aggregate limitations, or have adequate alternatives. Singapore-heavy empty-referrer traffic still inflates ungated visitor totals — that is a known interpretation caveat, not a reason to keep GA4.
+| Blocker | Evidence | Follow-up |
+|---------|----------|-----------|
+| `reading_path_started` missing on Vercel | GA4 recorded **5** `question_path_start` on/after PR1 (2026-10-17, 10-23, 10-24); Vercel full-window filter returns **[]** even with corrected exclusive-end bounds. Code dual-writes both. | Small corrective PR + owner PADE smoke (no agent browser required) |
+| On-site search loss | GA4 **35** `search_query` ≈ **36** `chapter_open` in the full window. **GSC does not measure in-site search.** | Include one privacy-safe bucketed Vercel search event in the corrective PR (or explicitly accept the loss in approval) |
 
-**PR 4 (`chore/retire-ga4`) remains blocked until the owner completes the approval row below.** This report does not remove or disable GA4.
+Evidence packs were re-collected with exclusive-end ISO bounds so visits/events share one exclusive-end calendar day (current-week `chapter_open` **6** now matches regenerable `raw/`). Singapore-heavy empty-referrer traffic still inflates ungated visitor totals.
+
+**PR 4 (`chore/retire-ga4`) remains blocked.** Owner approval stays blank until the corrective work lands and path-start is verified.
 
 ---
 
@@ -42,7 +48,8 @@ After ~four weeks of dual-write production observation (PR 1 merged **2026-10-17
 | Gate 3 baseline + owner smoke | 2026-10-17 (same calendar day as PR 1) |
 | Earliest revisit (planned) | 2026-10-31 |
 | Preferred decision date | **2026-11-14** |
-| This final evaluation collection | 2026-11-15T02:26Z–02:30Z |
+| Final evaluation collection (initial) | 2026-11-15T02:26Z–02:30Z |
+| Review follow-up: exclusive-end pack reconcile | 2026-11-15T03:00Z–03:10Z |
 
 ### Windows used (America/Denver labels; incomplete “today” excluded)
 
@@ -59,9 +66,17 @@ After ~four weeks of dual-write production observation (PR 1 merged **2026-10-17
 | Artifact | Contents |
 |----------|----------|
 | [`comparison-summary.json`](../../reports/vercel-reader-analytics-parity/comparison-summary.json) | Regenerable **current-7** Vercel↔GA4 pack (`make reader-analytics-parity`, generated 2026-11-15) |
-| [`manual/nov2026-evaluation/`](../../reports/vercel-reader-analytics-parity/manual/nov2026-evaluation/) | Full window + current/prior-week Vercel packs, GA4 full-window reports, brief, billing probe, findings rollup |
+| [`manual/nov2026-evaluation/`](../../reports/vercel-reader-analytics-parity/manual/nov2026-evaluation/) | Full window + current/prior-week Vercel packs (**re-collected with exclusive-end ISO**), GA4 full-window reports, brief, billing probe, findings rollup, `events_reading_path_started.json` |
 | [`manual/`](../../reports/vercel-reader-analytics-parity/manual/) (October files) | Owner smoke + original billing snapshot — **preserved** |
-| Google Search Console | **Not queried via PADE** (no in-repo capability). Assessed as retained discovery tooling for queries/rankings only |
+| Google Search Console | **Not queried via PADE** (no in-repo capability). Covers **external** search queries/rankings only — **not** on-site `/` search box behavior |
+
+### Window reconciliation (review item 1)
+
+**Bug:** The first manual collection passed Denver inclusive `until=YYYY-MM-DD` into Vercel. `visits/count` often advanced a day while `*/aggregate` resolved to that day’s `T01:00`, so events/country/referrer slices missed most of the inclusive end day (e.g. current-week `chapter_open` 5 vs regenerable 6; SG 72 vs 93).
+
+**Fix:** Re-run via [`scripts/collect-nov2026-evaluation-pack.sh`](../../scripts/collect-nov2026-evaluation-pack.sh) using `vercel_iso_request_bounds` (exclusive until = day-after at `T00:00:00.000Z`). Enforce with `python3 tools/reader_analytics_parity.py validate-evidence-pack --pack-dir … --since … --until …` (allows documented `by=day` until = exclusive-end + 1 day at T00 without weakening the visits/events rule).
+
+**Result:** Current-week visits/events/country/referrer now match regenerable `raw/` (`chapter_open` 6, SG 93, empty-referrer 142).
 
 ---
 
@@ -71,8 +86,8 @@ After ~four weeks of dual-write production observation (PR 1 merged **2026-10-17
 
 | System | Volume signal | Primary reader customs |
 |--------|---------------|------------------------|
-| **Vercel** (ungated) | ~1,860 visitors / ~3,069 pageviews | `chapter_open` 33 · `chapter_advance` 6 · `book_download` 1 · `corpus_navigation` 14 · `reader_audio_started` 5 · `listen_item_selected` 4 |
-| **GA4** (consent-gated) | ~63 sessions / ~49 activeUsers / ~213 pageviews | `chapter_open` 36 · `next_chapter` 5 · `file_download` 2 · `question_path_start` 5 |
+| **Vercel** (ungated, reconciled) | ~1,860 visitors / ~3,069 pageviews | `chapter_open` 34 · `chapter_advance` 6 · `book_download` 1 · `corpus_navigation` 14 · `reader_audio_started` 5 · `listen_item_selected` 4 · **`reading_path_started` 0** |
+| **GA4** (consent-gated) | ~63 sessions / ~49 activeUsers / ~213 pageviews | `chapter_open` 36 · `next_chapter` 5 · `file_download` 2 · `question_path_start` 5 · `search_query` 35 |
 
 ### Snapshot totals — current 7 (regenerable `comparison-summary.json`)
 
@@ -104,7 +119,7 @@ Week-over-week (Vercel brief): visitors 150 vs prior 325 (−175); `chapter_open
 | Downloads | `book_download` 1 (format/book props in schema) | Present; sparse volume |
 | Audio | `reader_audio_started` 5 with book/chapter props | Present |
 | Corpus nav + specific chapter | 8 source→chapter edges; **7 distinct non-empty `to_id` pairs** from source paths | Useful aggregate attribution |
-| Questions / trails | `reading_path_started` **0** on Vercel; GA4 `question_path_start` 5 | Sparse discrepancy — see §6 |
+| Questions / trails | `reading_path_started` **0** on Vercel (filtered probe); GA4 `question_path_start` 5 on/after PR1 | **Corrective PR required** — see §6 |
 | Listen library | `listen_item_selected` 4 | Present |
 
 Owner October smoke already showed both sinks recording reader events after consent Accept (`manual/*_after_clicks.json`). Organic dual-write over four weeks confirms production presence without claiming per-click parity.
@@ -144,9 +159,10 @@ Owner October smoke already showed both sinks recording reader events after cons
 | No session journeys / retention / per-reader completion | Cannot claim funnels from aggregates | **Yes** — accepted in roadmap |
 | Site search event taxonomy (`search_query`, etc.) | GA4-only today (~35 `search_query` in full window) | **Yes** for retirement — not required to recreate full GA taxonomy; optional later if search UX decisions need it |
 | Books catalog / outbound / game events | GA4-only; low volume | **Yes** — not decision-critical now |
-| `reading_path_started` absent while GA4 saw 5 `question_path_start` | Possible residual dual-write risk; code path dual-writes both | **Accept for Gate 3** — verify in PR 4 smoke; do not extend parallel measurement for n=5 |
+| `reading_path_started` absent while GA4 saw 5 `question_path_start` | Dual-write code present; production Vercel aggregates empty after window fix | **Not acceptable to defer past GA4 removal** — corrective PR + owner PADE smoke |
+| On-site search (`search_query` 35 ≈ `chapter_open` 36) | GSC only covers external search | **Do not treat as covered by GSC** — add minimal Vercel event or accept explicitly at approval |
 | Exact numeric parity | Never expected | N/A |
-| GSC live numbers not in this PR | Discovery assessment qualitative for GSC | Documented |
+| GSC live numbers not in this PR | External discovery only | Documented |
 
 ---
 
@@ -165,42 +181,60 @@ No unexpected billing spike observed. Dual-provider ops (two skills, two PADE ca
 
 ## 8. Final recommendation
 
-### `retire_ga4`
+### `corrective_pr_required` (supersedes the initial `retire_ga4` draft)
 
-Decision criteria check:
+Retirement direction remains sound for chapter/corpus/audio/download measurement, but two demonstrated gaps must be closed **before** PR 4:
 
-| Criterion | Met? |
-|-----------|------|
-| Vercel reliably collects primary reader events | **Yes** |
-| Discovery covered by Vercel + GSC | **Yes** |
-| Source→chapter measurable at useful aggregate level | **Yes** (`to_id` pairs observed) |
-| Important GA4-only capabilities unnecessary or have alternatives | **Yes** |
-| Traffic-quality limitations understood | **Yes** |
-| Operational costs reasonable | **Yes** |
-| No significant unresolved instrumentation problems | **Yes** (sparse path-start discrepancy noted, not blocking) |
+1. **Path-start dual-write** — production shows GA4 `question_path_start` without any Vercel `reading_path_started` across the full window (API-only investigation; no browser automation in this follow-up).  
+2. **On-site search** — GA4 `search_query` volume matches chapter opens; GSC is not a substitute.
 
-**Not** `corrective_pr_required`: no specific high-impact instrumentation fix is required before retirement.  
-**Not** `keep_parallel_longer`: the preferred 4-week window elapsed; further observation would not change the structural capability picture (counts already differ by consent design).
+**Not** `keep_parallel_longer`: the observation window is enough; the issue is instrumentation/product coverage, not waiting for more calendar time.  
+**Not** `retire_ga4` yet: would strand path-start verification and discard on-site search without a replacement.
+
+### Path-start investigation (no computer use)
+
+| Check | Result |
+|-------|--------|
+| Call sites | `QuestionPathAnalytics` / `TrailPathAnalytics` → `trackReaderEvent({ name: "reading_path_started", … })` |
+| Facade | Vercel `track()` first, then consent-gated GA `question_path_start` / `trail_path_start` |
+| Unit tests | Dual-write expectations present in `reader.test.ts` |
+| GA4 by date (full window) | 2026-10-17:1, 2026-10-23:3, 2026-10-24:1 — **all on/after PR1** |
+| Vercel filtered aggregate (reconciled bounds) | `events_reading_path_started.json` → **empty `data: []`** |
+
+Likely classes of failure for a corrective PR (not yet root-caused in runtime): silent `track()` failure / Analytics readiness race on mount `useEffect`, property/name rejection, or event dropped before the Web Analytics API. Fix should include an owner-run PADE smoke (Accept → open one question + one trail → query both sinks for the UTC day) recorded under `manual/`.
+
+### On-site search (review item 3)
+
+GSC answers “which Google queries bring people to the site.” It does **not** answer “are people using After Certainty’s own search, and do result hits help.”
+
+With **35** GA4 `search_query` events alongside **36** `chapter_open` events, discarding search without a Vercel replacement is a real loss of product signal—not a theoretical GA taxonomy nicety.
+
+**Proposed minimal Vercel event (corrective PR):** e.g. `site_search` with privacy-safe buckets only (`result_count_bucket`, optional `has_results` boolean)—**never** raw query text. Keep existing GA search events until retirement.
 
 ---
 
-## 9. Required follow-up — proposed PR 4 scope (`chore/retire-ga4`)
+## 9. Required follow-up
 
-Describe only — **do not implement** until owner approval.
+### 9a. Corrective PR (do this next) — suggested branch `fix/vercel-reading-path-and-search`
+
+1. Diagnose and fix `reading_path_started` so production Vercel aggregates show events when question/trail pages load.  
+2. Add owner PADE smoke checklist + artifact path under `manual/`.  
+3. Add minimal `site_search` (or equivalent) Vercel custom event with bucketed props; wire from existing search UI without dual-writing raw queries.  
+4. Tests for facade + call sites; no GA removal.
+
+### 9b. PR 4 scope (`chore/retire-ga4`) — still describe-only; **blocked** until corrective PR + approval
 
 1. **GA4 runtime removal** — `GoogleAnalyticsLoader`, Consent Mode defaults wiring for GA, `sendGAEvent` paths.  
-2. **GA-specific helpers / unused taxonomy** — `track.ts` GA-only events, catalog/game helpers no longer needed; keep Vercel facade (`reader.ts`, `vercel-intent.ts`).  
-3. **Consent / cookie banner** — **privacy review required**; do not assume the banner disappears solely because Vercel is cookie-free.  
-4. **Privacy page** — align disclosures with remaining always-on aggregate tools.  
+2. **GA-specific helpers / unused taxonomy** — catalog/game helpers as decided; keep Vercel facade.  
+3. **Consent / cookie banner** — **privacy review required**.  
+4. **Privacy page** — align disclosures.  
 5. **CSP cleanup** — remove GA hosts.  
-6. **Environment variables** — drop GA measurement / preview flags from runtime docs and Vercel project config (separate ops step).  
-7. **Reporting** — mark `ga-trends` skill/scripts legacy or archive; keep historical artifacts; `reader-analytics` becomes primary.  
-8. **PADE** — remove or deprecate `google-analytics.read` when unused.  
-9. **Tests & docs** — update dual-write tests to Vercel-only; roadmap Gate 4 acceptance criteria.  
-10. **Production verification** — confirm no GA network requests; reader events still fire; Plus property budget still valid.  
-11. **Rollback** — restore GA loader, measurement ID, Consent Mode defaults, CSP GA hosts from git / prior release.
-
-Also smoke-check `reading_path_started` on production after deploy.
+6. **Environment variables** — drop GA measurement / preview flags.  
+7. **Reporting** — mark `ga-trends` legacy; `reader-analytics` primary.  
+8. **PADE** — deprecate `google-analytics.read` when unused.  
+9. **Tests & docs** — Vercel-only expectations; Gate 4 criteria.  
+10. **Production verification** — no GA network requests; reader + search + path-start events present.  
+11. **Rollback** — restore GA loader, measurement ID, Consent Mode, CSP from git.
 
 ---
 
@@ -208,13 +242,13 @@ Also smoke-check `reading_path_started` on production after deploy.
 
 | Field | Value |
 |-------|-------|
-| Report version | 2026-11-14 final evaluation (preserves 2026-10-17 baseline below) |
-| Recommendation | **retire_ga4** |
+| Report version | 2026-11-14 evaluation + review follow-up (preserves 2026-10-17 baseline below) |
+| Recommendation | **corrective_pr_required** |
 | Approver | _pending_ |
 | Approval date | _pending_ |
-| Decision | ☐ extend parallel   ☐ corrective PR   ☐ **approve PR 4 (retire GA4)** |
+| Decision | ☐ extend parallel   ☐ corrective PR   ☐ approve PR 4 (retire GA4) — report recommends corrective PR |
 
-**Do not merge or open PR 4 without a completed approval row.**
+**Do not merge or open PR 4 without a completed approval row after the corrective PR.** Owner review comments are not approval.
 
 ---
 
@@ -266,7 +300,7 @@ After intentional production navigation with **cookie Accept**, both providers o
 | Reader actions | Consent-scoped chapter/search/catalog | Always-on primary reader vocabulary | — | **Net positive** for primary events (ungated) |
 | Source attribution | Limited / not dual-written | `corpus_navigation` + `to_id` | — | **Retain via Vercel** |
 | Chapter continuation | `next_chapter` | `chapter_advance` + aggregate ratios | — | **Acceptable** |
-| Search behavior | Rich search events | Not dual-written | Query performance | **Acceptable loss** of on-site search UX events unless product later needs them |
+| Search behavior | Rich search events (`search_query` ≈ chapter opens) | Not dual-written today | **External** queries/rankings only | **Not covered by GSC** — corrective PR should add bucketed Vercel `site_search` or approval must explicitly accept loss |
 | User journeys | Partial session views | Aggregate only | — | **Accepted** limitation |
 | Downloads | `file_download` | `book_download` | — | **Acceptable** |
 | Audio | None historically | `reader_audio_started` | — | **Vercel-only already** |
@@ -282,4 +316,5 @@ For each loss: currently used lightly or not for product decisions; Vercel/GSC a
 |------|--------|
 | 2026-10-17 | Initial Gate 3 baseline; owner smoke; recommend keep parallel |
 | 2026-10-17 | Review fixes: split gate-decision vs regenerable summary; align Vercel until; fail-closed GA fake tokens; correct event price units; qualify dual-write claim |
-| 2026-11-14 | Final evaluation after observation window; fresh parity + full-window evidence; recommend **retire_ga4**; approval still pending |
+| 2026-11-14 | Final evaluation after observation window; fresh parity + full-window evidence; initial draft recommended retire_ga4 |
+| 2026-11-14 | Review follow-up: reconcile exclusive-end packs; API+code path-start probe; clarify on-site search ≠ GSC; recommend **corrective_pr_required**; approval still pending |

@@ -1,1 +1,1 @@
-{"version":1,"query":{"since":"2026-11-07T00:00:00.000Z","until":"2026-11-13T01:00:00.000Z","groupBy":["eventData/to_id"],"filter":"environment eq 'production' and eventName eq 'corpus_navigation'","limit":30},"data":[{"eventData/to_id":"","visitors":1,"count":1}]}
+{"version":1,"query":{"since":"2026-11-07T00:00:00.000Z","until":"2026-11-14T01:00:00.000Z","groupBy":["eventData/to_id"],"filter":"environment eq 'production' and eventName eq 'corpus_navigation'","limit":30},"data":[{"eventData/to_id":"","visitors":1,"count":1}]}

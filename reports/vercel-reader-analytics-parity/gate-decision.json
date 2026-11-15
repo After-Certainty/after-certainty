@@ -1,16 +1,17 @@
 {
   "schema": "gate3-decision/v1",
-  "recommendation": "retire_ga4",
+  "recommendation": "corrective_pr_required",
   "pr1_merged_at_utc": "2026-10-17T21:15:09Z",
   "pr2_merged_at_utc": "2026-10-17T22:14:33Z",
   "earliest_revisit_date": "2026-10-31",
   "preferred_decision_date": "2026-11-14",
   "final_evaluation_date": "2026-11-14",
   "decision_report": "docs/analytics/vercel-reader-analytics-parity-decision.md",
-  "observation_window_note": "Gate 3 required 2–4 weeks after PR 1. Full completed Denver observation 2026-10-17 → 2026-11-13 collected 2026-11-15; preferred decision date reached.",
+  "observation_window_note": "Gate 3 required 2–4 weeks after PR 1. Full completed Denver observation 2026-10-17 → 2026-11-13; packs re-collected with exclusive-end ISO bounds after review.",
   "november_evaluation": {
-    "status": "completed",
+    "status": "completed_with_review_followup",
     "collected_at_utc": "2026-11-15T02:29:45Z",
+    "reconciled_at_utc": "2026-11-15T03:10:00Z",
     "artifacts_dir": "manual/nov2026-evaluation/",
     "findings_summary": "manual/nov2026-evaluation/findings-summary.json",
     "windows": {
@@ -18,14 +19,20 @@
       "current_7": { "since": "2026-11-07", "until": "2026-11-13" },
       "prior_7": { "since": "2026-10-31", "until": "2026-11-06" }
     },
+    "window_reconciliation": {
+      "issue": "Manual packs initially passed inclusive until=YYYY-MM-DD; aggregates resolved a calendar day earlier than visits/count",
+      "fix": "scripts/collect-nov2026-evaluation-pack.sh + validate-evidence-pack shared exclusive-end day check",
+      "current_week_matches_regenerable_raw": true
+    },
     "vercel_full_headline": {
       "visitors": 1860,
       "pageviews": 3069,
-      "chapter_open": { "count": 33, "visitors": 24 },
+      "chapter_open": { "count": 34, "visitors": 25 },
       "chapter_advance": { "count": 6, "visitors": 3 },
       "book_download": { "count": 1, "visitors": 1 },
       "corpus_navigation": { "count": 14, "visitors": 9 },
       "reader_audio_started": { "count": 5, "visitors": 3 },
+      "reading_path_started": { "count": 0, "visitors": 0 },
       "source_to_chapter_edges": { "count": 8, "visitors": 6 },
       "corpus_pairs_with_to_id": 7
     },
@@ -40,16 +47,28 @@
       "search_query": 35
     },
     "traffic_quality": {
-      "sg_visitors": 1643,
-      "empty_referrer_visitors": 1796,
-      "google_referrer_visitors": 38,
+      "sg_visitors": 1664,
+      "empty_referrer_visitors": 1825,
+      "google_referrer_visitors": 39,
       "note": "SG + empty-referrer dominate ungated totals; treat as heuristic anomaly, not confirmed bots. Prefer custom reader events over raw visitors."
     },
+    "path_start_investigation": {
+      "method": "code_inspection_and_pade_api_only",
+      "computer_use": false,
+      "ga4_question_path_start_dates": { "20261017": 1, "20261023": 3, "20261024": 1 },
+      "vercel_reading_path_started": "empty",
+      "conclusion": "Production gap remains after window fix; requires corrective PR before retire_ga4"
+    },
+    "onsite_search": {
+      "ga4_search_query": 35,
+      "gsc_covers_onsite_search": false,
+      "proposal": "Add minimal privacy-safe Vercel site_search with result_count buckets in corrective PR"
+    },
     "residual_risks": [
-      "reading_path_started absent on Vercel while GA4 recorded question_path_start=5 — verify in PR 4 smoke; code dual-writes both",
-      "GA4-only search/catalog/game taxonomy not dual-written — accepted loss unless product later needs on-site search UX metrics"
+      "reading_path_started absent on Vercel while GA4 recorded question_path_start=5 after PR1",
+      "On-site search not dual-written; GSC is not a substitute"
     ],
-    "recommendation_rationale": "Primary reader events and source→chapter to_id attribution work in production aggregates; discovery covered by Vercel+GSC; observation window complete; no corrective instrumentation PR required before retirement."
+    "recommendation_rationale": "Primary chapter/corpus/audio events work, but path-start dual-write fails in production aggregates and on-site search would be lost without a Vercel replacement. Corrective PR required before retirement."
   },
   "owner_smoke": {
     "status": "both_providers_observed_reader_events",
@@ -98,9 +117,14 @@
     }
   },
   "prior_recommendation": {
+    "recommendation": "retire_ga4",
+    "as_of": "2026-11-14",
+    "note": "Initial November draft before review follow-up; superseded by corrective_pr_required after window reconcile + path-start/search findings."
+  },
+  "baseline_recommendation": {
     "recommendation": "keep_parallel_longer",
     "as_of": "2026-10-17",
-    "note": "Baseline Gate 3 decision before observation window completed; superseded by november_evaluation."
+    "note": "Original Gate 3 baseline before observation window completed."
   },
   "approval": {
     "approver": null,

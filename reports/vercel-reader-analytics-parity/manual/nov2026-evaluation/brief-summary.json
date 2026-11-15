@@ -8,8 +8,8 @@
   "events": [
     {
       "eventName": "chapter_open",
-      "count": 5,
-      "visitors": 5
+      "count": 6,
+      "visitors": 6
     },
     {
       "eventName": "reader_audio_started",
