@@ -1,0 +1,105 @@
+{
+  "dimensionHeaders": [
+    {
+      "name": "eventName"
+    }
+  ],
+  "metricHeaders": [
+    {
+      "name": "eventCount",
+      "type": "TYPE_INTEGER"
+    }
+  ],
+  "rows": [
+    {
+      "dimensionValues": [
+        {
+          "value": "chapter_open"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "36"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "search_query"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "35"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "next_chapter"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "question_path_start"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "select_content"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "file_download"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "click"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "rowCount": 7,
+  "metadata": {
+    "currencyCode": "USD",
+    "timeZone": "America/Denver"
+  },
+  "kind": "analyticsData#runReport"
+}

@@ -1,0 +1,20 @@
+{
+  "evaluation": "nov2026-gate3-final",
+  "collected_at_utc": "2026-11-15T02:28:15Z",
+  "timezone_labels": "America/Denver",
+  "full_window": {
+    "denver_inclusive_since": "2026-10-17",
+    "denver_inclusive_until": "2026-11-13",
+    "note": "Completed days from PR1 merge calendar day through yesterday; incomplete today excluded",
+    "vercel_request_since": "2026-10-17T00:00:00.000Z",
+    "vercel_request_until_exclusive": "2026-11-14T00:00:00.000Z"
+  },
+  "current_7": {
+    "since": "2026-11-07",
+    "until": "2026-11-13"
+  },
+  "prior_7": {
+    "since": "2026-10-31",
+    "until": "2026-11-06"
+  }
+}

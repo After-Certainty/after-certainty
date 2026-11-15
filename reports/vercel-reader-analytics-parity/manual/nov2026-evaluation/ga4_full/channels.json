@@ -1,0 +1,70 @@
+{
+  "dimensionHeaders": [
+    {
+      "name": "sessionDefaultChannelGroup"
+    }
+  ],
+  "metricHeaders": [
+    {
+      "name": "sessions",
+      "type": "TYPE_INTEGER"
+    },
+    {
+      "name": "activeUsers",
+      "type": "TYPE_INTEGER"
+    }
+  ],
+  "rows": [
+    {
+      "dimensionValues": [
+        {
+          "value": "Direct"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "47"
+        },
+        {
+          "value": "44"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Organic Search"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "14"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "AI Assistant"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    }
+  ],
+  "rowCount": 3,
+  "metadata": {
+    "currencyCode": "USD",
+    "timeZone": "America/Denver"
+  },
+  "kind": "analyticsData#runReport"
+}
