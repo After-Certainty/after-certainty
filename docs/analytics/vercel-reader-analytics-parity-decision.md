@@ -225,19 +225,19 @@ Post-deploy: client POSTs observed; PADE `site_search` **count 2 / visitors 1** 
 4. Unit tests for queue stub + search dual-write.  
 5. Production PADE + Playwright verify recorded under [`manual/nov2026-evaluation/post-corrective/`](../../reports/vercel-reader-analytics-parity/manual/nov2026-evaluation/post-corrective/).
 
-### 9b. PR 4 scope (`chore/retire-ga4`) — still describe-only; **blocked** until owner approval
+### 9b. PR 4 scope (`chore/retire-ga4`) — **approved; implementing**
 
 1. **GA4 runtime removal** — `GoogleAnalyticsLoader`, Consent Mode defaults wiring for GA, `sendGAEvent` paths.  
-2. **GA-specific helpers / unused taxonomy** — catalog/game helpers as decided; keep Vercel facade.  
-3. **Consent / cookie banner** — **privacy review required**.  
-4. **Privacy page** — align disclosures.  
+2. **GA-specific helpers / unused taxonomy** — catalog/game helpers become no-ops; keep Vercel facade.  
+3. **Consent / cookie banner** — remove Accept/Reject banner (Vercel Web Analytics is cookieless aggregate; no GA cookies remain).  
+4. **Privacy page** — Vercel-only disclosures.  
 5. **CSP cleanup** — remove GA hosts.  
-6. **Environment variables** — drop GA measurement / preview flags.  
+6. **Environment variables** — drop GA measurement / preview flags from site config and `.env.example`.  
 7. **Reporting** — mark `ga-trends` legacy; `reader-analytics` primary.  
-8. **PADE** — deprecate `google-analytics.read` when unused.  
+8. **PADE** — deprecate `google-analytics.read`.  
 9. **Tests & docs** — Vercel-only expectations; Gate 4 criteria.  
 10. **Production verification** — no GA network requests; reader + search + path-start events present.  
-11. **Rollback** — restore GA loader, measurement ID, Consent Mode, CSP from git.
+11. **Rollback** — restore GA loader, measurement ID, Consent Mode, CSP from git (`git revert` of the retire PR / prior release).
 
 ---
 
@@ -247,11 +247,11 @@ Post-deploy: client POSTs observed; PADE `site_search` **count 2 / visitors 1** 
 |-------|-------|
 | Report version | 2026-11-14 evaluation + review follow-up + post-#770 verify (preserves 2026-10-17 baseline below) |
 | Recommendation | **retire_ga4** |
-| Approver | _pending_ |
-| Approval date | _pending_ |
-| Decision | ☐ extend parallel   ☐ approve PR 4 (retire GA4) — report recommends retire GA4 |
+| Approver | Kevin Steffensen |
+| Approval date | 2026-11-14 (America/Denver) |
+| Decision | ☑ **approve PR 4 (retire GA4)** |
 
-**Do not merge or open PR 4 without a completed approval row.** Owner review comments are not approval.
+Owner chat approval recorded 2026-11-14 ~8:49 PM America/Denver. PR 4 may proceed.
 
 ---
 
@@ -322,3 +322,4 @@ For each loss: currently used lightly or not for product decisions; Vercel/GSC a
 | 2026-11-14 | Final evaluation after observation window; fresh parity + full-window evidence; initial draft recommended retire_ga4 |
 | 2026-11-14 | Review follow-up: reconcile exclusive-end packs; API+code path-start probe; clarify on-site search ≠ GSC; recommend **corrective_pr_required**; approval still pending |
 | 2026-11-14 | Post-#770: production Playwright + PADE verify `reading_path_started` + `site_search`; restore **retire_ga4**; approval still pending |
+| 2026-11-14 | Owner **approved** PR 4 (retire GA4); Gate 4 implementation started |
