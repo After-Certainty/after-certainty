@@ -7,9 +7,9 @@ import { createPageMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Privacy & cookies",
+  title: "Privacy & analytics",
   description:
-    "How After Certainty uses cookies, Google Analytics, and Vercel Web Analytics, and how to change your preferences.",
+    "How After Certainty uses Vercel Web Analytics and Speed Insights for aggregate measurement.",
 });
 
 export default function PrivacyPage() {
@@ -17,46 +17,39 @@ export default function PrivacyPage() {
     <Section className="pb-24 pt-16">
       <Container className="max-w-2xl">
         <p className="text-xs uppercase tracking-[0.25em] text-muted">Legal & preferences</p>
-        <h1 className="mt-4 font-display text-4xl text-fg">Privacy & cookies</h1>
+        <h1 className="mt-4 font-display text-4xl text-fg">Privacy & analytics</h1>
 
         <div className="prose prose-invert mt-10 max-w-none text-muted prose-headings:font-display prose-headings:text-fg prose-a:text-accent">
           <h2>What we collect</h2>
           <p>
-            {siteConfig.name} is a mostly static site. We use two aggregate measurement tools. We do not sell your data,
-            and we do not send manuscript text, raw search queries, or personal profiles in custom analytics events.
-          </p>
-
-          <h2>Google Analytics 4 (cookie choice)</h2>
-          <p>
-            When you accept analytics cookies, we use <strong className="text-fg">Google Analytics 4</strong> for
-            aggregate traffic: pages viewed, general geography, device type, and consented custom events.{" "}
-            <strong className="text-fg">GA analytics cookies and our custom GA events are off by default</strong> until
-            you click &ldquo;Accept analytics&rdquo;. Until then, Google tags run in Consent Mode with{" "}
-            <code>analytics_storage</code> denied — no GA analytics cookies are set, and this site does not send custom
-            GA events. If you accept, Google may set cookies such as <code>_ga</code> to recognize returning browsers.
-          </p>
-          <p>
-            On production, the Google tag may still load while storage is denied. In that state Google&apos;s Consent
-            Mode can allow limited cookieless measurement pings; Reject does not uninstall the tag. Reject{" "}
-            <em>does</em> keep GA cookies unset and blocks our custom GA events.
+            {siteConfig.name} is a mostly static site. We use first-party aggregate measurement hosted with our
+            deployment platform. We do not sell your data, and we do not send manuscript text, raw search queries, or
+            personal profiles in custom analytics events.
           </p>
 
           <h2>Vercel Web Analytics &amp; Speed Insights</h2>
           <p>
-            Independently of the cookie banner, this site uses <strong className="text-fg">Vercel Web Analytics</strong>{" "}
-            and <strong className="text-fg">Speed Insights</strong> — first-party aggregate metrics hosted with our
-            deployment platform (page views, referrers, coarse geography/device, custom reader events, and performance
-            vitals). These tools do not use the GA consent cookie; rejecting analytics on the banner does not disable
-            Vercel&apos;s aggregate collection. Whether a separate notice or control is required for a Vercel-only setup
-            remains under review.
+            This site uses <strong className="text-fg">Vercel Web Analytics</strong> and{" "}
+            <strong className="text-fg">Speed Insights</strong> for aggregate metrics (page views, referrers, coarse
+            geography and device, custom reader events such as chapter opens and on-site search buckets, and
+            performance vitals). These tools are cookieless aggregate measurement; they do not use a Google Analytics
+            tag or consent cookie.
+          </p>
+          <p>
+            Custom reader events use privacy-safe properties only (for example book/chapter ids and search result-count
+            buckets)—never raw search query text.
           </p>
 
-          <h2>Change or withdraw Google Analytics consent</h2>
+          <h2>Google Analytics</h2>
           <p>
-            To withdraw GA cookie consent and stop our custom GA events, clear site cookies for this domain in your
-            browser settings, or delete the <code>ac_cookie_consent</code> cookie and reload — the banner will appear
-            again so you can choose Reject. That action does not disable Vercel Web Analytics or Speed Insights, and it
-            does not remove the Google tag from the page while Consent Mode remains denied.
+            We no longer load Google Analytics 4 or Google tags on this site. Historical GA reporting tooling may remain
+            in the repository as legacy documentation only.
+          </p>
+
+          <h2>External search</h2>
+          <p>
+            Separately, Google Search Console (when configured) reports how the site appears in Google Search. That is
+            operator-side search analytics, not an on-site tracking cookie.
           </p>
 
           <h2>Site content license</h2>

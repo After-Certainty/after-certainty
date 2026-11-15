@@ -1,5 +1,3 @@
-import { sendGAEvent } from "@next/third-parties/google";
-
 import type {
   AnalyticsEventName,
   SearchNoResultsParams,
@@ -9,41 +7,38 @@ import type {
   SearchSelectParams,
 } from "@/lib/analytics/events";
 import { trackVercelEvent } from "@/lib/analytics/vercel-track";
-import { hasAnalyticsConsent } from "@/lib/consent/storage";
-import { resolveGaMeasurementId, shouldLoadGoogleAnalytics } from "@/lib/site-config";
 
+/**
+ * GA4 was retired (Gate 4). Legacy GA-only helpers remain as no-ops so call sites
+ * compile without driving network traffic. Prefer `trackReaderEvent` / `trackVercelEvent`
+ * for primary reader measurement.
+ */
 export function isAnalyticsEnabled(): boolean {
-  if (!shouldLoadGoogleAnalytics()) return false;
-  if (!resolveGaMeasurementId()) return false;
-  if (typeof document !== "undefined" && !hasAnalyticsConsent()) return false;
-  return true;
+  return false;
 }
 
-export { hasAnalyticsConsent };
+/** @deprecated GA consent cookie removed with Gate 4; always false. */
+export function hasAnalyticsConsent(): boolean {
+  return false;
+}
 
+/** @deprecated GA-only; no-op after Gate 4. */
 export function trackEvent(
   event: AnalyticsEventName,
   params?: Record<string, string | number | boolean | undefined>,
 ): void {
-  if (!isAnalyticsEnabled()) return;
-
-  const cleaned: Record<string, string | number | boolean> = {};
-  if (params) {
-    for (const [key, value] of Object.entries(params)) {
-      if (value !== undefined) cleaned[key] = value;
-    }
-  }
-
-  sendGAEvent("event", event, cleaned);
+  void event;
+  void params;
 }
 
-/** Observatory / entity focus — `select_content` for Content explorations. */
+/** Observatory / entity focus — formerly GA `select_content`; no-op after Gate 4. */
 export function trackSelectContent(params: {
   content_type: string;
   item_id: string;
   method?: "link" | "canvas";
 }): void {
-  trackEvent("select_content", params);
+  void params;
+  trackEvent("select_content");
 }
 
 export function trackOutboundClick(params: {
@@ -52,10 +47,8 @@ export function trackOutboundClick(params: {
   location: string;
   platform?: string;
 }): void {
-  trackEvent("click", {
-    ...params,
-    outbound: true,
-  });
+  void params;
+  trackEvent("click");
 }
 
 export function trackFileDownload(params: {
@@ -66,10 +59,11 @@ export function trackFileDownload(params: {
   item_id?: string;
   location?: string;
 }): void {
-  trackEvent("file_download", params);
+  void params;
+  trackEvent("file_download");
 }
 
-/** Declarative analytics payload for `TrackedLink` / `CTAButton`. */
+/** Declarative analytics payload for `TrackedLink` / `CTAButton` (legacy shape). */
 export function outboundLinkAnalytics(
   link_url: string,
   link_text: string,
@@ -83,12 +77,13 @@ export function outboundLinkAnalytics(
 }
 
 export function trackSearchOpen(params: SearchOpenParams): void {
-  trackEvent("search_open", params);
+  void params;
+  trackEvent("search_open");
 }
 
 /**
- * Dual-write on-site search: Vercel `site_search` (always) + GA `search_query` (consent).
- * Buckets only — never raw query text. GSC does not cover this signal.
+ * On-site search → Vercel `site_search` only (bucket props; never raw query text).
+ * GSC does not cover this signal.
  */
 export function trackSearchQuery(params: SearchQueryParams): void {
   trackVercelEvent("site_search", {
@@ -97,19 +92,21 @@ export function trackSearchQuery(params: SearchQueryParams): void {
     result_count_bucket: params.result_count_bucket,
     query_length_bucket: params.query_length_bucket,
   });
-  trackEvent("search_query", params);
 }
 
 export function trackSearchSelect(params: SearchSelectParams): void {
-  trackEvent("search_select", params);
+  void params;
+  trackEvent("search_select");
 }
 
 export function trackSearchRefine(params: SearchRefineParams): void {
-  trackEvent("search_refine", params);
+  void params;
+  trackEvent("search_refine");
 }
 
 export function trackSearchNoResults(params: SearchNoResultsParams): void {
-  trackEvent("search_no_results", params);
+  void params;
+  trackEvent("search_no_results");
 }
 
 export function trackSearchExpand(): void {
@@ -117,15 +114,18 @@ export function trackSearchExpand(): void {
 }
 
 export function trackQuestionSectionView(params: { location: "home" | "start" | "index" }): void {
-  trackEvent("question_section_view", params);
+  void params;
+  trackEvent("question_section_view");
 }
 
 export function trackQuestionSelect(params: { question_id: string; location: string }): void {
-  trackEvent("question_select", params);
+  void params;
+  trackEvent("question_select");
 }
 
 export function trackQuestionPathStart(params: { question_id: string }): void {
-  trackEvent("question_path_start", params);
+  void params;
+  trackEvent("question_path_start");
 }
 
 export function trackQuestionStopOpen(params: {
@@ -133,31 +133,38 @@ export function trackQuestionStopOpen(params: {
   stop_position: number;
   entity_type: string;
 }): void {
-  trackEvent("question_stop_open", params);
+  void params;
+  trackEvent("question_stop_open");
 }
 
 export function trackQuestionRelatedSelect(params: { from_id: string; to_id: string }): void {
-  trackEvent("question_related_select", params);
+  void params;
+  trackEvent("question_related_select");
 }
 
 export function trackQuestionContinueBook(params: { question_id: string; book_id: string }): void {
-  trackEvent("question_continue_book", params);
+  void params;
+  trackEvent("question_continue_book");
 }
 
 export function trackQuestionSearchHandoff(params: { question_id: string }): void {
-  trackEvent("question_search_handoff", params);
+  void params;
+  trackEvent("question_search_handoff");
 }
 
 export function trackTrailIndexView(params: { location: "home" | "start" | "index" }): void {
-  trackEvent("trail_index_view", params);
+  void params;
+  trackEvent("trail_index_view");
 }
 
 export function trackTrailSelect(params: { trail_id: string; location: string }): void {
-  trackEvent("trail_select", params);
+  void params;
+  trackEvent("trail_select");
 }
 
 export function trackTrailPathStart(params: { trail_id: string }): void {
-  trackEvent("trail_path_start", params);
+  void params;
+  trackEvent("trail_path_start");
 }
 
 export function trackTrailStopOpen(params: {
@@ -166,17 +173,21 @@ export function trackTrailStopOpen(params: {
   entity_type: string;
   optional: boolean;
 }): void {
-  trackEvent("trail_stop_open", params);
+  void params;
+  trackEvent("trail_stop_open");
 }
 
 export function trackTrailRelatedSelect(params: { from_id: string; to_id: string }): void {
-  trackEvent("trail_related_select", params);
+  void params;
+  trackEvent("trail_related_select");
 }
 
 export function trackTrailContinueBook(params: { trail_id: string; book_id: string }): void {
-  trackEvent("trail_continue_book", params);
+  void params;
+  trackEvent("trail_continue_book");
 }
 
 export function trackTrailSearchHandoff(params: { trail_id: string }): void {
-  trackEvent("trail_search_handoff", params);
+  void params;
+  trackEvent("trail_search_handoff");
 }
