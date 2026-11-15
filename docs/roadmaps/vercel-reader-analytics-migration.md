@@ -1,8 +1,8 @@
 # Vercel reader analytics migration
 
-**Status:** Specialized plan — **PR 3 review follow-up** (recommend `corrective_pr_required`; owner approval pending); PR 0–2 merged  
+**Status:** Specialized plan — **corrective PR** (path-start queue stub + `site_search`); Gate 3 `corrective_pr_required`; PR 0–2 merged  
 **Created:** 2026-10-17  
-**Revised:** 2026-11-14 (Gate 3 evaluation + review reconcile; path-start/search blockers — PR 4 still blocked)  
+**Revised:** 2026-11-14 (corrective instrumentation for mount-time Vercel queue + on-site search — PR 4 still blocked)  
 **Location:** `docs/roadmaps/vercel-reader-analytics-migration.md`  
 **Authority:** Specialized cross-layer plan. Does **not** replace [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Unfinished follow-ups after each PR merge belong on the master roadmap Observe / Now sections, not as a second backlog.
 

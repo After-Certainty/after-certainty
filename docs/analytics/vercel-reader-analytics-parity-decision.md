@@ -215,12 +215,12 @@ With **35** GA4 `search_query` events alongside **36** `chapter_open` events, di
 
 ## 9. Required follow-up
 
-### 9a. Corrective PR (do this next) — suggested branch `fix/vercel-reading-path-and-search`
+### 9a. Corrective PR — `fix/vercel-reading-path-and-search` (in progress / land next)
 
-1. Diagnose and fix `reading_path_started` so production Vercel aggregates show events when question/trail pages load.  
-2. Add owner PADE smoke checklist + artifact path under `manual/`.  
-3. Add minimal `site_search` (or equivalent) Vercel custom event with bucketed props; wire from existing search UI without dual-writing raw queries.  
-4. Tests for facade + call sites; no GA removal.
+1. **Root cause:** `@vercel/analytics` `track()` does not install `window.va` itself; mount-time effects can run before `<Analytics />` injects, silently dropping events while GA still records. Fix: `ensureVercelAnalyticsQueue()` in `lib/analytics/vercel-track.ts` before every custom event.  
+2. Owner PADE smoke checklist in [`apps/site/docs/seo-analytics-verification.md`](../../apps/site/docs/seo-analytics-verification.md).  
+3. Minimal Vercel `site_search` dual-write from `trackSearchQuery` (bucket props only; no raw queries).  
+4. Unit tests for queue stub + search dual-write; no GA removal.
 
 ### 9b. PR 4 scope (`chore/retire-ga4`) — still describe-only; **blocked** until corrective PR + approval
 

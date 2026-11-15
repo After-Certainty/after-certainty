@@ -14,6 +14,8 @@ const jsdomTsTests = [
   "lib/analytics/reader.test.ts",
   "lib/analytics/track-reader.test.ts",
   "lib/analytics/track.test.ts",
+  "lib/analytics/vercel-track.test.ts",
+
   "lib/consent/storage.test.ts",
   "lib/consent/update-consent.test.ts",
   "lib/games/pattern-recognition/analytics.test.ts",

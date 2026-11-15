@@ -8,6 +8,7 @@ import type {
   SearchRefineParams,
   SearchSelectParams,
 } from "@/lib/analytics/events";
+import { trackVercelEvent } from "@/lib/analytics/vercel-track";
 import { hasAnalyticsConsent } from "@/lib/consent/storage";
 import { resolveGaMeasurementId, shouldLoadGoogleAnalytics } from "@/lib/site-config";
 
@@ -85,7 +86,17 @@ export function trackSearchOpen(params: SearchOpenParams): void {
   trackEvent("search_open", params);
 }
 
+/**
+ * Dual-write on-site search: Vercel `site_search` (always) + GA `search_query` (consent).
+ * Buckets only — never raw query text. GSC does not cover this signal.
+ */
 export function trackSearchQuery(params: SearchQueryParams): void {
+  trackVercelEvent("site_search", {
+    surface: params.surface,
+    has_results: params.has_results,
+    result_count_bucket: params.result_count_bucket,
+    query_length_bucket: params.query_length_bucket,
+  });
   trackEvent("search_query", params);
 }
 
