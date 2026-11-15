@@ -5,8 +5,7 @@ description: >-
   PADE v0.4.1 broker on Cursor Cloud Agents (capability vercel.analytics.read,
   fallback vercel.diagnostics). Use when the user asks for reader analytics,
   Vercel Web Analytics trends, discovery/readership metrics, weekly reader
-  briefs, or corpus_navigation / chapter_open reporting. Prefer this skill over
-  ga-trends for Vercel-primary questions during parallel measurement.
+  briefs, or corpus_navigation / chapter_open reporting. Primary skill after Gate 4 (GA4 retired); prefer over the legacy ga-trends skill.
 ---
 
 # Reader analytics (Vercel Web Analytics — After Certainty)

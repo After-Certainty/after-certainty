@@ -1,17 +1,11 @@
 import type { GraphEntityKind } from "@/types/semanticGraph";
 
 /**
- * GA4 setup (Admin):
- * - Data streams → Enhanced measurement: page views on; "Page changes based on browser history events" on.
- *   Client-side App Router navigations rely on that history toggle (no custom pathname tracker).
- * - Enable Consent Mode on the web stream.
- * - Consent defaults deny analytics_storage globally until Accept (lib/consent/consent-defaults-script.ts).
- * - Mark key events (file_download, chapter_open, next_chapter) after validating names in DebugView.
+ * Legacy GA4 event name catalog (Gate 4: site runtime is Vercel-only).
+ * Call sites that still invoke `trackEvent` are no-ops. Prefer `trackReaderEvent` /
+ * `trackVercelEvent` for primary reader measurement.
  *
- * Reader funnel (ANALYTICS-001): chapter_open → next_chapter → file_download with location=reader.
  * Never send manuscript text, titles, summaries, or raw queries — IDs and buckets only.
- *
- * Custom dimensions (optional): register `content_type`, `location`, `platform` for standard reports.
  */
 
 /** GA4 recommended — content engagement (Observatory focus, entity detail). */

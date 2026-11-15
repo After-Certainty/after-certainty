@@ -1,12 +1,159 @@
 {
   "schema": "gate3-decision/v1",
-  "recommendation": "keep_parallel_longer",
+  "recommendation": "retire_ga4",
   "pr1_merged_at_utc": "2026-10-17T21:15:09Z",
   "pr2_merged_at_utc": "2026-10-17T22:14:33Z",
   "earliest_revisit_date": "2026-10-31",
   "preferred_decision_date": "2026-11-14",
+  "final_evaluation_date": "2026-11-14",
   "decision_report": "docs/analytics/vercel-reader-analytics-parity-decision.md",
-  "observation_window_note": "Gate 3 requires 2–4 weeks after PR 1. Baseline snapshots before that window completes are not approval to retire GA4.",
+  "observation_window_note": "Gate 3 required 2\u20134 weeks after PR 1. Full completed Denver observation 2026-10-17 \u2192 2026-11-13; packs re-collected with exclusive-end ISO bounds after review. Corrective PR #770 verified in production 2026-11-14 (America/Denver).",
+  "november_evaluation": {
+    "status": "completed_post_corrective_verified",
+    "collected_at_utc": "2026-11-15T02:29:45Z",
+    "reconciled_at_utc": "2026-11-15T03:10:00Z",
+    "post_corrective_verified_at_utc": "2026-11-15T03:34:51Z",
+    "artifacts_dir": "manual/nov2026-evaluation/",
+    "post_corrective_dir": "manual/nov2026-evaluation/post-corrective/",
+    "findings_summary": "manual/nov2026-evaluation/findings-summary.json",
+    "windows": {
+      "full_denver_inclusive": {
+        "since": "2026-10-17",
+        "until": "2026-11-13"
+      },
+      "current_7": {
+        "since": "2026-11-07",
+        "until": "2026-11-13"
+      },
+      "prior_7": {
+        "since": "2026-10-31",
+        "until": "2026-11-06"
+      }
+    },
+    "window_reconciliation": {
+      "issue": "Manual packs initially passed inclusive until=YYYY-MM-DD; aggregates resolved a calendar day earlier than visits/count",
+      "fix": "scripts/collect-nov2026-evaluation-pack.sh + validate-evidence-pack shared exclusive-end day check",
+      "current_week_matches_regenerable_raw": true
+    },
+    "vercel_full_headline": {
+      "visitors": 1860,
+      "pageviews": 3069,
+      "chapter_open": {
+        "count": 34,
+        "visitors": 25
+      },
+      "chapter_advance": {
+        "count": 6,
+        "visitors": 3
+      },
+      "book_download": {
+        "count": 1,
+        "visitors": 1
+      },
+      "corpus_navigation": {
+        "count": 14,
+        "visitors": 9
+      },
+      "reader_audio_started": {
+        "count": 5,
+        "visitors": 3
+      },
+      "reading_path_started": {
+        "count": 0,
+        "visitors": 0
+      },
+      "source_to_chapter_edges": {
+        "count": 8,
+        "visitors": 6
+      },
+      "corpus_pairs_with_to_id": 7
+    },
+    "ga4_full_headline": {
+      "sessions": 63,
+      "activeUsers": 49,
+      "screenPageViews": 213,
+      "chapter_open": 36,
+      "next_chapter": 5,
+      "file_download": 2,
+      "question_path_start": 5,
+      "search_query": 35
+    },
+    "traffic_quality": {
+      "sg_visitors": 1664,
+      "empty_referrer_visitors": 1825,
+      "google_referrer_visitors": 39,
+      "note": "SG + empty-referrer dominate ungated totals; treat as heuristic anomaly, not confirmed bots. Prefer custom reader events over raw visitors."
+    },
+    "path_start_investigation": {
+      "method": "code_inspection_and_pade_api_only",
+      "computer_use": false,
+      "ga4_question_path_start_dates": {
+        "20261017": 1,
+        "20261023": 3,
+        "20261024": 1
+      },
+      "vercel_reading_path_started_pre_corrective": "empty",
+      "root_cause": "track() does not init window.va; mount-time effects could run before Analytics inject and drop events",
+      "corrective_pr": 770,
+      "conclusion": "Corrective PR landed and production-verified"
+    },
+    "onsite_search": {
+      "ga4_search_query": 35,
+      "gsc_covers_onsite_search": false,
+      "vercel_event": "site_search",
+      "privacy": "bucket props only (surface, has_results, result_count_bucket, query_length_bucket); no raw query text",
+      "corrective_pr": 770
+    },
+    "post_corrective_verification": {
+      "corrective_pr": 770,
+      "method": "shell_playwright_stealth_plus_pade",
+      "computer_use": false,
+      "artifacts_dir": "manual/nov2026-evaluation/post-corrective/",
+      "vercel_since": "2026-11-14T00:00:00.000Z",
+      "vercel_until_exclusive": "2026-11-16T00:00:00.000Z",
+      "reading_path_started": {
+        "count": 3,
+        "visitors": 2
+      },
+      "reading_path_dims": [
+        {
+          "path_kind": "question",
+          "path_id": "love-hard-to-explain",
+          "count": 1
+        },
+        {
+          "path_kind": "trail",
+          "path_id": "accountability-and-enduring-authority",
+          "count": 1
+        },
+        {
+          "path_kind": "trail",
+          "path_id": "judgment-before-certainty",
+          "count": 1
+        }
+      ],
+      "site_search": {
+        "count": 2,
+        "visitors": 1
+      },
+      "site_search_dims": [
+        {
+          "result_count_bucket": "25+",
+          "surface": "full",
+          "count": 3,
+          "visitors": 2
+        }
+      ],
+      "client_insights_event_posts_observed": true,
+      "conclusion": "Both corrective gaps closed in production Vercel aggregates"
+    },
+    "residual_risks": [
+      "Consent / privacy review still required before GA runtime removal",
+      "Headline Vercel visitors remain SG/empty-referrer inflated \u2014 prefer custom reader events",
+      "Exact per-action dual-write parity was never claimed"
+    ],
+    "recommendation_rationale": "Primary reader vocabulary works; path-start and bucketed site_search verified on Vercel after PR #770. Ready for owner approval of retire_ga4; do not open PR 4 without approval."
+  },
   "owner_smoke": {
     "status": "both_providers_observed_reader_events",
     "exact_per_action_parity": false,
@@ -14,16 +161,28 @@
     "procedure": [
       "Production www.after-certainty.com after PR 1 deploy",
       "Cookie consent: Accept (GA path enabled)",
-      "Open chapters, use Next, download PDF, follow source→chapter link",
+      "Open chapters, use Next, download PDF, follow source\u2192chapter link",
       "Query Vercel with since=2026-10-17 until=2026-10-18 (next-day until param)"
     ],
     "consent": "accepted",
     "observed_at_utc": "2026-10-17T22:35:00Z",
     "vercel_events_observed": {
-      "chapter_open": { "count": 2, "visitors": 1 },
-      "chapter_advance": { "count": 3, "visitors": 1 },
-      "book_download": { "count": 1, "visitors": 1 },
-      "corpus_navigation": { "count": 3, "visitors": 1 }
+      "chapter_open": {
+        "count": 2,
+        "visitors": 1
+      },
+      "chapter_advance": {
+        "count": 3,
+        "visitors": 1
+      },
+      "book_download": {
+        "count": 1,
+        "visitors": 1
+      },
+      "corpus_navigation": {
+        "count": 3,
+        "visitors": 1
+      }
     },
     "ga4_events_observed": {
       "chapter_open": 4
@@ -34,24 +193,45 @@
   "billing": {
     "plan": "pro",
     "web_analytics_plus_usd_per_month": 10,
-    "published_custom_event_price_usd": 0.00003,
+    "published_custom_event_price_usd": 3e-05,
     "published_price_note": "Vercel docs: $0.00003 per event ($3 per 100,000). See https://vercel.com/docs/analytics/limits-and-pricing",
-    "invoice_metadata": {
+    "october_invoice_metadata": {
       "source_artifact": "manual/vercel_billing_snapshot.txt",
       "analytics_invoice_item_price_field": 1000,
       "analytics_invoice_item_interpretation": "1000 = $10.00/mo Web Analytics Plus (cents)",
       "webAnalyticsEvent_price_field": 0.003,
-      "webAnalyticsEvent_interpretation": "Invoice API units appear to be cents (0.003¢ = $0.00003), matching the published $0.00003/event — not $0.003 USD/event"
+      "webAnalyticsEvent_interpretation": "Invoice API units appear to be cents (0.003\u00a2 = $0.00003), matching the published $0.00003/event \u2014 not $0.003 USD/event"
+    },
+    "november_invoice_metadata": {
+      "source_artifact": "manual/nov2026-evaluation/vercel_billing_snapshot_2026-11-14.txt",
+      "collected_at": "2026-11-14",
+      "plan": "pro",
+      "analytics_invoice_item_price_field": 1000,
+      "analytics_quantity": 1,
+      "webAnalyticsEvent_price_field": 0.003,
+      "change_vs_october": "No unexpected billing change; Plus still present at ~$10/mo"
     }
   },
+  "prior_recommendation": {
+    "recommendation": "corrective_pr_required",
+    "as_of": "2026-11-14",
+    "note": "Review follow-up after window reconcile + path-start/search gaps; superseded by retire_ga4 after PR #770 production verification."
+  },
+  "baseline_recommendation": {
+    "recommendation": "keep_parallel_longer",
+    "as_of": "2026-10-17",
+    "note": "Original Gate 3 baseline before observation window completed."
+  },
   "approval": {
-    "approver": null,
-    "approved_at": null,
-    "decision": null
+    "approver": "Kevin Steffensen",
+    "approved_at": "2026-11-14",
+    "approved_at_utc": "2026-11-15T03:49:00Z",
+    "decision": "approve_pr4_retire_ga4",
+    "note": "Owner chat approval after Gate 3 post-#770 verification merge (#771)."
   },
   "regen_policy": {
     "comparison_summary": "Overwritten by make reader-analytics-parity / scripts/reader-analytics-parity.sh",
     "gate_decision": "Human-edited only; pack must refuse to mutate this file",
-    "manual": "Append-only owner smoke / billing probes; not regenerated by the pack"
+    "manual": "Append-only owner smoke / billing probes / november evaluation; not regenerated by the pack"
   }
 }

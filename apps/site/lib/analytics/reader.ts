@@ -1,18 +1,9 @@
-import { track } from "@vercel/analytics";
-
 import type { CorpusRelation, CorpusType } from "@/lib/analytics/vercel-intent";
-import { trackEvent } from "@/lib/analytics/track";
+import { trackVercelEvent } from "@/lib/analytics/vercel-track";
 import { vercelAnalyticsCustomPropertyLimit } from "@/lib/site-config";
 
 /**
- * Provider-agnostic reader analytics facade (migration PR 1).
- *
- * Dispatch order:
- * 1. Resolve canonical event + properties once.
- * 2. Vercel — always attempt (independent of cookie consent).
- * 3. GA4 — separately, via consent-gated trackEvent helpers.
- *
- * Never nest Vercel sends inside trackEvent().
+ * Reader analytics facade — Vercel Web Analytics only (GA4 retired, Gate 4).
  */
 
 export type ReadingPathKind = "question" | "trail";
@@ -59,7 +50,7 @@ export type ChapterAdvanceProperties = {
 export type BookDownloadProperties = {
   book_id: string;
   format: string;
-  /** GA-only extras retained during parallel measurement. */
+  /** Retained for call-site compatibility; not sent to Vercel (≤2/8 prop budget). */
   file_name?: string;
   link_url?: string;
   location?: string;
@@ -83,78 +74,36 @@ export type ReaderAnalyticsEvent =
   | { name: "reader_audio_started"; properties: ReaderAudioStartedProperties }
   | { name: "reading_path_started"; properties: ReadingPathStartedProperties };
 
-function vercelProps(
-  properties: Record<string, string | number | boolean | undefined>,
-): Record<string, string | number | boolean> {
-  const cleaned: Record<string, string | number | boolean> = {};
-  for (const [key, value] of Object.entries(properties)) {
-    if (value !== undefined) cleaned[key] = value;
-  }
-  return cleaned;
-}
-
-function trackVercel(name: string, properties: Record<string, string | number | boolean | undefined>): void {
-  try {
-    track(name, vercelProps(properties));
-  } catch {
-    // Best effort: measurement must not block navigation, selection, or playback.
-  }
-}
-
-/**
- * Dual-write a primary reader event. Call sites should invoke this once per action.
- */
+/** Send a primary reader event to Vercel Web Analytics. */
 export function trackReaderEvent(event: ReaderAnalyticsEvent): void {
   switch (event.name) {
     case "corpus_navigation": {
-      trackVercel("corpus_navigation", corpusNavigationVercelProperties(event.properties));
-      // Vercel-only today; no GA corpus_navigation dual-write.
+      trackVercelEvent("corpus_navigation", corpusNavigationVercelProperties(event.properties));
       return;
     }
     case "chapter_open": {
-      const { book_id, chapter_id, edition_id } = event.properties;
-      trackVercel("chapter_open", { book_id, chapter_id });
-      trackEvent("chapter_open", {
-        book_id,
-        chapter_id,
-        ...(edition_id ? { edition_id } : {}),
-      });
+      const { book_id, chapter_id } = event.properties;
+      trackVercelEvent("chapter_open", { book_id, chapter_id });
       return;
     }
     case "chapter_advance": {
-      const { book_id, from_chapter_id, to_chapter_id } = event.properties;
-      // Destination chapter required for Vercel (≤2 props + book on GA only).
-      trackVercel("chapter_advance", { from_chapter_id, to_chapter_id });
-      trackEvent("next_chapter", { book_id, from_chapter_id, to_chapter_id });
+      const { from_chapter_id, to_chapter_id } = event.properties;
+      trackVercelEvent("chapter_advance", { from_chapter_id, to_chapter_id });
       return;
     }
     case "book_download": {
-      const { book_id, format, file_name, link_url, location } = event.properties;
-      trackVercel("book_download", { book_id, format });
-      trackEvent("file_download", {
-        file_extension: format,
-        content_type: "book",
-        item_id: book_id,
-        ...(file_name ? { file_name } : {}),
-        ...(link_url ? { link_url } : {}),
-        ...(location ? { location } : {}),
-      });
+      const { book_id, format } = event.properties;
+      trackVercelEvent("book_download", { book_id, format });
       return;
     }
     case "reader_audio_started": {
       const { book_id, chapter_id } = event.properties;
-      trackVercel("reader_audio_started", { book_id, chapter_id });
-      // No historical GA audio event — Vercel-only during parallel measurement.
+      trackVercelEvent("reader_audio_started", { book_id, chapter_id });
       return;
     }
     case "reading_path_started": {
       const { path_kind, path_id } = event.properties;
-      trackVercel("reading_path_started", { path_kind, path_id });
-      if (path_kind === "question") {
-        trackEvent("question_path_start", { question_id: path_id });
-      } else {
-        trackEvent("trail_path_start", { trail_id: path_id });
-      }
+      trackVercelEvent("reading_path_started", { path_kind, path_id });
       return;
     }
     default: {

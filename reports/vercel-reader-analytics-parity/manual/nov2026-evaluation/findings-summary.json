@@ -1,0 +1,124 @@
+{
+  "schema": "gate3-nov2026-findings/v1",
+  "collected_at_utc": "2026-11-15T03:02:02Z",
+  "window_fix": {
+    "issue": "Initial manual packs passed inclusive until=YYYY-MM-DD; aggregates resolved a calendar day earlier than visits/count",
+    "fix": "Re-collected with vercel_iso_request_bounds exclusive until=day-after T00; validate-evidence-pack enforces shared exclusive-end day",
+    "current_week_reconciled_with_raw": true
+  },
+  "windows": {
+    "full_denver_inclusive": {
+      "since": "2026-10-17",
+      "until": "2026-11-13"
+    },
+    "current_7": {
+      "since": "2026-11-07",
+      "until": "2026-11-13"
+    },
+    "prior_7": {
+      "since": "2026-10-31",
+      "until": "2026-11-06"
+    }
+  },
+  "recommendation": "retire_ga4",
+  "vercel_full": {
+    "visitors": 1860,
+    "pageviews": 3069,
+    "events": {
+      "chapter_open": {
+        "count": 34,
+        "visitors": 25
+      },
+      "corpus_navigation": {
+        "count": 14,
+        "visitors": 9
+      },
+      "chapter_advance": {
+        "count": 6,
+        "visitors": 3
+      },
+      "reader_audio_started": {
+        "count": 5,
+        "visitors": 3
+      },
+      "book_download": {
+        "count": 1,
+        "visitors": 1
+      },
+      "listen_item_selected": {
+        "count": 4,
+        "visitors": 1
+      }
+    },
+    "reading_path_started": [],
+    "sg_visitors": 1664,
+    "empty_referrer_visitors": 1825,
+    "google_referrer_visitors": 39,
+    "corpus_pairs_with_to_id": 7,
+    "corpus_edges": [
+      {
+        "eventData/from_type": "source",
+        "eventData/to_type": "chapter",
+        "visitors": 6,
+        "count": 8
+      },
+      {
+        "eventData/from_type": "book",
+        "eventData/to_type": "chapter",
+        "visitors": 3,
+        "count": 4
+      },
+      {
+        "eventData/from_type": "thinker",
+        "eventData/to_type": "source",
+        "visitors": 2,
+        "count": 2
+      }
+    ]
+  },
+  "current_7_aligned": {
+    "chapter_open": {
+      "eventName": "chapter_open",
+      "visitors": 6,
+      "count": 6
+    },
+    "matches_regenerable_raw": true
+  },
+  "path_start_investigation": {
+    "method": "code inspection + PADE API only (no browser automation)",
+    "ga4_question_path_start_by_date": {
+      "20261017": 1,
+      "20261023": 3,
+      "20261024": 1
+    },
+    "ga4_note": "All 5 events fall on/after PR1 merge day \u2014 not pre-instrumentation",
+    "vercel_reading_path_started_full_window": [],
+    "code": "QuestionPathAnalytics and TrailPathAnalytics call trackReaderEvent(reading_path_started) which dual-writes Vercel then GA",
+    "conclusion": "Corrective PR #770 closed the production gap; verified via PADE + Playwright",
+    "owner_smoke_without_agent_browser": [
+      "On production, Accept cookies",
+      "Open /questions/<slug> and /trails/<slug>",
+      "Query Vercel events for reading_path_started with since=today until=tomorrow ISO exclusive",
+      "Query GA4 realtime/report for question_path_start / trail_path_start",
+      "Record both results under manual/ before approving retirement"
+    ],
+    "post_corrective_vercel": {
+      "count": 3,
+      "visitors": 2
+    }
+  },
+  "post_corrective": {
+    "corrective_pr": 770,
+    "verified_at_utc": "2026-11-15T03:34:51Z",
+    "artifacts_dir": "manual/nov2026-evaluation/post-corrective/",
+    "reading_path_started": {
+      "count": 3,
+      "visitors": 2
+    },
+    "site_search": {
+      "count": 2,
+      "visitors": 1
+    },
+    "conclusion": "Corrective gaps closed; Gate 3 restores retire_ga4; approval still pending"
+  }
+}
