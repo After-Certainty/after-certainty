@@ -16,6 +16,7 @@ from reader_analytics_parity import (
     ga_metrics,
     is_fake_payload,
     main,
+    validate_evidence_pack_dir,
     validate_vercel_query_bounds,
     vercel_until_param,
 )
@@ -177,6 +178,47 @@ def test_count_vs_aggregate_plus_one_hour_allowed() -> None:
         until_param="2026-10-17T00:00:00.000Z",
     )
     assert any("T01:00:00.000Z" in n for n in notes)
+
+
+def test_validate_evidence_pack_dir_rejects_mixed_exclusive_end_days(tmp_path: Path) -> None:
+    """Manual packs that pass inclusive until= as a bare date can skew aggregates a day early."""
+    pack = tmp_path / "current"
+    pack.mkdir()
+    (pack / "visits_count.json").write_text(
+        json.dumps(_vercel({"visitors": 150}, until="2026-11-14T00:00:00.000Z")),
+        encoding="utf-8",
+    )
+    (pack / "events_by_name.json").write_text(
+        json.dumps(
+            _vercel(
+                [{"eventName": "chapter_open", "count": 5}],
+                until="2026-11-13T01:00:00.000Z",
+            )
+        ),
+        encoding="utf-8",
+    )
+    with pytest.raises(SystemExit, match="exclusive end day|until calendar"):
+        validate_evidence_pack_dir(pack, since="2026-11-07", until_inclusive="2026-11-13")
+
+
+def test_validate_evidence_pack_dir_accepts_aligned_t00_t01(tmp_path: Path) -> None:
+    pack = tmp_path / "current"
+    pack.mkdir()
+    (pack / "visits_count.json").write_text(
+        json.dumps(_vercel({"visitors": 150}, until="2026-11-14T00:00:00.000Z")),
+        encoding="utf-8",
+    )
+    (pack / "events_by_name.json").write_text(
+        json.dumps(
+            _vercel(
+                [{"eventName": "chapter_open", "count": 6}],
+                until="2026-11-14T01:00:00.000Z",
+            )
+        ),
+        encoding="utf-8",
+    )
+    notes = validate_evidence_pack_dir(pack, since="2026-11-07", until_inclusive="2026-11-13")
+    assert any("2026-11-14" in n for n in notes)
 
 
 def test_build_summary_and_preserves_gate_decision(tmp_path: Path) -> None:

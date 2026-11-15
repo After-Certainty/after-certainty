@@ -381,6 +381,49 @@ def assert_gate_decision_untouched(art_dir: Path, before: dict[str, Any] | None)
         raise SystemExit("error: regenerating comparison-summary mutated gate-decision.json")
 
 
+def load_vercel_payloads_from_dir(pack_dir: Path) -> dict[str, Any]:
+    """Load every ``*.json`` Vercel-shaped payload under ``pack_dir`` (non-recursive)."""
+    payloads: dict[str, Any] = {}
+    if not pack_dir.is_dir():
+        raise SystemExit(f"error: pack directory missing: {pack_dir}")
+    for path in sorted(pack_dir.glob("*.json")):
+        payload = load_json(path)
+        if not isinstance(payload, dict):
+            continue
+        if payload.get("status") == "unavailable":
+            continue
+        if "query" not in payload or "data" not in payload:
+            continue
+        assert_vercel_payload_shape(payload, path=path)
+        payloads[path.name] = payload
+    if not payloads:
+        raise SystemExit(f"error: no Vercel query payloads found in {pack_dir}")
+    return payloads
+
+
+def validate_evidence_pack_dir(
+    pack_dir: Path,
+    *,
+    since: str,
+    until_inclusive: str,
+) -> list[str]:
+    """Validate a manual/evaluation pack uses one exclusive-end calendar day.
+
+    Callers must request Vercel ``until`` as the day **after** ``until_inclusive``
+    (ISO ``…T00:00:00.000Z`` via :func:`vercel_iso_request_bounds`). Passing the
+    inclusive end date alone can resolve ``*/aggregate`` to that day's ``T01:00``
+    while ``visits/count`` advances a full day — mixed exclusive-end days.
+    """
+    until_param = expected_vercel_until_utc(until_inclusive)
+    payloads = load_vercel_payloads_from_dir(pack_dir)
+    return validate_vercel_query_bounds(
+        payloads,
+        since=since,
+        until_inclusive=until_inclusive,
+        until_param=until_param,
+    )
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -401,6 +444,14 @@ def main(argv: list[str] | None = None) -> int:
     )
     p_check.add_argument("--art-dir", type=Path, required=True)
     p_check.add_argument("--before", type=Path, required=True)
+
+    p_pack = sub.add_parser(
+        "validate-evidence-pack",
+        help="Validate a directory of Vercel JSON queries share one exclusive-end day",
+    )
+    p_pack.add_argument("--pack-dir", type=Path, required=True)
+    p_pack.add_argument("--since", required=True, help="Inclusive since YYYY-MM-DD")
+    p_pack.add_argument("--until", required=True, help="Inclusive until YYYY-MM-DD")
 
     args = parser.parse_args(argv)
 
@@ -423,6 +474,17 @@ def main(argv: list[str] | None = None) -> int:
         before = load_json(args.before)
         assert_gate_decision_untouched(args.art_dir, before)
         print("gate-decision.json unchanged")
+        return 0
+
+    if args.cmd == "validate-evidence-pack":
+        notes = validate_evidence_pack_dir(
+            args.pack_dir,
+            since=args.since,
+            until_inclusive=args.until,
+        )
+        for note in notes:
+            print(note)
+        print(f"evidence pack OK: {args.pack_dir}")
         return 0
 
     return 1
