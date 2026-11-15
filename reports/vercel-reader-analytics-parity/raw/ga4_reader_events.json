@@ -19,12 +19,24 @@
       ],
       "metricValues": [
         {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "next_chapter"
+        }
+      ],
+      "metricValues": [
+        {
           "value": "2"
         }
       ]
     }
   ],
-  "rowCount": 1,
+  "rowCount": 2,
   "metadata": {
     "currencyCode": "USD",
     "timeZone": "America/Denver"

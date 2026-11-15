@@ -1,0 +1,544 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-3-how-love-deepens-chapter-11-trust",
+  "generationHash": "sha256:1153163f73cc0dab8363b9e90e20cbf26ca8e78c4e6f259a8a3fd5e62bfa33b8",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Trust",
+      "startMs": 0.0,
+      "endMs": 627.0,
+      "charStart": 0,
+      "charEnd": 5
+    },
+    {
+      "id": "s0002",
+      "text": "A friend borrowed someone's car on a Thursday and brought it back on Sunday with the tank fuller than he found it.",
+      "startMs": 1927.0,
+      "endMs": 7942.0,
+      "charStart": 7,
+      "charEnd": 121
+    },
+    {
+      "id": "s0003",
+      "text": "He did not mention it.",
+      "startMs": 8220.0,
+      "endMs": 9358.0,
+      "charStart": 123,
+      "charEnd": 145
+    },
+    {
+      "id": "s0004",
+      "text": "The owner might not have noticed otherwise.",
+      "startMs": 9509.0,
+      "endMs": 11669.0,
+      "charStart": 146,
+      "charEnd": 189
+    },
+    {
+      "id": "s0005",
+      "text": "The gesture was too small for a speech and too specific to be accidental.",
+      "startMs": 11878.0,
+      "endMs": 16324.0,
+      "charStart": 190,
+      "charEnd": 263
+    },
+    {
+      "id": "s0006",
+      "text": "It said, without slogan: I know this mattered to you.",
+      "startMs": 16603.0,
+      "endMs": 20562.0,
+      "charStart": 264,
+      "charEnd": 317
+    },
+    {
+      "id": "s0007",
+      "text": "That is one way trust announces itself—not as a declaration, but as a pattern.",
+      "startMs": 20887.0,
+      "endMs": 26518.0,
+      "charStart": 319,
+      "charEnd": 397
+    },
+    {
+      "id": "s0008",
+      "text": "What trust feels like",
+      "startMs": 27470.0,
+      "endMs": 29188.0,
+      "charStart": 399,
+      "charEnd": 420
+    },
+    {
+      "id": "s0009",
+      "text": "You do not observe trust directly the way you observe a gift or an apology.",
+      "startMs": 30489.0,
+      "endMs": 34773.0,
+      "charStart": 422,
+      "charEnd": 497
+    },
+    {
+      "id": "s0010",
+      "text": "You infer it.",
+      "startMs": 35376.0,
+      "endMs": 36526.0,
+      "charStart": 498,
+      "charEnd": 511
+    },
+    {
+      "id": "s0011",
+      "text": "The same way you infer that a chair will hold your weight.",
+      "startMs": 37222.0,
+      "endMs": 40392.0,
+      "charStart": 512,
+      "charEnd": 570
+    },
+    {
+      "id": "s0012",
+      "text": "The way you infer that a bridge you have crossed a hundred times will probably hold again.",
+      "startMs": 41089.0,
+      "endMs": 45802.0,
+      "charStart": 571,
+      "charEnd": 661
+    },
+    {
+      "id": "s0013",
+      "text": "The body learns before the mind catches up.",
+      "startMs": 46499.0,
+      "endMs": 49238.0,
+      "charStart": 663,
+      "charEnd": 706
+    },
+    {
+      "id": "s0014",
+      "text": "There is a difference between telling someone a hard truth while waiting to see whether the friendship survives it, and telling one because you already know, somehow, that the friendship can hold it—between lending something you would miss and something you would grieve to lose, between saying I'm on my way and believing the words without checking your phone every five minutes.",
+      "startMs": 50539.0,
+      "endMs": 71901.0,
+      "charStart": 708,
+      "charEnd": 1088
+    },
+    {
+      "id": "s0015",
+      "text": "Trust is what lets a bond carry weight.",
+      "startMs": 73016.0,
+      "endMs": 75895.0,
+      "charStart": 1090,
+      "charEnd": 1129
+    },
+    {
+      "id": "s0016",
+      "text": "Not the weight of performance.",
+      "startMs": 76406.0,
+      "endMs": 78089.0,
+      "charStart": 1131,
+      "charEnd": 1161
+    },
+    {
+      "id": "s0017",
+      "text": "The weight of reality—absence, disappointment, ordinary failure, the long stretch of Tuesdays when no one is at their best.",
+      "startMs": 78414.0,
+      "endMs": 87563.0,
+      "charStart": 1162,
+      "charEnd": 1285
+    },
+    {
+      "id": "s0018",
+      "text": "Connection can make another person's inner life real to you.",
+      "startMs": 88260.0,
+      "endMs": 91789.0,
+      "charStart": 1287,
+      "charEnd": 1347
+    },
+    {
+      "id": "s0019",
+      "text": "Trust is what convinces you, over time, that the connection will not collapse the moment it is tested.",
+      "startMs": 92393.0,
+      "endMs": 99000.0,
+      "charStart": 1348,
+      "charEnd": 1450
+    },
+    {
+      "id": "s0020",
+      "text": "Staying often makes a promise the body can believe: this is not only for today.",
+      "startMs": 99696.0,
+      "endMs": 104549.0,
+      "charStart": 1452,
+      "charEnd": 1531
+    },
+    {
+      "id": "s0021",
+      "text": "Trust is what that promise becomes when it has been kept often enough to stop feeling like hope and start feeling like ground.",
+      "startMs": 104828.0,
+      "endMs": 112258.0,
+      "charStart": 1532,
+      "charEnd": 1658
+    },
+    {
+      "id": "s0022",
+      "text": "How trust is built",
+      "startMs": 112955.0,
+      "endMs": 114244.0,
+      "charStart": 1660,
+      "charEnd": 1678
+    },
+    {
+      "id": "s0023",
+      "text": "Trust is rarely built in a single grand moment.",
+      "startMs": 114940.0,
+      "endMs": 118296.0,
+      "charStart": 1680,
+      "charEnd": 1727
+    },
+    {
+      "id": "s0024",
+      "text": "It is built through repetition too unglamorous to film.",
+      "startMs": 118737.0,
+      "endMs": 122034.0,
+      "charStart": 1729,
+      "charEnd": 1784
+    },
+    {
+      "id": "s0025",
+      "text": "The call returned.",
+      "startMs": 122731.0,
+      "endMs": 124135.0,
+      "charStart": 1785,
+      "charEnd": 1803
+    },
+    {
+      "id": "s0026",
+      "text": "The promise kept when keeping it cost something.",
+      "startMs": 124519.0,
+      "endMs": 127386.0,
+      "charStart": 1804,
+      "charEnd": 1852
+    },
+    {
+      "id": "s0027",
+      "text": "The apology that named what went wrong.",
+      "startMs": 127990.0,
+      "endMs": 130370.0,
+      "charStart": 1853,
+      "charEnd": 1892
+    },
+    {
+      "id": "s0028",
+      "text": "The return after harm.",
+      "startMs": 130974.0,
+      "endMs": 132576.0,
+      "charStart": 1893,
+      "charEnd": 1915
+    },
+    {
+      "id": "s0029",
+      "text": "The year that looked, from the outside, like nothing was happening.",
+      "startMs": 133272.0,
+      "endMs": 137521.0,
+      "charStart": 1916,
+      "charEnd": 1983
+    },
+    {
+      "id": "s0030",
+      "text": "Seeing, giving, staying, repairing—those movements are often how trust grows.",
+      "startMs": 138032.0,
+      "endMs": 144929.0,
+      "charStart": 1985,
+      "charEnd": 2062
+    },
+    {
+      "id": "s0031",
+      "text": "Not always.",
+      "startMs": 145312.0,
+      "endMs": 146229.0,
+      "charStart": 2063,
+      "charEnd": 2074
+    },
+    {
+      "id": "s0032",
+      "text": "Not automatically.",
+      "startMs": 146612.0,
+      "endMs": 147982.0,
+      "charStart": 2075,
+      "charEnd": 2093
+    },
+    {
+      "id": "s0033",
+      "text": "But often enough that the pattern is hard to miss.",
+      "startMs": 148261.0,
+      "endMs": 151395.0,
+      "charStart": 2094,
+      "charEnd": 2144
+    },
+    {
+      "id": "s0034",
+      "text": "Someone sees you clearly and does not use what they see against you.",
+      "startMs": 151999.0,
+      "endMs": 156121.0,
+      "charStart": 2146,
+      "charEnd": 2214
+    },
+    {
+      "id": "s0035",
+      "text": "Someone spends something real and does not keep a hidden ledger.",
+      "startMs": 156934.0,
+      "endMs": 160672.0,
+      "charStart": 2216,
+      "charEnd": 2280
+    },
+    {
+      "id": "s0036",
+      "text": "Someone remains when remaining is costly.",
+      "startMs": 161183.0,
+      "endMs": 164109.0,
+      "charStart": 2282,
+      "charEnd": 2323
+    },
+    {
+      "id": "s0037",
+      "text": "Someone turns back after failure and changes what can be changed.",
+      "startMs": 164805.0,
+      "endMs": 169600.0,
+      "charStart": 2325,
+      "charEnd": 2390
+    },
+    {
+      "id": "s0038",
+      "text": "Each of these can deepen trust.",
+      "startMs": 170413.0,
+      "endMs": 172502.0,
+      "charStart": 2392,
+      "charEnd": 2423
+    },
+    {
+      "id": "s0039",
+      "text": "Each can also be performed without it.",
+      "startMs": 173454.0,
+      "endMs": 175950.0,
+      "charStart": 2424,
+      "charEnd": 2462
+    },
+    {
+      "id": "s0040",
+      "text": "The same gesture can arrive from generosity or strategy—you learn the difference over years, not from one beautiful week.",
+      "startMs": 176276.0,
+      "endMs": 184310.0,
+      "charStart": 2463,
+      "charEnd": 2584
+    },
+    {
+      "id": "s0041",
+      "text": "Trust is what a waiting-room chair becomes when someone has returned often enough that their staying stops feeling provisional.",
+      "startMs": 184913.0,
+      "endMs": 192193.0,
+      "charStart": 2585,
+      "charEnd": 2712
+    },
+    {
+      "id": "s0042",
+      "text": "Trust is not proven by one beautiful week.",
+      "startMs": 192890.0,
+      "endMs": 195989.0,
+      "charStart": 2714,
+      "charEnd": 2756
+    },
+    {
+      "id": "s0043",
+      "text": "It is proven by what the relationship does with the unbeautiful ones.",
+      "startMs": 196500.0,
+      "endMs": 200668.0,
+      "charStart": 2758,
+      "charEnd": 2827
+    },
+    {
+      "id": "s0044",
+      "text": "When trust breaks",
+      "startMs": 201481.0,
+      "endMs": 202758.0,
+      "charStart": 2829,
+      "charEnd": 2846
+    },
+    {
+      "id": "s0045",
+      "text": "Betrayal does not always arrive as drama.",
+      "startMs": 203199.0,
+      "endMs": 205986.0,
+      "charStart": 2848,
+      "charEnd": 2889
+    },
+    {
+      "id": "s0046",
+      "text": "Sometimes it is the discovered lie that was \"only\" about money, or time, or where someone was.",
+      "startMs": 206427.0,
+      "endMs": 213231.0,
+      "charStart": 2891,
+      "charEnd": 2985
+    },
+    {
+      "id": "s0047",
+      "text": "Sometimes it is the slow realization that a person has been managing your perception of them.",
+      "startMs": 214531.0,
+      "endMs": 219500.0,
+      "charStart": 2986,
+      "charEnd": 3079
+    },
+    {
+      "id": "s0048",
+      "text": "Sometimes it is the promise that kept being moved—next week, soon, when things calm down—until you stopped believing the words and started protecting yourself from them.",
+      "startMs": 220313.0,
+      "endMs": 231969.0,
+      "charStart": 3080,
+      "charEnd": 3249
+    },
+    {
+      "id": "s0049",
+      "text": "When trust breaks, the movements change shape: seeing feels like surveillance, giving feels like debt, staying feels like a trap, repair feels like manipulation.",
+      "startMs": 232480.0,
+      "endMs": 244995.0,
+      "charStart": 3251,
+      "charEnd": 3412
+    },
+    {
+      "id": "s0050",
+      "text": "That does not mean the movements were never real.",
+      "startMs": 245947.0,
+      "endMs": 248664.0,
+      "charStart": 3414,
+      "charEnd": 3463
+    },
+    {
+      "id": "s0051",
+      "text": "It means the ground beneath them has cracked.",
+      "startMs": 249268.0,
+      "endMs": 251636.0,
+      "charStart": 3464,
+      "charEnd": 3509
+    },
+    {
+      "id": "s0052",
+      "text": "The body often catches that change before the mind can explain it.",
+      "startMs": 252449.0,
+      "endMs": 256582.0,
+      "charStart": 3510,
+      "charEnd": 3576
+    },
+    {
+      "id": "s0053",
+      "text": "Some people have felt how exhausting it is to love someone you cannot trust—not because love has disappeared, but because every answer now requires calculation.",
+      "startMs": 257882.0,
+      "endMs": 268935.0,
+      "charStart": 3578,
+      "charEnd": 3738
+    },
+    {
+      "id": "s0054",
+      "text": "Every kindness arrives with a question attached: What does this cost me?",
+      "startMs": 269631.0,
+      "endMs": 274879.0,
+      "charStart": 3739,
+      "charEnd": 3811
+    },
+    {
+      "id": "s0055",
+      "text": "What is being asked in return?",
+      "startMs": 275692.0,
+      "endMs": 277747.0,
+      "charStart": 3812,
+      "charEnd": 3842
+    },
+    {
+      "id": "s0056",
+      "text": "That exhaustion is one reason trust matters so much once another life has become weight-bearing inside yours.",
+      "startMs": 278699.0,
+      "endMs": 285967.0,
+      "charStart": 3844,
+      "charEnd": 3953
+    },
+    {
+      "id": "s0057",
+      "text": "Trust without love",
+      "startMs": 286780.0,
+      "endMs": 288602.0,
+      "charStart": 3955,
+      "charEnd": 3973
+    },
+    {
+      "id": "s0058",
+      "text": "And yet trust is not love.",
+      "startMs": 289717.0,
+      "endMs": 291528.0,
+      "charStart": 3975,
+      "charEnd": 4001
+    },
+    {
+      "id": "s0059",
+      "text": "You can trust a colleague who would not grieve your absence, a mechanic, a neighbor with a spare key—without any of that being love, exactly.",
+      "startMs": 292039.0,
+      "endMs": 301130.0,
+      "charStart": 4002,
+      "charEnd": 4143
+    },
+    {
+      "id": "s0060",
+      "text": "Trust can exist where connection is thin and care is not the word you would use.",
+      "startMs": 301827.0,
+      "endMs": 307237.0,
+      "charStart": 4144,
+      "charEnd": 4224
+    },
+    {
+      "id": "s0061",
+      "text": "We are not naming every good bond love.",
+      "startMs": 307620.0,
+      "endMs": 309826.0,
+      "charStart": 4225,
+      "charEnd": 4264
+    },
+    {
+      "id": "s0062",
+      "text": "We are noticing what helps certain bonds deepen once they already matter.",
+      "startMs": 310070.0,
+      "endMs": 314725.0,
+      "charStart": 4265,
+      "charEnd": 4338
+    },
+    {
+      "id": "s0063",
+      "text": "Reliability helps.",
+      "startMs": 316026.0,
+      "endMs": 317709.0,
+      "charStart": 4340,
+      "charEnd": 4358
+    },
+    {
+      "id": "s0064",
+      "text": "It still does not exhaust love.",
+      "startMs": 318150.0,
+      "endMs": 320473.0,
+      "charStart": 4359,
+      "charEnd": 4390
+    },
+    {
+      "id": "s0065",
+      "text": "You can trust someone and still fail to see them, still withhold yourself, and still discover that love asks for something more than predictability—something about how two lives begin to share weight without one disappearing inside the other.",
+      "startMs": 320856.0,
+      "endMs": 336135.0,
+      "charStart": 4392,
+      "charEnd": 4634
+    },
+    {
+      "id": "s0066",
+      "text": "Reliability is the boring part.",
+      "startMs": 336518.0,
+      "endMs": 338550.0,
+      "charStart": 4636,
+      "charEnd": 4667
+    },
+    {
+      "id": "s0067",
+      "text": "It is also, sometimes, the part you remember when the fire has passed.",
+      "startMs": 338759.0,
+      "endMs": 342915.0,
+      "charStart": 4668,
+      "charEnd": 4738
+    }
+  ]
+}

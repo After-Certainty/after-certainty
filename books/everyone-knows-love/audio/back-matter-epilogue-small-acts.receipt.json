@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-back-matter-epilogue-small-acts",
+  "editionSlug": "everyone-knows-love",
+  "chapterSlug": "back-matter-epilogue-small-acts",
+  "sourcePath": "back-matter/epilogue-small-acts.md",
+  "sourceHash": "sha256:07d28edd03c7ef7e5570e5e192f79ae0028d5533d6022f431042a1ca14d9410d",
+  "spokenTextHash": "sha256:8390c9f0d1d9fd76d2e60123fedbea7f6faf1e109b86e34cef5f40c22571ed2b",
+  "generationHash": "sha256:bd882d679a23b02f17a3641012703e1fd7493bdeefed2c0224f2722d0da0cc96",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 1247,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 311.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 311.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/everyone-knows-love/audio/back-matter-epilogue-small-acts.alignment.json"
+  },
+  "audioPath": "books/everyone-knows-love/audio/back-matter-epilogue-small-acts.mp3",
+  "audioSha256": "sha256:604f019a1985af2b5958406e5ac76d22b218a3beca4f4f8e2dcaf8ad667a679c",
+  "generatedAt": "2026-11-08T15:31:42Z"
+}

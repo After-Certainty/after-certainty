@@ -109,7 +109,7 @@ test.describe("Patterns mobile redesign", () => {
     await expect(footer.getByText("Together")).toBeVisible();
     await expect(togetherNav.getByRole("link", { name: /Reading Trails/i })).toBeVisible();
     await expect(exploreNav.getByRole("link", { name: /Explore patterns/i })).toBeVisible();
-    await expect(exploreNav.getByRole("link", { name: /Privacy & cookies/i })).toBeVisible();
+    await expect(exploreNav.getByRole("link", { name: /Privacy & analytics/i })).toBeVisible();
     await assertNoHorizontalOverflow(page);
   });
 });

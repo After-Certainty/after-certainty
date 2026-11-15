@@ -3,7 +3,7 @@
 List book directories affected by a set of changed paths.
 
 Used by GitHub Actions to scope builds to touched books; Makefile, tools, scripts,
-schema, templates, and workflow changes rebuild everything.
+schema, templates, and book-export workflow changes rebuild everything.\nSelected report-only tools do not affect book artifacts.
 
 Paths match the longest book prefix first. Changes under a shared parent that hosts
 multiple editions (for example books/when-others-look-to-you/v1 and .../v2) rebuild every
@@ -50,15 +50,32 @@ def load_spec_for_rel(repo: Path, book_rel: str) -> dict:
     return load_spec_for_book_dir(book_dir)
 
 
+# Reporting/reconciliation CLI tools produce diagnostics, not book artifacts.
+# Keep this list deliberately exact: unknown tools and build-system changes
+# still require the safe full rebuild until we audit their dependencies.
+_EXPORT_NEUTRAL_TOOLS = frozenset(
+    {
+        "tools/audit_bibliography_semantic_drift.py",
+        "tools/reconcile_phase19_existing_sources.py",
+        "tools/report_source_integrity_phase19.py",
+    }
+)
+
+
 def triggers_full_rebuild(path: str) -> bool:
+    if path in _EXPORT_NEUTRAL_TOOLS:
+        return False
     if path == "Makefile":
         return True
+    # Changing an unrelated Actions workflow must not republish every book.
+    # The book-export workflow itself is a global publishing dependency.
+    if path.startswith(".github/workflows/"):
+        return path == ".github/workflows/book-export-release.yml"
     prefixes = (
         "tools/",
         "scripts/",
         "schema/",
         "templates/",
-        ".github/workflows/",
     )
     return any(path.startswith(p) for p in prefixes)
 

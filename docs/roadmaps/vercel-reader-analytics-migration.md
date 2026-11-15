@@ -1,8 +1,8 @@
 # Vercel reader analytics migration
 
-**Status:** Specialized plan — **PR 3 in progress** (parity decision / observation); PR 0–2 merged  
+**Status:** Specialized plan — Gate 4 **complete** (#772); GA4 retired; Vercel Web Analytics primary; PR 0–2 + corrective #770 merged  
 **Created:** 2026-10-17  
-**Revised:** 2026-10-17 (PR 3: Gate 3 baseline + dual-write smoke; keep parallel — PR 4 blocked)  
+**Revised:** 2026-11-14 (Gate 4 complete — GA4 retired; Vercel primary)  
 **Location:** `docs/roadmaps/vercel-reader-analytics-migration.md`  
 **Authority:** Specialized cross-layer plan. Does **not** replace [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Unfinished follow-ups after each PR merge belong on the master roadmap Observe / Now sections, not as a second backlog.
 
@@ -513,11 +513,11 @@ Only after Gate 3 approval. Remove GA runtime completely; update privacy, CSP, e
 
 ## 15. Immediate next step
 
-After **PR 3** merges with recommendation **keep_parallel_longer**:
+Gate 4 **complete** (#772, production verified 2026-11-14 ~9:16 PM America/Denver):
 
-1. Continue dual-write observation through at least **2026-10-31** (prefer **2026-11-14**).  
-2. Re-run `make reader-analytics-parity` and update [`docs/analytics/vercel-reader-analytics-parity-decision.md`](../analytics/vercel-reader-analytics-parity-decision.md).  
-3. Do **not** start PR 4 (`chore/retire-ga4`) without explicit human approval on that report.
+1. Optional cleanup: delete unused no-op `trackEvent` call sites; archive `ga4-*.sh` / `ga-trends` when unused.  
+2. Keep `reader-analytics` + PADE `vercel.analytics.read` as the primary reporting path.  
+3. Rollback remains: revert #772 / redeploy prior release if needed.
 
 ---
 
@@ -530,3 +530,8 @@ After **PR 3** merges with recommendation **keep_parallel_longer**:
 | 2026-10-17 | PR 1 merged (instrumentation + privacy copy + attribution `to_id`); PR 2 reporting stack started |
 | 2026-10-17 | PR 2: `reader-analytics` skill, Web Analytics query client, weekly brief + Make entry, PADE `vercel.analytics.read` |
 | 2026-10-17 | PR 2 merged; PR 3 Gate 3 baseline + owner dual-write smoke; recommendation keep_parallel_longer |
+| 2026-11-14 | PR 3 final evaluation after observation window; initial retire_ga4 draft |
+| 2026-11-14 | Review follow-up: exclusive-end pack reconcile; recommend corrective_pr_required (path-start + on-site search); PR 4 still blocked |
+| 2026-11-14 | Corrective #770 verified in production; Gate 3 restores retire_ga4; PR 4 still blocked on owner approval |
+| 2026-11-14 | Owner approved retire_ga4; Gate 4 / PR 4 started |
+| 2026-11-14 | Gate 4 #772 merged + production verified (no GA network; Vercel events OK) |

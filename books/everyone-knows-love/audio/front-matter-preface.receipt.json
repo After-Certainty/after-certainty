@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-front-matter-preface",
+  "editionSlug": "everyone-knows-love",
+  "chapterSlug": "front-matter-preface",
+  "sourcePath": "front-matter/preface.md",
+  "sourceHash": "sha256:038af4d5b10863831b50087c77f7465bef92539c11a23c51e2bf7d0fe9569872",
+  "spokenTextHash": "sha256:5523a835ee917a21f34f616e34a509de48ff3c9e7e7d16deb9fadb9238a6c3da",
+  "generationHash": "sha256:b1c4a79efa6268738a231e30c06cc9e98b011f099a76a85690d0f16549ed05a1",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 462,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 115.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 115.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/everyone-knows-love/audio/front-matter-preface.alignment.json"
+  },
+  "audioPath": "books/everyone-knows-love/audio/front-matter-preface.mp3",
+  "audioSha256": "sha256:142ed0fd2b3fe5f48cf324be2f1c0e88a18462417f8accaa8b274384ec10a626",
+  "generatedAt": "2026-11-08T15:29:00Z"
+}

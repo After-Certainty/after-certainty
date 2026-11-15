@@ -168,5 +168,5 @@ Root `brace-expansion` is forced to **`5.0.12`** via `package.json` `overrides` 
 ## Native audits
 
 - Root / Site CI: `bash scripts/ci_npm_audit.sh` (`npm audit --audit-level=high` + allowlist above) — merge gate.
-- Python CI: `pip-audit` (locked). Floor pins: `urllib3>=2.8.0`, `virtualenv>=21.7.13` (also in `uv` `override-dependencies`).
+- Python CI: `pip-audit` (locked). Floor pins: `urllib3>=2.8.0`, `virtualenv>=21.7.13`, `msgpack>=1.2.3` (also in `uv` `override-dependencies`).
 - `tools/vercel-cli`: not a blocking `npm audit` gate (would fail on the upstream graph above).

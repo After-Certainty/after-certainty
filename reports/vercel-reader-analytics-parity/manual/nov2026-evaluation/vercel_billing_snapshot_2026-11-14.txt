@@ -1,0 +1,11 @@
+team_http=200
+project.name after-certainty
+project.webAnalytics {'id': 'S7YGwJ11PPo2hsbKAZysFUwGV', 'enabledAt': 1779551796131, 'hasData': True}
+project.speedInsights {'id': 'M3j4cmp32wCYtWpmsHmwsKkNwu0', 'hasData': True, 'enabledAt': 1779552373365}
+team.billing.plan pro
+team.billing.status active
+invoiceItem.analytics {'price': 1000, 'createdAt': 1785222000000, 'quantity': 1, 'highestQuantity': 1, 'hidden': False}
+invoiceItem.analyticsUsage {'batch': 10000, 'price': 65, 'threshold': 0, 'hidden': False}
+invoiceItem.webAnalyticsEvent {'batch': 1, 'price': 0.003, 'threshold': 0, 'hidden': False}
+billing.period {'start': 1793170800000, 'end': 1795852800000}
+billing.planName ksteffe's projects

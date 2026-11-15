@@ -1,0 +1,664 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-2-how-love-moves-chapter-5-giving",
+  "generationHash": "sha256:33e061f986cd4c0add51fcab068c11c5592c8efce96bb91b6ef9846e6c7f851b",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Giving",
+      "startMs": 0.0,
+      "endMs": 348.0,
+      "charStart": 0,
+      "charEnd": 6
+    },
+    {
+      "id": "s0002",
+      "text": "A neighbor knocked at nine on a Tuesday with a casserole dish and no speech prepared.",
+      "startMs": 418.0,
+      "endMs": 4783.0,
+      "charStart": 8,
+      "charEnd": 93
+    },
+    {
+      "id": "s0003",
+      "text": "Her husband had told her the family next door was having a hard week.",
+      "startMs": 5166.0,
+      "endMs": 8649.0,
+      "charStart": 95,
+      "charEnd": 164
+    },
+    {
+      "id": "s0004",
+      "text": "She did not think much had been said—maybe one tired sentence on the driveway, maybe a look that gave more away than was meant.",
+      "startMs": 9160.0,
+      "endMs": 16869.0,
+      "charStart": 165,
+      "charEnd": 292
+    },
+    {
+      "id": "s0005",
+      "text": "She had two teenagers, a shift starting at six the next morning, and a kitchen of her own that still needed cleaning.",
+      "startMs": 17473.0,
+      "endMs": 24242.0,
+      "charStart": 293,
+      "charEnd": 410
+    },
+    {
+      "id": "s0006",
+      "text": "She handed over the food, asked if there was anything else, and left before the thank-you could become awkward.",
+      "startMs": 24938.0,
+      "endMs": 30650.0,
+      "charStart": 412,
+      "charEnd": 523
+    },
+    {
+      "id": "s0007",
+      "text": "That was love, or something in love's family: not a grand declaration, but a small act of voluntary inconvenience.",
+      "startMs": 31091.0,
+      "endMs": 38301.0,
+      "charStart": 525,
+      "charEnd": 639
+    },
+    {
+      "id": "s0008",
+      "text": "What giving looks like",
+      "startMs": 39416.0,
+      "endMs": 40646.0,
+      "charStart": 641,
+      "charEnd": 663
+    },
+    {
+      "id": "s0009",
+      "text": "Giving is one of the easiest faces of love to recognize because it is visible.",
+      "startMs": 41761.0,
+      "endMs": 46242.0,
+      "charStart": 665,
+      "charEnd": 743
+    },
+    {
+      "id": "s0010",
+      "text": "You can see the soup.",
+      "startMs": 46753.0,
+      "endMs": 48065.0,
+      "charStart": 745,
+      "charEnd": 766
+    },
+    {
+      "id": "s0011",
+      "text": "The ride.",
+      "startMs": 48448.0,
+      "endMs": 49353.0,
+      "charStart": 767,
+      "charEnd": 776
+    },
+    {
+      "id": "s0012",
+      "text": "The hour given when the hour was already spoken for.",
+      "startMs": 49737.0,
+      "endMs": 52651.0,
+      "charStart": 777,
+      "charEnd": 829
+    },
+    {
+      "id": "s0013",
+      "text": "The person who shows up with a wrench, a casserole, a presence, a check, a favor that costs them something real.",
+      "startMs": 53162.0,
+      "endMs": 59698.0,
+      "charStart": 830,
+      "charEnd": 942
+    },
+    {
+      "id": "s0014",
+      "text": "Love shows up as small acts of voluntary inconvenience.",
+      "startMs": 60139.0,
+      "endMs": 63611.0,
+      "charStart": 944,
+      "charEnd": 999
+    },
+    {
+      "id": "s0015",
+      "text": "Not every inconvenience is love.",
+      "startMs": 63820.0,
+      "endMs": 66153.0,
+      "charStart": 1001,
+      "charEnd": 1033
+    },
+    {
+      "id": "s0016",
+      "text": "Traffic is inconvenient.",
+      "startMs": 66281.0,
+      "endMs": 67999.0,
+      "charStart": 1034,
+      "charEnd": 1058
+    },
+    {
+      "id": "s0017",
+      "text": "Bureaucracy is inconvenient.",
+      "startMs": 68150.0,
+      "endMs": 69996.0,
+      "charStart": 1059,
+      "charEnd": 1087
+    },
+    {
+      "id": "s0018",
+      "text": "But love often announces itself in the small places where someone could have stayed home and did not.",
+      "startMs": 70147.0,
+      "endMs": 75801.0,
+      "charStart": 1088,
+      "charEnd": 1189
+    },
+    {
+      "id": "s0019",
+      "text": "A friend calls after every difficult appointment—not because you asked, but because, over time, the pattern became part of how you both measure a hard season.",
+      "startMs": 75975.0,
+      "endMs": 84950.0,
+      "charStart": 1191,
+      "charEnd": 1349
+    },
+    {
+      "id": "s0020",
+      "text": "Someone cancels plans because your voice sounded wrong on the phone.",
+      "startMs": 85553.0,
+      "endMs": 88781.0,
+      "charStart": 1351,
+      "charEnd": 1419
+    },
+    {
+      "id": "s0021",
+      "text": "A grown child fills a pill organizer every Sunday for a parent who once filled theirs—grumbling a little, forgetting once, returning to the habit anyway because the week has been organized around it for a decade.",
+      "startMs": 89106.0,
+      "endMs": 100391.0,
+      "charStart": 1421,
+      "charEnd": 1633
+    },
+    {
+      "id": "s0022",
+      "text": "A stranger holds a door longer than necessary because your hands are full.",
+      "startMs": 100902.0,
+      "endMs": 104686.0,
+      "charStart": 1635,
+      "charEnd": 1709
+    },
+    {
+      "id": "s0023",
+      "text": "None of these requires a speech about devotion.",
+      "startMs": 105197.0,
+      "endMs": 107995.0,
+      "charStart": 1711,
+      "charEnd": 1758
+    },
+    {
+      "id": "s0024",
+      "text": "All of them say, in the language of action: you matter enough for me to spend something.",
+      "startMs": 108320.0,
+      "endMs": 113789.0,
+      "charStart": 1759,
+      "charEnd": 1847
+    },
+    {
+      "id": "s0025",
+      "text": "That spending can be time, money, comfort, pride, sleep, solitude, the easier path.",
+      "startMs": 114172.0,
+      "endMs": 121625.0,
+      "charStart": 1849,
+      "charEnd": 1932
+    },
+    {
+      "id": "s0026",
+      "text": "Giving is not only material.",
+      "startMs": 122136.0,
+      "endMs": 123715.0,
+      "charStart": 1933,
+      "charEnd": 1961
+    },
+    {
+      "id": "s0027",
+      "text": "Sometimes what is offered is dignity—letting someone save face, taking the blame in public when you could have explained, telling the story in a way that makes them look better than the facts strictly require.",
+      "startMs": 124098.0,
+      "endMs": 136068.0,
+      "charStart": 1962,
+      "charEnd": 2171
+    },
+    {
+      "id": "s0028",
+      "text": "Hospitality belongs here too: the extra chair, the meal stretched to feed one more, the house made ready as if the guest's arrival were an event rather than an interruption.",
+      "startMs": 136671.0,
+      "endMs": 146911.0,
+      "charStart": 2173,
+      "charEnd": 2346
+    },
+    {
+      "id": "s0029",
+      "text": "We know this face.",
+      "startMs": 147608.0,
+      "endMs": 148908.0,
+      "charStart": 2348,
+      "charEnd": 2366
+    },
+    {
+      "id": "s0030",
+      "text": "We have received it.",
+      "startMs": 149059.0,
+      "endMs": 150266.0,
+      "charStart": 2367,
+      "charEnd": 2387
+    },
+    {
+      "id": "s0031",
+      "text": "We have offered it, sometimes badly, sometimes beautifully, often without calling it love until later.",
+      "startMs": 150650.0,
+      "endMs": 157012.0,
+      "charStart": 2388,
+      "charEnd": 2490
+    },
+    {
+      "id": "s0032",
+      "text": "Why giving feels loving",
+      "startMs": 157523.0,
+      "endMs": 159172.0,
+      "charStart": 2492,
+      "charEnd": 2515
+    },
+    {
+      "id": "s0033",
+      "text": "Why does giving feel like love?",
+      "startMs": 159984.0,
+      "endMs": 162074.0,
+      "charStart": 2517,
+      "charEnd": 2548
+    },
+    {
+      "id": "s0034",
+      "text": "Giving feels loving in part because it makes the movement visible.",
+      "startMs": 162887.0,
+      "endMs": 166486.0,
+      "charStart": 2550,
+      "charEnd": 2616
+    },
+    {
+      "id": "s0035",
+      "text": "Someone's well-being begins to matter inside your choices.",
+      "startMs": 166869.0,
+      "endMs": 170422.0,
+      "charStart": 2618,
+      "charEnd": 2676
+    },
+    {
+      "id": "s0036",
+      "text": "You spend something.",
+      "startMs": 170596.0,
+      "endMs": 171734.0,
+      "charStart": 2677,
+      "charEnd": 2697
+    },
+    {
+      "id": "s0037",
+      "text": "You inconvenience yourself.",
+      "startMs": 171943.0,
+      "endMs": 173487.0,
+      "charStart": 2698,
+      "charEnd": 2725
+    },
+    {
+      "id": "s0038",
+      "text": "You offer what you could have kept.",
+      "startMs": 173731.0,
+      "endMs": 175821.0,
+      "charStart": 2726,
+      "charEnd": 2761
+    },
+    {
+      "id": "s0039",
+      "text": "That is why small gifts can carry enormous weight—not because the casserole is magic, but because the casserole says: I noticed your week.",
+      "startMs": 176204.0,
+      "endMs": 184552.0,
+      "charStart": 2763,
+      "charEnd": 2901
+    },
+    {
+      "id": "s0040",
+      "text": "I spent my evening.",
+      "startMs": 184795.0,
+      "endMs": 185956.0,
+      "charStart": 2902,
+      "charEnd": 2921
+    },
+    {
+      "id": "s0041",
+      "text": "You are not carrying this alone if I can help.",
+      "startMs": 186165.0,
+      "endMs": 188313.0,
+      "charStart": 2922,
+      "charEnd": 2968
+    },
+    {
+      "id": "s0042",
+      "text": "The cost matters.",
+      "startMs": 188557.0,
+      "endMs": 190159.0,
+      "charStart": 2970,
+      "charEnd": 2987
+    },
+    {
+      "id": "s0043",
+      "text": "A gift that costs nothing can still be kind.",
+      "startMs": 190484.0,
+      "endMs": 193630.0,
+      "charStart": 2988,
+      "charEnd": 3032
+    },
+    {
+      "id": "s0044",
+      "text": "But we recognize something extra when the giver had to rearrange their own life a little to offer it.",
+      "startMs": 193955.0,
+      "endMs": 199064.0,
+      "charStart": 3033,
+      "charEnd": 3134
+    },
+    {
+      "id": "s0045",
+      "text": "When they did not have to, and did.",
+      "startMs": 199389.0,
+      "endMs": 201711.0,
+      "charStart": 3135,
+      "charEnd": 3170
+    },
+    {
+      "id": "s0046",
+      "text": "That may be one reason performative generosity feels hollow.",
+      "startMs": 202094.0,
+      "endMs": 205391.0,
+      "charStart": 3172,
+      "charEnd": 3232
+    },
+    {
+      "id": "s0047",
+      "text": "The performance is visible.",
+      "startMs": 205716.0,
+      "endMs": 207167.0,
+      "charStart": 3233,
+      "charEnd": 3260
+    },
+    {
+      "id": "s0048",
+      "text": "The cost is not.",
+      "startMs": 207295.0,
+      "endMs": 208526.0,
+      "charStart": 3261,
+      "charEnd": 3277
+    },
+    {
+      "id": "s0049",
+      "text": "When giving is not love",
+      "startMs": 208804.0,
+      "endMs": 210279.0,
+      "charStart": 3279,
+      "charEnd": 3302
+    },
+    {
+      "id": "s0050",
+      "text": "But giving can look like love and still not be.",
+      "startMs": 210395.0,
+      "endMs": 213262.0,
+      "charStart": 3304,
+      "charEnd": 3351
+    },
+    {
+      "id": "s0051",
+      "text": "A person can give from guilt—trying to buy back peace after harm, or after absence, or after the simple failure to show up when it mattered; from fear—appeasing someone because conflict feels unbearable, or because they have learned that love in their house was always conditional on usefulness; from obligation—because roles demand it, because someone is watching, because it would look bad not to; from strategy—because generosity buys influence, because the gift creates debt, because being needed feels safer than being ordinary.",
+      "startMs": 213704.0,
+      "endMs": 247280.0,
+      "charStart": 3353,
+      "charEnd": 3886
+    },
+    {
+      "id": "s0052",
+      "text": "All of these can look generous from the outside.",
+      "startMs": 247977.0,
+      "endMs": 250345.0,
+      "charStart": 3887,
+      "charEnd": 3935
+    },
+    {
+      "id": "s0053",
+      "text": "Sometimes they are generous; sometimes they are necessary; sometimes they are better than nothing.",
+      "startMs": 250519.0,
+      "endMs": 256196.0,
+      "charStart": 3936,
+      "charEnd": 4034
+    },
+    {
+      "id": "s0054",
+      "text": "They are not always love.",
+      "startMs": 256405.0,
+      "endMs": 257926.0,
+      "charStart": 4035,
+      "charEnd": 4060
+    },
+    {
+      "id": "s0055",
+      "text": "The same casserole could be offered because a neighbor sees your week and wants to help, or because she needs to feel like a good person tonight.",
+      "startMs": 258135.0,
+      "endMs": 265218.0,
+      "charStart": 4062,
+      "charEnd": 4207
+    },
+    {
+      "id": "s0056",
+      "text": "The act is the same.",
+      "startMs": 266030.0,
+      "endMs": 267238.0,
+      "charStart": 4209,
+      "charEnd": 4229
+    },
+    {
+      "id": "s0057",
+      "text": "The room receives it differently, even when no one can say why—and motive still matters, not because we should become detectives of one another's hearts, but because love is not only what is done.",
+      "startMs": 267447.0,
+      "endMs": 278987.0,
+      "charStart": 4230,
+      "charEnd": 4426
+    },
+    {
+      "id": "s0058",
+      "text": "It is what is done freely enough that the other person's good, not only our relief, is part of the aim.",
+      "startMs": 279591.0,
+      "endMs": 285280.0,
+      "charStart": 4427,
+      "charEnd": 4530
+    },
+    {
+      "id": "s0059",
+      "text": "The difference cost makes",
+      "startMs": 285721.0,
+      "endMs": 287381.0,
+      "charStart": 4532,
+      "charEnd": 4557
+    },
+    {
+      "id": "s0060",
+      "text": "There is a difference between giving that deepens a bond and giving that manages a situation.",
+      "startMs": 288681.0,
+      "endMs": 294126.0,
+      "charStart": 4559,
+      "charEnd": 4652
+    },
+    {
+      "id": "s0061",
+      "text": "A parent hands a child a coat because it is cold—that can be loving without soul-searching.",
+      "startMs": 294509.0,
+      "endMs": 300059.0,
+      "charStart": 4653,
+      "charEnd": 4744
+    },
+    {
+      "id": "s0062",
+      "text": "But we can feel when generosity becomes a way of avoiding the harder thing: the expensive gift instead of the honest conversation, the constant help that keeps someone dependent, the sacrifice announced loudly enough that the recipient must spend their life repaying it.",
+      "startMs": 300663.0,
+      "endMs": 316940.0,
+      "charStart": 4745,
+      "charEnd": 5015
+    },
+    {
+      "id": "s0063",
+      "text": "Real giving does not always announce itself.",
+      "startMs": 317752.0,
+      "endMs": 320144.0,
+      "charStart": 5017,
+      "charEnd": 5061
+    },
+    {
+      "id": "s0064",
+      "text": "Often it slips in sideways—a text that says I'm at the store, need anything? a ride offered before it is requested, the chair held in a waiting room as if your comfort were obvious.",
+      "startMs": 320527.0,
+      "endMs": 332752.0,
+      "charStart": 5062,
+      "charEnd": 5243
+    },
+    {
+      "id": "s0065",
+      "text": "Voluntary inconvenience has a texture too.",
+      "startMs": 332926.0,
+      "endMs": 335492.0,
+      "charStart": 5245,
+      "charEnd": 5287
+    },
+    {
+      "id": "s0066",
+      "text": "So does its counterfeit.",
+      "startMs": 335817.0,
+      "endMs": 337210.0,
+      "charStart": 5289,
+      "charEnd": 5313
+    },
+    {
+      "id": "s0067",
+      "text": "Not love by itself",
+      "startMs": 337489.0,
+      "endMs": 339126.0,
+      "charStart": 5315,
+      "charEnd": 5333
+    },
+    {
+      "id": "s0068",
+      "text": "If giving were love itself, the world would be simpler.",
+      "startMs": 340426.0,
+      "endMs": 343456.0,
+      "charStart": 5335,
+      "charEnd": 5390
+    },
+    {
+      "id": "s0069",
+      "text": "We would only need more generosity.",
+      "startMs": 343572.0,
+      "endMs": 345442.0,
+      "charStart": 5392,
+      "charEnd": 5427
+    },
+    {
+      "id": "s0070",
+      "text": "More soup.",
+      "startMs": 345512.0,
+      "endMs": 346255.0,
+      "charStart": 5428,
+      "charEnd": 5438
+    },
+    {
+      "id": "s0071",
+      "text": "More rides.",
+      "startMs": 346498.0,
+      "endMs": 347532.0,
+      "charStart": 5439,
+      "charEnd": 5450
+    },
+    {
+      "id": "s0072",
+      "text": "More people staying up when they are tired.",
+      "startMs": 347683.0,
+      "endMs": 349796.0,
+      "charStart": 5451,
+      "charEnd": 5494
+    },
+    {
+      "id": "s0073",
+      "text": "More generosity helps.",
+      "startMs": 349970.0,
+      "endMs": 351560.0,
+      "charStart": 5496,
+      "charEnd": 5518
+    },
+    {
+      "id": "s0074",
+      "text": "It still does not exhaust love.",
+      "startMs": 352071.0,
+      "endMs": 353848.0,
+      "charStart": 5519,
+      "charEnd": 5550
+    },
+    {
+      "id": "s0075",
+      "text": "Because love is not one expression.",
+      "startMs": 354173.0,
+      "endMs": 356379.0,
+      "charStart": 5552,
+      "charEnd": 5587
+    },
+    {
+      "id": "s0076",
+      "text": "Seeing is one face.",
+      "startMs": 356622.0,
+      "endMs": 358132.0,
+      "charStart": 5588,
+      "charEnd": 5607
+    },
+    {
+      "id": "s0077",
+      "text": "Giving is another—and giving, too, can be performed without love, or withheld where love is real, or offered beautifully and still leave something essential unaddressed.",
+      "startMs": 358457.0,
+      "endMs": 368592.0,
+      "charStart": 5608,
+      "charEnd": 5777
+    },
+    {
+      "id": "s0078",
+      "text": "You can give and fail to see.",
+      "startMs": 369033.0,
+      "endMs": 370856.0,
+      "charStart": 5779,
+      "charEnd": 5808
+    },
+    {
+      "id": "s0079",
+      "text": "You can see and fail to give.",
+      "startMs": 371181.0,
+      "endMs": 373004.0,
+      "charStart": 5810,
+      "charEnd": 5839
+    },
+    {
+      "id": "s0080",
+      "text": "Neither failure cancels the other—and neither, by itself, proves much.",
+      "startMs": 373445.0,
+      "endMs": 377799.0,
+      "charStart": 5841,
+      "charEnd": 5911
+    },
+    {
+      "id": "s0081",
+      "text": "The casserole is still on the counter when you get home.",
+      "startMs": 378124.0,
+      "endMs": 380573.0,
+      "charStart": 5913,
+      "charEnd": 5969
+    },
+    {
+      "id": "s0082",
+      "text": "Someone else made dinner because they noticed your week.",
+      "startMs": 380852.0,
+      "endMs": 383499.0,
+      "charStart": 5970,
+      "charEnd": 6026
+    }
+  ]
+}

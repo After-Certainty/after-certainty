@@ -2,11 +2,10 @@
 name: reader-analytics
 description: >-
   Pulls Vercel Web Analytics reader briefs for After Certainty. Primary path:
-  PADE v0.4.0 broker on Cursor Cloud Agents (capability vercel.analytics.read,
+  PADE v0.4.1 broker on Cursor Cloud Agents (capability vercel.analytics.read,
   fallback vercel.diagnostics). Use when the user asks for reader analytics,
   Vercel Web Analytics trends, discovery/readership metrics, weekly reader
-  briefs, or corpus_navigation / chapter_open reporting. Prefer this skill over
-  ga-trends for Vercel-primary questions during parallel measurement.
+  briefs, or corpus_navigation / chapter_open reporting. Primary skill after Gate 4 (GA4 retired); prefer over the legacy ga-trends skill.
 ---
 
 # Reader analytics (Vercel Web Analytics — After Certainty)
@@ -25,7 +24,7 @@ On Cloud Agents, **do not** use Vercel MCP, `vercel login`, `--token` in chat, o
 
 ### Cloud Agent (primary — PADE broker)
 
-- Released **PADE v0.4.0** on `PATH` (from [`.cursor/install-pade.sh`](../../../../.cursor/install-pade.sh))
+- Released **PADE v0.4.1** on `PATH` (from [`.cursor/install-pade.sh`](../../../../.cursor/install-pade.sh))
 - [`pade.yaml`](../../../../pade.yaml) and [`.pade/agent-bindings.yaml`](../../../../.pade/agent-bindings.yaml) at repo root
 - Cursor Cloud Agent VM (identity socket for OIDC)
 - Query helper: [`apps/site/scripts/vercel-web-analytics-query.sh`](../../scripts/vercel-web-analytics-query.sh)

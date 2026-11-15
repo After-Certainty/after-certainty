@@ -57,28 +57,63 @@ def _changed_audio_paths(repo: Path) -> list[str]:
     return sorted(set(paths))
 
 
+def build_pr_copy(
+    *, unit_ids: list[str], failed_unit_ids: list[str], run_id: str
+) -> tuple[str, str]:
+    """Return (title, markdown body) for the review PR."""
+    ok = [u for u in unit_ids if u and u != "(unspecified)"]
+    failed = [u for u in failed_unit_ids if u]
+    if failed:
+        title = f"chapter-audio: generate {len(ok)} unit(s) ({len(failed)} failed)"
+    else:
+        title = f"chapter-audio: generate {len(ok) if ok else len(unit_ids)} unit(s)"
+
+    ok_list = "\n".join(f"- `{u}`" for u in (ok or unit_ids))
+    body_parts = [
+        "## Summary\n",
+        f"Generated chapter audio for **{len(ok) if ok else len(unit_ids)}** unit(s) via "
+        "`chapter-audio-generate` workflow" + (f" (run `{run_id}`)" if run_id else "") + ".\n\n",
+        "### Succeeded\n",
+        f"{ok_list}\n",
+    ]
+    if failed:
+        failed_list = "\n".join(f"- `{u}`" for u in failed)
+        body_parts.extend(
+            [
+                "\n### Failed (not in this PR)\n",
+                f"{failed_list}\n",
+                "\nThe workflow continued after per-unit failures so successful "
+                "artifacts could still publish. Re-run generate for the failed "
+                "ids (or fix budgets/staleness) when ready.\n",
+            ]
+        )
+    body_parts.extend(
+        [
+            "\n## Notes\n",
+            "- MP3s are Git LFS objects under `books/*/audio/`.\n",
+            "- Merging installs Listen for **available** units on the live site "
+            "(no separate env flag).\n",
+            "- Review receipts/alignment before merge.\n",
+        ]
+    )
+    return title, "".join(body_parts)
+
+
 def publish(
     *,
     repo: Path,
     base_branch: str,
     unit_ids: list[str],
     dry_run: bool,
+    failed_unit_ids: list[str] | None = None,
 ) -> int:
     repo = repo.resolve()
     run_id = os.environ.get("GITHUB_RUN_ID", "local")
     branch = f"chapter-audio/generate-{run_id}"
-    title = f"chapter-audio: generate {len(unit_ids)} unit(s)"
-    units_list = "\n".join(f"- `{u}`" for u in unit_ids)
-    body = (
-        "## Summary\n"
-        f"Generated chapter audio for {len(unit_ids)} unit(s) via "
-        "`chapter-audio-generate` workflow.\n\n"
-        f"{units_list}\n\n"
-        "## Notes\n"
-        "- MP3s are Git LFS objects under `books/*/audio/`.\n"
-        "- Merging installs Listen for **available** units on the live site "
-        "(no separate env flag).\n"
-        "- Review receipts/alignment before merge.\n"
+    title, body = build_pr_copy(
+        unit_ids=unit_ids,
+        failed_unit_ids=list(failed_unit_ids or []),
+        run_id=run_id,
     )
 
     paths = _changed_audio_paths(repo)
@@ -182,7 +217,14 @@ def main(argv: list[str] | None = None) -> int:
         action="append",
         dest="units",
         default=[],
-        help="Unit id (repeatable); used in PR title/body only",
+        help="Succeeded unit id (repeatable); used in PR title/body",
+    )
+    parser.add_argument(
+        "--failed-unit",
+        action="append",
+        dest="failed_units",
+        default=[],
+        help="Failed unit id (repeatable); noted in PR body, not committed",
     )
     parser.add_argument(
         "--dry-run",
@@ -191,12 +233,14 @@ def main(argv: list[str] | None = None) -> int:
     )
     args = parser.parse_args(argv)
     units = [u.strip() for u in args.units if u and u.strip()]
+    failed_units = [u.strip() for u in args.failed_units if u and u.strip()]
     try:
         return publish(
             repo=args.repo.resolve(),
             base_branch=args.base_branch.strip() or "main",
             unit_ids=units or ["(unspecified)"],
             dry_run=bool(args.dry_run),
+            failed_unit_ids=failed_units,
         )
     except RuntimeError as exc:
         print(f"error: {exc}", file=sys.stderr)

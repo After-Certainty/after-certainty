@@ -1,0 +1,1024 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-1-everyone-knows-love-chapter-3-recognizing-before-explaining",
+  "generationHash": "sha256:45dafcd109d6473769742fade86e3a7b34f50356b97ff45f54edbc1dbb4c39ec",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Recognizing Before Explaining",
+      "startMs": 0.0,
+      "endMs": 2589.0,
+      "charStart": 0,
+      "charEnd": 29
+    },
+    {
+      "id": "s0002",
+      "text": "A grandmother could often tell when rain was coming.",
+      "startMs": 3541.0,
+      "endMs": 6409.0,
+      "charStart": 31,
+      "charEnd": 83
+    },
+    {
+      "id": "s0003",
+      "text": "Her hands would begin to ache before the weather changed.",
+      "startMs": 6734.0,
+      "endMs": 10089.0,
+      "charStart": 85,
+      "charEnd": 142
+    },
+    {
+      "id": "s0004",
+      "text": "She never claimed to understand why.",
+      "startMs": 10333.0,
+      "endMs": 12469.0,
+      "charStart": 143,
+      "charEnd": 179
+    },
+    {
+      "id": "s0005",
+      "text": "She simply noticed the pattern, trusted it often enough to act on it, and went on with her day.",
+      "startMs": 12644.0,
+      "endMs": 18379.0,
+      "charStart": 180,
+      "charEnd": 275
+    },
+    {
+      "id": "s0006",
+      "text": "She was not being mystical.",
+      "startMs": 18704.0,
+      "endMs": 20620.0,
+      "charStart": 277,
+      "charEnd": 304
+    },
+    {
+      "id": "s0007",
+      "text": "She was being human.",
+      "startMs": 20898.0,
+      "endMs": 22524.0,
+      "charStart": 305,
+      "charEnd": 325
+    },
+    {
+      "id": "s0008",
+      "text": "Humans have always recognized things before we could explain them.",
+      "startMs": 23034.0,
+      "endMs": 26657.0,
+      "charStart": 327,
+      "charEnd": 393
+    },
+    {
+      "id": "s0009",
+      "text": "What recognition looks like",
+      "startMs": 27353.0,
+      "endMs": 29107.0,
+      "charStart": 395,
+      "charEnd": 422
+    },
+    {
+      "id": "s0010",
+      "text": "Recognition is not ignorance.",
+      "startMs": 29803.0,
+      "endMs": 31742.0,
+      "charStart": 424,
+      "charEnd": 453
+    },
+    {
+      "id": "s0011",
+      "text": "It is a kind of knowledge that arrives before language catches up—you know a room has changed when someone you love has been crying, even if no one says a word; you know a friendship has shifted before anyone names it; you know, walking into a house, whether the people inside have been fighting or laughing.",
+      "startMs": 32021.0,
+      "endMs": 50898.0,
+      "charStart": 454,
+      "charEnd": 762
+    },
+    {
+      "id": "s0012",
+      "text": "You know when a child is not quite well—not because you have measured anything, but because something in the ordinary has become slightly wrong.",
+      "startMs": 51595.0,
+      "endMs": 59188.0,
+      "charStart": 763,
+      "charEnd": 907
+    },
+    {
+      "id": "s0013",
+      "text": "That knowing is not always accurate.",
+      "startMs": 59792.0,
+      "endMs": 62137.0,
+      "charStart": 909,
+      "charEnd": 945
+    },
+    {
+      "id": "s0014",
+      "text": "Neither is the weather forecast.",
+      "startMs": 62346.0,
+      "endMs": 64006.0,
+      "charStart": 946,
+      "charEnd": 978
+    },
+    {
+      "id": "s0015",
+      "text": "But it is real.",
+      "startMs": 64180.0,
+      "endMs": 65190.0,
+      "charStart": 979,
+      "charEnd": 994
+    },
+    {
+      "id": "s0016",
+      "text": "It shapes what we do next, and we trust it often enough to act on it—a parent reaches for a child's forehead; a friend sends a text that says only \"Are you okay?\"; a neighbor hears shouting through a wall and hesitates at the door.",
+      "startMs": 65341.0,
+      "endMs": 80097.0,
+      "charStart": 995,
+      "charEnd": 1226
+    },
+    {
+      "id": "s0017",
+      "text": "None of these people has a theory yet.",
+      "startMs": 81398.0,
+      "endMs": 83348.0,
+      "charStart": 1227,
+      "charEnd": 1265
+    },
+    {
+      "id": "s0018",
+      "text": "They have noticed something.",
+      "startMs": 83476.0,
+      "endMs": 84881.0,
+      "charStart": 1266,
+      "charEnd": 1294
+    },
+    {
+      "id": "s0019",
+      "text": "That is recognition: the body and the attention arriving before the explanation.",
+      "startMs": 85124.0,
+      "endMs": 90512.0,
+      "charStart": 1296,
+      "charEnd": 1376
+    },
+    {
+      "id": "s0020",
+      "text": "We have done this before",
+      "startMs": 91812.0,
+      "endMs": 93727.0,
+      "charStart": 1378,
+      "charEnd": 1402
+    },
+    {
+      "id": "s0021",
+      "text": "Love is not the only thing humans have recognized before we could explain it.",
+      "startMs": 95028.0,
+      "endMs": 98870.0,
+      "charStart": 1404,
+      "charEnd": 1481
+    },
+    {
+      "id": "s0022",
+      "text": "Consider fire.",
+      "startMs": 99567.0,
+      "endMs": 100728.0,
+      "charStart": 1483,
+      "charEnd": 1497
+    },
+    {
+      "id": "s0023",
+      "text": "Long before anyone understood combustion, people knew fire was dangerous and useful.",
+      "startMs": 101541.0,
+      "endMs": 106440.0,
+      "charStart": 1499,
+      "charEnd": 1583
+    },
+    {
+      "id": "s0024",
+      "text": "They knew which embers would last the night.",
+      "startMs": 106765.0,
+      "endMs": 109075.0,
+      "charStart": 1584,
+      "charEnd": 1628
+    },
+    {
+      "id": "s0025",
+      "text": "They knew smoke meant trouble.",
+      "startMs": 109517.0,
+      "endMs": 111339.0,
+      "charStart": 1629,
+      "charEnd": 1659
+    },
+    {
+      "id": "s0026",
+      "text": "They knew warmth could save a life and spread in ways you could not take back.",
+      "startMs": 111723.0,
+      "endMs": 115949.0,
+      "charStart": 1660,
+      "charEnd": 1738
+    },
+    {
+      "id": "s0027",
+      "text": "The explanation came later.",
+      "startMs": 116332.0,
+      "endMs": 118132.0,
+      "charStart": 1739,
+      "charEnd": 1766
+    },
+    {
+      "id": "s0028",
+      "text": "The recognition came first—and kept people alive while the explanation was still centuries away.",
+      "startMs": 118457.0,
+      "endMs": 124447.0,
+      "charStart": 1767,
+      "charEnd": 1863
+    },
+    {
+      "id": "s0029",
+      "text": "Seasons work the same way.",
+      "startMs": 125399.0,
+      "endMs": 127570.0,
+      "charStart": 1865,
+      "charEnd": 1891
+    },
+    {
+      "id": "s0030",
+      "text": "People planted and harvested long before anyone could explain the tilt of the earth.",
+      "startMs": 127954.0,
+      "endMs": 132645.0,
+      "charStart": 1893,
+      "charEnd": 1977
+    },
+    {
+      "id": "s0031",
+      "text": "They read light, temperature, the behavior of animals, the feel of soil.",
+      "startMs": 133248.0,
+      "endMs": 138136.0,
+      "charStart": 1978,
+      "charEnd": 2050
+    },
+    {
+      "id": "s0032",
+      "text": "Wrong explanations flourished for centuries.",
+      "startMs": 138647.0,
+      "endMs": 141596.0,
+      "charStart": 2051,
+      "charEnd": 2095
+    },
+    {
+      "id": "s0033",
+      "text": "Right actions often flourished anyway, because recognition can be wiser than the story told about it.",
+      "startMs": 142037.0,
+      "endMs": 148469.0,
+      "charStart": 2096,
+      "charEnd": 2197
+    },
+    {
+      "id": "s0034",
+      "text": "In each case, humans noticed a pattern in lived experience.",
+      "startMs": 148852.0,
+      "endMs": 152962.0,
+      "charStart": 2199,
+      "charEnd": 2258
+    },
+    {
+      "id": "s0035",
+      "text": "We acted on it.",
+      "startMs": 153206.0,
+      "endMs": 154239.0,
+      "charStart": 2259,
+      "charEnd": 2274
+    },
+    {
+      "id": "s0036",
+      "text": "We preserved what worked in habit, ritual, caution, care.",
+      "startMs": 154564.0,
+      "endMs": 159243.0,
+      "charStart": 2275,
+      "charEnd": 2332
+    },
+    {
+      "id": "s0037",
+      "text": "Explanation followed—not as a replacement for recognition, but as an attempt to say what we had already been seeing.",
+      "startMs": 159940.0,
+      "endMs": 167207.0,
+      "charStart": 2333,
+      "charEnd": 2449
+    },
+    {
+      "id": "s0038",
+      "text": "Love may follow the same order.",
+      "startMs": 167811.0,
+      "endMs": 169529.0,
+      "charStart": 2451,
+      "charEnd": 2482
+    },
+    {
+      "id": "s0039",
+      "text": "Explanation can narrow what we knew",
+      "startMs": 169808.0,
+      "endMs": 171921.0,
+      "charStart": 2484,
+      "charEnd": 2519
+    },
+    {
+      "id": "s0040",
+      "text": "This is worth saying gently, because explanation is not the enemy.",
+      "startMs": 172734.0,
+      "endMs": 176693.0,
+      "charStart": 2521,
+      "charEnd": 2587
+    },
+    {
+      "id": "s0041",
+      "text": "Explanations help.",
+      "startMs": 177076.0,
+      "endMs": 178608.0,
+      "charStart": 2589,
+      "charEnd": 2607
+    },
+    {
+      "id": "s0042",
+      "text": "They let us build bridges, cure infections, predict storms, design better lives.",
+      "startMs": 178933.0,
+      "endMs": 184169.0,
+      "charStart": 2608,
+      "charEnd": 2688
+    },
+    {
+      "id": "s0043",
+      "text": "But explanation often arrives speaking as though it had been there from the beginning.",
+      "startMs": 184448.0,
+      "endMs": 188674.0,
+      "charStart": 2689,
+      "charEnd": 2775
+    },
+    {
+      "id": "s0044",
+      "text": "Sometimes that helps us listen.",
+      "startMs": 188952.0,
+      "endMs": 190763.0,
+      "charStart": 2777,
+      "charEnd": 2808
+    },
+    {
+      "id": "s0045",
+      "text": "Sometimes it makes us forget what we already knew.",
+      "startMs": 190938.0,
+      "endMs": 194037.0,
+      "charStart": 2810,
+      "charEnd": 2860
+    },
+    {
+      "id": "s0046",
+      "text": "A child knows how to be comforted before they know the word for attachment.",
+      "startMs": 194316.0,
+      "endMs": 198473.0,
+      "charStart": 2862,
+      "charEnd": 2937
+    },
+    {
+      "id": "s0047",
+      "text": "A teenager knows betrayal before they have read a single psychology article.",
+      "startMs": 199076.0,
+      "endMs": 203279.0,
+      "charStart": 2938,
+      "charEnd": 3014
+    },
+    {
+      "id": "s0048",
+      "text": "A person in love knows that someone matters inside their choices before they can defend the claim in an argument.",
+      "startMs": 203883.0,
+      "endMs": 210802.0,
+      "charStart": 3015,
+      "charEnd": 3128
+    },
+    {
+      "id": "s0049",
+      "text": "The lived knowledge is already there.",
+      "startMs": 211127.0,
+      "endMs": 213310.0,
+      "charStart": 3129,
+      "charEnd": 3166
+    },
+    {
+      "id": "s0050",
+      "text": "The explanation, when it comes, can clarify—or it can flatten.",
+      "startMs": 213752.0,
+      "endMs": 218593.0,
+      "charStart": 3167,
+      "charEnd": 3229
+    },
+    {
+      "id": "s0051",
+      "text": "You have probably felt this at a funeral, or in a hospital hallway, or at a kitchen table when someone asked a question you could not answer cleanly.",
+      "startMs": 219034.0,
+      "endMs": 227451.0,
+      "charStart": 3231,
+      "charEnd": 3380
+    },
+    {
+      "id": "s0052",
+      "text": "The feeling was not vague.",
+      "startMs": 227776.0,
+      "endMs": 229332.0,
+      "charStart": 3381,
+      "charEnd": 3407
+    },
+    {
+      "id": "s0053",
+      "text": "It was specific.",
+      "startMs": 229448.0,
+      "endMs": 230621.0,
+      "charStart": 3408,
+      "charEnd": 3424
+    },
+    {
+      "id": "s0054",
+      "text": "It had shape.",
+      "startMs": 230772.0,
+      "endMs": 231875.0,
+      "charStart": 3425,
+      "charEnd": 3438
+    },
+    {
+      "id": "s0055",
+      "text": "Then you reached for a sentence and watched the sentence fail to carry what you meant.",
+      "startMs": 232049.0,
+      "endMs": 236565.0,
+      "charStart": 3439,
+      "charEnd": 3525
+    },
+    {
+      "id": "s0056",
+      "text": "That failure does not mean the recognition was false.",
+      "startMs": 236890.0,
+      "endMs": 239874.0,
+      "charStart": 3527,
+      "charEnd": 3580
+    },
+    {
+      "id": "s0057",
+      "text": "It often means language arrived late.",
+      "startMs": 240118.0,
+      "endMs": 243148.0,
+      "charStart": 3582,
+      "charEnd": 3619
+    },
+    {
+      "id": "s0058",
+      "text": "We knew love in practice before we had theories for it.",
+      "startMs": 243473.0,
+      "endMs": 246910.0,
+      "charStart": 3621,
+      "charEnd": 3676
+    },
+    {
+      "id": "s0059",
+      "text": "The held hand.",
+      "startMs": 247084.0,
+      "endMs": 248234.0,
+      "charStart": 3677,
+      "charEnd": 3691
+    },
+    {
+      "id": "s0060",
+      "text": "The repaired argument.",
+      "startMs": 248350.0,
+      "endMs": 249639.0,
+      "charStart": 3692,
+      "charEnd": 3714
+    },
+    {
+      "id": "s0061",
+      "text": "The person who stayed.",
+      "startMs": 249766.0,
+      "endMs": 251206.0,
+      "charStart": 3715,
+      "charEnd": 3737
+    },
+    {
+      "id": "s0062",
+      "text": "The grief that changed how a room sounded when you walked in.",
+      "startMs": 251322.0,
+      "endMs": 254747.0,
+      "charStart": 3738,
+      "charEnd": 3799
+    },
+    {
+      "id": "s0063",
+      "text": "The small act no one filmed.",
+      "startMs": 254898.0,
+      "endMs": 257011.0,
+      "charStart": 3800,
+      "charEnd": 3828
+    },
+    {
+      "id": "s0064",
+      "text": "We recognized these as belonging to something important before we could say what that something was.",
+      "startMs": 257255.0,
+      "endMs": 263059.0,
+      "charStart": 3829,
+      "charEnd": 3929
+    },
+    {
+      "id": "s0065",
+      "text": "The agreement beneath the arguments",
+      "startMs": 263385.0,
+      "endMs": 265335.0,
+      "charStart": 3931,
+      "charEnd": 3966
+    },
+    {
+      "id": "s0066",
+      "text": "Nobody argues that love does not exist.",
+      "startMs": 265579.0,
+      "endMs": 268400.0,
+      "charStart": 3968,
+      "charEnd": 4007
+    },
+    {
+      "id": "s0067",
+      "text": "That is remarkable, if you stop to notice it.",
+      "startMs": 268679.0,
+      "endMs": 271407.0,
+      "charStart": 4009,
+      "charEnd": 4054
+    },
+    {
+      "id": "s0068",
+      "text": "Human beings disagree about God, politics, economics, morality, freedom, what a good life looks like, what we owe strangers, what we owe ourselves.",
+      "startMs": 271790.0,
+      "endMs": 283435.0,
+      "charStart": 4056,
+      "charEnd": 4203
+    },
+    {
+      "id": "s0069",
+      "text": "We build identities around disagreement.",
+      "startMs": 283876.0,
+      "endMs": 286256.0,
+      "charStart": 4204,
+      "charEnd": 4244
+    },
+    {
+      "id": "s0070",
+      "text": "We sort ourselves into camps.",
+      "startMs": 286535.0,
+      "endMs": 288346.0,
+      "charStart": 4245,
+      "charEnd": 4274
+    },
+    {
+      "id": "s0071",
+      "text": "We argue at dinner tables and on screens and in books thick enough to stop a door.",
+      "startMs": 288590.0,
+      "endMs": 293013.0,
+      "charStart": 4275,
+      "charEnd": 4357
+    },
+    {
+      "id": "s0072",
+      "text": "Yet almost nobody says, \"Love isn't real.\"",
+      "startMs": 293524.0,
+      "endMs": 296658.0,
+      "charStart": 4359,
+      "charEnd": 4401
+    },
+    {
+      "id": "s0073",
+      "text": "People say love has been wasted, betrayed, misnamed, withheld, performed badly, confused with desire or duty or control.",
+      "startMs": 297262.0,
+      "endMs": 306434.0,
+      "charStart": 4403,
+      "charEnd": 4523
+    },
+    {
+      "id": "s0074",
+      "text": "They say they have lost it, never received it, outgrown it, been destroyed by it, learned to live without it.",
+      "startMs": 306677.0,
+      "endMs": 314143.0,
+      "charStart": 4524,
+      "charEnd": 4633
+    },
+    {
+      "id": "s0075",
+      "text": "They argue about what counts as love and what only looks like love.",
+      "startMs": 314584.0,
+      "endMs": 318601.0,
+      "charStart": 4634,
+      "charEnd": 4701
+    },
+    {
+      "id": "s0076",
+      "text": "They argue about whether it should last forever, whether it can be chosen, whether it should be unconditional, whether it has been conditional all along.",
+      "startMs": 319297.0,
+      "endMs": 328074.0,
+      "charStart": 4702,
+      "charEnd": 4855
+    },
+    {
+      "id": "s0077",
+      "text": "But the existence of the thing itself?",
+      "startMs": 328771.0,
+      "endMs": 331174.0,
+      "charStart": 4857,
+      "charEnd": 4895
+    },
+    {
+      "id": "s0078",
+      "text": "We rarely argue about that.",
+      "startMs": 331778.0,
+      "endMs": 333427.0,
+      "charStart": 4896,
+      "charEnd": 4923
+    },
+    {
+      "id": "s0079",
+      "text": "The disagreements begin later; the agreement comes first.",
+      "startMs": 333752.0,
+      "endMs": 337421.0,
+      "charStart": 4924,
+      "charEnd": 4981
+    },
+    {
+      "id": "s0080",
+      "text": "Parents do not wait for a philosophy seminar before reaching for a frightened child.",
+      "startMs": 337746.0,
+      "endMs": 342007.0,
+      "charStart": 4983,
+      "charEnd": 5067
+    },
+    {
+      "id": "s0081",
+      "text": "Friends do not consult a definition before showing up on the porch with gas station coffee.",
+      "startMs": 342332.0,
+      "endMs": 347417.0,
+      "charStart": 5068,
+      "charEnd": 5159
+    },
+    {
+      "id": "s0082",
+      "text": "A stranger holds a door, offers a seat, catches someone's elbow on icy steps—not because they have settled a theory of neighbor love, but because something in the situation asks for response and they recognize the ask.",
+      "startMs": 347626.0,
+      "endMs": 361825.0,
+      "charStart": 5161,
+      "charEnd": 5379
+    },
+    {
+      "id": "s0083",
+      "text": "People who disagree about almost everything can still recognize tenderness, absence, devotion, harm, and repair.",
+      "startMs": 362428.0,
+      "endMs": 370138.0,
+      "charStart": 5381,
+      "charEnd": 5493
+    },
+    {
+      "id": "s0084",
+      "text": "They can still tell when a room has changed because love is present, or missing, or failing, or trying again.",
+      "startMs": 370416.0,
+      "endMs": 376837.0,
+      "charStart": 5494,
+      "charEnd": 5603
+    },
+    {
+      "id": "s0085",
+      "text": "That shared recognition is not a small thing.",
+      "startMs": 377278.0,
+      "endMs": 380029.0,
+      "charStart": 5605,
+      "charEnd": 5650
+    },
+    {
+      "id": "s0086",
+      "text": "It is the ground under the arguments.",
+      "startMs": 380273.0,
+      "endMs": 382282.0,
+      "charStart": 5651,
+      "charEnd": 5688
+    },
+    {
+      "id": "s0087",
+      "text": "This book begins somewhere quieter and more common—not from the fight about love, but from the recognition that precedes the fight.",
+      "startMs": 383234.0,
+      "endMs": 390664.0,
+      "charStart": 5690,
+      "charEnd": 5821
+    },
+    {
+      "id": "s0088",
+      "text": "We already know something.",
+      "startMs": 391105.0,
+      "endMs": 392603.0,
+      "charStart": 5822,
+      "charEnd": 5848
+    },
+    {
+      "id": "s0089",
+      "text": "We have been living inside that knowledge our whole lives.",
+      "startMs": 392777.0,
+      "endMs": 396063.0,
+      "charStart": 5849,
+      "charEnd": 5907
+    },
+    {
+      "id": "s0090",
+      "text": "Before the diagrams",
+      "startMs": 397177.0,
+      "endMs": 398338.0,
+      "charStart": 5909,
+      "charEnd": 5928
+    },
+    {
+      "id": "s0091",
+      "text": "At this point it is tempting to start drawing diagrams.",
+      "startMs": 398849.0,
+      "endMs": 401891.0,
+      "charStart": 5930,
+      "charEnd": 5985
+    },
+    {
+      "id": "s0092",
+      "text": "Connection.",
+      "startMs": 402007.0,
+      "endMs": 402796.0,
+      "charStart": 5987,
+      "charEnd": 5998
+    },
+    {
+      "id": "s0093",
+      "text": "Trust.",
+      "startMs": 403005.0,
+      "endMs": 403690.0,
+      "charStart": 5999,
+      "charEnd": 6005
+    },
+    {
+      "id": "s0094",
+      "text": "Integration.",
+      "startMs": 403806.0,
+      "endMs": 404700.0,
+      "charStart": 6006,
+      "charEnd": 6018
+    },
+    {
+      "id": "s0095",
+      "text": "Attachment styles.",
+      "startMs": 404816.0,
+      "endMs": 406105.0,
+      "charStart": 6019,
+      "charEnd": 6037
+    },
+    {
+      "id": "s0096",
+      "text": "Love languages.",
+      "startMs": 406256.0,
+      "endMs": 407243.0,
+      "charStart": 6038,
+      "charEnd": 6053
+    },
+    {
+      "id": "s0097",
+      "text": "Arrows pointing in confident directions.",
+      "startMs": 407359.0,
+      "endMs": 409971.0,
+      "charStart": 6054,
+      "charEnd": 6094
+    },
+    {
+      "id": "s0098",
+      "text": "Some of those tools are useful.",
+      "startMs": 410145.0,
+      "endMs": 411899.0,
+      "charStart": 6096,
+      "charEnd": 6127
+    },
+    {
+      "id": "s0099",
+      "text": "Some are genuinely clarifying.",
+      "startMs": 412073.0,
+      "endMs": 413884.0,
+      "charStart": 6128,
+      "charEnd": 6158
+    },
+    {
+      "id": "s0100",
+      "text": "None of them should arrive before we have looked at what we are trying to clarify.",
+      "startMs": 414488.0,
+      "endMs": 418145.0,
+      "charStart": 6159,
+      "charEnd": 6241
+    },
+    {
+      "id": "s0101",
+      "text": "Because the danger is not that frameworks lie—the danger is that frameworks can make us feel as if we have explained something we have only labeled.",
+      "startMs": 418656.0,
+      "endMs": 426852.0,
+      "charStart": 6243,
+      "charEnd": 6391
+    },
+    {
+      "id": "s0102",
+      "text": "Labels are not nothing, but they are not the same as seeing.",
+      "startMs": 427363.0,
+      "endMs": 430962.0,
+      "charStart": 6392,
+      "charEnd": 6452
+    },
+    {
+      "id": "s0103",
+      "text": "Before we ask what love is, we need to spend more time with what love looks like when it moves through actual lives.",
+      "startMs": 431914.0,
+      "endMs": 438334.0,
+      "charStart": 6454,
+      "charEnd": 6570
+    },
+    {
+      "id": "s0104",
+      "text": "Not examples chosen to fit a theory—examples chosen because they are true to what people already recognize.",
+      "startMs": 438938.0,
+      "endMs": 445474.0,
+      "charStart": 6571,
+      "charEnd": 6678
+    },
+    {
+      "id": "s0105",
+      "text": "Seeing another person clearly, and seeing used as performance; giving offered freely, and giving offered from guilt; staying that deepens a bond, and staying that has become fear; repair that restores trust, and repair that only postpones the next rupture—we will look at these to ask a simpler and harder question: why do so many different acts feel like members of the same family?",
+      "startMs": 445985.0,
+      "endMs": 470656.0,
+      "charStart": 6680,
+      "charEnd": 7063
+    },
+    {
+      "id": "s0106",
+      "text": "A habit worth keeping",
+      "startMs": 471097.0,
+      "endMs": 472630.0,
+      "charStart": 7065,
+      "charEnd": 7086
+    },
+    {
+      "id": "s0107",
+      "text": "There is a habit I am trying to practice in this book, and I hope you will practice it with me.",
+      "startMs": 473071.0,
+      "endMs": 477971.0,
+      "charStart": 7088,
+      "charEnd": 7183
+    },
+    {
+      "id": "s0108",
+      "text": "When you notice something that feels like love, pause before explaining it.",
+      "startMs": 479271.0,
+      "endMs": 483532.0,
+      "charStart": 7185,
+      "charEnd": 7260
+    },
+    {
+      "id": "s0109",
+      "text": "Ask what you are actually seeing: Who is present?",
+      "startMs": 484136.0,
+      "endMs": 488095.0,
+      "charStart": 7261,
+      "charEnd": 7310
+    },
+    {
+      "id": "s0110",
+      "text": "What are they doing?",
+      "startMs": 488907.0,
+      "endMs": 490034.0,
+      "charStart": 7311,
+      "charEnd": 7331
+    },
+    {
+      "id": "s0111",
+      "text": "What would be missing if they stopped?",
+      "startMs": 490730.0,
+      "endMs": 492669.0,
+      "charStart": 7332,
+      "charEnd": 7370
+    },
+    {
+      "id": "s0112",
+      "text": "What changes in the room because they stayed?",
+      "startMs": 493273.0,
+      "endMs": 495851.0,
+      "charStart": 7371,
+      "charEnd": 7416
+    },
+    {
+      "id": "s0113",
+      "text": "You do not need a theory to begin.",
+      "startMs": 496454.0,
+      "endMs": 498637.0,
+      "charStart": 7418,
+      "charEnd": 7452
+    },
+    {
+      "id": "s0114",
+      "text": "You need attention.",
+      "startMs": 498962.0,
+      "endMs": 500425.0,
+      "charStart": 7453,
+      "charEnd": 7472
+    },
+    {
+      "id": "s0115",
+      "text": "The theory, if it comes, should earn its place by making the seeing clearer—not by replacing it.",
+      "startMs": 500866.0,
+      "endMs": 507867.0,
+      "charStart": 7473,
+      "charEnd": 7569
+    },
+    {
+      "id": "s0116",
+      "text": "Before definition",
+      "startMs": 509167.0,
+      "endMs": 510421.0,
+      "charStart": 7571,
+      "charEnd": 7588
+    },
+    {
+      "id": "s0117",
+      "text": "So the next step is not to define love.",
+      "startMs": 511721.0,
+      "endMs": 514427.0,
+      "charStart": 7590,
+      "charEnd": 7629
+    },
+    {
+      "id": "s0118",
+      "text": "The next step is to look.",
+      "startMs": 514938.0,
+      "endMs": 516819.0,
+      "charStart": 7631,
+      "charEnd": 7656
+    },
+    {
+      "id": "s0119",
+      "text": "Look at what it looks like when someone sees another person clearly.",
+      "startMs": 517260.0,
+      "endMs": 520673.0,
+      "charStart": 7658,
+      "charEnd": 7726
+    },
+    {
+      "id": "s0120",
+      "text": "Look at what it looks like when someone gives, stays, repairs.",
+      "startMs": 521114.0,
+      "endMs": 524922.0,
+      "charStart": 7727,
+      "charEnd": 7789
+    },
+    {
+      "id": "s0121",
+      "text": "Look at the faces love wears in ordinary life before we pretend any single face is the whole thing.",
+      "startMs": 525364.0,
+      "endMs": 531900.0,
+      "charStart": 7790,
+      "charEnd": 7889
+    },
+    {
+      "id": "s0122",
+      "text": "If we are patient, patterns may appear.",
+      "startMs": 532712.0,
+      "endMs": 535046.0,
+      "charStart": 7891,
+      "charEnd": 7930
+    },
+    {
+      "id": "s0123",
+      "text": "If we are honest, the mystery will remain.",
+      "startMs": 535650.0,
+      "endMs": 538076.0,
+      "charStart": 7931,
+      "charEnd": 7973
+    },
+    {
+      "id": "s0124",
+      "text": "Both can be true—that is not a failure of the investigation but the condition that makes the investigation worth doing.",
+      "startMs": 539028.0,
+      "endMs": 546157.0,
+      "charStart": 7974,
+      "charEnd": 8093
+    },
+    {
+      "id": "s0125",
+      "text": "She never understood the science of weather.",
+      "startMs": 547109.0,
+      "endMs": 549385.0,
+      "charStart": 8095,
+      "charEnd": 8139
+    },
+    {
+      "id": "s0126",
+      "text": "She still knew when the rain was coming.",
+      "startMs": 550081.0,
+      "endMs": 552055.0,
+      "charStart": 8141,
+      "charEnd": 8181
+    },
+    {
+      "id": "s0127",
+      "text": "Love may ask something similar of us—not a perfect explanation first, but a willingness to notice what is already there, and to keep paying attention long after the easy sentences run out.",
+      "startMs": 552868.0,
+      "endMs": 564570.0,
+      "charStart": 8183,
+      "charEnd": 8371
+    }
+  ]
+}

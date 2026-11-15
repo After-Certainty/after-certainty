@@ -1,0 +1,155 @@
+# Everyone Knows Love — chapter enrichment (audio).
+# Full-book narration: all exported units audio-enabled
+# (~32997 Flash credits @ 0.25/char; next Starter budget wave after trust pair).
+version: 1
+chapters:
+- sourcePath: front-matter/preface.md
+  kind: other
+  audio:
+    enabled: true
+    max_credits: 200
+- sourcePath: parts/part-1-everyone-knows-love/bridge.md
+  kind: bridge
+  audio:
+    enabled: true
+    max_credits: 200
+- sourcePath: parts/part-1-everyone-knows-love/chapter-1-everyone-knows-love.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 3800
+- sourcePath: parts/part-1-everyone-knows-love/chapter-2-why-we-keep-talking-about-love.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 2400
+- sourcePath: parts/part-1-everyone-knows-love/chapter-3-recognizing-before-explaining.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 2700
+- sourcePath: parts/part-2-how-love-moves/bridge.md
+  kind: bridge
+  audio:
+    enabled: true
+    max_credits: 200
+- sourcePath: parts/part-2-how-love-moves/chapter-4-seeing.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 2300
+- sourcePath: parts/part-2-how-love-moves/chapter-5-giving.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1900
+- sourcePath: parts/part-2-how-love-moves/chapter-6-staying.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1900
+- sourcePath: parts/part-2-how-love-moves/chapter-7-repairing.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 2100
+- sourcePath: parts/part-2-how-love-moves/chapter-8-what-is-it-all-pointing-toward.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1100
+- sourcePath: parts/part-2-how-love-moves/chapter-9-care.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1900
+- sourcePath: parts/part-3-how-love-deepens/bridge.md
+  kind: bridge
+  audio:
+    enabled: true
+    max_credits: 200
+- sourcePath: parts/part-3-how-love-deepens/chapter-10-connection.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1300
+- sourcePath: parts/part-3-how-love-deepens/chapter-11-trust.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1500
+- sourcePath: parts/part-3-how-love-deepens/chapter-12-integration.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 2500
+- sourcePath: parts/part-3-how-love-deepens/chapter-13-belonging.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 2300
+- sourcePath: parts/part-3-how-love-deepens/chapter-14-freedom.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1600
+- sourcePath: parts/part-3-how-love-deepens/chapter-15-the-self-within-love.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1600
+- sourcePath: parts/part-4-love-in-human-life/bridge.md
+  kind: bridge
+  audio:
+    enabled: true
+    max_credits: 200
+- sourcePath: parts/part-4-love-in-human-life/chapter-16-romance.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1700
+- sourcePath: parts/part-4-love-in-human-life/chapter-17-family.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1700
+- sourcePath: parts/part-4-love-in-human-life/chapter-18-friendship.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1500
+- sourcePath: parts/part-4-love-in-human-life/chapter-19-community.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1700
+- sourcePath: parts/part-5-the-mystery-remains/bridge.md
+  kind: bridge
+  audio:
+    enabled: true
+    max_credits: 200
+- sourcePath: parts/part-5-the-mystery-remains/chapter-20-humanitys-long-conversation-about-love.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1900
+- sourcePath: back-matter/epilogue-small-acts.md
+  kind: afterword
+  audio:
+    enabled: true
+    max_credits: 400
+- sourcePath: back-matter/closing.md
+  kind: conclusion
+  audio:
+    enabled: true
+    max_credits: 200
+- sourcePath: back-matter/appendix-do-we-really-love-pizza.md
+  kind: appendix
+  audio:
+    enabled: true
+    max_credits: 900
+- sourcePath: back-matter/other-observers.md
+  kind: other
+  audio:
+    enabled: true
+    max_credits: 900

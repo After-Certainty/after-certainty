@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-front-matter-preface",
+  "generationHash": "sha256:b1c4a79efa6268738a231e30c06cc9e98b011f099a76a85690d0f16549ed05a1",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Preface",
+      "startMs": 0.0,
+      "endMs": 824.0,
+      "charStart": 0,
+      "charEnd": 7
+    },
+    {
+      "id": "s0002",
+      "text": "Love is one of those words that feels easier to recognize than to explain.",
+      "startMs": 1265.0,
+      "endMs": 5317.0,
+      "charStart": 9,
+      "charEnd": 83
+    },
+    {
+      "id": "s0003",
+      "text": "This book grew from that observation.",
+      "startMs": 5700.0,
+      "endMs": 7965.0,
+      "charStart": 85,
+      "charEnd": 122
+    },
+    {
+      "id": "s0004",
+      "text": "Rather than beginning with a definition, it begins with ordinary moments and asks what they have in common.",
+      "startMs": 8777.0,
+      "endMs": 14849.0,
+      "charStart": 124,
+      "charEnd": 231
+    },
+    {
+      "id": "s0005",
+      "text": "My hope is not that you agree with every observation, but that you recognize something from your own life.",
+      "startMs": 15360.0,
+      "endMs": 21061.0,
+      "charStart": 232,
+      "charEnd": 338
+    },
+    {
+      "id": "s0006",
+      "text": "If these pages leave you thinking less about this book and more about the people you love, then they have done their work.",
+      "startMs": 21444.0,
+      "endMs": 28050.0,
+      "charStart": 340,
+      "charEnd": 462
+    }
+  ]
+}

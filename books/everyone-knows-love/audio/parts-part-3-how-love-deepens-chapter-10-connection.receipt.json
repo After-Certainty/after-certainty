@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-3-how-love-deepens-chapter-10-connection",
+  "editionSlug": "everyone-knows-love",
+  "chapterSlug": "parts-part-3-how-love-deepens-chapter-10-connection",
+  "sourcePath": "parts/part-3-how-love-deepens/chapter-10-connection.md",
+  "sourceHash": "sha256:1314dd3c4b9ca33e60aeea991ddf207ff924fe41e8f3ab606a66f169dc0c9019",
+  "spokenTextHash": "sha256:2a483f88464d0b8c2319eeb1161d5b4dbce244d4fee7892966aa137005eb2534",
+  "generationHash": "sha256:27f0ea47c1529d46682cbb50376c9a9a354df10003d6510d6b264618884348e5",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3970,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 992.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 992.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/everyone-knows-love/audio/parts-part-3-how-love-deepens-chapter-10-connection.alignment.json"
+  },
+  "audioPath": "books/everyone-knows-love/audio/parts-part-3-how-love-deepens-chapter-10-connection.mp3",
+  "audioSha256": "sha256:1436c4bc62902d4ad4311ba3e8229b9423ede00a353a9ada5870b68b2edb0be3",
+  "generatedAt": "2026-11-08T15:30:45Z"
+}

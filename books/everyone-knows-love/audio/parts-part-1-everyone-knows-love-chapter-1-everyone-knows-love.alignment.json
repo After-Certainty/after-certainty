@@ -1,0 +1,1296 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-1-everyone-knows-love-chapter-1-everyone-knows-love",
+  "generationHash": "sha256:041411f4f68826d953e75f46c5f4d67e0f5a70feb4da0acd6134c9714355e5f9",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Everyone Knows Love",
+      "startMs": 0.0,
+      "endMs": 1509.0,
+      "charStart": 0,
+      "charEnd": 19
+    },
+    {
+      "id": "s0002",
+      "text": "A teenager asked at breakfast how you know you love someone.",
+      "startMs": 2322.0,
+      "endMs": 5317.0,
+      "charStart": 21,
+      "charEnd": 81
+    },
+    {
+      "id": "s0003",
+      "text": "She did not ask it like a philosopher.",
+      "startMs": 5828.0,
+      "endMs": 7744.0,
+      "charStart": 83,
+      "charEnd": 121
+    },
+    {
+      "id": "s0004",
+      "text": "She asked it the way you ask where the other sock went, or whether you are still having pasta tonight—plainly, because the question had become unavoidable.",
+      "startMs": 8127.0,
+      "endMs": 15998.0,
+      "charStart": 122,
+      "charEnd": 277
+    },
+    {
+      "id": "s0005",
+      "text": "The toast was still warm.",
+      "startMs": 16602.0,
+      "endMs": 17995.0,
+      "charStart": 278,
+      "charEnd": 303
+    },
+    {
+      "id": "s0006",
+      "text": "A phone was buzzing with something that would be forgotten by noon.",
+      "startMs": 18274.0,
+      "endMs": 21385.0,
+      "charStart": 304,
+      "charEnd": 371
+    },
+    {
+      "id": "s0007",
+      "text": "Outside the window, ordinary light on an ordinary street.",
+      "startMs": 21989.0,
+      "endMs": 25843.0,
+      "charStart": 372,
+      "charEnd": 429
+    },
+    {
+      "id": "s0008",
+      "text": "Her mom said something about caring deeply and wanting the person to be happy.",
+      "startMs": 26540.0,
+      "endMs": 30870.0,
+      "charStart": 431,
+      "charEnd": 509
+    },
+    {
+      "id": "s0009",
+      "text": "She looked at her the way teenagers look at adults when an answer is technically not wrong and completely useless.",
+      "startMs": 31474.0,
+      "endMs": 38034.0,
+      "charStart": 511,
+      "charEnd": 625
+    },
+    {
+      "id": "s0010",
+      "text": "\"That's not what I mean,\" she said.",
+      "startMs": 38986.0,
+      "endMs": 41296.0,
+      "charStart": 627,
+      "charEnd": 662
+    },
+    {
+      "id": "s0011",
+      "text": "\"I mean how do you know.\"",
+      "startMs": 41679.0,
+      "endMs": 43339.0,
+      "charStart": 663,
+      "charEnd": 688
+    },
+    {
+      "id": "s0012",
+      "text": "Her dad looked up from the coffee maker, eyebrows raised—not intervening, just witnessing the small collision happening over jam and toast.",
+      "startMs": 44152.0,
+      "endMs": 52465.0,
+      "charStart": 690,
+      "charEnd": 829
+    },
+    {
+      "id": "s0013",
+      "text": "Some couples have learned not to rescue each other from hard questions.",
+      "startMs": 52906.0,
+      "endMs": 56517.0,
+      "charStart": 830,
+      "charEnd": 901
+    },
+    {
+      "id": "s0014",
+      "text": "Sometimes the honest answer is that no one has one.",
+      "startMs": 56900.0,
+      "endMs": 60081.0,
+      "charStart": 902,
+      "charEnd": 953
+    },
+    {
+      "id": "s0015",
+      "text": "Her mom tried again.",
+      "startMs": 60685.0,
+      "endMs": 61892.0,
+      "charStart": 955,
+      "charEnd": 975
+    },
+    {
+      "id": "s0016",
+      "text": "She mentioned trust.",
+      "startMs": 62008.0,
+      "endMs": 63308.0,
+      "charStart": 976,
+      "charEnd": 996
+    },
+    {
+      "id": "s0017",
+      "text": "Time.",
+      "startMs": 63634.0,
+      "endMs": 64237.0,
+      "charStart": 997,
+      "charEnd": 1002
+    },
+    {
+      "id": "s0018",
+      "text": "The way you feel when you see them.",
+      "startMs": 64446.0,
+      "endMs": 66130.0,
+      "charStart": 1003,
+      "charEnd": 1038
+    },
+    {
+      "id": "s0019",
+      "text": "She heard herself reaching for words borrowed from songs, weddings, and movies where people cry in airports for good reasons.",
+      "startMs": 66455.0,
+      "endMs": 72980.0,
+      "charStart": 1039,
+      "charEnd": 1164
+    },
+    {
+      "id": "s0020",
+      "text": "None of it landed.",
+      "startMs": 73305.0,
+      "endMs": 74361.0,
+      "charStart": 1165,
+      "charEnd": 1183
+    },
+    {
+      "id": "s0021",
+      "text": "The teenager shrugged, spread jam on her toast, and changed the subject to a friend who was mad at her for a reason that would probably resolve by Friday.",
+      "startMs": 74640.0,
+      "endMs": 82698.0,
+      "charStart": 1184,
+      "charEnd": 1338
+    },
+    {
+      "id": "s0022",
+      "text": "Her mom wanted to say that love between friends is its own country—that you can be furious at someone and still know you would show up if they called at two in the morning.",
+      "startMs": 83394.0,
+      "endMs": 91870.0,
+      "charStart": 1340,
+      "charEnd": 1512
+    },
+    {
+      "id": "s0023",
+      "text": "She did not say that.",
+      "startMs": 92311.0,
+      "endMs": 93635.0,
+      "charStart": 1513,
+      "charEnd": 1534
+    },
+    {
+      "id": "s0024",
+      "text": "It would have sounded like a lecture, and her daughter had already moved on to whether the school bus would be late.",
+      "startMs": 94076.0,
+      "endMs": 99207.0,
+      "charStart": 1535,
+      "charEnd": 1651
+    },
+    {
+      "id": "s0025",
+      "text": "Her mom sat there feeling the particular embarrassment of an adult who has lived long enough to recognize love in a hundred forms and still cannot explain it to someone at the kitchen table.",
+      "startMs": 99648.0,
+      "endMs": 109795.0,
+      "charStart": 1653,
+      "charEnd": 1843
+    },
+    {
+      "id": "s0026",
+      "text": "You may have been in a version of that kitchen.",
+      "startMs": 110237.0,
+      "endMs": 112582.0,
+      "charStart": 1845,
+      "charEnd": 1892
+    },
+    {
+      "id": "s0027",
+      "text": "This book is not trying to define love.",
+      "startMs": 113093.0,
+      "endMs": 115392.0,
+      "charStart": 1894,
+      "charEnd": 1933
+    },
+    {
+      "id": "s0028",
+      "text": "It is trying to explain why so many different things all feel like love—and why, when someone asks us to explain, we often sound like we are describing weather.",
+      "startMs": 115717.0,
+      "endMs": 126061.0,
+      "charStart": 1934,
+      "charEnd": 2094
+    },
+    {
+      "id": "s0029",
+      "text": "Everyone knows it is real.",
+      "startMs": 126503.0,
+      "endMs": 128174.0,
+      "charStart": 2095,
+      "charEnd": 2121
+    },
+    {
+      "id": "s0030",
+      "text": "Almost nobody agrees how to say what it is.",
+      "startMs": 128499.0,
+      "endMs": 131065.0,
+      "charStart": 2122,
+      "charEnd": 2165
+    },
+    {
+      "id": "s0031",
+      "text": "That gap is the whole subject.",
+      "startMs": 131344.0,
+      "endMs": 133724.0,
+      "charStart": 2167,
+      "charEnd": 2197
+    },
+    {
+      "id": "s0032",
+      "text": "What we recognize before we explain",
+      "startMs": 134003.0,
+      "endMs": 136034.0,
+      "charStart": 2199,
+      "charEnd": 2234
+    },
+    {
+      "id": "s0033",
+      "text": "We know love long before we have language for it.",
+      "startMs": 136476.0,
+      "endMs": 139552.0,
+      "charStart": 2236,
+      "charEnd": 2285
+    },
+    {
+      "id": "s0034",
+      "text": "A small hand finds yours in a crowded store and the world narrows to one task: do not let go.",
+      "startMs": 140365.0,
+      "endMs": 147656.0,
+      "charStart": 2287,
+      "charEnd": 2380
+    },
+    {
+      "id": "s0035",
+      "text": "You do not need a theory.",
+      "startMs": 147981.0,
+      "endMs": 149374.0,
+      "charStart": 2381,
+      "charEnd": 2406
+    },
+    {
+      "id": "s0036",
+      "text": "You need your fingers closed.",
+      "startMs": 149815.0,
+      "endMs": 151476.0,
+      "charStart": 2407,
+      "charEnd": 2436
+    },
+    {
+      "id": "s0037",
+      "text": "A friend drives four hours because you called and your voice sounded wrong.",
+      "startMs": 152172.0,
+      "endMs": 156363.0,
+      "charStart": 2438,
+      "charEnd": 2513
+    },
+    {
+      "id": "s0038",
+      "text": "They do not make a speech about it.",
+      "startMs": 156689.0,
+      "endMs": 158581.0,
+      "charStart": 2514,
+      "charEnd": 2549
+    },
+    {
+      "id": "s0039",
+      "text": "They show up with gas station coffee and sit on your porch until you are ready to talk, or ready not to.",
+      "startMs": 158906.0,
+      "endMs": 164734.0,
+      "charStart": 2550,
+      "charEnd": 2654
+    },
+    {
+      "id": "s0040",
+      "text": "At a wedding, two people stand in front of their people and promise things no one can fully guarantee.",
+      "startMs": 165175.0,
+      "endMs": 171260.0,
+      "charStart": 2656,
+      "charEnd": 2758
+    },
+    {
+      "id": "s0041",
+      "text": "The room is full of witnesses—not because love requires an audience, but because humans have always wanted someone else to see the moment and remember it later, when the hard ordinary work begins.",
+      "startMs": 171770.0,
+      "endMs": 183090.0,
+      "charStart": 2759,
+      "charEnd": 2955
+    },
+    {
+      "id": "s0042",
+      "text": "At a funeral, love shows up as a casserole chain, as someone folding chairs when everyone else has gone home, as the unbearable fact that a person who used to be in the world is not in it anymore and the world has not adjusted yet.",
+      "startMs": 183601.0,
+      "endMs": 196940.0,
+      "charStart": 2957,
+      "charEnd": 3188
+    },
+    {
+      "id": "s0043",
+      "text": "A song comes on in a grocery store—some old chorus everyone knows—and for a second you are seventeen again, or newly married, or grieving, or all of those at once.",
+      "startMs": 197544.0,
+      "endMs": 208353.0,
+      "charStart": 3190,
+      "charEnd": 3353
+    },
+    {
+      "id": "s0044",
+      "text": "You did not choose the memory.",
+      "startMs": 209166.0,
+      "endMs": 210768.0,
+      "charStart": 3354,
+      "charEnd": 3384
+    },
+    {
+      "id": "s0045",
+      "text": "It chose you.",
+      "startMs": 211209.0,
+      "endMs": 212312.0,
+      "charStart": 3385,
+      "charEnd": 3398
+    },
+    {
+      "id": "s0046",
+      "text": "Perhaps you have found, six months after someone came home from the hospital, that you still call at the same hour—not because anyone asked you to, but because you never quite stopped.",
+      "startMs": 213009.0,
+      "endMs": 223643.0,
+      "charStart": 3400,
+      "charEnd": 3584
+    },
+    {
+      "id": "s0047",
+      "text": "You have brought soup to a neighbor you did not know well, because the situation asked for soup and you had a pot—and long afterward, you may still make it, even after the neighbor has moved away, because the recipe has become how you remember a season when showing up was the whole vocabulary.",
+      "startMs": 223968.0,
+      "endMs": 239491.0,
+      "charStart": 3585,
+      "charEnd": 3879
+    },
+    {
+      "id": "s0048",
+      "text": "You have read the same bedtime story for the hundredth time because the request was not really about the story.",
+      "startMs": 239932.0,
+      "endMs": 246143.0,
+      "charStart": 3881,
+      "charEnd": 3992
+    },
+    {
+      "id": "s0049",
+      "text": "You have forgiven someone—not because the hurt was small, but because the relationship was larger than the hurt, and you chose, for now, to stay in it.",
+      "startMs": 246654.0,
+      "endMs": 255478.0,
+      "charStart": 3994,
+      "charEnd": 4145
+    },
+    {
+      "id": "s0050",
+      "text": "You have failed to forgive, too, and discovered that the failure had its own weight, its own honesty.",
+      "startMs": 255861.0,
+      "endMs": 262432.0,
+      "charStart": 4147,
+      "charEnd": 4248
+    },
+    {
+      "id": "s0051",
+      "text": "You have said \"I love you\" on the way out the door when you meant I see you, I am coming back, the day will not swallow us.",
+      "startMs": 262815.0,
+      "endMs": 270745.0,
+      "charStart": 4250,
+      "charEnd": 4373
+    },
+    {
+      "id": "s0052",
+      "text": "You have watched an aging parent eat slowly at a table you set, and felt time change shape—not as an idea, but as a pressure in the chest.",
+      "startMs": 271186.0,
+      "endMs": 280370.0,
+      "charStart": 4375,
+      "charEnd": 4513
+    },
+    {
+      "id": "s0053",
+      "text": "You may have held a baby who was not yours and felt responsibility arrive like weather.",
+      "startMs": 280811.0,
+      "endMs": 285618.0,
+      "charStart": 4515,
+      "charEnd": 4602
+    },
+    {
+      "id": "s0054",
+      "text": "None of these moments requires a degree.",
+      "startMs": 286128.0,
+      "endMs": 288311.0,
+      "charStart": 4604,
+      "charEnd": 4644
+    },
+    {
+      "id": "s0055",
+      "text": "None waits for permission from an expert.",
+      "startMs": 288520.0,
+      "endMs": 290900.0,
+      "charStart": 4645,
+      "charEnd": 4686
+    },
+    {
+      "id": "s0056",
+      "text": "They are recognizable the way thunder is recognizable—not because you can explain atmospheric pressure, but because your body knows what it means when the sky turns that color.",
+      "startMs": 291411.0,
+      "endMs": 301419.0,
+      "charStart": 4687,
+      "charEnd": 4863
+    },
+    {
+      "id": "s0057",
+      "text": "That is what I mean when I say everyone knows love.",
+      "startMs": 301930.0,
+      "endMs": 304995.0,
+      "charStart": 4865,
+      "charEnd": 4916
+    },
+    {
+      "id": "s0058",
+      "text": "Not everyone loves well.",
+      "startMs": 305379.0,
+      "endMs": 306853.0,
+      "charStart": 4918,
+      "charEnd": 4942
+    },
+    {
+      "id": "s0059",
+      "text": "Not everyone is loved well.",
+      "startMs": 307132.0,
+      "endMs": 308827.0,
+      "charStart": 4943,
+      "charEnd": 4970
+    },
+    {
+      "id": "s0060",
+      "text": "Not everyone is safe in the places where love should live.",
+      "startMs": 309001.0,
+      "endMs": 312136.0,
+      "charStart": 4971,
+      "charEnd": 5029
+    },
+    {
+      "id": "s0061",
+      "text": "But the recognition—that something here matters in a way hunger and ambition and boredom do not—is nearly universal.",
+      "startMs": 312345.0,
+      "endMs": 320008.0,
+      "charStart": 5030,
+      "charEnd": 5146
+    },
+    {
+      "id": "s0062",
+      "text": "We see it in others.",
+      "startMs": 320391.0,
+      "endMs": 321668.0,
+      "charStart": 5147,
+      "charEnd": 5167
+    },
+    {
+      "id": "s0063",
+      "text": "We feel it in ourselves.",
+      "startMs": 321784.0,
+      "endMs": 323177.0,
+      "charStart": 5168,
+      "charEnd": 5192
+    },
+    {
+      "id": "s0064",
+      "text": "We build whole cultures around it and still go quiet when a child asks us to explain.",
+      "startMs": 323351.0,
+      "endMs": 328773.0,
+      "charStart": 5193,
+      "charEnd": 5278
+    },
+    {
+      "id": "s0065",
+      "text": "The same word, too many worlds",
+      "startMs": 329586.0,
+      "endMs": 332082.0,
+      "charStart": 5280,
+      "charEnd": 5310
+    },
+    {
+      "id": "s0066",
+      "text": "Part of the trouble is the word itself.",
+      "startMs": 333034.0,
+      "endMs": 335391.0,
+      "charStart": 5312,
+      "charEnd": 5351
+    },
+    {
+      "id": "s0067",
+      "text": "Love is doing a lot of work.",
+      "startMs": 335635.0,
+      "endMs": 337481.0,
+      "charStart": 5353,
+      "charEnd": 5381
+    },
+    {
+      "id": "s0068",
+      "text": "We love this song.",
+      "startMs": 337562.0,
+      "endMs": 338793.0,
+      "charStart": 5383,
+      "charEnd": 5401
+    },
+    {
+      "id": "s0069",
+      "text": "We love this meal.",
+      "startMs": 338874.0,
+      "endMs": 340070.0,
+      "charStart": 5402,
+      "charEnd": 5420
+    },
+    {
+      "id": "s0070",
+      "text": "We love our children, our partners, our friends, the old dog who can no longer climb the stairs.",
+      "startMs": 340117.0,
+      "endMs": 345457.0,
+      "charStart": 5421,
+      "charEnd": 5517
+    },
+    {
+      "id": "s0071",
+      "text": "We love our city on a good day.",
+      "startMs": 345573.0,
+      "endMs": 347419.0,
+      "charStart": 5518,
+      "charEnd": 5549
+    },
+    {
+      "id": "s0072",
+      "text": "We speak of God's love, neighbor love, self-love, tough love, the love that stays and the love that had to leave for reasons that still hurt.",
+      "startMs": 347593.0,
+      "endMs": 356254.0,
+      "charStart": 5550,
+      "charEnd": 5691
+    },
+    {
+      "id": "s0073",
+      "text": "Same word.",
+      "startMs": 356637.0,
+      "endMs": 357670.0,
+      "charStart": 5693,
+      "charEnd": 5703
+    },
+    {
+      "id": "s0074",
+      "text": "Different worlds.",
+      "startMs": 358181.0,
+      "endMs": 359342.0,
+      "charStart": 5704,
+      "charEnd": 5721
+    },
+    {
+      "id": "s0075",
+      "text": "When a teenager asks that question, she is not asking about pizza.",
+      "startMs": 360294.0,
+      "endMs": 364218.0,
+      "charStart": 5723,
+      "charEnd": 5789
+    },
+    {
+      "id": "s0076",
+      "text": "She is asking about a person—and even that branches immediately.",
+      "startMs": 364660.0,
+      "endMs": 368619.0,
+      "charStart": 5790,
+      "charEnd": 5854
+    },
+    {
+      "id": "s0077",
+      "text": "Love for a parent is not love for a friend is not love for someone you are learning to build a life with.",
+      "startMs": 369060.0,
+      "endMs": 374214.0,
+      "charStart": 5855,
+      "charEnd": 5960
+    },
+    {
+      "id": "s0078",
+      "text": "We use one syllable for all of it, then act surprised when explanation fails.",
+      "startMs": 374597.0,
+      "endMs": 379555.0,
+      "charStart": 5961,
+      "charEnd": 6038
+    },
+    {
+      "id": "s0079",
+      "text": "We also treat visible acts as if they were the whole thing.",
+      "startMs": 379880.0,
+      "endMs": 382922.0,
+      "charStart": 6040,
+      "charEnd": 6099
+    },
+    {
+      "id": "s0080",
+      "text": "Kindness feels like love.",
+      "startMs": 383305.0,
+      "endMs": 385093.0,
+      "charStart": 6101,
+      "charEnd": 6126
+    },
+    {
+      "id": "s0081",
+      "text": "So does sacrifice.",
+      "startMs": 385476.0,
+      "endMs": 386904.0,
+      "charStart": 6127,
+      "charEnd": 6145
+    },
+    {
+      "id": "s0082",
+      "text": "So does forgiveness, patience, loyalty, the willingness to listen when you are tired.",
+      "startMs": 387148.0,
+      "endMs": 392999.0,
+      "charStart": 6146,
+      "charEnd": 6231
+    },
+    {
+      "id": "s0083",
+      "text": "We point to those acts and say, \"That.",
+      "startMs": 393696.0,
+      "endMs": 396389.0,
+      "charStart": 6232,
+      "charEnd": 6270
+    },
+    {
+      "id": "s0084",
+      "text": "That is love.\" And often we are right—something true is happening there.",
+      "startMs": 396633.0,
+      "endMs": 402043.0,
+      "charStart": 6271,
+      "charEnd": 6343
+    },
+    {
+      "id": "s0085",
+      "text": "But we have also seen kindness used as performance.",
+      "startMs": 402426.0,
+      "endMs": 405874.0,
+      "charStart": 6345,
+      "charEnd": 6396
+    },
+    {
+      "id": "s0086",
+      "text": "Sacrifice offered from guilt.",
+      "startMs": 406385.0,
+      "endMs": 408463.0,
+      "charStart": 6397,
+      "charEnd": 6426
+    },
+    {
+      "id": "s0087",
+      "text": "Loyalty mistaken for love when it has become a cage.",
+      "startMs": 408846.0,
+      "endMs": 412422.0,
+      "charStart": 6427,
+      "charEnd": 6479
+    },
+    {
+      "id": "s0088",
+      "text": "We have seen people do loving-looking things and felt, quietly, that something essential was missing.",
+      "startMs": 412701.0,
+      "endMs": 418912.0,
+      "charStart": 6480,
+      "charEnd": 6581
+    },
+    {
+      "id": "s0089",
+      "text": "So love is not simply any generous act.",
+      "startMs": 419191.0,
+      "endMs": 421919.0,
+      "charStart": 6583,
+      "charEnd": 6622
+    },
+    {
+      "id": "s0090",
+      "text": "It is something we recognize through generous acts—and through ungenerous ones too, when their absence leaves a hole the size of a person.",
+      "startMs": 422163.0,
+      "endMs": 430545.0,
+      "charStart": 6623,
+      "charEnd": 6761
+    },
+    {
+      "id": "s0091",
+      "text": "Even \"I care about you\" does not always settle the question.",
+      "startMs": 430986.0,
+      "endMs": 435178.0,
+      "charStart": 6763,
+      "charEnd": 6823
+    },
+    {
+      "id": "s0092",
+      "text": "Care can be brief.",
+      "startMs": 435561.0,
+      "endMs": 436873.0,
+      "charStart": 6824,
+      "charEnd": 6842
+    },
+    {
+      "id": "s0093",
+      "text": "Care can be professional.",
+      "startMs": 437082.0,
+      "endMs": 438602.0,
+      "charStart": 6843,
+      "charEnd": 6868
+    },
+    {
+      "id": "s0094",
+      "text": "Care can be real and still not be what we mean when we say love, or when a song makes us pull the car over because we need a minute.",
+      "startMs": 438753.0,
+      "endMs": 446277.0,
+      "charStart": 6869,
+      "charEnd": 7001
+    },
+    {
+      "id": "s0095",
+      "text": "I am not going to untangle all of that this morning at the kitchen table.",
+      "startMs": 446973.0,
+      "endMs": 450445.0,
+      "charStart": 7003,
+      "charEnd": 7076
+    },
+    {
+      "id": "s0096",
+      "text": "I am not sure it can be untangled in a single sentence.",
+      "startMs": 450723.0,
+      "endMs": 453916.0,
+      "charStart": 7077,
+      "charEnd": 7132
+    },
+    {
+      "id": "s0097",
+      "text": "Which may be the point.",
+      "startMs": 454241.0,
+      "endMs": 455448.0,
+      "charStart": 7133,
+      "charEnd": 7156
+    },
+    {
+      "id": "s0098",
+      "text": "When adults try to explain",
+      "startMs": 455622.0,
+      "endMs": 457178.0,
+      "charStart": 7158,
+      "charEnd": 7184
+    },
+    {
+      "id": "s0099",
+      "text": "When love becomes a topic instead of a life, we reach for shortcuts.",
+      "startMs": 457503.0,
+      "endMs": 461451.0,
+      "charStart": 7186,
+      "charEnd": 7254
+    },
+    {
+      "id": "s0100",
+      "text": "We reach for chemistry, commandments, attachment maps, old arguments, movie speeches.",
+      "startMs": 461694.0,
+      "endMs": 466826.0,
+      "charStart": 7256,
+      "charEnd": 7341
+    },
+    {
+      "id": "s0101",
+      "text": "None of those is nothing.",
+      "startMs": 467035.0,
+      "endMs": 468289.0,
+      "charStart": 7342,
+      "charEnd": 7367
+    },
+    {
+      "id": "s0102",
+      "text": "Each notices something real.",
+      "startMs": 468463.0,
+      "endMs": 470193.0,
+      "charStart": 7368,
+      "charEnd": 7396
+    },
+    {
+      "id": "s0103",
+      "text": "But they can also leave us sounding fluent and unhelpful, especially when the question is not abstract and the person asking is still holding toast.",
+      "startMs": 470518.0,
+      "endMs": 479086.0,
+      "charStart": 7397,
+      "charEnd": 7545
+    },
+    {
+      "id": "s0104",
+      "text": "Long-married couples communicate in half-sentences and know when to hand each other the thing the other was about to ask for.",
+      "startMs": 479528.0,
+      "endMs": 486122.0,
+      "charStart": 7547,
+      "charEnd": 7672
+    },
+    {
+      "id": "s0105",
+      "text": "No one would film that.",
+      "startMs": 486505.0,
+      "endMs": 487724.0,
+      "charStart": 7673,
+      "charEnd": 7696
+    },
+    {
+      "id": "s0106",
+      "text": "It is still love, or something adjacent to love, or the sediment love leaves behind when the dramatic music stops.",
+      "startMs": 488003.0,
+      "endMs": 495155.0,
+      "charStart": 7697,
+      "charEnd": 7811
+    },
+    {
+      "id": "s0107",
+      "text": "Each of these traditions—science, faith, therapy, philosophy, art—has noticed something real.",
+      "startMs": 495538.0,
+      "endMs": 501819.0,
+      "charStart": 7813,
+      "charEnd": 7906
+    },
+    {
+      "id": "s0108",
+      "text": "None of them has made the word simple.",
+      "startMs": 502329.0,
+      "endMs": 504408.0,
+      "charStart": 7907,
+      "charEnd": 7945
+    },
+    {
+      "id": "s0109",
+      "text": "If anything, they multiply the ways love can be named without making it easier to say what ties the names together.",
+      "startMs": 504733.0,
+      "endMs": 511165.0,
+      "charStart": 7946,
+      "charEnd": 8061
+    },
+    {
+      "id": "s0110",
+      "text": "That may be because love was never only an idea.",
+      "startMs": 511606.0,
+      "endMs": 514601.0,
+      "charStart": 8063,
+      "charEnd": 8111
+    },
+    {
+      "id": "s0111",
+      "text": "Why explaining fails",
+      "startMs": 515414.0,
+      "endMs": 517248.0,
+      "charStart": 8113,
+      "charEnd": 8133
+    },
+    {
+      "id": "s0112",
+      "text": "So why is it so hard to explain love if everyone knows it?",
+      "startMs": 518200.0,
+      "endMs": 521904.0,
+      "charStart": 8135,
+      "charEnd": 8193
+    },
+    {
+      "id": "s0113",
+      "text": "One reason is the word problem: we ask one syllable to carry an entire forest.",
+      "startMs": 523204.0,
+      "endMs": 529148.0,
+      "charStart": 8195,
+      "charEnd": 8273
+    },
+    {
+      "id": "s0114",
+      "text": "Another reason is that love shows up as doing before it shows up as definition.",
+      "startMs": 529659.0,
+      "endMs": 534744.0,
+      "charStart": 8275,
+      "charEnd": 8354
+    },
+    {
+      "id": "s0115",
+      "text": "We see the soup, the drive, the held hand, the repaired argument, the person who stayed.",
+      "startMs": 535348.0,
+      "endMs": 541815.0,
+      "charStart": 8355,
+      "charEnd": 8443
+    },
+    {
+      "id": "s0116",
+      "text": "We feel the absence when those things are missing.",
+      "startMs": 542326.0,
+      "endMs": 544753.0,
+      "charStart": 8444,
+      "charEnd": 8494
+    },
+    {
+      "id": "s0117",
+      "text": "We recognize the pattern before we name it.",
+      "startMs": 544996.0,
+      "endMs": 547446.0,
+      "charStart": 8495,
+      "charEnd": 8538
+    },
+    {
+      "id": "s0118",
+      "text": "Another reason is that love is not one thing happening once.",
+      "startMs": 547771.0,
+      "endMs": 551324.0,
+      "charStart": 8540,
+      "charEnd": 8600
+    },
+    {
+      "id": "s0119",
+      "text": "It moves through time.",
+      "startMs": 551649.0,
+      "endMs": 553089.0,
+      "charStart": 8601,
+      "charEnd": 8623
+    },
+    {
+      "id": "s0120",
+      "text": "It looks different at fourteen and forty and eighty.",
+      "startMs": 553333.0,
+      "endMs": 555980.0,
+      "charStart": 8624,
+      "charEnd": 8676
+    },
+    {
+      "id": "s0121",
+      "text": "It survives some failures and does not survive others, and we rarely know in advance which kind we are living through.",
+      "startMs": 556421.0,
+      "endMs": 562690.0,
+      "charStart": 8677,
+      "charEnd": 8795
+    },
+    {
+      "id": "s0122",
+      "text": "And maybe—this is only a guess, but it feels true in the body—love is something we participate in more than something we possess.",
+      "startMs": 563015.0,
+      "endMs": 570724.0,
+      "charStart": 8797,
+      "charEnd": 8926
+    },
+    {
+      "id": "s0123",
+      "text": "You cannot hold it up like a stone and say, \"Here, this is it.\" You can only point to the traces: the way someone's well-being begins to matter inside your choices, the way grief rearranges a room, the way a small act—unremarkable to anyone watching—can be the whole sermon.",
+      "startMs": 570875.0,
+      "endMs": 588348.0,
+      "charStart": 8927,
+      "charEnd": 9201
+    },
+    {
+      "id": "s0124",
+      "text": "The teenager wanted a test she could pass.",
+      "startMs": 588673.0,
+      "endMs": 591343.0,
+      "charStart": 9203,
+      "charEnd": 9245
+    },
+    {
+      "id": "s0125",
+      "text": "A clear line.",
+      "startMs": 591517.0,
+      "endMs": 592586.0,
+      "charStart": 9246,
+      "charEnd": 9259
+    },
+    {
+      "id": "s0126",
+      "text": "Instead she got the human condition: recognition without a formula.",
+      "startMs": 592829.0,
+      "endMs": 597601.0,
+      "charStart": 9260,
+      "charEnd": 9327
+    },
+    {
+      "id": "s0127",
+      "text": "That is frustrating.",
+      "startMs": 597926.0,
+      "endMs": 599343.0,
+      "charStart": 9329,
+      "charEnd": 9349
+    },
+    {
+      "id": "s0128",
+      "text": "It is also, if we are honest, familiar.",
+      "startMs": 599668.0,
+      "endMs": 602651.0,
+      "charStart": 9350,
+      "charEnd": 9389
+    },
+    {
+      "id": "s0129",
+      "text": "We know love.",
+      "startMs": 602976.0,
+      "endMs": 603905.0,
+      "charStart": 9391,
+      "charEnd": 9404
+    },
+    {
+      "id": "s0130",
+      "text": "We struggle to explain it.",
+      "startMs": 604346.0,
+      "endMs": 605832.0,
+      "charStart": 9405,
+      "charEnd": 9431
+    },
+    {
+      "id": "s0131",
+      "text": "Those two facts sit together at every wedding, every funeral, every kitchen table where someone asks a question that deserves better than a slogan.",
+      "startMs": 606274.0,
+      "endMs": 614877.0,
+      "charStart": 9432,
+      "charEnd": 9579
+    },
+    {
+      "id": "s0132",
+      "text": "An invitation, not a definition",
+      "startMs": 615202.0,
+      "endMs": 617581.0,
+      "charStart": 9581,
+      "charEnd": 9612
+    },
+    {
+      "id": "s0133",
+      "text": "I will not pretend this book will end with a single sentence you can quote on a mug.",
+      "startMs": 618185.0,
+      "endMs": 622771.0,
+      "charStart": 9614,
+      "charEnd": 9698
+    },
+    {
+      "id": "s0134",
+      "text": "I do not think love works that way.",
+      "startMs": 623375.0,
+      "endMs": 625267.0,
+      "charStart": 9700,
+      "charEnd": 9735
+    },
+    {
+      "id": "s0135",
+      "text": "What I hope we can do together is slower and more honest.",
+      "startMs": 625871.0,
+      "endMs": 629261.0,
+      "charStart": 9737,
+      "charEnd": 9794
+    },
+    {
+      "id": "s0136",
+      "text": "Look at what love looks like in ordinary life—kindness, staying, repair, the thousand small acts people perform without calling them philosophy.",
+      "startMs": 629865.0,
+      "endMs": 639072.0,
+      "charStart": 9795,
+      "charEnd": 9939
+    },
+    {
+      "id": "s0137",
+      "text": "Listen to what humanity has preserved in songs and stories and rituals, not because those sources are always wise, but because they are evidence of how long we have been trying to say the thing.",
+      "startMs": 639513.0,
+      "endMs": 650078.0,
+      "charStart": 9940,
+      "charEnd": 10134
+    },
+    {
+      "id": "s0138",
+      "text": "Ask why so many different experiences feel like members of the same family.",
+      "startMs": 650682.0,
+      "endMs": 655198.0,
+      "charStart": 10135,
+      "charEnd": 10210
+    },
+    {
+      "id": "s0139",
+      "text": "Wonder, without rushing, what might connect them.",
+      "startMs": 655802.0,
+      "endMs": 658879.0,
+      "charStart": 10211,
+      "charEnd": 10260
+    },
+    {
+      "id": "s0140",
+      "text": "Not to reduce love.",
+      "startMs": 659262.0,
+      "endMs": 660527.0,
+      "charStart": 10262,
+      "charEnd": 10281
+    },
+    {
+      "id": "s0141",
+      "text": "Not to solve it like a puzzle and put it away.",
+      "startMs": 660771.0,
+      "endMs": 663384.0,
+      "charStart": 10282,
+      "charEnd": 10328
+    },
+    {
+      "id": "s0142",
+      "text": "To make it more visible in the places where it already lives—and more honest about the places where something loving-looking is not love at all.",
+      "startMs": 663709.0,
+      "endMs": 671580.0,
+      "charStart": 10329,
+      "charEnd": 10473
+    },
+    {
+      "id": "s0143",
+      "text": "If you have loved someone, you already bring more knowledge to this investigation than any framework could give you.",
+      "startMs": 672021.0,
+      "endMs": 677884.0,
+      "charStart": 10475,
+      "charEnd": 10591
+    },
+    {
+      "id": "s0144",
+      "text": "If you have been loved badly, or lost love, or loved without knowing how to say it, you bring knowledge too.",
+      "startMs": 678326.0,
+      "endMs": 684908.0,
+      "charStart": 10592,
+      "charEnd": 10700
+    },
+    {
+      "id": "s0145",
+      "text": "This is not a book for people who have everything figured out.",
+      "startMs": 685605.0,
+      "endMs": 688577.0,
+      "charStart": 10701,
+      "charEnd": 10763
+    },
+    {
+      "id": "s0146",
+      "text": "It is a book for people who have noticed something real and found themselves, at odd moments, unable to explain it to a teenager, or a friend, or themselves.",
+      "startMs": 688902.0,
+      "endMs": 698771.0,
+      "charStart": 10764,
+      "charEnd": 10921
+    },
+    {
+      "id": "s0147",
+      "text": "We will start with people, not theories—with something we recognize and cannot quite say.",
+      "startMs": 699281.0,
+      "endMs": 704947.0,
+      "charStart": 10923,
+      "charEnd": 11012
+    },
+    {
+      "id": "s0148",
+      "text": "Everyone knows love.",
+      "startMs": 705330.0,
+      "endMs": 706561.0,
+      "charStart": 11013,
+      "charEnd": 11033
+    },
+    {
+      "id": "s0149",
+      "text": "So why is it so hard to explain?",
+      "startMs": 706840.0,
+      "endMs": 709301.0,
+      "charStart": 11034,
+      "charEnd": 11066
+    },
+    {
+      "id": "s0150",
+      "text": "On the way out the door that morning, the teenager paused in the hallway and said, \"You didn't really answer my question.\"",
+      "startMs": 710601.0,
+      "endMs": 717985.0,
+      "charStart": 11068,
+      "charEnd": 11190
+    },
+    {
+      "id": "s0151",
+      "text": "\"No,\" her mom said.",
+      "startMs": 718368.0,
+      "endMs": 720214.0,
+      "charStart": 11192,
+      "charEnd": 11211
+    },
+    {
+      "id": "s0152",
+      "text": "\"I didn't.\"",
+      "startMs": 720330.0,
+      "endMs": 721282.0,
+      "charStart": 11212,
+      "charEnd": 11223
+    },
+    {
+      "id": "s0153",
+      "text": "She thought for a second.",
+      "startMs": 721886.0,
+      "endMs": 723244.0,
+      "charStart": 11225,
+      "charEnd": 11250
+    },
+    {
+      "id": "s0154",
+      "text": "\"That's okay.",
+      "startMs": 723755.0,
+      "endMs": 724765.0,
+      "charStart": 11251,
+      "charEnd": 11264
+    },
+    {
+      "id": "s0155",
+      "text": "I think it's a dumb question anyway.\"",
+      "startMs": 725090.0,
+      "endMs": 726994.0,
+      "charStart": 11265,
+      "charEnd": 11302
+    },
+    {
+      "id": "s0156",
+      "text": "\"It's not dumb,\" her mom said.",
+      "startMs": 727377.0,
+      "endMs": 729664.0,
+      "charStart": 11304,
+      "charEnd": 11334
+    },
+    {
+      "id": "s0157",
+      "text": "\"It's just a real one.\"",
+      "startMs": 729873.0,
+      "endMs": 731371.0,
+      "charStart": 11335,
+      "charEnd": 11358
+    },
+    {
+      "id": "s0158",
+      "text": "She nodded, already halfway to whatever the day would ask of her, and was gone.",
+      "startMs": 731975.0,
+      "endMs": 736561.0,
+      "charStart": 11360,
+      "charEnd": 11439
+    },
+    {
+      "id": "s0159",
+      "text": "Her mom stood there a moment longer—listening to the ordinary sounds of a house waking up, to the faint traffic on the street, to nothing in particular and everything at once.",
+      "startMs": 737164.0,
+      "endMs": 747218.0,
+      "charStart": 11441,
+      "charEnd": 11616
+    },
+    {
+      "id": "s0160",
+      "text": "Somewhere between the toast and the jam and the failed answer, something had been visible for a second: not a definition, not a victory, just the old human fact that we know this thing matters before we know how to name it.",
+      "startMs": 747915.0,
+      "endMs": 761708.0,
+      "charStart": 11617,
+      "charEnd": 11840
+    },
+    {
+      "id": "s0161",
+      "text": "Perhaps that is enough to begin—it has always been enough.",
+      "startMs": 761987.0,
+      "endMs": 765516.0,
+      "charStart": 11842,
+      "charEnd": 11900
+    }
+  ]
+}

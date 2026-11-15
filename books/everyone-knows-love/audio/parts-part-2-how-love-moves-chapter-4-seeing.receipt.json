@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-2-how-love-moves-chapter-4-seeing",
+  "editionSlug": "everyone-knows-love",
+  "chapterSlug": "parts-part-2-how-love-moves-chapter-4-seeing",
+  "sourcePath": "parts/part-2-how-love-moves/chapter-4-seeing.md",
+  "sourceHash": "sha256:445624962e811209c9fe25ce70e960f453b18899a8d15a4bf9f8cd4dce36c164",
+  "spokenTextHash": "sha256:fc18dba0ae7c2ba2ab540840f487074f724940056629bc464ad3d29d2c5c82c6",
+  "generationHash": "sha256:8ba6256a250795b5a1253a93cd6c088b8211f5d50252d2f01f7c73b643704bd0",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 7348,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 1837.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 1837.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/everyone-knows-love/audio/parts-part-2-how-love-moves-chapter-4-seeing.alignment.json"
+  },
+  "audioPath": "books/everyone-knows-love/audio/parts-part-2-how-love-moves-chapter-4-seeing.mp3",
+  "audioSha256": "sha256:c634798a0e4d3399083be88717451b3d29f832524a0b31f98eaf6ad84eca8c95",
+  "generatedAt": "2026-11-08T15:30:01Z"
+}

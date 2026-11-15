@@ -22,14 +22,12 @@ export const SECURITY_HEADERS: { key: string; value: string }[] = [
       "form-action 'self'",
       "object-src 'none'",
       "frame-ancestors 'self'",
-      // Next.js + GA + Vercel Analytics require inline/eval and third-party script hosts
-      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://va.vercel-scripts.com",
+      // Next.js + Vercel Analytics / Speed Insights
+      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://va.vercel-scripts.com",
       "style-src 'self' 'unsafe-inline'",
       "img-src 'self' data: blob: https:",
       "font-src 'self' data:",
-      // googletagmanager.com required in connect-src for GA4 gtag transport (script-src alone is insufficient).
-      // www.google.com is GA4's fallback collect endpoint when google-analytics.com is unreachable.
-      "connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://www.google.com https://vitals.vercel-insights.com https://va.vercel-scripts.com",
+      "connect-src 'self' https://vitals.vercel-insights.com https://va.vercel-scripts.com",
       // auth.suno.com is nested by the Suno embed when the player needs a session.
       "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://suno.com https://auth.suno.com",
       "media-src 'self' https: data:",

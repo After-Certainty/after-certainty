@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-3-how-love-deepens-bridge",
+  "editionSlug": "everyone-knows-love",
+  "chapterSlug": "parts-part-3-how-love-deepens-bridge",
+  "sourcePath": "parts/part-3-how-love-deepens/bridge.md",
+  "sourceHash": "sha256:c59aa09ef745970740d7c282f2ad45367eea7ef3f465adc3a0616523daf17e6e",
+  "spokenTextHash": "sha256:6de2a47ef3aa326dc54d1bb9fc7ea6e77efdd1136eca84e205b72123bd19c2aa",
+  "generationHash": "sha256:8496b72350f14725a724d8935f3d8e3f90f051e40ff2d7a1f6aacfa5d514dbf9",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 505,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 126.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 126.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/everyone-knows-love/audio/parts-part-3-how-love-deepens-bridge.alignment.json"
+  },
+  "audioPath": "books/everyone-knows-love/audio/parts-part-3-how-love-deepens-bridge.mp3",
+  "audioSha256": "sha256:fc41d541227edc32d06a4ff9b5551d2dc07d80885e7bae21c7f319200dfcf59b",
+  "generatedAt": "2026-11-08T15:30:37Z"
+}

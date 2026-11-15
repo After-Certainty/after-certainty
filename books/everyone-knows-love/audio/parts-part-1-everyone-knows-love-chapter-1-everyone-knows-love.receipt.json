@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-1-everyone-knows-love-chapter-1-everyone-knows-love",
+  "editionSlug": "everyone-knows-love",
+  "chapterSlug": "parts-part-1-everyone-knows-love-chapter-1-everyone-knows-love",
+  "sourcePath": "parts/part-1-everyone-knows-love/chapter-1-everyone-knows-love.md",
+  "sourceHash": "sha256:a9f394e1fc15b02a2af0ec5c2144d7268a932e8f1d2ee97869e1f79c6291a556",
+  "spokenTextHash": "sha256:c26326d6a57d7cab981713750c96a3a945a3170fc0bd5c3908058499bd1f81d0",
+  "generationHash": "sha256:041411f4f68826d953e75f46c5f4d67e0f5a70feb4da0acd6134c9714355e5f9",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 11900,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 2975.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 2975.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/everyone-knows-love/audio/parts-part-1-everyone-knows-love-chapter-1-everyone-knows-love.alignment.json"
+  },
+  "audioPath": "books/everyone-knows-love/audio/parts-part-1-everyone-knows-love-chapter-1-everyone-knows-love.mp3",
+  "audioSha256": "sha256:fc85f909fee488eb72e0cc6f94245fcaac32027e4eb9a9c5528a322b0e4c5a48",
+  "generatedAt": "2026-11-08T15:29:20Z"
+}

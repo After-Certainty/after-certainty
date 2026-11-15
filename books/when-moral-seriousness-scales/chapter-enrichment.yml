@@ -22,7 +22,8 @@ chapters:
   kind: chapter
   audio:
     enabled: true
-    max_credits: 1300
+    # Manuscript grew past the original 1300 ceiling (~2675 Flash @ 0.25/char).
+    max_credits: 3400
 - sourcePath: parts/part-1-the-human-scale-model/chapter-2-reciprocal-constraint.md
   kind: chapter
   audio:
@@ -52,7 +53,8 @@ chapters:
   kind: chapter
   audio:
     enabled: true
-    max_credits: 1000
+    # Manuscript grew past the original 1000 ceiling (~2400 Flash @ 0.25/char).
+    max_credits: 3000
 - sourcePath: parts/part-3-the-pressure-point/bridge.md
   kind: bridge
   audio:

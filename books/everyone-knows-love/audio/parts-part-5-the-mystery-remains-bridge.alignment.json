@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-everyone-knows-love-parts-part-5-the-mystery-remains-bridge",
+  "generationHash": "sha256:8ebdb2613698d0b0abc18c9bb3809da9d67d8b62725844e6b04156d06096d35c",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Part V — Humanity's Long Conversation About Love",
+      "startMs": 0.0,
+      "endMs": 4411.0,
+      "charStart": 0,
+      "charEnd": 48
+    },
+    {
+      "id": "s0002",
+      "text": "We have watched love move through particular lives—romance, family, friendship, community, the same patterns in different rooms.",
+      "startMs": 4655.0,
+      "endMs": 13514.0,
+      "charStart": 50,
+      "charEnd": 178
+    },
+    {
+      "id": "s0003",
+      "text": "Love did not become simple, and humanity has never stopped talking about it.",
+      "startMs": 14025.0,
+      "endMs": 18518.0,
+      "charStart": 179,
+      "charEnd": 255
+    },
+    {
+      "id": "s0004",
+      "text": "What follows is not a survey meant to settle the argument.",
+      "startMs": 19214.0,
+      "endMs": 22871.0,
+      "charStart": 256,
+      "charEnd": 314
+    },
+    {
+      "id": "s0005",
+      "text": "It is a reminder that we have been keeping notes for a very long time—and that this book is one more entry in the archive.",
+      "startMs": 23475.0,
+      "endMs": 30697.0,
+      "charStart": 315,
+      "charEnd": 437
+    }
+  ]
+}
