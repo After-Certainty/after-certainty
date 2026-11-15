@@ -66,8 +66,21 @@ After Accept (or with consent denied, for Vercel-only rows):
 | Start chapter audio | `reader_audio_started` (`book_id`, `chapter_id`) | (none) |
 | Source/thinker → chapter link | `corpus_navigation` with `to_id` | (none) |
 | Start a question/trail path | `reading_path_started` | `question_path_start` / `trail_path_start` |
+| Run on-site search (full/quick/in-book) | `site_search` (buckets only) | `search_query` |
 
 Confirm each intended action fires **once** (no duplicate `corpus_navigation` / audio events). See also [`reader-analytics-attribution-spike.md`](reader-analytics-attribution-spike.md).
+
+### Owner PADE smoke — path-start + site search (corrective PR)
+
+No agent browser required. On production after deploy:
+
+1. **Accept** cookies (enables GA dual-write checks).
+2. Hard-load `/questions/<slug>` and `/trails/<slug>` (first paint — exercises the mount-time queue stub).
+3. Run one query on `/search` (and optionally quick search).
+4. Query Vercel (exclusive until = next UTC day) for `reading_path_started` and `site_search`; query GA4 for `question_path_start` / `trail_path_start` / `search_query`.
+5. Append JSON under `reports/vercel-reader-analytics-parity/manual/` (do not overwrite October smoke).
+
+Expected: Vercel shows `reading_path_started` even on hard loads; `site_search` appears without raw query text.
 
 Book overview: both **primary** and **secondary** download buttons must emit `book_download` once with normalized `format` (and GA `book_overview_primary_action` still fires for primary).
 
