@@ -1,0 +1,165 @@
+{
+  "schema": "gate3-nov2026-findings/v1",
+  "collected_at_utc": "2026-11-15T02:29:45Z",
+  "windows": {
+    "full_denver_inclusive": {
+      "since": "2026-10-17",
+      "until": "2026-11-13"
+    },
+    "current_7": {
+      "since": "2026-11-07",
+      "until": "2026-11-13"
+    },
+    "prior_7": {
+      "since": "2026-10-31",
+      "until": "2026-11-06"
+    }
+  },
+  "recommendation": "retire_ga4",
+  "vercel_full": {
+    "visitors": 1860,
+    "pageviews": 3069,
+    "events": {
+      "chapter_open": {
+        "count": 33,
+        "visitors": 24
+      },
+      "corpus_navigation": {
+        "count": 14,
+        "visitors": 9
+      },
+      "chapter_advance": {
+        "count": 6,
+        "visitors": 3
+      },
+      "reader_audio_started": {
+        "count": 5,
+        "visitors": 3
+      },
+      "book_download": {
+        "count": 1,
+        "visitors": 1
+      },
+      "listen_item_selected": {
+        "count": 4,
+        "visitors": 1
+      }
+    },
+    "sg_visitors": 1643,
+    "sg_pageviews": 2720,
+    "empty_referrer_visitors": 1796,
+    "google_referrer_visitors": 38,
+    "devices": [
+      {
+        "deviceType": "desktop",
+        "visitors": 1767,
+        "pageviews": 2895
+      },
+      {
+        "deviceType": "mobile",
+        "visitors": 37,
+        "pageviews": 102
+      },
+      {
+        "deviceType": "",
+        "visitors": 26,
+        "pageviews": 42
+      },
+      {
+        "deviceType": "tablet",
+        "visitors": 1,
+        "pageviews": 1
+      }
+    ],
+    "corpus_source_to_chapter_edges": [
+      {
+        "eventData/from_type": "source",
+        "eventData/to_type": "chapter",
+        "visitors": 6,
+        "count": 8
+      }
+    ],
+    "corpus_pairs_with_to_id": [
+      {
+        "requestPath": "/explore/sources/goodhart-charles-a-e-problems-of-monetary-management-the-u-k",
+        "eventData/to_id": "chapter-when-authority-outlives-accountability-parts-part-1-the-three-dimensions-chapter-3-effectiveness",
+        "visitors": 2,
+        "count": 2
+      },
+      {
+        "requestPath": "/explore/sources/alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language",
+        "eventData/to_id": "chapter-living-in-sediment-parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering",
+        "visitors": 1,
+        "count": 1
+      },
+      {
+        "requestPath": "/explore/sources/berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-property",
+        "eventData/to_id": "chapter-coupling-parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion",
+        "visitors": 1,
+        "count": 1
+      },
+      {
+        "requestPath": "/explore/sources/cockburn-alistair-how-to-step-up-stepping-up-promoting-guest",
+        "eventData/to_id": "chapter-when-others-look-to-you-v1-parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to",
+        "visitors": 1,
+        "count": 1
+      },
+      {
+        "requestPath": "/explore/sources/eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth",
+        "eventData/to_id": "chapter-when-authority-is-misread-parts-part-2-leaders-becoming-legible-chapter-3-angela-merkel-the-unanswered-need-for-reassurance",
+        "visitors": 1,
+        "count": 1
+      },
+      {
+        "requestPath": "/explore/sources/kahneman-daniel-and-gary-klein-conditions-for-intuitive-expertise-a-failure-to-disagree",
+        "eventData/to_id": "chapter-what-we-cannot-see-parts-part-1-bias-learning-to-see-your-own-mind-chapter-4-who-and-what-we-trust",
+        "visitors": 1,
+        "count": 1
+      },
+      {
+        "requestPath": "/explore/sources/wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing",
+        "eventData/to_id": "chapter-trust-beyond-similarity-parts-part-2-the-shock-of-the-partial-chapter-4-different-summaries",
+        "visitors": 1,
+        "count": 1
+      }
+    ]
+  },
+  "ga4_full": {
+    "overview": {
+      "sessions": "63",
+      "activeUsers": "49",
+      "totalUsers": "49",
+      "screenPageViews": "213",
+      "eventCount": "497",
+      "engagedSessions": "27",
+      "engagementRate": "0.42857142857142855"
+    },
+    "selected_events": {
+      "chapter_open": 36,
+      "next_chapter": 5,
+      "file_download": 2,
+      "question_path_start": 5,
+      "trail_path_start": 0,
+      "search_query": 35,
+      "search_open": 8,
+      "books_catalog_view": 3,
+      "books_card_select": 1,
+      "click": 1
+    }
+  },
+  "directional_notes": [
+    "Primary dual-write reader events present on Vercel across the full observation window.",
+    "chapter_open counts are directionally close (Vercel 33 vs GA4 36) despite consent gating.",
+    "reading_path_started absent on Vercel while GA4 recorded question_path_start=5 \u2014 sparse; code dual-writes both; treat as residual risk for PR4 smoke, not a reason to extend parallel measurement.",
+    "SG + empty-referrer still dominate ungated Vercel volume; GA4 consent-gated geography is US-led \u2014 raw visitor totals are not interchangeable with engaged readership.",
+    "Source\u2192chapter attribution with non-empty to_id observed in production aggregates."
+  ],
+  "billing_probe": "vercel_billing_snapshot_2026-11-14.txt",
+  "artifacts": {
+    "brief": "brief.md",
+    "full": "full/",
+    "current": "current/",
+    "prior": "prior-week/",
+    "ga4_full": "ga4_full/"
+  }
+}

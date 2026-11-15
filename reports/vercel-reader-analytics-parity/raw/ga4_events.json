@@ -19,7 +19,7 @@
       ],
       "metricValues": [
         {
-          "value": "32"
+          "value": "20"
         }
       ]
     },
@@ -31,31 +31,7 @@
       ],
       "metricValues": [
         {
-          "value": "9"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "user_engagement"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "5"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "search_query"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "4"
+          "value": "12"
         }
       ]
     },
@@ -67,7 +43,7 @@
       ],
       "metricValues": [
         {
-          "value": "2"
+          "value": "9"
         }
       ]
     },
@@ -75,6 +51,30 @@
       "dimensionValues": [
         {
           "value": "first_visit"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "scroll"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "next_chapter"
         }
       ],
       "metricValues": [
@@ -98,67 +98,19 @@
     {
       "dimensionValues": [
         {
-          "value": "edition_notice_view"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "1"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "form_start"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "1"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "question_section_view"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "1"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "scroll"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "1"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "search_no_results"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "1"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
           "value": "search_open"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "search_query"
         }
       ],
       "metricValues": [
@@ -178,21 +130,9 @@
           "value": "1"
         }
       ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "trail_index_view"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "1"
-        }
-      ]
     }
   ],
-  "rowCount": 15,
+  "rowCount": 10,
   "metadata": {
     "currencyCode": "USD",
     "timeZone": "America/Denver"

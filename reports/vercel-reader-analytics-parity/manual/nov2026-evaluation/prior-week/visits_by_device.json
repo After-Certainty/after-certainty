@@ -1,0 +1,1 @@
+{"version":1,"query":{"since":"2026-10-31T00:00:00.000Z","until":"2026-11-06T01:00:00.000Z","groupBy":["deviceType"],"filter":"environment eq 'production'","limit":10},"data":[{"deviceType":"desktop","visitors":244,"pageviews":262},{"deviceType":"","visitors":24,"pageviews":40},{"deviceType":"mobile","visitors":12,"pageviews":12}]}

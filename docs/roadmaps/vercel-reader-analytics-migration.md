@@ -1,8 +1,8 @@
 # Vercel reader analytics migration
 
-**Status:** Specialized plan — **PR 3 in progress** (parity decision / observation); PR 0–2 merged  
+**Status:** Specialized plan — **PR 3 final evaluation** (recommend retire GA4; owner approval pending); PR 0–2 merged  
 **Created:** 2026-10-17  
-**Revised:** 2026-10-17 (PR 3: Gate 3 baseline + dual-write smoke; keep parallel — PR 4 blocked)  
+**Revised:** 2026-11-14 (Gate 3 final evaluation after observation window; recommend `retire_ga4` — PR 4 still blocked until explicit approval)  
 **Location:** `docs/roadmaps/vercel-reader-analytics-migration.md`  
 **Authority:** Specialized cross-layer plan. Does **not** replace [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Unfinished follow-ups after each PR merge belong on the master roadmap Observe / Now sections, not as a second backlog.
 
@@ -513,11 +513,11 @@ Only after Gate 3 approval. Remove GA runtime completely; update privacy, CSP, e
 
 ## 15. Immediate next step
 
-After **PR 3** merges with recommendation **keep_parallel_longer**:
+After **PR 3** final evaluation (2026-11-14) with recommendation **retire_ga4**:
 
-1. Continue dual-write observation through at least **2026-10-31** (prefer **2026-11-14**).  
-2. Re-run `make reader-analytics-parity` and update [`docs/analytics/vercel-reader-analytics-parity-decision.md`](../analytics/vercel-reader-analytics-parity-decision.md).  
-3. Do **not** start PR 4 (`chore/retire-ga4`) without explicit human approval on that report.
+1. Observation window **2026-10-17 → 2026-11-13** (Denver completed days) is complete; evidence under `reports/vercel-reader-analytics-parity/manual/nov2026-evaluation/`.  
+2. Owner must complete the approval row on [`docs/analytics/vercel-reader-analytics-parity-decision.md`](../analytics/vercel-reader-analytics-parity-decision.md) before any GA4 removal.  
+3. Do **not** start PR 4 (`chore/retire-ga4`) without that explicit human approval.
 
 ---
 
@@ -530,3 +530,4 @@ After **PR 3** merges with recommendation **keep_parallel_longer**:
 | 2026-10-17 | PR 1 merged (instrumentation + privacy copy + attribution `to_id`); PR 2 reporting stack started |
 | 2026-10-17 | PR 2: `reader-analytics` skill, Web Analytics query client, weekly brief + Make entry, PADE `vercel.analytics.read` |
 | 2026-10-17 | PR 2 merged; PR 3 Gate 3 baseline + owner dual-write smoke; recommendation keep_parallel_longer |
+| 2026-11-14 | PR 3 final evaluation after observation window; recommend retire_ga4; PR 4 still requires explicit owner approval |

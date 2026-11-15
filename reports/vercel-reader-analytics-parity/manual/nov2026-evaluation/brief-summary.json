@@ -1,0 +1,37 @@
+{
+  "timezone": "America/Denver",
+  "window_rule": "last_7_completed_denver_days_ending_yesterday",
+  "since": "2026-11-07",
+  "until": "2026-11-13",
+  "visitors": 150,
+  "pageviews": 172,
+  "events": [
+    {
+      "eventName": "chapter_open",
+      "count": 5,
+      "visitors": 5
+    },
+    {
+      "eventName": "reader_audio_started",
+      "count": 4,
+      "visitors": 2
+    },
+    {
+      "eventName": "chapter_advance",
+      "count": 2,
+      "visitors": 1
+    },
+    {
+      "eventName": "corpus_navigation",
+      "count": 1,
+      "visitors": 1
+    }
+  ],
+  "limitations": [
+    "aggregate_only",
+    "not_session_journeys",
+    "anomaly_heuristics_only",
+    "fail_closed_on_fake_payloads",
+    "unavailable_optional_queries_labeled"
+  ]
+}
