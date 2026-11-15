@@ -1,12 +1,7 @@
 # Part I — The Human-Scale Model
 
-Before turning to the complications introduced by scale, it helps to
-return to the setting where these ideas first felt clear. The framework
-developed in *When Authority Outlives Accountability* did not emerge
-from abstraction. It grew out of small, lived contexts—families, teams,
-relationships—where responsibility is uneven but proximity remains
-intact. In those settings, absorbing harm, limiting authority, and
-preserving contestability felt not only principled, but workable. This
-section revisits that human-scale model, not to idealize it, but to
-understand why it functions as it does. Only then can we see what
-changes when distance intervenes.
+I began thinking about authority in relationships where people kept encountering one another after a difficult decision: families, teams, and other small groups. The commitments I described in *When Authority Outlives Accountability*—absorbing harm where possible, limiting authority, and allowing decisions to be questioned—felt practicable there.
+
+That experience is a starting point, not proof that small groups are just. Familiarity can make harm visible and also make dissent harder. A leader may know everyone's name yet remain insulated from what they carry.
+
+The next three chapters examine the conditions that can make a small system responsive: consequences come into view, the limits of others can constrain a decision, and an objection has some chance of changing what happens. The important word is *can*. None of these possibilities is guaranteed by proximity alone.
