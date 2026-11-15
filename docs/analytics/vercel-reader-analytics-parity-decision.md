@@ -1,6 +1,6 @@
 # Gate 3 decision report — Vercel reader analytics parity
 
-**Status:** November 2026 evaluation **post-corrective verified** — **recommend `retire_ga4`** (owner approval still required before PR 4)  
+**Status:** November 2026 evaluation **complete** — **`retire_ga4` approved and shipped** (Gate 4 / #772); production verified 2026-11-14 ~9:16 PM America/Denver  
 **Roadmap:** [`docs/roadmaps/vercel-reader-analytics-migration.md`](../roadmaps/vercel-reader-analytics-migration.md) §10 Gate 3  
 **Artifacts:** [`reports/vercel-reader-analytics-parity/`](../../reports/vercel-reader-analytics-parity/)  
 **Re-run (regenerable week snapshot only):** `make reader-analytics-parity`  
@@ -225,19 +225,19 @@ Post-deploy: client POSTs observed; PADE `site_search` **count 2 / visitors 1** 
 4. Unit tests for queue stub + search dual-write.  
 5. Production PADE + Playwright verify recorded under [`manual/nov2026-evaluation/post-corrective/`](../../reports/vercel-reader-analytics-parity/manual/nov2026-evaluation/post-corrective/).
 
-### 9b. PR 4 scope (`chore/retire-ga4`) — **approved; implementing**
+### 9b. PR 4 scope (`chore/retire-ga4`) — **done** (#772)
 
-1. **GA4 runtime removal** — `GoogleAnalyticsLoader`, Consent Mode defaults wiring for GA, `sendGAEvent` paths.  
-2. **GA-specific helpers / unused taxonomy** — catalog/game helpers become no-ops; keep Vercel facade.  
-3. **Consent / cookie banner** — remove Accept/Reject banner (Vercel Web Analytics is cookieless aggregate; no GA cookies remain).  
-4. **Privacy page** — Vercel-only disclosures.  
-5. **CSP cleanup** — remove GA hosts.  
-6. **Environment variables** — drop GA measurement / preview flags from site config and `.env.example`.  
-7. **Reporting** — mark `ga-trends` legacy; `reader-analytics` primary.  
-8. **PADE** — deprecate `google-analytics.read`.  
-9. **Tests & docs** — Vercel-only expectations; Gate 4 criteria.  
-10. **Production verification** — no GA network requests; reader + search + path-start events present.  
-11. **Rollback** — restore GA loader, measurement ID, Consent Mode, CSP from git (`git revert` of the retire PR / prior release).
+1. **GA4 runtime removal** — shipped.  
+2. **GA-specific helpers** — `trackEvent` no-ops; Vercel facade primary.  
+3. **Consent / cookie banner** — removed.  
+4. **Privacy page** — Vercel-only.  
+5. **CSP** — GA hosts removed.  
+6. **Env** — no `NEXT_PUBLIC_GA_*` in site config / `.env.example`; none present in Vercel project env.  
+7. **Reporting** — `ga-trends` legacy; `reader-analytics` primary.  
+8. **PADE** — `google-analytics.read` deprecated in `pade.yaml`.  
+9. **Tests & docs** — updated.  
+10. **Production verification** — 2026-11-14 ~9:16 PM America/Denver: **0** GA network requests; cookie banner absent; `reading_path_started` + `site_search` insights events observed (`manual/nov2026-evaluation/gate4-prod/`).  
+11. **Rollback** — `git revert` of #772 / restore prior release.
 
 ---
 
@@ -251,7 +251,7 @@ Post-deploy: client POSTs observed; PADE `site_search` **count 2 / visitors 1** 
 | Approval date | 2026-11-14 (America/Denver) |
 | Decision | ☑ **approve PR 4 (retire GA4)** |
 
-Owner chat approval recorded 2026-11-14 ~8:49 PM America/Denver. PR 4 may proceed.
+Owner chat approval recorded 2026-11-14 ~8:49 PM America/Denver. PR 4 (#772) merged and production-verified the same evening.
 
 ---
 
@@ -323,3 +323,4 @@ For each loss: currently used lightly or not for product decisions; Vercel/GSC a
 | 2026-11-14 | Review follow-up: reconcile exclusive-end packs; API+code path-start probe; clarify on-site search ≠ GSC; recommend **corrective_pr_required**; approval still pending |
 | 2026-11-14 | Post-#770: production Playwright + PADE verify `reading_path_started` + `site_search`; restore **retire_ga4**; approval still pending |
 | 2026-11-14 | Owner **approved** PR 4 (retire GA4); Gate 4 implementation started |
+| 2026-11-14 | Gate 4 #772 merged; production smoke passed (no GA; Vercel events present) |
