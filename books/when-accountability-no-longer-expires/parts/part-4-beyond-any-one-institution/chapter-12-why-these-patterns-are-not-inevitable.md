@@ -2,162 +2,42 @@
 
 ## **Why These Patterns Are Not Inevitable**
 
-There are moments when legitimacy actually expires.
+Imagine a community association whose board has managed a shared building for many years. It negotiates repairs, pays staff, and keeps the doors open. Most members have no desire to take over those responsibilities. Even those who disagree with the board appreciate that somebody has kept the place functioning.
 
-They are not clean.
+Then a pattern of complaints becomes impossible to treat as isolated. Members have repeatedly been excluded from decisions about access to the building. Meetings have produced assurances and revised procedures, but the same people still decide which complaints deserve a hearing.
 
-A movement fractures.\
-Leadership dissolves.\
-Allies turn away.
+An election approaches. The board can point to years of work and real improvements. Members who want different leadership must persuade their neighbors to risk losing experience, relationships with contractors, and a way of settling everyday disputes. If the challengers win, they inherit those obligations. If they lose, people who raised the complaints will have to decide whether to keep participating.
 
-People argue not about tactics, but about whether authority itself still
-deserves to continue.
+This is a hypothetical example, not a model for every institution. But it puts a difficulty within reach: the point at which continuing to recognize authority becomes an actual choice rather than an assumed duty.
 
-Some leave.\
-Some stay.\
-Nothing feels stable.
+### **Recognition can be withdrawn**
 
-The cost is real.
+Legitimacy is maintained through more than rules. People comply, take part, offer deference, and rely on the decisions of others. Sometimes they do so enthusiastically. Sometimes they continue because the alternatives look worse.
 
-### **When legitimacy fails to carry forward**
+For an elected association board, authority has a defined opportunity to be renewed or withdrawn. Other institutions use different arrangements; some have no comparable moment at all. The question is not whether every institution should have an election. It is whether the people subject to authority can ever make its continuation genuinely conditional.
 
-Legitimacy usually persists because it is reenacted.
+Even when a process exists, it may do little. Members might have a ballot but no access to information, or no realistic way to put another candidate forward. The board may accept votes on who holds office while retaining sole control of what its members are allowed to question. An expiration date written into a rule is not necessarily an expiration of legitimacy in practice.
 
-People comply.\
-They defer.\
-They continue to participate.
+Conversely, a governing body may remain in place after a serious challenge and still become more answerable. Its continuation does not prove that the challenge failed. What matters is whether recognition could have been meaningfully withheld and whether the terms of authority were open to examination.
 
-When that reenactment stops, authority weakens quickly.
+### **What interruption costs**
 
-This does not require violence or collapse. It requires withdrawal of
-recognition.
+The appeal of continuity should not be dismissed. A fractured community may lose the people who know how its building operates. Members who hoped for change may find that a replacement board has fewer resources than the old one. Decisions delayed during conflict can harm people who never wanted the conflict at all.
 
-A leader is no longer followed.\
-A court is no longer trusted.\
-A movement no longer speaks with one voice.
+These costs explain why people sometimes choose endurance despite knowing that harm persists. That choice may be rational. It may also be unequally distributed: those who benefit most from stability may not be the ones carrying the consequences of the arrangement being preserved.
 
-The system loses coherence.
+Renewal does not promise cleansing or moral clarity. It exposes the community to uncertainty that a familiar authority had previously absorbed. Refusing to reopen legitimacy can be a way to protect something valuable; it can also become a way to avoid asking who pays to keep it valuable.
 
-That loss is not accidental.\
-It is chosen.
+### **Agency without a heroic ending**
 
-### **Why this is rare**
+To say that non-expiring legitimacy is not inevitable is to make a limited claim. Authority persists partly because people continue to recognize it. Under some conditions, that recognition can change. Not every rupture improves what follows, and not every choice to stay is capitulation.
 
-Expiration of legitimacy is disruptive.
+Arendt's account of action is useful here because it resists treating the future as a mechanical extension of what has already happened.[^c12-arendt-freedom] The capacity to interrupt a pattern does not remove the risk of doing so. No institution can promise its participants both complete continuity and a genuinely open question about whether it should continue unchanged.
 
-It creates uncertainty.\
-It fractures identity.\
-It forces people to choose without guidance.
+In the association, an election will settle who has the authority to manage the building for now. It will not settle every complaint, nor will it tell each member what loyalty requires. Some may leave even after a new board is chosen. Others may stay under leaders they did not support, because the building and the people who depend on it still matter.
 
-Most people prefer endurance to rupture.
+There is no lesson here that everyone should withdraw recognition, or that institutions become just when their leaders depart. The narrower point is that continuity has a price and a source: people keep granting it, often for understandable reasons.
 
-They tolerate harm because they fear the alternative more.
-
-This preference is not cowardice.
-
-It is risk assessment.
-
-### **The cost of renewal**
-
-Renewal is often imagined as cleansing or liberating.
-
-In practice, it is destabilizing.
-
-It can mean:
-
-- Loss of shared meaning
-
-- Fragmentation of community
-
-- Exposure to greater harm
-
-- Absence of authority when it is still needed
-
-Those costs are not hypothetical. They are experienced immediately.
-
-This is why renewal is rare.
-
-It is not avoided because it is unimaginable.
-
-It is avoided because it is expensive.
-
-### **Agency without heroism**
-
-Saying these patterns are not inevitable does not mean renewal is easy
-or obviously right.
-
-It means only this:
-
-> Legitimacy persists because people continue to grant it.
-
-That granting can stop.
-
-When it does, the result is not moral clarity.\
-It is moral uncertainty.
-
-Agency exists.\
-So does fear.
-
-Both are real.
-
-### **Why Arendt matters here**
-
-Hannah Arendt rejected the idea that historical patterns unfold
-automatically.
-
-She argued that human action always retains the capacity to
-interrupt—even when that interruption is dangerous.[^c12-arendt-freedom]
-
-But she did not romanticize that capacity.
-
-She understood that acting without guarantees is frightening.
-
-Non-fatalism does not promise safety.\
-It promises responsibility.
-
-### **Renewal versus continuity**
-
-This chapter does not argue that legitimacy should always expire.
-
-Some institutions should endure.\
-Some authority is necessary.
-
-The question is not whether continuity is bad.
-
-The question is whether continuity is **chosen** or merely **assumed**.
-
-When legitimacy never risks expiration, renewal becomes impossible by
-definition.
-
-### **What this chapter establishes**
-
-This chapter establishes a narrow but crucial point:
-
-> Learning without resolution is stable, not inevitable.
-
-It persists because it is safer than renewal.
-
-When legitimacy is allowed to expire, systems change—but not without
-cost.
-
-Understanding that cost clarifies why endurance is so attractive, even
-when harm remains unresolved.
-
-### **Where this leads**
-
-The book now turns toward its conclusion.
-
-Not to prescribe action.\
-Not to demand rupture.
-
-But to ask a final question:
-
-What would it actually mean for legitimacy to expire?
-
-And why might we decide—rationally—not to try?
-
-
+This brings us to the book's final question. Not whether authority should always end when it harms, but what it would mean for those who bear its consequences to have a real part in deciding when continuation is no longer justified.
 
 [^c12-arendt-freedom]: Hannah Arendt, *Between Past and Future* (New York: Penguin, 2006), esp. "The Concept of History: Ancient and Modern" and "What Is Freedom?"
-
-## **Conclusion — What It Would Mean for Legitimacy to Expire**

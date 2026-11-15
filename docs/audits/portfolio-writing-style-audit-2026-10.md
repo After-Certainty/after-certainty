@@ -1,6 +1,7 @@
 # Portfolio writing-style audit — October 2026
 
 **Status:** Editorial working backlog, not an authorization to rewrite or republish.
+**Progress:** [Pilot A merged (#732)](https://github.com/After-Certainty/after-certainty/pull/732); [Pilot B open for author review (#733)](https://github.com/After-Certainty/after-certainty/pull/733). Do not apply either style wholesale before reviewing its effect on the reader.
 **Snapshot:** Sampled from the current main-branch manuscripts on 2026-10-24.
 **Scope:** All 35 book directories under [books/](../../books/), including both canonical editions of *When Others Look to You* (36 reading units). Fiction, poetry, introductory essays, and longer nonfiction are judged against different standards.
 **Next action:** Author selects a pilot revision; review before editing any other chapters.
@@ -151,7 +152,8 @@ The audit document itself is deliberately **documentation-only**. The next PRs s
 
 | Date | Book / chapter | Experiment and PR | Decision | What a reader gained or lost |
 |---|---|---|---|---|
-| — | — | — | Not started | — |
+| 2026-10-24 | *When Moral Seriousness Scales* Ch 1 + 6 | [Pilot A — PR #732](https://github.com/After-Certainty/after-certainty/pull/732) | **Merged**; reader impact not independently measured | Concrete human-scale and regional choices added; preservation of philosophical cadence and additional chapter length remain worth monitoring. |
+| 2026-10-24 | *When Accountability No Longer Expires* Ch 1 + 6 + 12 | [Pilot B — PR #733](https://github.com/After-Certainty/after-certainty/pull/733) | **In review**; author decision pending | Tests inspectable authority and correction mechanisms, less hard-break rhythm, and explicit illustration provenance; potential cost is length growth. |
 
 ### Editorial guardrails
 

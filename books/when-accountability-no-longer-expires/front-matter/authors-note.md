@@ -27,7 +27,9 @@ It asks only that we look carefully at what stability can conceal, what
 harm can be made survivable, and what we trade away when continuity
 becomes the highest good.
 
-\
--
-
-## **Preface — Why This Book Exists**
+The courtroom opening in Chapter 1, the assistance-fund example in
+Chapter 6, and the community-association example in Chapter 12 are
+constructed illustrations, not accounts of identified historical events.
+They are included to clarify institutional choices and consequences.
+The research cited in those chapters informs the analysis; it is not
+evidence that the illustrative events took place.
