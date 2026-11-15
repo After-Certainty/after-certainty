@@ -1,0 +1,22 @@
+{
+  "gate": 4,
+  "pr": 772,
+  "production_commit": "deb5ed5adc6de1f7c3a942faf614442ea661771f",
+  "production_deployment": "dpl_EoAYz9ciaXegUY7Hk8qkKHukjtqr",
+  "verified_at_utc": "2026-11-15T04:16:20Z",
+  "verified_at_america_denver": "2026-11-14 9:16 PM America/Denver",
+  "vercel_project_env": {
+    "NEXT_PUBLIC_GA_keys_present": false,
+    "note": "filter_project_envs showed no NEXT_PUBLIC_GA_* keys"
+  },
+  "smoke": {
+    "ga_request_count": 0,
+    "cookie_banner_absent": true,
+    "privacy_h1": "Privacy & analytics",
+    "vercel_events_observed": [
+      "reading_path_started",
+      "site_search"
+    ]
+  },
+  "conclusion": "Gate 4 production verification passed: no GA network; Vercel reader + search events present."
+}

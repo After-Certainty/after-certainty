@@ -1,8 +1,8 @@
 # Vercel reader analytics migration
 
-**Status:** Specialized plan — Gate 3 **approved** (`retire_ga4`); Gate 4 / PR 4 implementing; PR 0–2 + corrective #770 merged  
+**Status:** Specialized plan — Gate 4 **complete** (#772); GA4 retired; Vercel Web Analytics primary; PR 0–2 + corrective #770 merged  
 **Created:** 2026-10-17  
-**Revised:** 2026-11-14 (corrective instrumentation for mount-time Vercel queue + on-site search — PR 4 still blocked)  
+**Revised:** 2026-11-14 (Gate 4 complete — GA4 retired; Vercel primary)  
 **Location:** `docs/roadmaps/vercel-reader-analytics-migration.md`  
 **Authority:** Specialized cross-layer plan. Does **not** replace [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Unfinished follow-ups after each PR merge belong on the master roadmap Observe / Now sections, not as a second backlog.
 
@@ -513,13 +513,11 @@ Only after Gate 3 approval. Remove GA runtime completely; update privacy, CSP, e
 
 ## 15. Immediate next step
 
-Gate 3 **approved** 2026-11-14 (America/Denver) — implement **PR 4** (`chore/retire-ga4` / `cursor/retire-ga4-b610`):
+Gate 4 **complete** (#772, production verified 2026-11-14 ~9:16 PM America/Denver):
 
-1. Remove GA4 runtime, Consent Mode, cookie Accept/Reject banner; keep Vercel Web Analytics + Speed Insights.  
-2. Rewrite `/privacy` + CSP (drop GA hosts).  
-3. Mark `ga-trends` / `google-analytics.read` legacy; `reader-analytics` primary.  
-4. Production verify: no GA network requests; reader + `site_search` + path-start events present.  
-5. Document rollback via git restore of the retire PR.
+1. Optional cleanup: delete unused no-op `trackEvent` call sites; archive `ga4-*.sh` / `ga-trends` when unused.  
+2. Keep `reader-analytics` + PADE `vercel.analytics.read` as the primary reporting path.  
+3. Rollback remains: revert #772 / redeploy prior release if needed.
 
 ---
 
@@ -536,3 +534,4 @@ Gate 3 **approved** 2026-11-14 (America/Denver) — implement **PR 4** (`chore/r
 | 2026-11-14 | Review follow-up: exclusive-end pack reconcile; recommend corrective_pr_required (path-start + on-site search); PR 4 still blocked |
 | 2026-11-14 | Corrective #770 verified in production; Gate 3 restores retire_ga4; PR 4 still blocked on owner approval |
 | 2026-11-14 | Owner approved retire_ga4; Gate 4 / PR 4 started |
+| 2026-11-14 | Gate 4 #772 merged + production verified (no GA network; Vercel events OK) |
