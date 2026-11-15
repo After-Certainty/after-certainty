@@ -59,7 +59,7 @@ After ~four weeks of dual-write production observation (PR 1 merged **2026-10-17
 | Artifact | Contents |
 |----------|----------|
 | [`comparison-summary.json`](../../reports/vercel-reader-analytics-parity/comparison-summary.json) | Regenerable **current-7** Vercel↔GA4 pack (`make reader-analytics-parity`, generated 2026-11-15) |
-| [`manual/nov2026-evaluation/`](../../reports/vercel-reader-analytics-parity/manual/nov2026-evaluation/) | Full window + current/prior Vercel packs, GA4 full-window reports, brief, billing probe, findings rollup |
+| [`manual/nov2026-evaluation/`](../../reports/vercel-reader-analytics-parity/manual/nov2026-evaluation/) | Full window + current/prior-week Vercel packs, GA4 full-window reports, brief, billing probe, findings rollup |
 | [`manual/`](../../reports/vercel-reader-analytics-parity/manual/) (October files) | Owner smoke + original billing snapshot — **preserved** |
 | Google Search Console | **Not queried via PADE** (no in-repo capability). Assessed as retained discovery tooling for queries/rankings only |
 
