@@ -215,7 +215,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: jdx/mise-action@b44d12e7d0d8ee7461bb893e1b1993500433185b # v5.2.7
+      - uses: jdx/mise-action@90f833d396d0cc3674b631d2d225e306476c303a # v5.2.10
         with:
           install_args: "python uv"
 
@@ -263,7 +263,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: jdx/mise-action@b44d12e7d0d8ee7461bb893e1b1993500433185b # v5.2.7
+      - uses: jdx/mise-action@90f833d396d0cc3674b631d2d225e306476c303a # v5.2.10
         with:
           install_args: "python uv"
 
@@ -391,7 +391,7 @@ jobs:
           CHAPTER_AUDIO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: vercel build --prod --token="${VERCEL_TOKEN}"
 
-      - uses: jdx/mise-action@b44d12e7d0d8ee7461bb893e1b1993500433185b # v5.2.7
+      - uses: jdx/mise-action@90f833d396d0cc3674b631d2d225e306476c303a # v5.2.10
         if: steps.vercel_path.outputs.use_vercel != 'true'
         with:
           install_args: "python uv"
